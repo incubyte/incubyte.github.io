@@ -1,0 +1,52 @@
+#################### default parameters ################################
+logo = "images/logo.png"
+logo_width = "200px"
+favicon = "images/favicon.png"
+
+# OpenGraph / Twitter Card metadata
+description = "Incubyte Blog"
+author = "Incubyte"
+image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+
+# Preloader
+[preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation buttons
+[navigation_button]
+enable = false
+label = "Contact Us"
+link = "https://incubyte.co/#Get-in-touch"
+
+
+# cookies
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+############################# social site ########################
+[[social]]
+title = "facebook"
+icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
+link = "https://www.facebook.com/Incubyte_co"
+
+[[social]]
+title = "twitter"
+icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
+link = "https://twitter.com/Incubyte_co"
+
+[[social]]
+title = "linkedin"
+icon = "fab fa-linkedin" # themify icon : https://themify.me/themify-icons
+link = "https://www.linkedin.com/company/incubyte"
+
+[[social]]
+title = "rss"
+icon = "fas fa-rss" # themify icon : https://themify.me/themify-icons
+link = "https://feedly.com/i/subscription/feed/https://blog.incubyte.co/rss/"
+

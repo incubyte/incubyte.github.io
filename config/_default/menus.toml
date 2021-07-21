@@ -1,0 +1,50 @@
+# main menu
+[[main]]
+name = "Home"
+url = "https://incubyte.co/"
+weight = 1
+
+[[main]]
+name = "Careers"
+url = "https://incubyte.co/careers"
+weight = 2
+
+[[main]]
+name = "Events"
+url = "https://www.incubyte.co/events"
+weight = 3
+
+[[main]]
+name = "Inspiration!"
+url = "https://incubyte.co/inspiration"
+weight = 4
+
+[[main]]
+name = "Contact Us"
+url = "https://incubyte.co/#Get-in-touch"
+weight = 5
+
+# footer menu left
+[[footer_left]]
+name = "Careers"
+url = "https://www.incubyte.co/careers"
+
+[[footer_left]]
+name = "Why Incubyte"
+url = "https://incubyte.co/why-incubyte"
+
+
+# footer menu middle
+[[footer_middle]]
+name = "Design And Develop"
+url = "https://www.incubyte.co/design-and-deveop"
+
+[[footer_middle]]
+name = "Enhance and Modernize"
+url = "https://www.incubyte.co/enhance-and-modernize"
+
+
+# footer menu right
+[[footer_right]]
+name = "Get In Touch"
+url = "https://www.incubyte.co/events"

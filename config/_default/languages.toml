@@ -1,0 +1,14 @@
+############################# English ############################
+[en]
+languageName = "En"
+title = "Incubyte Blog"
+contentDir = "content/"
+weight = 1
+
+########### footer content ##########
+footer_menu_left = "Company"
+footer_menu_middle = "Our Work"
+footer_menu_right = "Contact"
+footer_content = "Crafting Software Products For Today and Tomorrow."
+# copyright
+copyright = "Designed By [Incubyte](https://incubyte.co/)"
