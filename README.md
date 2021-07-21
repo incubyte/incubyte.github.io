@@ -1,2 +1,4 @@
 # incubyteco.github.io
-Our blog! ✍🏼
+
+
+[Our blog! ✍🏼](https://incubyteco.github.io)
