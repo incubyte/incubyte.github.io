@@ -31,22 +31,22 @@ button = "I Accept"
 
 ############################# social site ########################
 [[social]]
-title = "facebook"
-icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
-link = "https://www.facebook.com/Incubyte_co"
-
-[[social]]
-title = "twitter"
-icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
-link = "https://twitter.com/Incubyte_co"
-
-[[social]]
-title = "linkedin"
+title = "LinkedIn"
 icon = "fab fa-linkedin" # themify icon : https://themify.me/themify-icons
 link = "https://www.linkedin.com/company/incubyte"
 
 [[social]]
-title = "rss"
+title = "Twitter"
+icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
+link = "https://twitter.com/Incubyte_co"
+
+[[social]]
+title = "GitHub"
+icon = "fab fa-github" # themify icon : https://themify.me/themify-icons
+link = "https://www.github.com/incubyteco"
+
+[[social]]
+title = "RSS Feed"
 icon = "fas fa-rss" # themify icon : https://themify.me/themify-icons
 link = "https://feedly.com/i/subscription/feed/https://blog.incubyte.co/rss/"
 
