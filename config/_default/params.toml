@@ -17,7 +17,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation buttons
 [navigation_button]
-enable = false
+enable = true
 label = "Contact Us"
 link = "https://incubyte.co/#Get-in-touch"
 

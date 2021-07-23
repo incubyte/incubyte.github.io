@@ -15,7 +15,6 @@ googleAnalytics = "" # example : UA-123-45
 unsafe = true
 
 [params.variables]
-
 primary_color = "#5cc5d5"
 text_color = "#777"
 text_color_dark = "#222"

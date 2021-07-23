@@ -19,11 +19,6 @@ name = "Inspiration!"
 url = "https://incubyte.co/inspiration"
 weight = 4
 
-[[main]]
-name = "Contact Us"
-url = "https://incubyte.co/#Get-in-touch"
-weight = 5
-
 # footer menu left
 [[footer_left]]
 name = "Careers"
