@@ -1,0 +1,47 @@
+.navigation {
+    background-color: white;
+}
+.career-cta {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #e6e6e9;
+
+}
+.w-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+
+}
+.container-2-0 {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+.text-block-70 {
+    color: #0e3252;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+.button-11 {
+    margin-left: 40px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #5cc5d5;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.w-button {
+    display: inline-block;
+    padding: 9px 15px;
+    background-color: #3898EC;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+}

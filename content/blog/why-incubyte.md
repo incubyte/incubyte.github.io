@@ -8,7 +8,7 @@ image = "/images/2020/10/swapnil-dwivedi-w46tRF64qNc-unsplash.jpg"
 slug = "why-incubyte"
 tags = ["Playbook", "Software Craftsmanship"]
 title = "Why Incubyte?"
-
+type = "featured"
 +++
 
 

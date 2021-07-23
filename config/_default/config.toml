@@ -3,7 +3,7 @@ baseURL = "https://incubyteco.github.io/"
 title = "Incubyte Blog"
 theme = "bigspring"
 # post pagination
-paginate = "3"
+paginate = "12"
 # post excerpt
 summaryLength = "15"
 # disqus short name
@@ -13,3 +13,14 @@ googleAnalytics = "" # example : UA-123-45
 # unsafe html
 [markup.goldmark.renderer]
 unsafe = true
+
+[params.variables]
+
+primary_color = "#5cc5d5"
+text_color = "#777"
+text_color_dark = "#222"
+body_color = "#fff"
+border_color = "#ECECEC"
+black = "#000"
+white = "#fff"
+light = "#e6e6e9"
