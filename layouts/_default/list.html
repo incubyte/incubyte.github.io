@@ -18,7 +18,7 @@
                     <div class="col-md-6">
                         <h2><a href="{{ .Permalink }}" title="{{ .Title }}" class="post-title">{{ .Title }}</a></h2>
                         {{ range .Params.tags }}
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
+                        <span class="mb-1 badge rounded-pill bg-dark"> <a class="text-white" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
                         {{ end }}
                         <p class="card-text">{{ .Summary }}</p>
                         <a href="{{.Permalink}}" title="{{ i18n " readmore" }} - {{ .Title }}" class="btn
@@ -32,7 +32,7 @@
             <div class="col-lg-4 col-sm-6 mb-5">
                 <div class="card border-0">
                     <a href="{{.Permalink}}">
-                    <img src="{{ .Params.image |relURL }}" alt="{{ .Title }}" class="card-img rounded-lg mb-4">
+                    <img src="{{ .Params.image |relURL }}" alt="{{ .Title }}" class="mb-1 card-img rounded-lg mb-4">
                     </a>
                     <div class="card-body p-0">
                         <h3><a href="{{ .Permalink }}" title="{{ .Title }}" class="post-title">{{ .Title }}</a></h3>
