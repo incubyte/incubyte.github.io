@@ -9,6 +9,9 @@
       <div class="col-lg-8 mx-auto">
         <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4">
         <h2 class="mb-4">{{ .Title }}</h2>
+        {{ range .Params.tags }}
+          <span class="mb-3 badge rounded-pill bg-dark"> <a class="text-white" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
+        {{ end }}
         <div class="content">{{.Content}}</div>
         <p class="blockquote-footer text-right">By <a href={{.Params.autorLink}}> {{ .Params.author }} </a> on {{ .Date.Format "Monday, January 2, 2006"}}</p>
 
