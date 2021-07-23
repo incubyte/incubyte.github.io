@@ -4,20 +4,27 @@ name = "Home"
 url = "https://incubyte.co/"
 weight = 1
 
+
+[[main]]
+name = "Articles"
+url = "/"
+weight = 2
+
+
 [[main]]
 name = "Careers"
 url = "https://incubyte.co/careers"
-weight = 2
+weight = 3
 
 [[main]]
 name = "Events"
 url = "https://www.incubyte.co/events"
-weight = 3
+weight = 4
 
 [[main]]
 name = "Inspiration!"
 url = "https://incubyte.co/inspiration"
-weight = 4
+weight = 5
 
 # footer menu left
 [[footer_left]]
