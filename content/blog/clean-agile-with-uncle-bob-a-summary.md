@@ -1,7 +1,7 @@
 +++
 author = "Heman Mehta"
 categories = ["Software Craftsmanship"]
-date = 0001-01-01T00:00:00Z
+date = 2021-06-01T00:00:00Z
 description = ""
 draft = false
 image = "/images/2021/06/Picture1-clean-agile-1.jpg"
@@ -69,5 +69,5 @@ To summarize everything, I learned in the session is not feasible, but one thing
 3. Agile development also helps identify your own core beliefs and modus operandi. Are you stuck with policies and practices once decided or are you adaptable to change? It enables us to improve our decision-making process and take better, more targeted measures.
 4. In Uncle Bob’s words, “Agile is a Marathon, not a sprint!” It is necessary to move at a sustainable pace to maintain the momentum and make progress towards the goal.
 
-  
+
 

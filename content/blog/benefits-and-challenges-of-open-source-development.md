@@ -1,7 +1,7 @@
 +++
 author = "Incubyte"
 categories = ["Open Source"]
-date = 0001-01-01T00:00:00Z
+date = 2021-05-01T00:00:00Z
 description = ""
 draft = false
 image = "/images/2021/05/1.oss-1.jpg"
@@ -19,7 +19,7 @@ For those who are new to OSS, it is source code that is: Publicly accessible
 * Available to use, customize, manipulate, or examine
 * Open for collaboration and redistribution
 * Either free or paid
-* Issued under a license granted by the copyright holder 
+* Issued under a license granted by the copyright holder
 
 **Benefits of Open Source for Developers, Teams and Companies********Integrated Growth******
 
@@ -55,7 +55,7 @@ Stay tuned for our next blog for a more detailed guide to making your first open
 
 {{< figure src="/images/2021/05/Screenshot-2021-05-13-at-7.52.57-AM.png" >}}
 
-You can additionally learn more about the different licenses available here: [https://choosealicense.com/licenses](https://choosealicense.com/licenses/ ) 
+You can additionally learn more about the different licenses available here: [https://choosealicense.com/licenses](https://choosealicense.com/licenses/ )
 
 ### Contributing to OSS & Source Community
 
@@ -67,5 +67,5 @@ A few that might help one be a better software developer:
 
 [Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com) [Outreachy](https://www.outreachy.org)  [Hacktober Fest by Digital Ocean](https://hacktoberfest.digitalocean.com) [Linux Kernel Mentorship Program](https://www.linuxfoundation.org/en/about/diversity-inclusivity/mentorship/)
 
-Participating in these helps learn and hone our skills with version control, software coding standards like clean coding, TDD, peer code reviews, source collaboration, continuous integration & continuous deployment (CI/CD), prioritizing features & bugs (project management) and more!   We encourage students, software engineers and professionals alike to participate in these events and are always on the lookout for more such events/activities that can help our colleagues grow, learn and add experience on a global scale.   Have thoughts on how this culture can be promoted/shared by all? Would love to know your thoughts, reach out to me at [arohi@incubyte.co](/benefits-and-challenges-of-open-source-development-4/arohi@incubyte.co)! 
+Participating in these helps learn and hone our skills with version control, software coding standards like clean coding, TDD, peer code reviews, source collaboration, continuous integration & continuous deployment (CI/CD), prioritizing features & bugs (project management) and more!   We encourage students, software engineers and professionals alike to participate in these events and are always on the lookout for more such events/activities that can help our colleagues grow, learn and add experience on a global scale.   Have thoughts on how this culture can be promoted/shared by all? Would love to know your thoughts, reach out to me at [arohi@incubyte.co](/benefits-and-challenges-of-open-source-development-4/arohi@incubyte.co)!
 

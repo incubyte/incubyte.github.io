@@ -1,7 +1,7 @@
 +++
 author = "Karishma Shah"
 categories = ["Careers", "Jobs", "Playbook", "Getting Started"]
-date = 0001-01-01T00:00:00Z
+date = 2020-11-01T00:00:00Z
 description = ""
 draft = false
 image = "/images/2021/05/1_Coverpage.jpg"

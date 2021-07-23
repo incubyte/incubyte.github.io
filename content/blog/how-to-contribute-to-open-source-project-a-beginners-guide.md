@@ -1,7 +1,7 @@
 +++
 author = "Utsav Parmar"
 categories = ["Open Source"]
-date = 0001-01-01T00:00:00Z
+date = 2021-06-01T00:00:00Z
 description = ""
 draft = false
 image = "/images/2021/06/1_Making-your-first-oss-project.png"
@@ -42,7 +42,7 @@ Before finalizing an issue, go through the comments and make sure it is a legit 
 4. [First Timers Only](https://www.firsttimersonly.com/)
 5. [Your First PR](http://yourfirstpr.github.io/)
 6. [CodeTriage](https://www.codetriage.com/)
-7. [Open Source Friday](https://opensourcefriday.com/) 
+7. [Open Source Friday](https://opensourcefriday.com/)
 
 **Step 3: Setting Up the Environment**
 

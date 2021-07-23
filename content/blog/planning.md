@@ -1,7 +1,7 @@
 +++
 author = "Arohi Parikh"
 categories = ["Playbook"]
-date = 0001-01-01T00:00:00Z
+date = 2020-08-01T00:00:00Z
 description = ""
 draft = false
 image = "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"

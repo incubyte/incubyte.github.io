@@ -1,7 +1,7 @@
 +++
 author = "Rupali Pardeshi"
 categories = ["Security"]
-date = 0001-01-01T00:00:00Z
+date = 2020-09-01T00:00:00Z
 description = ""
 draft = false
 image = "/images/2020/09/computer_security_blog_v01.jpg"

@@ -1,7 +1,7 @@
 +++
 author = "Incubyte"
 categories = ["97 Things !to do"]
-date = 0001-01-01T00:00:00Z
+date = 2020-08-28T00:00:00Z
 description = ""
 draft = false
 image = "/images/2020/08/depositphotos_14942465-stock-photo-copy-paste-keyboard.jpg"

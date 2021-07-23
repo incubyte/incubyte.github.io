@@ -1,7 +1,7 @@
 +++
 author = "Arohi Parikh"
 categories = ["Playbook"]
-date = 0001-01-01T00:00:00Z
+date = 2020-08-01T00:00:00Z
 description = ""
 draft = false
 image = "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
@@ -16,7 +16,7 @@ title = "Feedback & Rapid Prototyping"
 
 Our teams strive to generate as much feedback as we can handle, as quickly as possible. We try to shorten the feedback cycle to minutes or hours, instead of weeks or months. The sooner we know, the sooner we can adapt our course to the one that provides the most value to our clients. Feedback comes to us in many flavors. It can be internal feedback on our code while pair programming, feedback from the client during an iteration demo or inputs from an end-user through a user interview. These are all intrinsic and invaluable to our process.
 
-**How we do it?** 
+**How we do it?**
 
 To build a new product, new feature, or new solution, we start with an intensive prototyping phase. Here we make assumptions, we present mockups, we validate or invalidate our understanding and we iterate quickly to arrive at optimal solutions. This way, as a team, we have a clear indicator of whether we're moving in the right or wrong direction before we write a single line of code.
 

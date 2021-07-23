@@ -1,7 +1,7 @@
 +++
 author = "Rushali Parikh"
 categories = ["Playbook", "Software Craftsmanship"]
-date = 0001-01-01T00:00:00Z
+date = 2020-10-01T00:00:00Z
 description = ""
 draft = false
 image = "/images/2020/10/swapnil-dwivedi-w46tRF64qNc-unsplash.jpg"

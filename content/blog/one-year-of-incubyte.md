@@ -1,7 +1,7 @@
 +++
 author = "Arohi Parikh"
 categories = ["Playbook"]
-date = 0001-01-01T00:00:00Z
+date = 2021-07-01T00:00:00Z
 description = ""
 draft = false
 image = "/images/2021/07/1-year-blog-01.jpg"

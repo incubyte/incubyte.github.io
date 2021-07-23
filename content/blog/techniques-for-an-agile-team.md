@@ -1,7 +1,7 @@
 +++
 author = "Rupali Pardeshi"
 categories = ["Playbook", "Software Craftsmanship", "Getting Started"]
-date = 0001-01-01T00:00:00Z
+date = 2021-01-01T00:00:00Z
 description = ""
 draft = false
 image = "/images/2021/01/Agile-Scrum-Methodology-13-Best-Practices-For-Agile-Teams.jpg"

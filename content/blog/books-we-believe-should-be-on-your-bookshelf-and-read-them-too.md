@@ -1,7 +1,7 @@
 +++
 author = "Incubyte"
 categories = ["Careers", "Software Craftsmanship"]
-date = 0001-01-01T00:00:00Z
+date = 2021-06-01T00:00:00Z
 description = ""
 draft = false
 image = "/images/2021/06/Picture1.jpg"
@@ -12,7 +12,7 @@ title = "12 Books Developers Must Read"
 +++
 
 
-### 
+###
 
 Books are a massive source of knowledge. Before we list all the books here, we want to discuss why we think it's essential for programmers to read them.
 
