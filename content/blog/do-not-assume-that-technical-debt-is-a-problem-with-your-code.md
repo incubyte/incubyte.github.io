@@ -1,12 +1,13 @@
 +++
 author = "Incubyte"
 categories = ["97 Things !to do", "Software Craftsmanship"]
-date = 0001-01-01T00:00:00Z
+date = 2021-04-14T00:00:00Z
 description = ""
 draft = false
 slug = "do-not-assume-that-technical-debt-is-a-problem-with-your-code"
 tags = ["97 Things !to do", "Software Craftsmanship"]
 title = "Do not assume that technical debt is a problem with your code"
+image = "/images/2021/04/technical-debt.jpg"
 
 +++
 

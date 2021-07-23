@@ -1,12 +1,13 @@
 +++
 author = "Incubyte"
 categories = ["97 Things !to do"]
-date = 0001-01-01T00:00:00Z
+date = 2020-09-24T00:00:00Z
 description = ""
 draft = false
 slug = "release-code-without-automated-tests"
 tags = ["97 Things !to do"]
 title = "!Release code without automated tests"
+image = "/images/2020/09/automated-tests.jpg"
 
 +++
 
