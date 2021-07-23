@@ -3,7 +3,7 @@
 {{ partial "page-header.html" . }}
 
 <!-- checking blog -->
-{{ if or (or (eq .Section "post") (eq .Section "blog")) (or (eq .Section "categories") (eq .Section "tags") )}}
+{{ if or (or (eq .Section "post") (eq .Section "blog")) }}
 
 <section class="section">
   <div class="container">
@@ -43,6 +43,30 @@
 </section>
 
 <!-- regular page -->
+{{ else if or (or (eq .Section "tags") (eq .Section "categories")) }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {{ $paginator := .Paginate .Data.Pages }}
+      {{ range $paginator.Pages }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <div class="card border-0">
+          <div class="card-body p-0">
+            <h3><a href="{{ .Permalink }}" title="{{ .Title }}" class="post-title">{{ .Title }}</a></h3>
+            <p class="card-text">{{ .Summary }}</p>
+            <a href="{{.Permalink}}" title="{{ i18n "readmore" }} - {{ .Title }}" class="btn btn-primary btn-sm">{{ i18n "readmore" }}</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      <div class="col-12">
+        {{ template "_internal/pagination.html" . }}
+      </div>
+    </div>
+  </div>
+</section>
+
 {{ else }}
 <section class="section">
   <div class="container">
