@@ -9,7 +9,7 @@
         <div class="row">
             {{ range first 1 (where .Data.Pages "Type" "featured") }}
             <div class="col-12 mb-5 pb-5">
-                <div class="row align-items-center">
+                <article class="row align-items-center">
                     <div class="col-md-6 mb-4 mb-md-0">
                         <a href="{{.Permalink}}">
                         <img src="{{ .Params.image | relURL }}" alt="{{.Title}}" class="img-fluid rounded-lg w-100">
@@ -24,13 +24,13 @@
                         <a href="{{.Permalink}}" title="{{ i18n " readmore" }} - {{ .Title }}" class="btn
                         btn-primary">{{ i18n "readmore" }}</a>
                     </div>
-                </div>
+                </article>
             </div>
             {{ end }}
             {{ $paginator := .Paginate .Data.Pages }}
             {{ range $paginator.Pages }}
             <div class="col-lg-4 col-sm-6 mb-5">
-                <div class="card border-0">
+                <article class="card border-0">
                     <a href="{{.Permalink}}">
                     <img src="{{ .Params.image |relURL }}" alt="{{ .Title }}" class="mb-1 card-img rounded-lg mb-4">
                     </a>
@@ -40,11 +40,9 @@
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
                         {{ end }}
                         <p class="card-text">{{ .Summary }}
-<!--                            <br/> <a href="{{.Permalink}}" title="{{ i18n " readmore" }} - {{ .Title }}" class="text-secondary">{{ i18n "readmore" }}</a>-->
                         </p>
-
                     </div>
-                </div>
+                </article>
             </div>
             {{ end }}
             <div class="col-12">
