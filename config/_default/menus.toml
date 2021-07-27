@@ -4,7 +4,6 @@ name = "Home"
 url = "https://incubyte.co/"
 weight = 1
 
-
 [[main]]
 name = "Articles"
 url = "/"
@@ -12,19 +11,55 @@ weight = 2
 
 
 [[main]]
-name = "Careers"
-url = "https://incubyte.co/careers"
+name = "About"
 weight = 3
+
+[[main]]
+name = "Why Incubyte"
+url = "https://incubyte.co/why-incubyte"
+parent = "About"
+weight = 1
 
 [[main]]
 name = "Events"
 url = "https://www.incubyte.co/events"
-weight = 4
+parent = "About"
+weight = 2
 
 [[main]]
 name = "Inspiration!"
 url = "https://incubyte.co/inspiration"
+weight = 3
+parent = "About"
+
+[[main]]
+name = "Work"
+weight = 4
+
+[[main]]
+name = "Software Development"
+url = "https://incubyte.co/design-and-develop"
+parent = "Work"
+weight = 1
+
+[[main]]
+name = "Software Modernization"
+url = "https://www.incubyte.co/enhance-and-modernize"
+parent = "Work"
+weight = 2
+
+[[main]]
+name = "Software Quality Assessment"
+url = "https://www.incubyte.co/enhance-and-modernize"
+parent = "Work"
+weight = 3
+
+
+[[main]]
+name = "Careers"
+url = "https://incubyte.co/careers"
 weight = 5
+
 
 # footer menu left
 [[footer_left]]
