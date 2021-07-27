@@ -1,3 +1,19 @@
+<style>
+    .dropdown-menu {
+        background-color: #12375a;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .dropdown-item {
+        color: #fff;
+        padding: 10px;
+        font-size: 1.25em;
+    }
+    .dropdown-item:hover{
+        background-color: #0b233a;
+        color: #eee;
+    }
+</style>
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="navigation">
     <div class="container">
@@ -17,7 +33,7 @@
                     {{ range site.Menus.main }}
                     {{ if .HasChildren }}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: #255983;" href="#" role="button" data-toggle="dropdown">
                             {{ .Name }}
                         </a>
                         <div class="dropdown-menu">
@@ -28,10 +44,11 @@
                     </li>
                     {{ else }}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a>
+                        <a class="nav-link" style="color: #255983;" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a>
                     </li>
                     {{ end }}
                     {{ end }}
+
 
                     <!-- Language List -->
                     {{ if .IsTranslated }}
