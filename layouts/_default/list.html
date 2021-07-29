@@ -2,6 +2,11 @@
 
 {{ partial "page-header.html" . }}
 
+<style>
+    .btn-main-art{
+        background-color: #102c47;
+    }
+</style>
 <!-- checking blog -->
 {{ if or (or (eq .Section "post") (eq .Section "blog")) (or (eq .Section "categories") (eq .Section "tags") )}}
 <section class="section">
@@ -21,8 +26,8 @@
                         <span class="mb-1 badge rounded-pill bg-dark"> <a class="text-white" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
                         {{ end }}
                         <p class="card-text">{{ .Summary }}</p>
-                        <a href="{{.Permalink}}" title="{{ i18n " readmore" }} - {{ .Title }}" class="btn
-                        btn-primary">{{ i18n "readmore" }}</a>
+                        <a href="{{.Permalink}}" title="{{ i18n " readmore" }} -
+                        {{ .Title }}" class="btn btn-main-art btn-primary">{{ i18n "readmore" }}</a>
                     </div>
                 </article>
             </div>
