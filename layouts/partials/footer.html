@@ -1,0 +1,79 @@
+<style>
+  footer {
+    background-color: #0e3252;
+    color: white ;
+  }
+  u {
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: #aeb8c0 2px dotted;
+    border-width: thin;
+    word-spacing: 0.2em;
+  }
+  footer a {
+    color: white !important;
+  }
+
+  footer p{
+    color: white;
+  }
+</style>
+<footer class="bg-custom section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb-5">
+        <a class="d-block h3 mb-3" href="{{ site.BaseURL | absLangURL}}">
+          {{ with site.Params.logo_alt}}
+          <img width="{{site.Params.logo_width}}" class="img-fluid" src="{{ . | relURL }}" alt="{{ site.Title }}">
+          {{ else }}{{site.Title}}{{end}}
+        </a>
+        <p class="mb-4">{{ site.Params.footer_content | markdownify }}</p>
+      </div>
+
+      <div class="col-md-3 col-sm-6 mb-5">
+        {{ if site.Menus.footer_left }}
+        <div><u>{{ site.Params.footer_menu_left }}</u></div>
+        <ul class="list-unstyled footer-list">
+          {{ range site.Menus.footer_left }}
+          <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        {{ if site.Menus.footer_middle }}
+        <div><u>{{ site.Params.footer_menu_middle }}</u></div>
+        <ul class="list-unstyled footer-list">
+          {{ range site.Menus.footer_middle }}
+          <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        {{ if site.Menus.footer_right }}
+        <div><u>{{ site.Params.footer_menu_right }}</u></div>
+        <ul class="list-unstyled footer-list">
+          {{ range site.Menus.footer_right }}
+          <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+
+    </div>
+    <div class="border-top border-default text-center py-4 mt-4">
+      <small class="text-center d-inline-block mb-1">
+        <a href="mailto:hello@incubyte.co">hello@incubyte.co</a>
+         | <a href="tel:+91-9825096458">+91-9825096458</a> </small><br>
+      <small class="content">{{ site.Params.Copyright | markdownify }}</small>
+    </div>
+    {{ with site.Params.social }}
+        <ul class="list-inline text-center pb-4">
+          {{ range . }}
+          <li class="list-inline-item"><a href="{{ .link | safeURL }}" title="{{ .title }}"><i class="{{ .icon }} mr-1 ml-1" style="color: white;"></i></a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+  </div>
+</footer>
