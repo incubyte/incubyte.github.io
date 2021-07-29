@@ -1,5 +1,6 @@
 #################### default parameters ################################
 logo = "images/logo.png"
+logo_alt = "images/logo.svg"
 logo_width = "200px"
 favicon = "images/favicon.png"
 
