@@ -1,4 +1,5 @@
 #################### default parameters ################################
+homeURL = "https://www.incubyte.co/"
 logo = "images/logo.png"
 logo_alt = "images/logo.svg"
 logo_width = "200px"
