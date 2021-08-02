@@ -6,6 +6,9 @@
     .btn-main-art{
         background-color: #102c47;
     }
+    .btn-main-art:hover{
+        background-color: #102c47 !important;
+    }
 </style>
 <!-- checking blog -->
 {{ if or (or (eq .Section "post") (eq .Section "blog")) (or (eq .Section "categories") (eq .Section "tags") )}}
