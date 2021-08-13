@@ -44,12 +44,6 @@ url = "https://www.incubyte.co/enhance-and-modernize"
 parent = "Work"
 weight = 2
 
-[[main]]
-name = "Software Quality Assessment"
-url = "https://www.incubyte.co/enhance-and-modernize"
-parent = "Work"
-weight = 3
-
 
 [[main]]
 name = "Careers"
@@ -73,11 +67,6 @@ name = "Inspiration!"
 url = "https://incubyte.co/inspiration"
 weight = 3
 
-[[footer_left]]
-name = "Careers"
-url = "https://www.incubyte.co/careers"
-weight = 4
-
 
 # footer menu middle
 [[footer_middle]]
@@ -89,11 +78,6 @@ weight = 1
 name = "Software Modernization"
 url = "https://www.incubyte.co/enhance-and-modernize"
 weight = 2
-
-[[footer_middle]]
-name = "Software Quality Assessment"
-url = "https://www.incubyte.co/enhance-and-modernize"
-weight = 3
 
 
 # footer menu right
