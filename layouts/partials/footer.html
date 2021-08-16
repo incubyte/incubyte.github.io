@@ -20,6 +20,11 @@
   footer p{
     color: var(--footer-fg-color);
   }
+
+ footer i {
+   color: var(--footer-fg-color) !important;
+   font-size: 1.25em;
+ }
 </style>
 <footer class="bg-custom section pb-0">
   <div class="container">
@@ -74,7 +79,7 @@
     {{ with site.Params.social }}
         <ul class="list-inline text-center pb-4">
           {{ range . }}
-          <li class="list-inline-item"><a href="{{ .link | safeURL }}" title="{{ .title }}"><i class="{{ .icon }} mr-1 ml-1" style="color: white;"></i></a></li>
+          <li class="list-inline-item"><a href="{{ .link | safeURL }}" title="{{ .title }}"><i class="{{ .icon }} mr-1 ml-1"></i></a></li>
           {{ end }}
         </ul>
         {{ end }}
