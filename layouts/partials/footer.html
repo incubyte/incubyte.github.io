@@ -1,7 +1,10 @@
 <style>
+  :root {
+  --footer-fg-color: #364554;
+  }
   footer {
-    background-color: #0e3252;
-    color: white ;
+    background-color: #f1f1f2;
+    color: var(--footer-fg-color);
   }
   u {
     text-transform: uppercase;
@@ -11,11 +14,11 @@
     word-spacing: 0.2em;
   }
   footer a {
-    color: white !important;
+    color: var(--footer-fg-color) !important;
   }
 
   footer p{
-    color: white;
+    color: var(--footer-fg-color);
   }
 </style>
 <footer class="bg-custom section pb-0">
@@ -23,7 +26,7 @@
     <div class="row">
       <div class="col-md-3 col-sm-6 mb-5">
         <a class="d-block h3 mb-3" href="{{ site.BaseURL | absLangURL}}">
-          {{ with site.Params.logo_alt}}
+          {{ with site.Params.logo}}
           <img width="{{site.Params.logo_width}}" class="img-fluid" src="{{ . | relURL }}" alt="{{ site.Title }}">
           {{ else }}{{site.Title}}{{end}}
         </a>
