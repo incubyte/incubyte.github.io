@@ -1,14 +1,8 @@
 # main menu
 
 [[main]]
-name = "Articles"
-url = "/"
-weight = 1
-
-
-[[main]]
 name = "About"
-weight = 2
+weight = 1
 
 [[main]]
 name = "Why Incubyte"
@@ -17,20 +11,15 @@ parent = "About"
 weight = 1
 
 [[main]]
-name = "Events"
-url = "https://www.incubyte.co/events"
-parent = "About"
-weight = 2
-
-[[main]]
 name = "Inspiration!"
 url = "https://incubyte.co/inspiration"
-weight = 3
+weight = 2
 parent = "About"
+
 
 [[main]]
 name = "Work"
-weight = 3
+weight = 2
 
 [[main]]
 name = "Software Development"
@@ -42,6 +31,23 @@ weight = 1
 name = "Software Modernization"
 url = "https://www.incubyte.co/enhance-and-modernize"
 parent = "Work"
+weight = 2
+
+
+[[main]]
+name = "Resources"
+weight = 3
+
+[[main]]
+name = "Blog"
+url = "/"
+parent = "Resources"
+weight = 1
+
+[[main]]
+name = "Events"
+url = "https://www.incubyte.co/events"
+parent = "Resources"
 weight = 2
 
 
