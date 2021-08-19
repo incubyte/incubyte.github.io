@@ -1,7 +1,7 @@
 +++
-title = "Demo Post"
+title = "{{ replace .Name "-" " " | title }}"
 slug = "demo-post"
-date = "{{ replace .Name "-" " " | title }}"
+date = {{ .Date }}
 image = "/images/2021/07/demo.jpg"
 draft = true
 author = "Incubyte"
