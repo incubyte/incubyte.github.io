@@ -1,10 +1,10 @@
 +++
-title = "7 Best Practices Ideas for Successful Agile Teams"
-slug = "agile-best-practices"
+title = "Ideas for Successful Agile Teams"
+slug = "techniques-for-an-agile-team"
 date = 2021-08-19T05:06:00Z
-image = "/images/2021/08/agile-team-head.jpg"
+image = "/images/2021/08/agile-team-head.png"
 draft = false
-author = "Mansi Pandey"
+author = "Rupali Pardeshi"
 authorLink = "https://incubyte.co"
 description = "It's not always easy to build successful agile teams. That said, here are some tips that help our teams achieve the goal of being collaborative and owning the SDLC from start to finish."
 tags = ["Software Craftsmanship", "Agile", "Best Practices", "SDLC"]
@@ -44,16 +44,13 @@ It is always better to perform story mapping before it gets picked up in the nex
 Below are the points we can consider for story analysis
 
 -   Are the acceptance criteria specified such that there is no ambiguity?
-
 -   Is there any technical debt related to the story?
-
 -   Is there a need to split the story into thinner slices?
-
 -   Does the story need a spike?
 
 The outcome of story analysis is that the story is ready to be picked up in the next IPM.
 
-{{< figure src="/images/2021/08/agile-team-body.jpg" >}}
+{{< figure src="/images/2021/08/agile-team-body.png" >}}
 
 ## 3) Kick-Off:
 
