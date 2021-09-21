@@ -12,11 +12,7 @@ authorLink = "https://github.com/2kabhishek"
 
 +++
 
-# Incubyte TDD Assessment
-
 Hello there and welcome to the Incubyte TDD Kata!
-
-First of all, we want to thank you for deciding to take this assessment. We are going to do our best to make it fun and full of learning for you.
 
 This assessment is the first step in our recruiting process and will be followed by two pair programming/discussion sessions.
 
@@ -24,13 +20,13 @@ This assessment is the first step in our recruiting process and will be followed
 
 A Software Craftsperson at Incubyte is a person who has a strong commitment to the craft of software development. Someone who is passionate about software, knows her/his tools well and is able to use them effectively to create carefully crafted software. Ultimately, a person who has a strong sense of what it is they are doing and is self-motivated to learn and grow.
 
-TDD is a core value for all of us at Incubyte. We strongly believe that well written software, is a lot more valuable for the business and end users, as compared to software that is hacked together (but works!).
+TDD is a core practice for all of us at Incubyte. We strongly believe that well written software, is a lot more valuable for the business and end users, as compared to software that is hacked together (but works!).
 
-Through this assessment, we would like to evaluate how you write tests, how you write code that is easy to test and how you write code that is easy to read. We want see the Software Craftsperson in you.
+Through this assessment, we want to evaluate how readable and testable your code is. We want see the Software Craftsperson in you.
 
-As software developers searching the internet is something of a necessity and vital for our job. We encourage you to Google away! You can also visit our [inspiration](https://incubyte.co/inspiration/) page to find some useful talks and references.
+As software developers searching the internet is something of a necessity and vital for our job. We encourage you to Google away! You can also visit our [inspiration](https://incubyte.co/inspiration/) page to find some useful talks and references that will help you through this assessment.
 
-With that, jump right in! Follow the instructions below, take your time to do it well and send us your kata once you’re happy with what you’ve done.
+With that, let's jump right in! Follow the instructions below, take your time to do it well and send us your kata once you’re happy with what you’ve done.
 
 ## String Calculator TDD Kata
 
@@ -76,14 +72,8 @@ With that, jump right in! Follow the instructions below, take your time to do it
 4. Push your changes to GitHub/GitLab.
 5. Send us a link to your repository.
 
-> Although there are no strict rules about the language you can use for the assessment, we recommend you use `Java`.
+> We encourage you to use the programming language you feel most comfortable with.
 
-## How we evaluate your work
-
-- The quality of your code and unit tests.
-- Whether you have used the best practices for TDD, git, Java.
-- Extra points for good documentation. (Hint: README.md)
-
-## What if I have questions?
+## Have questions?
 
 Feel free to ask us anything! We are [here](mailto:careers@incubyte.co) to help.
