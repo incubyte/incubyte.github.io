@@ -13,7 +13,7 @@
           <span class="mb-3 badge rounded-pill bg-dark"> <a class="text-white" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
         {{ end }}
         <div class="content">{{.Content}}</div>
-        <p class="blockquote-footer text-right">By <a href={{.Params.autorLink}}> {{ .Params.author }} </a> on {{ .Date.Format "Monday, January 2, 2006"}}</p>
+        <p class="blockquote-footer text-right">By <a href={{.Params.authorLink}}> {{ .Params.author }} </a> on {{ .Date.Format "Monday, January 2, 2006"}}</p>
 
         <!-- comments -->
         {{ if site.DisqusShortname }}
