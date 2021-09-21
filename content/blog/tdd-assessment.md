@@ -14,8 +14,6 @@ authorLink = "https://github.com/2kabhishek"
 
 Hello there and welcome to the Incubyte TDD Kata!
 
-First of all, we want to thank you for deciding to take this assessment. We are going to do our best to make it fun and full of learning for you.
-
 This assessment is the first step in our recruiting process and will be followed by two pair programming/discussion sessions.
 
 ## What we’re looking for
@@ -24,9 +22,9 @@ A Software Craftsperson at Incubyte is a person who has a strong commitment to t
 
 TDD is a core practice for all of us at Incubyte. We strongly believe that well written software, is a lot more valuable for the business and end users, as compared to software that is hacked together (but works!).
 
-Through this assessment, we would like to evaluate how you write tests, how you write code that is easy to test and how you write code that is easy to read. We want see the Software Craftsperson in you.
+Through this assessment, we want to evaluate how readable and testable your code is. We want see the Software Craftsperson in you.
 
-As software developers searching the internet is something of a necessity and vital for our job. We encourage you to Google away! You can also visit our [inspiration](https://incubyte.co/inspiration/) page to find some useful talks and references.
+As software developers searching the internet is something of a necessity and vital for our job. We encourage you to Google away! You can also visit our [inspiration](https://incubyte.co/inspiration/) page to find some useful talks and references that will help you through this assessment.
 
 With that, let's jump right in! Follow the instructions below, take your time to do it well and send us your kata once you’re happy with what you’ve done.
 
