@@ -14,23 +14,23 @@ authorLink = "https://github.com/2kabhishek"
 
 # Incubyte TDD Assessment
 
-Hello there and Welcome to the Incubyte TDD Assessment!
+Hello there and welcome to the Incubyte TDD Kata!
 
-First of all we want to thank you for deciding to take this assessment, we are going to do our best to make this assessment full of learning and fun for you.
+First of all, we want to thank you for deciding to take this assessment. We are going to do our best to make it fun and full of learning for you.
 
-At Incubyte your first step is a programming assessment which will be followed by two pair programming/discussion sessions.
+This assessment is the first step in our recruiting process and will be followed by two pair programming/discussion sessions.
 
-The assessment itself is a TDD (Test-Driven Development) kata, TDD is one of the core values at Incubyte.
+## What we’re looking for
 
-## Who is this assessment for?
+A Software Craftsperson at Incubyte is a person who has a strong commitment to the craft of software development. Someone who is passionate about software, knows her/his tools well and is able to use them effectively to create carefully crafted software. Ultimately, a person who has a strong sense of what it is they are doing and is self-motivated to learn and grow.
 
-We do not believe in conventional tech interviews as we think they are inherently flawed, simply because much of the questions asked during these interviews is just a search away. As software developers searching the internet is something of a necessity and vital for our job.
+TDD is a core value for all of us at Incubyte. We strongly believe that well written software, is a lot more valuable for the business and end users, as compared to software that is hacked together (but works!).
 
-Most of the information you need to prepare for the assessment is already available on the internet.You can visit our [inspiration](https://incubyte.co/inspiration/) page to find some useful talks and books.
+Through this assessment, we would like to evaluate how you write tests, how you write code that is easy to test and how you write code that is easy to read. We want see the Software Craftsperson in you.
 
-From this assessment we want to get you to learn how to write tests, how to write code that is easy to test and how to write code that is easy to read. We want to know if you have the Software Craftsperson mentality or not.
+As software developers searching the internet is something of a necessity and vital for our job. We encourage you to Google away! You can also visit our [inspiration](https://incubyte.co/inspiration/) page to find some useful talks and references.
 
-A Software Craftsperson is a person who has a strong commitment to the craft of software development, someone who is passionate about the craft and has a strong sense of what it is they are doing. They are able to write quality code and are passionate about the process of creating software, they know there tools well and are able to use them effectively and ultimately people who are passionate about learning and growing.
+With that, jump right in! Follow the instructions below, take your time to do it well and send us your kata once you’re happy with what you’ve done.
 
 ## String Calculator TDD Kata
 
@@ -66,7 +66,9 @@ A Software Craftsperson is a person who has a strong commitment to the craft of 
 
     If there are multiple negatives, show all of them in the exception message.
 
-## How to submit the assessment?
+> Want more? Check out [TDD Kata 1](https://osherove.com/tdd-kata-1/) for the full version.
+
+## Submitting the assessment
 
 1. Create a git repository on GitHub/GitLab.
 2. Clone the repository to your local machine.
@@ -76,7 +78,7 @@ A Software Craftsperson is a person who has a strong commitment to the craft of 
 
 > Although there are no strict rules about the language you can use for the assessment, we recommend you use `Java`.
 
-## How will we grade your work?
+## How we evaluate your work
 
 - The quality of your code and unit tests.
 - Whether you have used the best practices for TDD, git, Java.
@@ -84,4 +86,4 @@ A Software Craftsperson is a person who has a strong commitment to the craft of 
 
 ## What if I have questions?
 
-Feel free to ask us anything! We are [here](mailto:hello@incubyte.co) to help.
+Feel free to ask us anything! We are [here](mailto:careers@incubyte.co) to help.
