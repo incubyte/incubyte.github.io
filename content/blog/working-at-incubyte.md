@@ -38,23 +38,25 @@ The Company holds each one of its employees to an extremely high standard on per
 
 ## Benefits of working at Incubyte!
 
-1. Holidays & flexibility of working - We offer as many holiday days our people need in addition to national holidays, as long as they are responsible about taking the days off. We’re also flexible with how our people manage their time and believe in self-driven work as opposed to rigid structures
+1. Holidays & flexibility of working - We offer as many holiday days our people need in addition to national holidays, as long as they are responsible about taking the days off. We’re also flexible with how our people manage their time and believe in self-driven work as opposed to rigid structures. Workations are not only allowed, but encouraged as long as your work quality is maintained
 
 2. Pensions and tax benefits
 
-3. Learning pool budget - As long as the course is relevant for the company and you'll do a lightning talk on the subject, we’re happy to help pay for it.
+3. Home Office Fund - A budget allocated for each employee to set up their home office comfortably. We help you to be your most productive self 
 
-4. Lightning talk - We do monthly lightning talks where different speakers do 5-15 min presentations on a single topic, example, idea, project, or technique. Meant to invoke interest, and to quickly introduce people to a topic
+4. Learning pool budget - As long as the course is relevant for the company and you'll do a lightning talk on the subject, we’re happy to help pay for it
 
-5. Books and reading list – We have a growing list of recommended books to read that will keep you up to speed on the latest developments.
+5. Lightning talk - We do monthly lightning talks where different speakers do 5-15 min presentations on a single topic, example, idea, project, or technique. Meant to invoke interest, and to quickly introduce people to a topic
 
-6. Bookclub - We have a monthly book club meeting where one or two team members talk about the latest books they have read or books that have stayed with them over a period of time and there is an open discussion around the subject or subjects
+6. Books and reading list – We have a growing list of recommended books to read that will keep you up to speed on the latest developments
 
-7. Autonomy in working
+7. Bookclub - We have a monthly book club meeting where one or two team members talk about the latest books they have read or books that have stayed with them over a period of time and there is an open discussion around the subject or subjects
 
-8. Medical and accident coverage
+8. Autonomy in working
 
-9. Laptop hardware is provided to all our employees as per their configuration need
+9. Medical and accident coverage
 
-10. Welcome Kit with Incubyte merchandise
+10. Laptop hardware is provided to all our employees as per their configuration need
+
+11. Welcome Kit with Incubyte merchandise
 
