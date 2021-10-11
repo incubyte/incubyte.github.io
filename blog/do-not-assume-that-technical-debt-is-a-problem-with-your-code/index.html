@@ -119,11 +119,15 @@ Resources
 <p>When you look at technical debt, consider it human behavior debt. A symptom of issues with people, teams, leadership, organizations, and whatever else contributes to writing code. It has broader implications, from code to organization structure! And so, to fix it, one has to focus on both, the state of the code and how people behave.</p>
 <p>Once Eisenhower said, &ldquo;I have two kinds of problems: the urgent and the important. The urgent are not important, and the important are never urgent.&rdquo; When the development team only focuses on urgent issues and not the important ones, they start building technical debt. Often the important work items are such that the business team can not &ldquo;see&rdquo; them. Focusing on the immediate stream of work and upcoming deadlines may put the system in a shape and form that developers cannot change quickly in the future.</p>
 <p>The architecture of the system is one such thing. Business teams may see it as something that &ldquo;only developers care about.&rdquo; In situations like these, the developers have to do what nobody mentioned in their job description. Explain to the business what is important!</p>
+<p>You can use the following diagram from the DevOps handbook to understand and explain the value of our work, visible and invisible, both types.
+<figure><img src=/images/2021/developmentvalues.png>
+</figure>
+</p>
 <p>So, what can you do to reduce technical debt? Of course, fixing important things flagged by your static analyzer is one, but what else?</p>
 <ol>
 <li><strong>Design your teams</strong> accordingly and have a well-balanced team of developers, leaders, designers, and business representatives.</li>
 <li><strong>Introduce automation</strong> as much as possible. Nothing catches technical debt early in the development life cycle as effectively as a solid CI/CD pipeline. Automate your CI/CD pipeline to execute static analyzers, test cases, database upgrades, releases, and deployment.</li>
-<li><strong>Change team culture</strong> to **** not only focuses on the immediate stream of work but also on a roadmap that looks far into the future. Also, create an open culture so that conversations about what&rsquo;s right and wrong can happen without much effort or hesitation.</li>
+<li><strong>Change team culture</strong> to not only focuses on the immediate stream of work but also on a roadmap that looks far into the future. Also, create an open culture so that conversations about what&rsquo;s right and wrong can happen without much effort or hesitation.</li>
 <li><strong>Prioritize your debt</strong>; developers don&rsquo;t have to pay off all the debt. &ldquo;Software Design X-Rays&rdquo; by Adam Tornhill is an excellent book on this subject.</li>
 </ol>
 <p>Finally, this is not an exhaustive list. Instead, it is meant for us to think about what causes technical debt and to create a strategy to eliminate the root cause, not just the debt created. Always remember, cleaning things takes a lot more time as compared to messing them up. Thus, it is crucial to stop the leakages right at the source.</p>
