@@ -7,7 +7,7 @@ draft = false
 image = "/images/2020/08/depositphotos_14942465-stock-photo-copy-paste-keyboard.jpg"
 slug = "97-things-not-to-do-as-developers"
 tags = ["97 Things !to do"]
-title = "!Copy and paste code to minimize the impact:"
+title = "Do not Copy and paste code to minimize the impact:"
 
 +++
 
