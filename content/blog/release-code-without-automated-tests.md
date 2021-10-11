@@ -6,7 +6,7 @@ description = ""
 draft = false
 slug = "release-code-without-automated-tests"
 tags = ["97 Things !to do"]
-title = "!Release code without automated tests"
+title = "Do not Release Code Without Automated Tests"
 image = "/images/2020/09/automated-tests.jpg"
 
 +++

@@ -7,7 +7,7 @@ draft = false
 image = "https://images.unsplash.com/photo-1506818144585-74b29c980d4b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
 slug = "do-not-optimize-prematurely"
 tags = ["97 Things !to do"]
-title = "!Optimize Prematurely"
+title = "Do not Optimize Prematurely"
 
 +++
 

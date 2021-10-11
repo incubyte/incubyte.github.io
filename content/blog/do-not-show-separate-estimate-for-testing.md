@@ -7,7 +7,7 @@ draft = false
 image = "https://images.unsplash.com/photo-1516534775068-ba3e7458af70?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
 slug = "do-not-show-separate-estimate-for-testing"
 tags = ["97 Things !to do"]
-title = "!Show separate estimate for unit testing"
+title = "Do not Show Separate Estimate for Unit Testing"
 
 +++
 

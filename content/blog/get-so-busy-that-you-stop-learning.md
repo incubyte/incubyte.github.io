@@ -7,7 +7,7 @@ draft = false
 image = "https://images.unsplash.com/photo-1510751190565-de07085fcad6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
 slug = "get-so-busy-that-you-stop-learning"
 tags = ["97 Things !to do"]
-title = "!Get so busy that you stop learning"
+title = "Do not Get so busy that you stop learning"
 
 +++
 
