@@ -16,5 +16,5 @@ Learning is the most vital part of a software developer's life. Being so busy th
 
 Apart from learning programming languages like Java or Python, we should also aim to become proficient at our Source Control Management software, build systems, leadership skills, communication, documentation, cloud infrastructure technologies, excel, and word too!
 
-Expanding your horizon helps you find the most befitting solutions to various problems of coding and the underlying business.
+Expanding your horizon helps you find the most befitting solutions to various coding problems and the underlying business.
 

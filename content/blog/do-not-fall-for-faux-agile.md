@@ -18,11 +18,11 @@ Enough ink is already spilled on this topic, nevertheless talking about it once 
 
 A team that is adopting agile must adopt its underlying spirit.
 
-Chaos is not agile; not planning is not agile. Scrum, did wrong, is not agile. In software development, doing "ceremonies" on a regular interval does not make teams agile.
+Chaos is not agile; not planning is not agile. Scrum, did wrong, is not agile. In software development, doing "ceremonies" at a regular interval does not make teams agile.
 
 To be agile in a real sense, developers should think about the entire software development life cycle, from a ticket in the backlog to the product's build and release. Technologies, processes, practices, and the team structure should align to facilitate the business's agility.
 
-Agility means the ability to change over time; this agility has to be brought in by design, and every member of the team has to work towards it. Organizations should design a system's architecture such that it allows the software to change without side effects. If there are side effects, then there should be a faster feedback cycle. Agility in software development comes by profoundly caring about what you are doing and doing the right thing. 
+Agility means the ability to change over time; this agility has to be brought in by design, and every team member has to work towards it. Organizations should design a system's architecture such that it allows the software to change without side effects. If there are side effects, then there should be a faster feedback cycle. Agility in software development comes by profoundly caring about what you are doing and doing the right thing. 
 
 This tweet by Kent Beck summarizes agile for developers to me!  
 
