@@ -11,10 +11,10 @@ parent = "About"
 weight = 1
 
 [[main]]
-name = "Inspiration!"
-url = "https://incubyte.co/inspiration"
-weight = 2
+name = "Events"
+url = "https://www.incubyte.co/events"
 parent = "About"
+weight = 2
 
 
 [[main]]
@@ -39,17 +39,16 @@ name = "Resources"
 weight = 3
 
 [[main]]
+name = "Inspiration!"
+url = "https://incubyte.co/inspiration"
+weight = 1
+parent = "Resources"
+
+[[main]]
 name = "Blog"
 url = "/"
 parent = "Resources"
-weight = 1
-
-[[main]]
-name = "Events"
-url = "https://www.incubyte.co/events"
-parent = "Resources"
 weight = 2
-
 
 [[main]]
 name = "Careers"

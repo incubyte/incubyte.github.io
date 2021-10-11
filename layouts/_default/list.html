@@ -9,6 +9,9 @@
     .btn-main-art:hover{
         background-color: #102c47 !important;
     }
+    .post-title {
+        text-transform: capitalize;
+    }
 </style>
 <!-- checking blog -->
 {{ if or (or (eq .Section "post") (eq .Section "blog")) (or (eq .Section "categories") (eq .Section "tags") )}}
