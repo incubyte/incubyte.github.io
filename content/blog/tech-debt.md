@@ -13,13 +13,13 @@ type = ""
 
 As software evolves, so does its complexity. Updating existing code versus implementing new features is often a tradeoff and there are many battles to be fought when it comes to spending time on the former. This blog looks deeper into why it is so.
 
-## What is Technical Debt?
+### What is Technical Debt?
 
 Technical debt in programming reflects the extra development effort needed to maintain a codebase. It is debt in the true sense of the word – something that will have to be paid off eventually or the bearer faces consequences.
 
 It typically arises when short cuts are taken instead of implementing the best overall solution. As technical debt accrues in a project, it tends to increase estimates for new work items and bug fixes. This is the debt manifesting in terms of time to ship new features, extra effort involved, opportunity cost of the time spent and reduced developer morale.
 
-## Why is it worth understanding?
+### Why is it worth understanding?
 {{< figure src="/images/2021/10/tech-debt-1.jpg" >}}
 
 Technical debt affects both, the developers and the business.
@@ -30,16 +30,15 @@ Many businesses are oblivious to the existence of tech debt, and they continue t
 
 That said, having some technical debt isn&#39;t always a bad thing either. If developers spend all their time perfecting code, nothing will ever get released! Not all technical debt is the same and development teams must always weigh the benefits of solving it vs. the cost of keeping it. &quot;Software Design X-Rays&quot; by Adam Tornhill is an excellent book on this subject.
 
-## Cost of Technical Debt
+#### Cost of Technical Debt
 
-1. Development Team&#39;s Velocity is Hampered
+Development Team&#39;s Velocity is Hampered
 
 Technical debt can cause software development teams to become overwhelmed. It has the potential to quickly turn an efficient team into a sluggish train wreck. In the longer run, it diverts the team&#39;s attention to either addressing the tech debt or slowly navigating the complexity to continue delivering features.
 
 **Consider this scenario:** Your codebase has a perplexing module structure. You now need to add new features. It would take you four days to add the functionality if the module layout was simple, but it takes you six days with the current structure. The additional two days is the interest you pay on the debt, and you haven&#39;t even paid the debt down.
 
-1.
-### Working on new features becomes a struggle
+#### Working on new features becomes a struggle
 
 Technical debt has an exponential effect on increasing the effort needed to build new features.
 
@@ -47,8 +46,7 @@ Teams might generate more clutter too in trying to keep up with the pace of deli
 
 &quot;Even making a minor security update with a modern framework in mind, where we wanted to integrate the authentication system to the current structure, proved difficult due to the application&#39;s conventional routing mechanism. Before we could even update the authentication, we had to first understand the existing framework, which was quite a tedious job&quot;, mentioned a fellow developer.
 
-1.
-### Negative Impact
+#### Negative Impact
 
 **Negative Impact!** Yes, you heard it right.
 
@@ -56,8 +54,7 @@ Teams might generate more clutter too in trying to keep up with the pace of deli
 
 Technical Debt, if not fixed on time, will just steer more broken windows, eventually leading to device downtimes, a poor user interface that affects customer/user loyalty, poor system efficiency, and so on, thus affecting customer experience.
 
-1.
-### Lack of Motivation for Developers
+#### Lack of Motivation for Developers
 
 The entire process of fixing technical debt is extremely time-consuming. There are spikes, understanding the collective concept, generating a report, getting it approved, then incorporating the changes and several other obstacles along the way. If no test cases are available, developers may encounter more issues and waste too much time.
 
@@ -65,7 +62,7 @@ After a certain amount of time, it becomes frustrating and to be honest no one e
 
 Employees can become demotivated as a result of any of the above.
 
-## Technical Debt Quadrant
+### Technical Debt Quadrant
 
 Martin Fowler suggests a simple approach to navigate the complex matter of technical debt:
 
@@ -94,7 +91,7 @@ This is a quadrant of things you should have known about, but didn&#39;t. Consta
 
 Having followed best practices and design principles, we can still face challenges. There still will be times when you realize mis-steps after the job is done. Doing POC&#39;s helps you find these uh-oh moments before it&#39;s embedded with your actual code.
 
-## How to identify Technical Debt?
+### How to identify Technical Debt?
 
 There are several telltale signs of technical debt&#39;s existence.
 
@@ -102,35 +99,35 @@ There are several telltale signs of technical debt&#39;s existence.
 
 When technologies imbricate over each other over time, they become quite rigid to allow what could have been a simple feature addition. Any architecture that is not flexible enough to welcome new changes without complicating the modules should be acted upon at the earliest possible.
 
-1. Code Smells
+2. Code Smells
 
 Quoting Martin Fowler, a code smell is a surface indication that usually corresponds to a deeper problem in the system. They are subtler than logical errors and usually indicate problems that when not attended to at time may lead to even system crashes.
 
-1. Bugs
+3. Bugs
 
 Tracking the overspilled bugs in each iteration and comparing the number of open bugs vs closed bugs can be helpful to get an idea on the direction the team is moving towards in addressing, handling and creating new bugs. An increasing graph is a good indicator of high technical debt in the system.
 
-1. Violation of non-functional requirements
+4. Violation of non-functional requirements
 
 With accumulation of tech debt, the system may start exhibiting symptoms such as slow loading speed, compatibility loss, security hacks, increasing difficulty and so on.
 
-1. Standard conventions
+5. Standard conventions
 
 Code that doesn&#39;t follow standard conventions (to be decided by the team) be it as small as keeping the codebase modularized, to adhering to standard naming conventions and styling, will lead to unreadability and unmaintainability of the codebase.
 
-1. Developer Happiness
+6. Developer Happiness
 
 A simple and an abstract warning sign is when developers are frustrated working on the project (implying more than expected work for simple additions or fixes) can be an indication towards unattended tech debt in the system.
 
-1. TDR Score
+7. TDR Score
 
 TDR stands for technical debt ratio. It is calculated as the ratio of the cost to fix a software system to the cost of developing a new system.
 
-\&gt; Technical Debt Ratio = (Remediation Cost / Development Cost) x 100
+> Technical Debt Ratio = (Remediation Cost / Development Cost) x 100
 
 Ideally, a remediation cost of zero is preferred, though practically, it may not be possible. It is usually favorable by teams to keep it under 5%. High TDR score reflects deplorable state of quality of the system. There are tools available that help compute similar metrics and are covered in a later part of the article.
 
-## How to avoid Technical Debt?
+### How to avoid Technical Debt?
 
 While different metrics are available to quantify tech debt, it is not inherently a metric. There are no sage advices to avoid, but tracking tech debt regularly, before it becomes too unwieldy, is definitely a step in the right direction. Analyzing the discussion with our developers, here are some suggestions that might help you.
 
@@ -144,9 +141,11 @@ While different metrics are available to quantify tech debt, it is not inherentl
 
 Read more here: [Technical debt - a problem with your code?](https://blog.incubyte.co/blog/do-not-assume-that-technical-debt-is-a-problem-with-your-code/)
 
-## Prioritizing Debt
+### Prioritizing Debt
 
-There are several online tools that help you analyse and prioritize your debt. It&#39;s not always obvious to spot buggy code. The modules with the most development activities are often filled with hotspots. Among several tools being widely used, one we enjoy using is [CodeScene](https://codescene.io/) . It helps you visualize the most frequently changed modules. If you then overlap the graph with modules that have low code health, that&#39;s where you start seeing areas where you may have technical debt issues. Watch our Software Craftsmanship Community talk with Adam Tornhill of CodeScene: [h](https://www.youtube.com/watch?v=nf0lATAKSl8&amp;t=2534s)[ere](https://www.youtube.com/watch?v=nf0lATAKSl8&amp;t=2534s)
+There are several online tools that help you analyse and prioritize your debt. It&#39;s not always obvious to spot buggy code. The modules with the most development activities are often filled with hotspots. Among several tools being widely used, one we enjoy using is [CodeScene](https://codescene.io/) . It helps you visualize the most frequently changed modules. If you then overlap the graph with modules that have low code health, that&#39;s where you start seeing areas where you may have technical debt issues.
+
+Watch our Software Craftsmanship Community talk with Adam Tornhill of CodeScene: [h](https://www.youtube.com/watch?v=nf0lATAKSl8&amp;t=2534s)[ere](https://www.youtube.com/watch?v=nf0lATAKSl8&amp;t=2534s)
 
 {{< figure src="/images/2021/10/tech-debt-3.jpg" >}}
 
@@ -156,7 +155,7 @@ Refactoring should not be one-off events in short increments. It is easier to re
 
 You finally have something that can fit in a sprint! Now you can plan how much debt can be reduced per sprint and track progress.
 
-## Pay off your debt
+### Pay off your debt
 
 There are a few options that can be considered to pay off your tech debt.
 
@@ -164,7 +163,7 @@ There are a few options that can be considered to pay off your tech debt.
 - **Refactoring** : While understanding and clearly communicating the additional effort involved, refactor the system (change the internal structure of codebase) to allow for the feature to easily fit in. To avoid unintended behaviour, ensure there is a strong test suite first.
 - **Replace the module/application** : As a developer, the thought to write the module or the application from scratch always comes to mind when tech debt is too high. While it may sound appealing, exercise a lot of caution while going this route. Not all requirements are 100% documented and the chances of breaking down the line dependencies, change in functional behaviour, and other such unintended consequences are high.
 
-## Final Thoughts
+### Final Thoughts
 
 All software developers and businesses strive to facilitate releasing competitive products faster and generate commercial value. But, if the debt is not cleared in time, you&#39;ll go bankrupt (technically).
 
