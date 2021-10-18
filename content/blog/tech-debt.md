@@ -1,16 +1,15 @@
-+++ title = "A Guide to Technical debt!"
++++
+title = "A Guide to Technical debt!"
 slug = "tech-debt"
-date = 2021-10-18T05:06:00Z 
-image = "/images/2021/10/tech-debt-head.jpg" 
-draft = false 
-author = "Incubyte" 
-authorLink = "https://incubyte.co" 
+date = 2021-10-18T05:06:00Z
+image = "/images/2021/10/tech-debt-head.jpg"
+draft = false
+author = "Incubyte"
+authorLink = "https://incubyte.co"
 description = "Learn more about technical debt and its effects on software in the long run"
 tags = ["Software Craftsmanship", "Best Practices", "SDLC"]
-type = "" +++
-
-
-
+type = ""
++++
 
 As software evolves, so does its complexity. Updating existing code versus implementing new features is often a tradeoff and there are many battles to be fought when it comes to spending time on the former. This blog looks deeper into why it is so.
 
