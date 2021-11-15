@@ -2,7 +2,7 @@
 author = "Incubyte"
 categories = ["Playbook"]
 date = 2021-11-15T00:00:00Z
-description = ""
+description = "What to look for when starting a new software development project"
 draft = false
 image = "images/2021/checklist.jpg"
 slug = "kickstart-checklist"
