@@ -1,7 +1,7 @@
 <!doctype html><html lang=en-us>
 <head>
 <meta charset=utf-8>
-<title>SDLC</title>
+<title>Project Kickstart Checklist</title>
 <base href=https://incubyteco.github.io/>
 <meta name=author content="Incubyte">
 <meta name=generator content="Hugo 0.89.2">
@@ -13,21 +13,23 @@
 <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=5">
 <meta name=msapplication-TileColor content="#5cc5d5">
 <meta name=theme-color content="#fff">
-<meta property="og:image" content="https://incubyteco.github.io/images/logo.png">
-<meta name=twitter:image content="https://incubyteco.github.io/images/logo.png">
+<meta property="og:image" content="https://incubyteco.github.io/images/2021/checklist.jpg">
+<meta name=twitter:image content="https://incubyteco.github.io/images/2021/checklist.jpg">
 <meta name=twitter:card content="summary_large_image">
-<meta property="og:image:width" content="1847">
-<meta property="og:image:height" content="511">
-<meta property="og:image:type" content="image/png">
-<meta name=twitter:title content="SDLC">
-<meta name=twitter:description content="Incubyte Blog">
-<meta property="og:title" content="SDLC">
-<meta property="og:description" content="Incubyte Blog">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://incubyteco.github.io/tags/sdlc/"><meta property="og:site_name" content="Incubyte Blog">
+<meta property="og:image:width" content="4256">
+<meta property="og:image:height" content="2832">
+<meta property="og:image:type" content="image/jpeg">
+<meta name=twitter:title content="Project Kickstart Checklist">
+<meta name=twitter:description content="What to look for when starting a new software development project">
+<meta property="og:title" content="Project Kickstart Checklist">
+<meta property="og:description" content="What to look for when starting a new software development project">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://incubyteco.github.io/blog/kickstart-checklist/"><meta property="article:section" content="blog">
+<meta property="article:published_time" content="2021-11-15T00:00:00+00:00">
+<meta property="article:modified_time" content="2021-11-15T00:00:00+00:00"><meta property="og:site_name" content="Incubyte Blog">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="SDLC">
-<meta name=twitter:description content="Incubyte Blog">
+<meta name=twitter:title content="Project Kickstart Checklist">
+<meta name=twitter:description content="What to look for when starting a new software development project">
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-178057567-1','auto'),ga('send','pageview'))</script>
 <meta http-equiv=x-dns-prefetch-control content="on">
 <link rel=preconnect href=//ajax.googleapis.com>
@@ -104,64 +106,46 @@ Resources
 </div>
 </header>
 <main>
-<section class="section pb-0">
-<div class="container text-center">
-<h1 class=display-3>SDLC</h1>
-</div>
-</section>
-<style>.btn-main-art{background-color:#102c47}.btn-main-art:hover{background-color:#102c47!important}.post-title{text-transform:capitalize}</style>
+<style>.content a{color:#32a1d4}.post-title{text-transform:capitalize}</style>
 <section class=section>
 <div class=container>
-<div class=row>
-<div class="col-lg-4 col-sm-6 mb-5">
-<article class="card border-0">
-<a href=https://incubyteco.github.io/blog/tech-debt/>
-<img src=/images/2021/10/tech-debt-head.jpg alt="A Guide to Technical debt!" class="mb-1 card-img rounded-lg mb-4">
-</a>
-<div class="card-body p-0">
-<h3><a href=https://incubyteco.github.io/blog/tech-debt/ title="A Guide to Technical debt!" class=post-title>A Guide to Technical debt!</a></h3>
-<span class="badge rounded-pill bg-dark"> <a class=text-white href=/tags/software-craftsmanship>Software Craftsmanship</a></span>
-<span class="badge rounded-pill bg-dark"> <a class=text-white href=/tags/best-practices>Best Practices</a></span>
-<span class="badge rounded-pill bg-dark"> <a class=text-white href=/tags/sdlc>SDLC</a></span>
-<p class=card-text>As software evolves, so does its complexity. Updating existing code versus implementing new features is often a tradeoff and there are many battles to be fought when it comes to spending time on the former.
-</p>
+<article class=row>
+<div class="col-lg-8 mx-auto">
+<img src=/images/2021/checklist.jpg alt="Project Kickstart Checklist" class="img-fluid w-100 rounded mb-4">
+<h1 class="mb-4 post-title">Project Kickstart Checklist</h1>
+<span class="mb-3 badge rounded-pill bg-dark"> <a class=text-white href=/tags/playbook>Playbook</a></span>
+<div class=content><p>The <a href=http://atulgawande.com/book/the-checklist-manifesto/>Checklist Manifesto</a> by Atul Gawande, walks us through the benefits of the humble checklist. He talks about how checklists of &ldquo;dumb stuff&rdquo; can save us from disasters in life and death situations. We developers, too, can use such a checklist when we start a new project.</p>
+<h3 id=is-your-code-in-the-source-control>Is your code in the source control?</h3>
+<p>Source control has become a litmus test of a good development workflow. SCM is the first item in Joel Spolsky&rsquo;s &ldquo;<a href=https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/>The Joel Test</a>.&rdquo; Though typical mistake developers make is they use source control only for code. Make sure that you use SCM systems for all of the following.</p>
+<ol>
+<li>Code</li>
+<li>Build script</li>
+<li>CI/CD pipeline</li>
+<li>Deployment script</li>
+<li>Database migration scripts</li>
+<li>Wiki, or Architecture Decision Record</li>
+<li>Any infrastructure-related scripts. Ex dockerfile, docker compose, terraform etc</li>
+</ol>
+<h3 id=do-you-have-an-automated-database-versioning-tool>Do you have an automated database versioning tool?</h3>
+<p>Tools like Flyway and, Liquibase stores your database migrations in a text file. Once the database changes are captured in a text file, they can become part of the SCM and be versioned!</p>
+<h3 id=did-you-start-with-a-unit-test>Did you start with a unit test?</h3>
+<p>Practices like TDD or TCR(Test Commit Revert) are a few of the best practices for development workflow, but if you don&rsquo;t do it, at least make sure that high-quality test cases are part of your codebase. And they should execute often and preferably before you merge the code in your mainline.</p>
+<h3 id=have-you-chosen-a-build-tool-and-made-your-build-automated-ex-gradle-maven-pybuilder>Have you chosen a build tool? And made your build automated? Ex: Gradle, Maven, PyBuilder</h3>
+<p>Be it the thousands of programming submissions we receive or our clients with legacy software. We still see codebases in Eclipse or IntelliJ workspace format, which depends on external Jar or binary files. They involve multiple manual steps before we can make builds successfully or set up the system.</p>
+<p>Having your build configuration and dependencies as text files in the codebase helps to reproduce the development environment consistently across machines. Most modern build tools have loads of other features like one-click builds, security checks, license compatibility checks, etc.</p>
+<h3 id=do-you-have-static-code-analysis-as-part-of-your-pipeline>Do you have static code analysis as part of your pipeline?</h3>
+<p>Many code linters exist today, ranging from open-source PMD to Sonar or Snyke. These linters can catch code-style issues as well security vulnerabilities early in the SDLC. Make it part of your IDE as well as CI/CD pipelines.</p>
+<h3 id=do-you-have-quality-gates-as-part-of-the-cicd-pipeline>Do you have quality gates as part of the CI/CD pipeline?</h3>
+<p>Configure your CI/CD pipelines in such a way so that your code repositories reject any code change which has issues. These issues can range from unit test failure to static code analysis issues in the build.</p>
+<h3 id=do-you-have-a-fully-automated-release-and-deployment-process-without-manual-steps>Do you have a fully automated release and deployment process without manual steps?</h3>
+<p>Does your code automatically deploy upon successful merge in the pipeline? Does it require manual release approval? Whatever it may be, it has to be part of the fully automated pipeline. You are doing something severely wrong if you need to SSH somewhere or FTP files manually.</p>
+<h3 id=did-you-deploy-a-walking-skeleton>Did you deploy a walking skeleton?</h3>
+<p>Once you have the smallest working piece of your software along with a framework that can do all of the above, deploy it. This will require you to set up a build tool, database, migration tool, CI/CD pipeline, code scan, and test execution.
+And finally, validate all of it by pushing small code changes that gets tested and deployed automatically and succesfully.</p>
+</div>
+<p class="blockquote-footer text-right">By <a href> Incubyte </a> on Monday, November 15, 2021</p>
 </div>
 </article>
-</div>
-<div class="col-lg-4 col-sm-6 mb-5">
-<article class="card border-0">
-<a href=https://incubyteco.github.io/blog/pair-programming/>
-<img src=/images/2021/09/pair-prog-head.jpg alt="Pair Programming — How it works!" class="mb-1 card-img rounded-lg mb-4">
-</a>
-<div class="card-body p-0">
-<h3><a href=https://incubyteco.github.io/blog/pair-programming/ title="Pair Programming — How it works!" class=post-title>Pair Programming — How it works!</a></h3>
-<span class="badge rounded-pill bg-dark"> <a class=text-white href=/tags/software-craftsmanship>Software Craftsmanship</a></span>
-<span class="badge rounded-pill bg-dark"> <a class=text-white href=/tags/best-practices>Best Practices</a></span>
-<span class="badge rounded-pill bg-dark"> <a class=text-white href=/tags/sdlc>SDLC</a></span>
-<p class=card-text>Have you ever come across a bug that had complex logic, and was incredibly hard to fix?
-</p>
-</div>
-</article>
-</div>
-<div class="col-lg-4 col-sm-6 mb-5">
-<article class="card border-0">
-<a href=https://incubyteco.github.io/blog/techniques-for-an-agile-team/>
-<img src=/images/2021/08/agile-team-head.png alt="Ideas for Successful Agile Teams" class="mb-1 card-img rounded-lg mb-4">
-</a>
-<div class="card-body p-0">
-<h3><a href=https://incubyteco.github.io/blog/techniques-for-an-agile-team/ title="Ideas for Successful Agile Teams" class=post-title>Ideas for Successful Agile Teams</a></h3>
-<span class="badge rounded-pill bg-dark"> <a class=text-white href=/tags/software-craftsmanship>Software Craftsmanship</a></span>
-<span class="badge rounded-pill bg-dark"> <a class=text-white href=/tags/agile>Agile</a></span>
-<span class="badge rounded-pill bg-dark"> <a class=text-white href=/tags/best-practices>Best Practices</a></span>
-<span class="badge rounded-pill bg-dark"> <a class=text-white href=/tags/sdlc>SDLC</a></span>
-<p class=card-text>Agile is the most discussed software development methodology, and probably most widely accepted as the way forward for modern software development teams.
-</p>
-</div>
-</article>
-</div>
-<div class=col-12>
-</div>
-</div>
 </div>
 </section>
 </main>
