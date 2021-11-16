@@ -17,19 +17,22 @@ Well, now you have done it, you have reached the point where you start coding yo
 No matter how small it may sound, this one thing will make you and your teammates extremely happy. See, this is what makes you a better human being :-) you are already thinking about others, people who will read your code.
 This is just a small part of clean coding practices and signifies just one of them but point is to lear all the practices and apply them to your code.
 
-## Did I commit and push something?
-Understandably, you can't push something every day. But as developers, we must strive to create stories so small that we can do commits and push every day. These practices will promote frequent releases, smaller changes, and lower risks. Of course, all of this works well if you have looked into our project kickoff checklist.
-
-## Did I read a book?
-You are consuming content all the time, blogs, videos, tweets, though books are different. It allows you to choose what you want to learn deliberately. Also, the book got printed and made in your hand, which may also mean the author has some authenticity on the subject and can deliver some value as opposed to some random tweet pushed to you.
-Sure, you can not read a book every day, but we mean spending 10 to 15 minutes every day doing so. Once again, 1% investment in yourself everyday.
+## Did I automate something that I did three or more times
+One trade-off of being a developer is getting caught in a spiral of monotonous, repetitive tasks. That leads to general unhappiness about your work. You have an opportunity to change that. Ask yourself, "Have I done this already three or more times?" If the answer is yes, then think about ways of automating it. Automation can range from sending emails to writing functions for code you find yourself writing more than a few times.
+Believe it or not, you can send emails automatically by using Zappier or Microsoft Flow. We do it, and you should too!
 
 ## Did you make a note
-Wait, what! Notes? Isn't that something managers do? Yes, they do, but capturing the details of what you need to do, thoughts on architecture, or even an execution plan goes a long way. Numerous things come to our mind, either as part of team meetings or simply during showers. If you didn't note that thought down, then it will be part of those thousands of things you thought of but never got to.
+Wait, what! Notes? Isn't that something managers do? Yes, they do, but capturing the details of what you need to do like thoughts on architecture while you were coding, or even an execution plan goes a long way. Numerous things come to our mind, either as part of team meetings or simply during showers. If you didn't note that thought down, it will be part of those thousands of things you thought of but never got to.
+A lot of time you may take shortcuts while coding, note them down, revisit the notes, create work items from there and fix the technical debt you created!
+
+## Did I commit and push something?
+Now you have created the new shiny feature with the cleanest possible code, the Monalisa! Were you able to commit and push it?
+Understandably, you can't push something every day. But as developers, we must strive to create stories so small that we can do commits and push every day. These practices will promote frequent releases, smaller changes, and lower risks. Of course, all of this works well if you have looked into our project kickoff checklist.
 
 ## Did you create a diagram?
 Creating diagrams can help you clear your thoughts in terms of software architecture or simply workflows. One more advantage, others can refer to it!
 
-## Did I automate something that I did three or more times
-One trade-off of being a developer is getting caught in a spiral of monotonous, repetitive tasks. That leads to general unhappiness about your work. You have an opportunity to change that. Ask yourself, "Have I done this already three or more times?" If the answer is yes, then think about ways of automating it. Automation can range from sending emails to writing functions for code you find yourself writing more than a few times.
-Believe it or not, you can send emails automatically by using Zappier or Microsoft Flow. We do it, and you should too!
+
+## Did I read a book?
+You are consuming content all the time, blogs, videos, tweets, though books are different. It allows you to choose what you want to learn deliberately. Also, the book got printed and made in your hand, which may also mean the author has some authenticity on the subject and can deliver some value as opposed to some random tweet pushed to you.
+Sure, you can not read a book every day, but we mean spending 10 to 15 minutes every day doing so. Once again, 1% investment in yourself everyday.
