@@ -1,5 +1,5 @@
 +++
-author = "Incubyte"
+authors = "Incubyte"
 categories = ["97 Things Not To Do"]
 date = 2020-09-01T00:00:00Z
 description = ""

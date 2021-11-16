@@ -1,5 +1,5 @@
 +++
-author = "Rupali Pardeshi"
+authors = "Rupali Pardeshi"
 categories = ["Security"]
 date = 2020-09-01T00:00:00Z
 description = ""
@@ -12,7 +12,7 @@ title = "Security Practices for Postgres Web Application"
 +++
 
 
-Data security is when protective measures are put in place to keep unauthorized access out of computers, websites, and databases. This process also provides a mechanism for protecting data from loss or corruption.
+Data security is when protective measures are put in place to keep unauthorsized access out of computers, websites, and databases. This process also provides a mechanism for protecting data from loss or corruption.
 
 There can be many ways in which a database's security can be breached. However, today I am going to be writing about one in particular - **SQL injection**.
 

@@ -1,5 +1,5 @@
 +++
-author = "Incubyte"
+authors = "Incubyte"
 date = 0001-01-01T00:00:00Z
 description = ""
 draft = true
@@ -18,7 +18,7 @@ And why we should delete dead code from any system.
 
 ### Security issues
 
-Security issues in dead code are still security issues. This means the attacker may still exploit a SQL injection in dead code to retrieve unauthorized data, or worst, to delete data! There are only two ways to prevent such security threats: either delete the dead code or fix your dead code's security vulnerabilities.
+Security issues in dead code are still security issues. This means the attacker may still exploit a SQL injection in dead code to retrieve unauthorsized data, or worst, to delete data! There are only two ways to prevent such security threats: either delete the dead code or fix your dead code's security vulnerabilities.
 
 ### Impact on coupling
 

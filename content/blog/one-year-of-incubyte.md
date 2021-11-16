@@ -1,5 +1,5 @@
 +++
-author = "Arohi Parikh"
+authors = "Arohi Parikh"
 categories = ["Playbook"]
 date = 2021-07-01T00:00:00Z
 description = ""
@@ -8,7 +8,7 @@ image = "/images/2021/07/1-year-blog-01.jpg"
 slug = "one-year-of-incubyte"
 tags = ["Playbook"]
 title = "One Year Of Pandemic & One Year Of Incubyte"
-authorLink = "/authors/arohi-parikh"
+authorsLink = "/authorss/arohi-parikh"
 +++
 
 

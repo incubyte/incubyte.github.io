@@ -1,5 +1,5 @@
 +++
-author = "Arohi Parikh"
+authors = "Arohi Parikh"
 categories = ["Careers", "Playbook"]
 date = 2020-09-01T00:00:00Z
 description = ""
@@ -42,7 +42,7 @@ The Company holds each one of its employees to an extremely high standard on per
 
 2. Pensions and tax benefits
 
-3. Home Office Fund - A budget allocated for each employee to set up their home office comfortably. We help you to be your most productive self 
+3. Home Office Fund - A budget allocated for each employee to set up their home office comfortably. We help you to be your most productive self
 
 4. Learning pool budget - As long as the course is relevant for the company and you'll do a lightning talk on the subject, we’re happy to help pay for it
 
