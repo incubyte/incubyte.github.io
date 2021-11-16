@@ -8,7 +8,7 @@ image = "/images/2021/07/1-year-blog-01.jpg"
 slug = "one-year-of-incubyte"
 tags = ["Playbook"]
 title = "One Year Of Pandemic & One Year Of Incubyte"
-
+authorLink = "/authors/arohi-parikh"
 +++
 
 
