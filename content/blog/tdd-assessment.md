@@ -1,5 +1,5 @@
 +++
-author = "Abhishek Keshri"
+authors = "Abhishek Keshri"
 categories = ["Careers", "Software Craftsmanship"]
 date = 2021-09-21T00:00:00Z
 description = "Incubyte TDD Assessment for software craftspersons"
@@ -8,8 +8,6 @@ image = "/images/2021/09/laptop-plant.jpg"
 slug = "tdd-assessment"
 tags = ["Careers", "Software Craftsmanship", "TDD"]
 title = "Incubyte TDD Assessment"
-authorLink = "https://github.com/2kabhishek"
-
 +++
 
 Hello there and welcome to the Incubyte TDD Kata!
