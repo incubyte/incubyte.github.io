@@ -23,16 +23,16 @@ Source control has become a litmus test of a good development workflow. SCM is t
 5. Database migration scripts
 6. Wiki, or Architecture Decision Record
 7. Any infrastructure-related scripts. Ex dockerfile, docker compose, terraform etc
-		
+
 ### Do you have an automated database versioning tool?
 Tools like Flyway and, Liquibase stores your database migrations in a text file. Once the database changes are captured in a text file, they can become part of the SCM and be versioned!
-	
+
 ### Did you start with a unit test?
 Practices like TDD or TCR(Test Commit Revert) are a few of the best practices for development workflow, but if you don't do it, at least make sure that high-quality test cases are part of your codebase. And they should execute often and preferably before you merge the code in your mainline.
 
-### Have you chosen a build tool? And made your build automated? Ex: Gradle, Maven, PyBuilder
+### Have you chosen a build tool? Is your build automated? Think Gradle, Maven, PyBuilder, or others.
 
-Be it the thousands of programming submissions we receive or our clients with legacy software. We still see codebases in Eclipse or IntelliJ workspace format, which depends on external Jar or binary files. They involve multiple manual steps before we can make builds successfully or set up the system. 
+Be it the thousands of programming submissions we receive or our clients with legacy software. We still see codebases in Eclipse or IntelliJ workspace format, which depends on external Jar or binary files. They involve multiple manual steps before we can make builds successfully or set up the system.
 
 Having your build configuration and dependencies as text files in the codebase helps to reproduce the development environment consistently across machines. Most modern build tools have loads of other features like one-click builds, security checks, license compatibility checks, etc.
 
@@ -47,8 +47,7 @@ Configure your CI/CD pipelines in such a way so that your code repositories reje
 Does your code automatically deploy upon successful merge in the pipeline? Does it require manual release approval? Whatever it may be, it has to be part of the fully automated pipeline. You are doing something severely wrong if you need to SSH somewhere or FTP files manually.
 
 ### Did you deploy a walking skeleton?
-Once you have the smallest working piece of your software along with a framework that can do all of the above, deploy it. This will require you to set up a build tool, database, migration tool, CI/CD pipeline, code scan, and test execution. 
+Once you have the smallest working piece of your software along with a framework that can do all of the above, deploy it. This will require you to set up a build tool, database, migration tool, CI/CD pipeline, code scan, and test execution.
 And finally, validate all of it by pushing small code changes that gets tested and deployed automatically and succesfully.
- 
 
-
+The software industry sees so much evolution so fast, but these are a few practices that have stood the test of time and become the holy grail when it comes to basic SDLC hygiene. A good checklist for kick-starting any new project!
