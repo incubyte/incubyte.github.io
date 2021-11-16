@@ -5,7 +5,6 @@ date = 2021-10-18T05:06:00Z
 image = "/images/2021/10/tech-debt-head.jpg"
 draft = false
 authors = "Incubyte"
-authorsLink = "https://incubyte.co"
 description = "Learn more about technical debt and its effects on software in the long run"
 tags = ["Software Craftsmanship", "Best Practices", "SDLC"]
 type = ""

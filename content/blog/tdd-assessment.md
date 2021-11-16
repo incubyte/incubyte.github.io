@@ -8,8 +8,6 @@ image = "/images/2021/09/laptop-plant.jpg"
 slug = "tdd-assessment"
 tags = ["Careers", "Software Craftsmanship", "TDD"]
 title = "Incubyte TDD Assessment"
-authorsLink = "https://github.com/2kabhishek"
-
 +++
 
 Hello there and welcome to the Incubyte TDD Kata!

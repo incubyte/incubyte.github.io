@@ -5,7 +5,6 @@ date = 2021-09-24T05:06:00Z
 image = "/images/2021/09/pair-prog-head.jpg"
 draft = false
 authors = "Incubyte"
-authorsLink = "https://incubyte.co"
 description = "Pair programming is an eXtreme Programming practice. And in this article, we explore how pair programming really does work!"
 tags = ["Software Craftsmanship", "Best Practices", "SDLC"]
 categories = ["Software Craftsmanship", "Best Practices", "SDLC"]
