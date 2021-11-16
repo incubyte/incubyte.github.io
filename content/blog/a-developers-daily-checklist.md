@@ -1,11 +1,11 @@
 +++
-author = "Incubyte"
+authors = "Incubyte"
 date = 2021-11-17T00:00:00Z
 description = "Are you a software developer? How can you be more effective on this journey of being a craftsman? See your daily productivity checklist"
 draft = false
-image = "/images/2021/checklist2.jpg"
+image = "/images/2021/11/checklist2.jpg"
 slug = "your-daily-checklist"
-tags = ["playbook"]
+tags = ["Playbook"]
 title = "Your daily productivity checklist"
 
 +++
