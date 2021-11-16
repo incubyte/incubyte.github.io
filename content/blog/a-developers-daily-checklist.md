@@ -1,3 +1,14 @@
++++
+author = "Incubyte"
+date = 2021-11-17T00:00:00Z
+description = "Are you a software developer? How can you be more effective on this journey of being a craftsman? See your daily productivity checklist"
+draft = false
+image = "/images/2021/checklist2.jpg"
+slug = "benefits-and-challenges-of-open-source-development"
+tags = ["playbook"]
+title = "Your daily productivity checklist"
++++
+
 Are you a software developer? How can you be more effective on this journey of being a craftsman? 
 A lot has been written on this subject, but most focus on the big picture. 
 But what about little things you can do to improve your daily work? All you need is 1% improvement to be on the trajectory of being a better developer and possibly a better human being.
