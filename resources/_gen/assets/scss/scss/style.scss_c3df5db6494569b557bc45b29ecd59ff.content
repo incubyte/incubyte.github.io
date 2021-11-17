@@ -284,10 +284,6 @@ textarea.form-control {
   @media (max-width: 991px) {
     .navbar-expand-lg .navbar-nav .nav-link {
       padding: 10px; } }
-#select-language {
-  background-color: transparent;
-  font-weight: 700; }
-
 .banner {
   padding: 100px 0 50px; }
 
@@ -322,11 +318,6 @@ textarea.form-control {
   .social-icons a:hover {
     color: #fff;
     background-color: #5cc5d5; }
-
-.card-img {
-  object-fit: cover;
-  width: 100%;
-  height: 10vw; }
 
 a.post-title {
   color: #222;
@@ -523,8 +514,7 @@ a.post-title {
 
 .slick-dots {
   text-align: center;
-  margin-top: 20px;
-  padding: 0; }
+  margin-top: 20px; }
   .slick-dots li {
     display: inline-block;
     margin: 0 5px; }

@@ -32,7 +32,7 @@ This principle is just a tiny part of clean coding practices and signifies just 
 One trade-off of being a developer is getting caught in a spiral of monotonous, repetitive tasks. That leads to general unhappiness about your work. You have an opportunity to change that. Ask yourself, "Have I done this already three or more times?" If the answer is yes, then think about ways of automating it. Automation can range from sending emails to encapsulating code you find yourself writing over and over again.
 Believe it or not, you can send emails automatically by using Zappier or Microsoft Flow. We do it, and you should too!
 
-### 5. Did you make a note?
+### 5. Did I make a note?
 Wait, what! Notes? Isn't that something managers do? They do, but capturing the details of what you need to do, like thoughts on architecture while coding or even an execution plan, goes a long way. Numerous things come to our mind, either as part of team meetings or simply during showers. If you didn't note that thought down, it would be part of those thousands of things you thought of but never got to.
 Often, you may take shortcuts while coding, note them down, revisit the notes, create work items from there, and fix the technical debt you created!
 
@@ -40,7 +40,7 @@ Often, you may take shortcuts while coding, note them down, revisit the notes, c
 Now you have created the new shiny feature with the cleanest possible code, the Monalisa! Were you able to commit and push it?
 Understandably, you can't push something every day. But as developers, we must strive to create stories so small that we can do commits and push every day. These practices will promote frequent releases, smaller changes, and lower risks. Of course, all of this works well if you have looked into our [project kickoff checklist.](../kickstart-checklist/)
 
-### 7. Did you create a diagram?
+### 7. Did I create a diagram?
 Creating diagrams can help you clear your thoughts in terms of software architecture or simply workflows. One more advantage, others can refer to it!
 
 
