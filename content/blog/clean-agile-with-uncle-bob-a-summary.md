@@ -1,5 +1,5 @@
 +++
-author = "Heman Mehta"
+authors = "Heman Mehta"
 categories = ["Software Craftsmanship"]
 date = 2021-06-01T00:00:00Z
 description = ""
@@ -18,7 +18,7 @@ I recently attended an online session on Clean Agile, organized by O’Reilly pu
 
 I consider myself fortunate to have been a part of his introductory session. Not only did it broaden my understanding of Agile, but also gave me a unique perspective towards why it is important.
 
-To begin with, Robert Cecil Martin (Uncle Bob) is a legendary software professional, one of Agile’s founding fathers, and a signatory to the original Agile Manifesto. He is also a co-founder of [Clean Coders Studio](https://cleancoders.com/studio), best-selling author (btw, you should read [Clean Agile](https://g.co/kgs/nprVba)), and of course, an inspiration to numerous software developers (including me) and non-programmers as well.
+To begin with, Robert Cecil Martin (Uncle Bob) is a legendary software professional, one of Agile’s founding fathers, and a signatory to the original Agile Manifesto. He is also a co-founder of [Clean Coders Studio](https://cleancoders.com/studio), best-selling authors (btw, you should read [Clean Agile](https://g.co/kgs/nprVba)), and of course, an inspiration to numerous software developers (including me) and non-programmers as well.
 
 ### Lessons I learned from Uncle Bob
 

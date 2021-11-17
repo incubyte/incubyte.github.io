@@ -1,5 +1,5 @@
 +++
-author = "Incubyte"
+authors = "Incubyte"
 categories = ["Careers"]
 date = 0001-01-01T00:00:00Z
 description = ""

@@ -1,5 +1,5 @@
 +++
-author = "Incubyte"
+authors = "Incubyte"
 date = 0001-01-01T00:00:00Z
 description = ""
 draft = true
@@ -21,10 +21,10 @@ We will be using the editable space on the left to add our DSL and generate our 
 ```
 workspace "Getting Started" "This is a model of my software system." {
   model {
-      consumer = person "Consumer" "A consumer of our eCommerce Software System" 
+      consumer = person "Consumer" "A consumer of our eCommerce Software System"
       }
   views {
-      
+
   }
 }
 ```
@@ -36,10 +36,10 @@ Pasting this code and hitting render will produce a screenshot that would look l
 
         model {
             consumer = person "Consumer" "A consumer of our eCommerce Software System"
-            ecommerce = softwareSystem "eCommernce Software System" 
+            ecommerce = softwareSystem "eCommernce Software System"
             }
         views {
-        
+
         }
     }
 
@@ -49,11 +49,11 @@ Now our diagram still doesn't say much, let's go ahead and add a relationship be
 
 ```
     workspace "Getting Started" "This is a model of my software system." {
-    
+
         model {
             consumer = person "Consumer" "A consumer of our eCommerce Software System" "consumer"
             ecommerce = softwareSystem "eCommernce Software System" "" "ecommerce"
-            mailServer = softwareSystem "Sendgrid mail API" "" "mailServer" 
+            mailServer = softwareSystem "Sendgrid mail API" "" "mailServer"
             consumer -> ecommerce "Orders items"
             ecommerce -> mailServer "Sends request via HTTP to send emails"
             }
@@ -77,7 +77,7 @@ Now our diagram still doesn't say much, let's go ahead and add a relationship be
                 }
             }
         }
-    
+
     }
 
 ```
@@ -86,7 +86,7 @@ The resulting diagram should look like this now. ![img.png](images/step-by-step/
 
 ```
     workspace "Getting Started" "This is a model of my software system." {
-    
+
         model {
             consumer = person "Consumer" "A consumer of our eCommerce Software System" "consumer"
             ecommerce = softwareSystem "eCommernce Software System" "" "ecommerce"{
@@ -95,10 +95,10 @@ The resulting diagram should look like this now. ![img.png](images/step-by-step/
                 fileServer = container "NAS Drive to store all the files"
             }
             #relationships of software systems
-            mailServer = softwareSystem "Sendgrid mail API" "" "mailServer" 
+            mailServer = softwareSystem "Sendgrid mail API" "" "mailServer"
             consumer -> ecommerce "Orders items"
             ecommerce -> mailServer "Sends request via HTTP to send emails"
-            
+
             #relationships of containers
             appServer -> database "Reads from and writes data to"
             appServer -> fileServer "Reads from and writes files to"
@@ -131,7 +131,7 @@ The resulting diagram should look like this now. ![img.png](images/step-by-step/
                 }
             }
         }
-    
+
     }
 
 ```
@@ -140,7 +140,7 @@ We know that even the most straightforward eCommerce system will have many compo
 
 ```
 workspace "Getting Started" "This is a model of my software system." {
-    
+
         model {
             consumer = person "Consumer" "A consumer of our eCommerce Software System" "consumer"
             ecommerce = softwareSystem "eCommernce Software System" "" "ecommerce"{
@@ -152,18 +152,18 @@ workspace "Getting Started" "This is a model of my software system." {
                 fileServer = container "NAS Drive to store all the files"
             }
             #relationships of software systems
-            mailServer = softwareSystem "Sendgrid mail API" "" "mailServer" 
+            mailServer = softwareSystem "Sendgrid mail API" "" "mailServer"
             consumer -> ecommerce "Orders items"
             ecommerce -> mailServer "Sends request via HTTP to send emails"
-            
+
             #relationships of containers
             appServer -> database "Reads from and writes data to"
             appServer -> fileServer "Reads from and writes files to"
-            
+
             #relationships of components
             inventory -> database "Changes quantities of the products based on orders placed"
             imageService -> fileServer "Retrieves product images using protocols like FTP"
-            
+
             }
         views {
             systemContext ecommerce "SystemContext" "Sytem Context Diagram for a simple eCommerce System" {
@@ -196,13 +196,13 @@ workspace "Getting Started" "This is a model of my software system." {
                       background #08427b
                       color #ffffff
                   }
-                  
+
                   element "mailServer"{
                     background #808080
                 }
             }
         }
-    
+
     }
 
 ```
