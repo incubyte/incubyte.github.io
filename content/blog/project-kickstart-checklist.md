@@ -36,17 +36,24 @@ Be it the thousands of programming submissions we receive or our clients with le
 
 Having your build configuration and dependencies as text files in the codebase helps to reproduce the development environment consistently across machines. Most modern build tools have loads of other features like one-click builds, security checks, license compatibility checks, etc.
 
-### 5. Do you have static code analysis as part of your pipeline?
+### 5. Did you choose a logging framework?
+
+
+While it's is very tempting to defer choosing the logging framework and keep using console logging, it's not a good idea.
+Make this decision early on. You will be writing cleaner code by avoiding console printing like `print()` and `System.out.println()`.
+This decision will become helpful when you want to integrate a monitoring system like Sentry, Datadog, ELK, etc.
+
+### 6. Do you have static code analysis as part of your pipeline?
 
 Many code linters exist today, ranging from open-source PMD to Sonar or Snyke. These linters can catch code-style issues as well security vulnerabilities early in the SDLC. Make it part of your IDE as well as CI/CD pipelines.
 
-### 6. Do you have quality gates as part of the CI/CD pipeline?
+### 7. Do you have quality gates as part of the CI/CD pipeline?
 Configure your CI/CD pipelines in such a way so that your code repositories reject any code change which has issues. These issues can range from unit test failure to static code analysis issues in the build.
 
-### 7. Do you have a fully automated release and deployment process without manual steps?
+### 8. Do you have a fully automated release and deployment process without manual steps?
 Does your code automatically deploy upon successful merge in the pipeline? Does it require manual release approval? Whatever it may be, it has to be part of the fully automated pipeline. You are doing something severely wrong if you need to SSH somewhere or FTP files manually.
 
-### 8. Did you deploy a walking skeleton?
+### 9. Did you deploy a walking skeleton?
 Once you have the smallest working piece of your software along with a framework that can do all of the above, deploy it. This will require you to set up a build tool, database, migration tool, CI/CD pipeline, code scan, and test execution.
 And finally, validate all of it by pushing small code changes that gets tested and deployed automatically and succesfully.
 
