@@ -2,7 +2,7 @@
 title = "Understanding Technical debt!"
 slug = "tech-debt"
 date = 2021-10-18T05:06:00Z
-image = "/images/2021/10/tech-debt-head.jpg"
+image = "/images/2021/10/tech-debt-head.png"
 draft = false
 authors = "Incubyte"
 description = "Learn more about technical debt and its effects on software in the long run"
@@ -32,7 +32,7 @@ To summarize, technical debt often occurs when we focus on urgent work and put o
 
 ## Why is it worth understanding?
 
-{{< figure src="/images/2021/10/tech-debt-cost.jpg" >}}
+{{< figure src="/images/2021/10/tech-debt-1.jpg" >}}
 
 Technical debt affects both, the developers and the business.
 
@@ -83,7 +83,7 @@ Martin Fowler suggests a simple approach to navigate the complex matter of techn
 
 These two questions give you the four quadrants of technical debt:
 
-{{< figure src="/images/2021/10/tech-debt-quad.jpg" >}}
+{{< figure src="/images/2021/10/tech-debt-2.jpg" >}}
 
 ### Deliberate and Reckless
 
