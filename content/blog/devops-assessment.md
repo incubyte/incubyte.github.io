@@ -16,7 +16,7 @@ Through this assessment, we want to evaluate how well you can work with CI/CD to
 We want see the Devops Engineer in you.
 
 For this assessment, your goal is to create a CI/CD pipeline that can be used to test, build and deploy an application.
-The application should be deployed to Azure and will be tested against a set of test cases.
+The application should be deployed to cloud and will be tested against a set of test cases.
 
 ### Application Details
 
@@ -25,12 +25,12 @@ Go through the repository description to understand what it does and how to run 
 
 ## Tasks
 
-Your task is to implement the CI/CD pipelines for this application on Azure Devops, with the following steps:
+Your task is to implement the CI/CD pipelines for this application on Azure/AWS/Jenkins or your favorite CI/CD tools, with the following steps:
 
 1. Build
 2. Test
 3. Static code analysis (Any one of Sonar, PMD, FindBug etc)
-4. Deploy the application on Azure cloud
+4. Deploy the application on cloud
 
 ## Submitting the assessment
 
