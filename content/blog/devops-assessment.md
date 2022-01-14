@@ -37,8 +37,9 @@ Your task is to implement the CI/CD pipelines for this application on Azure/AWS/
 1. Fork [this repository](https://github.com/incubyte/ci-cd-kata/).
 2. Complete the tasks as described above.
 3. Make sure you follow best practices for DevOps, git and commit often.
-4. Push your changes to GitHub.
-5. Send us a link to your repository and live app.
+4. Add the link to your live application in the README.md file.
+5. Push your changes to GitHub.
+6. Send us a link to your repository.
 
 ## Have questions?
 
