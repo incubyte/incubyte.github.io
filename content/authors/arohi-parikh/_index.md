@@ -1,7 +1,6 @@
 ---
 title: Arohi Parikh
-image: 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Ursula_K_Le_Guin.JPG'
+image: 'https://pbs.twimg.com/profile_images/1361584483950944257/GxLeOb2r_400x400.jpg'
 
 ---
-Ursula Kroeber Le Guin (October 21, 1929 – January 22, 2018) was an American
-novelist. The New York Times described her as “America’s greatest  science fiction writer”, although she said that she would prefer to be known as an “American novelist”.
+Operations [@incubyte_co](https://twitter.com/incubyte_co) | Community Builder [@swcraftindia](https://twitter.com/swcraftindia) | Conscious Human | Words: "Leave the world better than you found it"
