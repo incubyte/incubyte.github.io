@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://incubyteco.github.io/"
+baseURL = "https://blog.incubyte.co/"
 title = "Incubyte Blog"
 theme = "bigspring"
 # post pagination
@@ -10,6 +10,8 @@ summaryLength = "15"
 disqusShortname = "" # get your shortname form here : https://disqus.com
 # google analytics
 googleAnalytics = "UA-178057567-1"
+enableRobotsTXT = true
+
 # unsafe html
 [markup.goldmark.renderer]
 unsafe = true

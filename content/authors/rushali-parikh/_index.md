@@ -1,5 +1,5 @@
 ---
-name: Arohi Parikh
+title: Rushali Parikh
+image: 'https://d3dkvycwtjicra.cloudfront.net/wp-content/uploads/2017/07/04095225/Rushali-Parikh-e1500276121166.jpg'
 ---
-Ursula Kroeber Le Guin (October 21, 1929 – January 22, 2018) was an American
-novelist. The New York Times described her as “America’s greatest  science fiction writer”, although she said that she would prefer to be known as an “American novelist”.
+Co-founder of [@incubyte_co](https://twitter.com/incubyte_co) | Co-organizer of Software Craftspeople - India | Product Enthusiast | Dedicated to making clean coding practices accessible
