@@ -76,7 +76,7 @@ void testThatItCapitalizeTheFirstChar() {
 ```
 Do you see the problem here? Our test case executes the function and it is covering all the lines, still, it is not covering all the scenarios. Even though our code coverage is 100%, our tests are rubbish! 
 
-What happens when someone sends `"hero"` and the function returns `"HERO"`!
+What happens when someone sends `"hero"` and the function returns `"HERO"`! That is the bug in the system but test cases are not covering that. Hence, we falsely assume that because of 100% code coverage, our app is robust and tests are very well written.
 
 **The higher percentage of coverage does not mean coverage of most scenarios**. It just means that all the lines were executed!
 
