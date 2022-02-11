@@ -1,8 +1,8 @@
 +++
 title = "Why Code Coverage Should Not Be Your Measure of Reliability"
-slug = "why-code-coverage-should-not-be-your-measure-of-reliability"
+slug = "code-coverage-and-reliability"
 date = 2022-02-10T22:58:11+05:30
-image = "/blog/why-code-coverage-should-not-be-your-measure-of-reliability/code-coverage.jpeg"
+image = "/images/2022/02/code-coverage.jpeg"
 draft = true
 authors = "Akshay Vadher"
 authorLink = "/authors/akshay-vadher/"
