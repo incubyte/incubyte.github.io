@@ -12,8 +12,8 @@ categories = ["Playbook", "Software Craftsmanship"]
 type = ""
 +++
 
-## What is code coverage
-It is the measure of how many lines were actually executed when test ran. 
+## What is code coverage?
+It is the measure of how many lines were actually executed when the test ran. 
 
 ### Example
 Below is the my super awesome mood detector based on number of chocolates I have
@@ -41,7 +41,7 @@ void testWhenIHaveOneChocoloate() {
 }
 ```
 
-As per the example, we covered only two cases and `if (noOfChocolatesIHave > 1) return "very happy"` case is not covered. So in layman's term, case coverage is `2/3 = 66%`
+As per the example, we covered only two cases and `if (noOfChocolatesIHave > 1) return "very happy"` case is not covered. So in layman's terms, case coverage is `2/3 = 66%`
 
 ## Standard rule
 The acceptable coverage number is 80+%. Why 80 and why not 100%? Let's take one example,
@@ -57,7 +57,7 @@ public void getMeHostName() {
   //
 }
 ```
-It is hard to generate test fixture where file does not exist; Also it is not worth putting that effort to check that test case at all as if conf file is not available then app might fail to start and other testcase anyways will fail.
+It is hard to generate test fixtures where the config file does not exist; Also it is not worth putting that effort to check that test case at all as, if the config file is not available then the app might fail to start and another test case anyways will fail.
 
 So these edge cases are hard to cover and hence 80% is industry standard. 
 
@@ -75,14 +75,14 @@ void testThatItCapitalizeTheFirstChar() {
 ```
 Do you see the problem here? Even though our code coverage is 100%, our tests are rubbish! 
 
-What happens when some one sends `"hero"` and the function returns `"HERO"`!
+What happens when someone sends `"hero"` and the function returns `"HERO"`!
 
-**The higher percentage of coverage does not mean coverage of most scenario**. It just means that all the lines where executed!
+**The higher percentage of coverage does not mean coverage of most scenarios**. It just means that all the lines were executed!
 
-## Problem 2 - When you focus on measure, people stop focusing on quality
-Let's assume that you have established a rule in automated pipeline (If you don't have automated pipeline then stop reading further, leave everything, and setup automation) that coverage should be minimum 80%. 
+## Problem 2 - When you focus on a measure, people stop focusing on quality
+Let's assume that you have established a rule in the automated pipeline (If you don't have an automated pipeline then stop reading further, leave everything, and setup automation) that coverage should be minimum 80%. 
 
-Some developer didn't bother to write test and build is failing. He would do something which any lazy and clever developer would do; that is, either add unnecessary code or add unnecessary tests. 
+Some developer didn't bother to write tests and the build is failing. He would do something which any lazy and clever developer would do; that is, either add unnecessary code or add unnecessary tests. 
 
 Example of how un necessary code can increase code coverage
 ```java
@@ -108,6 +108,6 @@ Saw the problem? Since the hack function has 50 lines and original function had 
 
 # How should we use code coverage measure?
 It should be used as a safety net. 
-If **coverage is low**, it should be cosidered un reliable code. 
+If **coverage is low**, it should be considered unreliable code. 
 
-But if **coverage is high**, then just **verify other** measure and code to increase confidence and hence reliability. 
+But if **coverage is high**, then just **verify other** measures and code to increase confidence and hence reliability. 
