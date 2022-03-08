@@ -109,6 +109,8 @@ Saw the problem? Since the hack function has 50 lines and original function had 
 
 # How should we use code coverage measure?
 It should be used as a safety net. 
-If **coverage is low**, it should be considered **unreliable** code. 
+If coverage is low, it should be considered unreliable code. 
 
-But if **coverage is high**, then just **verify other** measures and PROD code to increase confidence and hence reliability. 
+But if coverage is high, then just verify other measures and PROD code to increase confidence and hence reliability. 
+
+**Code coverage is required but not enough**
