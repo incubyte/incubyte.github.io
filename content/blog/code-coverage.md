@@ -140,6 +140,6 @@ Instead, code coverage should be coupled with functional coverage, where one ens
 
 ## Conclusion
 
-**Code Coverage is required but not enough.**
+Code Coverage is **required** but not **enough**.
 
 > Notes: [Code coverage Wikipedia](https://en.wikipedia.org/wiki/Code_coverage)
