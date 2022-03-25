@@ -138,4 +138,8 @@ Code coverage is a useful metric in the sense that it gives us an assurance abou
 
 Instead, code coverage should be coupled with functional coverage, where one ensures that the test suite actually tests all the functionality of the product.
 
+## Conclusion
+
+**Code Coverage is required but not enough.**
+
 > Notes: [Code coverage Wikipedia](https://en.wikipedia.org/wiki/Code_coverage)
