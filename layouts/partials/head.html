@@ -12,7 +12,7 @@
 {{ end }}
 <link rel="alternate" hreflang="x-default" href="{{ .RelPermalink | absLangURL }}">
 {{ end }}
-{{ with site.Params.author }}
+{{ with .Params.authors }}
 <meta name="author" content="{{ . }}">{{ end }}
 {{ hugo.Generator }}
 
