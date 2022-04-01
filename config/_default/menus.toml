@@ -88,7 +88,7 @@ weight = 2
 # footer menu right
 [[footer_right]]
 name = "Let's Get Started"
-url = "https://incubyte.co/#Get-in-touch"
+url = "https://www.incubyte.co/lets-get-started"
 weight = 1
 
 [[footer_right]]
