@@ -1,12 +1,4 @@
 {{ define "main" }}
-<style>
-  .content a {
-      color: #32a1d4;
-  }
-  .post-title {
-    text-transform: capitalize;
-  }
-</style>
 <!-- checking blog -->
 {{ if or (or (eq .Section "post") (eq .Section "blog")) (or (eq .Section "categories") (eq .Section "tags") )}}
 
