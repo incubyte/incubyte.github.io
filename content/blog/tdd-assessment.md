@@ -66,11 +66,12 @@ With that, let's jump right in! Follow the instructions below, take your time to
 
 1. Create a git repository on GitHub/GitLab.
 2. Clone the repository to your local machine.
-3. Follow best practices for TDD, git and commit often.
-4. Push your changes to GitHub/GitLab.
-5. Send us a link to your repository.
+3. Solve the kata by following best practices for TDD.
+4. Commit frequently and in a way that highlights each step of TDD separately, we want to see how your code evolves.
+5. Push your changes to GitHub/GitLab.
+6. Send us a link to your repository.
 
-> We encourage you to use the programming language you feel most comfortable with.
+> We encourage you to use the programming language and tools you feel most comfortable with.
 
 ## Have questions?
 
