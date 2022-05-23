@@ -1,18 +1,5 @@
 {{ define "main" }}
-
 {{ partial "page-header.html" . }}
-
-<style>
-    .btn-main-art{
-        background-color: #102c47;
-    }
-    .btn-main-art:hover{
-        background-color: #102c47 !important;
-    }
-    .post-title {
-        text-transform: capitalize;
-    }
-</style>
 <!-- checking blog -->
 {{ if or (or (eq .Section "post") (eq .Section "blog")) (or (eq .Section "authors") (eq .Section "tags") )}}
 <section class="section">
@@ -75,5 +62,4 @@
     </div>
 </section>
 {{ end }}
-
 {{ end }}
