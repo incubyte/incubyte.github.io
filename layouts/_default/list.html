@@ -1,5 +1,4 @@
 {{ define "main" }}
-
 {{ partial "page-header.html" . }}
 <!-- checking blog -->
 {{ if or (or (eq .Section "post") (eq .Section "blog")) (or (eq .Section "authors") (eq .Section "tags") )}}
@@ -63,5 +62,4 @@
     </div>
 </section>
 {{ end }}
-
 {{ end }}
