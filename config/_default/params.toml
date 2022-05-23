@@ -45,7 +45,7 @@ link = "https://twitter.com/Incubyte_co"
 [[social]]
 title = "GitHub"
 icon = "fab fa-github" # themify icon : https://themify.me/themify-icons
-link = "https://www.github.com/incubyteco"
+link = "https://www.github.com/incubyte"
 
 [[social]]
 title = "RSS Feed"
