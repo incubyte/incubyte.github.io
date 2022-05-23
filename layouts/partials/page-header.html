@@ -1,0 +1,8 @@
+<section class="section pb-0">
+  <div class="container text-left">
+    <h1 class="display-5">{{ .Title | markdownify }}</h1>
+    {{ with .Params.subtitle }}
+    <p class="text-left">{{ . | markdownify }}</p>
+    {{ end }}
+  </div>
+</section>
