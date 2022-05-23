@@ -28,11 +28,11 @@ With that, let's jump right in! Follow the instructions below, take your time to
 
 ## Things to keep in mind
 
-1. The solution needs to be hosted on a public GitHub/GitLab repository.
-2. You must solve the kata by following best practices for TDD. See [this](https://youtu.be/qkblc5WRn-U) to get started.
+1. Host your solution on a public GitHub/GitLab repository.
+2. Follow best practices for TDD. Watch [this video](https://youtu.be/qkblc5WRn-U) to understand TDD better.
 3. Commit your changes frequently to show how your code evolves with TDD.
 4. We encourage you to use the programming language and tools you feel most comfortable with.
-5. We do not have any strict deadlines etiher, we want to see the best you can do.
+5. Do not rush, take your time, we want to see your best work!
 6. Send us the link to your repo once you’re happy with what you’ve done.
 
 ## String Calculator TDD Kata
