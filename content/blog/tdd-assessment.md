@@ -26,6 +26,15 @@ As software developers searching the internet is something of a necessity and vi
 
 With that, let's jump right in! Follow the instructions below, take your time to do it well and send us your kata once you’re happy with what you’ve done.
 
+## Things to keep in mind
+
+1. The solution needs to be hosted on a public GitHub/GitLab repository.
+2. You must solve the kata by following best practices for TDD. See [this](https://youtu.be/qkblc5WRn-U) to get started.
+3. Commit your changes frequently to show how your code evolves with TDD.
+4. We encourage you to use the programming language and tools you feel most comfortable with.
+5. We do not have any strict deadlines etiher, we want to see the best you can do.
+6. Send us the link to your repo once you’re happy with what you’ve done.
+
 ## String Calculator TDD Kata
 
 1. Create a simple String calculator with a method signature:
@@ -60,18 +69,7 @@ With that, let's jump right in! Follow the instructions below, take your time to
 
     If there are multiple negatives, show all of them in the exception message.
 
-> Want more? Check out [TDD Kata 1](https://osherove.com/tdd-kata-1/) for the full version.
-
-## Submitting the assessment
-
-1. Create a git repository on GitHub/GitLab.
-2. Clone the repository to your local machine.
-3. Solve the kata by following best practices for TDD.
-4. Commit frequently and in a way that highlights each step of TDD separately, we want to see how your code evolves.
-5. Push your changes to GitHub/GitLab.
-6. Send us a link to your repository.
-
-> We encourage you to use the programming language and tools you feel most comfortable with.
+> Want more? Check out [TDD Kata 1](https://osherove.com/tdd-kata-1/) for the full version. **Extra points** for completing all the steps!
 
 ## Have questions?
 
