@@ -1,35 +1,32 @@
 {{ define "main" }}
-
 {{ partial "page-header.html" . }}
-
-<style>
-    .btn-main-art{
-        background-color: #102c47;
-    }
-    .btn-main-art:hover{
-        background-color: #102c47 !important;
-    }
-    .post-title {
-        text-transform: capitalize;
-    }
-</style>
 <!-- checking blog -->
 {{ if or (or (eq .Section "post") (eq .Section "blog")) (or (eq .Section "authors") (eq .Section "tags") )}}
-<section class="section">
+<section class="">
     <div class="container">
+        {{ if .Content }}
+        <div class="row">
+            <div class="col-8 mb-5 pb-5">
+                <div class="content">{{ .Content }}</div>
+            </div>
+        </div>
+        {{end}}
+        <div class="display-4">Posts</div>
+        <hr>
         <div class="row">
             {{ range first 1 (where .Data.Pages "Type" "featured") }}
             <div class="col-12 mb-5 pb-5">
                 <article class="row align-items-center">
                     <div class="col-md-6 mb-4 mb-md-0">
                         <a href="{{.Permalink}}">
-                        <img src="{{ .Params.image | relURL }}" alt="{{.Title}}" class="img-fluid rounded-lg w-100">
+                            <img src="{{ .Params.image | relURL }}" alt="{{.Title}}" class="img-fluid rounded-lg w-100">
                         </a>
                     </div>
                     <div class="col-md-6">
                         <h2><a href="{{ .Permalink }}" title="{{ .Title }}" class="post-title">{{ .Title }}</a></h2>
                         {{ range .Params.tags }}
-                        <span class="mb-1 badge rounded-pill bg-dark"> <a class="text-white" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
+                        <span class="mb-1 badge rounded-pill bg-dark"> <a class="text-white"
+                                                                          href="/tags/{{ . | urlize }}">{{ . }}</a></span>
                         {{ end }}
                         <p class="card-text">{{ .Summary }}</p>
                         <a href="{{.Permalink}}" title="{{ i18n " readmore" }} -
@@ -44,7 +41,7 @@
                 <article class="card border-0">
                     {{ if .Params.image }}
                     <a href="{{.Permalink}}">
-                    <img src="{{ .Params.image |relURL }}" alt="{{ .Title }}" class="mb-1 card-img rounded-lg mb-4">
+                        <img src="{{ .Params.image |relURL }}" alt="{{ .Title }}" class="mb-1 card-img rounded-lg mb-4">
                     </a>
                     {{ end }}
                     <div class="card-body p-0">
@@ -75,5 +72,4 @@
     </div>
 </section>
 {{ end }}
-
 {{ end }}
