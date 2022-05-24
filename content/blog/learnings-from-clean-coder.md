@@ -2,9 +2,9 @@
 title = "Learnings From Clean Code"
 slug = "learnings-from-clean-code"
 date = 2022-04-29T11:55:43+05:30
-image = "/images/2021/07/demo.jpg"
+image = "/images/2022/04/clean-code.jpg"
 draft = true
-authors = ["Jaymin Shah", "Abhishek Keshri"]
+authors = "Jaymin Shah"
 description = "Things we learned from the book Clean Code"
 tags = ["Playbook", "Software Craftsmanship", "Book Review"]
 categories = ["Playbook", "Software Craftsmanship", "Book Review"]
