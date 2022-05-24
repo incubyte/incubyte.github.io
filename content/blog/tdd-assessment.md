@@ -2,7 +2,7 @@
 authors = "Abhishek Keshri"
 categories = ["Careers", "Software Craftsmanship"]
 date = 2021-09-21T00:00:00Z
-description = "Incubyte TDD Assessment for software craftspersons"
+description = "Incubyte TDD Assessment for Software Craftspeople"
 draft = false
 image = "/images/2021/09/laptop-plant.jpg"
 slug = "tdd-assessment"
@@ -22,9 +22,18 @@ TDD is a core practice for all of us at Incubyte. We strongly believe that well 
 
 Through this assessment, we want to evaluate how readable and testable your code is. We want see the Software Craftsperson in you.
 
-As software developers searching the internet is something of a necessity and vital for our job. We encourage you to Google away! You can also visit our [inspiration](https://incubyte.co/inspiration/) page to find some useful talks and references that will help you through this assessment.
+As software developers, searching the internet is something of a necessity and is vital tool for being effective problem solvers. We encourage you to Google away! You can also visit our [inspiration](https://incubyte.co/inspiration/) page to find some useful talks and references that will help you sail through this assessment.
 
 With that, let's jump right in! Follow the instructions below, take your time to do it well and send us your kata once you’re happy with what you’ve done.
+
+## Things to keep in mind
+
+1. Host your solution on a **public** GitHub/GitLab repository
+2. Follow best practices for TDD. Watch [this video](https://youtu.be/qkblc5WRn-U) to understand TDD better
+3. Commit your changes frequently to show how your code evolves with every step of TDD
+4. We encourage you to use the programming language and tools you feel most comfortable with
+5. Do not rush, take your time, we want to see your best work!
+6. Send us the link to your repo once you’re happy with what you’ve done
 
 ## String Calculator TDD Kata
 
@@ -60,18 +69,7 @@ With that, let's jump right in! Follow the instructions below, take your time to
 
     If there are multiple negatives, show all of them in the exception message.
 
-> Want more? Check out [TDD Kata 1](https://osherove.com/tdd-kata-1/) for the full version.
-
-## Submitting the assessment
-
-1. Create a git repository on GitHub/GitLab.
-2. Clone the repository to your local machine.
-3. Solve the kata by following best practices for TDD.
-4. Commit frequently and in a way that highlights each step of TDD separately, we want to see how your code evolves.
-5. Push your changes to GitHub/GitLab.
-6. Send us a link to your repository.
-
-> We encourage you to use the programming language and tools you feel most comfortable with.
+> Want more? Check out [TDD Kata 1](https://osherove.com/tdd-kata-1/) for the full version. **Extra points** for completing all the steps!
 
 ## Have questions?
 
