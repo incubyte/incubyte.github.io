@@ -46,7 +46,7 @@ The Company holds each one of its employees to an extremely high standard on per
 
 4. Remote - Incubyte being a fully remote organization, is open to pan-India hiring.
 
-{{< flourish-visualization >}}
+{{< incubees-geography >}}
 
 5. Learning pool budget - As long as the course is relevant for the company and you'll do a lightning talk on the subject, we’re happy to help pay for it
 
