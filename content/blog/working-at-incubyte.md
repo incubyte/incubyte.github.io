@@ -44,19 +44,23 @@ The Company holds each one of its employees to an extremely high standard on per
 
 3. Home Office Fund - A budget allocated for each employee to set up their home office comfortably. We help you to be your most productive self
 
-4. Learning pool budget - As long as the course is relevant for the company and you'll do a lightning talk on the subject, we’re happy to help pay for it
+4. Remote - Incubyte being a fully remote organization, is open to pan-India hiring.
 
-5. Lightning talk - We do monthly lightning talks where different speakers do 5-15 min presentations on a single topic, example, idea, project, or technique. Meant to invoke interest, and to quickly introduce people to a topic
+{{< flourish-visualization >}}
 
-6. Books and reading list – We have a growing list of recommended books to read that will keep you up to speed on the latest developments
+5. Learning pool budget - As long as the course is relevant for the company and you'll do a lightning talk on the subject, we’re happy to help pay for it
 
-7. Bookclub - We have a monthly book club meeting where one or two team members talk about the latest books they have read or books that have stayed with them over a period of time and there is an open discussion around the subject or subjects
+6. Lightning talk - We do monthly lightning talks where different speakers do 5-15 min presentations on a single topic, example, idea, project, or technique. Meant to invoke interest, and to quickly introduce people to a topic
 
-8. Autonomy in working
+7. Books and reading list – We have a growing list of recommended books to read that will keep you up to speed on the latest developments
 
-9. Medical and accident coverage
+8. Bookclub - We have a monthly book club meeting where one or two team members talk about the latest books they have read or books that have stayed with them over a period of time and there is an open discussion around the subject or subjects
 
-10. Laptop hardware is provided to all our employees as per their configuration need
+9. Autonomy in working
 
-11. Welcome Kit with Incubyte merchandise
+10. Medical and accident coverage
+
+11. Laptop hardware is provided to all our employees as per their configuration need
+
+12. Welcome Kit with Incubyte merchandise
 
