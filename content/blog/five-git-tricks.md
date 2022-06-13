@@ -12,9 +12,9 @@ type = ""
 +++
 
 
-Git is the most widely used version control system in the world and it is something that every Software Craftsman should master.
+Git is the most widely used version control system in the world and it is something that every Software Craftsperson should master.
 
-In this article, we'll be going through five Git tricks that will make your software crafting easier.
+In this article, we'll be going through five git tricks that will make your software crafting easier.
 
 ## 1. Quickly set up git ssh credentials with GitHub CLI
 
