@@ -10,29 +10,30 @@ tags = ["Careers", "Software Craftsmanship", "TDD"]
 title = "Technical Assessment @ Incubyte"
 +++
 
-Incubyte is a combined effort of its team. Getting involved with us entails bringing your knowledge, curiosity, and authenticity to the table. The recruiting process plays a vital role here. Our interview evaluation criteria is specifically designed to scout the right people whose technical prowess, culture and mindset align with that of the company.
+Incubyte is a combined effort of its team. Getting involved with us entails bringing your knowledge, curiosity, and authenticity to the table. Our recruiting process plays a vital role here, and it is carefully designed to identify the right person whose technical prowess, culture and mindset, all align with that of the Company.
 
-We genuinely care about our core principles and values ([Why Incubyte](https://blog.incubyte.co/blog/why-incubyte/)). We are making constant efforts in creating a diverse and nurturing workplace while enabling a culture of constant learning and feedback. A place where each team member can thrive, be the best version of themselves while making steady progress in their personal and professional growth. Learn in detail about our hiring process here.
+We care about our core values ([Why Incubyte](https://blog.incubyte.co/blog/why-incubyte/)) and are constantly working to create a diverse and nurturing workplace while enabling a culture of constant learning and feedback. A place where each team member can thrive, be the best version of themselves while making steady progress in their personal and professional growth towards personal mastery. Learn more about our hiring process here.
 
-The usual interview process at Incubyte is divided into 5 levels:
+The interview process at Incubyte is divided into 5 stages:
 
-1. Pre-required learning
-2. Call with the People Success Team
-3. Technical Discussion with our existing team members
-4. Technical Assessment
-5. Software Craft Round
+1. Appication
+2. Pre-required learning
+3. Call with the People Success Team
+4. Technical Discussion with our existing team members
+5. Technical Assessment
+6. Software Craft Round
 
-In this blog, we want to dive deeper into what qualities and key areas we look for in all the above setps, which is our technical assessment:
+In this blog, we talk about what qualities and key areas we look for in all the above setps:
 
 ## Pre-required Learning
-This step is there to help you through the interview process. Before we schedule the first interview, we ask you to go through 3 videos which will set you up for success, and we give you unlimited time to do so.
+After you apply, and your resume has been screened by the People Success Team. You will receive an email that lists few concepts and short videos. This step exists to align you on what we expect through the interview process. This pre-requisite learning email will set you up for success, and we give you unlimited time to go through it.
 
-Here are the 3 videos we recommend: 
+Here are some of the things we recommend: 
 - Test-Driven Development: https://www.youtube.com/watch?v=qkblc5WRn-U
 - Software Craftsmanship: https://www.youtube.com/watch?v=c07uQGBZl0A
 - Clean Code: https://www.youtube.com/watch?v=zV079g7Irks&feature=emb_imp_woyt
 
-In this step we will also shine light upon other skills will help you get through the interview process. Like Common Git operations, hands-on knowledge of your IDE and an understanding of a unit testing framework to name a few!
+This step we will also shine light on other skills that will help you clear the interviews. For example, knowing common Git operations, hands-on knowledge of your IDE (with shortcuts) and an understanding of a unit testing framework to name a few!
 
 ## Call with the People Success Team
 In this step we aim to get on the same page with you about the role you are looking for and what we have to offer. Being remote-first also means that its so much more important that you and not just align on tech; but also on culture, attitude and core values! Our People Success Team are here to listen and help answer any questions you may have about the Company.
@@ -56,20 +57,21 @@ Although most people work on projects where build tools are already in place, an
 
 ### Clean coding practices
 
-It is not possible to evaluate everything by a quick assessment, but below mentioned are a few key indicators waving the green flag:
+It is not possible to evaluate everything during an interview, but below mentioned are a few key indicators that give us an insight into how you work:
 
-### Code format
+#### Code format
 
-Code writing skills are essential, but so is code readability. A neatly formatted code has the power of readability.
+Code writing skills are essential, but so is code readability. A neatly formatted code is readable.
 
-### Amount of nesting in your code
+#### Amount of nesting in your code
 
 Excessive nesting makes the code difficult to understand and raises cognitive complexity.
 
-Applying best practices to your code:
+#### Applying best practices to your code:
+
 Using clean code practices speaks much more of a personal habit as much as your coding skill. It can range from using the appropriate naming conventions to Page Object Models if you are working on test automation. Having some linters integrated into your IDE can help you adhere to the best practices.
 
-### Commented-out code
+#### Commented-out code
 
 Commented code is as good as a dead code. Version control systems, as well as modern IDEs, are great at maintaining history, code should not be kept commented with your current production code.
 
@@ -79,11 +81,9 @@ Commented code is as good as a dead code. Version control systems, as well as mo
 
 TDD, Pairing, Refactoring, working in iterations are a few practices we would love people to try. We take TDD to heart.
 
-We do not expect everyone to be proficient at it, but learning and knowing about it will be a great plus. Preparing for the interview by doing a few Katas will help a lot.
-BDD is a preferred method if you are programming for Automation Testing.
+We do not expect everyone to be proficient at it, but learning and knowing about it will be a great plus. Preparing for the interview by doing a few Katas will help a lot. BDD is a preferred method if you are programming for Automation Testing.
 
-Consider one of the interviews as a pairing exercise, in which an Incubyte developer will partner with you and act as a navigator. It is fine to look stuff up on the internet.
-We understand that having Maven or Gradle dependency coordinate on top of the code is difficult.
+Consider this round as a pairing exercise, in which an Incubyte developer will partner with you and act as a navigator. It is fine to look stuff up on the internet. We understand that having Maven or Gradle dependency coordinate on top of the code is difficult.
 Heck, we may still have to google whether is it String.length() or String.size()!
 
 Deadline pressure can result in unrefined code.
