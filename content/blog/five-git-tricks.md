@@ -168,23 +168,28 @@ You can use git aliases to make your life easier. You can add these aliases to y
 
 ```gitconfig
 [alias]
+    a = add
     c = commit
     l = pull
     p = push
     co = checkout
     br = branch
     st = stash
+    sw = switch
 ```
 
 Or you can use the following commands to add these aliases to your current shell config file (`~/.bashrc`,`~/.zshrc`, etc):
 
 ```sh
+alias g='git'
+alias ga='git add'
 alias gc='git commit -m'
 alias gl='git pull'
 alias gp='git push'
 alias gco='git checkout'
 alias gbr='git branch'
 alias gst='git stash'
+alias gsw='git switch'
 ```
 
 Add as many aliases as you want, saving these few keystrokes will make your life much easier in the long run.
