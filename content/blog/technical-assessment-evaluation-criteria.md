@@ -5,9 +5,9 @@ date = 2021-09-21T00:00:00Z
 description = "How we evaluate our candidates"
 draft = false
 image = "/images/2021/09/laptop-plant.jpg"
-slug = "technical-assessment-evaluation"
+slug = "Interview-process"
 tags = ["Careers", "Software Craftsmanship", "TDD"]
-title = "Technical Assessment @ Incubyte"
+title = "Interview Process and What we Look for in Candidates"
 +++
 
 Incubyte is a combined effort of its team. Getting involved with us entails bringing your knowledge, curiosity, and authenticity to the table. Our recruiting process plays a vital role here, and it is carefully designed to identify the right person whose technical prowess, culture and mindset, all align with that of the Company.
