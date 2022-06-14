@@ -14,22 +14,43 @@ Incubyte is a combined effort of its team. Getting involved with us entails brin
 
 We genuinely care about our core principles and values ([Why Incubyte](https://blog.incubyte.co/blog/why-incubyte/)). We are making constant efforts in creating a diverse and nurturing workplace while enabling a culture of constant learning and feedback. A place where each team member can thrive, be the best version of themselves while making steady progress in their personal and professional growth. Learn in detail about our hiring process here.
 
-The usual interview process at Incubyte is divided into three levels:
+The usual interview process at Incubyte is divided into 5 levels:
 
-1. Technical Assessment
-2. Technical Pairing Session with our existing team members
-3. Software Craft Round
-4. Final Round (if needed)
+1. Pre-required learning
+2. Call with the People Success Team
+3. Technical Discussion with our existing team members
+4. Technical Assessment
+5. Software Craft Round
 
-In this blog, we want to dive deeper into what qualities and key areas we look for in the first step above, which is our technical assessment:
+In this blog, we want to dive deeper into what qualities and key areas we look for in all the above setps, which is our technical assessment:
+
+## Pre-required Learning
+This step is there to help you through the interview process. Before we schedule the first interview, we ask you to go through 3 videos which will set you up for success, and we give you unlimited time to do so.
+
+Here are the 3 videos we recommend: 
+- Test-Driven Development: https://www.youtube.com/watch?v=qkblc5WRn-U
+- Software Craftsmanship: https://www.youtube.com/watch?v=c07uQGBZl0A
+- Clean Code: https://www.youtube.com/watch?v=zV079g7Irks&feature=emb_imp_woyt
+
+In this step we will also shine light upon other skills will help you get through the interview process. Like Common Git operations, hands-on knowledge of your IDE and an understanding of a unit testing framework to name a few!
+
+## Call with the People Success Team
+In this step we aim to get on the same page with you about the role you are looking for and what we have to offer. Being remote-first also means that its so much more important that you and not just align on tech; but also on culture, attitude and core values! Our People Success Team are here to listen and help answer any questions you may have about the Company.
+
+## Technical Discussion with our existing team members
+A 30 minute discussion about your technical background. We want to know your experience so far and how well you know the things that you have worked with.
 
 ## Technical Assessment
+A short offline coding test. We give you lots of time (unlimited) to take this assessment and send you resources and links that will help you clear it. Read further to learn about the things we look for in your submission.
 
-A short offline coding test. We give you lots of time (unlimited) to take this assessment and send you resources and links that will help you clear it.
+## Software Craft Round
+Congratulation! You have gotten to this round. Here is where all the fun happens. You will fire up you IDE with the langugae of your choice and get ready to get your hands dirty. We will solve a short Kata together as a team!
 
-A few key factors we consider when evaluating your submission are listed below:
+A few key factors we look for in both the Techncial Assessment as well as the Software Craft Round are:
 
-### Using a build tool like Maven or Gradle
+## Technical
+
+### Build tool like Maven or Gradle
 
 Although most people work on projects where build tools are already in place, and most of the work relates to coding, we believe that build tools are first-class members of our development life cycle. Choosing the best build and dependency management tool when beginning a new project is vital and can go a long way.
 
@@ -48,7 +69,7 @@ Excessive nesting makes the code difficult to understand and raises cognitive co
 Applying best practices to your code:
 Using clean code practices speaks much more of a personal habit as much as your coding skill. It can range from using the appropriate naming conventions to Page Object Models if you are working on test automation. Having some linters integrated into your IDE can help you adhere to the best practices.
 
-### A strict no to commented-out code
+### Commented-out code
 
 Commented code is as good as a dead code. Version control systems, as well as modern IDEs, are great at maintaining history, code should not be kept commented with your current production code.
 
@@ -77,23 +98,22 @@ Therefore, we encourage our teammates to keep learning and applying the knowledg
 We also love to maintain a balance between personal and professional lives.
 Life cannot be all work. Watch movies or binge on Netflix. Read your favourite books, write blogs if you prefer that, or even help in documents on GitHub if you love to. They are all an essential part of how we spend our time!
 
-### To summarize it
+### Non-technical
+Attitude, communication, ability to take and give feedback, how well you can use your IDE (read-shortcuts), ability to work as a team to name a few!
+
+## To summarize it
 
 The entire interview process is carefully curated by the HR, developers, and founders.
 The motto behind such a detailed interview is to help us identify the interviewees’ technical skills as well as more intrinsic qualities such as principles, beliefs and values.
 
-#### The key pointers when we hunt for the best minds are
+## The key pointers when we hunt for the best minds are
 
 - Code should be logically correct
 - It’s not just about completing the task, it’s more about the approach
 - We are huge fans of clean code practices
 - Simplicity and readability top the game
-- Effective communication is as vital as technical proficiency
+- Effective communication and the right attitude is as vital as technical proficiency
 
-Deviating from these key pointers lessens your chances of selection.
-
-We are a remote working organization. Therefore, the entire process of hiring the right person is important for us. We hope to find and add more gems to our team!
-
-We strive for knowledge and consistent progress. If you think you have the perfect blend of skills and expertise and are the best fit for Incubyte, feel free to contact us at careers@incubyte.co
+We look for a thirst for knowledge and passion for mastering your craft. If you think you have the perfect blend of skills and expertise for this, feel free to contact us at careers@incubyte.co
 
 > Also, we are currently hiring. Find vacancies [here](https://incubyte.co/careers).
