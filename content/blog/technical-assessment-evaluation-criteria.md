@@ -20,8 +20,7 @@ A typical interview process at Incubyte is divided into 5 stages:
 2. Pre-required learning
 3. Call with the People Success Team
 4. Technical Discussion Round
-5. Technical Assessment (offline)
-6. Software Craft Round
+5. Software Craft Round
 
 ## Pre-required Learning
 After you send in your application, and your resume has been screened by the People Success Team, you will receive an email that lists a few concepts and short videos. This step exists to align expectations through the interview process. This pre-requisite learning email will equip you with resources that set you up for success and.. we give you unlimited time to go through it!
@@ -39,15 +38,12 @@ In this step, we aim to align on the role you are looking for and what we have t
 ## Technical Discussion with our existing team members
 A 30-minute discussion around your technical background and journey so far. You can expect the conversation to revolve around languages, frameworks, and databases you have worked with; your prior experiences, projects, etc. This is for us to get introduced to the depth and breadth of your technical prowess. Here it is important that you have a good Wi-Fi connection since we'd want to have your video on during the discussion.
 
-## Technical Assessment
-A short offline coding test. We give you lots of time to take this assessment and send you resources and links that will help you clear it. Read further to learn about the things we look for in your submission. (Pst - you can google away all you like!)
-
 ## Software Craft Round
 Congratulations! You have gotten to this round. Here is where all the fun happens. You will fire up your IDE with the language of your choice and a simple Hello World program pre-installed and get ready to get your hands dirty. We will solve a short Kata together as a team! Consider this round as a pairing exercise, in which an Incubyte developer will partner with you and act as a navigator. It is fine to look stuff up on the internet. We understand that having Maven or Gradle dependency coordinate on top of the code is difficult. (We google things while working on production projects ALL the time!)
 
 This brings us to the end of our interview process, expect to walk away with an offer once you have cleared all these rounds. 
 
-Now comes the important part, how to clear these interview rounds? We have broken down our requirements into 2 parts:
+Now comes the important part, how to clear this interview round? We have broken down our requirements into 2 parts:
 1. Technical
 2. Non-technical  
 
