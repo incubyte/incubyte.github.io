@@ -23,7 +23,7 @@ Here are the tricks we'll be covering in this article:
 4. [Split one large branch into multiple](#split-one-large-branch-into-multiple)
 5. [Delete a branch from remote](#delete-a-branch-from-remote)
 
-## Quickly set up git SSH credentials with GitHub CLI
+## Quickly set up Git SSH credentials with GitHub CLI
 
 The first thing you want to do before trying out these tricks is to set up `git` and its credentials.
 
