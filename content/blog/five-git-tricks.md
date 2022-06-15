@@ -11,19 +11,19 @@ categories = ["Git", "Software Craftsmanship"]
 type = ""
 +++
 
-
 Git is the most widely used version control system in the world and it is something that every Software Craftsperson should master.
 
 In this article, we'll be going through five git tricks that will make your software crafting easier.
 
 Here are the tricks we'll be covering in this article:
-- 1. Quickly set up Git SSH credentials with GitHub CLI
-- 2. Create a new branch and track it with remote
-- 3. Quickly test changes across branches with the help of stash
-- 4. Split one large branch into multiple
-- 5. Delete a branch from remote
 
-## 1. Quickly set up Git SSH credentials with GitHub CLI
+- [1. Quickly set up Git SSH credentials with GitHub CLI](#quickly-set-up-git-ssh-credentials-with-github-cli)
+- [2. Create a new branch and track it with remote](#create-a-new-branch-and-track-it-with-remote)
+- [3. Quickly test changes across branches with the help of stash](#quickly-test-changes-across-branches-with-the-help-of-stash)
+- [4. Split one large branch into multiple](#split-one-large-branch-into-multiple)
+- [5. Delete a branch from remote](#delete-a-branch-from-remote)
+
+## Quickly set up git SSH credentials with GitHub CLI
 
 The first thing you want to do before trying out these tricks is to set up `git` and its credentials.
 
@@ -43,7 +43,7 @@ gh auth login
 
 This will take care of all the steps mentioned above + more.
 
-## 2. Create a new branch and track it with remote
+## Create a new branch and track it with remote
 
 Now that we are all set up with git credentials and have cloned the repo, it's time to create a new branch and start working on that new feature.
 
@@ -64,7 +64,7 @@ git push -u origin <branch>
 
 This will push the branch to remote and it will be available for everyone to pull from.
 
-## 3. Quickly test changes across branches with the help of stash
+## Quickly test changes across branches with the help of stash
 
 Let's say you want to try out a new config that you have added to your branch and have tested successfully, but before committing you want to make sure that this config change doesn't break the `main` branch.
 
@@ -99,7 +99,7 @@ git stash pop # Applies changes and removes the most recent stash
 
 Now you can commit your changes and push them to remote without worrying about the `main` branch.
 
-## 4. Split one large branch into multiple
+## Split one large branch into multiple
 
 While working on the feature, you got carried away and accidentally added commits for the next feature to the same branch, and now you want to split the branch into multiple branches.
 
@@ -140,7 +140,7 @@ You are done!
 
 To create multiple splits, use `git rebase --onto` to link the branches.
 
-## 5. Delete a branch from remote
+## Delete a branch from remote
 
 What if one of the branches is no longer needed or what if you made a typo while creating the branch.
 
@@ -163,7 +163,7 @@ git push origin :<branch>
 
 This will delete the branch from local and remote.
 
-## 6. Bonus: Use git aliases to make your life easier
+## Bonus: Use git aliases to make your life easier
 
 Alright! you made it to the end of this article and you have already seen a lot of git commands.
 
