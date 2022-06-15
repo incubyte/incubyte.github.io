@@ -27,9 +27,9 @@ A typical interview process at Incubyte is divided into 5 stages:
 After you send in your application, and your resume has been screened by the People Success Team, you will receive an email that lists a few concepts and short videos. This step exists to align on expectations through the interview process. This pre-requisite learning email will equip you with resources that set you up for success and.. we give you unlimited time to go through it!
 
 Here are some of the things we recommend: 
-- Test-Driven Development: https://www.youtube.com/watch?v=qkblc5WRn-U
-- Software Craftsmanship: https://www.youtube.com/watch?v=c07uQGBZl0A
-- Clean Code: https://www.youtube.com/watch?v=zV079g7Irks&feature=emb_imp_woyt
+- [Test-Driven Development](https://www.youtube.com/watch?v=qkblc5WRn-U)
+- [Software Craftsmanship](https://www.youtube.com/watch?v=c07uQGBZl0A)
+- [Clean Code](https://www.youtube.com/watch?v=zV079g7Irks&feature=emb_imp_woyt)
 
 This step also shines light on other skills needed to clear the interviews. For example, knowing common Git operations, hands-on knowledge of your IDE (with shortcuts) and an understanding of a unit testing framework to name a few!
 
