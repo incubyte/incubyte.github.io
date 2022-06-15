@@ -26,7 +26,7 @@ If you have set up git with ssh credentials earlier then you definitely know how
 - Generate a new ssh key
 - Add the ssh key to GitHub
 
-But wait there's a much smarter and foolproof way of setting up git with your GitHub credentials. All you need is the GitHub CLI installed on your system.
+But wait, there's a smarter (and foolproof) way of setting up git with your GitHub credentials. All you need is the GitHub CLI installed on your system.
 
 After that, it's as simple as:
 
@@ -35,8 +35,6 @@ gh auth login
 ```
 
 This will take care of all the steps mentioned above + more.
-
-Why work hard when you can work smart right?
 
 ## 2. Create a new branch and track it with remote
 
