@@ -95,7 +95,7 @@ We do not expect everyone to be proficient at it, but learning and knowing about
 - Effective communication and the right attitude are as vital as technical proficiency
 
 ### Non-technical
-Attitude, communication, the ability to take and give feedback, how well you can use your IDE (read-shortcuts), the ability to work collaboratively as a team, and the consultant mindset to name a few, are some qualities we look for in a future team member. A common thread that binds every single person at Incubyte is the passion to keep learning. We learn -> apply -> again learn -> again apply towards the goal of achieving professional mastery. We believe that everyone is the owner of their career and a lifelong learner. We have curated a blog on books you must read to this effect. (insert link)
+Attitude, communication, the ability to take and give feedback, how well you can use your IDE (read-shortcuts), the ability to work collaboratively as a team, and the consultant mindset to name a few, are some qualities we look for in a future team member. A common thread that binds every single person at Incubyte is the passion to keep learning. We learn -> apply -> again learn -> again apply towards the goal of achieving professional mastery. We believe that everyone is the owner of their career and a lifelong learner. We have curated a blog on books you must read to this effect ([here](https://blog.incubyte.co/blog/books-we-believe-should-be-on-your-bookshelf-and-read-them-too/)) 
 
 Life cannot be all work. Watch movies or binge on Netflix. Read your favorite books, write blogs if you prefer that, or even help with documents on GitHub if you want to. They are all an essential part of how we spend our time!
 
