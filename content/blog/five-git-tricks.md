@@ -16,7 +16,14 @@ Git is the most widely used version control system in the world and it is someth
 
 In this article, we'll be going through five git tricks that will make your software crafting easier.
 
-## 1. Quickly set up git ssh credentials with GitHub CLI
+Here are the tricks we'll be covering in this article:
+- 1. Quickly set up Git SSH credentials with GitHub CLI
+- 2. Create a new branch and track it with remote
+- 3. Quickly test changes across branches with the help of stash
+- 4. Split one large branch into multiple
+- 5. Delete a branch from remote
+
+## 1. Quickly set up Git SSH credentials with GitHub CLI
 
 The first thing you want to do before trying out these tricks is to set up `git` and its credentials.
 
@@ -38,7 +45,7 @@ This will take care of all the steps mentioned above + more.
 
 ## 2. Create a new branch and track it with remote
 
-Now that we are all set up with git credentials and have cloned the repo, it's time to create a new and start working on that new feature.
+Now that we are all set up with git credentials and have cloned the repo, it's time to create a new branch and start working on that new feature.
 
 But wait, how do we do all this?
 
