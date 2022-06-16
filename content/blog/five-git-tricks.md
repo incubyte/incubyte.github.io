@@ -6,8 +6,8 @@ image = "/images/2022/06/octocat.jpg"
 draft = false
 authors = "Abhishek Keshri"
 description = ""
-tags = ["Git", "Software Craftsmanship"]
-categories = ["Git", "Software Craftsmanship"]
+tags = ["Git", "Open Source", "Software Craftsmanship"]
+categories = ["Git", "Open Source", "Software Craftsmanship"]
 type = ""
 +++
 
