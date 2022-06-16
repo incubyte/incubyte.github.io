@@ -17,11 +17,11 @@ In this article, we'll be going through five git tricks that will make your soft
 
 Here are the tricks we'll be covering in this article:
 
-1. [Quickly set up Git SSH credentials with GitHub CLI](#quickly-set-up-git-ssh-credentials-with-github-cli)
-2. [Create a new branch and track it with remote](#create-a-new-branch-and-track-it-with-remote)
-3. [Quickly test changes across branches with the help of stash](#quickly-test-changes-across-branches-with-the-help-of-stash)
-4. [Split one large branch into multiple](#split-one-large-branch-into-multiple)
-5. [Delete a branch from remote](#delete-a-branch-from-remote)
+1. [Quickly set up Git SSH credentials with GitHub CLI](https://blog.incubyte.co/blog/five-git-tricks/#quickly-set-up-git-ssh-credentials-with-github-cli)
+2. [Create a new branch and track it with remote](https://blog.incubyte.co/blog/five-git-tricks/#create-a-new-branch-and-track-it-with-remote)
+3. [Quickly test changes across branches with the help of stash](https://blog.incubyte.co/blog/five-git-tricks/#quickly-test-changes-across-branches-with-the-help-of-stash)
+4. [Split one large branch into multiple](https://blog.incubyte.co/blog/five-git-tricks/#split-one-large-branch-into-multiple)
+5. [Delete a branch from remote](https://blog.incubyte.co/blog/five-git-tricks/#delete-a-branch-from-remote)
 
 ## Quickly set up Git SSH credentials with GitHub CLI
 
