@@ -4,7 +4,7 @@ slug = "five-git-tricks"
 date = 2022-06-14T00:10:46+05:30
 image = "/images/2022/06/octocat.jpg"
 draft = false
-author = "Abhishek Keshri"
+authors = "Abhishek Keshri"
 description = ""
 tags = ["Git", "Software Craftsmanship"]
 categories = ["Git", "Software Craftsmanship"]
@@ -171,7 +171,7 @@ But how do you remember all this? Easy!
 
 You can use git aliases to make your life easier. You can add these aliases to your `.gitconfig` file.
 
-```gitconfig
+```sh
 [alias]
     a = add
     c = commit
