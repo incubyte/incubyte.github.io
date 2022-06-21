@@ -14,7 +14,7 @@ Incubyte is a combined effort of its team. Working here entails bringing your kn
 
 We care about our core values ([Why Incubyte](https://blog.incubyte.co/blog/why-incubyte/)) and are constantly working to create a diverse and nurturing workplace while enabling a culture of constant learning and feedback. A place where each team member can thrive, and be the best version of themselves while making steady progress towards personal and professional mastery. Read on to know about our hiring process.
 
-A typical interview process at Incubyte is divided into 5 stages:
+A typical interview process at Incubyte involves 5 stages:
 
 1. Application
 2. Pre-required learning
