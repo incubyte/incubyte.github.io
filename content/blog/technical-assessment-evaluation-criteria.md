@@ -10,7 +10,7 @@ tags = ["Careers", "Software Craftsmanship", "TDD"]
 title = "How we hire Software Craftspeople"
 +++
 
-Incubyte is a combined effort of its team. Working here entails bringing your knowledge, curiosity, and authenticity to the table. Our recruiting process plays a vital role here, and it is carefully designed to identify the right person whose technical prowess, culture, and mindset, all align with that of the Company.
+Incubyte is a combined effort of its team. Working here entails bringing your knowledge, curiosity, and authenticity to the table. Our recruiting process plays a vital role here, and it is carefully designed to identify the right people whose technical prowess, culture, and mindset, all align with that of the Company.
 
 We care about our core values ([Why Incubyte](https://blog.incubyte.co/blog/why-incubyte/)) and are constantly working to create a diverse and nurturing workplace while enabling a culture of constant learning and feedback. A place where each team member can thrive, and be the best version of themselves while making steady progress towards personal and professional mastery. Read on to know about our hiring process.
 
