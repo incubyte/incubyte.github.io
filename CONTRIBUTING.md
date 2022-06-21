@@ -10,7 +10,7 @@ Use standard nouns as `prefix` to categorize the branch, e.g:
 - feature : When a new feature is to be added such as dark mode to our website
 - bugfix/hotfix : The purpose is to simple fix a bug that has sipped in
 
-### General naming guidelines:
+### Tips:
 
 - The branch name should be short and able to convey the objective of the changes
 - We'll follow the use of `/`(slash) delimiter between the category and branch motive
