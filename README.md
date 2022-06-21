@@ -11,3 +11,5 @@
 - `hugo new blog/article-name.md` to create new post
 - If you are adding images make sure they are optimized, we suggest something like `https://squoosh.app/`, images are stored in `static/images`
 - Commit in a new branch and create PR against `main` branch
+
+[Contributing Guidelines](./CONTRIBUTING.md)
