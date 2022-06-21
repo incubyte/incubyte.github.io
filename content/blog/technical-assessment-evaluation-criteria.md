@@ -22,7 +22,7 @@ A typical interview process at Incubyte involves 5 stages:
 4. Technical Discussion Round
 5. Software Craft Round
 
-## Pre-required Learning
+## Self-paced, Prerequisite Learning
 After you send in your application, and your resume has been screened by the People Success Team, you will receive an email that lists a few concepts and short videos. This step exists to align expectations through the interview process. This pre-requisite learning email will equip you with resources that set you up for success and.. we give you unlimited time to go through it!
 
 Here are some of the things we recommend: 
