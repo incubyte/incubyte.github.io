@@ -95,7 +95,7 @@ Attitude, effective communication, the ability to accept and deliver feedback, h
 
 Life cannot be all work. Watch movies or binge on Netflix. Read your favorite books, write blogs if you prefer that, or even help with documents on GitHub if you want to. They are all an essential part of how we spend our time!
 
-## To summarize it
+## To sum it all up
 
 Our interview process helps us not only identify the interviewees’ technical skills but also their intrinsic qualities such as principles, beliefs, and values.
 
