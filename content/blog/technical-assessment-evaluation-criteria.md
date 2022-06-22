@@ -19,8 +19,8 @@ A typical interview process at Incubyte involves 5 stages:
 1. Application
 2. Self-paced, prerequisite learning
 3. Call with the People Success Team
-4. Technical Discussion Round
-5. Software Craft Round
+4. Technical Discussion
+5. Software Craft Pairing
 
 ## Self-paced, Prerequisite Learning
 Once your application is shortlisted, you will receive an email with a list of resources and short videos. This email is meant to help prepare you for the interview process and set you up for success. Suggested learning in the email is self-paced and there is no time limit for you to complete it - we're perpetually hiring!
