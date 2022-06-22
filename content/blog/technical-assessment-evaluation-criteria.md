@@ -35,7 +35,7 @@ This step also shines light on other skills needed to clear the interviews. For 
 ## Call with the People Success Team
 In this step, we aim to align on the role you are looking for and what we have to offer and see if there is synergy there. Being remote-first also means that it is important that we align not just on tech; but also on culture, attitude, and core values! Our People Success Team are here to listen to your goals and help answer any questions you may have about the Company. Ask away!
 
-## Technical Discussion with our existing team members
+## Technical Discussion with an Incubyte Craftsperson
 A 30-minute discussion around your technical background and journey so far. You can expect the conversation to revolve around languages, frameworks, and databases you have worked with; your prior experiences, projects, etc. This is for us to get introduced to the depth and breadth of your technical prowess. Here it is important that you have a good Wi-Fi connection since we'd want to have your video on during the discussion.
 
 ## Software Craft Round
