@@ -1,8 +1,8 @@
 +++
 authors = "Arohi Parikh"
 categories = ["Careers", "Software Craftsmanship"]
-date = 2021-09-21T00:00:00Z
-description = "How we evaluate our candidates"
+date = 2022-06-22T00:00:00Z
+description = "Our Interview Process"
 draft = false
 image = "/images/2021/09/laptop-plant.jpg"
 slug = "interview-process"
