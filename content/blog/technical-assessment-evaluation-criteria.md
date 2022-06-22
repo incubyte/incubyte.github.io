@@ -16,7 +16,7 @@ We care about our core values ([Why Incubyte](https://blog.incubyte.co/blog/why-
 
 A typical interview process at Incubyte involves 5 stages:
 
-1. Application
+1. Application (See our open positions here)
 2. Self-paced, prerequisite learning
 3. Call with the People Success Team
 4. Technical Discussion
