@@ -48,7 +48,7 @@ The entire process can be broken down into two sections:
 2. Non-technical  
 
 ## Technical
-We'd love to see how you code and how you think. What matters to you and how does it align with what matters to us. Here are some of the technical things that matter most to us:
+At this point we're trying to get to know your technical self better. How you code, think and generally vibe with the things that matter to us will be taken into consideration here. Let's start:
   
 ### Build tools like Maven or Gradle
 
