@@ -41,7 +41,7 @@ A 30-minute discussion focused on your technical background and journey so far. 
 ## Software Craft Pairing
 This round is where the fun begins! Fire up your IDE with the language of your choice, a simple Hello World program pre-installed, and get ready to get your hands dirty. We will solve a short Kata together as a team! Consider this round as a pairing exercise, in which an Incubyte Craftsperson will partner with you and act as a navigator. It is fine to look stuff up on the internet. We understand that having Maven or Gradle dependency coordinate on top of the code is difficult. (We Google things while working on production projects ALL the time - its the thought process that matters!)
 
-This brings us to the end of our interview process, expect to walk away with an offer once you have cleared all these rounds. 
+This brings us to the end of our interview process. Expect to walk away with an offer once you have cleared all these rounds. We've even put together some additional information to help you crack it! You're welcome. ;)
 
 Now comes the important part, how to clear this interview round? We have broken down our requirements into 2 parts:
 1. Technical
