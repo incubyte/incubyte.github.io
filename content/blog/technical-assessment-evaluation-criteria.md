@@ -78,7 +78,7 @@ Commented code is as good as a dead code. Version control systems, as well as mo
 
 #### XP Practices
 
-TDD, Pairing, Refactoring, and working in iterations are a few practices we would love people to try. We take TDD very seriously.
+TDD, pairing, refactoring, and working in iterations are a few practices we value deeply and use on a daily basis. We take TDD very seriously.
 
 We do not expect everyone to be proficient at it, but learning and knowing about it will be a great plus. Preparing for the interview by doing a few Katas will help a lot. BDD is a preferred method if you are programming for Automation Testing.
 
