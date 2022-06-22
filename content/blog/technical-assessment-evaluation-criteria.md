@@ -25,7 +25,7 @@ A typical interview process at Incubyte involves 5 stages:
 ## Self-paced, Prerequisite Learning
 Once your application is shortlisted, you will receive an email with a list of resources and short videos. This email is meant to help prepare you for the interview process and set you up for success. Suggested learning in the email is self-paced and there is no time limit for you to complete it - we're perpetually hiring!
 
-Here are some of the things we recommend: 
+Some of our favourites: 
 - [Test-Driven Development](https://www.youtube.com/watch?v=qkblc5WRn-U)
 - [Software Craftsmanship](https://www.youtube.com/watch?v=c07uQGBZl0A)
 - [Clean Code](https://www.youtube.com/watch?v=zV079g7Irks&feature=emb_imp_woyt)
