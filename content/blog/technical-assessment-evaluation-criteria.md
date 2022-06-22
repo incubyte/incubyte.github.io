@@ -80,7 +80,7 @@ Commented code is as good as a dead code. Version control systems, as well as mo
 
 TDD, pairing, refactoring, and working in iterations are a few practices we value deeply and use on a daily basis. We take TDD very seriously.
 
-We do not expect everyone to be proficient at it, but learning and knowing about it will be a great plus. Preparing for the interview by doing a few Katas will help a lot. BDD is a preferred method if you are programming for Automation Testing.
+We do not expect everyone to be proficient at all these practices, but knowing about the benefits and committing to master them is a great start. Preparing for the interview by implementing these practices on a few Katas will help a lot. BDD is a preferred method if you are programming for Automation Testing.
 
 ## The key pointers when we hunt for the best minds are
 
