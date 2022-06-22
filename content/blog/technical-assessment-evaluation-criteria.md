@@ -99,6 +99,6 @@ Life cannot be all work. Watch movies or binge on Netflix. Read your favorite bo
 
 Our interview process helps us not only identify the interviewees’ technical skills but also their intrinsic qualities such as principles, beliefs, and values.
 
-We look for a thirst for knowledge and a passion for mastering your craft. If you think you have the perfect blend of skills and expertise for this, feel free to reach us at careers@incubyte.co
+We look for a thirst for knowledge and a passion for mastering your craft. If you think you have the perfect blend of skills and expertise for this, drop us a note on careers@incubyte.co
 
 > Find our current vacancies [here](https://incubyte.co/careers).
