@@ -52,7 +52,7 @@ We'd love to see how you code and how you think. What matters to you and how doe
   
 ### Build tools like Maven or Gradle
 
-We believe that build tools are first-class members of our development life cycle. Choosing the best build and dependency management tool when beginning a new project is vital and can go a long way.
+We believe that build tools are first-class members of our development life cycle. Choosing the best build and dependency management tool when beginning a new project goes a long way in ensuring smooth project completion.
 
 ### Clean coding practices
 
