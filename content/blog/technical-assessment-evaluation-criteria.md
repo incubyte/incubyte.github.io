@@ -56,7 +56,7 @@ We believe that build tools are first-class members of our development life cycl
 
 ### Clean coding practices
 
-It is not possible to evaluate everything during an interview, but below mentioned are a few key indicators that give us an insight into how you work:
+It is not possible to evaluate everything during an interview, but here are a few key indicators that give us an insight into how you work.
 
 #### Code format
 
