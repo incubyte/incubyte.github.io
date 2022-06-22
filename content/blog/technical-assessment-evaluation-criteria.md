@@ -66,7 +66,7 @@ Code writing skills are essential, but so is code readability. A neatly formatte
 
 Excessive nesting makes the code difficult to understand and raises cognitive complexity.
 
-#### Applying best practices to your code:
+#### Applying best practices to your code
 
 Using clean code practices speaks much more of a personal habit as much as your coding skill. It can range from using the appropriate naming conventions to Page Object Models if you are working on test automation. Having some linters integrated into your IDE can help you adhere to best practices.
 
