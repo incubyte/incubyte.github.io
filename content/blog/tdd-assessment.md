@@ -1,5 +1,5 @@
 +++
-authors = "Abhishek Keshri"
+authors = ["Abhishek Keshri"]
 categories = ["Careers", "Software Craftsmanship"]
 date = 2021-09-21T00:00:00Z
 description = "Incubyte TDD Assessment for Software Craftspeople"
