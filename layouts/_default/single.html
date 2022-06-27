@@ -16,8 +16,11 @@
         <div class="content">{{.Content}}</div>
 
         <p class="blockquote-footer text-right">
-          By <a href="/authors/{{ .Params.authors | urlize }}">
-            {{ .Params.authors }} </a> on {{ .Date.Format "Monday, January 2, 2006"}}
+          By
+          {{range .Params.authors}}
+            <a href="/authors/{{ . | urlize }}">{{ . }}</a>,
+          {{ end }}
+          on {{ .Date.Format "Monday, January 2, 2006"}}
         </p>
 
         <!-- comments -->

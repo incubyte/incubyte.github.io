@@ -1,5 +1,5 @@
 +++
-authors = "Sapan Parikh"
+authors = ["Sapan Parikh"]
 categories = ["97 Things Not To Do"]
 date = 2020-08-28T00:00:00Z
 description = ""

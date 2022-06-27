@@ -1,5 +1,5 @@
 +++
-authors = "Arohi Parikh"
+authors = ["Arohi Parikh"]
 categories = ["Playbook"]
 date = 2020-08-01T00:00:00Z
 description = ""
