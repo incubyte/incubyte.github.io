@@ -1,5 +1,5 @@
 +++
-authors = "Arohi Parikh"
+authors = ["Arohi Parikh"]
 categories = ["Careers", "Software Craftsmanship"]
 date = 2022-06-22T00:00:00Z
 description = "Our Interview Process For Software Craftspeople"
