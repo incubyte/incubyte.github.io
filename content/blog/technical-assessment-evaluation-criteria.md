@@ -2,12 +2,12 @@
 authors = "Arohi Parikh"
 categories = ["Careers", "Software Craftsmanship"]
 date = 2022-06-22T00:00:00Z
-description = "Our Interview Process"
+description = "Our Interview Process For Software Craftspeople"
 draft = false
 image = "/images/2021/09/laptop-plant.jpg"
-slug = "interview-process"
-tags = ["Careers", "Software Craftsmanship", "TDD"]
-title = "How we hire Software Craftspeople"
+slug = "software-crsftspeople-interview-process"
+tags = ["Careers", "Software Craftsmanship"]
+title = "How We Hire Software Craftspeople"
 +++
 
 Incubyte is a combined effort of its team. Working here entails bringing your knowledge, curiosity, and authenticity to the table. Our recruiting process plays a vital role here, and it is carefully designed to identify the right people whose technical prowess, culture, and mindset, all align with that of the Company.
@@ -51,7 +51,7 @@ This brings us to the end of our interview process. Expect to walk away with an 
 We have broken this down into two parts:
 
 1. Technical
-2. Non-technical_ 
+2. Non-technical
 
 ### Technical
 We want to see how you code, think and generally vibe with the things that matter to us. Clean coding, Test-Driven Development (TDD), pairing, refactoring, and working in iterations are a few practices we take seriously. Others, like choosing the right build and dependency management, code readability & formatting, minimal nesting & commented-out code, using version control systems & modern IDEs, etc. are the few of the things we look for during our interviews.
