@@ -43,7 +43,7 @@ This round is where the fun begins! Fire up your IDE with the language of your c
 
 This brings us to the end of our interview process. Expect to walk away with an offer once you have cleared all these rounds. We've even put together some additional information to help you crack it! You're welcome. ;)
 
-The entire process can be broken down into two sections:
+The entire process can be broken down into 2 parts:
 1. Technical
 2. Non-technical  
 
