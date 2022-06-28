@@ -53,9 +53,7 @@ We have broken this down into two parts:
 2. Non-technical_ 
 
 ## Technical
-We want to see how you code, think and generally vibe with the things that matter to us. Like choosing the right build and dependency management, code readability & formatting, amount of nesting in your code, commented-out code, using version control systems, modern IDEs, etc. 
-
-Test-Driven Development (TDD), pairing, refactoring, and working in iterations are a few practices we take seriously and use daily. 
+We want to see how you code, think and generally vibe with the things that matter to us. Clean coding, Test-Driven Development (TDD), pairing, refactoring, and working in iterations are a few practices we take seriously. Others, like choosing the right build and dependency management, code readability & formatting, minimal nesting & commented-out code, using version control systems & modern IDEs, etc. are the few of the things we look for during our interviews.
 
 We do not expect everyone to be proficient at all these practices, but knowing about the benefits and committing to master them is a great start. Preparing for the interview by implementing these practises on a few Katas will help a lot. BDD is a preferred method if you are programming for Automation Testing.
 
