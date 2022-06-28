@@ -36,10 +36,12 @@ The email also highlights other skills needed for the interviews. For example, k
 This step helps align your expectations from the role with what we have to offer. Being remote-first also means that it is important we're aligned not just on tech; but also on culture, attitude, and core values! Our People Success Team would also love to answer any questions you have about the Company, so ask away!
 
 ## Technical Discussion with an Incubyte Craftsperson
-A 30-minute discussion focused on your technical background and journey so far. You can expect the conversation to revolve around languages, frameworks, and databases you have worked with; your prior experiences, projects, etc. This is for us to get introduced to the depth and breadth of your technical expertise. Here it is important that you have a good Wi-Fi connection since we'd want to have your video on during the discussion.
+A 30-minute discussion focused on your technical background and journey so far. You can expect the conversation to revolve around languages, frameworks, and databases you have worked with; your prior experiences, projects, etc. This is for us to get introduced to the depth and breadth of your technical expertise.
 
 ## Hands-on Pairing with an Incubyte Craftsperson
 This round is where the fun begins! Fire up your IDE with the language of your choice, a simple Hello World program pre-installed, and get ready to get your hands dirty. We will solve a short Kata together as a team! Consider this round as a pairing exercise, in which an Incubyte Craftsperson will partner with you and act as a navigator. It is fine to look stuff up on the internet. We understand that having Maven or Gradle dependency coordinate on top of the code is difficult. (We Google things while working on production projects ALL the time - its the thought process that matters!)
+
+It is important that you have a good Wi-Fi connection since we'd want to have your video on during both the above technical rounds.
 
 This brings us to the end of our interview process. Expect to walk away with an offer once you have cleared all these rounds. We've even put together some additional information to help you crack it! You're welcome. ;)
 
