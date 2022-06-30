@@ -54,10 +54,9 @@ We have broken this down into two parts:
 2. Non-technical
 
 ### Technical
-We want to see how you code, think and generally vibe with the things that matter to us. Clean coding, Test-Driven Development (TDD), pairing, refactoring and working in iterations are a few practices we take seriously. Others, like choosing the right build and dependency management, code readability & formatting, minimal nesting & commented-out code, using version control systems & modern IDEs, etc. are the few of the things we look for during our interviews.
+We want to see how you code, think and generally vibe with the things that matter to us. Clean coding, Test-Driven Development (TDD), Pairing, Refactoring, Behaviour Driven Development (BDD), and working in iterations are a few practices we take seriously. In our interviews for Software Craftspeople, we look for everything from a neat directory structure to the use of build management tools like Maven, Gradle, npm; proficiency in the programming language of your choice (we majorly use Java, C#, Python & TypeScript); unit test frameworks such as JUnit, testNG, PyTest, Jest, Mocha and more!
 
-We do not expect everyone to be proficient at all these practices, but knowing about the benefits and committing to master them is a great start. Preparing for the interview by implementing these practises on a few Katas will help a lot. BDD is a preferred method if you are programming for Automation Testing.
-
+We do not expect everyone to be proficient at all of the above, but knowing about the benefits and committing to master them is a great start. Preparing for the interview by implementing these practises on a few Katas will help a lot.
 
 ### Non-technical
 Attitude, effective communication, the ability to accept and deliver feedback, how well you use your IDE (read-shortcuts), the ability to work collaboratively as a team, and a consultant mindset to name a few, are some qualities we look for in a future team member. A common thread that binds every single person at Incubyte is the passion to keep learning. We learn -> apply -> learn again -> apply once more towards the goal of achieving professional mastery. We believe that each individual owns their own career and is a lifelong learner. Here is a curated a blog on books we recommended to this effect: ([here](https://blog.incubyte.co/blog/books-we-believe-should-be-on-your-bookshelf-and-read-them-too/))
