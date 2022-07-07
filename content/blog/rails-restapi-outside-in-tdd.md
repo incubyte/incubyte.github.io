@@ -2,7 +2,7 @@
 title = "Rails RESTful API, Outside in TDD"
 slug = "rails-restapi-tdd"
 date = 2022-07-02T02:32:46+05:30
-image = "/images/2022/07/tdd-in-d2d.jpg"
+image = "/images/2022/07/horizon.jpg"
 draft = true
 authors = ["Nitin Rajkumar"]
 description = ""
@@ -42,7 +42,6 @@ Spent few extra hours that night and finished the assignment.
  
 I woke up in the morning and felt tired and soon figured out I have forgot my medication too and I could not get them in that town. Just before submitting the project I was quickly reviewing the major functionalities, the ones I considered to be challenging, if at all are working as expected and soon found that the model accepts input with title as empty string which shouldn't be the case and I found few other minor issues just at a glance and I was unaware and worried how many more may surface up. By then I was already regretting that I have relied too much on my gut. I then decided to create a safety-net for the RESTful API just like the check-list I thought of having for the backpack. 
 
-{{< figure src="/images/2022/07/house.jpg" >}}
 
 
 ### When is the right time to write unit tests
@@ -192,12 +191,12 @@ The above three methods needs to be shifted into their own respective independen
 
 class TodosController < ApplicationController
 
-    def initialize(service=CreateRunner.new)
-        @service = service
+    def initialize(runner=CreateRunner.new)
+        @runner = runner
     end
     def create
         todo_params = params.permit(:title, :description)
-        result, status = @service.create_todo(todo_params)
+        result, status = @runner.create_todo(todo_params)
         render json: result, status:status    
     end
 end
@@ -228,6 +227,9 @@ end
 ### simplicity is the key for a system to work in the best way
 
 With clear plan of architecture and a checklist of practices to follow and there was one last question where do I start with the development.
+
+{{< figure src="/images/2022/07/crossroads.jpeg" >}}
+
 
 Where should I start first write model specs, controller specs, Runner specs or Repository Specs, this question has to be responded with every time a new resource or funcionality is addressed. In 1952 William Edmund Hick and Ray Hyman a pair of psychologits conducted an experiment to examine relationship between number of stimuli present and individual's reaction time to any given stimulus, the result was obvious the more stimuli to choose from, the longer it takes user to make a decision on which one to interact with.
 
@@ -320,7 +322,7 @@ RED:
 GREEN: 
     class TodosController < ApplicationController
         def initialize(runner="")
-            @service = runner
+            @runner = runner
         end
     end
 Run the tests
@@ -364,14 +366,14 @@ RED:
 
 GREEN:
     def create
-        @service.create_todo
+        @runner.create_todo
     end
 
 
 RED:
 
   1) Todos Controller invokes the instance of Create_Runner successfully
-     Failure/Error: @service.create_todo()
+     Failure/Error: @runner.create_todo()
      
        #<Double "TodosRunner"> received :create_todo with unexpected arguments
          expected: ({:description=>"First todo", :title=>"Todo-1"})
@@ -383,7 +385,7 @@ RED:
        
 GREEN:
     def create
-        @service.create_todo(todo_params)
+        @runner.create_todo(todo_params)
     end
     def todo_params
         params.permit(:title, :description)
@@ -393,15 +395,15 @@ $ rspec
 RED:
 
   1) Todos with valid request attributes will create a Todo and return 201 returns status code 201
-     Failure/Error: @service.create_todo(todo_params)
+     Failure/Error: @runner.create_todo(todo_params)
      
      NoMethodError:
        undefined method `create_todo' for "":String
 
 GREEN:
 
-    def initialize(service = TodoRunner.new)
-        @service = service
+    def initialize(runner = TodoRunner.new)
+        @runner = runner
     end
 ```
 With this all the controller specs are fixed before moving further I had ran the request spec to check if fixing the controller had fixed the request spec. The reques spec is not fixed but I got my next direction to mover forward.
@@ -413,8 +415,8 @@ RED:
 
   1) Todos with valid request attributes will create a Todo and return 201 
      Failure/Error:
-       def initialize(service = TodosRunner.new)
-           @service = service
+       def initialize(runner = TodosRunner.new)
+           @runner = runner
      
      NameError:
        uninitialized constant TodosController::TodosRunner   
@@ -430,9 +432,9 @@ GREEN:
 ```
 
 
-The primary goal of writing this spec file is that a controller is missing and the secondary goal is to check if the controller exists it can invoke the instance of the service which serves the application/feature logic. 
+The primary goal of writing this spec file is that a controller is missing and the secondary goal is to check if the controller exists it can invoke the instance of the runner which serves the application/feature logic. 
 
-At this moment neither the controller exists nor the service exists, for the controller service is an external class and to check if it can invoke I had to create double and make the double react when it is called. This concept is called mocking.
+At this moment neither the controller exists nor the runner exists. For the controller runner is an external class and to check if controller can invoke the runner I had to create double and make the double react when it is called. This concept is called mocking.
 ```
 Failing Test Case:
 
@@ -521,8 +523,8 @@ RED:
 
 GREEN:
 
-    def initialize(service = TodosRepository.new)
-        @service = service
+    def initialize(repo = TodosRepository.new)
+        @repo = repo
     end
 
 $ rspec
@@ -643,7 +645,7 @@ RED:
 GREEN:
 
     def create        
-        result, status = @service.create_todo(todo_params)
+        result, status = @runner.create_todo(todo_params)
         json_result(result, status)
     end
     def json_result(object, status)
