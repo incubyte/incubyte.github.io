@@ -13,9 +13,15 @@ type = ""
 
 ### There is always a disciplined way to do things
 
-Even before I sipped the coffee, as the machine was dispensing it a rush, probably of pride, passed through, caused by the recent solution I had provided for a race-condition problem. While having the coffee staring at the rain outside through the glass door I intuitively thought about the number of ways in which I could skip taking up the tickets in the backlog considering them not be challenging and menial. My manager came upto me and asked me if I could, start that evening and go to a client location "A remote place with some historical significance" and work from there for a week on a small REST ful API, ofcourse I thought about it to be menial as he said. I just wanted to visit that place, in fact my first thoughts were to finish it as soon as possible and save time to explore the place. Took some time delivering the fix for race condition. In short of time, while travelling called home to help me gather the things to backpack.
+Even before I sipped the coffee, as the machine was dispensing it a rush, probably of pride, passed through, caused by the recent solution I had provided for a race-condition problem.
+While having the coffee staring at the rain outside through the glass door I intuitively thought about the number of ways in which I could skip taking up the tickets in the backlog considering them not be challenging and menial.
+My manager came upto me and asked me if I could, start that evening and go to a client location "A remote place with some historical significance" and work from there for a week on a small REST ful API, ofcourse I thought about it to be menial as he said.
+I just wanted to visit that place, in fact my first thoughts were to finish it as soon as possible and save time to explore the place.
+Took some time delivering the fix for race condition.
+In short of time, while travelling called home to help me gather the things to backpack.
 
-I reached the stay at the place only to realize that I had forgot to pack my dental kit, and had to wait for the stores to open up. With hindsight, I surely should have made a checklist of things to carry and marked them as soon as the item made its way into the bag.
+I reached the stay at the place only to realize that I had forgot to pack my dental kit, and had to wait for the stores to open up.
+With hindsight, I surely should have made a checklist of things to carry and marked them as soon as the item made its way into the bag.
 
 After the warm welcome at the client location and after listening to the expectations I had quickly setup the Rails Api- only project.
 
@@ -44,7 +50,10 @@ Rails ORM(object relational mapping) connects objects of an application to table
 
 Spent few extra hours that night and finished the assignment.
 
-I woke up in the morning and felt tired and soon figured out I have forgot my medication too, and I could not get them in that town. Just before submitting the project I was quickly reviewing the major functionalities, the ones I considered to be challenging, if at all are working as expected and soon found that the model accepts input with title as empty string, which shouldn't be the case, and I found few other minor issues just at a glance, and I was unaware and worried how many more may surface up. By then I was already regretting that I have relied too much on my gut. I then decided to create a safety-net for the RESTful API just like the check-list I thought of having for the backpack.
+I woke up in the morning and felt tired and soon figured out I have forgot my medication too, and I could not get them in that town.
+Just before submitting the project I was quickly reviewing the major functionalities, the ones I considered to be challenging, if at all are working as expected and soon found that the model accepts input with title as empty string, which shouldn't be the case, and I found few other minor issues just at a glance, and I was unaware and worried how many more may surface up.
+By then I was already regretting that I have relied too much on my gut.
+I then decided to create a safety-net for the RESTful API just like the check-list I thought of having for the backpack.
 
 ### When is the right time to write unit tests
 
@@ -123,13 +132,20 @@ RSpec.describe Todo, type: :model do
  it { should validate_length_of(:title).is_at_least(3)}
 ```
 
-I started writing unit-tests for Active record model followed by tests for the controller. Very soon into creating the safety-net, towards the end of that day, I have realized that I am actually writing specs that affirm the code that has been written is correct. Just like picking up a thing from the backpack and writing its name in the checklist and placing it back in the backpack and marking the checklist. Too late to write unit tests.
+I started writing unit-tests for Active record model followed by tests for the controller.
+Very soon into creating the safety-net, towards the end of that day, I have realized that I am actually writing specs that affirm the code that has been written is correct.
+Just like picking up a thing from the backpack and writing its name in the checklist and placing it back in the backpack and marking the checklist.
+Too late to write unit tests.
 
 {{< figure src="/images/2022/07/right-time.jpg" >}}
 
 ### Few minutes of planning saves few hours of work
 
-I took a long walk pondering about the reputation this quality-less and ill-confident code that I have written would bring to me and my company. Never have I thought a work that I considered to be menial would pose such a challenge. I had made my mind arrived at a decision to build the application from scratch by writing specs first. I did not want to realize that it is too late again. They say few minutes of planning would save few hours of work.
+I took a long walk pondering about the reputation this quality-less and ill-confident code that I have written would bring to me and my company.
+Never have I thought a work that I considered to be menial would pose such a challenge.
+I had made my mind arrived at a decision to build the application from scratch by writing specs first.
+I did not want to realize that it is too late again.
+They say few minutes of planning would save few hours of work.
 Did some research and found that the code should pass the following basic checks.
 
 [x] Fulfil Requirements without errors.
@@ -238,7 +254,8 @@ With clear plan of architecture, and a checklist of practices to follow and ther
 
 {{< figure src="/images/2022/07/crossroads.jpeg" >}}
 
-Where should I start first write model specs, controller specs, Runner specs or Repository Specs, this question has to be responded with every time a new resource or funcionality is addressed. In 1952 William Edmund Hick and Ray Hyman a pair of psychologits conducted an experiment to examine relationship between number of stimuli present and individual's reaction time to any given stimulus, the result was obvious the more stimuli to choose from, the longer it takes user to make a decision on which one to interact with.
+Where should I start first write model specs, controller specs, Runner specs or Repository Specs, this question has to be responded with every time a new resource or funcionality is addressed.
+In 1952 William Edmund Hick and Ray Hyman a pair of psychologits conducted an experiment to examine relationship between number of stimuli present and individual's reaction time to any given stimulus, the result was obvious the more stimuli to choose from, the longer it takes user to make a decision on which one to interact with.
 
 `Out side in test driven development` resolves this problem.
 
@@ -303,7 +320,8 @@ I created a new folder in the spec directory and named it as `controllers` and a
 
 The primary goal of writing this spec file is that a controller is missing, and the secondary goal is to check if the controller exists it can invoke the instance of the runner, which serves the application/feature logic.
 
-At this moment neither the controller exists, nor the runner exists, for the controller runner is an external class and to check if it can invoke I had to create a double for the runner and make the double react, as if it is the original, when it is called. This concept is also called mocking.
+At this moment neither the controller exists, nor the runner exists, for the controller runner is an external class and to check if it can invoke I had to create a double for the runner and make the double react, as if it is the original, when it is called.
+This concept is also called mocking.
 
 ```ruby
 Failing Test case:
@@ -416,7 +434,8 @@ GREEN:
     end
 ```
 
-With this all the controller specs are fixed before moving further I had ran the request spec to check if fixing the controller had fixed the request spec. The reques spec is not fixed, but I got my next direction to mover forward.
+With this all the controller specs are fixed before moving further I had ran the request spec to check if fixing the controller had fixed the request spec.
+The reques spec is not fixed, but I got my next direction to mover forward.
 
 ```ruby
 $ rspec  - The request spec pops the following error.
@@ -444,7 +463,9 @@ GREEN:
 
 The primary goal of writing this spec file is that a controller is missing, and the secondary goal is to check if the controller exists it can invoke the instance of the runner, which serves the application/feature logic.
 
-At this moment neither the controller exists, nor the runner exists. For the controller runner is an external class and to check if controller can invoke the runner I had to create double and make the double react when it is called. This concept is called mocking.
+At this moment neither the controller exists, nor the runner exists.
+For the controller runner is an external class and to check if controller can invoke the runner I had to create double and make the double react when it is called.
+This concept is called mocking.
 
 ```ruby
 Failing Test Case:
@@ -720,4 +741,7 @@ Fix:
 
 I was so immersed into conversing with rspec to develop this code, I felt like I was a part of a play, playing a character and that the play is being observed, and I am responding only when there is a cue and refrained to when there is no cue as I may mislead them observers if I take any decision without the cue from the RSpec.
 
-In this manner I had finished the assignment and gave it to the client. I had two days to go for a visit around the place. As I was watching a tomb my instinctive thoughts about the work start to take over me but with the fact that there never existed any piece of code before going through a test did not let those thoughts take over me, and they seem to have evaporated. The sight seeing was pleasant with nothing in the back of my mind.
+In this manner I had finished the assignment and gave it to the client.
+I had two days to go for a visit around the place.
+As I was watching a tomb my instinctive thoughts about the work start to take over me but with the fact that there never existed any piece of code before going through a test did not let those thoughts take over me, and they seem to have evaporated.
+The sight seeing was pleasant with nothing in the back of my mind.
