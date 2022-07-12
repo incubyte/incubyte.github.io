@@ -2,7 +2,7 @@
 title = "Rails RESTful API, Outside in TDD"
 slug = "rails-restapi-tdd"
 date = 2022-07-02T02:32:46+05:30
-image = "/images/2022/07/horizon.jpg"
+image = "/images/2022/07/outsidein.jpg"
 draft = false
 authors = ["Nitin Rajkumar"]
 description = ""
@@ -13,29 +13,24 @@ type = ""
 
 ### There is always a disciplined way to do things
 
-Even before I sipped the coffee, as the machine was dispensing it a rush, probably of pride, passed through, caused by the recent solution I had provided for a race-condition problem.
-While having the coffee staring at the rain outside through the glass door I intuitively thought about the number of ways in which I could skip taking up the tickets in the backlog considering them not be challenging and menial.
-My manager came upto me and asked me if I could, start that evening and go to a client location "A remote place with some historical significance" and work from there for a week on a small REST ful API, ofcourse I thought about it to be menial as he said.
-I just wanted to visit that place, in fact my first thoughts were to finish it as soon as possible and save time to explore the place.
-Took some time delivering the fix for race condition.
-In short of time, while travelling called home to help me gather the things to backpack.
+Even before I sipped the coffee, as the machine was dispensing it a rush, probably of pride, passed through, caused by the recent solution I had provided for a race-condition problem. While having the coffee staring at the rain outside through the glass door I intuitively thought about the number of ways in which I could skip taking up the tickets in the backlog considering them not to be challenging and menial.
+My manager came up to me and asked me if I could, start that evening and go to a client location “A remote place with some historical significance” and work from there for a week on a small RESTful API, of course I thought about it to be menial as he said. I just wanted to visit that place, in fact my first thoughts were to finish it as soon as possible and save time to explore the place. Took some time delivering the fix for race condition. With little time, while traveling, called home to help me gather the things in my backpack.
 
-I reached the stay at the place only to realize that I had forgot to pack my dental kit, and had to wait for the stores to open up.
-With hindsight, I surely should have made a checklist of things to carry and marked them as soon as the item made its way into the bag.
-
-After the warm welcome at the client location and after listening to the expectations I had quickly setup the Rails Api- only project.
+I reached the place only to realize that I had forgot to pack my dental kit, and had to wait for the stores to open up. *With hindsight, I surely should have made a checklist of things to carry and marked them as soon as the item made its way into the bag.*
+After the warm welcome at the client location and after listening to the expectations I had quickly set up the Rails Api- only project.
 
 *Rails is a web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.*
 
-To start a new rails api only project
+
 
 ```bash
+To start a new rails api only project
 rails new project_name --api
 ```
 
 #### Active Record
 
-Generated an active-record, if no datatype is provided string is considered as default
+Generated an active-record, if no data type is provided string is considered as default
 
 ```bash
 rails generate model Todo title description done:boolean
@@ -50,9 +45,9 @@ Rails ORM(object relational mapping) connects objects of an application to table
 
 Spent few extra hours that night and finished the assignment.
 
-I woke up in the morning and felt tired and soon figured out I have forgot my medication too, and I could not get them in that town.
+The next morning I felt tired and soon figured out I had forgotten my medication too, and I could not get them in that town.
 Just before submitting the project I was quickly reviewing the major functionalities, the ones I considered to be challenging, if at all are working as expected and soon found that the model accepts input with title as empty string, which shouldn't be the case, and I found few other minor issues just at a glance, and I was unaware and worried how many more may surface up.
-By then I was already regretting that I have relied too much on my gut.
+By then I was already regretting that I had relied too much on my gut.
 I then decided to create a safety-net for the RESTful API just like the check-list I thought of having for the backpack.
 
 ### When is the right time to write unit tests
@@ -132,7 +127,7 @@ RSpec.describe Todo, type: :model do
  it { should validate_length_of(:title).is_at_least(3)}
 ```
 
-I started writing unit-tests for Active record model followed by tests for the controller.
+I started writing unit-tests for the Active record model followed by tests for the controller.
 Very soon into creating the safety-net, towards the end of that day, I have realized that I am actually writing specs that affirm the code that has been written is correct.
 Just like picking up a thing from the backpack and writing its name in the checklist and placing it back in the backpack and marking the checklist.
 Too late to write unit tests.
@@ -143,25 +138,26 @@ Too late to write unit tests.
 
 I took a long walk pondering about the reputation this quality-less and ill-confident code that I have written would bring to me and my company.
 Never have I thought a work that I considered to be menial would pose such a challenge.
-I had made my mind arrived at a decision to build the application from scratch by writing specs first.
-I did not want to realize that it is too late again.
-They say few minutes of planning would save few hours of work.
+I had made up my mind to arrive at a decision to build the application from scratch by writing specs first.
+I did not want to realize that it was too late again.
+They say a few minutes of planning would save a few hours of work.
 Did some research and found that the code should pass the following basic checks.
-
-[x] Fulfil Requirements without errors.
-[x] The code should be maintainable and scalable
-[x] The code should adhere to Single Responsibility Principle(SRP).
-
+ 
+- [x] Fulfill Requirements without errors.
+- [x] The code should be maintainable and scalable.
+- [x] The code should adhere to Single Responsibility Principle(SRP).
+ 
 Test-driven development is a software development process relying on software requirements being converted to test cases before software is fully developed.
-
+ 
 1. Write production code only to pass a failing unit test.
 2. Write no more of a unit test than enough to fail.(RED)
 3. Write no more production code than necessary to pass the one failing unit test.(GREEN)
-
+ 
 A quick feedback on my previous code is that it is not maintainable, it is not scalable and that it violates one of the basic SOLID principles, which is SRP.
+
 Single Responsibility Principle states that every module of class should have one responsibility in a program.
 
-This is how my controller's create action(to save a todo) looked like, every thing was in the controller be it Rails specific code, active record specific code or application logic code.
+This is how my controller's create action(to save a todo) looked like, everything was in the controller be it Rails specific code, active record specific code or application logic code.
 
 ```ruby
 def create
@@ -203,7 +199,7 @@ def save_todo(todo)
 end
 ```
 
-The above three methods needs to be shifted into their own respective independent classes, and their instances should be invoked from the dependent classes and to reduce the coupling between dependent classes, need to create the instance at the class level and provide it to the methods.
+The above three methods need to be shifted into their own respective independent classes, and their instances should be invoked from the dependent classes and to reduce the coupling between dependent classes, need to create the instance at the class level and provide it to the methods.
 
 ```ruby
 class TodosController < ApplicationController
@@ -247,25 +243,12 @@ class Repository
     end
 end
 ```
-
 ### Simplicity is the key for a system to work in the best way
-
-With clear plan of architecture, and a checklist of practices to follow and there was one last question where do I start with the development.
-
-{{< figure src="/images/2022/07/crossroads.jpeg" >}}
-
-Where should I start first write model specs, controller specs, Runner specs or Repository Specs, this question has to be responded with every time a new resource or funcionality is addressed.
-In 1952 William Edmund Hick and Ray Hyman a pair of psychologits conducted an experiment to examine relationship between number of stimuli present and individual's reaction time to any given stimulus, the result was obvious the more stimuli to choose from, the longer it takes user to make a decision on which one to interact with.
-
-`Out side in test driven development` resolves this problem.
-
+Where should I start first? Model specs, Controller specs, Runner specs or Repository Specs? This question has to be responded to every time a new resource or functionality is addressed. In 1952 William Edmund Hick and Ray Hyman a pair of psychologists conducted an experiment to examine relationship between number of stimuli present and individual’s reaction time to any given stimulus, the result was obvious the more stimuli to choose from, the longer it takes user to make a decision on which one to interact with. Outside in test driven development resolves this problem.
 Using this approach I started with the feature or end point specification and worked my way inwards towards the repository layer.
-
 This test dropped me to the next layer, Controller, whose implementation is written after writing a spec for it.
-
 Fixing this should have fixed the end point specification, but it drops further down to the next layer, Runner(which contains the application login), whose implementation is written after the spec for it.
-
-The model is independent and can the spec for it can be written independent of the above flow.
+The model is independent and the spec for it can be written independent of the above flow.
 
 ```ruby
 Failing Test Case:
@@ -278,12 +261,10 @@ RSpec.describe "Todos", type: :request do
     end
   end
 end
-```
+
+$ rspec
 
 running the above specification resulted in the error
-
-```ruby
-rspec
 
 RED:
 
@@ -293,11 +274,8 @@ RED:
      ActionController::RoutingError:
      <span style="color:red">No route matches [POST] "/todos"</span>.
 
-```
-
 I need not have to ponder on what to do next, the spec failure suggested what needs to be fixed and that is the route.
 
-```ruby
 GREEN:
     found routes.rb in app/config directory and added the route as following
 
@@ -352,8 +330,10 @@ GREEN:
             @runner = runner
         end
     end
+```
 Run the tests
 
+```ruby
 $ rspec
 
 RED:
@@ -366,8 +346,10 @@ GREEN:
     def create
 
     end
+```
 
-rspec
+```ruby
+$ rspec
 
 RED:
 
@@ -379,7 +361,9 @@ GREEN:
     def todo_params
 
     end
+```
 
+```ruby
 $ rspec
 
 RED:
@@ -395,7 +379,10 @@ GREEN:
     def create
         @runner.create_todo
     end
+```
+```ruby
 
+$ rspec
 
 RED:
 
@@ -417,6 +404,9 @@ GREEN:
     def todo_params
         params.permit(:title, :description)
     end
+
+```
+```ruby
 $ rspec
 
 RED:
@@ -435,7 +425,7 @@ GREEN:
 ```
 
 With this all the controller specs are fixed before moving further I had ran the request spec to check if fixing the controller had fixed the request spec.
-The reques spec is not fixed, but I got my next direction to mover forward.
+The request spec is not fixed, but I got my next direction to move forward.
 
 ```ruby
 $ rspec  - The request spec pops the following error.
@@ -451,9 +441,9 @@ RED:
        uninitialized constant TodosController::TodosRunner
 ```
 
-Created a spec file for the TodosRunner before creating the class TodosRunner by adding the file to the runners folder in spec directory.
+Created a spec file for the TodosRunner before creating the class TodosRunner by adding the file to the runners folder in the spec directory.
 
-The basic resposibility of this class is similar to the controller in terms of invoking the instance of the class it is dependent on, which is to invoke the Repository Class.
+The basic responsibility of this class is similar to the controller in terms of invoking the instance of the class it is dependent on, which is to invoke the Repository Class.
 
 ```ruby
 GREEN:
@@ -461,11 +451,12 @@ GREEN:
 
 ```
 
-The primary goal of writing this spec file is that a controller is missing, and the secondary goal is to check if the controller exists it can invoke the instance of the runner, which serves the application/feature logic.
-
+The primary goal of writing this spec file is that a controller is missing, and the secondary goal is to check if the controller exists so it can invoke the instance of the runner, which serves the application/feature logic.
+ 
 At this moment neither the controller exists, nor the runner exists.
-For the controller runner is an external class and to check if controller can invoke the runner I had to create double and make the double react when it is called.
+The controller runner is an external class and to check if the controller can invoke the runner I had to create a double and make the double react when it is called.
 This concept is called mocking.
+
 
 ```ruby
 Failing Test Case:
@@ -484,6 +475,7 @@ end
 
 Testing the Todos Runner spec resulted in the following error which is expected
 
+$ rspec
 RED:
 
   1) Todos Controller invokes the instance of Create_Runner successfully
@@ -496,6 +488,9 @@ GREEN:
 
     Created new file todos_runner.rb in runners folder of app directory.
 
+```
+```ruby
+$ rspec
 RED:
 
  1) Todos  Runner  invokes the repository method new_todo
@@ -508,7 +503,8 @@ GREEN:
     def create_todo
 
     end
-
+```
+```ruby
 $ rspec
 
 RED:
@@ -525,7 +521,8 @@ GREEN:
     def create_todo(add_params)
 
     end
-
+```
+```ruby
 $ rspec
 
 RED:
@@ -542,7 +539,7 @@ GREEN:
     end
 ```
 
-Now that the runner spec is fixed ran the request spec to check if it has been fixed too?
+Now that the runner spec is fixed, so has run the request spec to check if it has been fixed too?
 
 ```ruby
 RED:
@@ -558,7 +555,9 @@ GREEN:
     def initialize(repo = TodosRepository.new)
         @repo = repo
     end
+```
 
+```ruby
 $ rspec
 
 RED:
@@ -601,7 +600,7 @@ Wrote a spec on Runner class to save the initialized todo and return it back.
 Failing Test Case:
         it " invokes the repository method new_todo" do
             save_params = {title: "Todo-1", description:'First todo' }
-            todo = Nitin.new(save_params)
+            todo = Todo.new(save_params)
             mock = double("TodosRepository")
             allow(mock).to receive(:new_todo).and_return(todo)
             expect(mock).to receive(:save_todo).with(todo)
@@ -612,21 +611,22 @@ RED :
   1) Todos  Runner  invokes the repository method new_todo
      Failure/Error: expect(mock).to receive(:save_todo).with(todo)
 
-       (Double "TodosRepository").save_todo(#<Nitin id: nil, title: "Todo-1", description: "First todo", created_at: nil, updated_at: nil>)
-           expected: 1 time with arguments: (#<Nitin id: nil, title: "Todo-1", description: "First todo", created_at: nil, updated_at: nil>)
+       (Double "TodosRepository").save_todo(#<Todo id: nil, title: "Todo-1", description: "First todo", created_at: nil, updated_at: nil>)
+           expected: 1 time with arguments: (#<Todo id: nil, title: "Todo-1", description: "First todo", created_at: nil, updated_at: nil>)
            received: 0 times
 GREEN:
     def create_todo(add_params)
         todo =@repo.new_todo(add_params)
         @repo.save_todo(todo)
     end
-
+```
+```ruby
 Failing Test Case:
 
         it " calls save_todo to save initialized todo and returns created" do
 
             save_params = {title: "Todo-1", description:'First todo' }
-            todo = Nitin.new(save_params)
+            todo = Todo.new(save_params)
             todosRunner = TodosRunner.new
             todo, status = todosRunner.create_todo(save_params)
             expect(status).to eq(:created)
@@ -691,7 +691,7 @@ All Greens
 
 ```
 
-I went on to write the request spec(todos_spec.rb) that expects 422 when title, which is a mandatory field is not passed.
+I went on to write the request spec(todos_spec.rb) that expects 422 when the title, which is a mandatory field, is not passed.
 
 ```ruby
 Failing Test Case:
@@ -711,13 +711,15 @@ RED:
   1) Todos with invalid request attributes returns status code 422
      Failure/Error: expect(response).to have_http_status(422)
        expected the response to have status code 422 but it was 201
+```
 
+```ruby
 The fix has to be done at Runner layer as this layer contains the application logic.
 todos_runner_spec.rb
 Failing Test Case:
         it " returns unprocessable entity when title is not passed" do
             save_params = {title: "", description:'First todo' }
-            todo = Nitin.new(save_params)
+            todo = Todo.new(save_params)
             todosRunner = TodosRunner.new
             todo, status = todosRunner.create_todo(save_params)
             expect(status).to eq(:unprocessable_entity)
@@ -734,14 +736,18 @@ Fix:
             return error ,:unprocessable_entity
         end
     end
- $ rspec all greens
+ $ rspec 
+
+All Green
+ 
 ```
 
-### It is always quite a sight to see all greens
+### It is always quite a sight to see all green
 
 I was so immersed into conversing with rspec to develop this code, I felt like I was a part of a play, playing a character and that the play is being observed, and I am responding only when there is a cue and refrained to when there is no cue as I may mislead them observers if I take any decision without the cue from the RSpec.
-
-In this manner I had finished the assignment and gave it to the client.
+ 
+In this manner I finished the assignment and gave it to the client.
 I had two days to go for a visit around the place.
-As I was watching a tomb my instinctive thoughts about the work start to take over me but with the fact that there never existed any piece of code before going through a test did not let those thoughts take over me, and they seem to have evaporated.
+As I was watching a tomb my instinctive thoughts about the work started to take over me but with the fact that there never existed any piece of code before going through a test did not let those thoughts take over me, and they seem to have evaporated.
 The sight seeing was pleasant with nothing in the back of my mind.
+
