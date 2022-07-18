@@ -25,7 +25,7 @@ Here are some challenges with traditional methodologies:
 
 These days we’re seeing the terms TDD [Test Driven Development, link: https://www.geeksforgeeks.org/test-driven-development-tdd/] and BDD [Behavior Driven Development, link: https://www.techtarget.com/searchsoftwarequality/definition/Behavior-driven-development-BDD] being tossed about a lot, but why the fuss? Radical as it may seem, focus on these processes have become a necessity now if you consider the data from various surveys that show how developers spend almost 1/3rd of their time working to fix issues in their code instead of working on a new feature/enhancement. [source: https://www.businesswire.com/news/home/20210216005484/en/Rollbar-Research-Shows-That-Traditional-Error-Monitoring-Is-Missing-the-Mark] 
  
-TDD helps circumvent these issues by:
+## TDD helps circumvent these issues by:
 
 •	Forcing attention on software design from the get-go with a focus on modularity
 •	Promoting an iterative development strategy
@@ -35,7 +35,6 @@ TDD helps circumvent these issues by:
 Using the “shift testing/QA to the left” approach, BDD ensures the essence of what the software is supposed to do, is completely and evenly spread across all vital stakeholders, including QAs and PAs. 
 
 We’ve integrated the design first approach of the game changing Gherkin + Karate frameworks in our development process as well. Product Analysts, with their client facing role, can contribute better to creating meaningful API test specifications. Moreover, this also becomes live documentation of the API which can be easily referred to by the development team. Any new code breaking the previous implementation can be caught within seconds with the magic of automation. 
-
 
 Implementing the pair programming approach, the analyst then works along with a developer to evaluate technical aspects of the feature specification. Over time as the analysts get trained, the process becomes better and feature specifications can be written quickly by the analyst or some other designated business stakeholder in the team thereby avoiding scope creep. Not to mention this is also an imperative skill for the analyst or business stakeholder to possess. 
 
