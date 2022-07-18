@@ -1,12 +1,12 @@
 +++
 authors = "Arjun RK"
-categories = []
+categories = ["agile"]
 date = 2022-06-06T00:00:00Z
 description = ""
 draft = true
-image = ""
+image = "/images/2022/05/esdt_title.jpg"
 slug = "estimation"
-tags = []
+tags = ["agile"]
 title = "ESDT"
 +++
 
@@ -48,7 +48,7 @@ Parametric estimation is one of the statistical methods to estimate the amount o
 
 A parameter with its assumed correlation to the amount of time taken is determined and is then scaled up to the actual project size. A deterministic result is a certain number or a figure based on such scaling of the correlation. A probabilistic result on the other hand provides a range of estimates over a probability density curve as given below:
 
-<!-- image -->
+<image src="/static/images/2022/05/Probabilistic_Parametric_Estimate.png"/>
 
 The first step in this technique is to determine the required parameter and the level of accuracy of the estimate. For example, take the method of story point estimation. We know that 1 story point is assigned to a task or a feature which is the most basic work that can be completed in a given time. Keeping such a story as a reference, all the other stories can be assigned points. This means we can correlate the time taken to complete a task and the story point which is
 EP = A<sub>old</sub>/P<sub>old</sub> * P<sub>curr</sub>.
@@ -69,8 +69,7 @@ Lower Boundary = ROM_Estimate * (1-25%)
 
 When a project is in its initial phases, the accuracy of our estimates tends to be vague as we accommodate for many unknowns, but as we progress along the project the estimates tend to be more definitive in nature with lesser deviation in terms of accuracy.
 
-
-<!-- Funnel illustrating the interdependencies of rough order of magnitude and definitive estimate -->
+<image src="/static/images/2022/05/ROM_funnel.png"/>
 
 ## PERT:
 PERT, also known as Project Evaluation Review Technique is another statistical estimation technique that incorporates all the uncertainties in the estimates. It is based on the idea that any task can have a broad range of estimates depending on unknowns. It is divided likely into the following points:
@@ -91,12 +90,11 @@ which is basically the variance from our most likely estimate.
 ## Weighted Average:
 A weighted average is a simple and quick way to estimate wherein we assign weights to a parameter of the estimate. For example, if we consider the optimistic, pessimistic, and most likely outcomes and assign weights to each outcome based on a probability percentage assuming our estimates are story points then the weighted average will be as follows:
 
-Optimistic = 50 with a likely outcome of 70%
-Pessimistic = 40 with a likely outcome of 40%
-Most Likely = 45 with a likely outcome of 30%
+Optimistic = 50 with a likely outcome of 70%  
+Pessimistic = 40 with a likely outcome of 40%  
+Most Likely = 45 with a likely outcome of 30%  
 
-Weighted average = (50*70%)+(40*40%)+(45*30%) 
-         		     3
+Weighted average = `(50*70%)+(40*40%)+(45*30%) / 3`
 
 ## Delphi:
 Unlike statistical methods, Delphi is a qualitative estimation technique where it mainly depends on experts working with the project. There are multiple rounds of questionnaires along the lines of effort and estimate, and in each round, everything is collated and summarized. The next round of questions is based on the disagreements of the previous rounds.
