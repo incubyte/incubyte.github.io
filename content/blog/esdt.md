@@ -7,7 +7,7 @@ draft = true
 image = "/images/2022/05/esdt_title.jpg"
 slug = "estimation"
 tags = ["agile"]
-title = "ESDT"
+title = "Estimating Software Development Time"
 +++
 
 What is the need for an “Estimate”, because everything is bound to change rite in actuality. Before coming to the need for estimation let us set the context for this discussion. Estimation is nothing but a human being’s innate necessity of wanting to predict the future with the term “Accuracy” directly relating to the probability of the expected outcome. In simple terms, we want stuff to happen the way we want and when we want.
