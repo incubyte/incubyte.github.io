@@ -1,5 +1,5 @@
 +++
-authors = "Arjun RK"
+authors = ["Arjun RK"]
 categories = ["Agile", "Estimation"]
 date = 2022-06-06T00:00:00Z
 description = "Why estimation is necessary for software development and how to do it."
