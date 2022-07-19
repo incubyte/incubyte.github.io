@@ -14,10 +14,14 @@ type = ""
 ### There is always a disciplined way to do things
 
 Even before I sipped the coffee, as the machine was dispensing it a rush, probably of pride, passed through, caused by the recent solution I had provided for a race-condition problem. While having the coffee staring at the rain outside through the glass door I intuitively thought about the number of ways in which I could skip taking up the tickets in the backlog considering them not to be challenging and menial.
-My manager came up to me and asked me if I could, start that evening and go to a client location “A remote place with some historical significance” and work from there for a week on a small RESTful API, of course I thought about it to be menial as he said. I just wanted to visit that place, in fact my first thoughts were to finish it as soon as possible and save time to explore the place. Took some time delivering the fix for race condition. With little time, while traveling, called home to help me gather the things in my backpack.
+
+My manager came up to me and asked me if I could, start that evening and go to a client location “A remote place with some historical significance” and work from there for a week on a small RESTful API(REDACTED to a Todo), of course I thought about it to be menial as he said. I just wanted to visit that place, in fact, finish the work as soon as possible and save time to explore the place. 
+
+Took some time delivering the fix for the race condition. With little time available for travel, while commuting, called home to help me gather the things in my backpack.
 
 I reached the place only to realize that I had forgot to pack my dental kit, and had to wait for the stores to open up. *With hindsight, I surely should have made a checklist of things to carry and marked them as soon as the item made its way into the bag.*
-After the warm welcome at the client location and after listening to the expectations I had quickly set up the Rails API only project.
+
+After the warm welcome at the client location and after listening to the expectations they had, I had quickly set up the Rails API only project.
 
 *Rails is a web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.*
 
@@ -47,8 +51,8 @@ Spent few extra hours that night and finished the assignment.
 
 The next morning I felt tired and soon figured out I had forgotten my medication too, and I could not get them in that town.
 Just before submitting the project I was quickly reviewing the major functionalities, the ones I considered to be challenging, if at all are working as expected and soon found that the model accepts input with title as empty string, which shouldn't be the case, and I found few other minor issues just at a glance, and I was unaware and worried how many more may surface up.
-By then I was already regretting that I had relied too much on my gut.
-I then decided to create a safety-net for the RESTful API just like the check-list I thought of having for the backpack.
+
+By then I was already regretting that I had relied too much on my gut. I then decided to create a safety-net for the RESTful API just like the check-list I thought of having for the backpack.
 
 ### When is the right time to write unit tests
 
@@ -128,7 +132,8 @@ RSpec.describe Todo, type: :model do
 ```
 
 I started writing unit-tests for the Active record model followed by tests for the controller.
-Very soon into creating the safety-net, towards the end of that day, I have realized that I am actually writing specs that affirm the code that has been written is correct.
+Very soon into creating the safety-net, towards the end of that day, I have realized that I am actually writing specs that affirm, the code that has been written is correct.
+
 Just like picking up a thing from the backpack and writing its name in the checklist and placing it back in the backpack and marking the checklist.
 Too late to write unit tests.
 
@@ -140,6 +145,7 @@ I took a long walk pondering about the reputation this quality-less and ill-conf
 Never have I thought a work that I considered to be menial would pose such a challenge.
 I had made up my mind to arrive at a decision to build the application from scratch by writing specs first.
 I did not want to realize that it was too late again.
+
 They say a few minutes of planning would save a few hours of work.
 Did some research and found that the code should pass the following basic checks.
 
@@ -244,10 +250,16 @@ class Repository
 end
 ```
 ### Simplicity is the key for a system to work in the best way
-Where should I start first? Model specs, Controller specs, Runner specs or Repository Specs? This question has to be responded to every time a new resource or functionality is addressed. In 1952 William Edmund Hick and Ray Hyman a pair of psychologists conducted an experiment to examine relationship between number of stimuli present and individual’s reaction time to any given stimulus, the result was obvious the more stimuli to choose from, the longer it takes user to make a decision on which one to interact with. Outside in test driven development resolves this problem.
+Where should I start first? Model specs, Controller specs, Runner specs or Repository Specs? This question has to be responded to every time a new resource or functionality is addressed.
+
+In 1952 William Edmund Hick and Ray Hyman a pair of psychologists conducted an experiment to examine relationship between number of stimuli present and individual’s reaction time to any given stimulus, the result was obvious the more stimuli to choose from, the longer it takes user to make a decision on which one to interact with.
+
+Outside in test driven development resolves this problem.
+
 Using this approach I started with the feature or end point specification and worked my way inwards towards the repository layer.
 This test dropped me to the next layer, Controller, whose implementation is written after writing a spec for it.
 Fixing this should have fixed the end point specification, but it drops further down to the next layer, Runner(which contains the application login), whose implementation is written after the spec for it.
+
 The model is independent, and the spec for it can be written independent of the above flow.
 
 ```ruby
@@ -748,6 +760,6 @@ I was so immersed into conversing with rspec to develop this code, I felt like I
 
 In this manner I finished the assignment and gave it to the client.
 I had two days to go for a visit around the place.
-As I was watching a tomb my instinctive thoughts about the work started to take over me but with the fact that there never existed any piece of code before going through a test did not let those thoughts take over me, and they seem to have evaporated.
+As I was watching a tomb my instinctive thoughts about the plausible errors in my work started to take over me but with the fact that there never existed any piece of code before going through a test did not let those thoughts take over me, and they seem to have evaporated.
 The sight seeing was pleasant with nothing in the back of my mind.
 
