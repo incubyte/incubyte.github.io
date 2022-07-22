@@ -1,45 +1,45 @@
 +++
-title = "Mobile QA Tools"
+title = " Mobile Test automation tool"
 slug = "demo-post"
 date = 2022-07-11T21:51:14+05:30
-image = "/images/2021/07/demo.jpg"
-draft = true
-authors = ["Incubyte"]
+image = "/images/2022/08/mobileTesting.jpg"
+draft = false
+authors = ["Deepali Mehroliya", "Taha Bikanerwala"]
 description = ""
-tags = ["Playbook", "Software Craftsmanship"]
+tags = ["Mobile","Automation testing", "Software Craftsmanship"]
 categories = ["Playbook", "Software Craftsmanship"]
 type = ""
 +++
 
-Research : Mobile Test automation framework
 
-In the present world mobile applications are highly in demand and are growing continuously across all business sectors. The excellent usability of mobile applications makes it more popular among mobile end users. To tap such mobile users and convert them into a customer base, organizations are ready to do everything possible to create apps that are loved by their prospective users.
+In the present world mobile applications are highly in demand and are growing continuously across all business sectors. One of the key elements in any successful mobile application development is the mobile app testing strategy. Mobile app testing strategy ensures that all the business expectations , requirements and objectives are met before the app is deployed. However testing also imposes challenges on cost optimization as it requires the ability to support various mobile devices and OS. 
 
-One of the key elements in any successful mobile application development is the mobile app testing strategy. Mobile app testing strategy ensures that all the business expectations , requirements and objectives are met before the app is deployed. However testing also imposes challenges on cost optimization as it requires the ability to support various mobile devices and OS. At times mobile QAing becomes costlier and more time consuming as organizations need to
+### Mobile app testing strategy
+It is recommended that the mobile app testing should involve both manual and automation testing. The use cases that are run frequetly and have a fixed or predictable outcome can be automated. The routine test that you run on every day basis to check basic functionality of app can be considered to be automated. In the long run, automating routine tasks pays off as you save a lot of time and avoid potential errors caused by repetition. 
 
-- Test whether the application is working flawlessly on various platforms like Android , iOS and windows.
-- Test mobile application to ensure Functionality, Accessibility, Usability, Performance and Security.
-- Test mobile applications frequently with every launch of a new feature , OS upgrade or new device modal.
+### Benefits and drawbacks of Mobile test automation 
 
-To solve such a critical situation , the best solution or testing strategy is to automate mobile app testing as much as possible. Now you might be wondering why mobile app testing is the best strategy. So let&#39;s look at some of the benefits of mobile testing.
+Few of the benfits of mobile test automation are listed below 
 
-Benefits of Mobile automation testing
+-  Speeds up and eases mobile testing process
+-  Improves reliability and accuracy
+-  Improves visibility because of automated reporting feature
+-  Enable non functional testing like performance testing, load testing, security testing etc.
 
-Performing Regression tests for each and every mobile build on various mobile platforms is a repetitive and time consuming job. Sometimes manual testing ends up taking more time than the development itself. In such situations Mobile automation testing becomes not only important but also a necessary step. Automation testing -
 
-1. Speeds up and eases mobile testing process
-2. Increases test coverage
-3. Improves reliability and accuracy
-4. Improves visibility because of automated reporting feature
-5. Enable performance testing
+### Mobile test automation tools
+Now that we know which use cases are to be automated. The question is, which testing tool is suitale for automation of your mobile app ? 
 
-Now that we are done with the introduction and description part, let&#39;s move to our research on automation testing tools.
+There are a wide range of mobile automation tools available in the market that can test native, web and hybrid app. Based on your app type and project requirement you can decide which set of tools you want to explore.
 
-To solve the above mentioned critical situations our team decided to automate the mobile testing process. There are a wide range of mobile automation tools available in the market. Some tools like appium support automating both iOS and Android , some tools like XCtest support iOS automation testing and tools like Espresso supports Android automation testing.
+Since our App Under Test (AUT) is a hybrid app and based on our project requirement and team skillset we decided to explore tools that support both iOS and Android. The tools that we shortlisted for evaluation were Flutter, Appium with java client, Appium with Webdriverio as javascript client.
 
-Since our requirement included testing both Android and iOS and to have all test scripts placed in one single place we decided to explore frameworks/tools that support both iOS and Android. The framework that we shortlisted for exploration were Flutter framework, Appium with java client, Appium with Webdriverio as javascript client. Our approach was to analyze and implement each framework to test feasibility in terms of stability, robustness, and maintenance. Below are the pros and cons of each framework mentioned:-
+- Evaluation approach
 
-- Our first choice was Flutter, since it was using the same programming language as the code base of the application. But looking at the pros and cons, we moved on to the framework for exploration
+Our approach was to analyze and implement each framework to test feasibility in terms of stability, robustness, and maintenance. Below are the pros and cons of each framework mentioned:-
+
+#### 1. Flutter
+Our first choice was Flutter, since it was using the same programming language as the code base of the application. But looking at the pros and cons, we moved on to the framework for exploration
 
 | _Flutter + Dart_ |
 | --- |
@@ -52,7 +52,8 @@ Since our requirement included testing both Android and iOS and to have all test
 | Devs can contribute | Complexity of BDD implementation. Every step definition has a different class file which will become difficult to maintain as we increase the number of test cases. |
 | Reporting | There is more like widget testing |
 
-- The next option that we explored was Appium framework with java client. We all know that Java is widely used for automation test scripts so we decided to explore this framework. The major issue here was WebDriver handling. By handling we mean complexity of implementation and maintenance of webdriver. The single WebDriver instance has to be passed from one class to another for the entire test execution cycle. which becomes a tedious job when we have multiple page class. Apart from that, Java supports synchronous execution, which means for executing the next step the previous step has to be completed. Below are few pro and cons we found in Appium java client framework.
+#### 2. Appium with java client
+The next option that we explored was Appium framework with java client. We all know that Java is widely used for automation test scripts so we decided to explore this framework. The major issue here was WebDriver handling. By handling we mean complexity of implementation and maintenance of webdriver. The single WebDriver instance has to be passed from one class to another for the entire test execution cycle. which becomes a tedious job when we have multiple page class. Apart from that, Java supports synchronous execution, which means for executing the next step the previous step has to be completed. Below are few pro and cons we found in Appium java client framework.
 
 | Appium + Java |
 | --- |
@@ -66,7 +67,8 @@ Since our requirement included testing both Android and iOS and to have all test
 | They don&#39;t need to access the source code of the application under test |
  |
 
-- The final framework we explored is Appium with javascript client using webdriverio. The power of Javascript&#39;s asynchronous execution along with Appium gave us just the compatibility we needed.
+#### 3. Appium with Webdriverio
+The final framework we explored is Appium with javascript client using webdriverio. The power of Javascript&#39;s asynchronous execution along with Appium gave us just the compatibility we needed.
 
 | _Appium + WebdriverIO_ |
 | --- |
