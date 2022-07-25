@@ -82,4 +82,4 @@ Our interview process helps us not only identify the interviewees’ technical s
 We look for people with hunger for knowledge and a passion for mastering their craft. If you think you have the perfect blend of skills and expertise (or know someone who does) for this, drop us a note at [careers@incubyte.co](mailto:careers@incubyte.co)
 
 
-> Our [current vacancies](https://incubyte.co/careers).
+> Go to [current openings](https://incubyte.co/careers).
