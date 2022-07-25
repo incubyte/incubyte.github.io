@@ -6,6 +6,8 @@
 -   Make sure to add a beginning and a conclusion.
 -   Try to talk about the problem before presenting the solution.
 -   Run your article through a spellchecker and/or [grammarly](https://app.grammarly.com/) for possible typos.
+-   Make sure your Markdown code is properly formatted, using a formatter like prettier is recommended.
+-   Run `hugo serve` after making changes to verify the changes on your local.
 
 # Naming Conventions
 
