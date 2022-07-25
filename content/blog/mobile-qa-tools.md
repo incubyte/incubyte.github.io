@@ -41,48 +41,16 @@ Our approach was to analyze and implement each framework to test feasibility in 
 #### 1. Flutter
 Our first choice was Flutter, since it was using the same programming language as the code base of the application. But looking at the pros and cons, we moved on to the framework for exploration
 
-| _Flutter + Dart_ |
-| --- |
-| _Pros_ | _Cons_ |
-| Better element path finder | Deprecation of flutter driver |
-| --- | --- |
-| Faster execution and Hot reload | New technology |
-| Page Object model support | No Parallel execution |
-| BDD( Gherkin) support | Flakiness. |
-| Devs can contribute | Complexity of BDD implementation. Every step definition has a different class file which will become difficult to maintain as we increase the number of test cases. |
-| Reporting | There is more like widget testing |
+{{< figure src="/images/2022/08/flutter_dart.png" >}}
 
 #### 2. Appium with java client
 The next option that we explored was Appium framework with java client. We all know that Java is widely used for automation test scripts so we decided to explore this framework. The major issue here was WebDriver handling. By handling we mean complexity of implementation and maintenance of webdriver. The single WebDriver instance has to be passed from one class to another for the entire test execution cycle. which becomes a tedious job when we have multiple page class. Apart from that, Java supports synchronous execution, which means for executing the next step the previous step has to be completed. Below are few pro and cons we found in Appium java client framework.
 
-| Appium + Java |
-| --- |
-| _Pros_ | _Cons_ |
-| Open source | Report generation( No support for detailed report generation) |
-| Parallel execution in appium | Slow execution because of remote execution |
-| Cross-platform | Different test scripts for Android and iOS |
-| Simulator, Emulator and real device support | Element selection is difficult |
-| More popular | Flakiness |
-| POM implementation | Asynchronous execution not supported |
-| They don&#39;t need to access the source code of the application under test |
- |
+{{< figure src="/images/2022/08/appium_java.png" >}}
 
 #### 3. Appium with Webdriverio
 The final framework we explored is Appium with javascript client using webdriverio. The power of Javascript&#39;s asynchronous execution along with Appium gave us just the compatibility we needed.
 
-| _Appium + WebdriverIO_ |
-| --- |
-| _Pros_ | _Cons_ |
-| Open Source | Different test scripts for Android and iOS |
-| Supports BDD &amp; POM | Suitable only for Javascript |
-| Easy to set up and use | Slow execution because of remote execution |
-| Simulator, Emulator and real device support | Element selection is difficult |
-| Smart selectors | Flakiness |
-| No need for driver handling |
- |
-| Asynchronous execution |
- |
-| They don&#39;t need to access the source code of the application under test |
- |
+{{< figure src="/images/2022/08/webdriverio_js.png" >}}
 
 Exploring, analyzing and developing frameworks in Appium + Java and Appium + Javascript gave us a lot of insight in what each of the frameworks offer and what features we need in our framework.
