@@ -5,7 +5,7 @@ date = 2022-07-02T02:32:46+05:30
 image = "/images/2022/07/outsidein.jpg"
 draft = false
 authors = ["Nitin Rajkumar"]
-description = ""
+description = "Ruby on rails outside in test driven development"
 tags = ["Ruby on Rails","TDD", "Software Craftsmanship"]
 categories = ["Ruby on Rails","TDD", "Software Craftsmanship"]
 type = ""
@@ -15,17 +15,17 @@ type = ""
 
 Even before I sipped the coffee, as the machine was dispensing it, a rush probably of pride, passed through, caused by the recent solution I had provided for a race-condition problem. While having the coffee staring at the rain outside through the glass door I intuitively thought about the number of ways in which I could skip taking up the tickets in the backlog considering them not to be challenging and menial.
 
-My manager came up to me and asked me if I could, start that evening and go to a client location “A remote place with some historical significance” and work from there for a week on a small RESTful API (Redacted to a Todo), of course I thought about it to be menial as he said. I just wanted to visit that place, in fact, finish the work as soon as possible and save time to explore the place.
+That evening I had a train to catch to “A remote place with some historical significance”, that workation was in plan for months. I scoped over my work, for the week I would be on workation, a small RESTful API (Redacted to a Todo), of course I thought about it to be menial as I gathered it. I just wanted to visit that place, in fact, finish the work as soon as possible and save time to explore the place.
 
-Took some time delivering the fix for the race condition. With little time available for travel, while commuting, called home to help me gather the things in my backpack.
+Took some time delivering the fix for the race condition. With little time available to catch the train, while commuting, called home to help me gather the things in my backpack.
 
-I reached the place only to realize that I had forgot to pack my dental kit, and had to wait for the stores to open up. *With hindsight, I surely should have made a checklist of things to carry and marked them as soon as the item made its way into the bag.*
+After a night and a day long journey, I have reached the place only to realize that I had forgot to pack my dental kit, and had to wait for the stores to open up. *With hindsight, I surely should have made a checklist of things to carry and marked them as soon as the item made its way into the bag.*
 
-After the warm welcome at the client location and after listening to the expectations they had, I had quickly set up the Rails API only project.
+I remember, at breakfast, while standing, and chewing over the bread, I thought that this workation would mean success only if I won't neglect work for the vacation and in a way it is to find the fine balance between work and vacation, and then I sipped the coffee.
+
+I had quickly set up the Rails API only project.
 
 *Rails is a web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.*
-
-
 
 ```bash
 To start a new rails api only project
@@ -47,10 +47,10 @@ rails db:migrate
 In Active Record, objects carry both persistent data and behavior, which operates on that data.
 Rails ORM(object relational mapping) connects objects of an application to tables in a relational database management system.
 
-Spent few extra hours that night and finished the assignment.
+Spent few extra hours that night and finished the work.
 
 The next morning I felt tired and soon figured out I had forgotten my medication too, and I could not get them in that town.
-Just before submitting the project I was quickly reviewing the major functionalities, the ones I considered to be challenging, if at all are working as expected and soon found that the model accepts input with title as empty string, which shouldn't be the case, and I found few other minor issues just at a glance, and I was unaware and worried how many more may surface up.
+Just before submitting the project I was quickly reviewing the major functionalities, the ones I considered to be challenging, if at all are working as expected and soon found that the model accepts input with *title* as empty string, which shouldn't be the case, and I simply found few other minor issues just at a glance, and I was unaware and worried how many more may surface up.
 
 By then I was already regretting that I had relied too much on my gut. I then decided to create a safety-net for the RESTful API just like the check-list I thought of having for the backpack.
 
@@ -131,15 +131,15 @@ RSpec.describe Todo, type: :model do
  it { should validate_length_of(:title).is_at_least(3)}
 ```
 
-I started writing unit-tests for the Active record model followed by tests for the controller.
-Very soon into creating the safety-net, towards the end of that day, I have realized that I am actually writing specs that affirm, the code that has been written is correct.
+I wrote unit-tests for the Active record model followed with tests for the controller.
+Very soon into creating the safety-net, towards the end of that day, I have realized that I actually wrote specs that affirm, the code that has been written is correct.
 
 Just like picking up a thing from the backpack and writing its name in the checklist and placing it back in the backpack and marking the checklist.
 Too late to write unit tests.
 
 {{< figure src="/images/2022/07/right-time.jpg" >}}
 
-### Few minutes of planning goes a long way
+### A minute spent on planning saves an hours of work
 
 I took a long walk pondering about the reputation this quality-less and ill-confident code that I have written would bring to me and my company.
 Never have I thought a work that I considered to be menial would pose such a challenge.
@@ -249,7 +249,7 @@ class Repository
     end
 end
 ```
-### Simplicity is key
+### Simplicity is the key
 Where should I start first? Model specs, Controller specs, Runner specs or Repository Specs? This question has to be responded to every time a new resource or functionality is addressed.
 
 In 1952 William Edmund Hick and Ray Hyman a pair of psychologists conducted an experiment to examine relationship between number of stimuli present and individual’s reaction time to any given stimulus, the result was obvious the more stimuli to choose from, the longer it takes user to make a decision on which one to interact with.
@@ -264,7 +264,6 @@ The model is independent, and the spec for it can be written independent of the 
 
 ```ruby
 Failing Test Case:
-
 RSpec.describe "Todos", type: :request do
   context 'with valid request attributes will create a Todo and return 201' do
     it 'returns status code 201' do
@@ -279,7 +278,7 @@ $ rspec
 running the above specification resulted in the error
 
 RED:
-  1) Todos with valid request attributes will create a Todo and return 201 returns status code 201
+  1) Todos with valid request attributes will create a Todo and return 201 
      Failure/Error: post '/todos', params: {title: "Todo-1", description:'First todo' }, as: :json
 
      ActionController::RoutingError:
@@ -314,7 +313,6 @@ This concept is also called mocking.
 
 ```ruby
 Failing Test case:
-
 RSpec.describe "Todos", type: :controller do
     describe "Controller" do
         it "invokes the instance of CreateRunner successfully" do
@@ -326,7 +324,6 @@ RSpec.describe "Todos", type: :controller do
         end
     end
 end
-
 
 RED:
     1) Todos Controller invokes the instance of Create_Runner successfully
@@ -417,14 +414,13 @@ GREEN:
 $ rspec
 
 RED:
-  1) Todos with valid request attributes will create a Todo and return 201 returns status code 201
+  1) Todos with valid request attributes will create a Todo and return 201 
      Failure/Error: @runner.create_todo(todo_params)
 
      NoMethodError:
        undefined method `create_todo` for "":String
 
 GREEN:
-
     def initialize(runner = TodoRunner.new)
         @runner = runner
     end
@@ -465,7 +461,6 @@ This concept is called mocking.
 
 ```ruby
 Failing Test Case:
-
 RSpec.describe "Todos", type: :runner do
     describe "Runner" do
         it "invokes the instance of Repository successfully" do
@@ -478,7 +473,7 @@ RSpec.describe "Todos", type: :runner do
     end
 end
 
-Testing the Todos Runner spec resulted in the following error which is expected
+Testing the Todos Runner spec resulted in the following error which was expected
 
 $ rspec
 RED:
@@ -561,7 +556,6 @@ GREEN:
 $ rspec
 
 RED:
-
 1) Todos with valid request attributes will create a Todo returns status code 201.
      Failure/Error:
        def initialize(repo = TodosRepository.new)
@@ -586,7 +580,6 @@ GREEN:
 $ rspec
 
 RED:
-
   1) Todos with valid request attributes will create a Todo and returns status code 201
      Failure/Error: expect(response).to have_http_status(201)
        expected the response to have status code 201 but it was 204
@@ -656,7 +649,6 @@ The Request Spec still returns 204 whereas it expects 201 this is because the co
 
 ```ruby
 Failing Test Case:
-
         it "invokes the instance of Create_Runner successfully and renders the json" do
             params = {title: "Todo-1", description:'First todo' }
             mock = double("TodosRunner")
@@ -693,7 +685,6 @@ I went on to write the request spec(todos_spec.rb) that expects 422 when the tit
 
 ```ruby
 Failing Test Case:
-
   context 'with invalid request attributes ' do
     it 'returns status code 422' do
       post '/qwerts', params: {title: "", description:'First todo' }, as: :json
@@ -703,9 +694,7 @@ Failing Test Case:
 
 $ rspec
 
-
 RED:
-
   1) Todos with invalid request attributes returns status code 422
      Failure/Error: expect(response).to have_http_status(422)
        expected the response to have status code 422 but it was 201
