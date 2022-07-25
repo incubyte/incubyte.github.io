@@ -15,7 +15,7 @@ type = ""
 
 Even before I sipped the coffee, as the machine was dispensing it, a rush probably of pride, passed through, caused by the recent solution I had provided for a race-condition problem. While having the coffee staring at the rain outside through the glass door I intuitively thought about the number of ways in which I could skip taking up the tickets in the backlog considering them not to be challenging and menial.
 
-My manager came up to me and asked me if I could, start that evening and go to a client location “A remote place with some historical significance” and work from there for a week on a small RESTful API(REDACTED to a Todo), of course I thought about it to be menial as he said. I just wanted to visit that place, in fact, finish the work as soon as possible and save time to explore the place.
+My manager came up to me and asked me if I could, start that evening and go to a client location “A remote place with some historical significance” and work from there for a week on a small RESTful API (Redacted to a Todo), of course I thought about it to be menial as he said. I just wanted to visit that place, in fact, finish the work as soon as possible and save time to explore the place.
 
 Took some time delivering the fix for the race condition. With little time available for travel, while commuting, called home to help me gather the things in my backpack.
 
@@ -110,7 +110,7 @@ end
 
 ```
 
-#### **Test Data Preperation For Controller Tests**
+#### **Test Data Preparation For Controller Tests**
 
 ```ruby
 # Created a file todo.spec inside factories folder in spec directory.
