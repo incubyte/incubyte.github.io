@@ -13,9 +13,9 @@ type = ""
 
 ### There is always a disciplined way to do things
 
-Even before I sipped the coffee, as the machine was dispensing it a rush, probably of pride, passed through, caused by the recent solution I had provided for a race-condition problem. While having the coffee staring at the rain outside through the glass door I intuitively thought about the number of ways in which I could skip taking up the tickets in the backlog considering them not to be challenging and menial.
+Even before I sipped the coffee, as the machine was dispensing it, a rush probably of pride, passed through, caused by the recent solution I had provided for a race-condition problem. While having the coffee staring at the rain outside through the glass door I intuitively thought about the number of ways in which I could skip taking up the tickets in the backlog considering them not to be challenging and menial.
 
-My manager came up to me and asked me if I could, start that evening and go to a client location “A remote place with some historical significance” and work from there for a week on a small RESTful API(REDACTED to a Todo), of course I thought about it to be menial as he said. I just wanted to visit that place, in fact, finish the work as soon as possible and save time to explore the place. 
+My manager came up to me and asked me if I could, start that evening and go to a client location “A remote place with some historical significance” and work from there for a week on a small RESTful API(REDACTED to a Todo), of course I thought about it to be menial as he said. I just wanted to visit that place, in fact, finish the work as soon as possible and save time to explore the place.
 
 Took some time delivering the fix for the race condition. With little time available for travel, while commuting, called home to help me gather the things in my backpack.
 
@@ -139,7 +139,7 @@ Too late to write unit tests.
 
 {{< figure src="/images/2022/07/right-time.jpg" >}}
 
-### Few minutes of planning saves few hours of work
+### Few minutes of planning goes a long way
 
 I took a long walk pondering about the reputation this quality-less and ill-confident code that I have written would bring to me and my company.
 Never have I thought a work that I considered to be menial would pose such a challenge.
@@ -249,7 +249,7 @@ class Repository
     end
 end
 ```
-### Simplicity is the key for a system to work in the best way
+### Simplicity is key
 Where should I start first? Model specs, Controller specs, Runner specs or Repository Specs? This question has to be responded to every time a new resource or functionality is addressed.
 
 In 1952 William Edmund Hick and Ray Hyman a pair of psychologists conducted an experiment to examine relationship between number of stimuli present and individual’s reaction time to any given stimulus, the result was obvious the more stimuli to choose from, the longer it takes user to make a decision on which one to interact with.
@@ -279,7 +279,6 @@ $ rspec
 running the above specification resulted in the error
 
 RED:
-
   1) Todos with valid request attributes will create a Todo and return 201 returns status code 201
      Failure/Error: post '/todos', params: {title: "Todo-1", description:'First todo' }, as: :json
 
@@ -330,7 +329,6 @@ end
 
 
 RED:
-
     1) Todos Controller invokes the instance of Create_Runner successfully
      Failure/Error: create_new_todo = TodosController.new(mock)
 
@@ -364,7 +362,6 @@ GREEN:
 $ rspec
 
 RED:
-
   1) Todos Controller invokes the instance of Create_Runner successfully
      Failure/Error: allow(create_new_todo).to receive(:todo_params).and_return(params)
        #<TodosController:0x000000000069a0> does not implement: todo_params
@@ -379,7 +376,6 @@ GREEN:
 $ rspec
 
 RED:
-
   1) Todos Controller invokes the instance of Create_Runner successfully
      Failure/Error: expect(mock).to receive(:create_todo).with(params)
 
@@ -397,7 +393,6 @@ GREEN:
 $ rspec
 
 RED:
-
   1) Todos Controller invokes the instance of Create_Runner successfully
      Failure/Error: @runner.create_todo()
 
@@ -422,7 +417,6 @@ GREEN:
 $ rspec
 
 RED:
-
   1) Todos with valid request attributes will create a Todo and return 201 returns status code 201
      Failure/Error: @runner.create_todo(todo_params)
 
@@ -443,7 +437,6 @@ The request spec is not fixed, but I got my next direction to move forward.
 $ rspec  - The request spec pops the following error.
 
 RED:
-
   1) Todos with valid request attributes will create a Todo and return 201
      Failure/Error:
        def initialize(runner = TodosRunner.new)
@@ -489,7 +482,6 @@ Testing the Todos Runner spec resulted in the following error which is expected
 
 $ rspec
 RED:
-
   1) Todos Controller invokes the instance of Create_Runner successfully
      Failure/Error: create_new_todo = TodosRunner.new(mock)
 
@@ -497,14 +489,12 @@ RED:
        uninitialized constant TodosRunner
 
 GREEN:
-
     Created new file todos_runner.rb in runners folder of app directory.
 
 ```
 ```ruby
 $ rspec
 RED:
-
  1) Todos  Runner  invokes the repository method new_todo
      Failure/Error: todosRunner.create_todo(new_params)
 
@@ -555,7 +545,6 @@ Now that the runner spec is fixed, so has run the request spec to check if it ha
 
 ```ruby
 RED:
-
   1) Todos with valid request attributes will create a Todo returns status code 201
      Failure/Error: @repo.new_todo(add_params)
 
@@ -563,7 +552,6 @@ RED:
        undefined method `new_todo for` "":String
 
 GREEN:
-
     def initialize(repo = TodosRepository.new)
         @repo = repo
     end
@@ -619,6 +607,7 @@ Failing Test Case:
             todosRunner = TodosRunner.new(mock)
             todosRunner.create_todo(save_params)
         end
+
 RED :
   1) Todos  Runner  invokes the repository method new_todo
      Failure/Error: expect(mock).to receive(:save_todo).with(todo)
@@ -626,6 +615,7 @@ RED :
        (Double "TodosRepository").save_todo(#<Todo id: nil, title: "Todo-1", description: "First todo", created_at: nil, updated_at: nil>)
            expected: 1 time with arguments: (#<Todo id: nil, title: "Todo-1", description: "First todo", created_at: nil, updated_at: nil>)
            received: 0 times
+
 GREEN:
     def create_todo(add_params)
         todo =@repo.new_todo(add_params)
@@ -634,9 +624,7 @@ GREEN:
 ```
 ```ruby
 Failing Test Case:
-
         it " calls save_todo to save initialized todo and returns created" do
-
             save_params = {title: "Todo-1", description:'First todo' }
             todo = Todo.new(save_params)
             todosRunner = TodosRunner.new
@@ -647,7 +635,6 @@ Failing Test Case:
 $ rspec
 
 RED:
-
   1) Todos  Runner  calls save_todo to save initialized todo and returns created
      Failure/Error: expect(status).to eq(:created)
 
@@ -683,7 +670,6 @@ Failing Test Case:
 $rspec
 
 RED:
-
  1) Todos Controller invokes the instance of Create_Runner successfully and renders the json
      Failure/Error: allow(create_new_todo).to receive(:json_result).and_return(true)
        #<TodosController:0x000000000069f0> does not implement: json_result
@@ -761,5 +747,5 @@ I was so immersed into conversing with rspec to develop this code, I felt like I
 In this manner I finished the assignment and gave it to the client.
 I had two days to go for a visit around the place.
 As I was watching a tomb my instinctive thoughts about the plausible errors in my work started to take over me but with the fact that there never existed any piece of code before going through a test did not let those thoughts take over me, and they seem to have evaporated.
-The sight seeing was pleasant with nothing in the back of my mind.
+The sightseeing was pleasant with nothing in the back of my mind.
 
