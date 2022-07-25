@@ -1,155 +1,329 @@
 <!-- DNS preconnect -->
-<meta http-equiv="x-dns-prefetch-control" content="on">
-<link rel="preconnect" href="//ajax.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-<link rel="preconnect" href="https://use.fontawesome.com" crossorigin>
-<link rel="preconnect" href="//cdnjs.cloudflare.com">
-<link rel="preconnect" href="//www.googletagmanager.com">
-<link rel="preconnect" href="//www.google-analytics.com">
-<link rel="dns-prefetch" href="https://fonts.gstatic.com">
-<link rel="dns-prefetch" href="https://use.fontawesome.com">
-<link rel="dns-prefetch" href="//ajax.googleapis.com">
-<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
-<link rel="dns-prefetch" href="//www.googletagmanager.com">
-<link rel="dns-prefetch" href="//www.google-analytics.com">
-<link rel="dns-prefetch" href="//fonts.googleapis.com">
-<link rel="dns-prefetch" href="//connect.facebook.net">
-<link rel="dns-prefetch" href="//platform.linkedin.com">
-<link rel="dns-prefetch" href="//platform.twitter.com">
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<link rel="preconnect" href="//ajax.googleapis.com" />
+<link
+  rel="preconnect"
+  href="https://fonts.gstatic.com"
+  crossorigin="anonymous"
+/>
+<link rel="preconnect" href="https://use.fontawesome.com" crossorigin />
+<link rel="preconnect" href="//cdnjs.cloudflare.com" />
+<link rel="preconnect" href="//www.googletagmanager.com" />
+<link rel="preconnect" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+<link rel="dns-prefetch" href="https://use.fontawesome.com" />
+<link rel="dns-prefetch" href="//ajax.googleapis.com" />
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+<link rel="dns-prefetch" href="//www.googletagmanager.com" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//connect.facebook.net" />
+<link rel="dns-prefetch" href="//platform.linkedin.com" />
+<link rel="dns-prefetch" href="//platform.twitter.com" />
 
 <!-- plugins + stylesheet -->
-{{ $styles := slice }}
-{{ range site.Params.plugins.css }}
-{{ if findRE "^http" .link }}
-<link crossorigin="anonymous" media="all" rel="stylesheet" href="{{ .link | absURL }}" {{.attributes | safeHTMLAttr}} >
-{{ else }}
-{{ $styles = $styles | append (resources.Get .link) }}
-{{ end }}
-{{ end }}
-{{ $styles := $styles | append (resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS) }}
-{{ $styles := $styles | resources.Concat "/css/style.css" | minify  | fingerprint "sha512"}}
-<style crossorigin="anonymous" media="all" type="text/css" integrity="{{ $styles.Data.Integrity }}">
-    {{$styles.Content | safeCSS}}
+{{ $styles := slice }} {{ range site.Params.plugins.css }} {{ if findRE "^http"
+.link }}
+<link
+  crossorigin="anonymous"
+  media="all"
+  rel="stylesheet"
+  href="{{ .link | absURL }}"
+  {{.attributes
+  |
+  safeHTMLAttr}}
+/>
+{{ else }} {{ $styles = $styles | append (resources.Get .link) }} {{ end }} {{
+end }} {{ $styles := $styles | append (resources.Get "scss/style.scss" |
+resources.ExecuteAsTemplate "style.scss" . | toCSS) }} {{ $styles := $styles |
+resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
+<style
+  crossorigin="anonymous"
+  media="all"
+  type="text/css"
+  integrity="{{ $styles.Data.Integrity }}"
+>
+  {{$styles.Content | safeCSS}}
 </style>
 
 <style>
-    /* Header */
-    .dropdown-menu {
-        background-color: #12375a;
-        border-radius: 10px;
-        padding: 20px;
-    }
+  /* Header */
+  .dropdown-menu {
+    background-color: #12375a;
+    border-radius: 10px;
+    padding: 20px;
+  }
 
-    .dropdown-item {
-        text-align: center;
-        color: #fff;
-        padding: 10px;
-        font-size: 0.9em;
-    }
+  .dropdown-item {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-size: 0.9em;
+  }
 
-    .dropdown-item:hover {
-        background-color: #0b233a;
-        color: #eee;
-    }
+  .dropdown-item:hover {
+    background-color: #0b233a;
+    color: #eee;
+  }
 
-    .big-btn {
-        background-color: #0F2F4C;
-        color: #fff;
-        font-family: 'Nunito Sans', sans-serif;
-        font-weight: 700;
-    }
+  .big-btn {
+    background-color: #0f2f4c;
+    color: #fff;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+  }
 
-    .big-btn:hover {
-        color: #fff;
-    }
+  .big-btn:hover {
+    color: #fff;
+  }
 
-    .navigation-bar {
-        font-family: 'Nunito Sans', sans-serif;
-        font-weight: 700;
-        color: #0e3252 !important;
-        padding: 8px 0px;
-    }
+  .navigation-bar {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    color: #0e3252 !important;
+    padding: 8px 0px;
+  }
 
-    .navbar-light .navbar-nav .nav-link {
-        color: #0e3252;
-    }
+  .navbar-light .navbar-nav .nav-link {
+    color: #0e3252;
+  }
 
-    .navbar-light .navbar-nav .nav-link:hover,
-    .nav-link:focus,
-    .nav-link:active {
-        color: #0e3252;
-    }
+  .navbar-light .navbar-nav .nav-link:hover,
+  .nav-link:focus,
+  .nav-link:active {
+    color: #0e3252;
+  }
 
-    .navbar-light .navbar-nav .show>.nav-link {
-        color: #0e3252;
-    }
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: #0e3252;
+  }
 
-    .card-img {
-        aspect-ratio: auto;
-    }
+  .card-img {
+    aspect-ratio: auto;
+  }
 
-    .display-3 {
-        text-align: left;
-    }
+  .display-3 {
+    text-align: left;
+  }
 
-    /* List */
-    .btn-main-art {
-        background-color: #102c47;
-    }
+  /* List */
+  .btn-main-art {
+    background-color: #102c47;
+  }
 
-    .btn-main-art:hover {
-        background-color: #102c47 !important;
-    }
+  .btn-main-art:hover {
+    background-color: #102c47 !important;
+  }
 
-    /* Single */
-    .content a {
-        color: #32a1d4;
-    }
+  /* Single */
+  .content a {
+    color: #32a1d4;
+  }
 
-    h1, h2, h3, h4, h5, h6 {
-        text-transform: capitalize;
-    }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-transform: capitalize;
+  }
 
-    .content pre {
-        margin: 0px !important;
-        padding: 24px 12px;
-        padding-bottom: 2px;
-        overflow: hidden;
-    }
+  .content pre {
+    margin: 0px !important;
+    padding: 24px 12px;
+    padding-bottom: 2px;
+    overflow: hidden;
+  }
 
-    .content>.highlight>pre>code>span {
-        margin: -14px 0px;
-    }
+  .content > .highlight > pre > code > span {
+    margin: -14px 0px;
+  }
 
-    /* Footer */
-    :root {
-        --footer-fg-color: #364554;
-    }
+  /* Footer */
+  :root {
+    --footer-fg-color: #364554;
+  }
 
-    footer {
-        margin-top: 12px;
-        background-color: #f1f1f2;
-        color: var(--footer-fg-color);
-    }
+  footer {
+    margin-top: 12px;
+    background-color: #f1f1f2;
+    color: var(--footer-fg-color);
+  }
 
-    u {
-        text-transform: uppercase;
-        text-decoration: none;
-        border-bottom: #aeb8c0 2px dotted;
-        border-width: thin;
-        word-spacing: 0.2em;
-    }
+  u {
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: #aeb8c0 2px dotted;
+    border-width: thin;
+    word-spacing: 0.2em;
+  }
 
-    footer a {
-        color: var(--footer-fg-color) !important;
-    }
+  footer a {
+    color: var(--footer-fg-color) !important;
+  }
 
-    footer p {
-        color: var(--footer-fg-color);
-    }
+  footer p {
+    color: var(--footer-fg-color);
+  }
 
-    footer i {
-        color: var(--footer-fg-color) !important;
-        font-size: 1.25em;
-    }
+  footer i {
+    color: var(--footer-fg-color) !important;
+    font-size: 1.25em;
+  }
+
+  .badge.rounded-pill {
+    padding: 5px 10px;
+  }
+
+  .card {
+    border-radius: 10px;
+    height: 100%;
+  }
+
+  .card .card-body {
+    padding: 10px !important;
+  }
+
+  .card .card-img {
+    margin-bottom: 0 !important;
+  }
+
+  h3 .post-title {
+    font-size: 20px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+  }
+
+  .badge {
+    letter-spacing: 1px;
+    margin-top: 0.25rem;
+    margin-right: 0.05rem;
+  }
+
+  .card-text {
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+
+  .display-4 {
+    font-size: 2.5rem;
+  }
+
+  .theme-toggle {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  /* Light Theme */
+  .card {
+    background-color: #f8f8f8;
+  }
+  /* END: Light Theme */
+
+  /* Dark Theme */
+  :root {
+    --dark-body-background: #222222;
+    --extra-dark-background: #111111;
+    --dark-charcoal-background: #333333;
+    --dark-footer-color: #fff;
+    --dark-pagination-color: #555555;
+    --link-color: #32a1d4;
+    --app-primary: #5cc5d5;
+  }
+
+  body.dark-theme {
+    background: var(--dark-body-background);
+  }
+
+  body.dark-theme footer {
+    background: var(--dark-charcoal-background);
+  }
+
+  body.dark-theme footer,
+  body.dark-theme footer p,
+  body.dark-theme footer u,
+  body.dark-theme footer i,
+  body.dark-theme footer a {
+    color: var(--dark-footer-color) !important;
+  }
+
+  body.dark-theme footer img,
+  body.dark-theme .navbar-brand img {
+    filter: invert(1) hue-rotate(180deg);
+  }
+
+  body.dark-theme a.post-title {
+    color: #fff;
+  }
+
+  body.dark-theme .card {
+    background-color: var(--extra-dark-background);
+  }
+
+  body.dark-theme .display-5,
+  body.dark-theme .display-4 {
+    color: white;
+  }
+
+  body.dark-theme .nav-link {
+    color: white !important;
+  }
+
+  body.dark-theme .nav-link:hover {
+    color: white !important;
+  }
+
+  body.dark-theme .page-item .page-link {
+    background: var(--dark-pagination-color) !important;
+    color: white !important;
+  }
+
+  body.dark-theme .pagination .page-item.active .page-link {
+    background: var(--app-primary) !important;
+    color: #fff !important;
+  }
+
+  body.dark-theme blockquote,
+  body.dark-theme article table * {
+    background: var(--extra-dark-background) !important;
+  }
+
+  body.dark-theme article .content *:not(code *) {
+    color: white !important;
+  }
+
+  body.dark-theme article .content a {
+    color: var(--link-color) !important;
+  }
+
+  body.dark-theme h1,
+  body.dark-theme h2,
+  body.dark-theme h3,
+  body.dark-theme h4,
+  body.dark-theme h5 {
+    color: white !important;
+  }
+
+  body.dark-theme .fa-bars {
+    color: white !important;
+  }
+
+  body.dark-theme .btn-primary,
+  body.dark-theme .big-btn {
+    background: var(--app-primary) !important;
+  }
+
+  body.dark-theme .btn-primary:hover,
+  body.dark-theme .btn-primary:focus,
+  body.dark-theme .big-btn:hover,
+  body.dark-theme .big-btn:focus {
+    filter: brightness(0.8);
+  }
+
+  body.dark-theme .fas.fa-sun {
+    color: var(--app-primary);
+  }
+
+  /*END:  Dark Theme */
 </style>
