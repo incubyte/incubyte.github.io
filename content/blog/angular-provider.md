@@ -34,7 +34,7 @@ class CarFactory {
   car: Car = new Car(); 
 }
 ````
-And here is our Car. As we know every Car requires an Engine (unless it's an electric car) therefore the dependency of a Car is an Engine.
+And here is our Car and Engine. As we know every Car requires an Engine (unless it's an electric car), Car has a dependency on Engine
 ````typescript
 export class Car {
   engine: Engine;
@@ -50,13 +50,64 @@ export class Engine {}
 In the above example, in order to create a Car, we first need to create an Engine.<br>
 Because we are instantiating the Engine class inside the constructor of the Car class with new keyword, there is a tight coupling between the Car class and the Engine class.
 
-Here there is a problem. 
+**And this is a Problem.** <br>
+They are many types of Engine
 
-{{< figure src="/images/2022/08/car-factory-tight-coupling.png" >}}
-{{< figure src="/images/2022/08/new-engine-types.png" >}}
-{{< figure src="/images/2022/08/solution.png" >}}
-{{< figure src="/images/2022/08/new-car-factory.png" >}}
+Like a Flat Engine
+````typescript
+export class FlatEngine {}
+````
+or an Inline Engine
+````typescript
+export class InlineEngine {}
+````
 
+The problem here is that if a Car class requires a specific type of Engine it can't have one.  
+This Car can only have a generic Engine because of the tight coupling.
+````typescript
+export class Car {
+    engine: Engine;
+    
+    constructor() {
+        this.engine = new Engine();
+    }
+}
+````
+
+This problem can be resolved by making both the class loosely coupled with each other.
+For that, first we will turn our Engine class to an interface like this
+```typescript
+interface class Engine {}
+```
+and let our `FlatEngine` and `InlineEngine` implement it.
+```typescript
+export class FlatEngine implements Engine {}
+```
+```typescript
+export class InlineEngine implements Engine {}
+```
+
+With that our Car class will look like this
+```typescript
+export class Car {
+    constructor(private engine: Engine) {}
+}
+```
+The responsibility of object creation of Engine is no more with the Car class. And the dependency will be directly injected through the constructor of the Car class.
+
+The Car Factory can now have Car with different Engine types
+```typescript
+class CarFactory {
+    flatEngine: Engine = new FlatEngine();
+    porsche911: Car = new Car(this.flatEngine);
+    
+    inlineEngine: Engine = new InlineEngine();
+    bmwM88: Car = new Car(this.inlineEngine);
+}
+```
+That was just a basic example of dependency injection.
+
+Now let's get back to Angular Provider.
 # How to use Angular Providers?
 We register the services participating in the dependency injections in the Providers metadata. There are two ways by which we can do it.
 
