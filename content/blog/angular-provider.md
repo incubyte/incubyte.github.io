@@ -23,9 +23,9 @@ Angular Providers allows us to register classes, functions, or values (dependenc
 
 # Dependency Injection
 
-Dependency is a service or an object that a class needs to perform its function.
+**Dependency** is a service or an object that a class needs to perform its function.
 
-Dependency injection, or DI, is a design pattern in which a class requests dependencies from external sources rather than creating them.
+[Dependency injection](https://en.wikipedia.org/wiki/Dependency_injection), or DI, is a design pattern in which a class requests dependencies from external sources rather than creating them.
 
 ### Example
 We have a `CarFactory` in which `Car` object is created.
@@ -48,11 +48,11 @@ export class Car {
 export class Engine {}
 ````
 
-In the above example, in order to create a Car, we first need to create an Engine.<br>
-Because we are instantiating the Engine class inside the constructor of the Car class with new keyword, there is a tight coupling between the Car class and the Engine class.
+In the above example, in order to create a `Car`, we first need to create an `Engine`.<br>
+Because we are instantiating the `Engine` class inside the constructor of the `Car` class with `new` keyword, there is a tight coupling between the `Car` class and the `Engine` class.
 
-**And this is a Problem.** <br>
-They are many types of Engine
+### And this is a Problem. <br>
+Actually there are many types of Engine
 
 Like a Flat Engine
 ````typescript
@@ -63,8 +63,8 @@ or an Inline Engine
 export class InlineEngine {}
 ````
 
-The problem here is that if a Car class requires a specific type of Engine it can't have one.  
-This Car can only have a generic Engine because of the tight coupling.
+The problem here is that if a `Car` class requires a specific type of `Engine` it can't have one.  
+This `Car` can only have a generic `Engine` because of the tight coupling.
 ````typescript
 export class Car {
     engine: Engine;
@@ -76,7 +76,7 @@ export class Car {
 ````
 
 This problem can be resolved by making both the class loosely coupled with each other.
-For that, first we will turn our Engine class to an interface like this
+For that, first we will turn our `Engine` class to an interface like this
 ```typescript
 interface class Engine {}
 ```
@@ -88,15 +88,15 @@ export class FlatEngine implements Engine {}
 export class InlineEngine implements Engine {}
 ```
 
-With that our Car class will look like this
+With that our `Car` class will look like this
 ```typescript
 export class Car {
     constructor(private engine: Engine) {}
 }
 ```
-The responsibility of object creation of Engine is no more with the Car class. And the dependency will be directly injected through the constructor of the Car class.
+The responsibility of object creation of `Engine` is no more with the `Car` class. And the dependency will be directly injected through the constructor of the `Car` class.
 
-The Car Factory can now have Car with different Engine types
+The Car Factory can now have `Car` with different `Engine` types
 ```typescript
 class CarFactory {
     flatEngine: Engine = new FlatEngine();
