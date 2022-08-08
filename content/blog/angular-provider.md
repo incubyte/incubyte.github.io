@@ -28,13 +28,13 @@ Dependency is a service or an object that a class needs to perform its function.
 Dependency injection, or DI, is a design pattern in which a class requests dependencies from external sources rather than creating them.
 
 ### Example
-We have a Car Factory here
+We have a `CarFactory` in which `Car` object is created.
 ````typescript
 class CarFactory {
   car: Car = new Car(); 
 }
 ````
-And here is our Car and Engine. As we know every Car requires an Engine (unless it's an electric car), Car has a dependency on Engine
+And here is our `Car` 
 ````typescript
 export class Car {
   engine: Engine;
@@ -47,6 +47,7 @@ export class Car {
 ````typescript
 export class Engine {}
 ````
+
 In the above example, in order to create a Car, we first need to create an Engine.<br>
 Because we are instantiating the Engine class inside the constructor of the Car class with new keyword, there is a tight coupling between the Car class and the Engine class.
 
@@ -111,8 +112,8 @@ Now let's get back to Angular Provider.
 # How to use Angular Providers?
 We register the services participating in the dependency injections in the Providers metadata. There are two ways by which we can do it.
 
-1. Register directly in the Providers array of @NgModule or @Component or in @Directive.
-2. Use the providedIn of the @Injectable decorator.
+1. Register directly in the Providers array of `@NgModule` or `@Component` or in `@Directive`.
+2. Use the providedIn of the `@Injectable` decorator.
 
 For this particular blog we will go with the first option.
 
@@ -136,12 +137,12 @@ The Injector uses the token to locate the provider in the Providers array
 
 ## Type Token
 Here the type being injected is used as the token.
-For Example, we would like to inject the instance of the CarService, we will use the CarService as the token as shown below
+For Example, we would like to inject the instance of the `CarService`, we will use the `CarService` as the token as shown below
 ```typescript
  providers: [{ provide: CarService, useClass: CarService }]
 ```
 
-The CarService is then injected to the component by using the following code.
+The `CarService` is then injected to the component by using the following code.
 ```typescript
 export class CarComponent {
     constructor(private carService: CarService) { }
@@ -155,7 +156,7 @@ We can use a string literal to register the dependency. This is useful in scenar
 { provide: 'API_URL', useValue: 'https://randomcar.com/api' }
 ````
 
-It is then injected using the @Inject in the constructor of the service/component.
+It is then injected using the `@Inject` in the constructor of the service/component.
 ```typescript
 constructor(
     @Inject('CAR_SERVICE') private carService: CarService,
@@ -164,8 +165,8 @@ constructor(
 ```
 
 ## Injection Token
-The Angular provides InjectionToken class to ensure that the Unique tokens are created.
-The Injection Token is created by creating a new instance of the InjectionToken class.
+The Angular provides `InjectionToken` class to ensure that the Unique tokens are created.
+The Injection Token is created by creating a new instance of the `InjectionToken` class.
 ````typescript
   export const API_URL = new InjectionToken<string>('api.url');
 ````
@@ -173,7 +174,7 @@ Register the token in the providers array.
 ````typescript
    providers: [{ provide: API_URL, useValue: 'https://randomcar.com/api' }]
 ````
-It is then injected using the @Inject in the constructor of the service/component.
+It is then injected using the `@Inject` in the constructor of the service/component.
 ````typescript
   constructor(@Inject(API_URL) private apiURL: string) {}
 ````
@@ -185,7 +186,7 @@ The Angular can create the instance of the dependency in four different ways.
 {{< figure src="/images/2022/08/provider.png" >}}
 
 ## Class Provider
-useClass is used when you want to provide an instance of the provided class.
+`useClass` is used when you want to provide an instance of the provided class.
 It expects us to provide a type.  The Injector creates a new instance from the type and injects it. It is like calling the new operator and returning instance. If the type requires any constructor parameters, the injector will resolve that also.
 ````typescript
   { provide: CarService, useClass: CarService }
@@ -197,7 +198,7 @@ We can also switch dependencies easily. You can provide a mock class for Testing
 ````
 
 ## Value Provider
-UseValue is used when you want to provide a simple value.
+`UseValue` is used when you want to provide a simple value.
 The Angular will inject whatever provided in the useValue as it is.
 It is useful in scenarios like, where you want to provide API URL, application-wide configuration etc
 ````typescript
@@ -212,22 +213,22 @@ And we can use the APP_CONFIG as provided in the providers array.
 ```
 
 ## Factory Provider
-useFactory expects us to provide a function.
+`useFactory` expects us to provide a function.
 It invokes the function and injects the returned value. We can also add optional arguments to the factory function using the deps array. The deps array specifies how to inject the arguments.
 We usually use the useFactory when we want to return an object based on a certain condition.
 ```typescript
 {
    provide: CarService,
-   useFactory: (config: any, loggerService: LoggerService) => {
-     return config.IsDevelopmentMode ? new MockCarService(loggerService) : new CarService();
-   },
+   useFactory: (config: any, loggerService: LoggerService) => return config.IsDevelopmentMode 
+        ? new MockCarService(loggerService) 
+        : new CarService(),
    deps: [APP_CONFIG, LoggerService]
 }
 ```
 
 ## Aliased Provider
 
-The useExisting provider key lets you map one token to another. 
+The `useExisting` provider key lets you map one token to another. 
 In effect, the first token is an alias for the service associated with the second token, creating two ways to access the same service object.
 
 ```typescript
