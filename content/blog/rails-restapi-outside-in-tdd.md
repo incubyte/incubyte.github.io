@@ -13,15 +13,15 @@ type = ""
 
 ### There is always a disciplined way to do things
 
-Even before I sipped the coffee, as the machine was dispensing it, a rush probably of pride, passed through, caused by the recent solution I had provided for a race-condition problem. While having the coffee staring at the rain outside through the glass door I intuitively thought about the number of ways in which I could skip taking up the tickets in the backlog considering them not to be challenging and menial.
+I was waiting for the coffee dispenser to finish filling up my cup and my mind started wandering. Suddenly, I felt this rush. Was it a sense of pride? Could be. I had, just a few minutes ago, been able to solve a race-condition problem that was bugging me for a while. Sipping at the coffee I could see out the glass door, that it was raining. This is a good moment, I thought to myself. One thing I didn’t want to think about were the open tickets in the backlog. Unchallenging and menial, they bored me. With soothing sounds of the rain in the background and the warmth of the fuel of the Gods, I was now thinking of ways I could avoid working on them!
 
-That evening I had a train to catch to “A remote place with some historical significance”, that workation was in plan for months. I scoped over my work, for the week I would be on workation, a small RESTful API (Redacted to a Todo), of course I thought about it to be menial as I gathered it. I just wanted to visit that place, in fact, finish the work as soon as possible and save time to explore the place.
+I had a train to catch, later that evening to travel to “a remote place with some historical significance”. This workation was in planning for months, so I was excited about it! I scoped out my work for the week I was travelling; a small RESTful API (Redacted to a Todo), of course I thought it to be menial as I went over it. All I wanted to do was to be done with so I could spend more time exploring.
 
-Took some time delivering the fix for the race condition. With little time available to catch the train, while commuting, called home to help me gather the things in my backpack.
+Coming up with the fix for the race condition took a while, which meant, I had little to no time to pack and make sure that I didn’t miss my train! So, I called home to get some help gathering my things to shove into my backpack. Tough times call for desperate measures, folks!
 
-After a night and a day long journey, I have reached the place only to realize that I had forgot to pack my dental kit, and had to wait for the stores to open up. *With hindsight, I surely should have made a checklist of things to carry and marked them as soon as the item made its way into the bag.*
+The train-ride to my destination lasted the entire night and day. The relief of finally getting off and checking-in to my place of stay was short lived though, because soon enough, I realized that I’d completely forgotten to pack my dental kit. And thus began the wait for the stores to open and realization hit that even a checklist of essentials would have made my life easier!
 
-I remember, at breakfast, while standing, and chewing over the bread, I thought that this workation would mean success only if I won't neglect work for the vacation and in a way it is to find the fine balance between work and vacation, and then I sipped the coffee.
+Over breakfast, while chewing on a piece of bread I remember thinking to myself that the success of this workation depended on my ability to find a balance between finishing work stuff and finding the time to relax and enjoy my surroundings. I took a sip of coffee to help wash down the food and also cement that fact in my mind.
 
 I had quickly set up the Rails API only project.
 
@@ -49,10 +49,10 @@ Rails ORM(object relational mapping) connects objects of an application to table
 
 Spent few extra hours that night and finished the work.
 
-The next morning I felt tired and soon figured out I had forgotten my medication too, and I could not get them in that town.
-Just before submitting the project I was quickly reviewing the major functionalities, the ones I considered to be challenging, if at all are working as expected and soon found that the model accepts input with *title* as empty string, which shouldn't be the case, and I simply found few other minor issues just at a glance, and I was unaware and worried how many more may surface up.
+I woke up the next morning, feeling a little tired and soon figured out that my memory had betrayed me yet again in my packing frenzy as I’d forgotten to bring along my medication as well. The worst part? I couldn’t get it in that town.
+Oh well, couldn’t do much about it now. So, I set about reviewing the major functionalities [the challenging parts] of my project before I had to submit it. And soon found out that the day was going to get worse. The model accepted inputs for the title as an empty string, which it shouldn't have, and sure enough I found a few other minor issues soon after. How many more of these errors were there!? I started worrying
 
-By then I was already regretting that I had relied too much on my gut. I then decided to create a safety-net for the RESTful API just like the check-list I thought of having for the backpack.
+Gut feelings can be good sometimes, but it wasn’t working out for me right now so I set to work on creating a safety-net for the RESTful API just like the check-list I thought of having for the backpack.
 
 ### When is the right time to write unit tests
 
@@ -132,38 +132,39 @@ RSpec.describe Todo, type: :model do
 ```
 
 I wrote unit-tests for the Active record model followed with tests for the controller.
-Very soon into creating the safety-net, towards the end of that day, I have realized that I actually wrote specs that affirm, the code that has been written is correct.
+Very soon into creating the safety-net, towards the end of that day, I’d realized that I’d written specs that affirmed that the code that’d been written was correct.
 
-Just like picking up a thing from the backpack and writing its name in the checklist and placing it back in the backpack and marking the checklist.
-Too late to write unit tests.
+Just like picking up an item from the backpack and checking it off in the checklist and placing it back in the backpack. Completely redundant!
+
+Well, it was too late to write unit tests now.
 
 {{< figure src="/images/2022/07/right-time.jpg" >}}
 
-### A minute spent on planning saves an hours of work
+### A minute spent on planning can save an hour of work
 
-I took a long walk pondering about the reputation this quality-less and ill-confident code that I have written would bring to me and my company.
-Never have I thought a work that I considered to be menial would pose such a challenge.
-I had made up my mind to arrive at a decision to build the application from scratch by writing specs first.
-I did not want to realize that it was too late again.
+I had to take a break from it all to digest the fact that all my effort had gone down the drain and ended up in a fiasco. This wasn’t the quality that was expected of me and by extension my company!
+Never would I’ve imagined that the work that I considered to be menial would end up posing such a challenge to me!
+It is at that moment that I made up my mind to re-build the application from scratch and do it the right way by writing specs first.
+I did not want to revisit the realization of it being "too late".
 
-They say a few minutes of planning would save a few hours of work.
-Did some research and found that the code should pass the following basic checks.
+Never underestimate the impact just a few minutes of planning can make.
 
+Did some research and found out the basic checks my code was supposed to pass for optimum results.
 - [x] Fulfill Requirements without errors.
 - [x] The code should be maintainable and scalable.
 - [x] The code should adhere to Single Responsibility Principle(SRP).
 
-Test-driven development is a software development process relying on software requirements being converted to test cases before software is fully developed.
+Test-driven development is a software development process relying on software requirements being transformed to test cases before software is fully developed.
 
 1. Write production code only to pass a failing unit test.
 2. Write no more of a unit test than enough to fail.(RED)
 3. Write no more production code than necessary to pass the one failing unit test.(GREEN)
 
-A quick feedback on my previous code is that it is not maintainable, it is not scalable and that it violates one of the basic SOLID principles, which is SRP.
+A quick glance at my previous piece of code tells me that is neither maintainable, nor scalable and it also violates one of the basic SOLID principles, which is SRP.
 
 Single Responsibility Principle states that every module of class should have one responsibility in a program.
 
-This is how my controller's create action(to save a todo) looked like, everything was in the controller be it Rails specific code, active record specific code or application logic code.
+This is what my controller’s create action (to save a todo) looked like. Everything was in the controller - be it Rails specific code, active record specific code or application logic code.
 
 ```ruby
 def create
@@ -249,16 +250,16 @@ class Repository
     end
 end
 ```
-### Simplicity is the key
+### Simplicity is key
 Where should I start first? Model specs, Controller specs, Runner specs or Repository Specs? This question has to be responded to every time a new resource or functionality is addressed.
 
-In 1952 William Edmund Hick and Ray Hyman a pair of psychologists conducted an experiment to examine relationship between number of stimuli present and individual’s reaction time to any given stimulus, the result was obvious the more stimuli to choose from, the longer it takes user to make a decision on which one to interact with.
+In 1952, William Edmund Hick and Ray Hyman a pair of psychologists conducted an experiment to examine the relationship between the number of stimuli present and an individual’s reaction time to any given stimulus. The result was obvious, the more options the user had to choose from, the longer it took them to decide on which one to interact with.
 
-Outside in test driven development resolves this problem.
+Outside-In Test Driven Development solves this problem.
 
 Using this approach I started with the feature or end point specification and worked my way inwards towards the repository layer.
 This test dropped me to the next layer, Controller, whose implementation is written after writing a spec for it.
-Fixing this should have fixed the end point specification, but it drops further down to the next layer, Runner(which contains the application login), whose implementation is written after the spec for it.
+Fixing the controller spec should have fixed the end point specification, but it dropped further down to the next layer, Runner (which contained the application login), whose implementation is written after its spec.
 
 The model is independent, and the spec for it can be written independent of the above flow.
 
@@ -281,10 +282,9 @@ RED:
   1) Todos with valid request attributes will create a Todo and return 201 
      Failure/Error: post '/todos', params: {title: "Todo-1", description:'First todo' }, as: :json
 
-     ActionController::RoutingError:
-     <span style="color:red">No route matches [POST] "/todos"</span>.
+     ActionController::RoutingError:     
 
-I need not have to ponder on what to do next, the spec failure suggested what needs to be fixed and that is the route.
+I need not ponder what to do next as the spec failure suggested what needed fixing.
 
 GREEN:
     found routes.rb in app/config directory and added the route as following
@@ -306,7 +306,7 @@ Running the test after fixing it resulted in another error that reads
 The fix would be to add a new controller but according to Test driven development we need to have the test file before the Controller itself.
 I created a new folder in the spec directory and named it `controllers` and added a spec file and named it `todos_controller_spec.rb`
 
-The primary goal of writing this spec file is that a controller is missing, and the secondary goal is to check if the controller exists it can invoke the instance of the runner, which serves the application/feature logic.
+The primary goal of writing this spec file is to check if controller exists, and the secondary goal is to check if it can invoke the instance of the runner, which serves the application/feature logic.
 
 At this moment neither the controller exists, nor the runner exists, for the controller runner is an external class and to check if it can invoke I had to create a double for the runner and make the double react, as if it is the original, when it is called.
 This concept is also called mocking.
@@ -396,10 +396,6 @@ RED:
        #<Double "TodosRunner"> received :create_todo with unexpected arguments
          expected: ({:description=>"First todo", :title=>"Todo-1"})
               got: (no args)
-       Diff:
-       @@ -1 +1 @@
-       -[{:description=>"First todo", :title=>"Todo-1"}]
-       +[]
 
 GREEN:
     def create
@@ -426,7 +422,7 @@ GREEN:
     end
 ```
 
-With this all the controller specs are fixed before moving further I had ran the request spec to check if fixing the controller had fixed the request spec.
+With this all the controller specs were fixed before moving further I had ran the request spec to check if fixing the controller had fixed the request spec.
 The request spec is not fixed, but I got my next direction to move forward.
 
 ```ruby
@@ -448,16 +444,9 @@ The basic responsibility of this class is similar to the controller in terms of 
 
 ```ruby
 GREEN:
-    Just like I fixed the controller I followed the similar process.
+    I followed a similar process here, as I did to fix the controller.
 
 ```
-
-The primary goal of writing this spec file is that a controller is missing, and the secondary goal is to check if the controller exists, so it can invoke the instance of the runner, which serves the application/feature logic.
-
-At this moment neither the controller exists, nor the runner exists.
-The controller runner is an external class and to check if the controller can invoke the runner I had to create a double and make the double react when it is called.
-This concept is called mocking.
-
 
 ```ruby
 Failing Test Case:
@@ -729,12 +718,11 @@ All Green
 
 ```
 
-### It is always quite a sight to see all green
+### All Green - quite a wonderful sight!
 
-I was so immersed into conversing with rspec to develop this code, I felt like I was a part of a play, playing a character and that the play is being observed, and I am responding only when there is a cue and refrained to when there is no cue as I may mislead them observers if I take any decision without the cue from the rspec.
+I was so immersed in conversing with rspec while developing this application that I kind of got distanced from reality. I felt like I’d embodied this character in a play that was being watched and I was to only act out my lines on cue lest I’d mislead the audience. Rspec called the shots here!
 
-In this manner I finished the assignment and gave it to the client.
-I had two days to go for a visit around the place.
-As I was watching a tomb my instinctive thoughts about the plausible errors in my work started to take over me but with the fact that there never existed any piece of code before going through a test did not let those thoughts take over me, and they seem to have evaporated.
-The sightseeing was pleasant with nothing in the back of my mind.
-
+And there you have it, folks! I finally ended up finishing the assignment and got it ready to be handed over to the client!
+With a couple of days left of my stay, I started out on my journey exploring the unknown!
+At one such moment, I was looking at a tomb over at the distance when dreadful thoughts started to creep back in! Thoughts of possible errors in the app! But, I put all of that to rest as I’d let the tests do their magic now.
+Now, with my mind at ease and feeling a sense of achievement, the sights all around seemed a bit more pleasant!
