@@ -36,7 +36,7 @@ Here are some challenges with traditional methodologies:
 
 These days we’re seeing the terms TDD [Test Driven Development, link: https://www.geeksforgeeks.org/test-driven-development-tdd/] and BDD [Behavior Driven Development, link: https://www.techtarget.com/searchsoftwarequality/definition/Behavior-driven-development-BDD] being tossed about a lot, but why the fuss? Radical as it may seem, focus on these processes have become a necessity now if you consider the data from various surveys that show how developers spend almost 1/3rd of their time working to fix issues in their code instead of working on a new feature/enhancement. [source: https://www.businesswire.com/news/home/20210216005484/en/Rollbar-Research-Shows-That-Traditional-Error-Monitoring-Is-Missing-the-Mark]
 
-## TDD helps circumvent these issues by:
+**Practices like TDD and BDD help circumvent these issues by:**
 
 •	Forcing attention on software design from the get-go with a focus on modularity
 •	Promoting an iterative development strategy
