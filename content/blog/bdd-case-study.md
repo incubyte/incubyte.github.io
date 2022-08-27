@@ -29,7 +29,7 @@ Here are some challenges with traditional methodologies:
 ·	Treating QA testing as the last process before release
 ·	Lack of process automation and resulting slower release cycles
 
-## Focus on behavior and not tools:
+## Focus on behavior and not tools
 
 “A software system can best be designed if the testing is interlaced with the designing, instead of being used after the designing.”
 -	Alan Perils
