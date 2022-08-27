@@ -15,7 +15,7 @@ type = ""
 
 Over the years, the software development process has seen a massive change of pace. Through ideation, design, development, testing, and implementation, all processes involve multiple skills, which have traditionally been served through multiple teams. These groups have varied responsibilities and need to work in a cohesive manner to achieve the end goal.
 
-## Bogged down by Waterfall:
+## Bogged down by Waterfall
 
 Traditional development methodologies having linear processes don’t cut it these days. A frequently changing business landscape and evolving user requirements drive the need to deliver regular and incremental value in thin slices. To get to the point of getting a deliverable ready looks more like the diagram below with multiple points of communication rather than a straight line.
 
