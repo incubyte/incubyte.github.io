@@ -43,7 +43,7 @@ These days we’re seeing the terms TDD [Test Driven Development, link: https://
 •	Providing a better scalability and maintainability opportunity
 •	Removing the veil of uncertainties involving refactoring code
 
-Using the “shift testing/QA to the left” approach, BDD ensures the essence of what the software is supposed to do, is completely and evenly spread across all vital stakeholders, including QAs and PAs.
+Enabling a "fail fast" approach, BDD ensures that the essence of what the software is supposed to do is created in an executable format, bringing in not just automation, but also full clarity around expected behaviour from the get-go.
 
 We’ve integrated the design first approach of the game changing Gherkin + Karate frameworks in our development process as well. Product Analysts, with their client facing role, can contribute better to creating meaningful API test specifications. Moreover, this also becomes live documentation of the API which can be easily referred to by the development team. Any new code breaking the previous implementation can be caught within seconds with the magic of automation.
 
