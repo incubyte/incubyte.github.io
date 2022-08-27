@@ -13,7 +13,7 @@ type = ""
 
 ## Implementing Behavior Driven Deployment methodologies to get better Software out the door - a case study
 
-Over the years, the software development process has seen a massive change of pace. Through ideation, design, development, testing and implementation all the processes involve multiple teams. These groups have varied responsibilities and need to work in a cohesive manner to achieve the end goal.
+Over the years, the software development process has seen a massive change of pace. Through ideation, design, development, testing, and implementation, all processes involve multiple skills, which have traditionally been served through multiple teams. These groups have varied responsibilities and need to work in a cohesive manner to achieve the end goal.
 
 ## Bogged down by Waterfall:
 
