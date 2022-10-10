@@ -14,7 +14,7 @@ What is the need for an “Estimate”, because everything is bound to change ri
 
 But the reality is seldom this simple, because of the randomness of the events that surround us. It is very difficult to predict the probability of every possible outcome with a certain assumed degree of accuracy.
 
-This is where our buddy “Estimate” comes into the picture. In any line of work, an important question that requires an answer on priority is how soon a project or work or task can be completed because we wanted it to be completed by yesterday!
+This is where our buddy “Estimate” comes into the picture. In any line of work, an important question that requires an answer on priority is how soon and in what budget a project or work or task can be completed because we wanted it to be completed by yesterday!
 
 Let’s get real. Estimations are required because we have to start somewhere and most importantly, to avoid “Waste”. Waste comes in different forms. It can be Natural Resources, Human Resources, Time, Cost, etc.
 
@@ -50,7 +50,7 @@ A parameter with its assumed correlation to the amount of time taken is determin
 
 <image src="/static/images/2022/05/Probabilistic_Parametric_Estimate.png"/>
 
-The first step in this technique is to determine the required parameter and the level of accuracy of the estimate. For example, take the method of story point estimation. We know that 1 story point is assigned to a task or a feature, which is the most basic work that can be completed in a given time. Keeping such a story as a reference, all the other stories can be assigned points. This means we can correlate the time taken to complete a task and the story point, which is
+The first step in this technique is to determine the required parameter and the level of accuracy of the estimate. For example, take the method of story point estimation. We know that one story point is assigned to a task or a feature, which is the most basic work that can be completed in a given time. Keeping such a story as a reference, all the other stories can be assigned points. This means we can correlate the time taken to complete a task and the story point, which is
 EP = A<sub>old</sub>/P<sub>old</sub> * P<sub>curr</sub>.
 
 where EP is the parametric estimate,
@@ -102,3 +102,9 @@ Unlike statistical methods, Delphi is a qualitative estimation technique where i
 This brings us to a very important question. Considering all things agile, is it really necessary to spend time and resources on estimating when you know things are bound to change?
 My personal opinion is that it is more relevant to have these figures at your disposal owing to the dynamic nature of software development. We know that regardless of extensive research and statistical analysis, estimates change. Nevertheless, these estimates help us in a very important aspect of software development i.e., when the time taken to complete a project is estimated on the lower end, the team involved in the development process will get overworked resulting in a compromise on the quality of delivery. It will also hamper the work-life balance of the team members, which is quintessential to any thriving team.
 On the other hand, if the estimate turns out to be on the higher end, then it becomes very difficult to secure the interests of the client, which can have a devastating effect on the project itself.
+
+This brings us to the psycological need for estimates.
+Trust: The less you trust the team the more you feel the need to get estimates (I would like to know your thoughts on this one) Also, how the long cycle times in releases tend to change the estimates and thus depletes trust
+
+On a contrasting note a team which is continoulsy deleivering smaller chunks frequently does not require any estimates. 
+No Estimate: Recently, how high-functioning teams have started working totally without estimates because they keep the batch size extremely small. They slice the stories into a very thin quantum of work and they add value on daily bases, if not more frequently.
