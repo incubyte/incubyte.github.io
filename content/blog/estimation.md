@@ -48,7 +48,7 @@ Parametric estimation is one of the statistical methods to estimate the amount o
 
 A parameter with its assumed correlation to the amount of time taken is determined and is then scaled up to the actual project size. A deterministic result is a certain number, or a figure based on such scaling of the correlation. A probabilistic result on the other hand provides a range of estimates over a probability density curve as given below:
 
-<image src="/static/images/2022/05/Probabilistic_Parametric_Estimate.png"/>
+{{<figure src="/images/2022/05/Probabilistic_Parametric_Estimate.png">}}
 
 The first step in this technique is to determine the required parameter and the level of accuracy of the estimate. For example, take the method of story point estimation. We know that one story point is assigned to a task or a feature, which is the most basic work that can be completed in a given time. Keeping such a story as a reference, all the other stories can be assigned points. This means we can correlate the time taken to complete a task and the story point, which is
 EP = A<sub>old</sub>/P<sub>old</sub> * P<sub>curr</sub>.
@@ -69,7 +69,7 @@ Lower Boundary = ROM_Estimate * (1-25%)
 
 When a project is in its initial phases, the accuracy of our estimates tends to be vague as we accommodate for many unknowns, but as we progress along the project the estimates tend to be more definitive in nature with lesser deviation in terms of accuracy.
 
-<image src="/static/images/2022/05/ROM_funnel.png"/>
+{{<figure src="/images/2022/05/ROM_funnel.png">}}
 
 ## PERT:
 PERT, also known as Project Evaluation Review Technique is another statistical estimation technique that incorporates all the uncertainties in the estimates. It is based on the idea that any task can have a broad range of estimates depending on unknowns. It is divided likely into the following points:
@@ -106,5 +106,5 @@ On the other hand, if the estimate turns out to be on the higher end, then it be
 This brings us to the psycological need for estimates.
 Trust: The less you trust the team the more you feel the need to get estimates (I would like to know your thoughts on this one) Also, how the long cycle times in releases tend to change the estimates and thus depletes trust
 
-On a contrasting note a team which is continoulsy deleivering smaller chunks frequently does not require any estimates. 
+On a contrasting note a team which is continoulsy deleivering smaller chunks frequently does not require any estimates.
 No Estimate: Recently, how high-functioning teams have started working totally without estimates because they keep the batch size extremely small. They slice the stories into a very thin quantum of work and they add value on daily bases, if not more frequently.
