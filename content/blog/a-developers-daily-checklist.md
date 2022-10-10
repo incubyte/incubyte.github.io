@@ -1,5 +1,5 @@
 +++
-authors = "Sapan Parikh"
+authors = ["Sapan Parikh"]
 date = 2021-11-16T00:00:00Z
 description = "Are you a software developer? How can you be more effective on this journey of being a craftsperson? See your daily productivity checklist"
 draft = false

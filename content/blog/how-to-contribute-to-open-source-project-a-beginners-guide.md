@@ -1,5 +1,5 @@
 +++
-authors = "Utsav Parmar"
+authors = ["Utsav Parmar"]
 categories = ["Open Source"]
 date = 2021-06-01T00:00:00Z
 description = ""

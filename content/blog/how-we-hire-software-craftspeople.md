@@ -1,9 +1,9 @@
 +++
-authors = "Karishma Shah"
+authors = ["Karishma Shah"]
 categories = ["Careers", "Playbook", "Jobs", "Getting Started"]
 date = 2020-09-01T00:00:00Z
 description = ""
-draft = false
+draft = true
 image = "/images/2021/06/WhatsApp-Image-2021-06-25-at-12.43.20-PM.jpeg"
 slug = "hiring-process"
 tags = ["Careers", "Playbook", "Jobs", "Getting Started"]

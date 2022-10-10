@@ -1,5 +1,5 @@
 +++
-authors = "Abhishek Keshri"
+authors = ["Abhishek Keshri"]
 categories = ["Careers", "Software Craftsmanship"]
 date = 2022-01-04T00:00:00Z
 description = "Incubyte DevOps Assessment for DevOps Engineers"
