@@ -1,7 +1,8 @@
+
 +++
 title = "Angular Provider"
 slug = "angular-provider"
-date = 2022-02-10T22:58:11+05:30
+date = 2022-10-10T12:50:00+05:30
 image = "/images/2022/08/angular-logo.png"
 draft = false
 authors = ["Waqar Shaikh"]
@@ -12,16 +13,15 @@ categories = ["Playbook", "Software Craftsmanship", "Angular"]
 type = ""
 +++
 
-# Provider
-A provider is an instruction to the Dependency Injection system on how to obtain a value for a dependency. Most of the time, these dependencies are services that you create and provide
+Angular Provider is like a command to Angular Dependency Injection system regarding how to get an object/instance for a particular dependency.
 
-Angular Providers allows us to register classes, functions, or values (dependencies) with the Angular Dependency Injection system. 
+This helps us to register dependencies, like classes or functions or even values with the Angular Dependency Injection system. 
 
 **Now you must be wondering what on earth is the Angular Dependency Injection system?**
 
-{{< figure src="/images/2022/08/dependency-injection.png" height="300px" width="300px">}}
-
 # Dependency Injection
+
+Let's first see what is a Dependency.
 
 **Dependency** is a service or an object that a class needs to perform its function.
 
@@ -109,13 +109,6 @@ class CarFactory {
 That was just a basic example of dependency injection.
 
 Now let's get back to Angular Provider.
-# How to use Angular Providers?
-We register the services participating in the dependency injections in the Providers metadata. There are two ways by which we can do it.
-
-1. Register directly in the Providers array of `@NgModule` or `@Component` or in `@Directive`.
-2. Use the providedIn of the `@Injectable` decorator.
-
-For this particular blog we will go with the first option.
 
 # Configuring the Angular Provider
 
