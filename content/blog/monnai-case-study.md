@@ -1,11 +1,23 @@
++++
+authors = ["Sapan Parikh"]
+categories = ["Case Study"]
+date = 2022-11-05T00:00:00Z
+description = ""
+draft = false
+image = "/images/2021/07/1-year-blog-01.jpg"
+slug = "monnai-case-study"
+tags = ["Case Study"]
+title = "Monnai Case Study"
++++
+
 # Monnai Case Study
 
-## Monnai: 
+## Monnai:
 *Reinventing credit decisioning across the globe... fast.*
 
 Client
 
-The fintech market size stood at  USD 112.5 billion in the year 2021. But still, the credit decisioning processes remain outdated and have not changed much. Most of them do not work across countries and continents. 
+The fintech market size stood at  USD 112.5 billion in the year 2021. But still, the credit decisioning processes remain outdated and have not changed much. Most of them do not work across countries and continents.
 
 Monnai is on the way to changing it by providing global credit decisioning based on various parameters available today, which may be a better predictor than one’s Social Security Number or similar other identifiers.
 
@@ -41,12 +53,12 @@ Monnai is on the way to changing it by providing global credit decisioning based
 
 ## Defining a vision for the product and the partnership
 ### The first seven seconds
-Monnai had a very clear vision of how they wanted to change the fintech industry when they started. To jump-start their development, they decided to start working with us as they start creating their teams. We were able to get from a sales call to a fully working cross-functional team in less than a month. 
+Monnai had a very clear vision of how they wanted to change the fintech industry when they started. To jump-start their development, they decided to start working with us as they start creating their teams. We were able to get from a sales call to a fully working cross-functional team in less than a month.
 
 ### As green as it can get
-Starting with a blank slate, in this case, a blank confluence page, wouldn't be a wrong statement when we started the project. Monnai team had initial ideas of the endpoints they wanted to create to support their API business which we started building on. 
-Such greenfield projects can let our imagination run wild but in our experience, we have seen that projects very fast accrue technical debt as the team and complexity increase. That's why our focus was on the right practices like TDD and automation from day one! 
-One of the implicit focus we had was to be able to deliver sustainable growth of the feature set as time passes. 
+Starting with a blank slate, in this case, a blank confluence page, wouldn't be a wrong statement when we started the project. Monnai team had initial ideas of the endpoints they wanted to create to support their API business which we started building on.
+Such greenfield projects can let our imagination run wild but in our experience, we have seen that projects very fast accrue technical debt as the team and complexity increase. That's why our focus was on the right practices like TDD and automation from day one!
+One of the implicit focus we had was to be able to deliver sustainable growth of the feature set as time passes.
 
 The productivity pattern of a growing company typically looks like the following, exponential at first and then a dip!
 
@@ -57,7 +69,7 @@ We focused on the "right way" let's see how
 ## Automation Automation Automation
 
 ### Walking skeleton
-Most projects do not take up the ops work like build, deployment, infrastructure allocation, and database versioning until the very last moment. This becomes a reason for hurdles at the later stages of SDLC. 
+Most projects do not take up the ops work like build, deployment, infrastructure allocation, and database versioning until the very last moment. This becomes a reason for hurdles at the later stages of SDLC.
 This is why we started with a walking skeleton of the software where every component needed for the right software architecture and practices was made available. This includes at least automated build, code scans, testing, database upgrades, and code deployment.
 
 Essentially we started with automating the process along with every component needed to achieve the end architecture.
@@ -85,12 +97,12 @@ As an added bonus since everything is automated, replicating an environment beca
 
 
 ## Observability and Monitoring
-Due to the dynamic nature of components and our system communicating to multiple external data sources, we had to employ elegant observability solutions. We rely on proprietary solutions that support open-source implementation to avoid vendor locking. 
+Due to the dynamic nature of components and our system communicating to multiple external data sources, we had to employ elegant observability solutions. We rely on proprietary solutions that support open-source implementation to avoid vendor locking.
 
 
 ### Logs
 All the logs are captured and sent to a centralized server for query and review.
-Such centrally aggregated logs make your humdrum data insightful and real-time! 
+Such centrally aggregated logs make your humdrum data insightful and real-time!
 
 
 ### Metrics
