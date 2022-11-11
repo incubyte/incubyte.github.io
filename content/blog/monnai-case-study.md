@@ -10,7 +10,6 @@ tags = ["Case Study"]
 title = "Monnai Case Study"
 +++
 
-
 ## Monnai:
 
 _Reinventing credit decisioning across the globe... fast._
@@ -26,16 +25,16 @@ Monnai is on the way to changing it by providing global credit decisioning based
 ## What we did
 
 -   [Defining a vision for the product and the partnership (RUSHALI)](#defining-a-vision-for-the-product-and-the-partnership)
-- [Automation, automation, automation](#automation-automation-automation)
+-   [Automation, automation, automation](#automation-automation-automation)
     -   [Continuous Integration and Deployment (walking skeleton)](#walking-skeleton)
     -   [Test strategy (BDD)](#test-strategy)
     -   [Fault tolerance (AWS and automation)](#automated-fault-tolerance)
-- [Architected cloud infrastructure (AWS and Terraform)](#architecture-and-cloud-infrastructure)
-- [Observability and Monitoring](#observability-and-monitoring)
-  - [Logs](#logs)
-  - [Metrics](#metrics)
-  - [Traces](#traces)
-  - [Alarms](#alarms)
+-   [Architected cloud infrastructure (AWS and Terraform)](#architecture-and-cloud-infrastructure)
+-   [Observability and Monitoring](#observability-and-monitoring)
+    -   [Logs](#logs)
+    -   [Metrics](#metrics)
+    -   [Traces](#traces)
+    -   [Alarms](#alarms)
 
 ---
 
@@ -123,4 +122,3 @@ Observing one API call is difficult as we have distributed system having several
 ### Alarms
 
 None of these is helpful if we have to make someone sit and observe these things manually, we believe in automating these as well. Any anomalies like errors in logs will throw an alarm email to respective stack holders.
-
