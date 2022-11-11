@@ -10,24 +10,6 @@ tags = ["Case Study"]
 title = "Monnai Case Study"
 +++
 
-<!--toc:start-->
-- [Monnai:](#monnai)
-- [What we did](#what-we-did)
-- [Outcomes](#outcomes)
-- [Defining a vision for the product and the partnership](#defining-a-vision-for-the-product-and-the-partnership)
-  - [The first seven seconds](#the-first-seven-seconds)
-  - [As green as it can get](#as-green-as-it-can-get)
-- [Automation Automation Automation](#automation-automation-automation)
-  - [Walking skeleton](#walking-skeleton)
-  - [Test Strategy](#test-strategy)
-  - [Automated fault tolerance](#automated-fault-tolerance)
-- [Architecture and cloud infrastructure](#architecture-and-cloud-infrastructure)
-- [Observability and Monitoring](#observability-and-monitoring)
-  - [Logs](#logs)
-  - [Metrics](#metrics)
-  - [Traces](#traces)
-  - [Alarms](#alarms)
-<!--toc:end-->
 
 ## Monnai:
 
@@ -43,29 +25,31 @@ Monnai is on the way to changing it by providing global credit decisioning based
 
 ## What we did
 
--   Defining a vision for the product and the partnership (RUSHALI)
--   Automation, automation, automation
-    -   Continuous Integration and Deployment (walking skeleton)
-    -   Test strategy (BDD)
-    -   Fault tolerance (AWS and automation)
--   Architected cloud infrastructure
-    -   AWS architecture (Terraform)
--   Observability and monitoring
-    -   Tools
+-   [Defining a vision for the product and the partnership (RUSHALI)](#defining-a-vision-for-the-product-and-the-partnership)
+- [Automation, automation, automation](#automation-automation-automation)
+    -   [Continuous Integration and Deployment (walking skeleton)](#walking-skeleton)
+    -   [Test strategy (BDD)](#test-strategy)
+    -   [Fault tolerance (AWS and automation)](#automated-fault-tolerance)
+- [Architected cloud infrastructure (AWS and Terraform)](#architecture-and-cloud-infrastructure)
+- [Observability and Monitoring](#observability-and-monitoring)
+  - [Logs](#logs)
+  - [Metrics](#metrics)
+  - [Traces](#traces)
+  - [Alarms](#alarms)
 
 ---
 
 ## Outcomes
 
-**11 Countries**
+#### **11 Countries**
 
-**17 Data partner integrations**
+#### **17 Data partner integrations**
 
-**3 Months for going live**
+#### **3 Months for going live**
 
-**92%+ code coverage**
+#### **92%+ code coverage**
 
-**On-demand deployment, always prod ready**
+#### **On-demand deployment, always prod ready**
 
 ---
 
@@ -83,7 +67,7 @@ One of the implicit focus we had was to be able to deliver sustainable growth of
 
 The productivity pattern of a growing company typically looks like the following, exponential at first and then a dip!
 
-{{< figure src="/images/2022/11/monnai-case-study-diagram.png" caption="Productivity Pattern of a Growing company" >}}
+{{< figure src="/images/2022/11/monnai-case-study-diagram.jpg" caption="Productivity Pattern of a Growing company" >}}
 
 We focused on the "right way" let's see how
 
