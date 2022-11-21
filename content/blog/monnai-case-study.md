@@ -10,31 +10,30 @@ tags = ["Case Study"]
 title = "Monnai Case Study"
 +++
 
-## Monnai:
+### *A technical deep dive*
 
-_Reinventing credit decisioning across the globe... fast._
+## Client: Monnai 
+*Reinventing global consumer insights for fintech*
 
-Client
+The fintech market size stood at  USD 112.5 billion in the year 2021. Yet, consumer data used for decissioning remain outdated and fragmented. Most provide limited data points and do not even work across countries and continents. 
 
-The fintech market size stood at USD 112.5 billion in the year 2021. But still, the credit decisioning processes remain outdated and have not changed much. Most of them do not work across countries and continents.
+Monnai is on its way to changing this by providing over 500+ global and standardized consumer insights which may be a better predictor than just one’s Social Security Number or similar other identifiers. 
 
-Monnai is on the way to changing it by providing global credit decisioning based on various parameters available today, which may be a better predictor than one’s Social Security Number or similar other identifiers.
 
 ---
 
 ## What we did
 
--   [Defining a vision for the product and the partnership (RUSHALI)](#defining-a-vision-for-the-product-and-the-partnership)
--   [Automation, automation, automation](#automation-automation-automation)
-    -   [Continuous Integration and Deployment (walking skeleton)](#walking-skeleton)
-    -   [Test strategy (BDD)](#test-strategy)
-    -   [Fault tolerance (AWS and automation)](#automated-fault-tolerance)
--   [Architected cloud infrastructure (AWS and Terraform)](#architecture-and-cloud-infrastructure)
--   [Observability and Monitoring](#observability-and-monitoring)
-    -   [Logs](#logs)
-    -   [Metrics](#metrics)
-    -   [Traces](#traces)
-    -   [Alarms](#alarms)
+- Defining a vision for the product and the partnership
+- Automation, automation, automation
+	- Continuous Integration and Deployment (walking skeleton)
+	- Test strategy (BDD)
+	- Fault tolerance (AWS and automation)
+- Architected cloud infrastructure
+	- AWS architecture (Terraform)
+- Observability and monitoring
+	- Tools
+
 
 ---
 
@@ -52,17 +51,17 @@ Monnai is on the way to changing it by providing global credit decisioning based
 
 ---
 
+
+
 ## Defining a vision for the product and the partnership
 
 ### The first seven seconds
 
-Monnai had a very clear vision of how they wanted to change the fintech industry when they started. To jump-start their development, they decided to start working with us as they start creating their teams. We were able to get from a sales call to a fully working cross-functional team in less than a month.
+Monnai had a very clear vision of how they wanted to change the fintech industry when they started. To jump-start their development, they decided to engage Incubyte in parallel with creating their internal engineering team. We were able to get from a sales call to starting work in under 15 days. 
 
 ### As green as it can get
 
-Starting with a blank slate, in this case, a blank confluence page, wouldn't be a wrong statement when we started the project. Monnai team had initial ideas of the endpoints they wanted to create to support their API business, which we started building on.
-Such greenfield projects can let our imagination run wild but in our experience, we have seen that projects very fast accrue technical debt as the team and complexity increase. That's why our focus was on the right practices like TDD and automation from day one!
-One of the implicit focus we had was to be able to deliver sustainable growth of the feature set as time passes.
+Starting with a blank slate, in this case, a blank Confluence page, wouldn't be a wrong statement when we started the project. The Monnai team had initial ideas on the endpoints they wanted to create to support their API business, which we started building on. Such greenfield projects can cause imaginations to run wild and in our experience, we have seen projects accrue technical debt very fast as the team size and product complexity increase. That's why our focus was on the right practices like TDD and automation from day-one, while we worked closely with the client to uncover the thinnest slice that could become an MVP. The aim was not only to go to market quickly, but to also enable sustainable growth of the feature set as time passes. 
 
 The productivity pattern of a growing company typically looks like the following, exponential at first and then a dip!
 
@@ -73,52 +72,54 @@ We focused on the "right way" let's see how
 ## Automation Automation Automation
 
 ### Walking skeleton
+Most teams do not take up ops work like build, deployment, infrastructure allocation, and database versioning until the very last moment. This becomes a reason for hurdles at the later stages of PDLC.
 
-Most projects do not take up the ops work like build, deployment, infrastructure allocation, and database versioning until the very last moment.
-This becomes a reason for hurdles at the later stages of SDLC.
-This is why we started with a walking skeleton of the software where every component needed for the right software architecture and practices was made available, which includes at least automated build, code scans, testing, database upgrades, and code deployment.
+Starting with a walking skeleton of the software ensures smooth deployments from the very beginning since every component needed for the software architecture and practices is made available. This includes, at the very least, automated builds, code scans, testing, database upgrades, and code deployment.
 
 Essentially we started with automating the process along with every component needed to achieve the end architecture.
 
 ### Test Strategy
+First, there was TDD! We have been practicing outside-in TDD for some time. While TDD enabled us to achieve high code coverage and incremental evolution of the architecture, the missing piece causing project delays were because of lack of collaboration, high cost of coordination, failure to agree on things, longer test cycles, etc.
 
-First, there was TDD! We have been also practicing outside-in TDD for some time. But we observed that most project delays happen not because the time to **type code** was not enough, rather they happen because of a lack of collaboration, high cost of coordination, failure to agree on things, longer test cycles, etc.
-
-This is why we decided to use BDD, and the Three Amigos working model. We took the QA step that typically happens almost when all the work is done and shifted it all the way left in the timeline. That meant when we did the discovery we started automating the test cases and involved all three amigos, analysts, developers, and QA in the process from day one. This increased the buy-in of all the stakeholders and reduced the back and forth between the proverbial walls.
+This is why we decided to layer on BDD and the Three Amigos working model for the Monnai engagement. We took the QA function, that typically occurs almost after all work is done, and shifted it all the way left in the timeline. That meant we started automating test cases and involved all three amigos - analysts, developers, and QA, in the discovery process itself. This increased buy-in from all stakeholders and reduced back and forth between the proverbial walls.
 
 ### Automated fault tolerance
+We knew that we won't have the luxury of a "maintenance window" due to customers being located worldwide. So we designed our components in a way that any new deployment will create and start a server, make sure it is ready to accept traffic, only then route traffic to new servers, and then destroy old servers. This allowed us to deploy without any downtime, even in peak traffic conditions.
 
-We knew from day one that we won't have the luxury of a "maintenance window" due to customers spanning worldwide. So we designed our components in a way that any new deployment will create and start a server, make sure it is ready to accept traffic, only then route our traffic to new servers, and destroy old servers. This allows us to do deployments without any downtime, even in peak traffic.
+But, what if servers crashed or worse, what if a server is running but for some reason, not accepting the traffic? We put a liveness probe to each component that checks if the server can accept traffic, and if not, restart it. Also, there are always two load-balanced replicas in case of a server failure.
 
-But that is not enough, what if servers got crashed or worse, what if a server is running but for any reason, not accepting the traffic? We put a liveness probe to each component that checks if the server can accept traffic, otherwise restart it. Also, there are always two load-balanced replicas in case of failure in one server.
+But wait, there is more! What if servers receive requests such that memory or CPU consumption shoot up? We put in horizontal scaling such that before an overload, a standby server is started and makes itself ready to serve the increased traffic. The mechanism will kill the extra instance once a dip in traffic is observed.
 
-But wait, there is more! What if servers receive requests as such that memory or CPU consumption shoot up? We put a horizontal scaling in a way that before that happens, a standby server is started and makes itself ready to serve the traffic. The mechanism will kill the extra instance in case of a dip in traffic is observed.
 
-## Architecture and cloud infrastructure
+## Cloud infrastructure
+We emphasize on automation everywhere. Not just artifacts, and testing, but infrastructure should be automated as well. We use Terraform to create and manage the infrastructure. It has served us very well so far, eliminating any chance of human error in creating infrastructure.
 
-We emphasize automation, not just artifacts, and testing, but infrastructure should be automated as well. We use terraform to create and manage the infrastructure. That paid us very well so far. That eliminated any chance of human error creating infrastructure.
-
-Human errors are not limited to system crashes but security lapses as well. Security lapse can cause more damage than other system issues. Since the infrastructure is in code, and each code change (read infrastructure change) is peer-reviewed and scanned automatically by a code scanner there are fewer chances of deploying vulnerable infrastructure.
+Human errors are not limited to system crashes, but security lapses as well. A security lapse can cause more damage than other system issues. Since the infrastructure is in code, and each code change (read infrastructure change) is peer-reviewed and scanned automatically by a code scanner, there are fewer chances of deploying vulnerable infrastructure.
 
 As an added bonus since everything is automated, replicating an environment became trivial too.
 
-## Observability and Monitoring
 
-Due to the dynamic nature of components and our system communicating to multiple external data sources, we had to employ elegant observability solutions. We rely on proprietary solutions that support open-source implementation to avoid vendor locking.
+## Observability and Monitoring
+Due to the dynamic nature of components and the need for our system to communicate with multiple external data sources, we had to employ elegant observability solutions. We rely on proprietary solutions that support open-source implementation to avoid vendor locking. 
 
 ### Logs
-
-All the logs are captured and sent to a centralized server for query and review.
-Such centrally aggregated logs make your humdrum data insightful and real-time!
+All logs are captured and sent to a centralized server for query and review. Such centrally aggregated logs make your humdrum data insightful and real-time! 
 
 ### Metrics
-
-Different levels of metrics like CPU, memory, thread, no of requests, no of active servers, etc. are collected and sent to a centralized server. The custom-made dashboard helps keeping eye on the health of infrastructure and become proactive as opposed to reactive!
+Different levels of metrics like CPU, memory, threads, number of requests, number of active servers, etc. are collected and sent to a centralized server. A custom-made dashboard helps keep an eye on the health of infrastructure and become proactive as opposed to reactive!
 
 ### Traces
-
-Observing one API call is difficult as we have distributed system having several internal and external endpoints. We capture and store traces of each call and allow developers to view the whole tree in a nice graphical way so that debugging and finding the cause of failure or slowness becomes easy
+Observing one API call is difficult as we have a distributed system with several internal and external endpoints. We capture and store traces of each call and allow developers to view the whole tree in a nice graphical way so that debugging and finding the cause of failure or slowness becomes easy.
 
 ### Alarms
+None of these are helpful if a person has to sit and analyze logs, traces or metrics manually, we believe in automating these as well. Any anomalies like errors in logs will throw an alarm email to relevant stakeholders.
 
-None of these is helpful if we have to make someone sit and observe these things manually, we believe in automating these as well. Any anomalies like errors in logs will throw an alarm email to respective stack holders.
+---
+
+## TL;DR
+A carefully selected tech stack, high levels of automation and following best practices from day one, helped us achieve the following for Monnai:
+1. Go to market in three months
+2. The ability to respond quickly to feedback from potential customers
+3. Onboarding their first customer within six months 
+4. Sustained frequent releases to ensure the product evolved rapidly and incrementally
+5. An amazing team morale!
