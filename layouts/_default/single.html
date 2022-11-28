@@ -23,6 +23,8 @@
           on {{ .Date.Format "Monday, January 2, 2006"}}
         </p>
 
+        {{ partial "share-buttons.html" . }}
+
         <!-- comments -->
         {{ if site.DisqusShortname }}
         <div class="mt-5">
