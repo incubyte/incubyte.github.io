@@ -1,0 +1,36 @@
+<script type="application/ld+json">
+    {{ if or (or (eq .Section "post") (eq .Section "blog")) (or (eq .Section "categories") (eq .Section "tags") ) }}
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": {{ .Title }},
+        "image": {{ .Params.image | relURL }},
+        "datePublished": {{ .Date.Format "Monday, January 2, 2006"}},
+        "dateModified": {{ .Date.Format "Monday, January 2, 2006"}},
+        "author": [
+            {{range .Params.authors}}
+                {
+                    "@type": "Person",
+                    "name": {{ . }}
+                }
+            {{ end }}
+        ],
+        "mainEntityOfPage": { "@type": "WebPage" },
+        "publisher": {
+            "@type": "Organization",
+            "name": {{ site.Params.author }},
+            "logo": {
+                "@type": "ImageObject",
+                "url": {{ .Site.Params.logo }}
+            },
+            "sameAs": [
+                "https://incubyte.co",
+                "https://github.com/incubyte",
+                "https://twitter.com/incubyte_co",
+                "https://www.instagram.com/incubyte.co/"
+            ]
+        },
+        "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
+    }
+    {{ end }}
+</script>
