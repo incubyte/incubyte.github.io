@@ -22,8 +22,8 @@ name = "Work"
 weight = 2
 
 [[main]]
-name = "Software Development"
-url = "https://incubyte.co/design-and-develop"
+name = "Product Development"
+url = "https://www.incubyte.co/software-development"
 parent = "Work"
 weight = 1
 
@@ -33,6 +33,17 @@ url = "https://www.incubyte.co/enhance-and-modernize"
 parent = "Work"
 weight = 2
 
+[[main]]
+name = "Consulting"
+url = "https://www.incubyte.co/consulting"
+parent = "Work"
+weight = 3
+
+[[main]]
+name = "Virtual CTO"
+url = "https://www.incubyte.co/virtual-cto"
+parent = "Work"
+weight = 4
 
 [[main]]
 name = "Resources"
@@ -75,8 +86,8 @@ weight = 3
 
 # footer menu middle
 [[footer_middle]]
-name = "Software Development"
-url = "https://www.incubyte.co/design-and-deveop"
+name = "Product Development"
+url = "https://www.incubyte.co/software-development"
 weight = 1
 
 [[footer_middle]]
@@ -84,6 +95,15 @@ name = "Software Modernization"
 url = "https://www.incubyte.co/enhance-and-modernize"
 weight = 2
 
+[[footer_middle]]
+name = "Consulting"
+url = "https://www.incubyte.co/consulting"
+weight = 3
+
+[[footer_middle]]
+name = "Virtual CTO"
+url = "https://www.incubyte.co/virtual-cto"
+weight = 4
 
 # footer menu right
 [[footer_right]]
