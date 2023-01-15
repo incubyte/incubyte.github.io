@@ -6,19 +6,18 @@ draft = false
 image = "/images/2023/01/sabotage.jpg"
 slug = "simple-sabotage"
 tags = ["Modernization"]
-title = "Are you unknowingly sabotaging your organizational goals?"
+title = "Are you sabotaging your organizational goals?"
 +++
-# Are you sabotaging your organization's goals without knowing it?
 
 
-I recently came across [Simple Sabotage Field Manual](https://www.gutenberg.org/cache/epub/26184/pg26184-images.html). What struck me was you do not need bombs and explosives to start sabotage. Many small actions that can cause delays, untidiness, and losses are also sabotage attempts. Do you see any parallels between the excerpts of the white paper and organizational behavior where you work?
+I recently came across [Simple Sabotage Field Manual](https://www.gutenberg.org/cache/epub/26184/pg26184-images.html). What struck me was you do not need bombs and explosives to start sabotaging. Many small actions that can cause delays, untidiness, and losses are also sabotage attempts. Do you see any parallels between the excerpts of the white paper and organizational behavior where you work?
 
 When you see the list in the context of software modernization, it's clear that software modernization doesn't just have to do with the tech but also the mode of operation of every team and organization as a whole. If you want to get better at something, you will also have to change your habits; otherwise, you are unintentionally sabotaging your org's goals!
 
-Following is the list of simple sabotage guidelines, cherry-picked by me from the paper. 
+Following is the list of simple sabotage guidelines, cherry-picked from the paper. 
 
-## General Interference with Organizations and Production
-### Organizations and Conferences 
+### General Interference with Organizations and Production
+#### Organizations and Conferences 
 1. Insist on doing everything through “channels.” Never permit short-cuts to be taken in order to expedite decisions.
 2. Make “speeches.” Talk as frequently as possible and at great length. Illustrate your “points” by long anecdotes and accounts of personal experiences. Never hesitate to make a few appropriate “patriotic” comments.
 3. When possible, refer all matters to committees, for “further study and consideration.” Attempt to make the committees as large as possible—never less than five.
@@ -50,12 +49,15 @@ Following is the list of simple sabotage guidelines, cherry-picked by me from th
 ### Employees
 24. Work slowly. Think out ways to increase the number of movements necessary on your job: use a light hammer instead of a heavy one, try to make a small wrench do when a big one is necessary...
 25. Contrive as many interruptions to your work as you can: when changing the material on which you are working, as you would on a lathe or punch, take needless time to do it. If you are cutting, shaping or doing other measured work, measure dimensions twice as often as you need to. When you go to the lavatory, spend a longer time there than is necessary.
-13. Let cutting tools grow dull. They will be inefficient, will slow down production, and may damage the materials and parts you use them on.
 14. Do your work poorly and blame it on bad tools, machinery, or equipment. Complain that these things are preventing you from doing your job right.
 15. Never pass on your skill and experience to a new or less skillful worker.
 
 ## General Devices for Lowering Morale and Creating Confusion
-16. Act stupid.
-17. Give lengthy and incomprehensible explanations when questioned.
-18. Report imaginary ==spies== or danger
-14. Leave saws slightly twisted when you are not using them. After a while, they will break when used. 
+1. Act stupid. 
+2. Give lengthy and incomprehensible explanations when questioned. 
+3. Report imaginary ~~spies~~ or danger 
+ 
+
+## Industrial Production: Manufacturing
+1. Leave saws slightly twisted when you are not using them. After a while, they will break when used.
+2. Let cutting tools grow dull. They will be inefficient, will slow down production, and may damage the materials and parts you use them on.
