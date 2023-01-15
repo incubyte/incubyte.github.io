@@ -12,7 +12,7 @@ title = "Are you sabotaging your organizational goals?"
 
 I recently came across [Simple Sabotage Field Manual](https://www.gutenberg.org/cache/epub/26184/pg26184-images.html). What struck me was you do not need bombs and explosives to start sabotaging. Many small actions that can cause delays, untidiness, and losses are also sabotage attempts. Do you see any parallels between the excerpts of the white paper and organizational behavior where you work?
 
-When you see the list in the context of software modernization, it's clear that software modernization doesn't just have to do with the tech but also the mode of operation of every team and organization as a whole. If you want to get better at something, you will also have to change your habits; otherwise, you are unintentionally sabotaging your org's goals!
+When seen in the context of software modernization, it's clear that software modernization doesn't just have to do with the tech but also the mode of operation of every team and organization as a whole. If you want to get better at something, you will also have to change your habits; otherwise, you are unintentionally sabotaging your org's goals!
 
 Following is the list of simple sabotage guidelines, cherry-picked from the paper. 
 
