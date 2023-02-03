@@ -16,7 +16,7 @@ type = ""
 
 Code coverage is a measure (in percentage) of the degree to which the source code of a program is executed wh­en a particular test suite is run.
 
-Measuring test code coverage can be a useful technique for finding where the gaps are in your automated tests, and to assess the quality of your test suite. However, that is not always true. Coverage when used as a target, can be misleading, encourage the wrong behaviors and even at times distort development.
+Measuring test code coverage can be a useful technique for finding where the gaps are in your automated tests, and assessing the quality of your test suite. However, that is not always true. Coverage when used as a target, can be misleading, encourage the wrong behaviors, and even at times distort development.
 
 Here, we will try to debunk the myth (by using relatable examples) that code coverage should not be the only measure of reliability.
 Keep reading to find out why!
@@ -37,7 +37,7 @@ public String getMyMood(int noOfChocolatesIHave) {
 }
 ```
 
-Test cases looks likes this
+Test cases look like this
 
 ```java
 @Test
@@ -75,7 +75,7 @@ People usually keep tests in the code to make sure each small chunk is doing wha
 
 It is hard to generate test fixtures where the config file does not exist. Also, it is not worth putting in the effort to check that test case at all.
 
-This is because if the config file is not available, then the app might fail to start and by default another test case will also crash.
+This is because if the config file is not available, then the app might fail to start and by default, another test case will also crash.
 
 In short, these edge cases are hard to cover and hence 80% is the standard industry benchmark.
 
@@ -130,11 +130,11 @@ void testTheHack() {
 
 Do you see the problem?
 
-Since the hack function has 50 lines and original function had around 10 lines, total line coverage is 50 / (10 + 50) = 83%. It is clear that the coverage criterion is achieved but at the cost of compromised quality.
+Since the hack function has 50 lines and the original function had around 10 lines, the total line coverage is 50 / (10 + 50) = 83%. It is clear that the coverage criterion is achieved but at the cost of compromised quality.
 
 ## How should we use code coverage measure?
 
-Code coverage is a useful metric in the sense that it gives us an assurance about so many lines of our code base having been executed by the test suite. But if that is the only metric being used, then it may give a false indication of the robustness and integrity of the tests.
+Code coverage is a useful metric in the sense that it gives us assurance about so many lines of our code base having been executed by the test suite. But if that is the only metric being used, then it may give a false indication of the robustness and integrity of the tests.
 
 Instead, code coverage should be coupled with functional coverage, where one ensures that the test suite actually tests all the functionality of the product.
 

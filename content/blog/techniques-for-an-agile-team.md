@@ -11,13 +11,13 @@ categories = ["Software Craftsmanship", "Agile", "Best Practices", "SDLC"]
 type = ""
 +++
 
-Agile is the most discussed software development methodology, and probably most widely accepted as the way forward for modern software development teams. The reason (IMHO) anything is this much discussed and written about is that the practices haven't been carved in stone yet, are still in the evolving phase and are in some way even disputed. There is so much going on in the Agile transformation initiatives that it's possible the definition of agile development is different from company to company.
+Agile is the most discussed software development methodology, and probably the most widely accepted as the way forward for modern software development teams. The reason (IMHO) anything is this much discussed and written about is that the practices haven't been carved in stone yet, are still in the evolving phase, and are in some way even disputed. There is so much going on in the Agile transformation initiatives that it's possible the definition of agile development is different from company to company.
 
-So, we wanted to shed some light on what being a team with agile ideas really mean for us!
+So, we wanted to shed some light on what being a team with agile ideas really means for us!
 
 Mainly and most importantly, it is software development with a focus on collaboration and self-organizing, independent, and effective teams.
 
-Lots of things fall under the Agile Umbrella, including processes, practices, roles or even just a mindset. Here, we share a few tips and techniques that help our teams achieve this goal of being collaborative and owning the SDLC from start to finish:
+Lots of things fall under the Agile Umbrella, including processes, practices, roles, or even just a mindset. Here, we share a few tips and techniques that help our teams achieve this goal of being collaborative and owning the SDLC from start to finish:
 
 ## 1) Feature Owner:
 
@@ -53,11 +53,11 @@ The outcome of story analysis is that the story is ready to be picked up in the 
 
 ## 3) Kick-Off:
 
-**Who:** Product owner, tester, and the developer pairs who will be working on the story
+**Who:** The product owner, tester, and developer pairs who will be working on the story
 
-Before picking up a story for development, participants get together for a quick walk through of the story according to the business needs.
+Before picking up a story for development, participants get together for a quick walkthrough of the story according to the business needs.
 
-During this kick-off, participants discuss the acceptance criteria, whether there is any analysis remaining, and whether there are any blind spots, blockers or any dependent stories.
+During this kick-off, participants discuss the acceptance criteria, whether there is any analysis remaining, and whether there are any blind spots, blockers, or dependent stories.
 
 The objective of a kickoff is to ensure that the product owner, tester, and developers are on the same page, have a common goal, the story value is well understood, blockers they may face while developing the story have been identified, and a plan is in place to resolve the blockers before picking up the story.
 
@@ -65,7 +65,7 @@ If there are any blockers, like unclear Acceptance Criteria, dependencies on oth
 
 ## 4) Desk-check:
 
-**Who:** Product owner, tester, feature owner and the developer pairs working on the story
+**Who:** Product owner, tester, feature owner, and the developer pairs working on the story
 
 Desk-check comes after development is done. The developer showcases the story to all participants.
 
@@ -87,13 +87,13 @@ The responsibility of a team member here is two-fold - to transfer gained knowle
 
 To avoid knowledge hoarding, the following things can be done:
 
--   Pair Rotation: If a story is taking a few days for completion, one of the developers from the pair can roll out, say after 2 days, and the new developer can join in. The developer already working on the story will ensure that the new folk joining gets all insights into work done so far, and what needs to be done next.
+-   Pair Rotation: If a story is taking a few days to complete, one of the developers from the pair can roll out, say after 2 days, and the new developer can join in. The developer already working on the story will ensure that the new folk joining gets all insights into work done so far, and what needs to be done next.
 
--   Sessions: Conduct sessions within the team showcasing the architectural implementation/discussion, new feature integration and its design decision, sharing domain knowledge of the feature, what are the requirements from the product owner, etc.
+-   Sessions: Conduct sessions within the team showcasing the architectural implementation/discussion, new feature integration, and its design decision, sharing domain knowledge of the feature, what are the requirements from the product owner, etc.
 
 ## 6) GO-TO Person:
 
-**Who:** A team member can self-sign up for being a GOTO person for any particular technology, epic or feature.
+**Who:** A team member can self-sign up for being a GOTO person for any particular technology, epic, or feature.
 
 A GOTO person is kind of an expert. Team members can go to them to resolve any issues or to get their advice on a problem.
 
@@ -109,7 +109,7 @@ The engineering team should be available to get together for a quick discussion 
 
 While implementing a story we might face some issues or have confusion about which approach to go with, each having its own pros and cons.
 
-In such cases, we may call for a quick huddle where the team discusses the issue, shares their agile values or votes for a particular solution to go with.
+In such cases, we may call for a quick huddle where the team discusses the issue, shares their agile values, or votes for a particular solution to go with.
 
 ### Feedback:
 
@@ -119,13 +119,13 @@ Feedback is one of the core principles of an Agile team.
 
 We should make sure that the feedback we give is constructive and should also take feedback constructively.
 
-Feedback can be given while pairing after we are done with the story, daily stand-ups or even on catch-up one-on-one.
+Feedback can be given while pairing after we are done with the story, daily stand-ups, or even on catch-up one-on-one.
 
 ### Group Feedback:
 
 **Who:** The whole team
 
-We can have group feedback where all team members write feedback for a particular team member. Also, when the team discusses the effective retrospectives, the teammate getting feedback may not be present in the discussion and will join in once the team is ready with their feedback.
+We can have group feedback where all team members write feedback for a particular team member. Also, when the team discusses effective retrospectives, the teammate getting feedback may not be present in the discussion and will join in once the team is ready with their feedback.
 
 When he/she receives the feedback it is what the entire team has agreed to, and is from the team rather than a particular individual.
 
@@ -135,4 +135,4 @@ Does it feel like lots of meetings?
 
 Yes, after going through this blog it might seem to you that the product teams will end up having lots of daily meetings, we will end up spending half of our days in a meeting room or on teams calls and a wall full of sticky notes...
 
-Most of what’s listed here should not be necessarily long meetings. Participants usually get together for a quick discussion without needing to book a meeting room or send out an invite email. These become second nature over time as compared to being time-consuming, enforced rituals!
+Most of what’s listed here should not be necessarily long meetings. Participants usually get together for a quick discussion without needing to book a meeting room or send out an invitation email. These become second nature over time as compared to being time-consuming, enforced rituals!

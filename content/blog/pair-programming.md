@@ -156,4 +156,4 @@ But, is coding in a pair suitable for all? There is no one answer applicable to 
 
 As they say "A problem shared is a problem halved." We like to use pair programming to improve employee skills and performance. Of course, we do not enforce it 24 X 7 and each team finds its own sweet spot around the number of hours to pair every day. We love the process and are surely going to keep it!
 
-Have you tried programming in a pair? We are always looking for programmers who are keen on crafting great software. Write to us at [helllo@incubyte.co](mailto:helllo@incubyte.co) to know more.
+Have you tried programming in a pair? We are always looking for programmers who are keen on crafting great software. Write to us at [hello@incubyte.co](mailto:hello@incubyte.co) to know more.
