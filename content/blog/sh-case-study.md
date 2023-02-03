@@ -1,5 +1,5 @@
 +++
-authors = ["Utsav Parmar", "Abhishek Keshri", "Deepshikha Pingle"]
+authors = ["Deepshikha Pingle"]
 categories = ["Case Study"]
 date = 2023-01-30T00:00:00Z
 description = ""
