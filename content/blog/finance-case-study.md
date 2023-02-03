@@ -29,7 +29,7 @@ Once the initial discovery is completed, Mockups were showcased; as a team we re
 
 **Challenges:**
 
-1. The existing application is deployed and running on in-house servers. Cloud was far away from the thoughts. As the business scales at RF number of customers, agents serving the customers increased, these realistic scenarios gave us a breath to talk about the cloud migration.
+1. The existing application is deployed and running on in-house servers. Cloud was far away from the thoughts. As the business scales at client side the number of customers, agents serving the customers increased, these realistic scenarios gave us a breath to talk about the cloud migration.
 1. The unspoken fear of the cloud is the security and PII that existing system is storing. That’s where we came to a common ground the new application will not hold any PII data.
 1. Agents at Client are used to certain flows and interfaces, they should experience less to no transformation when working with the new system.
 
@@ -63,7 +63,7 @@ Every sprint release
 
 For Productization
 
-- December 2022 for Repo BU in RF
+- December 2022 for Repo BU in Client org
 
 {{< figure src="/images/2023/02/finance-002.png" >}}
 
