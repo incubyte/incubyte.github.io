@@ -7,7 +7,7 @@ draft = false
 image = "/images/2021/09/laptop-plant.jpg"
 slug = "finance-case-study"
 tags = ["Case Study"]
-title = "Financing Personal Goals: A Case Study"
+title = "Consumer Finance Lender: Case Study"
 +++
 
 **Client:**
