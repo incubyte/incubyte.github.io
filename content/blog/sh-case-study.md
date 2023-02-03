@@ -11,10 +11,10 @@ title = "Spring Health: Taking Mental HealthCare Solution Global"
 +++
 
 ## Client
-Spring Health is the most comprehensive global mental health solution for employers. It started its journey back in 2016 andgrowing since then.
+Spring Health is the most comprehensive global mental health solution for employers. It started its journey back in 2016 and growing since then.
 
 ## Global Care
-The next-generation tech-enabled precision mental healthcare offering that is Spring Health went international, localizing the experience and bringing quality care to 40+ countries in 9+ new languages. While Spring Health continues to extend the care globally, let's take a look at the technical how.
+The next-generation tech-enabled precision mental healthcare offering that is Spring Health went international, localizing the experience and bringing quality care to 41 countries in 22 new languages. While Spring Health continues to extend the care globally, let's take a look at the technical how.
 
 ## What We Did
 - Created a framework to enable global offerings in the web application
