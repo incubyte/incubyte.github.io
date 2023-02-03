@@ -6,11 +6,12 @@ description = ""
 draft = false
 image = "/images/2021/09/laptop-plant.jpg"
 slug = "engagement-overview"
-tags = ["Engagement Overview"]
-title = "Engagement Overview"
+tags = ["Case Study"]
+title = "TeleBright: Modernizing A Legacy Application"
 +++
 
-{{< figure src="/images/2023/02/Engagement Overview_page-0001.jpg" >}}
+Case Study of our engagement with TeleBright.
+
 {{< figure src="/images/2023/02/Engagement Overview_page-0002.jpg" >}}
 {{< figure src="/images/2023/02/Engagement Overview_page-0003.jpg" >}}
 {{< figure src="/images/2023/02/Engagement Overview_page-0004.jpg" >}}
