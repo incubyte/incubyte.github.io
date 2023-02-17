@@ -9,89 +9,95 @@ slug = "sh-case-study"
 tags = ["Case Study"]
 title = "Taking Mental Healthcare Solution Global"
 +++
-
 ## Client
 
-A leading comprehensive global mental health solution for employers. It started its journey back in 2016 and growing since then.
+The client is a leading comprehensive global mental health solution provider for employers. It began its journey in 2016, with a valuation of $2 billion in September 2021, and has been steadily growing since then.
 
-## Global Care
+## Problem Statement
 
-The next-generation tech-enabled precision mental healthcare company went international, localizing the experience and bringing quality care to 41 countries in 22 new languages.
+The company's reach was only local for the first few years, but next-generation tech-enabled precision mental healthcare wanted to go global by localizing the experience and providing high-quality care in numerous nations and languages, which presents its own set of challenges, including the following.
 
-To extend the care globally, they had to solve some challenges, which included internationalization of the application along with content localization.
+- Scalability
+- Support for new countries
+- Support for new languages
 
 ## What We Did
 
-- Created a framework to globalize care services
-- Provide country specific localized content
-- Streamline and automate translation workflow, integrating a third-party translation service
-- Extended international offering to 41 more countries in 22 more languages
+- Created a framework to enable global care service
+- Provide country-specific language content on the web app and emails
+- By integrating a 3rd party translation service, we streamlined and automated translation workflow to minimize manual work every time we introduced a new region and a language
+- Translated an interactive section of the application that included audio and text content
 
 ## Outcomes
 
-- Providing care for 41+ countries in 22+ languages
+{{< figure src="/images/2023/02/global-outcome.png" >}}
+
+- Extended international offering to 41 more countries in 22 more languages
 - Ability to introduce the product to a new country within a week
-- Having first class support for right-to-left languages
+- Support to right-to-left languages
 - Localize content based on country
+- 15000+ global customers added customer added
 
 ## Challenges and Solutions
 
-### UI Translations
+### Internationalization
 
-**Challenge**: Translating the UI based on user's language preference
+In just three months, our team developed and deployed a framework to close the gap in global offerings, saving our client both money and time. The main difficulties we encountered while creating the global framework were:
 
-**Solution**:
+### Translations
 
-- Identifying and extracting string literals to JSON locale files
+**Challenges**
+
+- Translating the UI based on user’s language preference
+- Client needed an easy way to localize emails and update email content
+- UI needed to update based on language direction
+
+## Solution
+
+Any typical software usually communicates with its users through its user interface, but the language you see there could also be found in the emails, the database, or the front end of the website. To present various languages in all of these modalities, we needed a strategy, so we did the following:
+
+### Frontend
+
+- Separated languages from DB or UI to flat files, which could be replicated for each language
+- Separated code from the language embedded in it using JSON files
 - Update existing usages of string literals with localized versions
-- Introduce third-party translation provider Crowdin
-- Integrate Crowdin with GitHub PR workflow to provide automated translations
+- Introduce third-party translation provider **Crowdin**
+- Integrate **Crowdin** with GitHub PR workfow to provide automated translations
 
-**Outcome**: Users can use the application in their preferred language.
-
-### Content Translations
-
-**Problem**: Translating the UI based on user's language preference
-
-**Solution**:
+### Backend
 
 - Identifying and extracting required database content to YAML locale files
-- Configure application to serve localized content based on user's language preference
+- Configure application to serve localized content based on user’s language preference
 - Introduce third-party translation provider Crowdin for database translations
 - Integrate Crowdin with GitHub PR workflow to provide automated translations
 
-**Outcome**: Users can access content in their preferred language.
-
-#### Translating Emails
-
-**Problem**: Client needed an easy way to localize emails and update email content
-
-**Solution**:
+### Translating Emails
 
 - Introduce third-party mail service provider Iterable
 - Migrate existing code heavy mailers to easy to edit Iterable templates
 - Integrate Iterable with existing mail sending behaviour
 
-**Outcome**: Mails content is now translated and content can be tweaked without any dependency on developer solving a major bottleneck for client's marketing team.
-
 ### Supporting Right-to-Left Languages
-
-**Problem**: UI needed to update based on language direction
-
-**Solution**:
 
 - Identifying elements and interactions that needed updates
 - Update components with logical CSS properties
 - Add support for bidirectional text and icons
 - Add smart exceptions based on content type
 
-**Outcome**: Users preferring RTL languages could naturally interact with the application.
+### Results
 
-### Conclusion
+- Users can use the application in their preferred language.
+- Users can access content in their preferred language.
+- Mails content is now translated and content can be tweaked without any dependency on developer solving a major bottleneck for client’s marketing team.
+- Users preferring RTL languages could naturally interact with the application.
 
-A keen study of our client requirements and careful consideration of suitable solutions helped us to achieve the following for our client and us.
+## Conclusion
+
+A keen study of our client’s requirements and careful selection of suitable solutions helped us to achieve the following for our client and us -
 
 - Roll-out new global framework within 3 months
 - Client is able to rapidly introduce its product in new countries with minimal efforts.
 - Expand product presence in 41+ countries with 22+ languages
 - Build trust and long-term association with client
+- Improved client satisfaction and global business
+
