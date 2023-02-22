@@ -5,7 +5,7 @@ date = 2023-02-03T00:00:00Z
 description = ""
 draft = false
 image = "/images/2023/finance.jpg"
-slug = "finance-modernization-case-study"
+slug = "finance-case-study"
 tags = ["Case Study", "Modernization"]
 title = "A Centralized System for a Leading Consumer Lending Bank "
 +++
@@ -16,7 +16,7 @@ A leading customer credit provider in the United States, committed to assisting 
 
 ### Problem statement:
 
-The bank has over 30 million unique loan contracts spread across various departments. As the number of contracts grew over time, handling all these contracts manually led to these major drawbacks.
+The bank has over 3.6 million unique loan contracts spread across various departments. As the number of contracts grew over time, handling all these contracts manually led to these major drawbacks.
 
 1. No centralized system to access all the contracts and work on them. The agents had to do multiple logins to different branch systems to even find the correct contract and then login to different workflow systems to work on them.
 2. While working on a contract and doing multiple actions for one single operation, like multiple clicks and data entries, manual errors inevitably started creeping in.
@@ -63,7 +63,7 @@ We mainly created the system with these goals -
 1. **Having one centralized place where the agents could access all the loan contracts.** With the new product, the multiple sign-in problem was solved, and they would only have to sign in once to access everything from everywhere.
 2. **A cloud-based system that doesn’t store any PII data.** To address the concerns of security regarding the PII data, we decided not to store any such data in our cloud-based app but in the existing on-prem server.
 3. **Automating all the manual checks that the agents used to perform on each contract to find whether the bank would proceed with the process or not.** Automation saved agents considerable amount of manual effort because the product can run the static repeated checks on every contract and determine its state and subsequent workflow appropriately. All agents have to do now is to perform the unavoidable mandatory checks using the product.
-4. **Having a smooth UX.** We found that 100% of our users use Windows. Therefore, to reduce the cognitive complexity and the learning curve of the user for the new system, we followed the lates design trends and patterns popularized by Microsoft so that the users feel that they are using a native Windows app itself and not some other new alien system.
+4. **Having a smooth UX.** We found that 100% of our users use Windows. Therefore, to reduce the cognitive complexity and the learning curve of the user for the new system, we followed the latest design trends and patterns popularized by Microsoft so that the users feel that they are using a native Windows app itself and not some other new alien system.
 5. **A light weight system that can be updated on a regular basis.** Since this was a new product with new discoveries about new features being made every week, we designed it in such a way that with the click of a button, we could deploy an updated version. By being truly agile about what we do and sticking to the frequent deployments principle, our release frequency has been 2 weeks on an average for the last two years.
 
 ### Going Forward:
