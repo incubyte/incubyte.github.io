@@ -30,23 +30,23 @@ After the roll out to single department, there was such a huge success that ever
 
 ### Outcome:
 
-<span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center;">
+<span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center; flex-wrap: wrap">
 <h2 >~50%</h2> &nbsp;&nbsp; decrease in turnaround time per contract (1 hour to 30mins)
 </span>
 
-<span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center;">
+<span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center; flex-wrap: wrap">
 <h2>~4000</h2> &nbsp;&nbsp; manual hours for 800 users saved every single day 
 </span>
 
-<span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center;">
+<span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center; flex-wrap: wrap">
 <h2>~2X</h2> &nbsp;&nbsp; increase in contracts handled daily
 </span>
 
-<span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center;">
+<span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center; flex-wrap: wrap">
 <h2>~160x</h2> &nbsp;&nbsp; daily users across 5 different departments
 </span>
 
-<span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center;">
+<span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center; flex-wrap: wrap">
 <h2>~50</h2> &nbsp;&nbsp; releases within a span of 2 years
 </span>
 
