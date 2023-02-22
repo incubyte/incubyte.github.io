@@ -15,7 +15,7 @@ The client is a leading comprehensive global mental health solution provider for
 
 ## Problem Statement
 
-Our client's reach was only local for the first few years, they wanted to go global by localizing the experience and providing high-quality care in numerous nations and languages, which presents its own set of challenges, including the following.
+Our client's reach was only limited to US for the first few years, they wanted to go global by localizing the experience and providing high-quality care in numerous nations and languages, which presents its own set of challenges, including the following.
 
 - Scalability
 - Support for new countries
@@ -24,9 +24,9 @@ Our client's reach was only local for the first few years, they wanted to go glo
 ## What We Did
 
 - Created a framework to enable global care service
-- Provide country-specific language content on the web app and emails
-- By integrating a 3rd party translation service, we streamlined and automated translation workflow to minimize manual work every time we introduced a new region and a language
-- Translated an interactive section of the application that included audio and text content
+- Provided country-specific language content on the web app and emails
+- Integrated a 3rd party translation service, automating translation workflow to minimize manual work every time we introduced a new region and a language
+- Translated an interactive section of the application that included audio and subtitle content
 
 ## Outcomes
 
@@ -61,35 +61,34 @@ Language is one of the most crucial aspects affecting the user's experience acro
 
 - Separated languages from DB or UI to flat files.
 - Separated code from the language embedded in it using JSON files
-- Update existing usages of string literals with localized versions
-- Introduce third-party translation provider **Crowdin**
-- Integrate **Crowdin** with GitHub PR workflow to provide automated translations
+- Generalized hardcoded words and statements to use localized and dynamic versions
+- Introduced third-party translation provider **Crowdin**
+- Integrated **Crowdin** with GitHub PR workflow to provide automated translations
 
 ### Backend
 
-- Identifying and extracting required database content to YAML locale files
-- Configure the application to serve localized content based on the user’s language preference
-- Introduce third-party translation provider Crowdin for database translations
-- Integrate Crowdin with GitHub PR workflow to provide automated translations
+- Identified and extracted required database content to YAML locale files
+- Configured the application to serve localized content based on the user’s language preference
+- Introduced third-party translation provider Crowdin for database translations
+- Integrated Crowdin with GitHub PR workflow to provide automated translations
 
 ### Translating Emails
 
-- Introduce third-party mail service provider Iterable
-- Migrate existing code-heavy mailers to easy-to-edit Iterable templates
-- Integrate Iterable with existing mail-sending behavior
+- Introduced third-party mail service provider Iterable
+- Migrated existing emails to utilize easy-to-edit templates
 
 ### Supporting Right-to-Left Languages
 
-- Identifying elements and interactions that needed updates
-- Update components with logical CSS properties
-- Add support for bidirectional text and icons
-- Add smart exceptions based on the content type
+- Identified elements and interactions better Right-to-Left experience
+- Updated components with logical CSS properties
+- Added support for bidirectional text and icons
+- Added smart exceptions based on the content type
 
 ### Results
 
 - Users can use the application in their preferred language.
 - Users can access content in their preferred language.
-- Mail content is now translated and can be tweaked without a dependency on the developer, solving a major bottleneck for the client’s marketing team.
+- Mails are now translated and can be modified without a dependency on the developer, removing a major bottleneck for the client’s marketing team.
 - Users preferring RTL languages could naturally interact with the application.
 
 ## Conclusion
