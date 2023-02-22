@@ -18,8 +18,8 @@ A leading customer credit provider in the United States, committed to assisting 
 
 The bank has over 30 million unique loan contracts spread across various departments. As the number of contracts grew over time, handling all these contracts manually led to these major drawbacks.
 
-1. No centralized system to access all the contracts and work on them. The agents had to do multiple logins to different branch systems to work on these contracts and search across various branches even find the correct contract.
-2. While working on a contract and doing multiple operations, manual errors inevitably started creeping in.
+1. No centralized system to access all the contracts and work on them. The agents had to do multiple logins to different branch systems to even find the correct contract and then login to different workflow systems to work on them.
+2. While working on a contract and doing multiple actions for one single operation, like multiple clicks and data entries, manual errors inevitably started creeping in.
 3. This led to the agents having to rework on the same contract and as a result, the turnaround time for a contract became extremely high across all the departments.
 
 ### Solution:
@@ -35,7 +35,7 @@ After the roll out to single department, there was such a huge success that ever
 </span>
 
 <span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center;">
-<h2>~4000</h2> &nbsp;&nbsp; manual hours saved every single day
+<h2>~4000</h2> &nbsp;&nbsp; manual hours for 800 users saved every single day 
 </span>
 
 <span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center;">
@@ -46,9 +46,13 @@ After the roll out to single department, there was such a huge success that ever
 <h2>~160x</h2> &nbsp;&nbsp; daily users across 5 different departments
 </span>
 
+<span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center;">
+<h2>~50</h2> &nbsp;&nbsp; releases within a span of 2 years
+</span>
+
 ### Challenges:
 
-1. **The client had been using an outdated CRM which was hosted on on-prem servers.** This involved huge maintenance costs for servers and a separate IT department. As the number of agents and contracts kept on increasing, cloud seemed to be the correct choice going forward.
+1. **The client had been using a legacy CRM which was hosted on on-prem servers.** This involved huge maintenance costs for servers and a separate IT department. For every contract, important information was stored in plain text as memos. As the number of agents and contracts kept on increasing, cloud seemed to be the correct choice going forward.
 2. **As the client is a banking institution, they have a lot of PII (Personal Identification Information).** There were many concerns regarding the security of this data being stored in cloud.
 3. **The agents are used to fixed flows and interfaces.** There were internal debates within the client organization about introducing an entirely new system and disrupting the existing workflow.
 
@@ -60,7 +64,7 @@ We mainly created the system with these goals -
 2. **A cloud-based system that doesn’t store any PII data.** To address the concerns of security regarding the PII data, we decided not to store any such data in our cloud-based app but in the existing on-prem server.
 3. **Automating all the manual checks that the agents used to perform on each contract to find whether the bank would proceed with the process or not.** Automation saved agents considerable amount of manual effort because the product can run the static repeated checks on every contract and determine its state and subsequent workflow appropriately. All agents have to do now is to perform the unavoidable mandatory checks using the product.
 4. **Having a smooth UX.** We found that 100% of our users use Windows. Therefore, to reduce the cognitive complexity and the learning curve of the user for the new system, we followed the lates design trends and patterns popularized by Microsoft so that the users feel that they are using a native Windows app itself and not some other new alien system.
-5. **A light weight system that can be updated on a regular basis.** Since this was a new product with new discoveries about new features being made every week, we designed it in such a way that with the click of a button, we could deploy an updated version. As a result, we have deployed a new updated version every 2 weeks on average over the last 2 years!
+5. **A light weight system that can be updated on a regular basis.** Since this was a new product with new discoveries about new features being made every week, we designed it in such a way that with the click of a button, we could deploy an updated version. By being truly agile about what we do and sticking to the frequent deployments principle, our release frequency has been 2 weeks on an average for the last two years.
 
 ### Going Forward:
 
