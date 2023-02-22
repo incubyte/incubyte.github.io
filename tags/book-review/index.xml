@@ -1,1 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Book Review on Incubyte Blog</title><link>https://blog.incubyte.co/tags/book-review/</link><description>Recent content in Book Review on Incubyte Blog</description><generator>Hugo -- gohugo.io</generator><copyright>© 2022 Incubyte. All rights reserved.</copyright><lastBuildDate>Sun, 15 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/tags/book-review/index.xml" rel="self" type="application/rss+xml"/><item><title>Are you sabotaging your organizational goals?</title><link>https://blog.incubyte.co/blog/simple-sabotage/</link><pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate><guid>https://blog.incubyte.co/blog/simple-sabotage/</guid><description>I recently came across Simple Sabotage Field Manual. What struck me was you do not need bombs and explosives to start sabotaging.</description></item><item><title>Learnings From Clean Code</title><link>https://blog.incubyte.co/blog/learnings-from-clean-code/</link><pubDate>Fri, 29 Apr 2022 11:55:43 +0530</pubDate><guid>https://blog.incubyte.co/blog/learnings-from-clean-code/</guid><description>Learnings from Robert “Uncle Bob” Martin Robert Martin, fondly known as “Uncle Bob” in the software community, is a software engineer and more famously an author and one of the founding fathers of software movements like software craftsmanship, agile methodology, and test-driven development.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book Review on Incubyte Blog</title>
+    <link>https://blog.incubyte.co/tags/book-review/</link>
+    <description>Recent content in Book Review on Incubyte Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© 2022 Incubyte. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 15 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/tags/book-review/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Are you sabotaging your organizational goals?</title>
+      <link>https://blog.incubyte.co/blog/simple-sabotage/</link>
+      <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.incubyte.co/blog/simple-sabotage/</guid>
+      <description>I recently came across Simple Sabotage Field Manual. What struck me was you do not need bombs and explosives to start sabotaging.</description>
+    </item>
+    
+    <item>
+      <title>Learnings From Clean Code</title>
+      <link>https://blog.incubyte.co/blog/learnings-from-clean-code/</link>
+      <pubDate>Fri, 29 Apr 2022 11:55:43 +0530</pubDate>
+      
+      <guid>https://blog.incubyte.co/blog/learnings-from-clean-code/</guid>
+      <description>Learnings from Robert “Uncle Bob” Martin Robert Martin, fondly known as “Uncle Bob” in the software community, is a software engineer and more famously an author and one of the founding fathers of software movements like software craftsmanship, agile methodology, and test-driven development.</description>
+    </item>
+    
+  </channel>
+</rss>

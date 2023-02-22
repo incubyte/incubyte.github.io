@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Utsav Parmar on Incubyte Blog</title><link>https://blog.incubyte.co/authors/utsav-parmar/</link><description>Recent content in Utsav Parmar on Incubyte Blog</description><generator>Hugo -- gohugo.io</generator><copyright>© 2022 Incubyte. All rights reserved.</copyright><lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/authors/utsav-parmar/index.xml" rel="self" type="application/rss+xml"/><item><title>Modernization: A Case Study</title><link>https://blog.incubyte.co/blog/engagement-overview/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://blog.incubyte.co/blog/engagement-overview/</guid><description>Case Study of our engagement with an industry leader in centralized expense management for telecom.</description></item><item><title>How to contribute to open-source project: A beginner's guide</title><link>https://blog.incubyte.co/blog/how-to-contribute-to-open-source-project-a-beginners-guide/</link><pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate><guid>https://blog.incubyte.co/blog/how-to-contribute-to-open-source-project-a-beginners-guide/</guid><description>Are you a first-time contributor? Are you wondering how to start contributing to OSS? Well, this guide is made for you.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Utsav Parmar on Incubyte Blog</title>
+    <link>https://blog.incubyte.co/authors/utsav-parmar/</link>
+    <description>Recent content in Utsav Parmar on Incubyte Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© 2022 Incubyte. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/authors/utsav-parmar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modernization: A Case Study</title>
+      <link>https://blog.incubyte.co/blog/engagement-overview/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.incubyte.co/blog/engagement-overview/</guid>
+      <description>Case Study of our engagement with an industry leader in centralized expense management for telecom.</description>
+    </item>
+    
+    <item>
+      <title>Taking Mental Healthcare Solution Global</title>
+      <link>https://blog.incubyte.co/blog/sh-case-study/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.incubyte.co/blog/sh-case-study/</guid>
+      <description>Client A leading comprehensive global mental health solution for employers. It started its journey back in 2016 and growing since then.</description>
+    </item>
+    
+    <item>
+      <title>How to contribute to open-source project: A beginner&#39;s guide</title>
+      <link>https://blog.incubyte.co/blog/how-to-contribute-to-open-source-project-a-beginners-guide/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.incubyte.co/blog/how-to-contribute-to-open-source-project-a-beginners-guide/</guid>
+      <description>Are you a first-time contributor? Are you wondering how to start contributing to OSS? Well, this guide is made for you.</description>
+    </item>
+    
+  </channel>
+</rss>
