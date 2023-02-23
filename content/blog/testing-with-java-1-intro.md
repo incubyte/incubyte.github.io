@@ -126,5 +126,3 @@ Suppose with the LeapYear code, we get a new condition. We have to check if the 
 <img style="float:left" src="/images/2023/02/testing-with-java-003.jpg" width="30%" height="30%" />
 
 In TDD, we write a test first, run it, see that it fails, then write the correct production code, rerun the test, it passes. We can first go ahead and write all the tests for all the scenarios in an easy-to-understand language. The chances of missing a particular case here is pretty less. Then we go ahead and write the actual production code.
-
-We have discussed more about TDD in detail with examples in the next article.
