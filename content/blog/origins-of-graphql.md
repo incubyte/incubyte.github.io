@@ -21,7 +21,7 @@ type = ""
 
 {{< figure src="/images/2023/02/graph-representation.png" >}}
 
-Being a mathematician he quickly constructed a graph representing the land as vertices and bridges as edges between the vertices. For a vertex to be left once and entered once it should have a minimum of two or even number of edges. None of the vertices have an even number of vertices and hence it is impossible to cross without swimming across the river.
+Being a mathematician he quickly constructed a graph representing the land as vertices and bridges as edges between the vertices. For a vertex to be left once and entered once it should have a minimum of two or even number of edges. None of the vertices have an even number of edges and hence it is impossible to cross without swimming across the river.
 
 ### Applying graph theory to fetch data
 
@@ -56,3 +56,7 @@ GraphQL is often referred to as a declarative data-fetching language. By that, w
 **Client Specified Queries**: A GraphQL server provides the capabilities that the clients are allowed to consume.
 
 **Introspective**: The GraphQL language can query the GraphQL server’s type system or the schema.
+
+### Products using GraphQL
+
+GraphQL was developed by Facebook, which first began using it for mobile applications in 2012. The GraphQL specification was open sourced in 2015. It is now overseen by the GraphQL Foundation. Currently a large number of organizations are availing the benefits of GraphQL which includes Twitter, Instagram, Airbnb, Shopify, Newyork Times, Spring Health and many more.
