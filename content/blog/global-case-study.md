@@ -30,13 +30,25 @@ Our client's reach was only limited to US for the first few years, they wanted t
 
 ## Outcomes
 
-{{< figure src="/images/2023/02/global-outcome.png" >}}
+<span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center; flex-wrap: wrap; margin-left: 20px;">
+<h2 >42+</h2> &nbsp;&nbsp; Countries have international offerings
+</span>
 
-- Extended international offering to 41 more countries in 22 more languages
-- Ability to introduce the product to a new country within a week
-- Support right-to-left languages
-- Localize content based on country
-- 15000+ global customers added customer added
+<span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center; flex-wrap: wrap; margin-left: 20px;">
+<h2>22+</h2> &nbsp;&nbsp; Languages available for users
+</span>
+
+<span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center; flex-wrap: wrap; margin-left: 20px;">
+<h2>15000+</h2> &nbsp;&nbsp; Global users added
+</span>
+
+<span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center; flex-wrap: wrap; margin-left: 20px;">
+<h2>7</h2> &nbsp;&nbsp; or fewer days for adding new languages
+</span>
+
+<span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center; flex-wrap: wrap; margin-left: 20px;">
+<h2>RTL</h2> &nbsp;&nbsp; Language support
+</span>
 
 ## Challenges and Solutions
 
