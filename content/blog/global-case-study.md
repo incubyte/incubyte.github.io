@@ -109,6 +109,6 @@ A keen study of our client’s requirements and careful selection of suitable so
 
 - Roll out the new global framework within three months
 - Client can rapidly introduce its product in new countries with minimal effort.
-- Expand product presence in 41+ countries with 22+ languages
+- Expand product presence in 42+ countries with 22+ languages
 - Build trust and long-term association with the client
 - Improved client satisfaction and global business
