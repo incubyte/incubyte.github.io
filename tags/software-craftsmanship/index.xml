@@ -6,7 +6,16 @@
     <description>Recent content in Software Craftsmanship on Incubyte Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 10 Oct 2022 12:50:00 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/tags/software-craftsmanship/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/tags/software-craftsmanship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing With Java - Part 1 : Introduction</title>
+      <link>https://blog.incubyte.co/blog/testing-with-java-intro/</link>
+      <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.incubyte.co/blog/testing-with-java-intro/</guid>
+      <description>On July 22, 1962, Mariner 1 – America&amp;rsquo;s first interplanetary spacecraft, lifted off from the ground on its way to fly by Venus.</description>
+    </item>
+    
     <item>
       <title>Angular Provider</title>
       <link>https://blog.incubyte.co/blog/angular-provider/</link>

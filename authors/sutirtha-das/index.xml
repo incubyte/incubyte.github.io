@@ -6,7 +6,16 @@
     <description>Recent content in Sutirtha Das on Incubyte Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 03 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/authors/sutirtha-das/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/authors/sutirtha-das/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing With Java - Part 1 : Introduction</title>
+      <link>https://blog.incubyte.co/blog/testing-with-java-intro/</link>
+      <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.incubyte.co/blog/testing-with-java-intro/</guid>
+      <description>On July 22, 1962, Mariner 1 – America&amp;rsquo;s first interplanetary spacecraft, lifted off from the ground on its way to fly by Venus.</description>
+    </item>
+    
     <item>
       <title>A Centralized System for a Leading Consumer Lending Bank </title>
       <link>https://blog.incubyte.co/blog/finance-case-study/</link>
