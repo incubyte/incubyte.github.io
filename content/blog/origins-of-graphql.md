@@ -59,4 +59,4 @@ GraphQL is often referred to as a declarative data-fetching language. By that, w
 
 ### Products using GraphQL
 
-GraphQL was developed by Facebook, which first began using it for mobile applications in 2012. The GraphQL specification was open sourced in 2015. It is now overseen by the GraphQL Foundation. Currently a large number of organizations are availing the benefits of GraphQL which includes Twitter, Instagram, Airbnb, Shopify, Newyork Times, Spring Health and many more.
+GraphQL was developed by Facebook, which first began using it for mobile applications in 2012. The GraphQL specification was open sourced in 2015. It is now overseen by the GraphQL Foundation. Currently a large number of organizations are availing the benefits of GraphQL which includes Twitter, Instagram, Airbnb, Shopify, Newyork Times and many more.
