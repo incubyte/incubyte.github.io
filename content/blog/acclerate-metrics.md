@@ -1,15 +1,14 @@
 +++
 authors = ["Sapan Parikh"]
 date = 2023-03-08T00:00:00Z
-description = "Are you unknowingly sabotaging your organizational goals? Policies and behavior are sometimes setup that hurt the organizational vision and goals. See what you can find relatable in these excrepts from the Simple Sabotage Field Manual by United States."
+description = "Accelerate: Key Software Delivery Metrics"
 draft = false
-image = "/images/2023/01/sabotage.jpg"
-slug = "simple-sabotage"
+image = "/images/2023/03/accelerate.jpg"
+slug = "accelerate-metrics"
 tags = ["Modernization", "Book Review"]
-title = "Are you sabotaging your organizational goals?"
+title = "Accelerate: Key Software Delivery Metrics"
 +++
 
-# Accelerate Metrics
 
 Accelerate by Nicole Forsgren, Jez Humble, and Gene Kim was released in 2018 and it changed how I think about software delivery.
 

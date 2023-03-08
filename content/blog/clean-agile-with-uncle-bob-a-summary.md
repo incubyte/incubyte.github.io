@@ -68,7 +68,7 @@ It’s only obvious that software developers should compare themselves with any 
 
 Our managers, customers, and users should reasonably be able to expect the following. Uncle Bob calls it reasonable expectations.
 
-1. **We will not ship shyt**. PS: What is not shyt? For me, the most helpful measure of software delivery is the four key metrics from Accelerate.
+1. **We will not ship shyt**. PS: What is not shyt? For me, the most helpful measure of software delivery is the four key metrics from [Accelerate](/blog/accelerate-metrics/).
 2. **Continuous Technical Readiness.** The system should be ready to be deployed at any point in time. When that actually happens should be the business’s decision.
 3. **Stable Productivity.** By doing our best work and managing technical debt effectively, the team should ensure that the development speed remains the same over time.
 4. **Inexpensive Adaptability.** The word “soft” in software indicates that it can change shape and form over time. Thus the architecture should be created such that if requirements change, you should be able to accommodate them without major rewrites.
