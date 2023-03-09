@@ -6,7 +6,16 @@
     <description>Recent content in Software Craftsmanship on Incubyte Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 21 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/tags/software-craftsmanship/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/tags/software-craftsmanship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clean Agile with Uncle Bob: A Summary</title>
+      <link>https://blog.incubyte.co/blog/clean-agile-with-uncle-bob-a-summary/</link>
+      <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.incubyte.co/blog/clean-agile-with-uncle-bob-a-summary/</guid>
+      <description>Clean Agile Summary Clean Agile is a book by Rober C. Martin that revisits the subject of agility in the world of software programming.</description>
+    </item>
+    
     <item>
       <title>Testing With Java - Part 1 : Introduction</title>
       <link>https://blog.incubyte.co/blog/testing-with-java-intro/</link>
@@ -133,15 +142,6 @@ This assessment is the first step in our recruiting process and will be followed
       
       <guid>https://blog.incubyte.co/blog/books-we-believe-should-be-on-your-bookshelf-and-read-them-too/</guid>
       <description>Books are a massive source of knowledge. Before we list all the books here, we want to discuss why we think it&amp;rsquo;s essential for programmers to read them.</description>
-    </item>
-    
-    <item>
-      <title>Clean Agile with Uncle Bob: A Summary</title>
-      <link>https://blog.incubyte.co/blog/clean-agile-with-uncle-bob-a-summary/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.incubyte.co/blog/clean-agile-with-uncle-bob-a-summary/</guid>
-      <description>An overview: I recently attended an online session on Clean Agile, organized by the O’Reilly publication.</description>
     </item>
     
     <item>
