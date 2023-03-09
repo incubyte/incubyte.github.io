@@ -10,7 +10,7 @@ title = "Accelerate: Key Software Delivery Metrics"
 +++
 
 
-Accelerate by Nicole Forsgren, Jez Humble, and Gene Kim was released in 2018 and it changed how I think about software delivery.
+Accelerate by Nicole Forsgren, Jez Humble, and Gene Kim was released in 2018, and it changed how I think about software delivery.
 
 Who really is responsible for the software delivery business or engineering? The book summarizes years of research of the State of DevOps Reports and presents four key metrics to measure software delivery performance. Each measure balances the other in such a way that an organization can perform well only if business and engineering worked well hand in hand otherwise, you’d fail!
 
@@ -26,7 +26,7 @@ For the primary application or service you work on, what is your lead time for c
 
 ## Time to Restore Service
 
-For the primary application or service you work on, how long does it generally take to restore service when a service incident or a defect that impacts users occurs (e.g., unplanned outage or service impairment)? Best companies can recover in less than one day.
+For the primary application or service you work on, how long does it generally take to restore service when a service incident, or a defect that impacts users occurs (e.g., unplanned outage or service impairment)? Best companies can recover in less than one day.
 
 ## Change Failure Rate
 

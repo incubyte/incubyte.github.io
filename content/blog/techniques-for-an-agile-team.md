@@ -17,13 +17,13 @@ So, we wanted to shed some light on what being a team with agile ideas really me
 
 Mainly and most importantly, it is software development with a focus on collaboration and self-organizing, independent, and effective teams.
 
-Lots of things fall under the Agile Umbrella, including processes, practices, roles, or even just a mindset. Here, we share a few tips and techniques that help our teams achieve this goal of being collaborative and owning the SDLC from start to finish:
+Lots of things fall under the Agile Umbrella, including processes, practices, roles or even just a mindset. Here, we share a few tips and techniques that help our teams achieve this goal of being collaborative and owning the SDLC from start to finish:
 
 ## 1) Feature Owner:
 
 **Who:** Anyone on the team, either a developer or tester can be the feature owner
 
-A feature owner steps up when there is new functionality to implement. The feature owner is responsible for the design, implementation, and testing of the feature; as well as coordinating with the business key stakeholders and executive team to make sure that the business requirements are met and executed in the most efficient way possible.
+A feature owner steps up when there is new functionality to implement. The feature owner is responsible for the design, implementation and testing of the feature; as well as coordinating with the business key stakeholders and executive team to make sure that the business requirements are met and executed in the most efficient way possible.
 
 The feature owner works closely with the product owner to:
 
@@ -53,15 +53,15 @@ The outcome of story analysis is that the story is ready to be picked up in the 
 
 ## 3) Kick-Off:
 
-**Who:** The product owner, tester, and developer pairs who will be working on the story
+**Who:** The product owner, tester and developer pairs who will be working on the story
 
 Before picking up a story for development, participants get together for a quick walkthrough of the story according to the business needs.
 
 During this kick-off, participants discuss the acceptance criteria, whether there is any analysis remaining, and whether there are any blind spots, blockers, or dependent stories.
 
-The objective of a kickoff is to ensure that the product owner, tester, and developers are on the same page, have a common goal, the story value is well understood, blockers they may face while developing the story have been identified, and a plan is in place to resolve the blockers before picking up the story.
+The objective of a kickoff is to ensure that the product owner, tester and developers are on the same page, have a common goal, the story value is well understood, blockers they may face while developing the story have been identified, and a plan is in place to resolve the blockers before picking up the story.
 
-If there are any blockers, like unclear Acceptance Criteria, dependencies on other stories which are still in development, UI implementation questions, or others, the story won’t be picked up for development.
+If there are any blockers, like unclear Acceptance Criteria, dependencies on other stories, which are still in development, UI implementation questions, or others, the story won’t be picked up for development.
 
 ## 4) Desk-check:
 
@@ -71,7 +71,7 @@ Desk-check comes after development is done. The developer showcases the story to
 
 During Desk-check participants check if the story is completed and all Acceptance Criteria are implemented.
 
-If any bugs are found, or if there is feedback for improvements, development on the story won’t be considered done and the developer pairs will continue working on the story.
+If any bugs are found, or if there is feedback for improvements, development on the story won’t be considered done, and the developer pairs will continue working on the story.
 
 This is the primary testing of the story to get early feedback even before it is considered as development done, allowing us to optimize time and efforts during testing.
 
@@ -83,7 +83,7 @@ For self-driven teams, we should always ensure that knowledge is never limited t
 
 It should never be the case that only the feature owner has all domain knowledge about a given feature and if they are unavailable, the rest of the team is at a loss on how to proceed.
 
-The responsibility of a team member here is two-fold - to transfer gained knowledge within the team and to ensure acquiring knowledge of any technology/feature which they don’t know much about.
+The responsibility of a team member here is two-fold - to transfer gained knowledge within the team and to ensure acquiring knowledge of any technology/feature, which they don’t know much about.
 
 To avoid knowledge hoarding, the following things can be done:
 
@@ -93,7 +93,7 @@ To avoid knowledge hoarding, the following things can be done:
 
 ## 6) GO-TO Person:
 
-**Who:** A team member can self-sign up for being a GOTO person for any particular technology, epic, or feature.
+**Who:** A team member can self-sign up for being a GOTO person for any particular technology, epic or feature.
 
 A GOTO person is kind of an expert. Team members can go to them to resolve any issues or to get their advice on a problem.
 
@@ -133,6 +133,6 @@ Each one on the team should get group feedback in this manner to build high-perf
 
 Does it feel like lots of meetings?
 
-Yes, after going through this blog it might seem to you that the product teams will end up having lots of daily meetings, we will end up spending half of our days in a meeting room or on teams calls and a wall full of sticky notes...
+Yes, after going through this blog it might seem to you that the product teams will end up having lots of daily meetings, we will end up spending half of our days in a meeting room or on teams calls, and a wall full of sticky notes...
 
 Most of what’s listed here should not be necessarily long meetings. Participants usually get together for a quick discussion without needing to book a meeting room or send out an invitation email. These become second nature over time as compared to being time-consuming, enforced rituals!
