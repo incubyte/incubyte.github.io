@@ -60,13 +60,13 @@ Let’s conclude with a quote from the book.
 
 ## Chapter 2 The Reasons for Agile
 
-It’s only obvious that software developers should compare themselves with any other professionals, and that’s one of the reasons for agile’s existence which has a higher commitment towards discipline over ceremonies. The reasons we must become more professional are
+It’s only obvious that software developers should compare themselves with any other professionals, and that’s one of the reasons for agile’s existence, which has a higher commitment towards discipline over ceremonies. The reasons we must become more professional are
 
 1. Software is everywhere, even where you don’t notice
 2. Software developers’ work is most prolific, and thus intentionally or unintentionally, we are accountable for a lot of the world around us.
 3. Given that we are responsible for so much software around us, one day, we may cause a huge disaster that may cause the governments to regulate the entire industry.
 
-Our managers, customers, and users should reasonably be able to expect the following. Uncle Bob calls it reasonable expectations.
+Our managers, customers and users should reasonably be able to expect the following. Uncle Bob calls it reasonable expectations.
 
 1. **We will not ship shyt**. PS: What is not shyt? For me, the most helpful measure of software delivery is the four key metrics from [Accelerate](/blog/accelerate-metrics/).
 2. **Continuous Technical Readiness.** The system should be ready to be deployed at any point in time. When that actually happens should be the business’s decision.
@@ -77,18 +77,18 @@ Our managers, customers, and users should reasonably be able to expect the follo
 7. **QA Should Find Nothing.** QA job should not be to list issues found in the system. Rather their job should be to say, “Everything looks ok to release.”
 8. **Test Automation.** Repeatable tests must be automated. Manual QA should do something that involves human creativity and imagination.
 9. **We cover for each other.** Teams cover for each other.
-10. **Honest Estimates. “**I don’t know” is a much better estimate than “I will try” or estimates based on gut feeling.
+10. **Honest Estimates.** “I don’t know” is a much better estimate than “I will try” or estimates based on gut feeling.
 11. **You Need to Say “No.”**  Your inputs are regularly used to make decisions; thus, you may need to say “no” when you think something is impossible.
 12. **Continuous Aggressive Learning.** Learn Learn Learn
 13. **Mentoring.** Teach to learn and learn to teach
 
-This chapter is dedicated to explaining that Agile is not a process but rather a set of rights, expectations, and disciplines.
+This chapter is dedicated to explaining that Agile is not a process but rather a set of rights, expectations and disciplines.
 
 ## Chapter 3 Business Practices
 
 ### Planning
 
-This practice tells you how to organize your high-level business requirement into granular features, stories, and tasks. That, in turn, can help you prioritize, estimate, and plan.
+This practice tells you how to organize your high-level business requirement into granular features, stories and tasks. That, in turn, can help you prioritize, estimate, and plan.
 
 ### **Small Releases**
 
@@ -96,11 +96,11 @@ Batching is the biggest antipattern in conventional software development, and th
 
 ### Acceptance Tests
 
-Pair your stories with acceptance tests which can work as a definition of “done” and bring unambiguity.
+Pair your stories with acceptance tests, which can work as a definition of “done” and bring unambiguity.
 
 ### Whole Team
 
-Software development is a team sport, and like any other team, software development teams are also fully cross-functional and comprise developers, testers, and managers.
+Software development is a team sport, and like any other team, software development teams are also fully cross-functional and comprise developers, testers and managers.
 
 ## Chapter 4 Team Practices
 
@@ -122,7 +122,7 @@ Fail fast, and get feedback faster on where you stand all the time.
 
 ### Standup Meetings
 
-Short meetings of ~10 minutes to calibrate progress. Should comprise of three simple updates.
+Short meetings of ~10 minutes to calibrate progress. Should consist of three simple updates.
 
 1. What did I do since the last meeting?
 2. What will I do next?
@@ -189,6 +189,6 @@ A few other points made in this chapter are
 
 ## Conclusion
 
-It’s a great book that revisits Agile and XP in detail from the perspective of a software developer. This a great reminder for the software development community to bring the focus back to engineering practices and not just process improvements.
+It’s a great book that revisits Agile and XP in detail from the perspective of a software developer. This is a great reminder for the software development community to bring the focus back to engineering practices and not just process improvements.
 
 At Incubyte, we've taken software craftsmanship to heart. Internalizing an Agile and craftsmanship mindset has helped us focus on what makes our customers and end users happier. Small and frequent releases help us get value in the hands of the end users fast, get feedback from them fast, and continuously refine the product to create maximum impact - fast! Disciplined engineering practices have ensured that our software is always stable and bug-free. A user-first approach helps not only build the right product, but also fosters a collaborative and productive relationship with our customers.
