@@ -1,7 +1,7 @@
 +++
-authors = ["Heman Mehta"]
+authors = ["Sapan Parikh"]
 categories = ["Software Craftsmanship"]
-date = 2021-06-01T00:00:00Z
+date = 2023-03-08T00:00:00Z
 description = ""
 draft = false
 image = "/images/2021/06/Picture1-clean-agile-1.jpg"
@@ -11,63 +11,184 @@ title = "Clean Agile with Uncle Bob: A Summary"
 
 +++
 
+# Clean Agile
 
-### An overview:
+## Summary
 
-I recently attended an online session on Clean Agile, organized by the O’Reilly publication. And guess who was the speaker? **Uncle Bob**. The man himself!
+Clean Agile is a book by Rober C. Martin that revisits the subject of agility in the world of software programming.
 
-I consider myself fortunate to have been a part of his introductory session. Not only did it broaden my understanding of Agile, but also gave me a unique perspective on why it is important.
+It's the perfect timing if you are considering reading the book, especially when Agile has become a project management process, a methodology void of engineering practices. Most of this can be blamed on the cottage industry distributing certificates after a three-day workshop.
 
-To begin with, Robert Cecil Martin (Uncle Bob) is a legendary software professional, one of Agile’s founding fathers, and a signatory to the original Agile Manifesto. He is also a co-founder of [Clean Coders Studio](https://cleancoders.com/studio), best-selling author (btw, you should read [Clean Agile](https://g.co/kgs/nprVba)), and of course, an inspiration to numerous software developers (including me) and non-programmers as well.
+Following is the chapter-by-chapter summary of the book. If you find it incomplete, it's because of a reason; we want you to read it :-)
 
-### Lessons I learned from Uncle Bob
+## Chapter 1 Introduction to Agile
 
-**1) The Origin of Agile**
+Seventeen programmers met in Snowbird lodge in Utah and wrote the following manifesto.
 
-In the early years of software development (around the 1970s), projects operated according to the waterfall model, in which tasks were completed in linear, sequential stages, and development progressed in one direction, like a waterfall. Each of these stages constituted a separate phase and would generally be completed before proceeding to the next one.
+- Individuals and interactions over processes and tools.
+- Working software over comprehensive documentation.
+- Customer collaboration over contract negotiation.
+- Responding to change over following a plan.
 
-It is widely (and mistakenly) accepted that Dr. Winston Royce, an American computer scientist proposed the Waterfall Model in his research paper ‘[Managing the Development of Large Software Systems.](https://en.wikipedia.org/wiki/Winston_W._Royce#Managing_the_development_of_large_software_systems) But, in fact, it was quite the opposite. This paper identified the waterfall pattern, described its deficiencies, and defined some initial agile thoughts as well. I really recommend you go ahead and [read this paper](http://www.cs.umd.edu/class/spring2003/cmsc838p/Process/waterfall.pdf).
+### The Iron Cross
 
-Royce illustrated that the development of huge computing systems needs a more rigorous approach than what was being used at the time and that a single-pass sequential approach can pose an inherent risk. He advocated an iterative approach and suggested that projects go through it at least twice.
+> This physics constrains all projects to obey an unassailable trade-off called the Iron Cross of project management. Good, fast, cheap, done: Pick any three you like. You can’t have the fourth.
+>
+>
+> The reality is that a good project manager understands that these four attributes have coefficients. A good manager drives a project to be good enough, fast enough, cheap enough, and done as much as necessary. A good manager manages the coefficients on these attributes rather than demanding that all those coefficients are 100%. It is this kind of management that Agile strives to enable.
+>
 
-This was the beginning of the agile thought process.
+The velocity and burndown charts are valuable tools to manage these coefficients. Agile is a feedback-driven approach, “in most cases, your tomorrows are going to look like yesterdays!” These charts help you make appropriate adjustments and fail fast if you do not meet the deadlines.
 
-{{< figure src="/images/2021/06/Picture2-clean-agile.png" caption="The Waterfall Model" >}}
+Talking of deadlines, they are the first thing you know. Even before the name of the project is decided, the deadline is. In a typical waterfall way, the projects would go through different phases for a few months before a half-baked project is delivered to a client, which causes a lot of friction at the end of the project.
 
-With a large focus on upfront analysis, the waterfall model tried to achieve all four: quality, fixed time, fixed budget, and fixed scope. It was soon understood that a trade-off was inevitable.   Realizing that the waterfall model was unsustainable, a group of 17 software experts including Uncle Bob, Martin Fowler, Jeff Sutherland, Andrew Hunt, Kent Beck, and others met through informal and formal meetings often to try and produce a better, simpler, and more effortless way to develop software, overcoming the complexity and reporting overhead associated with waterfall and other common paradigms of software at the time.
+On the contrary, a more agile way of working maybe work in tiny iterations, say a week.  We may deliver a working product each week by delivering a well-analyzed, small subset of stories! Each week we know how much we can deliver and in case how much spills over. We use that data to estimate our next iteration. Use the data being generated to feed to upcoming iterations.
 
-11-13 February 2001, at the Lodge of Snowbird ski resort in the Wasatch mountains of Utah, the entire team found a common ground.
+> Some folks think that Agile is about going fast. It’s not, and it’s never been about going fast. Agile is about knowing, as early as possible, just how screwed we are.
+>
 
-That is when AGILE was born.
+Working in small iterations based on data generated in each iteration allows us to manage and finetune the iron cross while welcoming the changing scope.
 
-**2)  What is Agile?**
+Most of the book then focuses on the Circle Of Life (XP) because it is the most well-defined Agile process. Also, I am a big fan of XP because it does not only lean heavily on project management processes but is a perfect combination of technical and team techniques.
 
-{{< figure src="/images/2021/06/Picture3-clean-agile.png" caption="" >}}
+![circle of life](/images/2023/03/circleoflife.png)
 
-_There are two parts to learning craftsmanship: knowledge and work. You must gain the knowledge of principles, patterns, and practices, and you must also grind that knowledge into your fingers, eyes, and gut by working hard and practicing.”_
+Let’s conclude with a quote from the book.
 
-- Robert C. Martin | Clean Code
+> Agile is a process wherein a project is subdivided into iterations. The output of each iteration is measured and used to continuously evaluate the schedule. Features are implemented in the order of business value so that the most valuable things are implemented first. Quality is kept as high as possible. The schedule is primarily managed by manipulating scope.
+>
 
-Agile product development in its essence, is a methodical and iterative technique. It is a chain of rapid development and deployment of the product in several vertical, small slices. This is followed by immediate user feedback that helps developers refine the product in further iterations.   Here is an analogy. A point is the smallest unit of a line. Connecting numerous points forms a line. Similarly, agile is a methodology that gives you a starting point to tackle problems by dividing them into small pieces and connecting them iteratively and gradually to complete the process quickly, all while keeping it hassle-free. This is Agile.
+## Chapter 2 The Reasons for Agile
 
-**3) How to be Agile?**
+It’s only obvious that software developers should compare themselves with any other professionals, and that’s one of the reasons for agile’s existence which has a higher commitment towards discipline over ceremonies. The reasons we must become more professional are
 
-{{< figure src="/images/2021/06/Picture4-clean-agile.png" caption="The Calculated Date" >}}
+1. Software is everywhere, even where you don’t notice
+2. Software developers’ work is most prolific, and thus intentionally or unintentionally, we are accountable for a lot of the world around us.
+3. Given that we are responsible for so much software around us, one day, we may cause a huge disaster that may cause the governments to regulate the entire industry.
 
-In an iterative development process, analysis, design, development, and testing are performed in each iteration. This increases the scope of adapting and accepting alterations more suited to customer solutions. It also enables getting the software into the hands of the end-users faster, getting faster feedback, and consistently and incrementally providing value.   Read more about how we work in an iterative process here: [Feedback and Rapid Prototyping](/feedback/) Each slice in Fig. 4 represents an iteration and increasing the number of iterations gradually decreases the error bars in the team’s estimations.   Agile development is based on the idea that huge goals are accomplished by several small teams working together on small tasks. Learn more about how to be Agile and a few ceremonies that can help: [Techniques for Agile Teams](/techniques-for-an-agile-team/)  [](/techniques-for-an-agile-team/) **4) Prioritizing**From the business perspective, features up for development can be categorized into four quadrants as in Fig. 5 below.
+Our managers, customers, and users should reasonably be able to expect the following. Uncle Bob calls it reasonable expectations.
 
-{{< figure src="/images/2021/06/Picture5-clean-agile.jpg" caption="The Four-Quadrant Game" >}}
+1. **We will not ship shyt**. PS: What is not shyt? For me, the most helpful measure of software delivery is the four key metrics from [Accelerate](/blog/accelerate-metrics/).
+2. **Continuous Technical Readiness.** The system should be ready to be deployed at any point in time. When that actually happens should be the business’s decision.
+3. **Stable Productivity.** By doing our best work and managing technical debt effectively, the team should ensure that the development speed remains the same over time.
+4. **Inexpensive Adaptability.** The word “soft” in software indicates that it can change shape and form over time. Thus the architecture should be created such that if requirements change, you should be able to accommodate them without major rewrites.
+5. **Continuous Improvement.** Like food, the software is known to rot over time, but as humans, we should make sure that the software improves with time.
+6. **Fearless Competence.** Fear of change becomes a huge reason for software entropy. Everyone is expected to be competent and confident enough to make the necessary change in the software to keep it cleaner than yesterday.
+7. **QA Should Find Nothing.** QA job should not be to list issues found in the system. Rather their job should be to say, “Everything looks ok to release.”
+8. **Test Automation.** Repeatable tests must be automated. Manual QA should do something that involves human creativity and imagination.
+9. **We cover for each other.** Teams cover for each other.
+10. **Honest Estimates. “**I don’t know” is a much better estimate than “I will try” or estimates based on gut feeling.
+11. **You Need to Say “No.”**  Your inputs are regularly used to make decisions; thus, you may need to say “no” when you think something is impossible.
+12. **Continuous Aggressive Learning.** Learn Learn Learn
+13. **Mentoring.** Teach to learn and learn to teach
 
-High-value and low-cost features are picked up first and low-value low features are piled up in the backlog and may be done later. This helps add the most value to end users in the timeliest fashion.
+This chapter is dedicated to explaining that Agile is not a process but rather a set of rights, expectations, and disciplines.
 
-**Key takeaways:**
+## Chapter 3 Business Practices
 
-To summarize everything, I learned in the session is not feasible, but one thing I can share is how to develop a mindset toward agile practices.
+### Planning
 
-1. The agility mindset is not limited to the tech world; it can be extended to the most fundamental areas of life. It helps in the evolution of a progressive solution from the most basic level. There is wide scope to explore this concept from different perspectives and apply it in varied domains.
-2. Narrow down your problems to get to the starting point. Or as we call it – slice the user story to the thinnest slice. When you narrow down your problems, you create smaller goals and get a clear idea of where to start, what to prioritize, and how to pace it out. Sounds thoughtful, isn’t it?
-3. Agile development also helps identify your own core beliefs and modus operandi. Are you stuck with policies and practices once decided or are you adaptable to change? It enables us to improve our decision-making process and take better, more targeted measures.
-4. In Uncle Bob’s words, “Agile is a Marathon, not a sprint!” It is necessary to move at a sustainable pace to maintain momentum and make progress toward the goal.
+This practice tells you how to organize your high-level business requirement into granular features, stories, and tasks. That, in turn, can help you prioritize, estimate, and plan.
 
+### **Small Releases**
 
+Batching is the biggest antipattern in conventional software development, and this practice guides you in the exact opposite direction, do not batch. Instead, release small chunks of work as you do them.
 
+### Acceptance Tests
+
+Pair your stories with acceptance tests which can work as a definition of “done” and bring unambiguity.
+
+### Whole Team
+
+Software development is a team sport, and like any other team, software development teams are also fully cross-functional and comprise developers, testers, and managers.
+
+## Chapter 4 Team Practices
+
+### Metaphor
+
+Use a language that everyone understands and is familiar to technical people and business stakeholders.
+
+### Sustainable Pace
+
+Keep the pace of work that helps you run marathons, not 100 meters sprints.
+
+### Collective Ownership
+
+Avoid knowledge silos, and everyone on the team should own the project.
+
+### Continuous Integration
+
+Fail fast, and get feedback faster on where you stand all the time.
+
+### Standup Meetings
+
+Short meetings of ~10 minutes to calibrate progress. Should comprise of three simple updates.
+
+1. What did I do since the last meeting?
+2. What will I do next?
+3. What's in my way?
+
+# Chapter 5 Technical Practices
+
+### Test Driven Development
+
+Pursue the highest quality and create a safety net by practicing TDD.
+
+### Refactoring
+
+Continuously improve the software, and leave it cleaner than how you found it.
+
+### Simple Design
+
+Is the practice that prevents waste
+
+### Pair Programming
+
+A practice that catches errors early and encourages knowledge sharing.
+
+# Chapter 6 Becoming Agile
+
+This chapter walks you through the agile values of Courage, Communication, Feedback and Simplicity. And makes the following points.
+
+1. Agile transformation is hard.
+2. They often fail
+3. The best way to create an Agile org may be by creating smaller organizations that adopt agile.
+4. Scrum has led to faux agile transformation for many.
+5. Many of the agile certifications are utter jokes.
+6. Know your tools well (and believe me, there are many!)
+7. Automate automate automate
+8. It also takes the reader through an alternative view of coaching by Damon Poole.
+9. Don’t let Agile transformation be just the Process of Transformation.
+
+# Chapter 7 Craftsmanship
+
+Read superficially. Agile means do agile (not be) to deliver software faster. This led to Agile becoming a “Fix the process” movement. In this movement, engineering practices have no place. Because of this, developers started moving away from Agile development.
+
+To raise the bar of professional software development software craftsmanship manifesto was created in 2008
+
+### Software Craftsmanship Manifesto
+
+As aspiring Software Craftsmen, we are raising the bar of professional software development by practicing it and helping others learn the craft. Through this work, we have come to value:
+
+- Not only working software but also well-crafted software.
+- Not only responding to change but also steadily adding value
+- Not only individuals and interactions but also a community of professionals
+- Not only customer collaboration but also productive partnerships
+
+That is, in pursuit of the items on the left, we have found the items on the right to be indispensable.
+
+This manifesto was created to emphasize the importance of engineering practices in software development and to promote a community of professionals dedicated to the craft of software development.
+
+A few other points made in this chapter are
+
+1. **Focus on the value,** not the practice. Though reject a practice only if you have a better alternative
+2. **Discuss practices at the right level,** whether to write unit test cases or not, should not be discussed with the CTO, but on the contrary, large architectural changes may need discussion with a wider audience.
+3. **Craftsmanship impact on the individual,** craftspeople being professionals do not see their work as just another job. They rather enjoy their work.
+4. **Craftsmanship impact on our industry,** Software Craftsmanship promotes a culture of learning, making companies more innovative and responsive.
+5. **Craftsmanship and Agile** both want to achieve very similar things and one should not be at odds with another.
+
+## Conclusion
+
+It’s a great book that revisits Agile and XP in detail from the perspective of a software developer. This a great reminder for the software development community to bring the focus back to engineering practices and not just process improvements.
+
+At Incubyte, we've taken software craftsmanship to heart. Internalizing an Agile and craftsmanship mindset has helped us focus on what makes our customers and end users happier. Small and frequent releases help us get value in the hands of the end users fast, get feedback from them fast, and continuously refine the product to create maximum impact - fast! Disciplined engineering practices have ensured that our software is always stable and bug-free. A user-first approach helps not only build the right product, but also fosters a collaborative and productive relationship with our customers.
