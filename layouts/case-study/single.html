@@ -1,0 +1,53 @@
+{{ define "main" }}
+<!-- checking blog -->
+{{ if (eq .Section "case-study")}}
+<div style="background-position: 50% 50%;background-size: cover;background-image: url('https://uploads-ssl.webflow.com/5ea96576effbba77b11132b4/60d0e347bbecb174287a519f_New%20VL%20Illustrations-25.png');"> <h1 >{{ .Title }}</h1></div>
+<section class="section">
+
+  <div class="container">
+    <article class="row">
+      <div class="col-lg-8 mx-auto">
+
+
+        {{ range .Params.tags }}
+          <span class="mb-3 badge rounded-pill bg-dark">
+            <a class="text-white" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
+        {{ end }}
+
+        <div class="content">{{.Content}}</div>
+
+        <p class="blockquote-footer text-right">
+          By
+          {{range .Params.authors}}
+            <a href="/authors/{{ . | urlize }}">{{ . }}</a>,
+          {{ end }}
+          on {{ .Date.Format "Monday, January 2, 2006"}}
+        </p>
+
+        {{ partial "share-buttons.html" . }}
+
+        <!-- comments -->
+        {{ if site.DisqusShortname }}
+        <div class="mt-5">
+          {{ template "_internal/disqus.html" . }}
+        </div>
+        {{ end }}
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- regular page -->
+{{ else }}
+{{ partial "page-header.html" . }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="content">{{ .Content }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
