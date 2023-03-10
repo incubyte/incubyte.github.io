@@ -49,6 +49,9 @@ Monnai is on its way to changing this by providing over 500+ global and standard
 
 #### **On-demand deployment, always prod ready**
 
+#### **[$6.5 milling of funding](https://venturebeat.com/ai/monnai-bags-6-5m-funding-to-promote-ai-driven-decisioning-to-fintechs/) in year one of going live**
+
+
 ---
 
 
@@ -57,7 +60,7 @@ Monnai is on its way to changing this by providing over 500+ global and standard
 
 ### The first seven seconds
 
-Monnai had a very clear vision of how they wanted to change the fintech industry when they started. To jump-start their development, they decided to engage Incubyte in parallel with creating their internal engineering team. We were able to get from a sales call to starting work in under 15 days.
+[Monnai](https://monnai.com) had a very clear vision of how they wanted to change the fintech industry when they started. To jump-start their development, they decided to engage Incubyte in parallel with creating their internal engineering team. We were able to get from a sales call to starting work in under 15 days.
 
 ### As green as it can get
 
