@@ -60,11 +60,11 @@ Redefining tech solutions for the banking industry has unique challenges. It is 
 
 ## How we did it
 
-1. We started with small solutions for specific workflows, and built on top of them
-2. The Incubyte team worked with agility and discipline.
-3. We released small upgrades, got feedback from end users, and iterated - ensuring that the users got the most impactful features fast and could use them effectively
-4. We automated everything from day one, thanks to TDD and CI/CD - the build process was clearly defined and scripted, making it consistent and repeatable. This helped us improve our release frequency and lead time to release. It made our end users really happy as they saw the features from their wishlists in the product way sooner than expected
-5. Testing and quality checks were automated, keeping manual testing to a minimum
+- We started with small solutions for specific workflows, and built on top of them
+- The Incubyte team worked with agility and discipline.
+- We released small upgrades, got feedback from end users, and iterated - ensuring that the users got the most impactful features fast and could use them effectively
+- We automated everything from day one, thanks to TDD and CI/CD - the build process was clearly defined and scripted, making it consistent and repeatable. This helped us improve our release frequency and lead time to release. It made our end users really happy as they saw the features from their wishlists in the product way sooner than expected
+- Testing and quality checks were automated, keeping manual testing to a minimum
 
 _Metamorphosis was always release-ready._
 
@@ -82,10 +82,11 @@ Genie started saving 4000 hours a day across 800 users.
 
 ## What Incubyte Achieved
 
-- Team members onboarded by the Metamorphosis project have a seamless workflow. Genie started saving 4000 hours a day across 800 users
-- Within two years, Metamorphosis added value to the company by being fast, economical, and agile
-- Over 800 users have been onboarded by maintaining smaller, stable, consistent releases
-- Incubyte developed a solution with the end user and their use cases in mind. It is more than customization - _it's a tailored solution_
+- **Saved 4000 hours a day.** Team members onboarded by the Metamorphosis project have a seamless workflow that resulted in time saving
+- **Over 800 users onboarded** by maintaining smaller, stable, consistent releases
+- **It's a tailored solution**, it is more than customization, because Incubyte developed a solution with the end user and their use cases in mind.
+- **By being fast, economical, and agile**, within two years, Metamorphosis added value to the company 
+
 
 ## Where Salesforce works
 
