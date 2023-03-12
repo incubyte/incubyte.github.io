@@ -9,7 +9,7 @@
         <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4">
         <h1 class="mb-4 post-title">{{ .Title }}</h1>
         {{ range .Params.tags }}
-        <span class="mb-3 badge rounded-pill bg-dark">
+          <span class="mb-3 badge rounded-pill bg-dark">
             <a class="text-white" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
         {{ end }}
 
@@ -18,14 +18,12 @@
         <p class="blockquote-footer text-right">
           By
           {{range .Params.authors}}
-          <a href="/authors/{{ . | urlize }}">{{ . }}</a>,
+            <a href="/authors/{{ . | urlize }}">{{ . }}</a>,
           {{ end }}
           on {{ .Date.Format "Monday, January 2, 2006"}}
         </p>
 
         {{ partial "share-buttons.html" . }}
-
-        {{ partial "subscribe.html" . }}
 
         <!-- comments -->
         {{ if site.DisqusShortname }}
