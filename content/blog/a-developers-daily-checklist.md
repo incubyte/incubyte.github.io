@@ -9,7 +9,7 @@ tags = ["Playbook"]
 title = "Your daily productivity test"
 +++
 
-Are you a software developer? How can you be more effective on this journey of being a craftsman?
+Are you a software developer? How can you be more effective on this journey of being a craftsperson?
 A lot has been written on this subject, the most focus on the big picture.
 But what about little things you can do to improve your daily work? All you need is 1% improvement to be on the trajectory of being a better developer and possibly a better human being.
 

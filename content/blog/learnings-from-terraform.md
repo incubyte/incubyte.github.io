@@ -13,7 +13,7 @@ type = ""
 
 
 ## Preface
-Terraform is infrastructure as a code. I know it is a fancy word, here is the meaning.
+Terraform is infrastructure as a code. I know it is a fancy word but here is the meaning.
 
 If you want to create one virtual machine in AWS, you go to their website and click a few buttons, and it creates the instance. What if there are 15 such VMs and all have some security configuration, doing it manually is not only tedious but erroneous as well.
 
@@ -28,7 +28,7 @@ It will create, update, or delete resources using simple commands
 ## Goal
 After using terraform in multiple projects, here are my learnings from experience.
 
-It can be used as best practice as well.
+It can be used as a best practice as well.
 
 Feel free to add yours.
 
@@ -39,7 +39,7 @@ In the above example, it will make an entry in the state file with `aws_instance
 
 Since the default way of storing the state is in a local file, most beginners don't change that. That is highly risky.
 
-We should always store the state in **cloud file storage**. For example, for AWS store the state in 's3', for Azure store in 'Azure Blob Storage'. The reason behind that is, if your local machine got crashed, the state is always stored in the cloud, somewhere safe.
+We should always store the state in **cloud file storage**. For example, AWS store the state in 's3', for Azure store in 'Azure Blob Storage'. The reason behind that is, if your local machine got crashed, the state is always stored in the cloud, somewhere safe.
 
 ## Store and run as a pipeline
 Always run the Terraform commands from the pipeline and not from your local machine.
@@ -59,11 +59,11 @@ resource "aws_db_instance" "default" {
   instance_class       = "db.t3.micro"
 }
 ```
-Here we are not defining a property called `engine_version`. It is taken by default as `latest`. Suppose now the latest is 5.7 but after a few months, the latest becomes `8`. The version change might have breaking changes introduced. The application will start breaking.
+Here we are not defining a property called `engine_version`. It is taken by default as the `latest`. Suppose now the latest is 5.7 but after a few months, the latest becomes `8`. The version change might have breaking changes introduced. The application will start breaking.
 
 The biggest issue is, nobody would know why the app is crashing without any code change.
 
-MySQL might be a poor example because the version number is very important in that, however, things like docker image version, helm chart version are ofter taken/used as latest
+MySQL might be a poor example because the version number is very important in that, however, things like the docker image version, helm chart version are often taken/used as the latest
 
 ## No manual changes in managed services
 We might face some important issues or requests that require immediate fixes. Or we might be trying to play around with resources to do POC or want to check capabilities. In these cases, instead of updating resources using Terraform, we often go to the web console and update the resources there.
@@ -125,7 +125,7 @@ resource "aws_db_instance" "default" {
 ```
 The problem with this transition is, since we introduced a `count` property, it will destroy the old instance and try to recreate a new one.
 
-It might not be a problem for cattle type of resources (a resource that does not persist any state and can be destroyed and recreated at any time). However, resources like MySQL have data and if we recreate it, we might lose the data.
+It might not be a problem for cattle type of resources (a resource that does not persist in any state and can be destroyed and recreated at any time). However, resources like MySQL have data and if we recreate it, we might lose the data.
 
 ## Think about the availability of managed services
 This is not specifically for Terraform but can be applied to any cloud architecture.
@@ -136,7 +136,7 @@ For example, we are using 'HTTP API Gateway' of AWS as the entry point to our `k
 
 There are two problems here, if we didn't have the resources as optional using variables, the whole pipeline would fail.
 
-Another thing is, when we are choosing the services, always think about alternatives and don't rely too much on one specific service. (this is subjective and use your judgement)
+Another thing is, when we are choosing services, always think about alternatives and don't rely too much on one specific service. (this is subjective and use your judgement)
 
 ## Think about how to pass a value instead of creating a resource
 This is loosely related to the previous two topics, if a resource is not created, then try to think if there is a way to pass a value instead of creating that resource.

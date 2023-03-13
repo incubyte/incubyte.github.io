@@ -17,7 +17,7 @@ Angular Provider is like a command to Angular Dependency Injection system regard
 
 This helps us to register dependencies, like classes or functions or even values with the Angular Dependency Injection system. 
 
-**Now you must be wondering what on earth is the Angular Dependency Injection system?**
+**Now you must be wondering what on earth is the Angular Dependency Injection system**
 
 # Dependency Injection
 
@@ -52,7 +52,7 @@ In the above example, in order to create a `Car`, we first need to create an `En
 Because we are instantiating the `Engine` class inside the constructor of the `Car` class with `new` keyword, there is a tight coupling between the `Car` class and the `Engine` class.
 
 ### And this is a Problem. <br>
-Actually there are many types of Engine
+Actually, there are many types of Engine
 
 Like a Flat Engine
 ````typescript
@@ -75,8 +75,8 @@ export class Car {
 }
 ````
 
-This problem can be resolved by making both the class loosely coupled with each other.
-For that, first we will turn our `Engine` class to an interface like this
+This problem can be resolved by making both classes loosely coupled with each other.
+For that, first, we will turn our `Engine` class into an interface like this
 ```typescript
 interface class Engine {}
 ```
@@ -94,7 +94,7 @@ export class Car {
     constructor(private engine: Engine) {}
 }
 ```
-The responsibility of object creation of `Engine` is no more with the `Car` class. And the dependency will be directly injected through the constructor of the `Car` class.
+The responsibility of object creation of the `Engine` is no more with the `Car` class. And the dependency will be directly injected through the constructor of the `Car` class.
 
 The Car Factory can now have `Car` with different `Engine` types
 ```typescript
@@ -158,7 +158,7 @@ constructor(
 ```
 
 ## Injection Token
-The Angular provides `InjectionToken` class to ensure that the Unique tokens are created.
+Angular provides `InjectionToken` class to ensure that the Unique tokens are created.
 The Injection Token is created by creating a new instance of the `InjectionToken` class.
 ````typescript
   export const API_URL = new InjectionToken<string>('api.url');
@@ -175,7 +175,7 @@ It is then injected using the `@Inject` in the constructor of the service/compon
 # 2. Provider
 The second property is the Provider definition object.
 It tells Angular how to create the instance of the dependency.
-The Angular can create the instance of the dependency in four different ways.
+Angular can create the instance of dependency in four different ways.
 {{< figure src="/images/2022/08/provider.png" >}}
 
 ## Class Provider
@@ -192,8 +192,8 @@ We can also switch dependencies easily. You can provide a mock class for Testing
 
 ## Value Provider
 `UseValue` is used when you want to provide a simple value.
-The Angular will inject whatever provided in the useValue as it is.
-It is useful in scenarios like, where you want to provide API URL, application-wide configuration etc
+Angular will inject whatever is provided in the useValue as it is.
+It is useful in scenarios like, where you want to provide API URL, application-wide configuration, etc
 ````typescript
 export const APP_CONFIG = Object.freeze({
   devUrl: 'https://dev.randomcar.com/api',

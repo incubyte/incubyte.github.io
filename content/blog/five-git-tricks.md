@@ -27,7 +27,7 @@ Here are the tricks we'll be covering in this article:
 
 The first thing you want to do before trying out these tricks is to set up `git` and its credentials.
 
-If you have set up git with ssh credentials earlier then you definitely know how cumbersome the entire process can be, for those who are unaware here's a very brief overview:
+If you have set up git with ssh credentials earlier then you know how cumbersome the entire process can be, for those who are unaware here's a very brief overview:
 
 - Setup your .gitconfig with user name and mail
 - Generate a new ssh key
@@ -66,7 +66,7 @@ This will push the branch to remote and it will be available for everyone to pul
 
 ## Quickly test changes across branches with the help of stash
 
-Let's say you want to try out a new config that you have added to your branch and have tested successfully, but before committing you want to make sure that this config change doesn't break the `main` branch.
+Let's say you want to try out a new config that you have added to your branch and have tested successfully, but before committing you to want to make sure that this config change doesn't break the `main` branch.
 
 How do you do this?
 
@@ -84,7 +84,7 @@ git stash push -m "configs" # Saves stash with an identifier
 ```bash
 git switch main # Switch to the main branch
 
-git stash apply # Applies most recent stashed changes without removing them from stash
+git stash apply # Applies most recent stashed changes without removing them from the stash
 # Or if you have multiple things in the stash
 git stash list # Get all stashes with index
 git stash apply stash@{<index>} # Apply stash at <index>
@@ -142,9 +142,9 @@ To create multiple splits, use `git rebase --onto` to link the branches.
 
 ## Delete a branch from remote
 
-What if one of the branches is no longer needed or what if you made a typo while creating the branch.
+What if one of the branches is no longer needed or what if you made a typo while creating the branch?
 
-You definitely want to delete the branch from remote right?
+You want to delete the branch from the remote right?
 
 Here's how you can do that:
 

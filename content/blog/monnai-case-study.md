@@ -49,6 +49,9 @@ Monnai is on its way to changing this by providing over 500+ global and standard
 
 #### **On-demand deployment, always prod ready**
 
+#### **[$6.5 milling of funding](https://venturebeat.com/ai/monnai-bags-6-5m-funding-to-promote-ai-driven-decisioning-to-fintechs/) in year one of going live**
+
+
 ---
 
 
@@ -57,15 +60,15 @@ Monnai is on its way to changing this by providing over 500+ global and standard
 
 ### The first seven seconds
 
-Monnai had a very clear vision of how they wanted to change the fintech industry when they started. To jump-start their development, they decided to engage Incubyte in parallel with creating their internal engineering team. We were able to get from a sales call to starting work in under 15 days.
+[Monnai](https://monnai.com) had a very clear vision of how they wanted to change the fintech industry when they started. To jump-start their development, they decided to engage Incubyte in parallel with creating their internal engineering team. We were able to get from a sales call to starting work in under 15 days.
 
 ### As green as it can get
 
-Starting with a blank slate, in this case, a blank Confluence page, wouldn't be a wrong statement when we started the project. The Monnai team had initial ideas on the endpoints they wanted to create to support their API business, which we started building on. Such greenfield projects can cause imaginations to run wild and in our experience, we have seen projects accrue technical debt very fast as the team size and product complexity increase. That's why our focus was on the right practices like TDD and automation from day-one, while we worked closely with the client to uncover the thinnest slice that could become an MVP. The aim was not only to go to market quickly, but to also enable sustainable growth of the feature set as time passes.
+Starting with a blank slate, in this case, a blank Confluence page, wouldn't be a wrong statement when we started the project. The Monnai team had initial ideas on the endpoints they wanted to create to support their API business, which we started building on. Such greenfield projects can cause imaginations to run wild and in our experience, we have seen projects accrue technical debt very fast as the team size and product complexity increase. That's why our focus was on the right practices like TDD and automation from day one, while we worked closely with the client to uncover the thinnest slice that could become an MVP. The aim was not only to go to market quickly but to also enable sustainable growth of the feature set as time passes.
 
 The productivity pattern of a growing company typically looks like the following, exponential at first and then a dip!
 
-{{< figure src="/images/2022/11/monnai-case-study-diagram.jpg" caption="Productivity Pattern of a Growing company" >}}
+{{< figure src="/images/2022/11/monnai-case-study-diagram.jpg" caption="Productivity Pattern of a Growing Company" >}}
 
 We focused on the "right way" let's see how
 
@@ -79,9 +82,9 @@ Starting with a walking skeleton of the software ensures smooth deployments from
 Essentially we started with automating the process along with every component needed to achieve the end architecture.
 
 ### Test Strategy
-First, there was TDD! We have been practicing outside-in TDD for some time. While TDD enabled us to achieve high code coverage and incremental evolution of the architecture, the missing piece causing project delays were because of lack of collaboration, high cost of coordination, failure to agree on things, longer test cycles, etc.
+First, there was TDD! We have been practicing outside-in TDD for some time. While TDD enabled us to achieve high code coverage and incremental evolution of the architecture, the missing pieces causing project delays were because of lack of collaboration, high cost of coordination, failure to agree on things, longer test cycles, etc.
 
-This is why we decided to layer on BDD, and the Three Amigos working model for the Monnai engagement. We took the QA function, that typically occurs almost after all work is done, and shifted it all the way left in the timeline. That meant we started automating test cases and involved all three amigos - analysts, developers, and QA, in the discovery process itself. This increased buy-in from all stakeholders and reduced back and forth between the proverbial walls.
+This is why we decided to layer on BDD and the Three Amigos working model for the Monnai engagement. We took the QA function, which typically occurs almost after all work is done, and shifted it all the way left in the timeline. That meant we started automating test cases and involved all three amigos - analysts, developers, and QA, in the discovery process itself. This increased buy-in from all stakeholders and reduced back and forth between the proverbial walls.
 
 ### Automated fault tolerance
 We knew that we won't have the luxury of a "maintenance window" due to customers being located worldwide. So we designed our components in a way that any new deployment will create and start a server, make sure it is ready to accept traffic, only then route traffic to new servers, and then destroy old servers. This allowed us to deploy without any downtime, even in peak traffic conditions.
@@ -92,11 +95,11 @@ But wait, there is more! What if servers receive requests such that memory or CP
 
 
 ## Cloud infrastructure
-We emphasize on automation everywhere. Not just artifacts, and testing, but infrastructure should be automated as well. We use Terraform to create and manage the infrastructure. It has served us very well so far, eliminating any chance of human error in creating infrastructure.
+We emphasize automation everywhere. Not just artifacts, and testing, but infrastructure should be automated as well. We use Terraform to create and manage the infrastructure. It has served us very well so far, eliminating any chance of human error in creating infrastructure.
 
 Human errors are not limited to system crashes, but security lapses as well. A security lapse can cause more damage than other system issues. Since the infrastructure is in code, and each code change (read infrastructure change) is peer-reviewed and scanned automatically by a code scanner, there are fewer chances of deploying vulnerable infrastructure.
 
-As an added bonus since everything is automated, replicating an environment became trivial too.
+As a bonus since everything is automated, replicating an environment became trivial too.
 
 
 ## Observability and Monitoring
@@ -112,12 +115,12 @@ Different levels of metrics like CPU, memory, threads, number of requests, numbe
 Observing one API call is difficult as we have a distributed system with several internal and external endpoints. We capture and store traces of each call and allow developers to view the whole tree in a nice graphical way so that debugging and finding the cause of failure or slowness becomes easy.
 
 ### Alarms
-None of these are helpful if a person has to sit and analyze logs, traces or metrics manually, we believe in automating these as well. Any anomalies like errors in logs will throw an alarm email to relevant stakeholders.
+None of these are helpful if a person has to sit and analyze logs, traces, or metrics manually, we believe in automating these as well. Any anomalies like errors in logs will throw an alarm email to relevant stakeholders.
 
 ---
 
 ## TL;DR
-A carefully selected tech stack, high levels of automation and following best practices from day one, helped us achieve the following for Monnai:
+A carefully selected tech stack, high levels of automation, and following best practices from day one, helped us achieve the following for Monnai:
 1. Go to market in three months
 2. The ability to respond quickly to feedback from potential customers
 3. Onboarding their first customer within six months
