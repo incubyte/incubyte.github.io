@@ -1,23 +1,43 @@
 <div class="mt-5 newsletter">
+  <iframe id="subscription-form-iframe" name="subscription-form-iframe" style="display:none;"></iframe>
+
   <form
-    action="https://tinyletter.com/incubyte-test"
-    method="post" target="popupwindow"
-    onsubmit="window.open('https://tinyletter.com/incubyte-test', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+    action="https://hooks.airtable.com/workflows/v1/genericWebhook/appZga3G6CMmBbNQJ/wflzPU7JTdzStS9aT/wtrbcKCrRNfPAh0e8"
+    method="POST"
+    target="subscription-form-iframe"
+  >
     <h2>Hey You!</h2>
     <p>
       You were caught scrolling too fast!🚨
       <br>
-      Tell me your email so that I can inform and monitor you next time we release a blog!
+      Tell me your email so that I can inform and monitor you next time we release a blog.
     </p>
-    <div class="row">
-      <div class="col-lg-10 col-md-10 d-flex align-items-center">
-        <input aria-label="Input your email to subscribe to Incubyte" class="form-control" type="text"
-               placeholder="name@email.com" name="email" id="tlemail" />
+
+    <div id="subscription-form-input">
+      <div class="row">
+        <div class="col-lg-10 col-md-10 d-flex align-items-center">
+          <input aria-label="Input your email to subscribe to Incubyte"
+                 class="form-control"
+                 name="email"
+                 placeholder="name@email.com"
+                 type="text" />
+        </div>
+        <div class="col-lg-2 col-md-2 mt-xl-0 mt-lg-0 mt-md-0 mt-2">
+          <input class="btn btn-primary" type="submit" value="Subscribe" />
+        </div>
       </div>
-      <div class="col-lg-2 col-md-2 mt-xl-0 mt-lg-0 mt-md-0 mt-2">
-        <input type="hidden" value="1" name="embed" />
-        <input class="btn btn-primary" type="submit" value="Subscribe" />
-      </div>
+    </div>
+
+    <div class="text-primary font-weight-bold" id="subscription-form-result">
     </div>
   </form>
 </div>
+
+<script>
+  // Add an event listener to the iframe to detect when it has finished loading
+  const iframe = document.querySelector('iframe[name="subscription-form-iframe"]');
+  iframe.addEventListener('load', () => {
+    document.querySelector('#subscription-form-input').innerHTML = ''
+    document.querySelector('#subscription-form-result').innerHTML = 'Ha! I got you!... and your email too!'
+  });
+</script>
