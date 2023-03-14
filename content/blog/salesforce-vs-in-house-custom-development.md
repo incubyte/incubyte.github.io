@@ -70,15 +70,15 @@ _Metamorphosis was always release-ready._
 
 ## Graphic: Scoreboard
 
-| Salesforce Scoreboard | Metamorphosis Scoreboard |
-| --- | --- |
-| Users Onboarded - 100 | Users Onboarded - 800+ |
+| Salesforce Scoreboard                    | Metamorphosis Scoreboard                           |
+|------------------------------------------|----------------------------------------------------|
+| Total Users Onboarded - 100              | Total Users Onboarded - 900+                       |
 | Operational CTC for 100 users = 270,000$ | Operational CTC per year for 800+ users = 100,000$ |
-| Typical Lead Time to Release = Undefined | Typical Lead Time to Release = 2 Weeks |
+| Typical Lead Time to Release = Undefined | Typical Lead Time to Release = 3 Weeks             |
 
 ## The Impact
 
-Genie started saving 4000 hours a day across 800 users.
+Genie started saving 1000 hours a day across 225+ daily active users.
 
 ## What Incubyte Achieved
 
