@@ -84,8 +84,8 @@ Genie started saving 4000 hours a day across 800 users.
 
 - **Saved 4000 hours a day.** Team members onboarded by the Metamorphosis project have a seamless workflow that resulted in time saving
 - **Over 800 users onboarded** by maintaining smaller, stable, consistent releases
-- **It's a tailored solution**, it is more than customization, because Incubyte developed a solution with the end user and their use cases in mind.
-- **By being fast, economical, and agile**, within two years, Metamorphosis added value to the company 
+- **It's a tailored solution**, it is more than customization, because Incubyte developed a solution with the end user and the customer's use cases in mind
+- **By being fast, economical, and agile**, Metamorphis started adding value from the very beginning 
 
 
 ## Where Salesforce works
@@ -101,9 +101,11 @@ When it comes to adopting solutions like Salesforce, a company would need to pay
 Consider your requirements and choose wisely. Will your end users absolutely benefit from the CRM or could they do more with a custom tool?
 
 ## The power of Metamorphosis, a.k.a. Custom Tailored Development
-- **Ecosystem built per your need** so keeps your business, client and employees in mind from day one.
-- **Cost shifts from opex to capex** once built you do not have to pay additional per user you add to the ecosystem
+- **Ecosystem built per your need** so keeps your business, client and employees in mind from day one
+- **Cost shifts from opex to capex** once built there is no additional expenditure to onboard new users
 - **Can be faster cheaper and better** if done right
 - **With Incubyte**, your software can be reliable, scalable, and significantly affordable
 
-Choosing a direction to tackle a system overhaul is never easy. There are no simple decisions, and every action has long-lasting consequences. We hope this study helped you understand your options better and what they ultimately translate to for your business. Contact us if you want to know how tailored digital products can uplift your business and enable your employees. We would love to help you with your Metamorphosis.
+Choosing a direction to tackle a system overhaul is never easy. There are no simple decisions, and every action has long-lasting consequences. We hope this study helped you understand your options better and what they ultimately translate to for your business. Contact us if you want to know how tailored digital products can uplift your business and enable your employees.
+
+**Send us a note at hello@incubyte.co if you are confused between building your own in-house digital product vs. Salesforce. We would love to help you with your Metamorphosis!**
