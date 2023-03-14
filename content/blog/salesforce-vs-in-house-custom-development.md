@@ -108,4 +108,5 @@ Consider your requirements and choose wisely. Will your end users absolutely ben
 
 Choosing a direction to tackle a system overhaul is never easy. There are no simple decisions, and every action has long-lasting consequences. We hope this study helped you understand your options better and what they ultimately translate to for your business. Contact us if you want to know how tailored digital products can uplift your business and enable your employees.
 
-**Send us a note at hello@incubyte.co if you are confused between building your own in-house digital product vs. Salesforce. We would love to help you with your Metamorphosis!**
+**Reach out to us at hello@incubyte.co if you are considering tailored digital products vs Salesforce to uplift your business. We would love to help you with your Metamorphosis.**
+
