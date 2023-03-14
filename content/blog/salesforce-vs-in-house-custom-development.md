@@ -101,7 +101,7 @@ When it comes to adopting solutions like Salesforce, a company would need to pay
 Consider your requirements and choose wisely. Will your end users absolutely benefit from the CRM or could they do more with a custom tool?
 
 ## The power of Metamorphosis, a.k.a. Custom Tailored Development
-- **Ecosystem built per your need** so keeps your business, client and employees in mind from day one
+- **Built per the needs of business, client and employees** in mind from day one
 - **Cost shifts from opex to capex** once built there is no additional expenditure to onboard new users
 - **Can be faster cheaper and better** if done right
 - **With Incubyte**, your software can be reliable, scalable, and significantly affordable
