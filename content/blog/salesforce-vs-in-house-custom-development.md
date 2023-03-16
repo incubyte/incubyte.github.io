@@ -73,7 +73,7 @@ _Metamorphosis was always release-ready._
 | Salesforce Scoreboard                    | Metamorphosis Scoreboard                           |
 |------------------------------------------|----------------------------------------------------|
 | Total Users Onboarded - 100              | Total Users Onboarded - 900+                       |
-| Operational CTC for 100 users = 270,000$ | Operational CTC per year for 800+ users = 100,000$ |
+| Operational CTC for 100 users = 270,000$ | Operational CTC per year for 900+ users = 100,000$ |
 | Typical Lead Time to Release = Undefined | Typical Lead Time to Release = 3 Weeks             |
 
 ## The Impact
@@ -83,7 +83,7 @@ Genie started saving 1000 hours a day across 225+ daily active users.
 ## What Incubyte Achieved
 
 - **Saved 4000 hours a day.** Team members onboarded by the Metamorphosis project have a seamless workflow that resulted in time saving
-- **Over 800 users onboarded** by maintaining smaller, stable, consistent releases
+- **Over 900 users onboarded** by maintaining smaller, stable, consistent releases
 - **It's a tailored solution**, it is more than customization, because Incubyte developed a solution with the end user and the customer's use cases in mind
 - **By being fast, economical, and agile**, Metamorphis started adding value from the very beginning 
 
