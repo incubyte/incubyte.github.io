@@ -56,7 +56,7 @@ Redefining tech solutions for the banking industry has unique challenges. It is 
 | --- | --- |
 | Needed a lot of upfront planning before onboarding any users | Genie increased the number of users by slowly and steadily improving the system iteratively and consistently. |
 | Agencies specializing in niche areas had to be engaged since the low-code implementation still required professional services in MuleSoft, Cloud Data Migration, etc. | The cross-functional team at Incubyte owned the entire stack from discovery to deployment, reducing communication overhead and dependencies across teams |
-| ~100 users onboarded | 800+ users onboarded. |
+| ~100 users onboarded | 900+ users onboarded. |
 
 ## How we did it
 
