@@ -6,7 +6,16 @@
     <description>Recent content on Incubyte Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 08 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is there a more economical and efficient alternative to Salesforce?</title>
+      <link>https://blog.incubyte.co/blog/salesforce-vs-in-house-custom-development/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.incubyte.co/blog/salesforce-vs-in-house-custom-development/</guid>
+      <description>Choosing a direction when redefining your organization&amp;rsquo;s technical backbone is never easy. In this case study, we had the unique opportunity to observe the implementation of both - a Low-code/no-code CRM and tailored software solutions over two years.</description>
+    </item>
+    
     <item>
       <title>Accelerate: Key Software Delivery Metrics</title>
       <link>https://blog.incubyte.co/blog/accelerate-metrics/</link>
