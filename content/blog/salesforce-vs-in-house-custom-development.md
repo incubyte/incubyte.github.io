@@ -68,7 +68,7 @@ Redefining tech solutions for the banking industry has unique challenges. It is 
 
 _Metamorphosis was always release-ready._
 
-## Graphic: Scoreboard
+## Scoreboard
 
 | Salesforce Scoreboard                    | Metamorphosis Scoreboard                           |
 |------------------------------------------|----------------------------------------------------|
