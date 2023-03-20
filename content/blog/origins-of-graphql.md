@@ -2,7 +2,7 @@
 title = "Origins of Graphql"
 slug = "origin-of-graphql"
 date = 2023-02-23T11:33:15+05:30
-image = "/images/2023/02/graphql-1.png"
+image = "/images/2023/02/graphql.png"
 draft = false
 authors = ["Nitin Rajkumar"]
 description = "Origins of graphql and what took so long for this approach to take its implementation"
