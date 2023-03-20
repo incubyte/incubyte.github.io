@@ -5,7 +5,7 @@
 
 <head>
 	<meta charset="utf-8">
-<title>Incubyte Blog</title>
+<title>Origins of Graphql</title>
 
 
 <base href="https://blog.incubyte.co/">
@@ -14,6 +14,7 @@
 
 
 
+<meta name="author" content="[Nitin Rajkumar]">
 <meta name="generator" content="Hugo 0.111.3">
 
 
@@ -30,22 +31,24 @@
 
 
 <!-- Open Graph image and Twitter Card metadata -->
-<meta property="og:image" content="https://blog.incubyte.co/images/logo.png" />
-<meta name="twitter:image" content="https://blog.incubyte.co/images/logo.png"/>
+<meta property="og:image" content="https://blog.incubyte.co/images/2023/02/graphql-1.png" />
+<meta name="twitter:image" content="https://blog.incubyte.co/images/2023/02/graphql-1.png"/>
 <meta name="twitter:card" content="summary_large_image">
-<meta property="og:image:width" content="1847">
-<meta property="og:image:height" content="511">
+<meta property="og:image:width" content="500">
+<meta property="og:image:height" content="300">
 <meta property="og:image:type" content="image/png">
-<meta name="twitter:title" content="Incubyte Blog"/>
-<meta name="twitter:description" content="Incubyte Blog"/>
-<meta property="og:title" content="" />
-<meta property="og:description" content="Incubyte Blog" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://blog.incubyte.co/" /><meta property="og:site_name" content="Incubyte Blog" />
+<meta name="twitter:title" content="Origins of Graphql"/>
+<meta name="twitter:description" content="Origins of graphql and what took so long for this approach to take its implementation"/>
+<meta property="og:title" content="Origins of Graphql" />
+<meta property="og:description" content="Origins of graphql and what took so long for this approach to take its implementation" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.incubyte.co/blog/origin-of-graphql/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-02-23T11:33:15+05:30" />
+<meta property="article:modified_time" content="2023-02-23T11:33:15+05:30" /><meta property="og:site_name" content="Incubyte Blog" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="Incubyte Blog"/>
+<meta name="twitter:title" content="Origins of Graphql"/>
+<meta name="twitter:description" content="Origins of graphql and what took so long for this approach to take its implementation"/>
 
 
 
@@ -69,11 +72,16 @@ if (!doNotTrack) {
     {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "",
-        "image": "/",
-        "datePublished": "Friday, March 10, 2023",
-        "dateModified": "Friday, March 10, 2023",
+        "headline": "Origins of Graphql",
+        "image": "/images/2023/02/graphql-1.png",
+        "datePublished": "Thursday, February 23, 2023",
+        "dateModified": "Thursday, February 23, 2023",
         "author": [
+            
+                {
+                    "@type": "Person",
+                    "name": "Nitin Rajkumar"
+                }
             
         ],
         "mainEntityOfPage": { "@type": "WebPage" },
@@ -91,7 +99,7 @@ if (!doNotTrack) {
                 "https://www.instagram.com/incubyte.co/"
             ]
         },
-        "keywords": []
+        "keywords": ["Software Craftsmanship", "GraphQL"]
     }
     
 </script>
@@ -595,239 +603,378 @@ if (!doNotTrack) {
 
 	<main>
 		
-<section class="section pb-0">
-  <div class="container text-left">
-    <h1 class="display-5"></h1>
-    
+
+
+
+<section class="section">
+  <div class="container">
+    <article class="row">
+      <div class="col-lg-8 mx-auto">
+        <img src="/images/2023/02/graphql-1.png" alt="Origins of Graphql" class="img-fluid w-100 rounded mb-4">
+        <h1 class="mb-4 post-title">Origins of Graphql</h1>
+        
+        <span class="mb-3 badge rounded-pill bg-dark">
+            <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
+        
+        <span class="mb-3 badge rounded-pill bg-dark">
+            <a class="text-white" href="/tags/graphql">GraphQL</a></span>
+        
+
+        <div class="content"><h3 id="königsberg-bridge-problem--the-big-bang-of-graphql">Königsberg Bridge Problem — The Big Bang of GraphQL</h3>
+<figure><img src="/images/2023/02/bridge.png"/>
+</figure>
+
+<p>“Starting from any of the four land areas A, B, C, D is it possible to cross each of the seven bridges exactly once and come back to the starting point without swimming across the river?” Solving this is how people spent their Sunday afternoon picnics in 1735.</p>
+<h3 id="what-leonhard-euler-did-to-their-sundays">What Leonhard Euler did to their Sundays?</h3>
+<figure><img src="/images/2023/02/graph-representation.png"/>
+</figure>
+
+<p>Being a mathematician he quickly constructed a graph representing the land as vertices and bridges as edges between the vertices. For a vertex to be left once and entered once it should have a minimum of two or even number of edges. None of the vertices have an even number of edges and hence it is impossible to cross without swimming across the river.</p>
+<p>This is believed to have laid the foundation for a new branch in matheamtics <em>graph theory</em>.</p>
+<h3 id="applying-graph-theory-to-fetch-data">Applying graph theory to fetch data</h3>
+<p>Graph theory is representation of available data in the form of nodes and studying their relationship. Graph theory has its applications in many branches is sociology to study aquaintances, in chemistry to study molecules, in biology to study metabolic networks, in electronics to design circuits and so on. Ultimately every thing is data and the data can be represented in nodes and their relations.</p>
+<p>A graph with directions where the starting node and ending node are different can be considered a tree.</p>
+<p>A GraphQL schema is an acyclic-directed graph containing types(node), representing entities, which can be traversed. Each type points to fields and can further point to another type.</p>
+<h3 id="what-took-this-long-for-graphql">What took this long for GraphQL</h3>
+<p>Invention arises from idleness, possibly also from laziness to save oneself from trouble - <em>Agatha Christie</em></p>
+<p>But, every invention is attributed to the need of the context of its times.</p>
+<p>Had people been both idle and lazy, GraphQL would have been developed long time before facebook had faced the challenge of transferring large amount of data between client and server, with its mobile application.</p>
+<p><strong>RPC</strong>(Remote Procedural Call) — The concept of Remote Procedure Call (RPC) was first introduced in the 1970s by Birrell and Nelson. RPC provides a simple interface for calling a procedure or a function on a remote machine. Although provides high performance it is not as scalable or cacheble as others like SOAP</p>
+<p><strong>SOAP</strong>(Simple Objects Access Protocol) — It was developed in late 1990s as an alternative for RPC. Supports only XML for sending and receiving requests and responses with large file sizes of XML the bandwidth required is large. Built in security can add to its complexity can make it slow.</p>
+<p><strong>REST</strong>(Representational State Transfer) — It was first introduced in 2000 by Roy Fielding. The REST architectural style was designed to be a more flexible and scalable alternative of SOAP. REST provides server-side data available in the simple format of JSON with standard HTTP methods(GET, POST, PUT, DELETE). Although it is widely used for its decoupled, stateless, cache-friendly architecture it has few strain points.</p>
+<ol>
+<li>Over fetching — It takes a lot less time to fetch the 3 fields we need than to fetch the object with all the 20 keys.</li>
+<li>Under fetching — Hit more endpoints and make many requests rather than fetching everything in a single request.</li>
+<li>May add new route — Dev time may increase in doing so instead of adding a type or field as in GraphQL</li>
+</ol>
+<p><strong>GraphQL</strong>: GraphQL is a query language for your APIs. It’s also a runtime for fulfilling queries with your data. The GraphQL service is transport agnostic but is typically served over HTTP. With GraphQL, our clients can get all the data they need in one request.</p>
+<p>GraphQL is often referred to as a declarative data-fetching language. By that, we mean that developers will list their data requirements as what data they need without focusing on how they’re going to get it.</p>
+<h3 id="design-principles-of-graphql-">Design Principles of GraphQL :</h3>
+<p><strong>Product centric</strong> : A client query to server can be shaped like the data that it expects.</p>
+<p><strong>Hierarchical and Circular</strong>: Fields are nested within other fields.</p>
+<p><strong>Strongly Typed</strong>: A GraphQL server is backed by the GraphQL type system. In the schema, each data point has a specific type against which it will be validated.</p>
+<p><strong>Introspective</strong>: The GraphQL language can query the GraphQL server’s type system or the schema.</p>
+<h3 id="products-using-graphql">Products using GraphQL</h3>
+<p>The GraphQL specification was open sourced in 2015. It is now overseen by the GraphQL Foundation. Currently a large number of organizations are availing the benefits of GraphQL which includes Twitter, Instagram, Airbnb, Shopify, Newyork Times, Spring Health and many more.</p>
+</div>
+
+        <p class="blockquote-footer text-right">
+          By
+          
+          <a href="/authors/nitin-rajkumar">Nitin Rajkumar</a>,
+          
+          on Thursday, February 23, 2023
+        </p>
+
+        
+
+
+
+<h2>Consider Sharing!</h2>
+
+<div style="font-size: 80%">
+
+    <a class="resp-sharing-button__link" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fblog.incubyte.co%2fblog%2forigin-of-graphql%2f&t=Origins%20of%20Graphql"
+         target="_blank" rel="noopener" aria-label="Facebook">
+        <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm3.6 11.5h-2.1v7h-3v-7h-2v-2h2V8.34c0-1.1.35-2.82 2.65-2.82h2.35v2.3h-1.4c-.25 0-.6.13-.6.66V9.5h2.34l-.24 2z" />
+                </svg>
+            </div>
+            Facebook
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="https://twitter.com/share?text=Origins%20of%20Graphql&url=https%3a%2f%2fblog.incubyte.co%2fblog%2forigin-of-graphql%2f&screen_name=incubyte_co"
+         target="_blank" rel="noopener" aria-label="Twitter">
+        <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm5.26 9.38v.34c0 3.48-2.64 7.5-7.48 7.5-1.48 0-2.87-.44-4.03-1.2 1.37.17 2.77-.2 3.9-1.08-1.16-.02-2.13-.78-2.46-1.83.38.1.8.07 1.17-.03-1.2-.24-2.1-1.3-2.1-2.58v-.05c.35.2.75.32 1.18.33-.7-.47-1.17-1.28-1.17-2.2 0-.47.13-.92.36-1.3C7.94 8.85 9.88 9.9 12.06 10c-.04-.2-.06-.4-.06-.6 0-1.46 1.18-2.63 2.63-2.63.76 0 1.44.3 1.92.82.6-.12 1.95-.27 1.95-.27-.35.53-.72 1.66-1.24 2.04z" />
+                </svg>
+            </div>
+            Twitter
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="mailto:?subject=Origins%20of%20Graphql&body=Origins%20of%20Graphql%0a%0aK%c3%b6nigsberg%20Bridge%20Problem%20%e2%80%94%20The%20Big%20Bang%20of%20GraphQL%20%e2%80%9cStarting%20from%20any%20of%20the%20four%20land%20areas%20A%2c%20B%2c%20C%2c%20D%20is%20it%20possible%20to%20cross%20each%20of%20the%20seven%20bridges%20exactly%20once%20and%20come%20back%20to%20the%20starting%20%e2%80%a6%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2forigin-of-graphql%2f%0a"
+         target="_self" rel="noopener" aria-label="E-Mail">
+        <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm8 16c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2v8z" />
+                    <path
+                        d="M17.9 8.18c-.2-.2-.5-.24-.72-.07L12 12.38 6.82 8.1c-.22-.16-.53-.13-.7.08s-.15.53.06.7l3.62 2.97-3.57 2.23c-.23.14-.3.45-.15.7.1.14.25.22.42.22.1 0 .18-.02.27-.08l3.85-2.4 1.06.87c.1.04.2.1.32.1s.23-.06.32-.1l1.06-.9 3.86 2.4c.08.06.17.1.26.1.17 0 .33-.1.42-.25.15-.24.08-.55-.15-.7l-3.57-2.22 3.62-2.96c.2-.2.24-.5.07-.72z" />
+                </svg>
+            </div>
+            E-Mail
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fblog.incubyte.co%2fblog%2forigin-of-graphql%2f&title=Origins%20of%20Graphql&summary=K%25C3%25B6nigsberg%2bBridge%2bProblem%2b%25E2%2580%2594%2bThe%2bBig%2bBang%2bof%2bGraphQL%2b%25E2%2580%259CStarting%2bfrom%2bany%2bof%2bthe%2bfour%2bland%2bareas%2bA%252C%2bB%252C%2bC%252C%2bD%2bis%2bit%2bpossible%2bto%2bcross%2beach%2bof%2bthe%2bseven%2bbridges%2bexactly%2bonce%2band%2bcome%2bback%2bto%2bthe%2bstarting%2b%25E2%2580%25A6"
+         target="_blank" rel="noopener" aria-label="LinkedIn">
+        <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" xml:space="preserve">
+        <path
+                    d="M12,0C5.383,0,0,5.383,0,12s5.383,12,12,12s12-5.383,12-12S18.617,0,12,0z M9.5,16.5h-2v-7h2V16.5z M8.5,7.5 c-0.553,0-1-0.448-1-1c0-0.552,0.447-1,1-1s1,0.448,1,1C9.5,7.052,9.053,7.5,8.5,7.5z M18.5,16.5h-3V13c0-0.277-0.225-0.5-0.5-0.5 c-0.276,0-0.5,0.223-0.5,0.5v3.5h-3c0,0,0.031-6.478,0-7h3v0.835c0,0,0.457-0.753,1.707-0.753c1.55,0,2.293,1.12,2.293,3.296V16.5z" />
+    </svg>
+            </div>
+            LinkedIn
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="https://reddit.com/submit?url=https%3a%2f%2fblog.incubyte.co%2fblog%2forigin-of-graphql%2f&title=Origins%20of%20Graphql"
+         target="_blank" rel="noopener" aria-label="Reddit">
+        <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <circle cx="9.391" cy="13.392" r=".978" />
+                    <path
+                        d="M14.057 15.814c-1.14.66-2.987.655-4.122-.004-.238-.138-.545-.058-.684.182-.13.24-.05.545.19.685.72.417 1.63.646 2.568.646.93 0 1.84-.228 2.558-.642.24-.13.32-.44.185-.68-.14-.24-.445-.32-.683-.18zM5 12.086c0 .41.23.78.568.978.27-.662.735-1.264 1.353-1.774-.2-.207-.48-.334-.79-.334-.62 0-1.13.507-1.13 1.13z" />
+                    <path
+                        d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm6.673 14.055c.01.104.022.208.022.314 0 2.61-3.004 4.73-6.695 4.73s-6.695-2.126-6.695-4.74c0-.105.013-.21.022-.313C4.537 13.73 4 12.97 4 12.08c0-1.173.956-2.13 2.13-2.13.63 0 1.218.29 1.618.757 1.04-.607 2.345-.99 3.77-1.063.057-.803.308-2.33 1.388-2.95.633-.366 1.417-.323 2.322.085.302-.81 1.076-1.397 1.99-1.397 1.174 0 2.13.96 2.13 2.13 0 1.177-.956 2.133-2.13 2.133-1.065 0-1.942-.79-2.098-1.81-.734-.4-1.315-.506-1.716-.276-.6.346-.818 1.395-.88 2.087 1.407.08 2.697.46 3.728 1.065.4-.468.987-.756 1.617-.756 1.17 0 2.13.953 2.13 2.13 0 .89-.54 1.65-1.33 1.97z" />
+                    <circle cx="14.609" cy="13.391" r=".978" />
+                    <path
+                        d="M17.87 10.956c-.302 0-.583.128-.79.334.616.51 1.082 1.112 1.352 1.774.34-.197.568-.566.568-.978 0-.623-.507-1.13-1.13-1.13z" />
+                </svg>
+            </div>
+            Reddit
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="whatsapp://send?text=Origins%20of%20Graphql%0a%0aK%c3%b6nigsberg%20Bridge%20Problem%20%e2%80%94%20The%20Big%20Bang%20of%20GraphQL%20%e2%80%9cStarting%20from%20any%20of%20the%20four%20land%20areas%20A%2c%20B%2c%20C%2c%20D%20is%20it%20possible%20to%20cross%20each%20of%20the%20seven%20bridges%20exactly%20once%20and%20come%20back%20to%20the%20starting%20%e2%80%a6%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2forigin-of-graphql%2f%0a"
+         target="_blank" rel="noopener" aria-label="WhatsApp">
+        <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24">
+                    <path
+                        d="m12 0c-6.6 0-12 5.4-12 12s5.4 12 12 12 12-5.4 12-12-5.4-12-12-12zm0 3.8c2.2 0 4.2 0.9 5.7 2.4 1.6 1.5 2.4 3.6 2.5 5.7 0 4.5-3.6 8.1-8.1 8.1-1.4 0-2.7-0.4-3.9-1l-4.4 1.1 1.2-4.2c-0.8-1.2-1.1-2.6-1.1-4 0-4.5 3.6-8.1 8.1-8.1zm0.1 1.5c-3.7 0-6.7 3-6.7 6.7 0 1.3 0.3 2.5 1 3.6l0.1 0.3-0.7 2.4 2.5-0.7 0.3 0.099c1 0.7 2.2 1 3.4 1 3.7 0 6.8-3 6.9-6.6 0-1.8-0.7-3.5-2-4.8s-3-2-4.8-2zm-3 2.9h0.4c0.2 0 0.4-0.099 0.5 0.3s0.5 1.5 0.6 1.7 0.1 0.2 0 0.3-0.1 0.2-0.2 0.3l-0.3 0.3c-0.1 0.1-0.2 0.2-0.1 0.4 0.2 0.2 0.6 0.9 1.2 1.4 0.7 0.7 1.4 0.9 1.6 1 0.2 0 0.3 0.001 0.4-0.099s0.5-0.6 0.6-0.8c0.2-0.2 0.3-0.2 0.5-0.1l1.4 0.7c0.2 0.1 0.3 0.2 0.5 0.3 0 0.1 0.1 0.5-0.099 1s-1 0.9-1.4 1c-0.3 0-0.8 0.001-1.3-0.099-0.3-0.1-0.7-0.2-1.2-0.4-2.1-0.9-3.4-3-3.5-3.1s-0.8-1.1-0.8-2.1c0-1 0.5-1.5 0.7-1.7s0.4-0.3 0.5-0.3z" />
+                </svg>
+            </div>
+            WhatsApp
+        </div>
+    </a>
+
+</div>
+
+<style>
+    .resp-sharing-button__link,
+    .resp-sharing-button__icon {
+        display: inline-block
+    }
+
+    .resp-sharing-button__link {
+        text-decoration: none;
+        color: #fff;
+        margin: 0.5em
+    }
+
+    .resp-sharing-button {
+        border-radius: 5px;
+        transition: 25ms ease-out;
+        padding: 0.5em 0.75em;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+    }
+
+    .resp-sharing-button__icon svg {
+        width: 1em;
+        height: 1em;
+        margin-right: 0.4em;
+        vertical-align: top
+    }
+
+    .resp-sharing-button--small svg {
+        margin: 0;
+        vertical-align: middle
+    }
+
+     
+    .resp-sharing-button__icon {
+        stroke: #fff;
+        fill: none
+    }
+
+     
+    .resp-sharing-button__icon--solid,
+    .resp-sharing-button__icon--solidcircle {
+        fill: #fff;
+        stroke: none
+    }
+
+    .resp-sharing-button--twitter {
+        background-color: #55acee
+    }
+
+    .resp-sharing-button--twitter:hover {
+        background-color: #2795e9
+    }
+
+
+    .resp-sharing-button--facebook {
+        background-color: #3b5998
+    }
+
+    .resp-sharing-button--facebook:hover {
+        background-color: #2d4373
+    }
+
+    .resp-sharing-button--linkedin {
+        background-color: #0077b5
+    }
+
+    .resp-sharing-button--linkedin:hover {
+        background-color: #046293
+    }
+
+    .resp-sharing-button--email {
+        background-color: #777
+    }
+
+    .resp-sharing-button--email:hover {
+        background-color: #5e5e5e
+    }
+
+    .resp-sharing-button--whatsapp {
+        background-color: #25D366
+    }
+
+    .resp-sharing-button--whatsapp:hover {
+        background-color: #1da851
+    }
+
+    .resp-sharing-button--facebook {
+        background-color: #3b5998;
+        border-color: #3b5998;
+    }
+
+    .resp-sharing-button--facebook:hover,
+    .resp-sharing-button--facebook:active {
+        background-color: #2d4373;
+        border-color: #2d4373;
+    }
+
+    .resp-sharing-button--twitter {
+        background-color: #55acee;
+        border-color: #55acee;
+    }
+
+    .resp-sharing-button--twitter:hover,
+    .resp-sharing-button--twitter:active {
+        background-color: #2795e9;
+        border-color: #2795e9;
+    }
+
+    .resp-sharing-button--email {
+        background-color: #777777;
+        border-color: #777777;
+    }
+
+    .resp-sharing-button--email:hover,
+    .resp-sharing-button--email:active {
+        background-color: #5e5e5e;
+        border-color: #5e5e5e;
+    }
+
+    .resp-sharing-button--linkedin {
+        background-color: #0077b5;
+        border-color: #0077b5;
+    }
+
+    .resp-sharing-button--linkedin:hover,
+    .resp-sharing-button--linkedin:active {
+        background-color: #046293;
+        border-color: #046293;
+    }
+
+    .resp-sharing-button--reddit {
+        background-color: #ff4500;
+        border-color: #5f99cf;
+    }
+
+    .resp-sharing-button--reddit:hover,
+    .resp-sharing-button--reddit:active {
+        background-color: #ff6510;
+        color: #777;
+        border-color: #3a80c1;
+    }
+
+    .resp-sharing-button--whatsapp {
+        background-color: #0D9F4E;
+        border-color: #0D9F4E;
+    }
+
+    .resp-sharing-button--whatsapp:hover,
+    .resp-sharing-button--whatsapp:active {
+        background-color: #1DA851;
+        color: #777;
+        border-color: #1DA851;
+    }
+</style>
+
+
+        <div class="mt-5 newsletter">
+  <iframe id="subscription-form-iframe" name="subscription-form-iframe" style="display:none;"></iframe>
+
+  <form
+    action="https://hooks.airtable.com/workflows/v1/genericWebhook/appZga3G6CMmBbNQJ/wflzPU7JTdzStS9aT/wtrbcKCrRNfPAh0e8"
+    method="POST"
+    target="subscription-form-iframe"
+  >
+    <h2>Hey You!</h2>
+    <p>
+      You were caught scrolling too fast!🚨
+      <br>
+      Tell me your email so that I can inform and monitor you next time we release a blog.
+    </p>
+
+    <div id="subscription-form-input">
+      <div class="row">
+        <div class="col-lg-10 col-md-10 d-flex align-items-center">
+          <input aria-label="Input your email to subscribe to Incubyte"
+                 class="form-control"
+                 name="email"
+                 placeholder="name@email.com"
+                 type="text" />
+        </div>
+        <div class="col-lg-2 col-md-2 mt-xl-0 mt-lg-0 mt-md-0 mt-2">
+          <input class="btn btn-primary" type="submit" value="Subscribe" />
+        </div>
+      </div>
+    </div>
+
+    <div class="text-primary font-weight-bold" id="subscription-form-result">
+    </div>
+  </form>
+</div>
+
+<script>
+  
+  const iframe = document.querySelector('iframe[name="subscription-form-iframe"]');
+  iframe.addEventListener('load', () => {
+    document.querySelector('#subscription-form-input').innerHTML = ''
+    document.querySelector('#subscription-form-result').innerHTML = 'Ha! I got you!... and your email too!'
+  });
+</script>
+
+
+        
+        
+      </div>
+    </article>
   </div>
 </section>
 
 
-<section class="">
-    <div class="container">
-        
-        <div class="display-4">Posts</div>
-        <hr>
-        <div class="row">
-            
-            <div class="col-12 mb-5 pb-5">
-                <article class="row align-items-center">
-                    <div class="col-md-6 mb-4 mb-md-0">
-                        <a href="https://blog.incubyte.co/blog/why-incubyte/">
-                            <img src="/images/2020/10/why-incubyte-cover.jpg" alt="Why Incubyte?" class="img-fluid rounded-lg w-100">
-                        </a>
-                    </div>
-                    <div class="col-md-6">
-                        <h2><a href="https://blog.incubyte.co/blog/why-incubyte/" title="Why Incubyte?" class="post-title">Why Incubyte?</a></h2>
-                        
-                        <span class="mb-1 badge rounded-pill bg-dark"> <a class="text-white"
-                                                                          href="/tags/playbook">Playbook</a></span>
-                        
-                        <span class="mb-1 badge rounded-pill bg-dark"> <a class="text-white"
-                                                                          href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <p class="card-text">Quality is usually an implicit requirement when it comes to developing software. Users ask for a beautiful UI, outstanding performance, and the functionality they need, but quality is never on the list - it is just expected!</p>
-                        <a href="https://blog.incubyte.co/blog/why-incubyte/" title=" -
-                        Why Incubyte?" class="btn btn-main-art btn-primary">Read more</a>
-                    </div>
-                </article>
-            </div>
-            
-            
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/do-not-optimize-prematurely/">
-                        <img src="https://images.unsplash.com/photo-1506818144585-74b29c980d4b?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ" alt="Do not Optimize Prematurely" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/do-not-optimize-prematurely/" title="Do not Optimize Prematurely" class="post-title">Do not Optimize Prematurely</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/97-things-not-to-do">97 Things Not To Do</a></span>
-                        
-                        <p class="card-text">Once again, you would think that the software development community has moved past this point, but I still get many teammates who want to &ldquo;save memory&rdquo; using HashMaps instead of POJOs.
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/do-not-show-separate-estimate-for-testing/">
-                        <img src="https://images.unsplash.com/photo-1516534775068-ba3e7458af70?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ" alt="Do not Show Separate Estimate for Unit Testing" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/do-not-show-separate-estimate-for-testing/" title="Do not Show Separate Estimate for Unit Testing" class="post-title">Do not Show Separate Estimate for Unit Testing</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/97-things-not-to-do">97 Things Not To Do</a></span>
-                        
-                        <p class="card-text">Once I was asked in an interview (I was the interviewer!) What do you do in situations where the customers don&rsquo;t want you to write test cases, or they want you to deprioritize the activity of writing test cases.
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/data-security/">
-                        <img src="/images/2020/09/computer_security_blog_v01.jpg" alt="Security Practices for Postgres Web Application" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/data-security/" title="Security Practices for Postgres Web Application" class="post-title">Security Practices for Postgres Web Application</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/security">Security</a></span>
-                        
-                        <p class="card-text">Data security is when protective measures are put in place to keep unauthorsized access out of computers, websites, and databases.
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/working-at-incubyte/">
-                        <img src="/images/2020/09/1562394898.jpg" alt="Working at Incubyte" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/working-at-incubyte/" title="Working at Incubyte" class="post-title">Working at Incubyte</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/careers">Careers</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/playbook">Playbook</a></span>
-                        
-                        <p class="card-text">At Incubyte we strongly believe in finding the right talent, helping them to unleash their maximum capacity, and then getting out of their way to let them do what they do best.
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/do-not-copy-and-paste-code/">
-                        <img src="/images/2020/08/depositphotos_14942465-stock-photo-copy-paste-keyboard.jpg" alt="Do not Copy and paste code to minimize the impact:" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/do-not-copy-and-paste-code/" title="Do not Copy and paste code to minimize the impact:" class="post-title">Do not Copy and paste code to minimize the impact:</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/97-things-not-to-do">97 Things Not To Do</a></span>
-                        
-                        <p class="card-text">Have you ever seen code in your module, which was so complex that you decided to copy and paste it entirely rather than changing it to accommodate your requirement?
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/do-not-fall-for-faux-agile/">
-                        <img src="https://images.unsplash.com/photo-1586892478377-bb79da0a70c2?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ" alt="Do not Fall for faux agile" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/do-not-fall-for-faux-agile/" title="Do not Fall for faux agile" class="post-title">Do not Fall for faux agile</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/97-things-not-to-do">97 Things Not To Do</a></span>
-                        
-                        <p class="card-text">Enough ink is already spilled on this topic, nevertheless talking about it once again may not hurt.
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/feedback/">
-                        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ" alt="Feedback &amp; Rapid Prototyping" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/feedback/" title="Feedback &amp; Rapid Prototyping" class="post-title">Feedback &amp; Rapid Prototyping</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/playbook">Playbook</a></span>
-                        
-                        <p class="card-text">&ldquo;No fixed direction remains valid for long&rdquo; - Extreme Programming Explained by Kent Beck
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/planning/">
-                        <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=2000&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ" alt="Planning &amp; Communication" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/planning/" title="Planning &amp; Communication" class="post-title">Planning &amp; Communication</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/playbook">Playbook</a></span>
-                        
-                        <p class="card-text">One of our primary process goals is to make frequent, small releases of our working software.
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/technology-platforms-2/">
-                        <img src="/images/2020/10/cio_ai.png" alt="Technology Platforms &amp; Business Economics" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/technology-platforms-2/" title="Technology Platforms &amp; Business Economics" class="post-title">Technology Platforms &amp; Business Economics</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/playbook">Playbook</a></span>
-                        
-                        <p class="card-text">Early in a project, we have to decide which platforms we&rsquo;ll use. Which platforms depend on our ideas for solving the users&rsquo; problems.
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-12">
-                
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/page/2/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 	</main>
