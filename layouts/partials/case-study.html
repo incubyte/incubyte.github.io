@@ -1,5 +1,146 @@
-<p>
-    <h1>Case Study Heading:</h1>
-    <h2>{{ .Title }}</h2>
-    <p>{{ .Summary }}</p>
-</p>
+<div class="container">
+    <div class="title">
+        <p>Case Study Heading:</p>
+        <p>{{ .Title }}</p>
+    </div>
+    <p class="summary">{{ .Summary }}</p>
+    <p>
+    <h1 class="section-heading">OUTCOMES</h1>
+
+    <div class="stats-container">
+        <div class="stats">
+            <p>2%</p>
+            <p>lorem ipsum</p>
+        </div>
+        <div class="stats">
+            <p>2%</p>
+            <p>lorem ipsum</p>
+        </div>
+        <div class="stats">
+            <p>2%</p>
+            <p>lorem ipsum</p>
+        </div>
+        <div class="stats">
+            <p>2%</p>
+            <p>lorem ipsum</p>
+        </div>
+        <div class="stats">
+            <p>2%</p>
+            <p>lorem ipsum</p>
+        </div>
+    </div>
+    <div class="banner-container">
+        <img src="" alt="banner" />
+    </div>
+
+    <h1 class="section-heading">BACKGROUND</h1>
+
+    <div class="client-details-container">
+        <div class="details-box">
+            <p>Client</p>
+            <p>Client Name</p>
+        </div>
+        <div class="details-box">
+            <p>Industry</p>
+            <p>Industry Name</p>
+        </div>
+    </div>
+
+    <p>Who is the client? what is the problem? Our goal (to collaborate with them to accomplish xyz/solve problem by
+        providing
+        xyz services)?Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et
+        dolore magna aliqua.
+
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+</div>
+
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+
+    .title>p {
+        font-size: 40px;
+        margin: 0;
+        font-weight: 700;
+        color: black;
+    }
+
+    .summary {
+        margin: 25px 0 100px 0;
+    }
+
+    .section-heading {
+        color: #0E3252;
+        margin-bottom: 52px;
+        font-size: 32px;
+        font-weight: 800;
+    }
+
+    .stats {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        gap: 16px;
+        width: 50%;
+    }
+
+    .stats>p {
+        margin: 0
+    }
+
+    .stats>p:first-child {
+        color: #0E3252;
+        font-size: 60px;
+        line-height: 32px;
+        font-weight: 700;
+    }
+
+    .stats-container {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 54px;
+        margin-bottom: 62px;
+    }
+
+    .banner-container {
+        background: gray;
+        width: 100%;
+        height: 350px;
+        margin-bottom: 50px;
+    }
+
+    .banner-container>img {
+        width: 100%;
+        margin: 0 auto 0 auto;
+    }
+
+    .client-details-container {
+        display: flex;
+        gap: 54px;
+    }
+
+    .details-box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .details-box>p {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        color: black;
+        margin: 0;
+    }
+
+    .details-box>p:first-child {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #666666;
+    }
+
+</style>
