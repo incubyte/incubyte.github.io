@@ -69,7 +69,7 @@ We have been using Azure DevOps for almost 3 years now and this is how we define
 - Create Features with a common tag. 
   This will help us as an initial filter in queries to get the team’s related features. 
 
-![Screenshot of Azure DevOps Product Roadmap feature](/images/2023/02/product-roadmap.001.png)
+{{< figure src="images/2023/02/product-roadmap.001.png" >}}
 
 
 
@@ -77,13 +77,13 @@ We have been using Azure DevOps for almost 3 years now and this is how we define
 
 - The next step is to create the known list of stories under each feature by adding a parent link to the story. 
 
-![Screenshot of Azure DevOps Product Roadmap feature](/images/2023/02/product-roadmap.002.png)
+{{< figure src="images/2023/02/product-roadmap.002.png" >}}
 
 
 
 - Now the query can be modified into parent-child relationship types. 
 
-![Screenshot of Azure DevOps Product Roadmap feature](/images/2023/02/product-roadmap.003.png)
+{{< figure src="images/2023/02/product-roadmap.003.png" >}}
 
 
 
