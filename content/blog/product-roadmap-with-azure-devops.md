@@ -38,9 +38,9 @@ Regular and continuous feedback from end users is incorporated into the product 
 
 
 ## <a name="_mtx0p0qo5vuo"></a>Revise Product Roadmap Based On Project Goals
-A product roadmap undergoes changes based on three factors—the
+A product roadmap undergoes changes based on three factors—
 
-- specific product,
+- the specific product,
 - the stage of its development, and,
 - organization-level choices.
 
