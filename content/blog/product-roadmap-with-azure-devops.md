@@ -11,9 +11,10 @@ title = "Using Azure DevOps to Create Robust Product Roadmaps"
 
 +++
 
-# <a name="_tmtw75z2whz5"></a>Using Azure DevOps to Create Robust Product Roadmaps
+# Using Azure DevOps to Create Robust Product Roadmaps
 
-## <a name="_k5vqmq88ehot"></a>Product Roadmap As A Living Document
+## Product Roadmap As A Living Document
+
 Creating a Product Roadmap is an important part of the product development process. It addresses the critical problems in progress that contribute to the larger business vision and goals.
 
 A product roadmap can be general or specific and can change as the product evolves or the market changes. As it is a written or visual summary of the objectives for a product, it typically includes 
@@ -24,7 +25,9 @@ A product roadmap can be general or specific and can change as the product evolv
 - or milestones that the product team intends to deliver.  
 
 The complexity of the product roadmap varies depending on the target audience. For instance, the sales team may not need the same level of detail as an internal development team.
-## <a name="_4b6ssfq0erd1"></a>Objectives Of A Product Roadmap
+
+## Objectives Of A Product Roadmap
+
 A product roadmap is a tool that requires regular review from all the stakeholders involved. Every feature on the product roadmap is always associated with the defined business goal. Hence it becomes an iterative process. 
 
 The objectives of a product roadmap include—
@@ -37,7 +40,8 @@ The objectives of a product roadmap include—
 Regular and continuous feedback from end users is incorporated into the product roadmap. Hence it is a living, breathing document that is evolving based on the changing business scenarios and user interactions. 
 
 
-## <a name="_mtx0p0qo5vuo"></a>Revise Product Roadmap Based On Project Goals
+## Revise Product Roadmap Based On Project Goals
+
 A product roadmap undergoes changes based on three factors—
 
 - the specific product,
@@ -52,7 +56,7 @@ Regardless of the stage of development, a product roadmap should be flexible eno
 
 As a rule of thumb, companies should update their product roadmap every quarter or whenever there is a significant change in strategy or market conditions.
 
-## <a name="_d3hs5fxdgurg"></a>Tools to Build Product Roadmaps  
+## Tools to Build Product Roadmaps  
 
 There are many tools available in the market to help configure a product roadmap. Some are Aha, Roadmunk, Productplan,  Asana, Jira, Miro, etc. 
 
@@ -63,24 +67,17 @@ We have been using Azure DevOps for almost 3 years now and this is how we define
 - Azure DevOps roadmap feature is not necessary if a product has individual teams with their own roadmaps.
 
 - Azure DevOps can be configured in a way that stakeholders can create their own roadmaps using queries, tags, and proper definitions of features and associating respective stories.  
-<a name="_412iyj325u33"></a>Step-By-Step Guide On How To Define Product Roadmaps on Azure DevOps
 
-------------------------------------------------------------------------------------------------
+## Step-By-Step Guide On How To Define Product Roadmaps on Azure DevOps
+
 - Create Features with a common tag. 
   This will help us as an initial filter in queries to get the team’s related features. 
 
 {{< figure src="images/2023/02/product-roadmap.001.png" >}}
 
-
-
-
-
 - The next step is to create the known list of stories under each feature by adding a parent link to the story. Now the query can be modified into parent-child relationship types.
 
 {{< figure src="images/2023/02/product-roadmap.002.png" >}}
-
-
-
 
 - Every release can have a tag given in ADO. The stories prioritized for release can be given a release tag. 
 - The tags filter can be applied at the stories level to get the prioritized stories for a release. Now we can save the query by providing a release name.
@@ -89,17 +86,20 @@ We have been using Azure DevOps for almost 3 years now and this is how we define
   - used at the features and stories level while talking to the internal development team. 
   - shared with end users at the features level to talk about the releases and milestones. 
 
-## <a name="_bgivgfwop8vc"></a> Benefits of Using Azure DevOps Product Roadmap Feature
+##  Benefits of Using Azure DevOps Product Roadmap Feature
 
 Azure DevOps is a robust tool for managing and collaborating on software development projects.
 
 - ### Teams can use the product roadmap feature to align on goals and priorities. 
+
 Furthermore, development teams can monitor progress toward delivering features and milestones.
 
 - ### Teams can stay organized by the visual representation of a product's progress. 
+
 It also enables teams to make data-driven decisions about the product's development. 
 
 - ### Teams can easily streamline the development process
+
 Whether you're a startup or a large enterprise, Azure DevOps' product roadmap feature can help bring products to market faster. 
 
 Overall, the Azure DevOps product roadmap feature is a valuable tool for any team looking to optimize their product development process.
