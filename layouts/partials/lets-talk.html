@@ -1,6 +1,6 @@
 <div class="lets-talk">
     <div class="d-flex justify-content-center align-items-center text-center">
-        <div class="mr-5">
+        <div>
             LET’S BUILD WELL CRAFTED SOFTWARE TOGETHER
         </div>
         <div>
@@ -24,6 +24,9 @@
 
         color: #FFFFFF;
     }
+    .lets-talk>div>div {
+        margin-right: 40px;
+    }
 
     .lets-talk .btn-primary {
         background-color: #ffffff;
@@ -37,5 +40,18 @@
     .lets-talk .btn-primary.active {
         background-color: #ffffff !important;
         border-color: #007bff !important;
+    }
+
+    @media (max-width: 425px) {
+        .lets-talk {
+            font-size: 28px;
+        }
+        .lets-talk>div {
+            flex-direction: column;
+            gap: 24px
+        }
+        .lets-talk>div>div {
+            margin: 0;
+        }
     }
 </style>

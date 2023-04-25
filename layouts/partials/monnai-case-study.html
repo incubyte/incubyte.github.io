@@ -365,6 +365,7 @@
         flex: 1;
         padding: 12px;
         padding-top: 28px;
+        min-width: 200px !important;
     }
 
     .stats>p {
@@ -380,8 +381,8 @@
 
     .stats-container {
         display: flex;
-        flex-wrap: wrap;
         row-gap: 54px;
+        overflow-x: auto;
         margin-bottom: 62px;
         text-align: center;
         gap: 20px;
@@ -560,6 +561,49 @@
                 "item"
                 "item"
                 "item";
+        }
+        
+
+        .testimonial .inner {
+            padding: 0 20px 0 20px;
+        }
+
+    }
+
+    @media (max-width: 425px) {
+        .img_small {
+            width: 100% !important ;
+        }
+        .template-container {
+            margin: 0 20px 0 20px;
+        }
+        .case-study .title {
+            font-size: 32px;
+        }
+        .summary {
+            font-size: 20px;    
+            margin: 25px 0 50px 0;
+        }
+        .testimonial .text {
+            font-size: 16px;
+        }
+        .testimonial .name {
+            font-size: 14px;
+        }
+        .section-heading {
+            font-size: 28px;
+        }
+        .project-highlights-subheading {
+            font-size: 20px;
+        }
+        .project-highlights-sub-subheading {
+            font-size: 18px;
+        }
+        .paragraph-body {
+            font-size: 16px;
+        }
+        .stats>p:first-child {
+            font-size: 48px;
         }
     }
 
