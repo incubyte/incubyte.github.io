@@ -17,17 +17,16 @@ This article explores the learnings we gathered from using Azure DevOps to creat
 
 Creating a product roadmap is an integral part of the product development process. It addresses the critical problems in progress that contribute to the larger business vision and goals.
 
-A product roadmap can be general or specific and change as the product evolves or the market changes. As it is a written or visual summary of the objectives for a product, it typically includes
+A product roadmap is a generic document that changes as the product evolves or the market changes. As it is a written or visual summary of the objectives for a product, it typically includes
 - a product plan,
 - dependencies,
-- a list of features,
-or milestones that the product team intends to deliver.
+- a list of features and epics.
 
-The complexity of the product roadmap varies depending on the target audience. For instance, the sales team may need a different level of detail than an internal development team.
+The complexity of the product roadmap varies depending on the target audience. Incorporating regular and continuous feedback from end users is a must when refining a product roadmap. Hence it is a living, breathing document constantly evolving based on user feedback and the changing business scenario.
 
 ## A Product Roadmap Helps Align StakeHolders on a Business Goal
 
-A product roadmap is a tool that requires regular review from all the stakeholders involved. Every feature on the product roadmap is always associated with the defined business goal. Hence it becomes an iterative process.
+As mentioned, a product roadmap is a tool that requires regular review from all the stakeholders involved. Every feature on the product roadmap is always associated with the defined business goal. Hence it becomes an iterative process.
 
 The objectives of a product roadmap include the following—
 
@@ -36,12 +35,10 @@ The objectives of a product roadmap include the following—
 - Helping the product team stay focused on the right goals
 - Ensuring stakeholders are aware of the rationale behind decisions
 
-Incorporating regular and continuous feedback from end users is a must when refining a product roadmap. Hence it is a living, breathing document constantly evolving based on user feedback and the changing business scenario.
 
+## A Product Roadmap is an Outcome of Agile Ceremonies
 
-## A Product Roadmap is an Outcome of Iteration Ceremonies
-
-The product roadmap is constantly evolving based on iteration ceremonies. These could be backlog refinement sessions, demos, sprint planning sessions, and more. 
+The product roadmap is constantly evolving based on iteration ceremonies. These could be backlog refinement sessions, demos, and more. 
 
 Iterations include 
 - constantly refining the backlogs, 
@@ -50,19 +47,18 @@ Iterations include
 
 For instance, a team adding new stories to the product roadmap further extends its timeline. 
 
-The focal point is that product road mapping goes hand in hand with daily planning activities. It is not a separate process but one that works in unison with the day-to-day workflow of a team. And tools for product road mapping enable us to streamline that process quickly.
+The frequency with which a product roadmap is refined is generally every two weeks. This happens during iteration sessions. For large projects with multiple teams and stakeholders involved, it's always a best practice to define layers in a product and maintain a single roadmap with progression in each layer.
 
-Acquisition and retention are also some stages of a product that define the frequency of product road mapping.
+Acquisition and retention are also some stages of a product that lead to the evolution of a product roadmap.
 
 A product roadmap undergoes changes based on the—
 - constant feedback from the end users,
-- specific product and the goals it needs to accomplish,
-- stage of its development, and,
+- stage of product development, and,
 - organization-level decisions.
 
 Regardless of the stage of development, a product roadmap should be flexible enough to adapt to changes in the market or product itself.
 
-A product roadmap is refined during iteration sessions for the next two weeks. Sub-module or module-level road mapping will accordingly need updation on a biweekly basis.
+The focal point is that a product roadmap aids with daily planning activities. It is a document that works in unison with the day-to-day workflow of a team. And tools for product road mapping enable us to streamline that process quickly.
 
 
 ## A Product Roadmap is Configured Using Tools Like ADO  
@@ -71,18 +67,24 @@ Many tools are available in the market to help configure a product roadmap. Some
 
 We have been using Azure DevOps for almost three years, and this is how we define product roadmaps with Azure DevOps (ADO).
 
-- ADO offers a default product roadmap feature. 
+- ADO offers features such as Epic Roadmap and Feature Timeline. 
 	You can access the roadmap feature by navigating the backlogs or boards. 
 
 - In ADO, stakeholders can create roadmaps using queries, tags, and proper definitions of features and associating stories.
 
 ## Step-by-Step Guide on How to Define Product Roadmaps using Azure DevOps
 
-1. Create features that are high-level and label them with tags. 
-   Tags are essential as they differentiate different high-level features from each other.
+- Create high-level Epics with Features under it. 
+
+	Features can be labelled with tags. Tags are best suited for work allocation and they differentiate different high-level features from each other.
    
-1. Add child links to each feature called stories. 
-    These stories are achievable goals in the short term. Stories prioritized for release will have the 'Release' tag. 
+- Each Feature will have corresponding User Stories as child links.
+
+   	These stories are achievable goals in the short term. Stories prioritized for release will be set with a 'Production Release Date' field. 
+
+- Another way to track work items is using the sprint view. 
+
+	Filtering on the sprint view is an efficient way to look at tasks.
   
 1.  Create a new query where the work item type is 'Feature,' and the tag is the common tag you want to filter with. 
     This query is our initial filter to get all of the related features of the team.
@@ -98,7 +100,6 @@ We have been using Azure DevOps for almost three years, and this is how we defin
     {{< figure src="/images/2023/product-roadmap-3.jpg" >}}
  
 1. Save the query for easy reference.
-
 
 The same query can be—
 - Used at the features and epics level while talking to business stakeholders about goals and vision.
