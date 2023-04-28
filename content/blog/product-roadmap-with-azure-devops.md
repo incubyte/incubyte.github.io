@@ -38,10 +38,9 @@ The objectives of a product roadmap include the following—
 
 ## A Product Roadmap is an Outcome of Agile Ceremonies
 
-The product roadmap is constantly evolving based on iteration ceremonies. These could be backlog refinement sessions, demos, and more. 
+The product roadmap is constantly evolving based on Agile ceremonies. These could be backlog refinement sessions, demos, and more. 
 
 Iterations include 
-- constantly refining the backlogs, 
 - moving stories based on the changes in priorities,
 - adding new stories to the backlog.
 
