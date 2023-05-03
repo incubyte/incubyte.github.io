@@ -2,12 +2,21 @@
 authors = ["Deepshikha Pingle", "Utsav Parmar", "Abhishek Keshri"]
 categories = ["Case Study"]
 date = 2023-01-30T00:00:00Z
-description = ""
+description = "Personalizing Customer Experience and Overcoming Challenges by Expanding Mental Health Solution Globally"
 draft = false
 image = "/images/2023/global.jpg"
 slug = "sh-case-study"
 tags = ["Case Study"]
 title = "Taking Mental Healthcare Solution Global"
+open_quote = "/images/2023/open-quote.png"
+close_quote = "/images/2023/close-quote.png"
+right_arrow = "/images/2023/arrow_right.png"
+banner_image = "/images/2023/SH-case-study/SH-banner.jpg"
+what_we_did_icon_1 = "/images/2023/SH-case-study/SH-icons-17.png"
+what_we_did_icon_2 = "/images/2023/SH-case-study/SH-icons-18.png"
+what_we_did_icon_3 = "/images/2023/SH-case-study/SH-icons-19.png"
+what_we_did_icon_4 = "/images/2023/SH-case-study/SH-icons-20.png"
+what_we_did_icon_5 = "/images/2023/SH-case-study/SH-icons-21.png"
 +++
 ## Client
 

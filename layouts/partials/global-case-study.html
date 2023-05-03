@@ -1,39 +1,39 @@
 <div class="case-study">
     <div class="template-container">
         <div class="text-container">
-            <h1 class="title">
+            <h1 class="title text-center">
                 {{ .Title }}
             </h1>
-            <p class="summary">{{ .Summary }}</p>
+            <p class="summary text-center">{{ .Description }}</p>
             <p>
 
-            <h2 class="section-heading">OUTCOMES</h2>
+            <h2 class="section-heading text-center">OUTCOMES</h2>
 
             <div class="stats-container mt-5">
                 <div class="stats">
-                    <p>2%</p>
-                    <p>lorem ipsum</p>
+                    <p>42+</p>
+                    <p>Countries with product presence</p>
                 </div>
                 <div class="stats">
-                    <p>2%</p>
-                    <p>lorem ipsum</p>
+                    <p>22+</p>
+                    <p>Languages supported</p>
                 </div>
                 <div class="stats">
-                    <p>2%</p>
-                    <p>lorem ipsum</p>
+                    <p>15000+</p>
+                    <p> Global users added</p>
                 </div>
                 <div class="stats">
-                    <p>2%</p>
-                    <p>lorem ipsum</p>
+                    <p>7</p>
+                    <p>days for adding new languages</p>
                 </div>
                 <div class="stats">
-                    <p>2%</p>
-                    <p>lorem ipsum</p>
+                    <p>RTL</p>
+                    <p> Language support</p>
                 </div>
             </div>
         </div>
-        <div class="banner-container">
-            <img alt="banner" src="" />
+        <div class="banner-container bg-shcolor">
+            <img class="img_small" src="{{ .Params.banner_image |relURL }}" alt="{{ .Title }}">
         </div>
         <div class="text-container">
             <h2 class="section-heading">BACKGROUND</h2>
@@ -41,7 +41,7 @@
             <div class="client-details-container mt-4">
                 <div class="details-box">
                     <p>Client</p>
-                    <p>Global Mental Healthcare Provider</p>
+                    <p>Mental Health Solution Provider</p>
                 </div>
                 <div class="details-box">
                     <p>Industry</p>
@@ -50,195 +50,248 @@
             </div>
 
             <p class="paragraph-body">
-                Who is the client? what is the problem? Our goal (to collaborate with them to accomplish xyz/solve
-                problem
-                by
-                providing xyz services)?Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua.
-            </p>
-            <p class="paragraph-body">
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                The client is a leading, comprehensive global mental health solution provider for employers. They began their journey in 2016, with a valuation of $2 billion in September 2021, and have been steadily growing ever since.
             </p>
 
             <h2 class="section-heading mt-5">WHAT WE DID</h2>
-
+            <p class="paragraph-body">We brought about some great results by working as an extension of our client’s engineering
+                team.
+            </p>
+            <p class="paragraph-body">A keen study of our client’s requirements and careful selection of suitable solutions helped us
+                achieve the following for our client:
+            </p>
             <div class="what-we-did-container">
                 <div class="item">
                     <div class="rounded-circle bg-secondary">
                         <img class="rounded-circle" style="width: 62px; height: 62px;background: #D9D9D9 !important;"
-                            src>
+                            src="{{ .Params.what_we_did_icon_1 |relURL }}">
                     </div>
-                    <p class="label">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p class="label">Roll out the new global framework within three months</p>
                 </div>
 
                 <div class="item">
                     <div class="rounded-circle bg-secondary">
                         <img class="rounded-circle" style="width: 62px; height: 62px;background: #D9D9D9 !important;"
-                            src>
+                        src="{{ .Params.what_we_did_icon_2 |relURL }}">
                     </div>
-                    <p class="label">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt</p>
+                    <p class="label">Enable the client to rapidly introduce its product in new countries with minimal effort</p>
                 </div>
 
                 <div class="item">
                     <div class="rounded-circle bg-secondary">
                         <img class="rounded-circle" style="width: 62px; height: 62px;background: #D9D9D9 !important;"
-                            src>
+                        src="{{ .Params.what_we_did_icon_3 |relURL }}">
                     </div>
-                    <p class="label">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p class="label">Expand product presence in 42+ countries in 22+ languages</p>
                 </div>
 
                 <div class="item">
                     <div class="rounded-circle bg-secondary">
                         <img class="rounded-circle" style="width: 62px; height: 62px;background: #D9D9D9 !important;"
-                            src>
+                        src="{{ .Params.what_we_did_icon_4 |relURL }}">
                     </div>
-                    <p class="label">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p class="label">Build trust and long-term association with the client and execute their vision and strategic
+                        direction</p>
+                </div>
+
+                <div class="item">
+                    <div class="rounded-circle bg-secondary">
+                        <img class="rounded-circle" style="width: 62px; height: 62px;background: #D9D9D9 !important;"
+                        src="{{ .Params.what_we_did_icon_5 |relURL }}">
+                    </div>
+                    <p class="label">Improved client satisfaction and global business</p>
                 </div>
             </div>
         </div>
-        <div class="banner-container">
-            <img alt="banner" src="" />
+        <div class="banner-container bg-deep_blue text-center testimonial">
+            <div class="inner">
+                <img style="width: 62px; height: auto; margin-bottom: -20px;"
+                    src="{{ .Params.open_quote |relURL }}">
+                <p class="paragraph-body text-white text">
+                    We went from an initial call with Incubyte to starting work in under 15 days and from an idea to a working MVP in just three months. They started from scratch, setup our cloud infrastructure around high availability, performance and security, and helped us implement the right stack with the right setup. Their focus on best practices ensured that our product continued to evolve rapidly while we build our internal team in parallel. The well written code also made onboarding internal engineers smooth. Overall, they got us started on the right foot. They stood out as an agency that focussed heavily on quality in addition to just getting things done. We learnt a lot from Incubyte and would recommend them as engineering partners for any start-up launching new products.
+                </p>
+                <img style="width: 62px; height: auto; align-self: end; margin-top: -20px;"
+                    src="{{ .Params.close_quote |relURL }}">
+            </div>
+            <img class="rounded-circle" style="width: 62px; height: 62px;background: #D9D9D9 !important;"
+                src="{{ .Params.testimonial_person |relURL }}">
+            <p class="label text-white name">Ravish Patel, Co-founder at Monnai</p>
         </div>
         <div class="text-container">
             <h2 class="project-highlights-heading">PROJECT HIGHLIGHTS</h2>
 
             <div class="project-highlights-grid">
-                <div class="item">
-                    <p class="index">1.</p>
-                    <p class="label">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                </div>
+                <a href="#highlight_1">
+                    <div class="item">
+                        <p class="index">1.</p>
+                        <p class="label">Defining the Problem</p>
+                        <img style="width: 28px; height: auto; align-self: start;"
+                        src="{{ .Params.right_arrow |relURL }}">
+                    </div>
+                </a>
 
-                <div class="item">
-                    <p class="index">2.</p>
-                    <p class="label">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt</p>
-                </div>
+                <a href="#highlight_2">
+                    <div class="item">
+                        <p class="index">2.</p>
+                        <p class="label">Tackling the Frontend</p>
+                        <img style="width: 28px; height: auto; align-self: start;"
+                        src="{{ .Params.right_arrow |relURL }}">
+                    </div>
+                </a>
 
-                <div class="item">
-                    <p class="index">3.</p>
-                    <p class="label">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                </div>
+                <a href="#highlight_3">
+                    <div class="item">
+                        <p class="index">3.</p>
+                        <p class="label">Next Step, the Backend</p>
+                        <img style="width: 28px; height: auto; align-self: start;"
+                        src="{{ .Params.right_arrow |relURL }}">
+                    </div>
+                </a>
 
-                <div class="item">
-                    <p class="index">4.</p>
-                    <p class="label">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                </div>
+                <a href="#highlight_4">
+                    <div class="item">
+                        <p class="index">4.</p>
+                        <p class="label">Solution for Emails</p>
+                        <img style="width: 28px; height: auto; align-self: start;"
+                        src="{{ .Params.right_arrow |relURL }}">
+                    </div>
+                </a>
+
+                <a href="#highlight_5">
+                    <div class="item">
+                        <p class="index">5.</p>
+                        <p class="label">Support for RTL Languages</p>
+                        <img style="width: 28px; height: auto; align-self: start;"
+                        src="{{ .Params.right_arrow |relURL }}">
+                    </div>
+                </a>
             </div>
 
-            <h3 class="project-highlights-subheading mt-5">
-                1. Lorem Ipsum DOLOR sit amet, consectetur adipiscing elit
+            <h3 class="project-highlights-subheading mt-5" id="highlight_1">
+                1. Defining the Problem
             </h3>
 
-            <p class="paragraph-body mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.
-            </p>
-            <p class="paragraph-body">
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit
-            </p>
-
-            <h4 class="project-highlights-sub-subheading">
-                Some subheading
-            </h4>
-
             <p class="paragraph-body mt-3">
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit
+                Our client’s reach was limited within the US region for the first few years. They wanted to
+                    expand and reach a global audience by localizing the experience and providing high-quality
+                    care in numerous nations and languages.
             </p>
-        </div>
-        <div class="banner-container">
-            <img alt="banner" src="" />
+
+            <p class="paragraph-body-list">
+                Expanding such a product presented its own set of challenges that included the following:
+            </p>
+            <ul class="item-list">
+                <li>
+                    Scalability of the product
+                </li>
+                <li>
+                    Support for new countries
+                </li>
+                <li>
+                    Support for new languages
+                </li>
+            </ul>
+
+            <p class="paragraph-body">
+                In just three months, our team collaborated closely with the client to develop and deploy a
+                    framework to close the gap in global offerings, saving our clients both money and time.
+            </p>
         </div>
         <div class="text-container">
-            <h3 class="project-highlights-subheading mt-4">
-                2. Lorem Ipsum DOLOR sit amet, consectetur adipiscing elit
+            <h3 class="project-highlights-subheading mt-4" id="highlight_2">
+                2. Tackling the Frontend
             </h3>
 
-            <p class="paragraph-body mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.
+            <p class="paragraph-body mt-3">
+                Every software product typically communicates with its users through its UI.
             </p>
             <p class="paragraph-body">
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit
-            </p>
-        </div>
-        <div class="banner-container">
-            <img alt="banner" src="" />
-        </div>
-        <div class="text-container">
-            <h3 class="project-highlights-subheading mt-4">
-                3. Lorem Ipsum DOLOR sit amet, consectetur adipiscing elit
-            </h3>
-
-            <p class="paragraph-body mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.
+                Since language is one of the most crucial aspects affecting the user’s experience across the
+                board, we needed a proper strategy to present various pieces of the puzzle, like emails, web
+                content, and even database content.
             </p>
             <p class="paragraph-body">
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit
+                Our first challenge was translating the UI based on the user’s language preference.
             </p>
-
-            <h4 class="project-highlights-sub-subheading">
-                Some subheading
-            </h4>
-
-            <p class="paragraph-body mt-3">
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit
+            <p class="paragraph-body-list">
+                The solutions that we took included:
             </p>
-
-            <h4 class="project-highlights-sub-subheading">
-                Some subheading
-            </h4>
-
-            <p class="paragraph-body mt-3">
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit
-            </p>
-        </div>
-        <div class="banner-container">
-            <img alt="banner" src="" />
-        </div>
+            <ul class="item-list">
+                <li>
+                    Separating languages from DB or UI to flat files
+                </li>
+                <li>
+                    Separating code from the language embedded in it using JSON files
+                </li>
+                <li>
+                    Generalizing hardcoded words and statements to use localized and dynamic versions
+                </li>
+                <li>
+                    Introducing a third-party translation provider Crowdin
+                </li>
+                <li>
+                    Integrating Crowdin with GitHub PR workflow to provide automated translations
+                </li>
+            </ul>
+            
         <div class="text-container">
 
-            <h3 class="project-highlights-subheading mt-4">
-                4. Lorem Ipsum DOLOR sit amet, consectetur adipiscing elit
+            <h3 class="project-highlights-subheading mt-4" id="highlight_3">
+                3. Next Step, the Backend 
             </h3>
 
-            <p class="paragraph-body mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.
+            <p class="paragraph-body-list pt-3">
+                Regarding the application’s backend, we took similar steps to those in the frontend to ensure the
+                user experience was never disrupted.
             </p>
+            <ul class="item-list">
+                <li>
+                    Identified and extracted required database content to YAML locale files
+                </li>
+                <li>
+                    Configured the application to serve localized content based on the user’s language preference
+                </li>
+                <li>
+                    Introduced third-party translation provider Crowdin for database translations
+                </li>
+                <li>
+                    Integrated Crowdin with GitHub PR workflow to provide automated translations in the backend
+                </li>
+            </ul>
+        </div>
+        <div class="text-container">
+
+            <h3 class="project-highlights-subheading mt-4" id="highlight_4">
+                4. Solution for Emails 
+            </h3>
+
             <p class="paragraph-body">
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit
+                In the case of emails, we integrated a third-party mail service provider, Iterable. We also
+                migrated existing emails to utilize easy-to-edit templates.
             </p>
 
-            <h4 class="project-highlights-sub-subheading">
-                Some subheading
-            </h4>
-
-            <p class="paragraph-body mt-3">
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit
+            <p class="paragraph-body">
+                For our client, this meant a better overall experience as well. Mails are now translated and can
+                be modified without a dependency on the developer, removing a significant bottleneck for the
+                client’s marketing team.
             </p>
         </div>
-        <div class="banner-container">
-            <img alt="banner" src="" />
+        <div class="text-container">
+
+            <h3 class="project-highlights-subheading mt-4" id="highlight_5">
+                4. Support for RTL Languages
+            </h3>
+
+            <p class="paragraph-body">
+                While the application empowered users to access content in their selected language, the
+                support for RTL language felt natural and intuitive.
+            </p>
+
+            <p class="paragraph-body">
+                For right-to-left languages, we identified the elements and interactions better to provide
+                additional support to users. We added support for bidirectional text and icons. At the same time,
+                we added smart exceptions based on the content type.
+            </p>
         </div>
     </div>
     {{ partial "recommend-case-study.html" . }}
@@ -261,6 +314,10 @@
         font-family: 'Nunito Sans', serif !important
     }
 
+    .case-study p, h1, h2, h3, h4 {
+        font-family: 'Nunito Sans', serif !important
+    }
+
     .text-container {
         margin: 0 auto 0 auto;
         max-width: 1100px;
@@ -277,8 +334,7 @@
     }
 
     .summary {
-        margin: 25px 0 100px 0;
-
+        margin: 20px 0 80px 0;
         font-style: normal;
         font-weight: 400;
         font-size: 24px;
@@ -295,10 +351,14 @@
 
     .stats {
         display: flex;
-        align-items: flex-end;
-        justify-content: flex-start;
+        flex-direction: column;
         gap: 16px;
-        width: 50%;
+        background-color: #f1f1f1;
+        border-radius: 12px;
+        flex: 1;
+        padding: 12px;
+        padding-top: 28px;
+        min-width: 200px !important;
     }
 
     .stats>p {
@@ -314,21 +374,74 @@
 
     .stats-container {
         display: flex;
-        flex-wrap: wrap;
         row-gap: 54px;
+        overflow-x: auto;
         margin-bottom: 62px;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .testimonial {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .testimonial .inner {
+        display: flex;
+        flex-direction: column;
+        max-width: 1100px;
+        margin: 0 auto 0 auto;
+    }
+
+    .testimonial p {
+        max-width: 1100px;
+        margin: 0 auto 0 auto;
+    }
+
+    .testimonial .text {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .testimonial .name {
+        max-width: 1100px;
+        margin: 0 auto 0 auto;
+        font-weight: 400;
+        font-size: 16px;
+        padding-top: 8px;
     }
 
     .banner-container {
-        background: gray;
         width: 100%;
-        height: 350px;
+        height: auto;
         margin-bottom: 50px;
+    }
+
+    .img_small {
+        width: 50% !important ;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .bg-shcolor {
+        background-color: #319F96;
+    }
+
+    .bg-deep_blue {
+        background-color: #0E3252;
+    }
+
+    .bg-grey {
+        background-color: #F1F1F1;
     }
 
     .banner-container>img {
         width: 100%;
         margin: 0 auto 0 auto;
+        display: flex;
     }
 
     .client-details-container {
@@ -365,6 +478,25 @@
         letter-spacing: 0.06em;
         color: black;
 
+        margin-bottom: 2em;
+    }
+
+    .paragraph-body-list {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.06em;
+        color: black;
+    }
+
+    .item-list {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.06em;
+        color: black;
         margin-bottom: 2em;
     }
 
@@ -446,31 +578,85 @@
                 "item"
                 "item";
         }
+        
+
+        .testimonial .inner {
+            padding: 0 20px 0 20px;
+        }
+
     }
 
-    .project-highlights-grid>.item {
+    @media (max-width: 425px) {
+        .img_small {
+            width: 100% !important ;
+        }
+        .template-container {
+            margin: 0 20px 0 20px;
+        }
+        .case-study .title {
+            font-size: 32px;
+        }
+        .summary {
+            font-size: 20px;    
+            margin: 25px 0 50px 0;
+        }
+        .testimonial .text {
+            font-size: 16px;
+        }
+        .testimonial .name {
+            font-size: 14px;
+        }
+        .section-heading {
+            font-size: 28px;
+        }
+        .project-highlights-subheading {
+            font-size: 20px;
+        }
+        .project-highlights-sub-subheading {
+            font-size: 18px;
+        }
+        .paragraph-body {
+            font-size: 16px;
+        }
+
+        .paragraph-body-list {
+            font-size: 16px;
+        }
+
+        .item-list {
+            font-size: 16px;
+        }
+        .stats>p:first-child {
+            font-size: 48px;
+        }
+    }
+
+    .project-highlights-grid>a>.item {
         display: flex;
         justify-content: flex-start;
         gap: 16px;
-        align-items: flex-start;
+        align-items: flex-baseline;
     }
 
-    .project-highlights-grid>.item>.index {
+    .project-highlights-grid>a>.item>.index {
         font-size: 24px;
         font-weight: 700;
-        line-height: 33px;
+        line-height: 24px;
         letter-spacing: 0.06em;
         text-align: left;
         color: black;
     }
 
-    .project-highlights-grid>.item>.label {
+    .project-highlights-grid>a>.item>.label {
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
         line-height: 25px;
         letter-spacing: 0.06em;
         max-width: 24em;
+        text-decoration: underline;
+        text-underline-position: under;
+        text-decoration-color: #0E3252;
         color: black;
     }
 
