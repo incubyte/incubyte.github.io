@@ -81,14 +81,22 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
     font-family: "Nunito Sans", sans-serif;
     font-weight: 700;
     color: #0e3252 !important;
-    padding: 8px 0px;
+    padding: 8px 50px;
   }
 
-  .navbar-light .navbar-nav .nav-link {
+  /* .navbar-light .navbar-nav .nav-link {
+    color: #0e3252;
+  } */
+  .nav-link {
     color: #0e3252;
   }
 
-  .navbar-light .navbar-nav .nav-link:hover,
+  /* .navbar-light .navbar-nav .nav-link:hover,
+  .nav-link:focus,
+  .nav-link:active {
+    color: #0e3252;
+  }   */
+  .nav-link:hover,
   .nav-link:focus,
   .nav-link:active {
     color: #0e3252;
@@ -154,8 +162,10 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
   u {
     text-transform: uppercase;
     text-decoration: none;
-    border-bottom: #aeb8c0 2px dotted;
-    border-width: thin;
+    font-weight: 800;
+    letter-spacing: .1em;
+    /* border-bottom: #aeb8c0 2px dotted; */
+    /* border-width: thin; */
     word-spacing: 0.2em;
   }
 
@@ -192,6 +202,14 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
   h3 .post-title {
     font-size: 20px;
     padding-top: 10px;
+    letter-spacing: 1px;
+  }
+
+  footer h4 {
+    font-size: 12px;
+    font-weight: 800;
+    padding-top: 16px;
+    margin-bottom: -8px;
     letter-spacing: 1px;
   }
 

@@ -69,41 +69,61 @@ weight = 4
 
 # footer menu left
 [[footer_left]]
-name = "Why Incubyte"
-url = "https://incubyte.co/why-incubyte"
+name = "home"
+url = "https://incubyte.co/"
 weight = 1
 
 [[footer_left]]
-name = "Events"
-url = "https://www.incubyte.co/events"
+name = "highlights"
+url = "https://www.incubyte.co/highlights"
 weight = 2
 
 [[footer_left]]
-name = "Inspiration!"
-url = "https://incubyte.co/inspiration"
+name = "solutions"
+url = "https://www.incubyte.co/solutions"
 weight = 3
+
+[[footer_left]]
+name = "about us"
+url = "https://www.incubyte.co/why-incubyte"
+weight = 4
+
+[[footer_left]]
+name = "our team"
+url = "https://www.incubyte.co/our-team"
+weight = 5
 
 
 # footer menu middle
 [[footer_middle]]
-name = "Product Development"
-url = "https://www.incubyte.co/software-development"
+name = "careers"
+url = "https://www.incubyte.co/careers"
 weight = 1
 
 [[footer_middle]]
-name = "Software Modernization"
-url = "https://www.incubyte.co/enhance-and-modernize"
+name = "inspiration"
+url = "https://www.incubyte.co/inspiration"
 weight = 2
 
 [[footer_middle]]
-name = "Consulting"
-url = "https://www.incubyte.co/consulting"
+name = "blog"
+url = "https://blog.incubyte.co/"
 weight = 3
 
 [[footer_middle]]
-name = "Virtual CTO"
-url = "https://www.incubyte.co/virtual-cto"
+name = "community"
+url = "https://www.incubyte.co/events"
 weight = 4
+
+[[footer_middle]]
+name = "ai playground"
+url = "https://www.incubyte.co/ai-playground"
+weight = 5
+
+[[footer_middle]]
+name = "contact"
+url = "https://www.incubyte.co/lets-get-started"
+weight = 6
 
 # footer menu right
 [[footer_right]]

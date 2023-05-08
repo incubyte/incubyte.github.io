@@ -1,11 +1,12 @@
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="navigation-bar">
-    <div class="container">
+  <!-- <div class="container"> -->
+    <div class="">
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
             <a class="navbar-brand" href="{{ site.Params.homeURL | absLangURL }}">
                 {{ with site.Params.logo}}
-                <img width="150px" class="img-fluid" src="{{ . | relLangURL }}" alt="{{ site.Title }}">
+                <img width="130px" class="img-fluid" src="{{ . | relLangURL }}" alt="{{ site.Title }}">
                 {{ else }}{{site.Title}}{{end}}
             </a>
             <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation" aria-label="menu">
@@ -13,7 +14,7 @@
             </button>
 
             <div class="collapse navbar-collapse text-center" id="navigation">
-                <ul class="navbar-nav mx-auto">
+                <!-- <ul class="navbar-nav mx-auto">
                     {{ range site.Menus.main }}
                     {{ if .HasChildren }}
                     <li class="nav-item dropdown">
@@ -31,11 +32,11 @@
                         <a class="nav-link" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a>
                     </li>
                     {{ end }}
-                    {{ end }}
+                    {{ end }}-->
 
 
                     <!-- Language List -->
-                    {{ if .IsTranslated }}
+                    <!-- {{ if .IsTranslated }}
                     <select class="m-2 border-0" id="select-language" onchange="location = this.value;">
                         {{ $siteLanguages := site.Languages}}
                         {{ $pageLang := .Page.Lang}}
@@ -55,16 +56,19 @@
                         {{ end }}
                     </select>
                     {{ end }}
-                </ul>
+                </ul> -->
 
-                <div>
+                <!-- <div>
                     <i class="fas theme-toggle p-2" id="theme-toggle-btn"></i>
-                </div>
+                </div> -->
                 {{ if site.Params.navigation_button.enable }}
                 {{ with site.Params.navigation_button }}
                 <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="big-btn btn btn-sm ml-3">{{ .label }}</a>
                 {{ end }}
                 {{ end }}
+                <a class="nav-link" href="https://www.incubyte.co/" role="button" data-toggle="dropdown">
+                  home
+                </a>
             </div>
         </nav>
     </div>

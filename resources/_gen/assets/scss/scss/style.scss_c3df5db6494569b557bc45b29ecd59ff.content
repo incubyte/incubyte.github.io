@@ -205,7 +205,7 @@ a:hover {
   background-repeat: no-repeat; }
 
 .border-default {
-  border-color: #ECECEC !important; }
+  border-color: #D2D2D2 !important; }
 
 /* overlay */
 .overlay {
