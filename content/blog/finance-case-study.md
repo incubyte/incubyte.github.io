@@ -15,8 +15,8 @@ right_arrow = "/images/2023/arrow_right.png"
 testimonial_person = "/images/2023/finance-case-study/testimonial-person.png"
 what_we_did_icon_1 = "/images/2023/finance-case-study/case-study-finance-icons-1.png"
 what_we_did_icon_2 = "/images/2023/finance-case-study/case-study-finance-icons-2.png"
-what_we_did_icon_3 = "/images/2023/finance-case-study/case-study-monnai-icons-13.png"
-what_we_did_icon_4 = "/images/2023/finance-case-study/case-study-monnai-icons-14.png"
+what_we_did_icon_3 = "/images/2023/finance-case-study/global-case-study-22.png"
+what_we_did_icon_4 = "/images/2023/finance-case-study/global-case-study-23.png"
 what_we_did_icon_5 = "/images/2023/finance-case-study/case-study-finance-icons-5.png"
 +++
 
