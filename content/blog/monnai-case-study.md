@@ -4,8 +4,8 @@ categories = ["Case Study"]
 date = 2022-11-05T00:00:00Z
 description = "Reinventing global consumer insights for fintech"
 draft = false
-image = "/images/2022/11/monnai-case-study-header.jpg"
-banner_image = "/images/2023/monnai-case-study/monnai-banner.png"
+image = "/images/2023/monnai-case-study/monnai-banner-blog.jpg"
+banner_image = "/images/2023/monnai-case-study/monnai-banner.jpg"
 image_1 = "/images/2023/monnai-case-study/graph.png"
 open_quote = "/images/2023/open-quote.png"
 close_quote = "/images/2023/close-quote.png"
@@ -21,6 +21,10 @@ slug = "monnai-case-study"
 tags = ["Case Study"]
 title = "Monnai: A Product Launch Journey"
 +++
+
+Reinventing global consumer insights for fintech.
+
+The fintech market size stood at USD 112.5 billion in the year 2021. Yet, consumer data used for decision-making remain outdated and fragmented. Most provide limited data points and do not even work across countries and continents. 
 
 ### *A technical deep dive*
 
