@@ -5,8 +5,9 @@
 <section class="section">
   <div class="container">
     <article class="row">
-      <div class="col-lg-8 mx-auto">
-        <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4">
+      <div class="col-lg-8 mx-auto">    
+        <a class="back-link" href="https://blog.incubyte.co/">← Back to Blogs</a>
+        <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="mt-3 img-fluid w-100 rounded mb-4">
         <h1 class="mb-4 post-title">{{ .Title }}</h1>
         {{ range .Params.tags }}
         <span class="mb-3 badge rounded-pill bg-dark">

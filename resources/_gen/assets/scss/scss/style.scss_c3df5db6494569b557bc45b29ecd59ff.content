@@ -194,7 +194,7 @@ a:hover {
   outline: 0; }
 
 .section {
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 70px; }
   .section-title {
     margin-bottom: 30px; }
