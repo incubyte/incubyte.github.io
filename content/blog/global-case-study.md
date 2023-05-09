@@ -2,12 +2,12 @@
 authors = ["Deepshikha Pingle", "Utsav Parmar", "Abhishek Keshri"]
 categories = ["Case Study"]
 date = 2023-01-30T00:00:00Z
-description = "Personalizing Customer Experience and Overcoming Challenges by Expanding Mental Health Solution Globally"
+description = "Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience"
 draft = false
 image = "/images/2023/SH-case-study/SH-banner-blog.jpg"
 slug = "sh-case-study"
 tags = ["Case Study"]
-title = "Taking Mental Healthcare Solution Global"
+title = "Taking a Mental Healthcare Solution Global"
 open_quote = "/images/2023/open-quote.png"
 close_quote = "/images/2023/close-quote.png"
 right_arrow = "/images/2023/arrow_right.png"
@@ -18,6 +18,11 @@ what_we_did_icon_3 = "/images/2023/SH-case-study/SH-icons-19.png"
 what_we_did_icon_4 = "/images/2023/SH-case-study/SH-icons-20.png"
 what_we_did_icon_5 = "/images/2023/SH-case-study/SH-icons-21.png"
 +++
+
+Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience
+
+Our client is a leading, comprehensive global mental health solution provider that advocates for better mental healthcare benefits for everyone. They achieve this by delivering personalized solutions that fit the individual while providing the proper clinical guidance and emotional support.
+
 ## Client
 
 The client is a leading comprehensive global mental health solution provider for employers. It began its journey in 2016, with a valuation of $2 billion in September 2021, and has been steadily growing since then.

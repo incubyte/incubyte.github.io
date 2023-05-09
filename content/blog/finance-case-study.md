@@ -2,13 +2,28 @@
 authors = ["Sutirtha Das", "Padma B" ]
 categories = ["Case Study"]
 date = 2023-02-03T00:00:00Z
-description = ""
+description = "Making Loan Processing Efficient by Transforming Manual Processes into a Centralized Automated System for a Consumer Lending Bank"
 draft = false
-image = "/images/2023/finance.jpg"
+image = "/images/2023/finance-case-study/CATS-banner-blog.jpg"
 slug = "finance-case-study"
 tags = ["Case Study", "Modernization"]
-title = "A Centralized System for a Leading Consumer Lending Bank "
+title = "A Centralized System for a Leading Consumer Lending Bank"
+banner_image = "/images/2023/finance-case-study/CATS-banner.jpg"
+open_quote = "/images/2023/open-quote.png"
+close_quote = "/images/2023/close-quote.png"
+right_arrow = "/images/2023/arrow_right.png"
+testimonial_person = "/images/2023/finance-case-study/testimonial-person.png"
+what_we_did_icon_1 = "/images/2023/finance-case-study/case-study-finance-icons-1.png"
+what_we_did_icon_2 = "/images/2023/finance-case-study/case-study-finance-icons-2.png"
+what_we_did_icon_3 = "/images/2023/finance-case-study/case-study-monnai-icons-13.png"
+what_we_did_icon_4 = "/images/2023/finance-case-study/case-study-monnai-icons-14.png"
+what_we_did_icon_5 = "/images/2023/finance-case-study/case-study-finance-icons-5.png"
 +++
+
+Making Loan Processing Efficient by Transforming Manual Processes into a Centralized Automated System for a Consumer Lending Bank
+
+Our client is a leading customer credit provider in the United States, committed to assisting customers in achieving their objectives through excellent customer service and flexible lending alternatives.
+
 
 ### Client:
 
