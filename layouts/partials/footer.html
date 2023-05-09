@@ -1,6 +1,6 @@
 <footer class="bg-custom section pb-0">
   <div class="container">
-      <div class="d-flex justify-content-between">
+      <div class="d-flex flex-column flex-sm-row justify-content-between">
         <div class="mb-5">
           <a class="d-block h3 mb-3" href="{{ site.BaseURL | absLangURL}}">
             {{ with site.Params.logo}}
@@ -16,7 +16,7 @@
           {{ end }}
         </div>
   
-        <div class="mb-5">
+        <div class="mb-5 d-none d-lg-block">
           {{ if site.Menus.footer_left}}
           <div><u>{{ site.Params.footer_menu_left }}</u></div>
           <div class="d-flex">
@@ -57,7 +57,7 @@
         </div>
     </div>
     <div class="border-top border-default text-center py-4 mt-4">
-      <small class="d-flex justify-content-between align-items-center mb-1">
+      <small class="d-flex flex-column flex-sm-row justify-content-between align-items-center mb-1">
         <p>905 Swati Clover, thaltej, Ahmedabad - 380054</p>
       <small class="content">{{ site.Params.Copyright | markdownify }}</small>
     </div>
