@@ -1,689 +1,814 @@
 <div class="case-study">
-    <div class="template-container">
-        <div class="text-container">
-            <h1 class="title text-center">
-                {{ .Title }}
-            </h1>
-            <p class="summary text-center">{{ .Description }}</p>
-            <p>
+  <div class="template-container">
+    <div class="text-container">
+      <h1 class="title text-center">{{ .Title }}</h1>
+      <p class="summary text-center">{{ .Description }}</p>
+      <p></p>
 
-            <h2 class="section-heading text-center">OUTCOMES</h2>
+      <h2 class="section-heading text-center">OUTCOMES</h2>
 
-            <div class="stats-container mt-5">
-                <div class="stats">
-                    <p>~50%</p>
-                    <p>decrease in turnaround time per contract(1 hour to 30 mins)</p>
-                </div>
-                <div class="stats">
-                    <p>~4k</p>
-                    <p>manual hours for 800 users saved every single day</p>
-                </div>
-                <div class="stats">
-                    <p>~1.6X</p>
-                    <p>daily active users across 5+ departments</p>
-                </div>
-                <div class="stats">
-                    <p>~50</p>
-                    <p>releases within two years</p>
-                </div>
-            </div>
+      <div class="stats-container mt-5">
+        <div class="stats">
+          <p>~50%</p>
+          <p>decrease in turnaround time per contract(1 hour to 30 mins)</p>
         </div>
-        <div class="banner-container bg-catscolor">
-            <img class="img_small" src="{{ .Params.banner_image |relURL }}" alt="{{ .Title }}">
+        <div class="stats">
+          <p>~4k</p>
+          <p>manual hours for 800 users saved every single day</p>
         </div>
-        <div class="text-container">
-            <h2 class="section-heading">BACKGROUND</h2>
-
-            <div class="client-details-container mt-4">
-                <div class="details-box">
-                    <p>Client</p>
-                    <p>Leading Consumer Lending Bank</p>
-                </div>
-                <div class="details-box">
-                    <p>Industry</p>
-                    <p>Finance</p>
-                </div>
-            </div>
-
-            <p class="paragraph-body">
-                Our client is a leading customer credit provider in the United States, committed to assisting customers in achieving their objectives through excellent customer service and flexible lending alternatives.
-            </p>
-            <p class="paragraph-body">
-                For over 70 years, our client has been providing exceptional service to its customers. As a high-performing company with a large credit clientele, they want to optimize their processes further.
-            </p>
-
-            <h2 class="section-heading mt-5">WHAT WE DID</h2>
-            <p class="paragraph-body">
-                When the client first approached us, the goal was to transition one of the departments from a manual process to a digitized automated system.
-            </p>
-            <p class="paragraph-body">
-                After researching multiple department workflows, we realized the vast potential involved in automation and cross-functional usability of the product.
-            </p>
-            <p class="paragraph-body">
-                Through an in-depth discovery of the existing processes and problems, prioritizing automation, and designing the best possible solution, we were able to achieve the following for our client:
-            </p>
-            <p class="paragraph-body">A keen study of the existing product and our client’s requirements, a careful selection of suitable solutions, and close collaboration with the client helped us achieve the goal of delivering a highly scalable solution in a short time. Some of our key wins include:
-            </p>
-            <div class="what-we-did-container">
-                <div class="item">
-                    <div class="rounded-circle bg-secondary">
-                        <img class="rounded-circle" style="width: 62px; height: 62px;background: #D9D9D9 !important;"
-                            src="{{ .Params.what_we_did_icon_1 |relURL }}">
-                    </div>
-                    <p class="label">Having a centralized system where agents can access all the loan contracts.</p>
-                </div>
-
-                <div class="item">
-                    <div class="rounded-circle bg-secondary">
-                        <img class="rounded-circle" style="width: 62px; height: 62px;background: #D9D9D9 !important;"
-                        src="{{ .Params.what_we_did_icon_2 |relURL }}">
-                    </div>
-                    <p class="label">Frequently deploying new updates and maintaining an average release of two weeks for the last two years.</p>
-                </div>
-
-                <div class="item">
-                    <div class="rounded-circle bg-secondary">
-                        <img class="rounded-circle" style="width: 62px; height: 62px;background: #D9D9D9 !important;"
-                        src="{{ .Params.what_we_did_icon_3 |relURL }}">
-                    </div>
-                    <p class="label">Automating all manual checks, saving up to 4000 manual hours for 800 users.</p>
-                </div>
-
-                <div class="item">
-                    <div class="rounded-circle bg-secondary">
-                        <img class="rounded-circle" style="width: 62px; height: 62px;background: #D9D9D9 !important;"
-                        src="{{ .Params.what_we_did_icon_4 |relURL }}">
-                    </div>
-                    <p class="label">Transforming more than five departments, thanks to the success of transforming one department.</p>
-                </div>
-
-                <div class="item">
-                    <div class="rounded-circle bg-secondary">
-                        <img class="rounded-circle" style="width: 62px; height: 62px;background: #D9D9D9 !important;"
-                        src="{{ .Params.what_we_did_icon_5 |relURL }}">
-                    </div>
-                    <p class="label">Improving the entire banking process, leading to immense client satisfaction.</p>
-                </div>
-            </div>
+        <div class="stats">
+          <p>~1.6X</p>
+          <p>daily active users across 5+ departments</p>
         </div>
-        <div class="banner-container bg-deep_blue text-center testimonial">
-            <div class="inner">
-                <img style="width: 62px; height: auto; margin-bottom: -20px;"
-                    src="{{ .Params.open_quote |relURL }}">
-                <p class="paragraph-body text-white text">
-                    We've engaged Incubyte for two internal initiatives - one, to build applications to support & optimize our internal processes and two, to help with an org level digital transformation initiative. They've exceeded our expectations on every turn, from understanding requirements to developing software that is now being used by a tenfold more users than originally planned for. Incubyte has also helped us shorten our release cycles, and deliver value faster, much to our end users delight. They bring great thought leadership, implementation expertise and best software development practices, and its been a pleasure working with them.
-                </p>
-                <img style="width: 62px; height: auto; align-self: end; margin-top: -20px;"
-                    src="{{ .Params.close_quote |relURL }}">
-            </div>
-            <img class="rounded-circle" style="width: 62px; height: 62px;background: #D9D9D9 !important;"
-                src="{{ .Params.testimonial_person |relURL }}">
-            <p class="label text-white name">SVP at a Consumer Finance Lender, TX</p>
+        <div class="stats">
+          <p>~50</p>
+          <p>releases within two years</p>
         </div>
-        <div class="text-container">
-            <h2 class="project-highlights-heading">PROJECT HIGHLIGHTS</h2>
-
-            <div class="project-highlights-grid">
-                <a href="#highlight_1">
-                    <div class="item">
-                        <p class="index">1.</p>
-                        <p class="label">Problem discovery</p>
-                        <img style="width: 28px; height: auto; align-self: start;"
-                        src="{{ .Params.right_arrow |relURL }}">
-                    </div>
-                </a>
-
-                <a href="#highlight_2">
-                    <div class="item">
-                        <p class="index">2.</p>
-                        <p class="label">Centralized system to access loan contracts</p>
-                        <img style="width: 28px; height: auto; align-self: start;"
-                        src="{{ .Params.right_arrow |relURL }}">
-                    </div>
-                </a>
-
-                <a href="#highlight_3">
-                    <div class="item">
-                        <p class="index">3.</p>
-                        <p class="label">Addressing privacy concerns</p>
-                        <img style="width: 28px; height: auto; align-self: start;"
-                        src="{{ .Params.right_arrow |relURL }}">
-                    </div>
-                </a>
-
-                <a href="#highlight_4">
-                    <div class="item">
-                        <p class="index">4.</p>
-                        <p class="label">Automating static, repeated checks</p>
-                        <img style="width: 28px; height: auto; align-self: start;"
-                        src="{{ .Params.right_arrow |relURL }}">
-                    </div>
-                </a>
-
-                <a href="#highlight_5">
-                    <div class="item">
-                        <p class="index">5.</p>
-                        <p class="label">Intuitive UI</p>
-                        <img style="width: 28px; height: auto; align-self: start;"
-                        src="{{ .Params.right_arrow |relURL }}">
-                    </div>
-                </a>
-
-                <a href="#highlight_6">
-                    <div class="item">
-                        <p class="index">6.</p>
-                        <p class="label">Lightweight system</p>
-                        <img style="width: 28px; height: auto; align-self: start;"
-                        src="{{ .Params.right_arrow |relURL }}">
-                    </div>
-                </a>
-
-                <a href="#highlight_7">
-                    <div class="item">
-                        <p class="index">7.</p>
-                        <p class="label">The road ahead</p>
-                        <img style="width: 28px; height: auto; align-self: start;"
-                        src="{{ .Params.right_arrow |relURL }}">
-                    </div>
-                </a>
-            </div>
-
-            <h3 class="project-highlights-subheading mt-5" id="highlight_1">
-                1. PROBLEM DISCOVERY
-            </h3>
-
-            <p class="paragraph-body mt-3">
-                Our client has over 3.6 million unique loan contracts across various departments. Manually handling these contracts led to significant bottlenecks as the number of contracts escalated.
-            </p>
-
-            <p class="paragraph-body">
-                The client also used a legacy CRM hosted on on-prem servers. This involved substantial maintenance costs for servers and a separate IT department.
-            </p>
-
-            <p class="paragraph-body">
-                For every contract, important information was stored in plain text as memos. The cloud seemed the correct choice as the number of agents and contracts increased.
-            </p>
-
-            <p class="paragraph-body">
-                As mentioned, manual errors inevitably started creeping in as agents worked on a contract and performed multiple actions, such as numerous clicks and data entries. Agents had to rework the same contract leading to a high turnaround time for a single contract. 
-            </p>
-
-            <p class="paragraph-body">
-                On close examination, this issue persisted across all the departments.
-            </p>
-        </div>
-        <div class="text-container">
-            <h3 class="project-highlights-subheading mt-4" id="highlight_2">
-                2. CENTRALIZED SYSTEM TO ACCESS LOAN CONTRACTS
-            </h3>
-
-            <p class="paragraph-body mt-3">
-                Before we partnered, our client had no centralized access system. Instead, the agents had to do multiple logins to different branch systems to find the correct contract and then log in to other workflow systems to work on them.
-            </p>
-            <p class="paragraph-body">
-                The first problem we wanted to tackle was designing and developing a centralized system to access and work on all the contracts. This led to us developing the Customer Account Technology System or CATS.
-            </p>
-            <p class="paragraph-body">
-                Our approach solved the multiple sign-in problems; the agents would only have to sign in once to access everything from everywhere.
-            </p>
-        </div>
-            
-        <div class="text-container">
-
-            <h3 class="project-highlights-subheading mt-4" id="highlight_3">
-                3. ADDRESSING PRIVACY CONCERNS
-            </h3>
-
-            <p class="paragraph-body mt-3">
-                As our client is a leading banking institution, they deal with customer-sensitive information such as PII (Personal Identification Information). 
-            </p>
-            <p class="paragraph-body">
-                Since our clients primarily relied on on-prem servers, there were many concerns regarding the security of this data on the cloud.
-            </p>
-            <p class="paragraph-body">
-                Our solution was to design a cloud-based system that doesn’t store any PII data. To address security concerns regarding the PII data, we decided not to keep sensitive data in our cloud-based application but instead on the existing on-prem server.
-            </p>
-        </div>
-        <div class="text-container">
-
-            <h3 class="project-highlights-subheading mt-4" id="highlight_4">
-                4. AUTOMATING STATIC, REPEATED CHECKS
-            </h3>
-
-            <p class="paragraph-body mt-3">
-                To solve the issue of high turnaround time due to rework and manual errors, we decided full-scaled automation was the best way to go. 
-            </p>
-            <p class="paragraph-body">
-                Previously, agents performed manual checks to determine if the bank should proceed with a particular loan processing. 
-            </p>
-            <p class="paragraph-body">
-                Bringing in automation saved agents considerable manual effort because the application now ran the static repeated checks on every contract to determine its state and subsequent workflow appropriately. 
-            </p>
-            <p class="paragraph-body">
-                All agents had to do now was perform the unavoidable mandatory checks using the application.
-            </p>
-        </div>
-        <div class="text-container">
-
-            <h3 class="project-highlights-subheading mt-4" id="highlight_5">
-                5. INTUITIVE UI
-            </h3>
-
-            <p class="paragraph-body mt-3">
-                While building out the UI of the application, there were internal debates within the client organization about introducing an entirely new system and disrupting the existing workflow. 
-            </p>
-            <p class="paragraph-body">
-                Since the agents are used to fixed flows and interfaces, we quickly realized the importance of having a smooth user experience. 
-            </p>
-            <p class="paragraph-body">
-                We found that 100% of our users use Windows. Therefore, we followed the latest design trends and patterns popularized by Microsoft to reduce the cognitive complexity and the learning curve for the new system. Hence, the users could experience the application like any other Windows app instead of a new alien system.
-            </p>
-        </div>
-        <div class="text-container">
-
-            <h3 class="project-highlights-subheading mt-4" id="highlight_6">
-                6. LIGHTWEIGHT SYSTEM
-            </h3>
-
-            <p class="paragraph-body mt-3">
-                Since this was a new product for our client, we designed it to be a lightweight system. As new requirements led to new features, we adopted an agile process where the deployment of the updated application can happen with the click of a button. 
-            </p>
-            <p class="paragraph-body">
-                By being truly agile about what we do and sticking to the frequent deployments principle, our release frequency has been two weeks on average for the last two years.
-            </p>
-        </div>
-        <div class="text-container">
-
-            <h3 class="project-highlights-subheading mt-4" id="highlight_7">
-                7. THE ROAD AHEAD
-            </h3>
-
-            <p class="paragraph-body mt-3">
-                One of the primary reasons for the product’s success was the small self-sufficient agile teams working in tandem with each other with their customized scrum models. This resulted in high productivity and very rapid deployments.
-            </p>
-            <p class="paragraph-body">
-                In the future, we are aiming to productize the application. Although the current product solves many client problems by saving time and effort, it is still a service product. The developers can only implement new features or updates.
-            </p>
-            <p class="paragraph-body">
-                We are changing this by introducing small changes so users can change and update the product.
-            </p>
-        </div>
+      </div>
     </div>
-    {{ partial "finance-recommend-case-study.html" . }}
-    {{ partial "lets-talk.html" . }}
+    <div class="banner-container bg-catscolor">
+      <img
+        class="img_small"
+        src="{{ .Params.banner_image |relURL }}"
+        alt="{{ .Title }}"
+      />
+    </div>
+    <div class="text-container">
+      <h2 class="section-heading">BACKGROUND</h2>
+
+      <div class="client-details-container mt-4">
+        <div class="details-box">
+          <p>Client</p>
+          <p>Leading Consumer Lending Bank</p>
+        </div>
+        <div class="details-box">
+          <p>Industry</p>
+          <p>Finance</p>
+        </div>
+      </div>
+
+      <p class="paragraph-body">
+        Our client is a leading customer credit provider in the United States,
+        committed to assisting customers in achieving their objectives through
+        excellent customer service and flexible lending alternatives.
+      </p>
+      <p class="paragraph-body">
+        For over 70 years, our client has been providing exceptional service to
+        its customers. As a high-performing company with a large credit
+        clientele, they want to optimize their processes further.
+      </p>
+
+      <h2 class="section-heading mt-5">WHAT WE DID</h2>
+      <p class="paragraph-body">
+        When the client first approached us, the goal was to transition one of
+        the departments from a manual process to a digitized automated system.
+      </p>
+      <p class="paragraph-body">
+        After researching multiple department workflows, we realized the vast
+        potential involved in automation and cross-functional usability of the
+        product.
+      </p>
+      <p class="paragraph-body">
+        Through an in-depth discovery of the existing processes and problems,
+        prioritizing automation, and designing the best possible solution, we
+        were able to achieve the following for our client:
+      </p>
+      <p class="paragraph-body">
+        A keen study of the existing product and our client’s requirements, a
+        careful selection of suitable solutions, and close collaboration with
+        the client helped us achieve the goal of delivering a highly scalable
+        solution in a short time. Some of our key wins include:
+      </p>
+      <div class="what-we-did-container">
+        <div class="item">
+          <div class="rounded-circle bg-secondary">
+            <img
+              class="rounded-circle"
+              style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="{{ .Params.what_we_did_icon_1 |relURL }}"
+            />
+          </div>
+          <p class="label">
+            Having a centralized system where agents can access all the loan
+            contracts.
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="rounded-circle bg-secondary">
+            <img
+              class="rounded-circle"
+              style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="{{ .Params.what_we_did_icon_2 |relURL }}"
+            />
+          </div>
+          <p class="label">
+            Frequently deploying new updates and maintaining an average release
+            of two weeks for the last two years.
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="rounded-circle bg-secondary">
+            <img
+              class="rounded-circle"
+              style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="{{ .Params.what_we_did_icon_3 |relURL }}"
+            />
+          </div>
+          <p class="label">
+            Automating all manual checks, saving up to 4000 manual hours for 800
+            users.
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="rounded-circle bg-secondary">
+            <img
+              class="rounded-circle"
+              style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="{{ .Params.what_we_did_icon_4 |relURL }}"
+            />
+          </div>
+          <p class="label">
+            Transforming more than five departments, thanks to the success of
+            transforming one department.
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="rounded-circle bg-secondary">
+            <img
+              class="rounded-circle"
+              style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="{{ .Params.what_we_did_icon_5 |relURL }}"
+            />
+          </div>
+          <p class="label">
+            Improving the entire banking process, leading to immense client
+            satisfaction.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="banner-container bg-deep_blue text-center testimonial">
+      <div class="inner">
+        <img
+          style="width: 62px; height: auto; margin-bottom: -20px"
+          src="{{ .Params.open_quote |relURL }}"
+        />
+        <p class="paragraph-body text-white text">
+          We've engaged Incubyte for two internal initiatives - one, to build
+          applications to support & optimize our internal processes and two, to
+          help with an org level digital transformation initiative. They've
+          exceeded our expectations on every turn, from understanding
+          requirements to developing software that is now being used by a
+          tenfold more users than originally planned for. Incubyte has also
+          helped us shorten our release cycles, and deliver value faster, much
+          to our end users delight. They bring great thought leadership,
+          implementation expertise and best software development practices, and
+          its been a pleasure working with them.
+        </p>
+        <img
+          style="width: 62px; height: auto; align-self: end; margin-top: -20px"
+          src="{{ .Params.close_quote |relURL }}"
+        />
+      </div>
+      <img
+        class="rounded-circle"
+        style="width: 62px; height: 62px; background: #d9d9d9 !important"
+        src="{{ .Params.testimonial_person |relURL }}"
+      />
+      <p class="label text-white name">SVP at a Consumer Finance Lender, TX</p>
+    </div>
+    <div class="text-container">
+      <h2 class="project-highlights-heading">PROJECT HIGHLIGHTS</h2>
+
+      <div class="project-highlights-grid">
+        <a href="#highlight_1">
+          <div class="item">
+            <p class="index">1.</p>
+            <p class="label">Problem discovery</p>
+            <img
+              style="width: 28px; height: auto; align-self: start"
+              src="{{ .Params.right_arrow |relURL }}"
+            />
+          </div>
+        </a>
+
+        <a href="#highlight_2">
+          <div class="item">
+            <p class="index">2.</p>
+            <p class="label">Centralized system to access loan contracts</p>
+            <img
+              style="width: 28px; height: auto; align-self: start"
+              src="{{ .Params.right_arrow |relURL }}"
+            />
+          </div>
+        </a>
+
+        <a href="#highlight_3">
+          <div class="item">
+            <p class="index">3.</p>
+            <p class="label">Addressing privacy concerns</p>
+            <img
+              style="width: 28px; height: auto; align-self: start"
+              src="{{ .Params.right_arrow |relURL }}"
+            />
+          </div>
+        </a>
+
+        <a href="#highlight_4">
+          <div class="item">
+            <p class="index">4.</p>
+            <p class="label">Automating static, repeated checks</p>
+            <img
+              style="width: 28px; height: auto; align-self: start"
+              src="{{ .Params.right_arrow |relURL }}"
+            />
+          </div>
+        </a>
+
+        <a href="#highlight_5">
+          <div class="item">
+            <p class="index">5.</p>
+            <p class="label">Intuitive UI</p>
+            <img
+              style="width: 28px; height: auto; align-self: start"
+              src="{{ .Params.right_arrow |relURL }}"
+            />
+          </div>
+        </a>
+
+        <a href="#highlight_6">
+          <div class="item">
+            <p class="index">6.</p>
+            <p class="label">Lightweight system</p>
+            <img
+              style="width: 28px; height: auto; align-self: start"
+              src="{{ .Params.right_arrow |relURL }}"
+            />
+          </div>
+        </a>
+
+        <a href="#highlight_7">
+          <div class="item">
+            <p class="index">7.</p>
+            <p class="label">The road ahead</p>
+            <img
+              style="width: 28px; height: auto; align-self: start"
+              src="{{ .Params.right_arrow |relURL }}"
+            />
+          </div>
+        </a>
+      </div>
+
+      <h3 class="project-highlights-subheading mt-5" id="highlight_1">
+        1. PROBLEM DISCOVERY
+      </h3>
+
+      <p class="paragraph-body mt-3">
+        Our client has over 3.6 million unique loan contracts across various
+        departments. Manually handling these contracts led to significant
+        bottlenecks as the number of contracts escalated.
+      </p>
+
+      <p class="paragraph-body">
+        The client also used a legacy CRM hosted on on-prem servers. This
+        involved substantial maintenance costs for servers and a separate IT
+        department.
+      </p>
+
+      <p class="paragraph-body">
+        For every contract, important information was stored in plain text as
+        memos. The cloud seemed the correct choice as the number of agents and
+        contracts increased.
+      </p>
+
+      <p class="paragraph-body">
+        As mentioned, manual errors inevitably started creeping in as agents
+        worked on a contract and performed multiple actions, such as numerous
+        clicks and data entries. Agents had to rework the same contract leading
+        to a high turnaround time for a single contract.
+      </p>
+
+      <p class="paragraph-body">
+        On close examination, this issue persisted across all the departments.
+      </p>
+    </div>
+    <div class="text-container">
+      <h3 class="project-highlights-subheading mt-4" id="highlight_2">
+        2. CENTRALIZED SYSTEM TO ACCESS LOAN CONTRACTS
+      </h3>
+
+      <p class="paragraph-body mt-3">
+        Before we partnered, our client had no centralized access system.
+        Instead, the agents had to do multiple logins to different branch
+        systems to find the correct contract and then log in to other workflow
+        systems to work on them.
+      </p>
+      <p class="paragraph-body">
+        The first problem we wanted to tackle was designing and developing a
+        centralized system to access and work on all the contracts. This led to
+        us developing the Customer Account Technology System or CATS.
+      </p>
+      <p class="paragraph-body">
+        Our approach solved the multiple sign-in problems; the agents would only
+        have to sign in once to access everything from everywhere.
+      </p>
+    </div>
+
+    <div class="text-container">
+      <h3 class="project-highlights-subheading mt-4" id="highlight_3">
+        3. ADDRESSING PRIVACY CONCERNS
+      </h3>
+
+      <p class="paragraph-body mt-3">
+        As our client is a leading banking institution, they deal with
+        customer-sensitive information such as PII (Personal Identification
+        Information).
+      </p>
+      <p class="paragraph-body">
+        Since our clients primarily relied on on-prem servers, there were many
+        concerns regarding the security of this data on the cloud.
+      </p>
+      <p class="paragraph-body">
+        Our solution was to design a cloud-based system that doesn’t store any
+        PII data. To address security concerns regarding the PII data, we
+        decided not to keep sensitive data in our cloud-based application but
+        instead on the existing on-prem server.
+      </p>
+    </div>
+    <div class="text-container">
+      <h3 class="project-highlights-subheading mt-4" id="highlight_4">
+        4. AUTOMATING STATIC, REPEATED CHECKS
+      </h3>
+
+      <p class="paragraph-body mt-3">
+        To solve the issue of high turnaround time due to rework and manual
+        errors, we decided full-scaled automation was the best way to go.
+      </p>
+      <p class="paragraph-body">
+        Previously, agents performed manual checks to determine if the bank
+        should proceed with a particular loan processing.
+      </p>
+      <p class="paragraph-body">
+        Bringing in automation saved agents considerable manual effort because
+        the application now ran the static repeated checks on every contract to
+        determine its state and subsequent workflow appropriately.
+      </p>
+      <p class="paragraph-body">
+        All agents had to do now was perform the unavoidable mandatory checks
+        using the application.
+      </p>
+    </div>
+    <div class="text-container">
+      <h3 class="project-highlights-subheading mt-4" id="highlight_5">
+        5. INTUITIVE UI
+      </h3>
+
+      <p class="paragraph-body mt-3">
+        While building out the UI of the application, there were internal
+        debates within the client organization about introducing an entirely new
+        system and disrupting the existing workflow.
+      </p>
+      <p class="paragraph-body">
+        Since the agents are used to fixed flows and interfaces, we quickly
+        realized the importance of having a smooth user experience.
+      </p>
+      <p class="paragraph-body">
+        We found that 100% of our users use Windows. Therefore, we followed the
+        latest design trends and patterns popularized by Microsoft to reduce the
+        cognitive complexity and the learning curve for the new system. Hence,
+        the users could experience the application like any other Windows app
+        instead of a new alien system.
+      </p>
+    </div>
+    <div class="text-container">
+      <h3 class="project-highlights-subheading mt-4" id="highlight_6">
+        6. LIGHTWEIGHT SYSTEM
+      </h3>
+
+      <p class="paragraph-body mt-3">
+        Since this was a new product for our client, we designed it to be a
+        lightweight system. As new requirements led to new features, we adopted
+        an agile process where the deployment of the updated application can
+        happen with the click of a button.
+      </p>
+      <p class="paragraph-body">
+        By being truly agile about what we do and sticking to the frequent
+        deployments principle, our release frequency has been two weeks on
+        average for the last two years.
+      </p>
+    </div>
+    <div class="text-container">
+      <h3 class="project-highlights-subheading mt-4" id="highlight_7">
+        7. THE ROAD AHEAD
+      </h3>
+
+      <p class="paragraph-body mt-3">
+        One of the primary reasons for the product’s success was the small
+        self-sufficient agile teams working in tandem with each other with their
+        customized scrum models. This resulted in high productivity and very
+        rapid deployments.
+      </p>
+      <p class="paragraph-body">
+        In the future, we are aiming to productize the application. Although the
+        current product solves many client problems by saving time and effort,
+        it is still a service product. The developers can only implement new
+        features or updates.
+      </p>
+      <p class="paragraph-body">
+        We are changing this by introducing small changes so users can change
+        and update the product.
+      </p>
+    </div>
+  </div>
+  {{ partial "recommend-case-study.html" . }}
+  {{ partial "lets-talk.html" . }}
 </div>
 
 <style>
-    @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
+  .template-container {
+    margin: 0 50px 0 50px;
+  }
 
-    .template-container {
-        margin: 0 50px 0 50px;
-    }
+  .title {
+    margin-top: 50px;
+  }
 
-    .title {
-        margin-top: 50px;
-    }
+  .case-study {
+    font-family: 'Nunito Sans', serif !important;
+  }
 
-    .case-study {
-        font-family: 'Nunito Sans', serif !important
-    }
+  .case-study p,
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Nunito Sans', serif !important;
+  }
 
-    .case-study p, h1, h2, h3, h4 {
-        font-family: 'Nunito Sans', serif !important
-    }
+  .text-container {
+    margin: 0 auto 0 auto;
+    max-width: 1100px;
+  }
 
-    .text-container {
-        margin: 0 auto 0 auto;
-        max-width: 1100px;
-    }
+  .case-study .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 141.9%;
+    letter-spacing: 0.06em;
 
-    .case-study .title {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 141.9%;
-        letter-spacing: 0.06em;
+    color: #000000;
+  }
 
-        color: #000000;
-    }
+  .summary {
+    margin: 20px 0 80px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
 
-    .summary {
-        margin: 20px 0 80px 0;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 33px;
+    color: #0e3252;
+  }
 
-        color: #0E3252;
-    }
+  .section-heading {
+    color: #0e3252;
+    font-size: 32px;
+    font-weight: 800;
+  }
 
-    .section-heading {
-        color: #0E3252;
-        font-size: 32px;
-        font-weight: 800;
-    }
+  .stats {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    flex: 1;
+    padding: 12px;
+    padding-top: 28px;
+    min-width: 200px !important;
+  }
 
-    .stats {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        background-color: #f1f1f1;
-        border-radius: 12px;
-        flex: 1;
-        padding: 12px;
-        padding-top: 28px;
-        min-width: 200px !important;
-    }
+  .stats > p {
+    margin: 0;
+  }
 
-    .stats>p {
-        margin: 0
-    }
+  .stats > p:first-child {
+    color: #0e3252;
+    font-size: 60px;
+    line-height: 32px;
+    font-weight: 700;
+  }
 
-    .stats>p:first-child {
-        color: #0E3252;
-        font-size: 60px;
-        line-height: 32px;
-        font-weight: 700;
-    }
+  .stats-container {
+    display: flex;
+    row-gap: 54px;
+    overflow-x: auto;
+    margin-bottom: 62px;
+    text-align: center;
+    gap: 20px;
+  }
 
-    .stats-container {
-        display: flex;
-        row-gap: 54px;
-        overflow-x: auto;
-        margin-bottom: 62px;
-        text-align: center;
-        gap: 20px;
-    }
+  .testimonial {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
-    .testimonial {
-        text-align: center;
-        padding-top: 20px;
-        padding-bottom: 20px;
+  .testimonial .inner {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: 0 auto 0 auto;
+  }
+
+  .testimonial p {
+    max-width: 1100px;
+    margin: 0 auto 0 auto;
+  }
+
+  .testimonial .text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .testimonial .name {
+    max-width: 1100px;
+    margin: 0 auto 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 8px;
+  }
+
+  .banner-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .img_small {
+    width: 50% !important;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .bg-catscolor {
+    background-color: #0c3e5a;
+  }
+
+  .bg-deep_blue {
+    background-color: #0e3252;
+  }
+
+  .bg-grey {
+    background-color: #f1f1f1;
+  }
+
+  .banner-container > img {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    display: flex;
+  }
+
+  .client-details-container {
+    display: flex;
+    gap: 54px;
+  }
+
+  .details-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .details-box > p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: black;
+    margin: 0;
+  }
+
+  .details-box > p:first-child {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #666666;
+  }
+
+  .paragraph-body {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    color: black;
+
+    margin-bottom: 2em;
+  }
+
+  .paragraph-body-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    color: black;
+  }
+
+  .item-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    color: black;
+    margin-bottom: 2em;
+  }
+
+  .mt-5 {
+    margin-top: 3em !important;
+  }
+
+  .what-we-did-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 54px;
+    margin-bottom: 62px;
+    justify-content: space-between;
+  }
+
+  .what-we-did-container > .item {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .what-we-did-container > .item > .label {
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    max-width: 24em;
+    margin: auto;
+  }
+
+  .what-we-did-container > .item > .index {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.06em;
+    color: #000000;
+  }
+
+  .project-highlights-heading {
+    color: #0e3252;
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 800;
+  }
+
+  .project-highlights-subheading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #0e3252;
+  }
+
+  .project-highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0 0;
+    grid-template-areas:
+      'item item'
+      'item item';
+  }
+
+  @media (max-width: 991px) {
+    .project-highlights-grid {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      gap: 0 0;
+      grid-template-areas:
+        'item'
+        'item'
+        'item'
+        'item';
     }
 
     .testimonial .inner {
-        display: flex;
-        flex-direction: column;
-        max-width: 1100px;
-        margin: 0 auto 0 auto;
+      padding: 0 20px 0 20px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .img_small {
+      width: 100% !important;
     }
 
-    .testimonial p {
-        max-width: 1100px;
-        margin: 0 auto 0 auto;
+    .template-container {
+      margin: 0 20px 0 20px;
+    }
+
+    .case-study .title {
+      font-size: 32px;
+    }
+
+    .summary {
+      font-size: 20px;
+      margin: 25px 0 50px 0;
     }
 
     .testimonial .text {
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 28px;
+      font-size: 16px;
     }
 
     .testimonial .name {
-        max-width: 1100px;
-        margin: 0 auto 0 auto;
-        font-weight: 400;
-        font-size: 16px;
-        padding-top: 8px;
+      font-size: 14px;
     }
 
-    .banner-container {
-        width: 100%;
-        height: auto;
-        margin-bottom: 50px;
-    }
-
-    .img_small {
-        width: 50% !important ;
-        height: auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    .bg-catscolor {
-        background-color: #0C3E5A;
-    }
-
-    .bg-deep_blue {
-        background-color: #0E3252;
-    }
-
-    .bg-grey {
-        background-color: #F1F1F1;
-    }
-
-    .banner-container>img {
-        width: 100%;
-        margin: 0 auto 0 auto;
-        display: flex;
-    }
-
-    .client-details-container {
-        display: flex;
-        gap: 54px;
-    }
-
-    .details-box {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-
-    .details-box>p {
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 27px;
-        color: black;
-        margin: 0;
-    }
-
-    .details-box>p:first-child {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 22px;
-        color: #666666;
-    }
-
-    .paragraph-body {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 25px;
-        letter-spacing: 0.06em;
-        color: black;
-
-        margin-bottom: 2em;
-    }
-
-    .paragraph-body-list {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 25px;
-        letter-spacing: 0.06em;
-        color: black;
-    }
-
-    .item-list {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 25px;
-        letter-spacing: 0.06em;
-        color: black;
-        margin-bottom: 2em;
-    }
-
-    .mt-5 {
-        margin-top: 3em !important;
-    }
-
-    .what-we-did-container {
-        display: flex;
-        flex-wrap: wrap;
-        row-gap: 54px;
-        margin-bottom: 62px;
-        justify-content: space-between;
-    }
-
-    .what-we-did-container>.item {
-        display: flex;
-        justify-content: flex-start;
-        gap: 16px;
-        align-items: center;
-    }
-
-    .what-we-did-container>.item>.label {
-        color: black;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 25px;
-        letter-spacing: 0.06em;
-        max-width: 24em;
-        margin: auto;
-    }
-
-    .what-we-did-container>.item>.index {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 33px;
-        letter-spacing: 0.06em;
-        color: #000000;
-    }
-
-    .project-highlights-heading {
-        color: #0E3252;
-        margin-bottom: 24px;
-        font-size: 32px;
-        font-weight: 800;
+    .section-heading {
+      font-size: 28px;
     }
 
     .project-highlights-subheading {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 32px;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-
-        color: #0E3252;
-    }
-
-    .project-highlights-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        gap: 0 0;
-        grid-template-areas:
-            "item item"
-            "item item";
-    }
-
-    @media (max-width: 991px) {
-        .project-highlights-grid {
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: repeat(4, 1fr);
-            gap: 0 0;
-            grid-template-areas:
-                "item"
-                "item"
-                "item"
-                "item";
-        }
-        
-
-        .testimonial .inner {
-            padding: 0 20px 0 20px;
-        }
-
-    }
-
-    @media (max-width: 425px) {
-        .img_small {
-            width: 100% !important ;
-        }
-        .template-container {
-            margin: 0 20px 0 20px;
-        }
-        .case-study .title {
-            font-size: 32px;
-        }
-        .summary {
-            font-size: 20px;    
-            margin: 25px 0 50px 0;
-        }
-        .testimonial .text {
-            font-size: 16px;
-        }
-        .testimonial .name {
-            font-size: 14px;
-        }
-        .section-heading {
-            font-size: 28px;
-        }
-        .project-highlights-subheading {
-            font-size: 20px;
-        }
-        .project-highlights-sub-subheading {
-            font-size: 18px;
-        }
-        .paragraph-body {
-            font-size: 16px;
-        }
-
-        .paragraph-body-list {
-            font-size: 16px;
-        }
-
-        .item-list {
-            font-size: 16px;
-        }
-        .stats>p:first-child {
-            font-size: 48px;
-        }
-    }
-
-    .project-highlights-grid>a>.item {
-        display: flex;
-        justify-content: flex-start;
-        gap: 16px;
-        align-items: flex-baseline;
-    }
-
-    .project-highlights-grid>a>.item>.index {
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 24px;
-        letter-spacing: 0.06em;
-        text-align: left;
-        color: black;
-    }
-
-    .project-highlights-grid>a>.item>.label {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 25px;
-        letter-spacing: 0.06em;
-        max-width: 24em;
-        text-decoration: underline;
-        text-underline-position: under;
-        text-decoration-color: #0E3252;
-        color: black;
+      font-size: 20px;
     }
 
     .project-highlights-sub-subheading {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 32px;
-        letter-spacing: 0.06em;
-        text-transform: capitalize;
-
-        color: #0E3252;
+      font-size: 18px;
     }
 
+    .paragraph-body {
+      font-size: 16px;
+    }
+
+    .paragraph-body-list {
+      font-size: 16px;
+    }
+
+    .item-list {
+      font-size: 16px;
+    }
+
+    .stats > p:first-child {
+      font-size: 48px;
+    }
+  }
+
+  .project-highlights-grid > a > .item {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    align-items: flex-baseline;
+  }
+
+  .project-highlights-grid > a > .item > .index {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: black;
+  }
+
+  .project-highlights-grid > a > .item > .label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    max-width: 24em;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #0e3252;
+    color: black;
+  }
+
+  .project-highlights-sub-subheading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+
+    color: #0e3252;
+  }
 </style>
