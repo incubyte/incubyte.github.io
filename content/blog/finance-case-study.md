@@ -20,10 +20,10 @@ what_we_did_icon_4 = "/images/2023/finance-case-study/global-case-study-23.png"
 what_we_did_icon_5 = "/images/2023/finance-case-study/case-study-finance-icons-5.png"
 card_1_title="Taking Mental Healthcare Solution Global"
 card_1_desc="Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience"
-card_1_slug="../global-case-study/"
+card_1_slug="global-case-study/"
 card_2_title="Monnai: A Product Launch Journey"
 card_2_desc="Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience"
-card_2_slug="../monnai-case-study/"
+card_2_slug="monnai-case-study/"
 +++
 
 Making Loan Processing Efficient by Transforming Manual Processes into a Centralized Automated System for a Consumer Lending Bank
