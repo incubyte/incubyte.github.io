@@ -1,64 +1,66 @@
 {{ define "main" }}
 
-{{ if (eq .Params.slug "sh-case-study") }}
+{{ if (eq .Params.slug "global-case-study") }}
 {{ partial "global-case-study.html" . }}
+
 {{ else if (eq .Params.slug "monnai-case-study") }}
 {{ partial "monnai-case-study.html" . }}
+
 {{ else if (eq .Params.slug "finance-case-study") }}
 {{ partial "finance-case-study.html" . }}
-{{ else if (eq .Params.slug "sh-case-study") }}
-{{ partial "globalisation-case-study" . }}
+
 {{ else if or (in .Params.tags "Case Study") (in .Params.categories "Case Study") }}
-{{ partial "case-study.html" . }}
+{{ partial "case-studies/case-study.html" . }}
+
 {{ else if or (or (eq .Section "post") (eq .Section "blog")) (or (eq .Section "categories") (eq .Section "tags") )}}
 <section class="section">
-  <div class="container">
-    <article class="row">
-      <div class="col-lg-8 mx-auto">
+    <div class="container">
+        <article class="row">
+            <div class="col-lg-8 mx-auto">
                 <a class="back-link" href={{.Site.BaseURL}}><strong>←</strong> Back to Blog</a>
-        <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="mt-3 img-fluid w-100 rounded mb-4">
-        <h1 class="mb-4 post-title">{{ .Title }}</h1>
-        {{ range .Params.tags }}
-        <span class="mb-3 badge rounded-pill bg-dark">
-            <a class="text-white" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
-        {{ end }}
+                <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="mt-3 img-fluid w-100 rounded mb-4">
+                <h1 class="mb-4 post-title">{{ .Title }}</h1>
+                {{ range .Params.tags }}
+                <span class="mb-3 badge rounded-pill bg-dark">
+                    <a class="text-white" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
+                {{ end }}
 
-        <div class="content">{{.Content}}</div>
+                <div class="content">{{.Content}}</div>
 
-        <p class="blockquote-footer text-right">
-          By
-          {{range .Params.authors}}
-          <a href="/authors/{{ . | urlize }}">{{ . }}</a>,
-          {{ end }}
-          on {{ .Date.Format "Monday, January 2, 2006"}}
-        </p>
+                <p class="blockquote-footer text-right">
+                    By
+                    {{range .Params.authors}}
+                    <a href="/authors/{{ . | urlize }}">{{ . }}</a>,
+                    {{ end }}
+                    on {{ .Date.Format "Monday, January 2, 2006"}}
+                </p>
 
-        {{ partial "share-buttons.html" . }}
+                {{ partial "share-buttons.html" . }}
 
-        {{ partial "subscribe.html" . }}
+                {{ partial "subscribe.html" . }}
 
-        <!-- comments -->
-        {{ if site.DisqusShortname }}
-        <div class="mt-5">
-          {{ template "_internal/disqus.html" . }}
-        </div>
-        {{ end }}
-      </div>
-    </article>
-  </div>
+                <!-- comments -->
+                {{ if site.DisqusShortname }}
+                <div class="mt-5">
+                    {{ template "_internal/disqus.html" . }}
+                </div>
+                {{ end }}
+            </div>
+        </article>
+    </div>
 </section>
 
 <!-- regular page -->
 {{ else }}
 {{ partial "page-header.html" . }}
 <section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto">
-        <div class="content">{{ .Content }}</div>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <div class="content">{{ .Content }}</div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 {{ end }}
 {{ end }}
