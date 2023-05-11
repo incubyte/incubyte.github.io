@@ -2,13 +2,34 @@
 authors = ["Sutirtha Das", "Padma B" ]
 categories = ["Case Study"]
 date = 2023-02-03T00:00:00Z
-description = ""
+description = "Making Loan Processing Efficient by Transforming Manual Processes into a Centralized Automated System for a Consumer Lending Bank"
 draft = false
-image = "/images/2023/finance.jpg"
+image = "/images/2023/finance-case-study/CATS-banner-blog.jpg"
 slug = "finance-case-study"
 tags = ["Case Study", "Modernization"]
-title = "A Centralized System for a Leading Consumer Lending Bank "
+title = "A Centralized System for a Leading Consumer Lending Bank"
+banner_image = "/images/2023/finance-case-study/CATS-banner.jpg"
+open_quote = "/images/2023/open-quote.png"
+close_quote = "/images/2023/close-quote.png"
+right_arrow = "/images/2023/arrow_right.png"
+testimonial_person = "/images/2023/finance-case-study/testimonial-person.png"
+what_we_did_icon_1 = "/images/2023/finance-case-study/case-study-finance-icons-1.png"
+what_we_did_icon_2 = "/images/2023/finance-case-study/case-study-finance-icons-2.png"
+what_we_did_icon_3 = "/images/2023/finance-case-study/global-case-study-22.png"
+what_we_did_icon_4 = "/images/2023/finance-case-study/global-case-study-23.png"
+what_we_did_icon_5 = "/images/2023/finance-case-study/case-study-finance-icons-5.png"
+card_1_title="Taking Mental Healthcare Solution Global"
+card_1_desc="Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience"
+card_1_slug="../global-case-study/"
+card_2_title="Monnai: A Product Launch Journey"
+card_2_desc="Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience"
+card_2_slug="../monnai-case-study/"
 +++
+
+Making Loan Processing Efficient by Transforming Manual Processes into a Centralized Automated System for a Consumer Lending Bank
+
+Our client is a leading customer credit provider in the United States, committed to assisting customers in achieving their objectives through excellent customer service and flexible lending alternatives.
+
 
 ### Client:
 
@@ -35,7 +56,7 @@ After the roll out to single department, there was such a huge success that ever
 </span>
 
 <span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center; flex-wrap: wrap">
-<h2>~4000</h2> &nbsp;&nbsp; manual hours for 800 users saved every single day 
+<h2>~4000</h2> &nbsp;&nbsp; manual hours for 800 users saved every single day
 </span>
 
 <span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center; flex-wrap: wrap">

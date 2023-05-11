@@ -2,13 +2,33 @@
 authors = ["Deepshikha Pingle", "Utsav Parmar", "Abhishek Keshri"]
 categories = ["Case Study"]
 date = 2023-01-30T00:00:00Z
-description = ""
+description = "Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience"
 draft = false
-image = "/images/2023/global.jpg"
-slug = "sh-case-study"
+image = "/images/2023/SH-case-study/SH-banner-blog.jpg"
+slug = "global-case-study"
 tags = ["Case Study"]
-title = "Taking Mental Healthcare Solution Global"
+title = "Taking a Mental Healthcare Solution Global"
+open_quote = "/images/2023/open-quote.png"
+close_quote = "/images/2023/close-quote.png"
+right_arrow = "/images/2023/arrow_right.png"
+banner_image = "/images/2023/SH-case-study/SH-banner.jpg"
+what_we_did_icon_1 = "/images/2023/SH-case-study/SH-icons-17.png"
+what_we_did_icon_2 = "/images/2023/SH-case-study/SH-icons-18.png"
+what_we_did_icon_3 = "/images/2023/SH-case-study/SH-icons-19.png"
+what_we_did_icon_4 = "/images/2023/SH-case-study/SH-icons-20.png"
+what_we_did_icon_5 = "/images/2023/SH-case-study/SH-icons-21.png"
+card_1_title="A Centralized System for a Leading Consumer Lending Bank"
+card_1_desc="Reinventing global consumer insights for fintech"
+card_1_slug="../finance-case-study/"
+card_2_title="Monnai: A Product Launch Journey"
+card_2_desc="Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience"
+card_2_slug="../monnai-case-study/"
 +++
+
+Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience
+
+Our client is a leading, comprehensive global mental health solution provider that advocates for better mental healthcare benefits for everyone. They achieve this by delivering personalized solutions that fit the individual while providing the proper clinical guidance and emotional support.
+
 ## Client
 
 The client is a leading comprehensive global mental health solution provider for employers. It began its journey in 2016, with a valuation of $2 billion in September 2021, and has been steadily growing since then.
