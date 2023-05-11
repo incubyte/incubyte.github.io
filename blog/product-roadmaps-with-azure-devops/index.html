@@ -577,27 +577,34 @@ if (!doNotTrack) {
   <div class="container">
     <article class="row">
       <div class="col-lg-8 mx-auto">
-                <a class="back-link" href=https://blog.incubyte.co/><strong>←</strong> Back to Blog</a>
-        <img src="/images/2023/product-roadmap-title.jpg" alt="Using Azure DevOps to Create Robust Product Roadmaps" class="mt-3 img-fluid w-100 rounded mb-4">
+        <a class="back-link" href="https://blog.incubyte.co/"
+          ><strong>←</strong> Back to Blog</a
+        >
+        <img
+          src="/images/2023/product-roadmap-title.jpg"
+          alt="Using Azure DevOps to Create Robust Product Roadmaps"
+          class="mt-3 img-fluid w-100 rounded mb-4"
+        />
         <h1 class="mb-4 post-title">Using Azure DevOps to Create Robust Product Roadmaps</h1>
         
         <span class="mb-3 badge rounded-pill bg-dark">
-            <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
+          <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span
+        >
         
 
         <div class="content"><p>This article explores the learnings we gathered from using Azure DevOps to create robust product roadmaps.</p>
 <h2 id="a-product-roadmap-is-a-living-breathing-document">A Product Roadmap is a Living, Breathing Document</h2>
 <p>Creating a product roadmap is an integral part of the product development process. It addresses the critical problems in progress that contribute to the larger business vision and goals.</p>
-<p>A product roadmap is a generic document that changes as the product evolves or the market changes. As it is a written or visual summary of the objectives for a product, it typically includes</p>
+<p>A product roadmap is a generic document that changes as the product evolves, or the market changes. As it is a written or visual summary of the objectives for a product, it typically includes</p>
 <ul>
-<li>a product plan,</li>
-<li>dependencies,</li>
-<li>a list of features and epics.</li>
+<li>A product plan</li>
+<li>Dependencies</li>
+<li>A list of features and epics</li>
 </ul>
 <p>The complexity of the product roadmap varies depending on the target audience. Incorporating regular and continuous feedback from end users is a must when refining a product roadmap. Hence it is a living, breathing document constantly evolving based on user feedback and the changing business scenario.</p>
-<h2 id="a-product-roadmap-helps-align-stakeholders-on-a-business-goal">A Product Roadmap Helps Align StakeHolders on a Business Goal</h2>
+<h2 id="a-product-roadmap-helps-align-stakeholders-on-a-business-goal">A Product Roadmap Helps Align Stakeholders on a Business Goal</h2>
 <p>As mentioned, a product roadmap is a tool that requires regular review from all the stakeholders involved. Every feature on the product roadmap is always associated with the defined business goal. Hence it becomes an iterative process.</p>
-<p>The objectives of a product roadmap include the following—</p>
+<p>The objectives of a product roadmap include the following —</p>
 <ul>
 <li>Bringing stakeholders and team members to an agreement on the direction and priorities of a product</li>
 <li>Communicating and tracking progress toward achieving them</li>
@@ -608,17 +615,17 @@ if (!doNotTrack) {
 <p>The product roadmap is constantly evolving based on Agile ceremonies. These could be backlog refinement sessions, demos, and more.</p>
 <p>Iterations include</p>
 <ul>
-<li>moving stories based on the changes in priorities,</li>
-<li>adding new stories to the backlog.</li>
+<li>Moving stories based on the changes in priorities</li>
+<li>Adding new stories to the backlog</li>
 </ul>
 <p>For instance, a team adding new stories to the product roadmap further extends its timeline.</p>
 <p>The frequency with which a product roadmap is refined is generally every two weeks. This happens during iteration sessions. For large projects with multiple teams and stakeholders involved, it&rsquo;s always a best practice to define layers in a product and maintain a single roadmap with progression in each layer.</p>
 <p>Acquisition and retention are also some stages of a product that lead to the evolution of a product roadmap.</p>
 <p>A product roadmap undergoes changes based on the—</p>
 <ul>
-<li>constant feedback from the end users,</li>
-<li>stage of product development, and,</li>
-<li>organization-level decisions.</li>
+<li>Constant feedback from the end users</li>
+<li>Stage of product development</li>
+<li>Organization-level decisions</li>
 </ul>
 <p>Regardless of the stage of development, a product roadmap should be flexible enough to adapt to changes in the market or product itself.</p>
 <p>The focal point is that a product roadmap aids with daily planning activities. It is a document that works in unison with the day-to-day workflow of a team. And tools for product road mapping enable us to streamline that process quickly.</p>
@@ -631,14 +638,14 @@ if (!doNotTrack) {
 You can access the roadmap feature by navigating the backlogs or boards.</p>
 </li>
 <li>
-<p>In ADO, stakeholders can create roadmaps using queries, tags, and proper definitions of features and associating stories.</p>
+<p>In ADO, stakeholders can create roadmap using queries, tags, and proper definitions of features and associating stories.</p>
 </li>
 </ul>
-<h2 id="step-by-step-guide-on-how-to-define-product-roadmaps-using-azure-devops">Step-by-Step Guide on How to Define Product Roadmaps using Azure DevOps</h2>
+<h2 id="step-by-step-guide-on-how-to-define-product-roadmap-using-azure-devops">Step-by-Step Guide on How to Define Product Roadmap using Azure DevOps</h2>
 <ul>
 <li>
 <p>Create high-level Epics with Features under it.</p>
-<p>Features can be labelled with tags. Tags are best suited for work allocation and they differentiate different high-level features from each other.</p>
+<p>Features can be labelled with tags. Tags are best suited for work allocation, and they differentiate different high-level features from each other.</p>
 </li>
 <li>
 <p>Each Feature will have corresponding User Stories as child links.</p>
@@ -652,7 +659,7 @@ You can access the roadmap feature by navigating the backlogs or boards.</p>
 <ol>
 <li>
 <p>Create a new query where the work item type is &lsquo;Feature,&rsquo; and the tag is the common tag you want to filter with.
-This query is our initial filter to get all of the related features of the team.</p>
+This query is our initial filter to get all the related features of the team.</p>
 <figure><img src="/images/2023/product-roadmap-1.png"/>
     </figure>
 
@@ -679,7 +686,7 @@ This query is our initial filter to get all of the related features of the team.
 <li>Used at the features and stories level while talking to the internal development team.</li>
 <li>Shared with end users at the features level to discuss the releases and milestones.</li>
 </ul>
-<h2 id="azure-devops-is-a-beneficial-tool-for-building-product-roadmaps">Azure DevOps is a Beneficial Tool for Building Product Roadmaps</h2>
+<h2 id="azure-devops-is-a-beneficial-tool-for-building-product-roadmap">Azure DevOps is a Beneficial Tool for Building Product Roadmap</h2>
 <p>Azure DevOps is great for managing and collaborating on software development projects.</p>
 <p>As it&rsquo;s highly integrated with all other development processes, the product roadmap features offer stakeholders a holistic view of the product&rsquo;s progress.</p>
 <h3 id="business-stakeholders-can-use-the-product-roadmap-feature-to-align-on-goals-and-priorities">Business stakeholders can use the product roadmap feature to align on goals and priorities.</h3>
@@ -691,11 +698,8 @@ This query is our initial filter to get all of the related features of the team.
 </div>
 
         <p class="blockquote-footer text-right">
-          By
-          
-          <a href="/authors/padma-b">Padma B</a>,
-          
-          on Friday, April 14, 2023
+          By 
+          <a href="/authors/padma-b">Padma B</a>,  on Friday, April 14, 2023
         </p>
 
         
@@ -952,9 +956,7 @@ This query is our initial filter to get all of the related features of the team.
         border-color: #1DA851;
     }
 </style>
-
-
-        <div class="mt-5 newsletter">
+ <div class="mt-5 newsletter">
   <iframe id="subscription-form-iframe" name="subscription-form-iframe" style="display:none;"></iframe>
 
   <form
@@ -1007,8 +1009,7 @@ This query is our initial filter to get all of the related features of the team.
 </section>
 
 
-
-
+ 
 	</main>
 
 	
