@@ -5,6 +5,9 @@ date = 2022-11-05T00:00:00Z
 description = "Reinventing global consumer insights for fintech"
 draft = false
 image = "/images/2023/monnai-case-study/monnai-banner-blog.jpg"
+slug = "monnai-case-study"
+tags = ["Case Study"]
+title = "Monnai: A Product Launch Journey"
 banner_image = "/images/2023/monnai-case-study/monnai-banner.jpg"
 image_1 = "/images/2023/monnai-case-study/graph.png"
 open_quote = "/images/2023/open-quote.png"
@@ -17,14 +20,17 @@ what_we_did_icon_3 = "/images/2023/monnai-case-study/case-study-monnai-icons-13.
 what_we_did_icon_4 = "/images/2023/monnai-case-study/case-study-monnai-icons-14.png"
 what_we_did_icon_5 = "/images/2023/monnai-case-study/case-study-monnai-icons-15.png"
 what_we_did_icon_6 = "/images/2023/monnai-case-study/case-study-monnai-icons-16.png"
-slug = "monnai-case-study"
-tags = ["Case Study"]
-title = "Monnai: A Product Launch Journey"
+card_1_title="Taking Mental Healthcare Solution Global"
+card_1_desc="Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience"
+card_1_slug="../global-case-study/"
+card_2_title="A Centralized System for a Leading Consumer Lending Bank"
+card_2_desc="Reinventing global consumer insights for fintech"
+card_2_slug="../finance-case-study/"
 +++
 
 Reinventing global consumer insights for fintech.
 
-The fintech market size stood at USD 112.5 billion in the year 2021. Yet, consumer data used for decision-making remain outdated and fragmented. Most provide limited data points and do not even work across countries and continents. 
+The fintech market size stood at USD 112.5 billion in the year 2021. Yet, consumer data used for decision-making remain outdated and fragmented. Most provide limited data points and do not even work across countries and continents.
 
 ### *A technical deep dive*
 

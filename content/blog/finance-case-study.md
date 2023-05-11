@@ -18,6 +18,12 @@ what_we_did_icon_2 = "/images/2023/finance-case-study/case-study-finance-icons-2
 what_we_did_icon_3 = "/images/2023/finance-case-study/global-case-study-22.png"
 what_we_did_icon_4 = "/images/2023/finance-case-study/global-case-study-23.png"
 what_we_did_icon_5 = "/images/2023/finance-case-study/case-study-finance-icons-5.png"
+card_1_title="Taking Mental Healthcare Solution Global"
+card_1_desc="Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience"
+card_1_slug="../global-case-study/"
+card_2_title="Monnai: A Product Launch Journey"
+card_2_desc="Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience"
+card_2_slug="../monnai-case-study/"
 +++
 
 Making Loan Processing Efficient by Transforming Manual Processes into a Centralized Automated System for a Consumer Lending Bank
@@ -50,7 +56,7 @@ After the roll out to single department, there was such a huge success that ever
 </span>
 
 <span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center; flex-wrap: wrap">
-<h2>~4000</h2> &nbsp;&nbsp; manual hours for 800 users saved every single day 
+<h2>~4000</h2> &nbsp;&nbsp; manual hours for 800 users saved every single day
 </span>
 
 <span style="display: flex;flex-direction: row;align-content: center;justify-content: flex-start;align-items: center; flex-wrap: wrap">
