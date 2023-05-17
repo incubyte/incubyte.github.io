@@ -9,9 +9,6 @@
 {{ else if (eq .Params.slug "finance-case-study") }}
 {{ partial "finance-case-study.html" . }}
 
-{{ else if or (in .Params.tags "Case Study") (in .Params.categories "Case Study") }}
-{{ partial "case-study.html" . }}
-
 {{ else if or (or (eq .Section "post") (eq .Section "blog")) (or (eq .Section "categories") (eq .Section "tags") )}}
 
 <section class="section">
