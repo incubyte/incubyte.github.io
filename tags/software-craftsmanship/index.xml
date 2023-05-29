@@ -5,6 +5,7 @@
     <link>https://blog.incubyte.co/tags/software-craftsmanship/</link>
     <description>Recent content in Software Craftsmanship on Incubyte Blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Fri, 14 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/tags/software-craftsmanship/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -22,7 +23,7 @@
       <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://blog.incubyte.co/blog/clean-agile-with-uncle-bob-a-summary/</guid>
-      <description>Clean Agile Summary Clean Agile is a book by Rober C. Martin that revisits the subject of agility in the world of software programming.</description>
+      <description>Clean Agile Summary Clean Agile is a book by Rober C.</description>
     </item>
     
     <item>
@@ -94,7 +95,7 @@
       <pubDate>Fri, 29 Apr 2022 11:55:43 +0530</pubDate>
       
       <guid>https://blog.incubyte.co/blog/learnings-from-clean-code/</guid>
-      <description>Learnings from Robert “Uncle Bob” Martin Robert Martin, fondly known as “Uncle Bob” in the software community, is a software engineer and more famously an author and one of the founding fathers of software movements like software craftsmanship, agile methodology, and test-driven development.</description>
+      <description>Learnings from Robert “Uncle Bob” Martin Robert Martin, fondly known as “Uncle Bob” in our community, is a software engineer and more famously an author and one of the founding fathers of Software Craftsmanship movement.</description>
     </item>
     
     <item>
@@ -168,7 +169,7 @@ This assessment is the first step in our recruiting process and will be followed
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.incubyte.co/blog/do-not-assume-that-technical-debt-is-a-problem-with-your-code/</guid>
-      <description>Ever saw SonarQube laden with thousands of maintainability and security issues? Looking at those dashboards, we often believe we&amp;rsquo;re looking at the code&amp;rsquo;s state, but there is more to it.</description>
+      <description>Ever saw SonarQube laden with thousands of maintainability and security issues?</description>
     </item>
     
     <item>
@@ -195,7 +196,7 @@ This assessment is the first step in our recruiting process and will be followed
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://blog.incubyte.co/blog/why-incubyte/</guid>
-      <description>Quality is usually an implicit requirement when it comes to developing software. Users ask for a beautiful UI, outstanding performance, and the functionality they need, but quality is never on the list - it is just expected!</description>
+      <description>Quality is usually an implicit requirement when it comes to developing software.</description>
     </item>
     
   </channel>

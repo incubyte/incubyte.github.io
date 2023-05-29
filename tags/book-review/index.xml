@@ -5,6 +5,7 @@
     <link>https://blog.incubyte.co/tags/book-review/</link>
     <description>Recent content in Book Review on Incubyte Blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Wed, 08 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/tags/book-review/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -31,7 +32,7 @@
       <pubDate>Fri, 29 Apr 2022 11:55:43 +0530</pubDate>
       
       <guid>https://blog.incubyte.co/blog/learnings-from-clean-code/</guid>
-      <description>Learnings from Robert “Uncle Bob” Martin Robert Martin, fondly known as “Uncle Bob” in the software community, is a software engineer and more famously an author and one of the founding fathers of software movements like software craftsmanship, agile methodology, and test-driven development.</description>
+      <description>Learnings from Robert “Uncle Bob” Martin Robert Martin, fondly known as “Uncle Bob” in our community, is a software engineer and more famously an author and one of the founding fathers of Software Craftsmanship movement.</description>
     </item>
     
   </channel>

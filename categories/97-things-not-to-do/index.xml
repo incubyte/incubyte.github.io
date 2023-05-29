@@ -5,6 +5,7 @@
     <link>https://blog.incubyte.co/categories/97-things-not-to-do/</link>
     <description>Recent content in 97 Things Not To Do on Incubyte Blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Wed, 14 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/categories/97-things-not-to-do/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +14,7 @@
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.incubyte.co/blog/do-not-assume-that-technical-debt-is-a-problem-with-your-code/</guid>
-      <description>Ever saw SonarQube laden with thousands of maintainability and security issues? Looking at those dashboards, we often believe we&amp;rsquo;re looking at the code&amp;rsquo;s state, but there is more to it.</description>
+      <description>Ever saw SonarQube laden with thousands of maintainability and security issues?</description>
     </item>
     
     <item>
@@ -31,7 +32,7 @@
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://blog.incubyte.co/blog/do-not-get-so-busy-that-you-stop-learning/</guid>
-      <description>Learning is the most vital part of a software developer&amp;rsquo;s life. Being so busy that one stops learning is neither desirable nor helpful to one&amp;rsquo;s career.</description>
+      <description>Learning is the most vital part of a software developer&amp;rsquo;s life.</description>
     </item>
     
     <item>
@@ -49,7 +50,7 @@
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://blog.incubyte.co/blog/do-not-show-separate-estimate-for-testing/</guid>
-      <description>Once I was asked in an interview (I was the interviewer!) What do you do in situations where the customers don&amp;rsquo;t want you to write test cases, or they want you to deprioritize the activity of writing test cases.</description>
+      <description>Once I was asked in an interview (I was the interviewer!</description>
     </item>
     
     <item>

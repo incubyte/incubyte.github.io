@@ -5,6 +5,7 @@
     <link>https://blog.incubyte.co/authors/utsav-parmar/</link>
     <description>Recent content in Utsav Parmar on Incubyte Blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/authors/utsav-parmar/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -31,7 +32,7 @@
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.incubyte.co/blog/how-to-contribute-to-open-source-project-a-beginners-guide/</guid>
-      <description>Are you a first-time contributor? Are you wondering how to start contributing to OSS? Well, this guide is made for you.</description>
+      <description>Are you a first-time contributor? Are you wondering how to start contributing to OSS?</description>
     </item>
     
   </channel>

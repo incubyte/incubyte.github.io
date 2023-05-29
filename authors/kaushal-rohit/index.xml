@@ -5,6 +5,7 @@
     <link>https://blog.incubyte.co/authors/kaushal-rohit/</link>
     <description>Recent content in Kaushal Rohit on Incubyte Blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/authors/kaushal-rohit/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -22,7 +23,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.incubyte.co/blog/technology-platforms-2/</guid>
-      <description>Early in a project, we have to decide which platforms we&amp;rsquo;ll use. Which platforms depend on our ideas for solving the users&amp;rsquo; problems.</description>
+      <description>Early in a project, we have to decide which platforms we&amp;rsquo;ll use.</description>
     </item>
     
   </channel>

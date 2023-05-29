@@ -5,6 +5,7 @@
     <link>https://blog.incubyte.co/categories/playbook/</link>
     <description>Recent content in Playbook on Incubyte Blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Mon, 10 Oct 2022 12:50:00 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/categories/playbook/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -31,7 +32,7 @@
       <pubDate>Fri, 29 Apr 2022 11:55:43 +0530</pubDate>
       
       <guid>https://blog.incubyte.co/blog/learnings-from-clean-code/</guid>
-      <description>Learnings from Robert “Uncle Bob” Martin Robert Martin, fondly known as “Uncle Bob” in the software community, is a software engineer and more famously an author and one of the founding fathers of software movements like software craftsmanship, agile methodology, and test-driven development.</description>
+      <description>Learnings from Robert “Uncle Bob” Martin Robert Martin, fondly known as “Uncle Bob” in our community, is a software engineer and more famously an author and one of the founding fathers of Software Craftsmanship movement.</description>
     </item>
     
     <item>
@@ -49,7 +50,7 @@
       <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.incubyte.co/blog/kickstart-checklist/</guid>
-      <description>The Checklist Manifesto by Atul Gawande, walks us through the benefits of the humble checklist. He talks about how checklists of &amp;ldquo;dumb stuff&amp;rdquo; can save us from disasters in life and death situations.</description>
+      <description>The Checklist Manifesto by Atul Gawande, walks us through the benefits of the humble checklist.</description>
     </item>
     
     <item>
@@ -67,7 +68,7 @@
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://blog.incubyte.co/blog/remote-onboarding-and-immersion/</guid>
-      <description>Employee onboarding is the important process of introducing newly hired employees to the organisation. It is everything that leads up to the employee&amp;rsquo;s total immersion into the organisation&amp;rsquo;s culture.</description>
+      <description>Employee onboarding is the important process of introducing newly hired employees to the organisation.</description>
     </item>
     
     <item>
@@ -76,7 +77,7 @@
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://blog.incubyte.co/blog/why-incubyte/</guid>
-      <description>Quality is usually an implicit requirement when it comes to developing software. Users ask for a beautiful UI, outstanding performance, and the functionality they need, but quality is never on the list - it is just expected!</description>
+      <description>Quality is usually an implicit requirement when it comes to developing software.</description>
     </item>
     
     <item>
@@ -112,7 +113,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.incubyte.co/blog/technology-platforms-2/</guid>
-      <description>Early in a project, we have to decide which platforms we&amp;rsquo;ll use. Which platforms depend on our ideas for solving the users&amp;rsquo; problems.</description>
+      <description>Early in a project, we have to decide which platforms we&amp;rsquo;ll use.</description>
     </item>
     
   </channel>

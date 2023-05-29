@@ -5,6 +5,7 @@
     <link>https://blog.incubyte.co/authors/</link>
     <description>Recent content in Authors on Incubyte Blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Fri, 14 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -49,7 +50,7 @@
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://blog.incubyte.co/authors/abhishek-keshri/</guid>
-      <description>Passion Driven Software Craftsperson with a strong affinity for OSS and the CLI. Problem solver in permanent beta.</description>
+      <description>Passion Driven Software Craftsperson with a strong affinity for OSS and the CLI.</description>
     </item>
     
     <item>
