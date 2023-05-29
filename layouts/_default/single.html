@@ -29,14 +29,14 @@
           <a class="text-white" href="/tags/{{ . | urlize }}">{{ . }}</a></span
         >
         {{ end }}
-
-        <div class="content">{{.Content}}</div>
-
         <p class="blockquote-footer text-right">
           By {{range .Params.authors}}
           <a href="/authors/{{ . | urlize }}">{{ . }}</a>, {{ end }} on {{
           .Date.Format "Monday, January 2, 2006"}}
         </p>
+
+        <div class="content">{{.Content}}</div>
+
 
         {{ partial "share-buttons.html" . }} {{ partial "subscribe.html" . }}
 
