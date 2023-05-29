@@ -13,7 +13,9 @@ type = ""
 
 ## Learnings from Robert “Uncle Bob” Martin
 
-Robert Martin, fondly known as “Uncle Bob” in the software community, is a software engineer and more famously an author and one of the founding fathers of software movements like software craftsmanship, agile methodology, and test-driven development. Some of his most famous works include Clean Code, The Clean Coder, Clean Architecture, and Clean Agile. Martin is also a frequent instructor, with the ability to boil down difficult topics into a simple, understandable format, along with occasional cheeky humor.
+Robert Martin, fondly known as “Uncle Bob” in our community, is a software engineer and more famously an author and one of the founding fathers of Software Craftsmanship movement.
+
+Some of his most famous works include Clean Code, The Clean Coder, Clean Architecture, and Clean Agile. Martin is also a frequent instructor, with the ability to boil down difficult topics into a simple, understandable format, along with occasional cheeky humor.
 
 One of the most striking qualities of Martin – in all of his writing and lectures, is that nowhere does he claims to have a full-proof solution or a doctrine that could solve all software development problems. He acknowledges that the teachings and lessons are ones he acquired from his 40+ years of experience and encourages the reader to validate the “time-testiness” and accuracy of those lessons. One of the qualities of a software craftsperson, according to Martin, is adapting to changing times and letting go of irrelevant principles.
 
