@@ -82,7 +82,7 @@ Genie started saving 1000 hours a day across 225+ daily active users.
 
 ## What Incubyte Achieved
 
-- **Saved 4000 hours a day.** Team members onboarded by the Metamorphosis project have a seamless workflow that resulted in time saving
+- **Saved 1200 hours a day.** Team members onboarded by the Metamorphosis project have a seamless workflow that resulted in time saving
 - **Over 900 users onboarded** by maintaining smaller, stable, consistent releases
 - **It's a tailored solution**, it is more than customization, because Incubyte developed a solution with the end user and the customer's use cases in mind
 - **By being fast, economical, and agile**, Metamorphis started adding value from the very beginning 
