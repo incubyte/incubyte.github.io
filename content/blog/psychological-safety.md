@@ -37,7 +37,7 @@ Pairing, a practice in extreme programming and a type of co-creation allows team
 
 >  When you co-create more, you start to feel psychologically safer. 
 
-[image1]
+{{< figure src="/images/2023/psych-safety-1.png" >}}
 
 The diagram above shows this cycle:
 
@@ -69,7 +69,7 @@ Now, imagine you are continuously releasing small, incremental changes. You are 
 
 By draft PRs, teams are encouraged to see how code evolves from mediocre to “perfect,” i.e., seeing a piece of code go through multiple iterations. The developers also reduce the batch size by showcasing their work early and frequently.
 
-[image 2]
+{{< figure src="/images/2023/psych-safety-2.png" >}}
 
 
 The diagram above shows this cycle of
@@ -82,7 +82,7 @@ The diagram above shows this cycle of
 
 
 
-[image 3]
+{{< figure src="/images/2023/psych-safety-3.png" >}}
 
 Combining both system diagrams gives you a better understanding of the levers or knobs that positively and negatively impact psychological safety.
 
