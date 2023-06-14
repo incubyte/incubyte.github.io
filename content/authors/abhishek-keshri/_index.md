@@ -1,6 +1,6 @@
 ---
 title: Abhishek Keshri
-image:  '/authors/abhishek-keshri/abhishek.jpg
+image:  '/authors/abhishek-keshri/abhishek.jpg'
 subtitle: "Software Craftsperson @Incubyte 💼 | Learner 📚 | Maker 👨🏻‍💻 | Explorer 🔎"
 ---
 
