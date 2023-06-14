@@ -4,7 +4,7 @@ categories = ["Software Craftsmanship", "Testing With Java"]
 date = 2023-02-21T00:00:00Z
 description = ""
 draft = false
-image = "/images/2023/02/testing-with-java-001.jpg"
+image = "/images/2023/testing-with-java/testing-with-java-001.jpg"
 slug = "testing-with-java-intro"
 tags = ["Software Craftsmanship", "Testing With Java"]
 title = "Testing With Java - Part 1 : Introduction"
@@ -12,7 +12,7 @@ title = "Testing With Java - Part 1 : Introduction"
 
 On July 22, 1962, Mariner 1 – America's first interplanetary spacecraft, lifted off from the ground on its way to fly by Venus. However, instead of the cheers and scientific breakthrough everyone expected, soon after the launch, the rocket started drifting northeast of its planned trajectory. Not responding to corrective measures, the rocket was finally ordered to self-destruct, just 5 minutes into its flight!
 
-<img style="float:right" src="/images/2023/02/testing-with-java-002.jpg" width="40%" height="40%" />
+<img style="float:right" src="/images/2023/testing-with-java/testing-with-java-001.jpg" width="40%" height="40%" />
 
 The loss of America's first interplanetary spacecraft constituted an $18.5 million ($166 million in today's money) setback for NASA. After five days of post-flight analysis, JPL engineers determined what had caused the malfunction on Mariner 1: an error in the guidance computer logic combined with a hardware failure.
 
@@ -123,6 +123,6 @@ The top reasons to take up Unit Testing are:
 
 Suppose with the LeapYear code, we get a new condition. We have to check if the input year is a leap year or not but also if it was in the 20th century. To account for this, we would go ahead and update the logic and then add the corresponding test for it. However, suppose, hundreds of such new conditions keep on coming. If we keep on going back to update the code first and then write test for it, we are bound to miss certain conditions, perhaps an edge case or two. To get over this problem, we need to follow the principle of TDD or Test-Driven-Development.
 
-<img style="float:left" src="/images/2023/02/testing-with-java-003.jpg" width="30%" height="30%" />
+<img style="float:left" src="/images/2023/testing-with-java/testing-with-java-003.jpg" width="30%" height="30%" />
 
 In TDD, we write a test first, run it, see that it fails, then write the correct production code, rerun the test, it passes. We can first go ahead and write all the tests for all the scenarios in an easy-to-understand language. The chances of missing a particular case here is pretty less. Then we go ahead and write the actual production code.
