@@ -85,7 +85,7 @@ The diagram above shows this cycle:
 - **The bigger the size of the failure,** the less safe someone feels
 - **The less safe someone feels**, the less likelihood of exposure to early work
 - **The less likelihood of them exposing their work early**, the larger the batch size becomes 
-- **The bigger the batch size**, the higher the potential for failure,** and the loop continues.
+- **The bigger the batch size**, the higher the potential for failure, and the loop continues.
 
 
 
