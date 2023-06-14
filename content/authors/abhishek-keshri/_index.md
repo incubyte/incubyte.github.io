@@ -1,6 +1,6 @@
 ---
 title: Abhishek Keshri
-image:  "https://avatars.githubusercontent.com/u/25423853?v=4"
+image:  '/authors/abhishek-keshri/abhishek.jpg'
 subtitle: "Software Craftsperson @Incubyte 💼 | Learner 📚 | Maker 👨🏻‍💻 | Explorer 🔎"
 ---
 

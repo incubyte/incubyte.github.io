@@ -4,7 +4,7 @@ categories = ["Software Craftsmanship"]
 date = 2021-01-01T00:00:00Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1570215170761-f056128eda48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDN8fHFhfGVufDB8fHw&ixlib=rb-1.2.1&q=80&w=2000"
+image = "/images/2023/not-all-test-header.jpg"
 slug = "notalltestsarethesame"
 tags = ["Software Craftsmanship"]
 title = "Not All Tests are the Same"
