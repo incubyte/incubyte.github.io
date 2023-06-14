@@ -4,7 +4,7 @@ categories = ["Playbook"]
 date = 2020-08-01T00:00:00Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
+image = "/images/2023/feedback-header.jpg"
 slug = "feedback"
 tags = ["Playbook"]
 title = "Feedback & Rapid Prototyping"
