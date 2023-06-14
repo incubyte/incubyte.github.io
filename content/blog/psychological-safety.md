@@ -4,7 +4,7 @@ categories = ["Software Craftsmanship"]
 date = 2023-06-14T00:00:00Z
 description = ""
 draft = false
-image = "/images/2023/psych-safety-3.png"
+image = "/images/2023/psych-safety-3.jpg"
 slug = "psychological-safety"
 tags = ["Software Craftsmanship"]
 title = "Psychological Safety in Agile Teams"
@@ -47,7 +47,7 @@ Pairing, a practice in extreme programming and a type of co-creation allows team
 
 >  When you co-create more, you start to feel psychologically safer. 
 
-{{< figure src="/images/2023/psych-safety-1.png" >}}
+{{< figure src="/images/2023/psych-safety-1.jpg" >}}
 
 The diagram above shows this cycle:
 
@@ -79,7 +79,7 @@ Now, imagine you are continuously releasing small, incremental changes. You are 
 
 By draft PRs, teams are encouraged to see how code evolves from mediocre to “perfect,” i.e., seeing a piece of code go through multiple iterations. The developers also reduce the batch size by showcasing their work early and frequently.
 
-{{< figure src="/images/2023/psych-safety-2.png" >}}
+{{< figure src="/images/2023/psych-safety-2.jpg" >}}
 
 
 The diagram above shows this cycle of
@@ -92,7 +92,7 @@ The diagram above shows this cycle of
 
 
 
-{{< figure src="/images/2023/psych-safety-3.png" >}}
+{{< figure src="/images/2023/psych-safety-3.jpg" >}}
 
 Combining both system diagrams gives you a better understanding of the levers or knobs that positively and negatively impact psychological safety.
 
