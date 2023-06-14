@@ -80,11 +80,11 @@ By draft PRs, teams are encouraged to see how code evolves from mediocre to “p
 {{< figure src="/images/2023/psych-safety-2.jpg" >}}
 
 
-The diagram above shows this cycle of
+The diagram above shows this cycle:
 
 - **The bigger the size of the failure,** the less safe someone feels
 - **The less safe someone feels**, the less likelihood of exposure to early work
-- **The less likelihood of them exposing their work early**,** the larger the batch size becomes 
+- **The less likelihood of them exposing their work early**, the larger the batch size becomes 
 - **The bigger the batch size**, the higher the potential for failure,** and the loop continues.
 
 
