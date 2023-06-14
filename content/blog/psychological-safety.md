@@ -1,4 +1,14 @@
-# Psychological Safety in Agile Teams 
++++
+authors = ["Sapan Parikh"]
+categories = ["Software Craftsmanship"]
+date = 2023-06-14T00:00:00Z
+description = ""
+draft = false
+image = "/images/2023/psych-safety-3.png"
+slug = "psychological-safety"
+tags = ["Software Craftsmanship"]
+title = "Psychological Safety in Agile Teams"
++++
 
 Think back to the first time your code was under review. As the dread of receiving negative feedback looms over you, someone yells at you, "HEY! Don't be scared. You need to feel safe". 
 
