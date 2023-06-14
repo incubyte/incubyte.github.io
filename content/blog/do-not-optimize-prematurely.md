@@ -4,7 +4,7 @@ categories = ["97 Things Not To Do"]
 date = 2020-09-01T00:00:00Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1506818144585-74b29c980d4b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
+image = "/images/2023/premature-header.jpg"
 slug = "do-not-optimize-prematurely"
 tags = ["97 Things Not To Do"]
 title = "Do not Optimize Prematurely"
