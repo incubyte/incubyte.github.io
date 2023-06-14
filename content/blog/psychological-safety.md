@@ -4,7 +4,7 @@ categories = ["Software Craftsmanship"]
 date = 2023-06-14T00:00:00Z
 description = ""
 draft = false
-image = "/images/2023/psych-safety-3.jpg"
+image = "/images/2023/psych-safety-header.jpg"
 slug = "psychological-safety"
 tags = ["Software Craftsmanship"]
 title = "Psychological Safety in Agile Teams"
@@ -21,6 +21,7 @@ The extent to which individuals feel safe in their work environment directly imp
 Psychological safety, as a belief, is very individual. You cannot directly control the level of safety any team member feels. 
 
 When teams feel psychologically safe, they embrace mistakes as learning opportunities and engage more in open communication. 
+
 ## What Reduces Psychological Safety?
 
 In the coding world, fear of judgment and failure contribute to low psychological safety. During code reviews and pairing sessions, developers expose their way of working and unique thought processes. This could lead to their fear of being judged in terms of competence and the mistakes they make.
