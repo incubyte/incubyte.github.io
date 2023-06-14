@@ -4,7 +4,7 @@ categories = ["97 Things Not To Do"]
 date = 2020-08-01T00:00:00Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1586892478377-bb79da0a70c2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
+image = "/images/2023/faux-agile-header.jpg"
 slug = "do-not-fall-for-faux-agile"
 tags = ["97 Things Not To Do"]
 title = "Do not Fall for faux agile"
