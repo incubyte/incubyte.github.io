@@ -62,13 +62,10 @@ The diagram above shows this cycle:
 
 Kent Beck famously said, **“Make it work, make it right, make it fast.”** (In that order!).
 
-A piece of code evolves like the following:
-
-1. It first solves a specific problem
-
-1. It is then refactored to be maintainable
-
-1. And if need be, change it to perform better 
+A piece of code evolves as follows:
+1. It first solves a specific problem.
+1. It is then refactored to be maintainable.
+1. If necessary, it is changed to perform better.
 
 In most organizations, these stages of evolution are not visible. Everyone directly sees the end state of the code through processes like pull requests(PRs).
 
