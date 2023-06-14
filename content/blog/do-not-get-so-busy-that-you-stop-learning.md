@@ -4,7 +4,7 @@ categories = ["97 Things Not To Do"]
 date = 2020-09-01T00:00:00Z
 description = ""
 draft = false
-image = "https://images.unsplash.com/photo-1510751190565-de07085fcad6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
+image = "/images/2023/busy-learning-header.jpg"
 slug = "do-not-get-so-busy-that-you-stop-learning"
 tags = ["97 Things Not To Do"]
 title = "Do not Get so busy that you stop learning"
