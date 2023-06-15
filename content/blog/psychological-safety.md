@@ -6,7 +6,7 @@ description = ""
 draft = false
 image = "/images/2023/psych-safety-header.jpg"
 slug = "psychological-safety"
-tags = ["Software Craftsmanship"]
+tags = ["Software Craftsmanship", "Team Culture"]
 title = "Psychological Safety in Agile Teams"
 +++
 
@@ -102,4 +102,7 @@ Overlooking psychological safety leads to many consequences in different areas o
 As a first step, team leaders can lead by example. Acknowledging mistakes and actively seeking and implementing feedback is how you instill confidence in others to do the same.
 
 This slowly moves the needle towards creating a productive and harmonious work environment where nobody feels penalized for making mistakes or restricted from sharing what's on their mind.
+
+
+*Thanks to [Dragan Stepanovic](https://www.linkedin.com/in/dstepanovic/) for the inspiration for this blog.*
 
