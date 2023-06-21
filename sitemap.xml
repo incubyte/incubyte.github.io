@@ -3,16 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/</loc>
-    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/</loc>
-    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
+    <lastmod>2023-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
+    <lastmod>2023-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/sutirtha-das/</loc>
+    <lastmod>2023-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/</loc>
+    <lastmod>2023-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/tdd/</loc>
+    <lastmod>2023-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/tdd/</loc>
+    <lastmod>2023-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/testing-with-java/</loc>
+    <lastmod>2023-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/testing-with-java/</loc>
+    <lastmod>2023-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/testing-with-java-tdd/</loc>
+    <lastmod>2023-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/psychological-safety/</loc>
     <lastmod>2023-06-14T00:00:00+00:00</lastmod>
@@ -20,34 +47,7 @@
     <loc>https://blog.incubyte.co/authors/sapan-parikh/</loc>
     <lastmod>2023-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
-    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
-    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/authors/sutirtha-das/</loc>
-    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/</loc>
-    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/tdd/</loc>
-    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/tdd/</loc>
-    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/tags/team-culture/</loc>
-    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/testing-with-java/</loc>
-    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/testing-with-java/</loc>
-    <lastmod>2023-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/blog/testing-with-java-tdd/</loc>
     <lastmod>2023-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/padma-b/</loc>
