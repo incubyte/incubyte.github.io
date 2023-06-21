@@ -40,22 +40,22 @@ Let’s start with an example. Suppose we want to write a method that takes a ye
 
 Let’s write the code first
 
-> ```
-> public class LeapYear {
->    public static boolean isLeapYear(int year) {
->        if (year % 4 == 0) {
->            if (year % 100 == 0) {
->                if (year % 400 == 0) {
->                    return true;
->                }
->                return false;
->            }
->            return true;
->        }
->        return false;
->    }
-> }
-> ```
+```java
+public class LeapYear {
+   public static boolean isLeapYear(int year) {
+       if (year % 4 == 0) {
+           if (year % 100 == 0) {
+               if (year % 400 == 0) {
+                   return true;
+               }
+               return false;
+           }
+           return true;
+       }
+       return false;
+   }
+}
+```
 
 To test whether this code works or not, let’s write some unit tests for it. We will test it with multiple inputs and verify that our code works as expected.
 
@@ -65,47 +65,40 @@ For unit testing in Java, we use JUnit. JUnit is a unit testing open-source fram
 
 Let’s write the test for the LeapYear code that we wrote earlier.
 
-> ```
-> import org.junit.Test;
-> import static org.junit.Assert.assertFalse;
-> import static org.junit.Assert.assertTrue;
-> public class LeapYearTest {
->   @Test
->   public void testLeapYear() {
->
->     // Test a leap year
->     assertTrue(LeapYear.isLeapYear(2020));
->
->     // Test a non-leap year
->     assertFalse(LeapYear.isLeapYear(2021));
->   }
-> }
-> ```
+```java
+import org.junit.Test;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+public class LeapYearTest {
+  @Test
+  public void testLeapYear() {
+    // Test a leap year
+    assertTrue(LeapYear.isLeapYear(2020));
+    // Test a non-leap year
+    assertFalse(LeapYear.isLeapYear(2021));
+  }
+}
+```
 
 On running these tests, we see that the tests pass and we can be sure that at least for the inputs we have provided, our code works properly. But, what about other inputs? What about edge cases? For that, we should have more tests so that all possible scenarios are covered.
 
 Let’s now add more test cases to cover all the possible scenarios for leap years. For example:
 
-> ```
-> @Test
->  public void testLeapYear() {
->
->    // Test a leap year
->    assertTrue(LeapYear.isLeapYear(2020));
->
->    // Test a non-leap year
->    assertFalse(LeapYear.isLeapYear(2021));
->
->    // Test a leap year divisible by 4 but not by 100
->    assertTrue(LeapYear.isLeapYear(2004));
->
->    // Test a leap year divisible by 4 and by 100 but not by 400
->    assertFalse(LeapYear.isLeapYear(1900));
->
->    // Test a leap year divisible by 4, by 100, and by 400
->    assertTrue(LeapYear.isLeapYear(2000));
->  }
-> ```
+```java
+@Test
+ public void testLeapYear() {
+   // Test a leap year
+   assertTrue(LeapYear.isLeapYear(2020));
+   // Test a non-leap year
+   assertFalse(LeapYear.isLeapYear(2021));
+   // Test a leap year divisible by 4 but not by 100
+   assertTrue(LeapYear.isLeapYear(2004));
+   // Test a leap year divisible by 4 and by 100 but not by 400
+   assertFalse(LeapYear.isLeapYear(1900));
+   // Test a leap year divisible by 4, by 100, and by 400
+   assertTrue(LeapYear.isLeapYear(2000));
+ }
+```
 
 With all these scenarios, we can be sure that our code is working properly.
 

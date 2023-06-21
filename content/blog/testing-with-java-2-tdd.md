@@ -12,7 +12,7 @@ title = "Testing With Java - Part 2 : TDD"
 
 In the annals of software development, there exists a cautionary tale from the year 1996, when the European Space Agency (ESA) launched its ambitious Ariane 5 rocket. Alas, what was meant to be a triumph turned into tragedy a mere 40 seconds after liftoff, as the rocket met a fiery demise, along with its precious cargo. The cause of this catastrophe? A software glitch, specifically an integer overflow issue, lurking within the rocket's flight control system. 
 
-<img style="float:right; padding-left: 20px" src="/images/2023/testing-with-java/testing-with-java-004.jpg" width="40%" height="40%" />
+<img style="float:right; padding-left: 20px" src="/images/2023/testing-with-java/testing-with-java-004.jpg" width="40%" height="40%" /
 
 The flight control software, repurposed from its predecessor, Ariane 4, failed to account for the vastly different flight trajectory and accelerated speed of Ariane 5. As a consequence, the program generated unforeseen numbers that exceeded the limits of a variable, causing the rocket to veer off course and meet its untimely end.
 
@@ -23,7 +23,7 @@ Had the developers embraced Test-Driven Development (TDD) and diligently written
 
 This article delves into TDD, its step-by-step process, and the significant benefits it offers to the software development landscape.
 
-<img style="float:right; padding-left: 20px" src="/images/2023/testing-with-java/testing-with-java-003.jpg" width="35%" height="35%" />
+<img style="float:right; padding-left: 20px" src="/images/2023/testing-with-java/testing-with-java-003.jpg" width="35%" height="35%" /
 
 ## Understanding Test-Driven Development (TDD): 
 
@@ -47,16 +47,16 @@ Test-Driven Development (TDD) is a development practice that advocates writing t
 **Let's walk through the TDD process by examining the code examples below:**
 
 ### 1. Writing the First Test: 
->```
->import org.junit.Test; 
->import static org.junit.Assert.*; 
->public class LeapYearTest { 
->   @Test 
->   void test_is_leap_year_divisible_by_4() { 
->   assertTrue(LeapYear.isLeapYear(2020)); 
->   } 
->} 
->```
+```java 
+import org.junit.Test; 
+import static org.junit.Assert.*; 
+public class LeapYearTest { 
+   @Test 
+   void test_is_leap_year_divisible_by_4() { 
+   assertTrue(LeapYear.isLeapYear(2020)); 
+   } 
+} 
+```
  
 
 ### 2. Running the Test: 
@@ -67,16 +67,16 @@ After writing the test, it's crucial to execute it. Since the corresponding prod
 
 Now, it's time to write the minimum code necessary to make the test pass. 
 
->```
->public class LeapYear { 
->   public static boolean isLeapYear(int year) { 
->       if (year % 4 == 0) { 
->           return true; 
->       }  
->       return false; 
->   } 
->} 
->```
+```java 
+public class LeapYear { 
+   public static boolean isLeapYear(int year) { 
+       if (year % 4 == 0) { 
+           return true; 
+       }  
+       return false; 
+   } 
+} 
+```
  
 
 ### 4. Rerunning the Test: 
@@ -88,47 +88,47 @@ After implementing the production code, let’s rerun the test and ensure that i
 To augment test coverage, we add more tests to encompass additional cases and edge conditions. Upon running all tests, we expect the newly added tests to fail initially as the updated logic to handle these cases hasn’t been implemented yet. 
 
 **Test is leap year divisible by 100 but not by 400:**
->    ```
->    @Test 
->    public void test_is_leap_year_divisible_by_100_but_not_by_400() { 
->        assertFalse(LeapYear.isLeapYear(1900)); 
->    } 
->    ```
+```java 
+@Test 
+public void test_is_leap_year_divisible_by_100_but_not_by_400() { 
+assertFalse(LeapYear.isLeapYear(1900)); 
+} 
+```
 
 **Test is leap year divisible by 4 but not by 100:**
->    ```
->    @Test 
->    public void test_is_leap_year_divisible_by_4_but_not_by_100() { 
->        assertTrue(LeapYear.isLeapYear(2008)); 
->    } 
->    ```
+```java 
+@Test 
+public void test_is_leap_year_divisible_by_4_but_not_by_100() { 
+assertTrue(LeapYear.isLeapYear(2008)); 
+} 
+```
 
 **Test is not a leap year:**
->   ```
->   @Test 
->   public void test_is_leap_year_not_divisible_by_4() { 
->       assertFalse(LeapYear.isLeapYear(2017)); 
->   } 
->   ```
+```java 
+@Test 
+public void test_is_leap_year_not_divisible_by_4() { 
+assertFalse(LeapYear.isLeapYear(2017)); 
+} 
+```
 
 ### 6. Updating the Production Code: 
 
 Let’s Refactor the production code to accommodate the new test cases and ensure that all tests pass. 
 
->```
->public class LeapYear { 
->   public static boolean isLeapYear(int year) { 
->       if (year % 400 == 0) { 
->           return true; 
->       } else if (year % 100 == 0) { 
->           return false; 
->       } else if (year % 4 == 0) { 
->           return true; 
->       } 
->       return false; 
->   } 
->} 
->```
+```java 
+public class LeapYear { 
+   public static boolean isLeapYear(int year) { 
+       if (year % 400 == 0) { 
+           return true; 
+       } else if (year % 100 == 0) { 
+           return false; 
+       } else if (year % 4 == 0) { 
+           return true; 
+       } 
+       return false; 
+   } 
+} 
+```
  
 ### 7. Rerunning All Tests: 
 
