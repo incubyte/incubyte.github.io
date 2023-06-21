@@ -23,7 +23,7 @@ Had the developers embraced Test-Driven Development (TDD) and diligently written
 
 This article delves into TDD, its step-by-step process, and the significant benefits it offers to the software development landscape.
 
-<img style="float:right; padding-left: 20px" src="/images/2023/testing-with-java/testing-with-java-003.jpg" width="35%" height="35%" /
+<img style="float:right; padding-left: 20px" src="/images/2023/testing-with-java/testing-with-java-003.jpg" width="35%" height="35%" />
 
 ## Understanding Test-Driven Development (TDD): 
 
