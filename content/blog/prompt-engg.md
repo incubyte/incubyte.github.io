@@ -120,3 +120,4 @@ Here are a few key capabilities and their applications:
 That's all folks, you now have all the fundamentals you need to go out there and craft your own prompts.
 Use this knowledge to unleash the power of prompt engineering and watch your AI companion create wonders at your command.
 
+This article is a condensed version of [this course](https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/1/introduction) by Isa Fulford and Andrew Ng, you can take a look to explore more and try different examples.
