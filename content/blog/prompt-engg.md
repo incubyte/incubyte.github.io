@@ -62,27 +62,18 @@ To facilitate this, follow these guidelines:
    Number and list the steps clearly in your instructions.
    This helps the model understand the desired process and ensures a logical flow of information.
 
+{{<figure src="/images/2023/prompt-engg/5.jpg">}}
+
 2. Ask for output in a specified format and provide an output template.
    By providing a template, you guide the model to generate output that adheres to the desired structure.
    For example, if you want the model to generate a formatted email, provide a template with placeholders for the recipient, subject and body.
 
+{{<figure src="/images/2023/prompt-engg/6.jpg">}}
+
 3. Instruct the model to work out its own solution before rushing to a conclusion.
    Allowing the model to ponder and analyze the problem can lead to more thoughtful and accurate outputs.
 
-Now, let's consider an example where we want the model to write a step-by-step guide on setting up a blog.
-We can prompt the model as follows:
-
-___
-Please provide a detailed guide on setting up a blog.
-
-Steps:
-1. Choose a blogging platform.
-2. Register a domain name.
-3. Select a hosting provider.
-4. Install and configure the blogging software.
-5. Customize the blog's appearance.
-6. Create and publish your first blog post.
-___
+{{<figure src="/images/2023/prompt-engg/7.jpg">}}
 
 By specifying the steps clearly and providing a template for the output, we enable the model to generate a well-structured guide.
 
