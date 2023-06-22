@@ -4,7 +4,7 @@ categories = ["Software Craftsmanship", "Testing With Java"]
 date = 2023-02-21T00:00:00Z
 description = ""
 draft = false
-image = "/images/2023/02/testing-with-java-001.jpg"
+image = "/images/2023/testing-with-java/testing-with-java-001.jpg"
 slug = "testing-with-java-intro"
 tags = ["Software Craftsmanship", "Testing With Java"]
 title = "Testing With Java - Part 1 : Introduction"
@@ -12,7 +12,7 @@ title = "Testing With Java - Part 1 : Introduction"
 
 On July 22, 1962, Mariner 1 – America's first interplanetary spacecraft, lifted off from the ground on its way to fly by Venus. However, instead of the cheers and scientific breakthrough everyone expected, soon after the launch, the rocket started drifting northeast of its planned trajectory. Not responding to corrective measures, the rocket was finally ordered to self-destruct, just 5 minutes into its flight!
 
-<img style="float:right" src="/images/2023/02/testing-with-java-002.jpg" width="40%" height="40%" />
+<img style="float:right" src="/images/2023/testing-with-java/testing-with-java-001.jpg" width="40%" height="40%" />
 
 The loss of America's first interplanetary spacecraft constituted an $18.5 million ($166 million in today's money) setback for NASA. After five days of post-flight analysis, JPL engineers determined what had caused the malfunction on Mariner 1: an error in the guidance computer logic combined with a hardware failure.
 
@@ -40,22 +40,22 @@ Let’s start with an example. Suppose we want to write a method that takes a ye
 
 Let’s write the code first
 
-> ```
-> public class LeapYear {
->    public static boolean isLeapYear(int year) {
->        if (year % 4 == 0) {
->            if (year % 100 == 0) {
->                if (year % 400 == 0) {
->                    return true;
->                }
->                return false;
->            }
->            return true;
->        }
->        return false;
->    }
-> }
-> ```
+```java
+public class LeapYear {
+   public static boolean isLeapYear(int year) {
+       if (year % 4 == 0) {
+           if (year % 100 == 0) {
+               if (year % 400 == 0) {
+                   return true;
+               }
+               return false;
+           }
+           return true;
+       }
+       return false;
+   }
+}
+```
 
 To test whether this code works or not, let’s write some unit tests for it. We will test it with multiple inputs and verify that our code works as expected.
 
@@ -65,47 +65,40 @@ For unit testing in Java, we use JUnit. JUnit is a unit testing open-source fram
 
 Let’s write the test for the LeapYear code that we wrote earlier.
 
-> ```
-> import org.junit.Test;
-> import static org.junit.Assert.assertFalse;
-> import static org.junit.Assert.assertTrue;
-> public class LeapYearTest {
->   @Test
->   public void testLeapYear() {
->
->     // Test a leap year
->     assertTrue(LeapYear.isLeapYear(2020));
->
->     // Test a non-leap year
->     assertFalse(LeapYear.isLeapYear(2021));
->   }
-> }
-> ```
+```java
+import org.junit.Test;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+public class LeapYearTest {
+  @Test
+  public void testLeapYear() {
+    // Test a leap year
+    assertTrue(LeapYear.isLeapYear(2020));
+    // Test a non-leap year
+    assertFalse(LeapYear.isLeapYear(2021));
+  }
+}
+```
 
 On running these tests, we see that the tests pass and we can be sure that at least for the inputs we have provided, our code works properly. But, what about other inputs? What about edge cases? For that, we should have more tests so that all possible scenarios are covered.
 
 Let’s now add more test cases to cover all the possible scenarios for leap years. For example:
 
-> ```
-> @Test
->  public void testLeapYear() {
->
->    // Test a leap year
->    assertTrue(LeapYear.isLeapYear(2020));
->
->    // Test a non-leap year
->    assertFalse(LeapYear.isLeapYear(2021));
->
->    // Test a leap year divisible by 4 but not by 100
->    assertTrue(LeapYear.isLeapYear(2004));
->
->    // Test a leap year divisible by 4 and by 100 but not by 400
->    assertFalse(LeapYear.isLeapYear(1900));
->
->    // Test a leap year divisible by 4, by 100, and by 400
->    assertTrue(LeapYear.isLeapYear(2000));
->  }
-> ```
+```java
+@Test
+ public void testLeapYear() {
+   // Test a leap year
+   assertTrue(LeapYear.isLeapYear(2020));
+   // Test a non-leap year
+   assertFalse(LeapYear.isLeapYear(2021));
+   // Test a leap year divisible by 4 but not by 100
+   assertTrue(LeapYear.isLeapYear(2004));
+   // Test a leap year divisible by 4 and by 100 but not by 400
+   assertFalse(LeapYear.isLeapYear(1900));
+   // Test a leap year divisible by 4, by 100, and by 400
+   assertTrue(LeapYear.isLeapYear(2000));
+ }
+```
 
 With all these scenarios, we can be sure that our code is working properly.
 
@@ -123,6 +116,11 @@ The top reasons to take up Unit Testing are:
 
 Suppose with the LeapYear code, we get a new condition. We have to check if the input year is a leap year or not but also if it was in the 20th century. To account for this, we would go ahead and update the logic and then add the corresponding test for it. However, suppose, hundreds of such new conditions keep on coming. If we keep on going back to update the code first and then write test for it, we are bound to miss certain conditions, perhaps an edge case or two. To get over this problem, we need to follow the principle of TDD or Test-Driven-Development.
 
-<img style="float:left" src="/images/2023/02/testing-with-java-003.jpg" width="30%" height="30%" />
+<img style="float:left" src="/images/2023/testing-with-java/testing-with-java-003.jpg" width="30%" height="30%" />
 
 In TDD, we write a test first, run it, see that it fails, then write the correct production code, rerun the test, it passes. We can first go ahead and write all the tests for all the scenarios in an easy-to-understand language. The chances of missing a particular case here is pretty less. Then we go ahead and write the actual production code.
+
+**Read the next part of the series on [TDD](https://blog.incubyte.co/blog/testing-with-java-tdd/)**
+
+<br/>
+<br/>
