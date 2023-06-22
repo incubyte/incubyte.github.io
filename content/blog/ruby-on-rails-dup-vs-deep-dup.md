@@ -11,11 +11,11 @@ categories = ["Software Craftsmanship", "Ruby on Rails", "Dup", "Deep Dup"]
 type = ""
 +++
 
-We often use .dup in Ruby on Rails when we want to modify a copy of object without modifying the original object
+We often use `.dup` in Ruby on Rails when we want to modify a copy of an object without modifying the original object
 
 Usually everything works as expected
 
-But sometimes using .dup can land you in a trouble if your object contains nested values
+But sometimes using `.dup` can land you in trouble, if your object contains nested values
 
 Lets look at the below code to understand it better
 
@@ -56,13 +56,13 @@ What happened!
 
 Something is not right
 
-We tried to modify the city for user_dup object but in turn ended up modifying the city for original user object too
+We tried modifying the `city` field for `user_dup` object but ended up modifying `city` for the original user object too
 
 What went wrong here?
 
-The reason for this behaviour is Shallow Copy
+The reason for this behaviour is **Shallow Copy**
 
-When we call .dup method then it creates a new object with a different object_id but the inner attributes refer to same objects
+When we call the `.dup` method, it creates a new object with a different `object_id` but the nested attributes still refer to original object
 
 ```ruby
 user.object_id
@@ -77,9 +77,9 @@ user_dup[:name].object_id
 
 ```
 
-Due to this if we try to update value in a nested object then due to reference sharing data gets updated in both parent objects
+Due to this if we try to update a value in a nested object, then because of reference sharing the data gets updated in the parent object as well
 
-To avoid this we should use deep_dup instead of dup if our object contain deep nesting like the case of city which is nested inside address
+To avoid this we should use `deep_dup` instead of `dup` if our object contains deep nesting similar to our example where `city` is nested inside `address`
 
 Lets test the same situation now with deep_dup
 
