@@ -1,7 +1,7 @@
 +++
 title = "Prompt Engineering 101"
 slug = "prompt-engg"
-date = 2023-06-12T00:10:46+05:30
+date = 2023-06-23T00:10:46+05:30
 image = "/images/2023/prompt-engg.png"
 draft = false
 authors = ["Abhishek Keshri"]
@@ -33,35 +33,23 @@ Here are some guidelines to follow:
    Delimiters can be anything like triple backticks (```) or semicolon (;).
    For example, when providing multiple inputs, you can separate them using delimiters to ensure the model processes them correctly.
 
-___
-Input 1: This is the first input;
-
-Input 2: This is the second input;
-___
+{{<figure src="/images/2023/prompt-engg/1.jpg">}}
 
 2. Ask for a structured output format such as JSON or HTML.
    This helps in obtaining well-organized and easily parseable results.
-   For instance, if you want the model to generate an HTML table, specify the desired structure in your prompt.
+
+{{<figure src="/images/2023/prompt-engg/2.jpg">}}
 
 3. Instruct the model to check whether certain conditions are satisfied.
    This allows you to incorporate logical checks in the output.
-   For example, you can ask the model to verify if a given statement is true or false based on the provided information.
+
+{{<figure src="/images/2023/prompt-engg/3.jpg">}}
 
 4. Utilize the power of "few-shot" prompting.
    Instead of asking the model to perform a task from scratch, provide an example or a partial solution and ask it to do something similar.
    This enables the model to generalize from the given example and produce the desired output.
 
-Let's consider an example to illustrate these principles.
-Suppose we want the model to generate a JSON response with information about a user.
-We can prompt the model as follows:
-
-___
-Please generate a JSON response for the user information.
-
-User: John Doe,
-Age: 30,
-Email: johndoe@example.com
-___
+{{<figure src="/images/2023/prompt-engg/4.jpg">}}
 
 By clearly specifying the desired output format and providing structured inputs, we increase the likelihood of obtaining the desired JSON response.
 
