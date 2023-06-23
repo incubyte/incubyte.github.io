@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 21 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Jun 2023 00:10:46 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abhishek Keshri</title>
+      <link>https://blog.incubyte.co/authors/abhishek-keshri/</link>
+      <pubDate>Fri, 23 Jun 2023 00:10:46 +0530</pubDate>
+      
+      <guid>https://blog.incubyte.co/authors/abhishek-keshri/</guid>
+      <description>Passion Driven Software Craftsperson with a strong affinity for OSS and the CLI.</description>
+    </item>
+    
     <item>
       <title>Sutirtha Das</title>
       <link>https://blog.incubyte.co/authors/sutirtha-das/</link>
@@ -42,15 +51,6 @@
       
       <guid>https://blog.incubyte.co/authors/nitin-rajkumar/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Abhishek Keshri</title>
-      <link>https://blog.incubyte.co/authors/abhishek-keshri/</link>
-      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.incubyte.co/authors/abhishek-keshri/</guid>
-      <description>Passion Driven Software Craftsperson with a strong affinity for OSS and the CLI.</description>
     </item>
     
     <item>
