@@ -31,11 +31,7 @@
       </div>
     </div>
     <div class="banner-container bg-shcolor">
-      <img
-        class="img_small"
-        src="{{ .Params.banner_image |relURL }}"
-        alt="{{ .Title }}"
-      />
+      <img class="img_small" src="{{ .Params.banner_image |relURL }}" alt="{{ .Title }}" />
     </div>
     <div class="text-container">
       <h2 class="section-heading">BACKGROUND</h2>
@@ -88,11 +84,8 @@
       <div class="what-we-did-container">
         <div class="item">
           <div class="rounded-circle bg-secondary">
-            <img
-              class="rounded-circle"
-              style="width: 62px; height: 62px; background: #d9d9d9 !important"
-              src="{{ .Params.what_we_did_icon_1 |relURL }}"
-            />
+            <img class="rounded-circle" style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="{{ .Params.what_we_did_icon_1 |relURL }}" />
           </div>
           <p class="label">
             Three months to make the product globalization ready
@@ -101,11 +94,8 @@
 
         <div class="item">
           <div class="rounded-circle bg-secondary">
-            <img
-              class="rounded-circle"
-              style="width: 62px; height: 62px; background: #d9d9d9 !important"
-              src="{{ .Params.what_we_did_icon_2 |relURL }}"
-            />
+            <img class="rounded-circle" style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="{{ .Params.what_we_did_icon_2 |relURL }}" />
           </div>
           <p class="label">
             Following this, under seven days and minimal development effort to
@@ -115,11 +105,8 @@
 
         <div class="item">
           <div class="rounded-circle bg-secondary">
-            <img
-              class="rounded-circle"
-              style="width: 62px; height: 62px; background: #d9d9d9 !important"
-              src="{{ .Params.what_we_did_icon_3 |relURL }}"
-            />
+            <img class="rounded-circle" style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="{{ .Params.what_we_did_icon_3 |relURL }}" />
           </div>
           <p class="label">
             Launched in 52+ countries and 22+ languages in the following months
@@ -128,11 +115,8 @@
 
         <div class="item">
           <div class="rounded-circle bg-secondary">
-            <img
-              class="rounded-circle"
-              style="width: 62px; height: 62px; background: #d9d9d9 !important"
-              src="{{ .Params.what_we_did_icon_4 |relURL }}"
-            />
+            <img class="rounded-circle" style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="{{ .Params.what_we_did_icon_4 |relURL }}" />
           </div>
           <p class="label">
             Built trust and long-term association with the client to execute
@@ -150,10 +134,7 @@
           <div class="item">
             <p class="index">1.</p>
             <p class="label">Creating the approach</p>
-            <img
-              style="width: 28px; height: auto; align-self: start"
-              src="{{ .Params.right_arrow |relURL }}"
-            />
+            <img style="width: 28px; height: auto; align-self: start" src="{{ .Params.right_arrow |relURL }}" />
           </div>
         </a>
 
@@ -161,10 +142,7 @@
           <div class="item">
             <p class="index">2.</p>
             <p class="label">Tackling the frontend</p>
-            <img
-              style="width: 28px; height: auto; align-self: start"
-              src="{{ .Params.right_arrow |relURL }}"
-            />
+            <img style="width: 28px; height: auto; align-self: start" src="{{ .Params.right_arrow |relURL }}" />
           </div>
         </a>
 
@@ -172,10 +150,7 @@
           <div class="item">
             <p class="index">3.</p>
             <p class="label">Next step, the backend</p>
-            <img
-              style="width: 28px; height: auto; align-self: start"
-              src="{{ .Params.right_arrow |relURL }}"
-            />
+            <img style="width: 28px; height: auto; align-self: start" src="{{ .Params.right_arrow |relURL }}" />
           </div>
         </a>
 
@@ -183,10 +158,7 @@
           <div class="item">
             <p class="index">4.</p>
             <p class="label">Solution for emails</p>
-            <img
-              style="width: 28px; height: auto; align-self: start"
-              src="{{ .Params.right_arrow |relURL }}"
-            />
+            <img style="width: 28px; height: auto; align-self: start" src="{{ .Params.right_arrow |relURL }}" />
           </div>
         </a>
 
@@ -194,10 +166,7 @@
           <div class="item">
             <p class="index">5.</p>
             <p class="label">Support for RTL languages</p>
-            <img
-              style="width: 28px; height: auto; align-self: start"
-              src="{{ .Params.right_arrow |relURL }}"
-            />
+            <img style="width: 28px; height: auto; align-self: start" src="{{ .Params.right_arrow |relURL }}" />
           </div>
         </a>
       </div>
@@ -213,11 +182,15 @@
       </p>
 
       <p class="paragraph-body">
-        Since language is a crucial aspect affecting user experience, we needed a proper strategy to retrieve content in the target language based on user location.
+        Since language is a crucial aspect affecting user experience, we needed a proper strategy to retrieve content in
+        the target language based on user location.
       </p>
 
       <p class="paragraph-body">
-        Our approach was to extract the strings of content, save their translations, and serve this translated version to the end user. To achieve this, we set up several steps in the frontend, backend, and database. We also made our solution user-friendly by translating emails and supporting right-to-left languages to enhance user experience.
+        Our approach was to extract the strings of content, save their translations, and serve this translated version
+        to the end user. To achieve this, we set up several steps in the frontend, backend, and database. We also made
+        our solution user-friendly by translating emails and supporting right-to-left languages to enhance user
+        experience.
       </p>
 
     </div>
@@ -232,17 +205,24 @@
         language preference.
       </p>
       <p class="paragraph-body">
-        The first step in tackling the UI-embedded content was to move it from code to simple text files. This helps simplify the process of introducing new languages in the future. A new language can be added simply by replicating the flat file in a different language.
+        The first step in tackling the UI-embedded content was to move it from code to simple text files. This helps
+        simplify the process of introducing new languages in the future. A new language can be added simply by
+        replicating the flat file in a different language.
       </p>
       <p class="paragraph-body">
-        We used JSON files to separate code from the language embedded in it. Doing so ensures all content is available in one place, and a translation service can easily translate this content.
+        We used JSON files to separate code from the language embedded in it. Doing so ensures all content is available
+        in one place, and a translation service can easily translate this content.
       </p>
       <p class="paragraph-body">
-        In a global solution, there is a need for customized content based on the user’s location. In addition to generalizing common and hard coded content, helpline numbers are dynamically displayed based on user location to ensure users get the correct information. 
+        In a global solution, there is a need for customized content based on the user’s location. In addition to
+        generalizing common and hard coded content, helpline numbers are dynamically displayed based on user location to
+        ensure users get the correct information.
 
       </p>
       <p class="paragraph-body">
-        Lastly, we introduced Crowdin, a third-party translation provider, to get translations for new languages. To extend this further, we integrated Crowdin with GitHub PR workflow so that the automated pipelines can handle the translations without a developer’s manual intervention, saving time for the team. 
+        Lastly, we introduced Crowdin, a third-party translation provider, to get translations for new languages. To
+        extend this further, we integrated Crowdin with GitHub PR workflow so that the automated pipelines can handle
+        the translations without a developer’s manual intervention, saving time for the team.
       </p>
     </div>
 
@@ -252,16 +232,20 @@
       </h3>
 
       <p class="paragraph-body mt-3">
-        Maintaining consistency is vital in development, so we took similar steps in the backend to those in the frontend, ensuring a seamless user experience without disruptions.
+        Maintaining consistency is vital in development, so we took similar steps in the backend to those in the
+        frontend, ensuring a seamless user experience without disruptions.
       </p>
       <p class="paragraph-body">
-        We configured the application to deliver localized content based on the user’s language preferences. 
+        We configured the application to deliver localized content based on the user’s language preferences.
       </p>
       <p class="paragraph-body">
-        Initially, all content was retrieved directly from the database and passed to the frontend in English. As new languages were introduced, we made the necessary adjustments to the application to serve the translated data content instead.
+        Initially, all content was retrieved directly from the database and passed to the frontend in English. As new
+        languages were introduced, we made the necessary adjustments to the application to serve the translated data
+        content instead.
       </p>
       <p class="paragraph-body">
-        For translations, we opted for a hybrid of database and YAML files for serving translated content, using Crowdin as our choice tool for providing translations.
+        For translations, we opted for a hybrid of database and YAML files for serving translated content, using Crowdin
+        as our choice tool for providing translations.
       </p>
     </div>
     <div class="text-container">
@@ -297,19 +281,26 @@
       </h3>
 
       <p class="paragraph-body mt-3">
-        While the application empowered users to access content in their preferred language, supporting RTL language was the natural next step.
+        While the application empowered users to access content in their preferred language, supporting RTL language was
+        the natural next step.
       </p>
       <p class="paragraph-body">
-        For right-to-left languages such as Arabic, the UI usually appears mirrored. Based on this factor, we identified the elements that would appear mirrored to ensure an intuitive user experience.
+        For right-to-left languages such as Arabic, the UI usually appears mirrored. Based on this factor, we identified
+        the elements that would appear mirrored to ensure an intuitive user experience.
       </p>
       <p class="paragraph-body">
-        Bidirectionality is an integral part of the UI to support RTL content. An instance of this would be the direction of the arrow that indicates the back button in RTL languages. To accommodate this, we added bidirectional text and icons configured to mirror depending on the language needs. 
+        Bidirectionality is an integral part of the UI to support RTL content. An instance of this would be the
+        direction of the arrow that indicates the back button in RTL languages. To accommodate this, we added
+        bidirectional text and icons configured to mirror depending on the language needs.
       </p>
       <p class="paragraph-body">
-        At the same time, content types such as images appear the same irrespective of language. For this content, we added smart exceptions as they don’t adhere to RTL styling rules. The same applies to specific icons that don’t hold directional meaning.
+        At the same time, content types such as images appear the same irrespective of language. For this content, we
+        added smart exceptions as they don’t adhere to RTL styling rules. The same applies to specific icons that don’t
+        hold directional meaning.
       </p>
       <p class="paragraph-body">
-        Overall, the steps we took, such as translating English to RTL language and UI mirroring, transformed our solution into a robust tool that met the diverse needs of each end-user.
+        Overall, the steps we took, such as translating English to RTL language and UI mirroring, transformed our
+        solution into a robust tool that met the diverse needs of each end-user.
       </p>
       <p class="paragraph-body">
         *All the metrics in this case study are accurate as of the time of publishing.
@@ -386,11 +377,11 @@
     min-width: 200px !important;
   }
 
-  .stats > p {
+  .stats>p {
     margin: 0;
   }
 
-  .stats > p:first-child {
+  .stats>p:first-child {
     color: #0e3252;
     font-size: 60px;
     line-height: 32px;
@@ -463,7 +454,7 @@
     background-color: #f1f1f1;
   }
 
-  .banner-container > img {
+  .banner-container>img {
     width: 100%;
     margin: 0 auto 0 auto;
     display: flex;
@@ -480,7 +471,7 @@
     margin-bottom: 20px;
   }
 
-  .details-box > p {
+  .details-box>p {
     font-weight: 600;
     font-size: 20px;
     line-height: 27px;
@@ -488,7 +479,7 @@
     margin: 0;
   }
 
-  .details-box > p:first-child {
+  .details-box>p:first-child {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
@@ -537,14 +528,14 @@
     justify-content: space-between;
   }
 
-  .what-we-did-container > .item {
+  .what-we-did-container>.item {
     display: flex;
     justify-content: flex-start;
     gap: 16px;
     align-items: center;
   }
 
-  .what-we-did-container > .item > .label {
+  .what-we-did-container>.item>.label {
     color: black;
     font-style: normal;
     font-weight: 400;
@@ -555,7 +546,7 @@
     margin: auto;
   }
 
-  .what-we-did-container > .item > .index {
+  .what-we-did-container>.item>.index {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -659,19 +650,19 @@
       font-size: 16px;
     }
 
-    .stats > p:first-child {
+    .stats>p:first-child {
       font-size: 48px;
     }
   }
 
-  .project-highlights-grid > a > .item {
+  .project-highlights-grid>a>.item {
     display: flex;
     justify-content: flex-start;
     gap: 16px;
     align-items: flex-baseline;
   }
 
-  .project-highlights-grid > a > .item > .index {
+  .project-highlights-grid>a>.item>.index {
     font-size: 24px;
     font-weight: 700;
     line-height: 24px;
@@ -680,7 +671,7 @@
     color: black;
   }
 
-  .project-highlights-grid > a > .item > .label {
+  .project-highlights-grid>a>.item>.label {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
