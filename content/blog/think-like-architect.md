@@ -1,7 +1,7 @@
 +++
-title = "Think Like an Architect"
+title = "How to Think Like an Architect"
 slug = "think-like-architect"
-date = 2023-05-22T00:10:46+05:30
+date = 2023-06-28T00:10:46+05:30
 image = "/images/2023/think-like-architect.png"
 draft = false
 authors = ["Abhishek Keshri"]
@@ -10,8 +10,6 @@ tags = ["Architect", "Learning", "Software Craftsmanship"]
 categories = ["Architect", "Learning", "Software Craftsmanship"]
 type = ""
 +++
-
-# How to Think Like an Architect
 
 Architects possess a unique mindset that enables them to design and develop robust software architectures.
 Their ability to think strategically, make informed decisions, and balance trade-offs is vital for creating successful systems.
