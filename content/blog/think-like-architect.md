@@ -48,6 +48,8 @@ A well-designed architecture ensures system reliability, performance, and usabil
 
 ## Benefits of Architectural Thinking
 
+{{< figure src="/images/2023/think-like-architect-2.jpg" >}}
+
 Adopting architectural thinking provides several benefits that contribute to the success of software projects:
 
 - **Identify, Analyze, and Reconcile Trade-Offs:**
