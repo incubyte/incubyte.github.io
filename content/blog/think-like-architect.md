@@ -92,13 +92,13 @@ Here are some resources that you can use to stay updated and explore new ideas:
 
 To enhance your architect's mindset, keep the following tips in mind:
 
--   **Architecture, like software development, is an iterative process**.
+-   **Architecture is an iterative process,** just like software development.
 -   **Collaborative decision-making and communication are crucial in effective architecture**.
     Involving developers and business stakeholders provides a broader perspective and considers multiple viewpoints.
--   Be mindful of the context when making decisions.
-    **Consider the specific project requirements, constraints and objectives** to avoid falling into out-of-context traps.
+-   **Be mindful of the context when making decisions**
+    Consider the specific project requirements, constraints and objectives to avoid falling into out-of-context traps.
 -   **Avoid over-evangelizing a particular solution or technology**.
-    Architectural decisions should be driven by the project's unique needs rather than personal preferences or biases.
+    Architectural decisions should be driven by a project's unique needs rather than personal preferences or biases.
 
 
 By embracing the principles of architectural thinking, you can cultivate a mindset that enables you to approach software design and decision-making like an architect.
