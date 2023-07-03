@@ -48,31 +48,8 @@ A well-designed architecture ensures system reliability, performance, and usabil
 
 ## Benefits of Architectural Thinking
 
-{{< figure src="/images/2023/think-like-architect-2.jpg" >}}
+{{< figure src="/images/2023/think-like-architect-1.jpg" >}}
 
-Adopting architectural thinking provides several benefits that contribute to the success of software projects:
-
-- **Identify, Analyze, and Reconcile Trade-Offs:**
-
-Architectural thinking helps architects recognize and evaluate trade-offs between different design options.
-By understanding the implications of various choices, architects can find the right balance and make informed decisions that optimize the system's qualities.
-
-- **Understand the Importance of Business Drivers:**
-
-Architectural thinking involves considering business drivers, such as market trends, customer requirements, and organizational objectives.
-By comprehending these factors, architects align architectural decisions with business goals, ensuring the system's effectiveness and relevance.
-
-- **Maintain Technical Breadth with Working Depth:**
-
-Architects need both a broad understanding of various technologies, and a deep understanding of core concepts.
-Architectural thinking allows architects to get a wide range of technical knowledge while also maintaining expertise in specific areas.
-This balance enables effective decision-making and promotes architectural coherence.
-
-- **Translate between Business Needs and Architectural Characteristics:**
-
-Architectural thinking bridges the gap between business requirements and technical solutions.
-Architects can translate business needs into architectural characteristics such as scalability, security and performance.
-Likewise, they can convey technical possibilities and limitations to stakeholders in a meaningful way, facilitating mutual understanding.
 
 ## Identifying Architectural Characteristics
 
