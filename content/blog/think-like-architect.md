@@ -78,7 +78,7 @@ Discussions about system goals, performance expectations, and scalability requir
 Striking a balance between technical depth and breadth is essential for architects.
 Here's a breakdown of these two dimensions:
 
-{{< figure src="/images/2023/think-like-architect-2.jpg" >}}
+{{< figure src="/images/2023/think-like-architect-02.jpg" >}}
 
 ## The 20-Minute Rule
 
