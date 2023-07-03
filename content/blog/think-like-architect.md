@@ -78,19 +78,7 @@ Discussions about system goals, performance expectations, and scalability requir
 Striking a balance between technical depth and breadth is essential for architects.
 Here's a breakdown of these two dimensions:
 
-- **Things You Know:**
-
-This encompasses your existing technical knowledge and expertise, including concepts, frameworks, tools and languages you are proficient in.
-
-- **Things You Know You Don't Know:**
-
-Recognizing what you don't know is crucial for continuous learning and growth.
-Identifying gaps in your knowledge enables you to focus on get new skills and exploring unfamiliar areas.
-
-- **Things You Don't Know You Don't Know:**
-
-This refers to the vast realm of knowledge that you are unaware of.
-Embracing curiosity and seeking opportunities to expand your knowledge is key to thinking like an architect.
+{{< figure src="/images/2023/think-like-architect-2.jpg" >}}
 
 ## The 20-Minute Rule
 
