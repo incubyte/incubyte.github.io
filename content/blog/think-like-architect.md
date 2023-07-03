@@ -22,10 +22,10 @@ In this article, we dive deep into key principles and strategies that will help 
 ## The First Law of Software Architecture: Everything is a Trade-off
 
 The foundation of architectural thinking lies in understanding that everything in software architecture involves trade-offs.
-Architectural decisions require careful consideration of competing factors, such as,
-- performance vs. readability
-- modularity vs. reusability
-- flexibility vs. simplicity
+Architectural decisions require careful consideration of competing factors, such as
+- Performance vs. Readability
+- Modularity vs. Reusability
+- Flexibility vs. Simplicity
 
 A good architect recognizes and embraces these trade-offs, making balanced choices that align with a project's long-term goals.
 
