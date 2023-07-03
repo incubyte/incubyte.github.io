@@ -48,7 +48,9 @@ A well-designed architecture ensures system reliability, performance, and usabil
 
 ## Benefits of Architectural Thinking
 
+
 {{< figure src="/images/2023/think-like-architect-1.jpg" >}}
+
 
 
 ## Identifying Architectural Characteristics
