@@ -27,7 +27,7 @@ Architectural decisions require careful consideration of competing factors, such
 - modularity vs. reusability
 - flexibility vs. simplicity
 
-A good architect recognizes and embraces these trade-offs, making balanced choices that align with the project's long-term goals.
+A good architect recognizes and embraces these trade-offs, making balanced choices that align with a project's long-term goals.
 
 ## Architectural Thinking Impacts Businesses, Teams, and End Users 
 
