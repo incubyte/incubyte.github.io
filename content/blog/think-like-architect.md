@@ -46,8 +46,6 @@ Architectural thinking fosters effective collaboration and empowers team members
 
 A well-designed architecture ensures system reliability, performance, and usability. Thinking like an architect means you prioritize user experience, i.e., the needs of your end user.
 
-## Benefits of Architectural Thinking
-
 
 {{< figure src="/images/2023/think-like-architect-1.jpg" >}}
 
