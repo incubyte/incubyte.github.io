@@ -48,22 +48,22 @@ A well-designed architecture ensures system reliability, performance and usabili
 
 {{< figure src="/images/2023/think-like-architect-1.jpg" >}}
 
-## Identifying Architectural Characteristics
+## Strategies for Identifying Architectural Characteristics
 
 Identifying architectural characteristics is crucial for designing effective software systems.
 Here are some strategies to find and define these characteristics:
 
-- **Understanding the Business Domain:**
+- **Through Understanding the Business Domain:**
 
 Gain a deep understanding of the domain in which the software system will operate.
 This understanding helps identify key concerns, requirements and constraints that influence the architecture.
 
-- **In User Stories and Requirements:**
+- **Through User Stories and Requirements:**
 
 Architectural characteristics can often be found implicitly or explicitly in user stories and requirements documents.
 Pay attention to both functional and non-functional requirements, as they provide insights into the desired qualities of the system.
 
-- **In Business Conversations:**
+- **Through Business Conversations:**
 
 Engage in conversations with stakeholders, business analysts, and domain experts to uncover architectural characteristics.
 Discussions about system goals, performance expectations, and scalability requirements can reveal crucial insights for architectural decision-making.
