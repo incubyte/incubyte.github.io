@@ -11,7 +11,7 @@ categories = ["Architect", "Learning", "Software Craftsmanship"]
 type = ""
 +++
 
-Have you ever wondered what role architects play in software development?
+Have you ever wondered what skills it takes to be a software architect?
 
 While civil architects design awe-inspiring structures that stand the test of time, software architects craft intricate architectures that form the foundation of modern technology. Software architects mold the digital landscape as we know it.
 
