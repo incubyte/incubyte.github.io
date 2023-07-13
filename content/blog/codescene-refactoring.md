@@ -45,14 +45,14 @@ Code like the above soon starts growing in depth and breadth, which means these 
 
 One such method in the hotspot was the following
 
-![Initial code](https://drive.google.com/uc?export=view&id=1rPLNr3n4APx1KHybY8Hc_dgm9uCkMqYh "Initial code ")
+{{< figure src="/images/2023/codescene_refactoring/initial_function_code.png" >}}
 
 In these cases, to increase the readability and also the maintainability, it’s easy to start extracting methods, meaning, copying a part of the nested code and making a new method. Most IDEs support it fully automatically, meaning extracting method is low-risk and free of manual operations.
 
 
-![refactoring GIF](https://drive.google.com/uc?export=view&id=1wbuhw60mISaLbB2R0_Mg_sFWiD5sJDH- "refactoring GIF")
+{{< figure src="/images/2023/codescene_refactoring/refactor_gif.gif" >}}
 
 Now let’s look at the new code health rating.
 
-![final code health](https://drive.google.com/uc?export=view&id=11fpXcm-QuOCSJhAxX7LaK8hkZlkfBqAX "final code health")
+{{< figure src="/images/2023/codescene_refactoring/final.png" >}}
 
