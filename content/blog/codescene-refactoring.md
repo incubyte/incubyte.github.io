@@ -15,7 +15,7 @@ Most of the developer’s job turns out to be doing tactical activities. Adding 
 
 But there are small tidyings that one can work on which directly impact the quality of code and shift the developer’s work from tactical to strategic.
 
-We did a small exercise on the impact of such changes on overall code quality. We started with scanning [ElasticSerch Github Repository](https://github.com/elastic/elasticsearch) with [CodeScene](https://codescene.io)
+We did a small exercise on the impact of such changes on overall code quality. We started with scanning [Elasticsearch Github Repository](https://github.com/elastic/elasticsearch) with [CodeScene](https://codescene.io)
 
 CodeScene, a tool I came across after reading Software Design X-Rays, helps tech leaders uncover, prioritize, and solve the technical debt. 
 
