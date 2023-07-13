@@ -22,6 +22,7 @@ CodeScene, a tool I came across after reading Software Design X-Rays, helps tech
 Here is the screenshot of the initial code quality of one of the hotspots detected by CodeScene.
 
 ![Initial code health](https://drive.google.com/uc?export=view&id=1kEcsJdjHh1dQgwlOBN34pOFI2nFuSaeX "Initial code health")
+{{< figure src="/images/2023/think-like-architect-1.jpg" >}}
 
 When developers only focus on fixing the next bug or introducing the next feature, that very nature is also reflected in the code. Most of the time, it’s in the form of `if` and `else.` Because of this the code starts looking like 
 
