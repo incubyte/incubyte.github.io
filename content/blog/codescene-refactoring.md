@@ -2,7 +2,7 @@
 title = "From Refactoring To Tidying"
 slug = "refactoring-to-tidying"
 date = 2023-07-13T00:10:46+05:30
-image = "/images/2023/think-like-architect.png"
+image = "/images/2023/codescene_refactoring/refactor_header.png"
 draft = false
 authors = ["Sapan Parikh"]
 description = ""
