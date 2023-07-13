@@ -35,9 +35,14 @@ if(need to update){
 		mark them safe
 	}
 } else if(insert new records) {
-	for(all the new element){
-		add it to list
-	}
+	if(element comparison){
+        	for(all the new element){
+	            add it to list
+        	}
+        	for(all the new element){
+           	 mark them safe
+        	}
+    	}
 }
 ```
 
