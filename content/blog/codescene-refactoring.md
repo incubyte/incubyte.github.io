@@ -52,7 +52,7 @@ One such method in the hotspot was the following:
 
 {{< figure src="/images/2023/codescene_refactoring/initial_function_code.png" >}}
 
-In these cases, to increase the readability and also the maintainability, it’s easy to start extracting methods, meaning, copying a part of the nested code and making a new method. Most IDEs support it fully automatically, meaning extracting method is low-risk and free of manual operations.
+Here, to increase code readability and maintainability, it is easier to start extracting methods, i.e., copying a part of the nested code and making a new method. Most IDEs support it fully automatically, meaning extracting method is low-risk and free of manual operations.
 
 
 {{< figure src="/images/2023/codescene_refactoring/refactor_gif.gif" >}}
