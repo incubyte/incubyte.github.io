@@ -11,19 +11,19 @@ categories = ["Refactoring", "CodeScene"]
 type = ""
 +++
 
-Most of the developer’s job turns out to be doing tactical activities. Adding a text box here, adding a checkbox there, fixing a bug, or working with an outage. 
+It turns out that most of a developer’s tasks end up being tactical activities. Tasks such as adding a text box here, adding a checkbox there, fixing a bug, or working with an outage.
 
-But there are small tidyings that one can work on which directly impact the quality of code and shift the developer’s work from tactical to strategic.
+However, one can work on small tidying activities that directly impact code quality and shift the developer’s work from tactical to strategic.
 
-We did a small exercise on the impact of such changes on overall code quality. We started with scanning [Elasticsearch Github Repository](https://github.com/elastic/elasticsearch) with [CodeScene](https://codescene.io)
+We did a small exercise on the impact of such changes on overall code quality. We started with scanning [Elasticsearch Github Repository](https://github.com/elastic/elasticsearch) with [CodeScene](https://codescene.io).
 
-CodeScene, a tool I came across after reading Software Design X-Rays, helps tech leaders uncover, prioritize, and solve the technical debt. 
+CodeScene is a tool I came across after reading Software Design X-Rays, that helps tech leaders uncover, prioritize, and solve technical debt.
 
 Here is the screenshot of the initial code quality of one of the hotspots detected by CodeScene.
 
 {{< figure src="/images/2023/codescene_refactoring/initial.png" >}}
 
-When developers only focus on fixing the next bug or introducing the next feature, that very nature is also reflected in the code. Most of the time, it’s in the form of `if` and `else.` Because of this the code starts looking like 
+When developers focus solely on fixing bugs or introducing the next feature, that mindset tends to reflect in the code itself. Often, this will be in the form of `if` and `else' statements. As a result, the code begins looking like this:
 
 ```java
 if(need to update){
@@ -36,19 +36,19 @@ if(need to update){
 	}
 } else if(insert new records) {
 	if(element comparison){
-        	for(all the new element){
-	            add it to list
+		for(all the new element){
+			add it to list
         	}
         	for(all the new element){
-           	 mark them safe
+			mark them safe
         	}
     	}
 }
 ```
 
-Code like the above soon starts growing in depth and breadth, which means these methods tend to get longer and with nested logic. 
+Code like the above soon starts growing in depth and breadth, which means these methods tend to get longer, nested with logic.  
 
-One such method in the hotspot was the following
+One such method in the hotspot was the following:
 
 {{< figure src="/images/2023/codescene_refactoring/initial_function_code.png" >}}
 
