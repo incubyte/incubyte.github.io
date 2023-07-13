@@ -57,7 +57,7 @@ Here, to increase code readability and maintainability, it is easier to start ex
 
 {{< figure src="/images/2023/codescene_refactoring/refactor_gif.gif" >}}
 
-Now let’s look at the new code health rating.
+Now if you look at the new code health rating:
 
 {{< figure src="/images/2023/codescene_refactoring/final.png" >}}
 
