@@ -53,7 +53,7 @@ One such method in the hotspot was the following:
 To increase code readability and maintainability, it is easier to start extracting methods, i.e., copying a part of the nested code and creating a new method. Most IDEs support this process fully automatically, meaning extracting a method is low-risk and free of manual operations.
 
 
-{{< figure src="/images/2023/codescene_refactoring/refactor_gif.gif" >}}
+{{< figure src="/images/2023/codescene_refactoring/refactor-gif.gif" >}}
 
 Now, if you look at the new code health rating:
 
