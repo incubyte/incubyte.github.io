@@ -1,5 +1,5 @@
 +++
-title = "From Refactoring To Tidying: Compounding Effect of Small Code Changes"
+title = "The Compounding Effect of Tidying Using CodeScene"
 slug = "refactoring-to-tidying"
 date = 2023-07-13T00:10:46+05:30
 image = "/images/2023/codescene_refactoring/blog_header.jpg"
@@ -63,11 +63,9 @@ Now, if you look at the new code health rating:
 
 {{< figure src="/images/2023/codescene_refactoring/final.png" >}}
 
-A simple shortcut in the IDE has improved the code quality from 3.4 to 3.7, i.e., making a small change has led to an 8.5% improvement in the quality of the entire file. 
+A simple shortcut in the IDE has improved the code quality from 3.41 to 3.7, i.e., making a small change has led to an 8.5% improvement in the quality of the entire file. 
 
-## Takeaways
+## Conclusion
 
-The compounding effect of refactoring is evident in code quality over time. As the saying goes, small changes garner big wins. 
-
-Similarly, in code, small fixes or tidyings translate to healthy code. Just think of it as simplifying complex code to enhance readability, benefiting both present and future developer teams. 
+As the saying goes, small changes garner big wins. Similarly, in code, the compounding effect of refactoring is evident in healthy code quality over time. Just think of it as simplifying complex code to enhance readability, benefiting both present and future developer teams. 
 
