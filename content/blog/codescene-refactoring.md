@@ -21,7 +21,7 @@ Unlike traditional code analysis tools, CodeScene focuses on trends rather than 
 
 ## Working with CodeScene
 
-We conducted a small exercise on the impact of such changes on overall code quality. We started by scanning [Elasticsearch Github Repository](https://github.com/elastic/elasticsearch) with [CodeScene](https://codescene.io) and focused on the hotspots reported by the tool. ([Hotspots](https://codescene.com/blog/prioritize-technical-debt-by-impact/) are complex code that you have to work with frequently – that is, technical debt with high interest).
+We conducted a small exercise on the impact of such changes on overall code quality. We started by scanning [Elasticsearch Github Repository](https://github.com/elastic/elasticsearch) with CodeScene and focused on the hotspots reported by the tool. ([Hotspots](https://codescene.com/blog/prioritize-technical-debt-by-impact/) are complex code that you have to work with frequently – that is, technical debt with high interest).
 
 Here is the screenshot of the initial code quality of one of the hotspots detected by CodeScene.
 
