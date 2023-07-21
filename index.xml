@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 28 Jun 2023 00:10:46 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 00:10:46 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Compounding Effect of Tidying Using CodeScene</title>
+      <link>https://blog.incubyte.co/blog/refactoring-to-tidying/</link>
+      <pubDate>Fri, 21 Jul 2023 00:10:46 +0530</pubDate>
+      
+      <guid>https://blog.incubyte.co/blog/refactoring-to-tidying/</guid>
+      <description>It turns out that most of a developer&amp;rsquo;s tasks end up being tactical activities, such as adding a text box here, adding a checkbox there, fixing a bug, or working with an outage.</description>
+    </item>
+    
     <item>
       <title>How to Think Like an Architect</title>
       <link>https://blog.incubyte.co/blog/think-like-architect/</link>
