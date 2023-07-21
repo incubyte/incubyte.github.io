@@ -11,7 +11,7 @@ categories = ["Refactoring", "CodeScene"]
 type = ""
 +++
 
-It turns out that most of a developer's tasks end up being tactical activities, such as adding a text box here, adding a checkbox there, fixing a bug, or working with an outage. However, embodying the boy scout rule, one can always find small tidying activities that directly impact code quality and shift the developer’s work from tactical to strategic.
+It turns out that most of a developer's tasks end up being tactical activities, such as adding a text box here, adding a checkbox there, fixing a bug, or working with an outage. However, embodying the boy scout rule, one can always find small tidying opportunities that directly impact code quality and shift the developer’s work from tactical to strategic.
 
 ## A Tool to Enhance Code Health
 
