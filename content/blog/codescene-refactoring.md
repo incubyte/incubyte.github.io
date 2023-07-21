@@ -1,7 +1,7 @@
 +++
 title = "The Compounding Effect of Tidying Using CodeScene"
 slug = "refactoring-to-tidying"
-date = 2023-07-13T00:10:46+05:30
+date = 2023-07-21T00:10:46+05:30
 image = "/images/2023/codescene_refactoring/blog_header.jpg"
 draft = false
 authors = ["Sapan Parikh", "Adam Tornhill"]
