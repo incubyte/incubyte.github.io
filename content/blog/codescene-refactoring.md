@@ -25,7 +25,7 @@ We conducted a small exercise on the impact of such changes on overall code qual
 
 Here is the screenshot of the initial code quality of one of the hotspots detected by CodeScene.
 
-{{< figure src="/images/2023/codescene_refactoring/initial.png" >}} <i>Here, code quality is rated on a scale of 1(worst) to 10(best).</i>
+{{< figure src="/images/2023/codescene_refactoring/initial.png" >}} <i text-align:center>Here, code quality is rated on a scale of 1(worst) to 10(best).</i>
 
 When developers solely focus on fixing bugs or introducing the next feature, that mindset tends to reflect in the code itself. Often, this is evident in the form of 'if' and 'else' statements. As a result, the code starts looking like this:
 
