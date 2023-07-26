@@ -9,9 +9,13 @@ tags = ["DevEx"]
 title = "Four Lenses of Productivity: Incubyte Take"
 +++
 
+
+
+This blog discusses different levels of productivity along with common pitfalls and different ways to optimize them. Recently I came across this blog by [Abi Noda](https://newsletter.abinoda.com/p/four-lenses-of-productivity). It interestingly talks about productivity at Individual, Team, Organization, and Market levels. 
+
+
 {{< circlepack data="ind-team-org-market.csv" >}}
 
-Recently I came across this blog by [Abi Noda](https://newsletter.abinoda.com/p/four-lenses-of-productivity). It interestingly talks about different levels of productivity.
 
 ## Individual Productivity:
 > Individual is the most obvious lens for thinking about productivity, relating to developers’ progress on tasks, learning new skills, and the quality of their work.
