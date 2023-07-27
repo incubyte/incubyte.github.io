@@ -15,6 +15,7 @@ This blog discusses different levels of productivity along with common pitfalls 
 
 
 {{< circlepack data="ind-team-org-market.csv" >}}
+<i>Click to zoom and view the different levels</i>
 
 
 ## Individual Productivity:
