@@ -1,7 +1,7 @@
 +++
 authors = ["Sapan Parikh"]
 date = 2023-07-24T00:00:00Z
-description = "How productivity varies at individual, teams, organization and market leve and what can impact it."
+description = "How productivity varies at individual, team, organization, and market level and what can impact it."
 draft = false
 image = "/images/2021/11/checklist2.jpg"
 slug = "four-lenses-of-productivity"
