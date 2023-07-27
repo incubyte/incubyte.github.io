@@ -21,16 +21,16 @@ This blog discusses different levels of productivity along with common pitfalls 
 > Individual is the most obvious lens for thinking about productivity, relating to developers’ progress on tasks, learning new skills, and the quality of their work.
 
 ### Fuel
-A research paper on [DevEx](https://dl.acm.org/doi/pdf/10.1145/3595878) states that the primary driver of developer productivity is Flow State, Feedback Loop, and Cognitive Load.
-Additionally, smaller batch sizes and lesser WIP may increase productivity because it would lead to lesser half-baked work.
+A research paper on [DevEx](https://dl.acm.org/doi/pdf/10.1145/3595878) states that the primary driver of developer productivity is— flow state, feedback loop, and cognitive load.
+
+Additionally, smaller batch sizes and lesser work in progress (WIP) may increase productivity, as they lead to less half-baked work."
 
 ### Breaks
 Lack of documentation may increase cognitive load because of time spent understanding topics.
-Also, high WIP and slow feedback loops, like long wait times and queues in code reviews, may interrupt developers and prevents them from entering the flow state.
+Additionally, high WIP and slow feedback loops, such as long wait times and queues in code reviews, can interrupt developers and prevent them from entering the flow state.
 
 ### Wrong Turn
-The biggest mistake developers make is to misunderstand *productivity* itself. Assuiming development activity is productivity. That’s when developers move lot of development items to something like “ready for qa” queue and consider it a “win”.
-
+The biggest mistake developers make is to misunderstand *productivity* itself. Assuming development activity as productivity, they move a lot of development items to something like a “ready for qa” queue and consider it a “win.”
 
 ## Team Productivity:
 > When we think about team productivity, we think about how efficiently the team can meet requirements.
@@ -53,30 +53,32 @@ Trying to keep everyone at 100% of efficiency.
 As we observed earlier with team productivity, organizational productivity is not the sum of each team’s productivity.
 
 ### Fuel:
-Most companies start small, and their code grows fast to accommodate new market requirements. This code needs constant adjustments to accommodate fast change in terms of architecture and system design. These are the times when you make decisions like microservices or monolith!
+Most companies start small, and their code grows fast to accommodate new market requirements. This code needs continuous adjustments to accommodate fast change in terms of architecture and system design. These are the times when you make decisions like choosing between microservices or monolith!
 
 Other policies may surround team designs, along with architecture. Creating cross-functional teams
 aligned with modules and microservices, removing roles, and aligned teams.
 
-Another important tool is to have clearly defined goal, values, and mission and have them propagated to the entire company.
+Another important tool is to have clearly defined goals, values, and a mission and have them propagated to the entire company.
 
 ### Break
 Resistance to change
 
 ### Pitfalls
-As companies grow, their values change, and sometimes so do the goals. And occasionally, these goals take the entire company away from the core craft. A story can best explain this phenomenon. There was a time when Boeing focused on making invincible flying machines. That was also when they made the best profits. But with the new leadership, their goal changed to return on investment for shareholders. Guess when they made more profits?
+As companies grow, their values change, and sometimes so do the goals. And occasionally, these goals take the entire company away from the core craft. 
+
+A story can best explain this phenomenon. There was a time when Boeing focused on making invincible flying machines. That was also when they made the best profits. But with the new leadership, their goal changed to return on investment for shareholders. Guess when they made more profits?
 
 
 ## Market Productivity:
 Finally, individual, team, and organizational productivities align to make every end user productive.
 
 ### Breaks:
-Market productivity decreases when companies have such long planning and release cycles that they can’t quickly accommodate the needs of a changing market.
-I do not have ideas to add the reasons but I think analysis paralysis, little freedom to developers, too much freedom to developers may cause slower market change!
+Market productivity decreases when companies have long planning and release cycles that they can’t quickly accommodate the needs of a changing market.
+I do not have ideas to add the reasons, but I think analysis paralysis, little freedom to developers or too much freedom to developers may cause slower market change!
 
 ## Final Thoughts
 
-What surprises me is how most of us look at productivity from just one lens, *Individual Productivity* most probably because of how typical companies are organized, and how employees are incentivized.
+What surprises me is how most of us look at productivity from just one lens, *Individual Productivity*. Most probably because of how typical companies are organized and how their employees are incentivized.
 
 If you look at a run-of-the-mill org chart, it would look like a pyramid. At the base, there’d be many employees and three, four, or more levels before you reach the top. Each person at the base is rewarded for being productive individually. I think that’s why organizations may see a lot of employee activity but not much productivity at the org level.
 
