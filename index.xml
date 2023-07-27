@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 21 Jul 2023 00:10:46 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jul 2023 20:04:38 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chandrayaan 3 TDD Assessment</title>
+      <link>https://blog.incubyte.co/blog/chandrayaan-3-tdd-assessment/</link>
+      <pubDate>Thu, 27 Jul 2023 20:04:38 +0530</pubDate>
+      
+      <guid>https://blog.incubyte.co/blog/chandrayaan-3-tdd-assessment/</guid>
+      <description>Before you begin A Software Craftsperson at Incubyte is a person who has a strong commitment to the craft of software development.</description>
+    </item>
+    
     <item>
       <title>The Compounding Effect of Tidying Using CodeScene</title>
       <link>https://blog.incubyte.co/blog/refactoring-to-tidying/</link>
