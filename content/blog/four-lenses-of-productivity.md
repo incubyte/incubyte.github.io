@@ -56,8 +56,9 @@ As we observed earlier with team productivity, organizational productivity is no
 ### Fuel:
 Most companies start small, and their code grows fast to accommodate new market requirements. This code needs continuous adjustments to accommodate fast change in terms of architecture and system design. These are the times when you make decisions like choosing between microservices or monolith!
 
-Other policies may surround team designs, along with architecture. Creating cross-functional teams
-aligned with modules and microservices, removing roles, and aligned teams.
+Other policies may surround team designs along with architecture. Creating cross-functional teams
+aligned with modules and microservices instead of roles. 
+For example, it's much better to have a payments team, orders team, or fulfillment team as opposed to a QA team, development team, deployment team, etc.
 
 Another important tool is to have clearly defined goals, values, and a mission and have them propagated to the entire company.
 
