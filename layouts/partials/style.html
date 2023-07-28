@@ -94,7 +94,7 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
     .navigation-bar {
       padding: 8px 10px;
     }
-    
+
     .theme-toggle {
       display: none;
     }
@@ -362,6 +362,27 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
 
   body.dark-theme .newsletter p {
     color: white;
+  }
+
+  .newsletter {
+      margin-bottom: 30px;
+  }
+
+  @media (max-width: 768px) {
+    .newsletter, .width-small-100{
+          width: 100%;
+    }
+  }
+
+  .newsletter, .pixel-style-box {
+    margin: 2rem auto;
+    border: 8px solid #5bc6d4;
+    color: #fff;
+    padding: 2ch;
+    position: relative;
+    border-image:
+      url("data:image/svg+xml, %3Csvg fill='none' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='linear-gradient' x1='7.3%25' y1='25%25' x2='93.7%25' y2='50%25' gradientTransform='rotate(-20)'%3E%3Cstop offset='0%25' stop-color='blue' /%3E%3Cstop offset='15%25' stop-color='%2300f73b' /%3E%3Cstop offset='50%25' stop-color='%235bc6d4' /%3E%3Cstop offset='85%25' stop-color='%2300f73b' /%3E%3Cstop offset='100%25' stop-color='blue' /%3E%3CanimateTransform attributeName='gradientTransform' type='translate' from='-1 0' to='1 0' begin='0s' dur='10s' repeatCount='indefinite'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath clip-rule='evenodd' d='M16 0H8v4H4v4H0v8h4v4h4v4h8v-4h4v-4h4V8h-4V4h-4V0zm0 4v4h4v8h-4v4H8v-4H4V8h4V4h8z' fill='url(%23linear-gradient)' class='color' fill-rule='evenodd' /%3E%3C/svg%3E")
+      8 stretch;
   }
 
   /*END:  Dark Theme */
