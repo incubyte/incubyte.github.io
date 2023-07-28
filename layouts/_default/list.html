@@ -35,7 +35,12 @@
                 </article>
             </div>
             {{ end }}
-            {{ $paginator := .Paginate .Data.Pages }}
+
+          <div class="col-lg-4 col-sm-6 mb-5 subscribe-message-in-blogs">
+              {{ partial "subscribe.html" . }}
+          </div>
+
+          {{ $paginator := .Paginate .Data.Pages }}
             {{ range $paginator.Pages }}
             <div class="col-lg-4 col-sm-6 mb-5">
                 <article class="card border-0">
@@ -63,6 +68,9 @@
                 {{ template "_internal/pagination.html" . }}
             </div>
         </div>
+    </div>
+    <div class="subscribe-message">
+      {{ partial "subscribe.html" . }}
     </div>
 </section>
 {{ else }}

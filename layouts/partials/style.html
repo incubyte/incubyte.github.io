@@ -385,5 +385,68 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
       8 stretch;
   }
 
+  .subscribe-message {
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    width: calc(50% - 570px - 32px);
+  }
+
+  @media (max-width: 1800px) {
+    .subscribe-message {
+      position: relative;
+      width: 100%;
+      right: 0;
+    }
+  }
+
+  .subscribe-message .col-max-small-container {
+    flex: 0 0 100% !important;
+    max-width: 100%;
+  }
+
+  .subscribe-message .width-small-100 {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  @media (min-width: 1800px) {
+    .subscribe-message-in-blogs {
+      display: none;
+    }
+  }
+
+  .subscribe-message-in-blogs{
+    height: inherit;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .subscribe-message-in-blogs .newsletter {
+    margin: 0 !important;
+    height: 100%;
+  }
+
+  .subscribe-message-in-blogs .col-max-small-container {
+    flex: 0 0 100% !important;
+    max-width: 100%;
+  }
+
+  .subscribe-message-in-blogs .width-small-100 {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .subscribe-message .pixel-style-box:before {
+    content: "";
+    position: absolute;
+    right: -32px;
+    top: calc(50% - 14px);
+    width: 24px;
+    height: 28px;
+    border: 0 !important;
+    background-image: url("data:image/svg+xml,%3Csvg fill='none' viewBox='4 0 24 28' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient gradientTransform='rotate(-30)' id='linear-gradient2' x1='7.3%25' x2='93.7%25' y1='25%25' y2='75%25'%3E%3Cstop offset='0%25' stop-color='blue' /%3E%3Cstop offset='15%25' stop-color='%2300f73b' /%3E%3Cstop offset='50%25' stop-color='%235bc6d4' /%3E%3Cstop offset='85%25' stop-color='%2300f73b' /%3E%3Cstop offset='100%25' stop-color='blue' /%3E%3CanimateTransform attributeName='gradientTransform' begin='-5s' dur='10s' from='-1 0' repeatCount='indefinite' to='1 0' type='translate' /%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M4 0H0v8h12v4h4v4h-4v4H0v8h4v-4h8v-4h4v-4h8v-4h-8V8h-4V4H4V0z' fill='url(%23linear-gradient2)' /%3E%3C/svg%3E");
+  }
+
   /*END:  Dark Theme */
 </style>
