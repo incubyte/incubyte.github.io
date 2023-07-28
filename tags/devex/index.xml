@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevEx on Incubyte Blog</title>
+    <link>https://blog.incubyte.co/tags/devex/</link>
+    <description>Recent content in DevEx on Incubyte Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2022 Incubyte. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/tags/devex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Four Lenses of Productivity: Incubyte Take</title>
+      <link>https://blog.incubyte.co/blog/four-lenses-of-productivity/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.incubyte.co/blog/four-lenses-of-productivity/</guid>
+      <description>This blog discusses different levels of productivity along with common pitfalls and different ways to optimize them.</description>
+    </item>
+    
+  </channel>
+</rss>
