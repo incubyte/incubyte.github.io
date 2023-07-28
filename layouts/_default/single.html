@@ -35,10 +35,11 @@
           .Date.Format "Monday, January 2, 2006"}}
         </p>
 
+        {{ partial "subscribe.html" . }}
+
         <div class="content">{{.Content}}</div>
-
-
-        {{ partial "share-buttons.html" . }} {{ partial "subscribe.html" . }}
+        
+        {{ partial "share-buttons.html" . }}
 
         <!-- comments -->
         {{ if site.DisqusShortname }}
