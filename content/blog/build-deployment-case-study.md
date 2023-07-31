@@ -2,12 +2,12 @@
 authors = ["Sapan Parikh"]
 categories = ["Case Study", "Modernization"]
 date = 2023-07-31T00:00:00Z
-description = "Streamlining Expense Tracking Process by Modernizing a Solution for a US-Based Expense Management Solution Provider"
 draft = false
 image = "/images/2023/build-deployment-case-study/blog-banner.jpg"
 slug = "build-deployment-case-study"
 tags = ["Case Study", "Modernization"]
 title = "Modernizing a Legacy System: Build and Deployment"
+description = "Streamlining Expense Tracking Process by Modernizing a Solution for a US-Based Expense Management Solution Provider"
 banner_image = "/images/2023/build-deployment-case-study/blog-banner.jpg"
 open_quote = "/images/2023/open-quote.png"
 close_quote = "/images/2023/close-quote.png"
