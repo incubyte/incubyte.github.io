@@ -20,7 +20,7 @@ This blog discusses different levels of productivity along with common pitfalls 
 
 ## Individual Productivity
 > Individual is the most obvious lens for thinking about productivity, relating to developers’ progress on tasks, learning new skills, and the quality of their work.
-> -Abi Noda
+> — Abi Noda
 
 ### Fuel
 A [research paper](https://dl.acm.org/doi/pdf/10.1145/3595878) on DevEx states that the primary driver of developer productivity is— flow state, feedback loop, and cognitive load.
@@ -36,7 +36,7 @@ The biggest mistake developers make is to misunderstand *productivity* itself. A
 
 ## Team Productivity
 > When we think about team productivity, we think about how efficiently the team can meet requirements.
-> -Abi Noda
+> — Abi Noda
 
 A team’s productivity is not equal to the sum of every individual’s productivity. It may not even be the average of everyone’s productivity. It may be as high as the slowest bottleneck of the value stream!
 
@@ -48,11 +48,11 @@ Think from a value stream perspective, and remove silos and queues where work si
 
 
 ### Wrong Turns
-Trying to keep everyone at 100% of efficiency.
+Trying to keep every individual in the team at 100% efficiency
 
 ## Organization Productivity
 > Viewing productivity through an organizational lens is even more broad. The author of this paper mainly focuses on this lens as it relates to the influence of the company’s policies, norms, and processes on how efficiently work can move at the team and individual levels.
-> -Abi Noda
+> — Abi Noda
 
 As we observed earlier with team productivity, organizational productivity is not the sum of each team’s productivity.
 
@@ -76,7 +76,7 @@ A story can best explain this phenomenon. There was a time when Boeing focused o
 
 ## Market Productivity
 > Viewing productivity from a market lens acknowledges that the whole purpose of an organization that creates software is to provide value to customers and other stakeholders.
-> -Abi Noda
+> — Abi Noda
 
 Finally, individual, team, and organizational productivities align to make every end user productive.
 
