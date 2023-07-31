@@ -652,7 +652,7 @@ if (!doNotTrack) {
         .size([diameter - margin, diameter - margin])
         .padding(2);
 
-    d3.json("ind-team-org-market.json", function(error, root) {
+    d3.json("blog/four-lenses-of-productivity/ind-team-org-market.json", function(error, root) {
         if (error) throw error;
 
         root = d3.hierarchy(root)
