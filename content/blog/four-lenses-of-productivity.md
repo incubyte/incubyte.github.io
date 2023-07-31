@@ -6,7 +6,7 @@ draft = false
 image = "/images/2021/11/checklist2.jpg"
 slug = "four-lenses-of-productivity"
 tags = ["DevEx"]
-title = "Four Lenses of Productivity: Incubyte Take"
+title = "Four Lenses of Productivity: Incubyte's Take"
 +++
 
 
@@ -15,16 +15,16 @@ This blog discusses different levels of productivity along with common pitfalls 
 
 
 {{< circlepack data="ind-team-org-market.csv" >}}
-<i>Click to zoom and view the different levels</i>
+<i>Click to drill down</i>
 
 
 ## Individual Productivity:
 > Individual is the most obvious lens for thinking about productivity, relating to developers’ progress on tasks, learning new skills, and the quality of their work.
 
 ### Fuel
-A research paper on [DevEx](https://dl.acm.org/doi/pdf/10.1145/3595878) states that the primary driver of developer productivity is— flow state, feedback loop, and cognitive load.
+A [research paper](https://dl.acm.org/doi/pdf/10.1145/3595878) on DevEx states that the primary driver of developer productivity is— flow state, feedback loop, and cognitive load.
 
-Additionally, smaller batch sizes and lesser work in progress (WIP) may increase productivity, as they lead to less half-baked work."
+Additionally, smaller batch sizes and lesser work in progress (WIP) may increase productivity, as they lead to less half-baked work.
 
 ### Breaks
 Lack of documentation may increase cognitive load because of time spent understanding topics.
