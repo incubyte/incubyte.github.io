@@ -44,7 +44,7 @@ A team’s productivity is not equal to the sum of every individual’s producti
 Work queues decrease a team’s productivity. These queues are usually created at the tail end of the software delivery process, like in manual testing. Also, having different definitions of done for each team role makes everyone busy (in moving tickets to the next guy) but may not make the team productive.
 
 ### Fuel
-From a value stream perspective, it may help if you remove silos and queues where work sits. Additionally, aligning everyone on what "done" means is important.
+From a value stream perspective, it helps to remove silos and queues where work sits. Additionally, aligning everyone on what "done" means is important.
 
 ### Wrong Turns
 Trying to keep every individual in the team at 100% efficiency
