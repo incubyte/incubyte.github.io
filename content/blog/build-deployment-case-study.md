@@ -1,7 +1,7 @@
 +++
 authors = ["Sapan Parikh"]
 categories = ["Case Study", "Modernization"]
-date = 2022-07-31T00:00:00Z
+date = 2023-07-31T00:00:00Z
 description = "Streamlining Expense Tracking Process by Modernizing a Solution for a US-Based Expense Management Solution Provider"
 draft = false
 image = "/images/2023/monnai-case-study/monnai-banner-blog.jpg"
