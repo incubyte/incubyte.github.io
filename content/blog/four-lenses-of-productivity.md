@@ -47,7 +47,7 @@ Work queues decrease a team’s productivity. These queues are usually created a
 From a value stream perspective, it helps to remove silos and queues where work sits. Additionally, aligning everyone on what "done" means is important.
 
 ### Wrong Turns
-Trying to keep every individual in the team at 100% efficiency
+Trying to keep every individual in the team at 100% efficiency.
 
 ## Organization Productivity
 > Viewing productivity through an organizational lens is even more broad. The author of this paper mainly focuses on this lens as it relates to the influence of the company’s policies, norms, and processes on how efficiently work can move at the team and individual levels.
