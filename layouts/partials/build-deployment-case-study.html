@@ -139,11 +139,11 @@
         </h3>
   
         <p class="paragraph-body mt-3">
-          Our client’s significant issue was the lack of proper structure, whether in the codebase or processes they followed
+          Our client’s significant issue was the lack of proper structure, whether in the codebase or processes they followed.
         </p>
   
         <p class="paragraph-body">
-          In our case, the way the source code was stored in the version control system and how a development environment understood it were at odds with each other.
+          In our case, the way the source code was stored in the version control system and how a development environment understood it were at odds with each other. 
         </p>
   
         <p class="paragraph-body">
@@ -153,141 +153,104 @@
         </p>
   
         <p class="paragraph-body">
-          As mentioned, manual errors inevitably started creeping in as agents
-          worked on a contract and performed multiple actions, such as numerous
-          clicks and data entries. Agents had to rework the same contract leading
-          to a high turnaround time for a single contract.
-        </p>
-  
-        <p class="paragraph-body">
-          On close examination, this issue persisted across all the departments.
+         We created a strategy to organize the entire source code, resulting in, 
+            1.    Faster source code environment setup time
+            2.    Reduced onboarding overhead for new developers joining the team
+            3.    Accelerated build and release process by adopting conventions, leading to a decreased lead time for feature delivery
+
         </p>
       </div>
       <div class="text-container">
         <h3 class="project-highlights-subheading mt-4" id="highlight_2">
-          2. CENTRALIZED SYSTEM TO ACCESS LOAN CONTRACTS
+          2. SETTING UP A BUILD MANAGEMENT SYSTEM
         </h3>
   
         <p class="paragraph-body mt-3">
-          Before we partnered, our client had no centralized access system.
-          Instead, the agents had to do multiple logins to different branch
-          systems to find the correct contract and then log in to other workflow
-          systems to work on them.
+          In the world of Java, Gradle is one of the standard build and dependency management systems.
         </p>
         <p class="paragraph-body">
-          The first problem we wanted to tackle was designing and developing a
-          centralized system to access and work on all the contracts. This led to
-          us developing the Customer Account Technology System or CATS.
+          For our client, setting up Gradle solved the massive problem of manually performing numerous tasks to create a build. All while hoping and praying the build doesn’t fail.
         </p>
         <p class="paragraph-body">
-          Our approach solved the multiple sign-in problems; the agents would only
-          have to sign in once to access everything from everywhere.
+          Tools like Gradle bring the following to the table:
+        </p>
+          <p class="paragraph-body">
+          <ul>
+              <li>
+                  <b>Automation:</b> Steps to build and test are documented as executable code so that builds are automated, consistent, and reproducible.
+              </li>
+              <li>
+                  <b>Uniformity:</b> Configuration of software dependencies is stored in the version control system that enforces uniformity across different deployment environments like developer’s machine, test, and production. This uniformity reduces errors typically labeled by saying, “works on my machine”.
+              </li>
+          </ul>
         </p>
       </div>
   
       <div class="text-container">
         <h3 class="project-highlights-subheading mt-4" id="highlight_3">
-          3. ADDRESSING PRIVACY CONCERNS
+          3. INTRODUCING QUALITY GATES VIA CI/CD AND SONAR
         </h3>
   
         <p class="paragraph-body mt-3">
-          As our client is a leading banking institution, they deal with
-          customer-sensitive information such as PII (Personal Identification
-          Information).
+          With Gradle available, our next goal was frequent and smooth deployments. Hence, we established CI/CD (Continuous Integration and Continuous Deployment) pipelines, which automate building, testing, scanning, and deploying code, bringing in predictability in every release.
         </p>
         <p class="paragraph-body">
-          Since our clients primarily relied on on-prem servers, there were many
-          concerns regarding the security of this data on the cloud.
+          Thanks to the introduction of proper code review processes, developers no longer work in silos and are responsible for peer-reviewing code changes before merging them into production. This stops new errors from stacking on top of existing problems. 
         </p>
         <p class="paragraph-body">
-          Our solution was to design a cloud-based system that doesn’t store any
-          PII data. To address security concerns regarding the PII data, we
-          decided not to keep sensitive data in our cloud-based application but
-          instead on the existing on-prem server.
+          We set up policies in Bitbucket to reject changes whenever a build fails. For this, we used Sonar, a tool that scans code to identify critical bugs. This way, errors that may cause runtime failures do not percolate into existing code. 
+        </p>
+          <p class="paragraph-body">
+          The practice of putting quality gates is essential for the longevity of any enterprise application. The bare minimum quality gate that should be in place is ensuring the build’s success. 
+        </p>
+          <p class="paragraph-body">
+          Prioritizing code quality was a huge milestone for our client
         </p>
       </div>
       <div class="text-container">
         <h3 class="project-highlights-subheading mt-4" id="highlight_4">
-          4. AUTOMATING STATIC, REPEATED CHECKS
+          4. BRINGING IN TESTING FRAMEWORKS AND TOOLS
         </h3>
   
         <p class="paragraph-body mt-3">
-          To solve the issue of high turnaround time due to rework and manual
-          errors, we decided full-scaled automation was the best way to go.
+          The client’s existing system lacked test frameworks and libraries.
         </p>
         <p class="paragraph-body">
-          Previously, agents performed manual checks to determine if the bank
-          should proceed with a particular loan processing.
+          Reliance on manual testing meant prolonged feedback cycles. Testing and releasing new features took longer. This led to severe failures in production after deployment, indicated by high change failure rates. 
         </p>
         <p class="paragraph-body">
-          Bringing in automation saved agents considerable manual effort because
-          the application now ran the static repeated checks on every contract to
-          determine its state and subsequent workflow appropriately.
-        </p>
-        <p class="paragraph-body">
-          All agents had to do now was perform the unavoidable mandatory checks
-          using the application.
+          The first step was to develop an automation testing framework. We introduced test libraries such as JUnit and Mockito, which also facilitated the adoption of practices like test-driven development (TDD). As a result, we began writing tests first before writing new code.
         </p>
       </div>
       <div class="text-container">
         <h3 class="project-highlights-subheading mt-4" id="highlight_5">
-          5. INTUITIVE UI
+          5. AUTOMATING DATABASE UPGRADES
         </h3>
   
         <p class="paragraph-body mt-3">
-          While building out the UI of the application, there were internal
-          debates within the client organization about introducing an entirely new
-          system and disrupting the existing workflow.
+          Most organizations often overlook automating database upgrades as part of their release process.
         </p>
         <p class="paragraph-body">
-          Since the agents are used to fixed flows and interfaces, we quickly
-          realized the importance of having a smooth user experience.
+          Ad-hoc and manual database upgrades often lead to problems arising from human errors and a lack of uniformity across database environments.
         </p>
         <p class="paragraph-body">
-          We found that 100% of our users use Windows. Therefore, we followed the
-          latest design trends and patterns popularized by Microsoft to reduce the
-          cognitive complexity and the learning curve for the new system. Hence,
-          the users could experience the application like any other Windows app
-          instead of a new alien system.
+          Automating the process is the most foolproof method to avoid running manual queries on a database that can lead to unforeseen errors. 
+        </p>
+          <p class="paragraph-body">
+          We integrated Liquibase, a database-independent tool to track database changes. This tool works as part of the codebase, automatically connects to the database, and upgrades it while maintaining a history of all changes made.  
         </p>
       </div>
+      
       <div class="text-container">
-        <h3 class="project-highlights-subheading mt-4" id="highlight_6">
-          6. LIGHTWEIGHT SYSTEM
-        </h3>
-  
+         <h2 class="project-highlights-heading">CONCLUSION</h2>
         <p class="paragraph-body mt-3">
-          Since this was a new product for our client, we designed it to be a
-          lightweight system. As new requirements led to new features, we adopted
-          an agile process where the deployment of the updated application can
-          happen with the click of a button.
+          In most fast-moving teams, developers are constantly busy with tactical work. This fast-paced productivity is illusionary as the throughput of completed tasks often doesn't compare with the time spent. 
         </p>
         <p class="paragraph-body">
-          By being truly agile about what we do and sticking to the frequent
-          deployments principle, our release frequency has been two weeks on
-          average for the last two years.
-        </p>
-      </div>
-      <div class="text-container">
-        <h3 class="project-highlights-subheading mt-4" id="highlight_7">
-          7. THE ROAD AHEAD
-        </h3>
-  
-        <p class="paragraph-body mt-3">
-          One of the primary reasons for the product’s success was the small
-          self-sufficient agile teams working in tandem with each other with their
-          customized scrum models. This resulted in high productivity and very
-          rapid deployments.
+          As more code gets written, the hustle increases further. To break away from the loop, the start of a modernization journey should prioritize important housekeeping activities.
         </p>
         <p class="paragraph-body">
-          In the future, we are aiming to productize the application. Although the
-          current product solves many client problems by saving time and effort,
-          it is still a service product. The developers can only implement new
-          features or updates.
-        </p>
-        <p class="paragraph-body">
-          We are changing this by introducing small changes so users can change
-          and update the product.
+          Before making code or architecture changes, you must do the following:
         </p>
       </div>
     </div>
