@@ -45,7 +45,9 @@ Work queues decrease a team’s productivity. These queues are usually created a
 Additionally, frequent changes in team composition can also put a damper on productivity as it takes productive time away to get new team members up to speed. The more frequent the changes, the higher the impact on productivity.
 
 ### Fuel
-From a value stream perspective, it helps to remove silos and queues where work sits. Limiting WIP motivates teams to focus on fewer items without the added burden. Ultimately, aligning everyone on what "done" means is important.
+From a value stream perspective, it helps to remove silos and queues where work sits. Ultimately, aligning everyone on what "done" means is important. 
+
+Also, limiting WIP motivates teams to focus on fewer items without the added burden.
 
 ### Wrong Turn
 Trying to keep every individual in the team at 100% efficiency.
