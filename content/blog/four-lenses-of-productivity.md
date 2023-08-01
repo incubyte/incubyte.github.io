@@ -1,6 +1,6 @@
 +++
 authors = ["Sapan Parikh"]
-date = 2023-07-24T00:00:00Z
+date = 2023-08-01T00:00:00Z
 description = "How productivity varies at individual, team, organization, and market level and what can impact it."
 draft = false
 image = "/images/2021/11/checklist2.jpg"
@@ -42,10 +42,12 @@ A team’s productivity is not equal to the sum of every individual’s producti
 ### Brakes
 Work queues decrease a team’s productivity. These queues are usually created at the tail end of the software delivery process, like in manual testing. Also, having different definitions of done for each team role makes everyone busy (in moving tickets to the next guy) but may not make the team productive.
 
-### Fuel
-From a value stream perspective, it helps to remove silos and queues where work sits. Additionally, aligning everyone on what "done" means is important.
+Additionally, frequent changes in team composition can also put a damper on productivity.
 
-### Wrong Turns
+### Fuel
+From a value stream perspective, it helps to remove silos and queues where work sits. Limiting WIP motivates teams to focus on fewer items without the added burden. Ultimately, aligning everyone on what "done" means is important.
+
+### Wrong Turn
 Trying to keep every individual in the team at 100% efficiency.
 
 ## Organization Productivity
@@ -64,7 +66,7 @@ For example, it's much better to have a payments team, orders team, or fulfillme
 Another important tool is to have clearly defined goals, values, and a mission and have them propagated to the entire company.
 
 ### Brakes
-Resistance to change
+Resistance to change. Also, management solely focused on quick feature delivery but not prioritizing the overall technical health. 
 
 ### Pitfalls
 As companies grow, their values change, and sometimes so do the goals. And occasionally, these goals take the entire company away from the core craft. 
@@ -77,6 +79,12 @@ A story can best explain this phenomenon. There was a time when Boeing focused o
 > — Abi Noda
 
 Finally, individual, team, and organizational productivities align to make every end user productive.
+
+### Fuel
+Small incremental releases help end users get their needs met faster, whereas big-bang releases often result in a steeper learning curve for the users.
+
+### Wrong Turn
+Building features in a silo without involving end users in the decision-making process. Doing this instead of getting fast and frequent user feedback.
 
 ### Brakes
 Market productivity decreases when companies have long planning and release cycles that they can’t quickly accommodate the needs of a changing market.
