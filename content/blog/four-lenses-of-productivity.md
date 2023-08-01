@@ -42,7 +42,7 @@ A team’s productivity is not equal to the sum of every individual’s producti
 ### Brakes
 Work queues decrease a team’s productivity. These queues are usually created at the tail end of the software delivery process, like in manual testing. Also, having different definitions of done for each team role makes everyone busy (in moving tickets to the next guy) but may not make the team productive.
 
-Additionally, frequent changes in team composition can also put a damper on productivity.
+Additionally, frequent changes in team composition can also put a damper on productivity as it takes productive time away to get new team members up to speed. The more frequent the changes, the higher the impact on productivity.
 
 ### Fuel
 From a value stream perspective, it helps to remove silos and queues where work sits. Limiting WIP motivates teams to focus on fewer items without the added burden. Ultimately, aligning everyone on what "done" means is important.
