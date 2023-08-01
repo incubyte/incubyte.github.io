@@ -66,7 +66,7 @@ For example, it's much better to have a payments team, orders team, or fulfillme
 Another important tool is to have clearly defined goals, values, and a mission and have them propagated to the entire company.
 
 ### Brakes
-Resistance to change. Also, management solely focused on quick feature delivery but not prioritizing the overall technical health. 
+Resistance to change. Also, sole focus on quick feature delivery but not prioritizing the overall technical health. 
 
 ### Pitfalls
 As companies grow, their values change, and sometimes so do the goals. And occasionally, these goals take the entire company away from the core craft. 
