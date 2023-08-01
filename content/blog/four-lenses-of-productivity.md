@@ -10,9 +10,8 @@ title = "Four Lenses of Productivity: Incubyte's Take"
 +++
 
 
-
-This blog discusses different levels of productivity along with common pitfalls and different ways to optimize them. Recently I came across this blog by [Abi Noda](https://newsletter.abinoda.com/p/four-lenses-of-productivity). It interestingly talks about productivity at Individual, Team, Organization, and Market levels. 
-
+ 
+This blog discusses different levels of productivity along with common pitfalls and different ways to optimize them. Recently I came across this blog by [Abi Noda](https://newsletter.abinoda.com/p/four-lenses-of-productivity), written based on the [essay](https://link.springer.com/chapter/10.1007/978-1-4842-4221-6_6) by Amy J. Ko. It interestingly talks about productivity at Individual, Team, Organization, and Market levels.
 
 {{< circlepack data="ind-team-org-market.csv" >}}
 <i>Click to drill down</i>
