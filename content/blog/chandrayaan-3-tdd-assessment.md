@@ -55,11 +55,11 @@ Given the starting point (0, 0, 0) following (x, y, z) and initial direction N, 
 
 **Initial Direction:** N
 
-- "f" - (1, 0, 0) - N
-- "r" - (1, 0, 0) - E
-- "u" - (1, 0, 0) - U
-- "b" - (1, 0, -1) - U
-- "l" - (1, 0, -1) - N
+- "f" - (0, 1, 0) - N
+- "r" - (0, 1, 0) - E
+- "u" - (0, 1, 0) - U
+- "b" - (0, 1, -1) - U
+- "l" - (0, 1, -1) - N
 
 **Final Position:** (1, 0, -1)
 
