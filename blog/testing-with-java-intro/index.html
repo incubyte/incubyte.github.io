@@ -15,7 +15,7 @@
 
 
 <meta name="author" content="[Sutirtha Das]">
-<meta name="generator" content="Hugo 0.115.4">
+<meta name="generator" content="Hugo 0.116.1">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -624,9 +624,9 @@ if (!doNotTrack) {
 <p>Let’s write the code first</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LeapYear</span> <span style="color:#f92672">{</span>
 </span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">isLeapYear</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> year<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>year <span style="color:#f92672">%</span> <span style="color:#ae81ff">4</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>year <span style="color:#f92672">%</span> <span style="color:#ae81ff">100</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>               <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>year <span style="color:#f92672">%</span> <span style="color:#ae81ff">400</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>year <span style="color:#f92672">%</span> 4 <span style="color:#f92672">==</span> 0<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>year <span style="color:#f92672">%</span> 100 <span style="color:#f92672">==</span> 0<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>               <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>year <span style="color:#f92672">%</span> 400 <span style="color:#f92672">==</span> 0<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
 </span></span><span style="display:flex;"><span>                   <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
 </span></span><span style="display:flex;"><span>               <span style="color:#f92672">}</span>
 </span></span><span style="display:flex;"><span>               <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">;</span>
@@ -647,9 +647,9 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">@Test</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">testLeapYear</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Test a leap year
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    assertTrue<span style="color:#f92672">(</span>LeapYear<span style="color:#f92672">.</span><span style="color:#a6e22e">isLeapYear</span><span style="color:#f92672">(</span><span style="color:#ae81ff">2020</span><span style="color:#f92672">));</span>
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    assertTrue<span style="color:#f92672">(</span>LeapYear<span style="color:#f92672">.</span><span style="color:#a6e22e">isLeapYear</span><span style="color:#f92672">(</span>2020<span style="color:#f92672">));</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Test a non-leap year
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    assertFalse<span style="color:#f92672">(</span>LeapYear<span style="color:#f92672">.</span><span style="color:#a6e22e">isLeapYear</span><span style="color:#f92672">(</span><span style="color:#ae81ff">2021</span><span style="color:#f92672">));</span>
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    assertFalse<span style="color:#f92672">(</span>LeapYear<span style="color:#f92672">.</span><span style="color:#a6e22e">isLeapYear</span><span style="color:#f92672">(</span>2021<span style="color:#f92672">));</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
 </span></span></code></pre></div><p>On running these tests, we see that the tests pass and we can be sure that at least for the inputs we have provided, our code works properly. But, what about other inputs? What about edge cases? For that, we should have more tests so that all possible scenarios are covered.</p>
@@ -657,15 +657,15 @@ if (!doNotTrack) {
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@Test</span>
 </span></span><span style="display:flex;"><span> <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">testLeapYear</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
 </span></span><span style="display:flex;"><span>   <span style="color:#75715e">// Test a leap year
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   assertTrue<span style="color:#f92672">(</span>LeapYear<span style="color:#f92672">.</span><span style="color:#a6e22e">isLeapYear</span><span style="color:#f92672">(</span><span style="color:#ae81ff">2020</span><span style="color:#f92672">));</span>
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   assertTrue<span style="color:#f92672">(</span>LeapYear<span style="color:#f92672">.</span><span style="color:#a6e22e">isLeapYear</span><span style="color:#f92672">(</span>2020<span style="color:#f92672">));</span>
 </span></span><span style="display:flex;"><span>   <span style="color:#75715e">// Test a non-leap year
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   assertFalse<span style="color:#f92672">(</span>LeapYear<span style="color:#f92672">.</span><span style="color:#a6e22e">isLeapYear</span><span style="color:#f92672">(</span><span style="color:#ae81ff">2021</span><span style="color:#f92672">));</span>
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   assertFalse<span style="color:#f92672">(</span>LeapYear<span style="color:#f92672">.</span><span style="color:#a6e22e">isLeapYear</span><span style="color:#f92672">(</span>2021<span style="color:#f92672">));</span>
 </span></span><span style="display:flex;"><span>   <span style="color:#75715e">// Test a leap year divisible by 4 but not by 100
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   assertTrue<span style="color:#f92672">(</span>LeapYear<span style="color:#f92672">.</span><span style="color:#a6e22e">isLeapYear</span><span style="color:#f92672">(</span><span style="color:#ae81ff">2004</span><span style="color:#f92672">));</span>
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   assertTrue<span style="color:#f92672">(</span>LeapYear<span style="color:#f92672">.</span><span style="color:#a6e22e">isLeapYear</span><span style="color:#f92672">(</span>2004<span style="color:#f92672">));</span>
 </span></span><span style="display:flex;"><span>   <span style="color:#75715e">// Test a leap year divisible by 4 and by 100 but not by 400
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   assertFalse<span style="color:#f92672">(</span>LeapYear<span style="color:#f92672">.</span><span style="color:#a6e22e">isLeapYear</span><span style="color:#f92672">(</span><span style="color:#ae81ff">1900</span><span style="color:#f92672">));</span>
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   assertFalse<span style="color:#f92672">(</span>LeapYear<span style="color:#f92672">.</span><span style="color:#a6e22e">isLeapYear</span><span style="color:#f92672">(</span>1900<span style="color:#f92672">));</span>
 </span></span><span style="display:flex;"><span>   <span style="color:#75715e">// Test a leap year divisible by 4, by 100, and by 400
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   assertTrue<span style="color:#f92672">(</span>LeapYear<span style="color:#f92672">.</span><span style="color:#a6e22e">isLeapYear</span><span style="color:#f92672">(</span><span style="color:#ae81ff">2000</span><span style="color:#f92672">));</span>
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>   assertTrue<span style="color:#f92672">(</span>LeapYear<span style="color:#f92672">.</span><span style="color:#a6e22e">isLeapYear</span><span style="color:#f92672">(</span>2000<span style="color:#f92672">));</span>
 </span></span><span style="display:flex;"><span> <span style="color:#f92672">}</span>
 </span></span></code></pre></div><p>With all these scenarios, we can be sure that our code is working properly.</p>
 <h3 id="why-is-testing-important">Why is testing important:</h3>
