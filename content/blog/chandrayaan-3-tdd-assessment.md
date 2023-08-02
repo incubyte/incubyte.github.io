@@ -59,7 +59,7 @@ Given the starting point (0, 0, 0) following (x, y, z) and initial direction N, 
 - "r" - (0, 1, 0) - E
 - "u" - (0, 1, 0) - U
 - "b" - (0, 1, -1) - U
-- "l" - (0, 1, -1) - N
+- "l" - (0, 1, -1) - W
 
 **Final Position:** (1, 0, -1)
 
