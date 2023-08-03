@@ -59,11 +59,11 @@ Given the starting point (0, 0, 0) following (x, y, z) and initial direction N, 
 - "r" - (0, 1, 0) - E
 - "u" - (0, 1, 0) - U
 - "b" - (0, 1, -1) - U
-- "l" - (0, 1, -1) - W
+- "l" - (0, 1, -1) - N
 
 **Final Position:** (0, 1, -1)
 
-**Final Direction:** W
+**Final Direction:** N
 
 Your task is to design the program that enables Chandrayaan 3 to execute these commands accurately and efficiently in the vast expanse of the galaxy:
 
