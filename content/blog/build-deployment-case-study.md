@@ -25,6 +25,6 @@ card_2_desc="Reinventing global consumer insights for fintech"
 card_2_slug="finance-case-study/"
 +++
 
-Streamlining Expense Tracking Process by Modernizing a Solution for a US-Based Expense Management Solution Provider.
+Streamlining expense tracking process by modernizing a solution for a US-based expense management solution provider.
 
 
