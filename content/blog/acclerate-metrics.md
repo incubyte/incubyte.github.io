@@ -1,18 +1,18 @@
 +++
 authors = ["Sapan Parikh"]
 date = 2023-03-08T00:00:00Z
-description = "Accelerate: Key Software Delivery Metrics"
+description = "Accelerate: Metrics that Define High-Performance Software Delivery"
 draft = false
 image = "/images/2023/03/accelerate.jpg"
 slug = "accelerate-metrics"
 tags = ["Modernization", "Book Review"]
-title = "Accelerate: Key Software Delivery Metrics"
+title = "Accelerate: Metrics that Define High-Performance Software Delivery"
 +++
 
 
 Accelerate by Nicole Forsgren, Jez Humble, and Gene Kim was released in 2018, and it changed how I think about software delivery.
 
-Who really is responsible for the software delivery business or engineering? The book summarizes years of research of the State of DevOps Reports and presents four key metrics to measure software delivery performance. Each measure balances the other in such a way that an organization can perform well only if business and engineering worked well hand in hand otherwise, you’d fail!
+Who really is responsible for the software delivery business or engineering? The book summarizes years of research of the State of DevOps Reports and presents four key metrics to measure software delivery performance. Each measure balances the other in such a way that an organization can perform well only if business and engineering work hand in hand, and it's hard for someone to cheat the system!
 
 Here is how the four measures are defined in the State of DevOps Reports 2022.
 
