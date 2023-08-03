@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 27 Jul 2023 20:04:38 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Four Lenses of Productivity: Incubyte&#39;s Take</title>
+      <link>https://blog.incubyte.co/blog/four-lenses-of-productivity/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.incubyte.co/blog/four-lenses-of-productivity/</guid>
+      <description>This blog discusses different levels of productivity along with common pitfalls and different ways to optimize them.</description>
+    </item>
+    
     <item>
       <title>Chandrayaan 3 TDD Assessment</title>
       <link>https://blog.incubyte.co/blog/chandrayaan-3-tdd-assessment/</link>
@@ -15,15 +24,6 @@
       
       <guid>https://blog.incubyte.co/blog/chandrayaan-3-tdd-assessment/</guid>
       <description>Before you begin A Software Craftsperson at Incubyte is a person who has a strong commitment to the craft of software development.</description>
-    </item>
-    
-    <item>
-      <title>Four Lenses of Productivity: Incubyte Take</title>
-      <link>https://blog.incubyte.co/blog/four-lenses-of-productivity/</link>
-      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.incubyte.co/blog/four-lenses-of-productivity/</guid>
-      <description>This blog discusses different levels of productivity along with common pitfalls and different ways to optimize them.</description>
     </item>
     
     <item>
