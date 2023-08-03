@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modernization on Incubyte Blog</title>
+    <link>https://blog.incubyte.co/categories/modernization/</link>
+    <description>Recent content in Modernization on Incubyte Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2022 Incubyte. All rights reserved.</copyright>
+    <lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/categories/modernization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modernizing a Legacy System: Build and Deployment</title>
+      <link>https://blog.incubyte.co/blog/build-deployment-case-study/</link>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.incubyte.co/blog/build-deployment-case-study/</guid>
+      <description>Streamlining expense tracking process by modernizing a solution for a US-based expense management solution provider.</description>
+    </item>
+    
+  </channel>
+</rss>

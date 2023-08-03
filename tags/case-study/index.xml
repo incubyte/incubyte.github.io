@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/tags/case-study/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/tags/case-study/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modernizing a Legacy System: Build and Deployment</title>
+      <link>https://blog.incubyte.co/blog/build-deployment-case-study/</link>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.incubyte.co/blog/build-deployment-case-study/</guid>
+      <description>Streamlining expense tracking process by modernizing a solution for a US-based expense management solution provider.</description>
+    </item>
+    
     <item>
       <title>Is there a more economical and efficient alternative to Salesforce?</title>
       <link>https://blog.incubyte.co/blog/salesforce-vs-in-house-custom-development/</link>
@@ -24,15 +33,6 @@
       
       <guid>https://blog.incubyte.co/blog/finance-case-study/</guid>
       <description>Making Loan Processing Efficient by Transforming Manual Processes into a Centralized Automated System for a Consumer Lending Bank</description>
-    </item>
-    
-    <item>
-      <title>Modernization: A Case Study</title>
-      <link>https://blog.incubyte.co/blog/engagement-overview/</link>
-      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.incubyte.co/blog/engagement-overview/</guid>
-      <description>Case Study of our engagement with an industry leader in centralized expense management for telecom.</description>
     </item>
     
     <item>
