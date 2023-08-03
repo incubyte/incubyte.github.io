@@ -1,7 +1,7 @@
 +++
 authors = ["Sapan Parikh"]
 categories = ["Case Study", "Modernization"]
-date = 2023-07-31T00:00:00Z
+date = 2023-08-03T00:00:00Z
 draft = false
 image = "/images/2023/build-deployment-case-study/blog-banner.jpg"
 slug = "build-deployment-case-study"
