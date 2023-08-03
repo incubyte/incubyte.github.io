@@ -1,0 +1,694 @@
+<div class="case-study">
+  <div class="template-container">
+    <div class="text-container">
+      <h1 class="title text-center">{{ .Title }}</h1>
+      <p class="summary text-center">{{ .Description }}</p>
+      <p></p>
+    </div>
+    <div class="banner-container bg-tbcolor">
+      <img class="img_small" src="{{ .Params.banner_image |relURL }}" alt="{{ .Title }}" />
+    </div>
+    <div class="text-container">
+      <h2 class="section-heading">BACKGROUND</h2>
+
+      <div class="client-details-container mt-4">
+        <div class="details-box">
+          <p>Client</p>
+          <p>Centralized Expense Management Solution Provider</p>
+        </div>
+        <div class="details-box">
+          <p>Industry</p>
+          <p>Telecom</p>
+        </div>
+      </div>
+
+      <p class="paragraph-body">
+        Our client is an industry leader providing centralized expense management solutions in the telecom and energy
+        sector.
+        They started their journey in the 1980s and have served several large customers with their platform.
+      </p>
+      <p class="paragraph-body">
+        Their product is a centralized platform for customers to get informed on their telecom and energy expenses. It
+        helps businesses and government organizations cut costs by running analytics on monthly vendor invoices. Our
+        client also becomes the intermediary between the customer and their vendors to help suggest optimizations of
+        services consumed that reduce billing amounts.
+      </p>
+
+      <h2 class="section-heading">WHAT WE DID</h2>
+      <p class="paragraph-body">
+        Decades-old systems often stand the test of time, but evolve to accrue a lot of technical debt. Our client's
+        system did so too. The SaaS product was built over 20 years and faced several unexpected issues that caused
+        downtimes and customer frustration. This led to a decision to dedicate time and money to the critical
+        modernization process!
+      </p>
+      <p class="paragraph-body">
+        Our approach included the following:
+      </p>
+      <div class="what-we-did-container">
+        <div class="item">
+          <div class="rounded-circle bg-secondary">
+            <img class="rounded-circle" style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="{{ .Params.what_we_did_icon_1 |relURL }}" />
+          </div>
+          <p class="label">
+            Dot-voting exercise with stakeholders
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="rounded-circle bg-secondary">
+            <img class="rounded-circle" style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="{{ .Params.what_we_did_icon_2 |relURL }}" />
+          </div>
+          <p class="label">
+            Identifying their biggest pain points (frequent hotfixes and deployment issues)
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="rounded-circle bg-secondary">
+            <img class="rounded-circle" style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="{{ .Params.what_we_did_icon_3 |relURL }}" />
+          </div>
+          <p class="label">
+            Focus on modernizing their build and deployment pipelines
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="rounded-circle bg-secondary">
+            <img class="rounded-circle" style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="{{ .Params.what_we_did_icon_4 |relURL }}" />
+          </div>
+          <p class="label">
+            Control new technical debt from flowing in
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="rounded-circle bg-secondary">
+            <img class="rounded-circle" style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="{{ .Params.what_we_did_icon_5 |relURL }}" />
+          </div>
+          <p class="label">
+            Get them started with automated testing
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="text-container">
+      <h2 class="project-highlights-heading">PROJECT HIGHLIGHTS</h2>
+
+      <div class="project-highlights-grid">
+        <a href="{{.Page.Permalink}}#highlight_1">
+          <div class="item">
+            <p class="index">1.</p>
+            <p class="label">Creating a strategy for transformation</p>
+            <img style="width: 28px; height: auto; align-self: start" src="{{ .Params.right_arrow |relURL }}" />
+          </div>
+        </a>
+
+        <a href="{{.Page.Permalink}}#highlight_2">
+          <div class="item">
+            <p class="index">2.</p>
+            <p class="label">Setting up a build management system</p>
+            <img style="width: 28px; height: auto; align-self: start" src="{{ .Params.right_arrow |relURL }}" />
+          </div>
+        </a>
+
+        <a href="{{.Page.Permalink}}#highlight_3">
+          <div class="item">
+            <p class="index">3.</p>
+            <p class="label">Introducing quality gates via CI/CD and Sonar</p>
+            <img style="width: 28px; height: auto; align-self: start" src="{{ .Params.right_arrow |relURL }}" />
+          </div>
+        </a>
+
+        <a href="{{.Page.Permalink}}#highlight_4">
+          <div class="item">
+            <p class="index">4.</p>
+            <p class="label">Bringing in testing frameworks and tools</p>
+            <img style="width: 28px; height: auto; align-self: start" src="{{ .Params.right_arrow |relURL }}" />
+          </div>
+        </a>
+
+        <a href="{{.Page.Permalink}}#highlight_5">
+          <div class="item">
+            <p class="index">5.</p>
+            <p class="label">Automating database upgrades</p>
+            <img style="width: 28px; height: auto; align-self: start" src="{{ .Params.right_arrow |relURL }}" />
+          </div>
+        </a>
+      </div>
+
+      <h3 class="project-highlights-subheading mt-5" id="highlight_1">
+        1. CREATING A STRATEGY FOR TRANSFORMATION
+      </h3>
+
+      <p class="paragraph-body mt-3">
+        Our client’s significant issue was the lack of proper structure, whether in the codebase or processes they
+        followed.
+      </p>
+
+      <p class="paragraph-body">
+        In our case, the way the source code was stored in the version control system and how a development environment
+        understood it were at odds with each other.
+      </p>
+      <p class="paragraph-body">
+        We created a strategy to organize the entire source code, resulting in,
+      <ol class="paragraph-body">
+        <li>
+          Faster source code environment setup time
+        </li>
+        <li>
+          Reduced onboarding overhead for new developers joining the team
+        </li>
+        <li>
+          Accelerated build and release process by adopting conventions, leading to a decreased lead time for feature
+          delivery
+        </li>
+      </ol>
+
+      </p>
+    </div>
+    <div class="text-container">
+      <h3 class="project-highlights-subheading mt-4" id="highlight_2">
+        2. SETTING UP A BUILD MANAGEMENT SYSTEM
+      </h3>
+
+      <p class="paragraph-body mt-3">
+        In the world of Java, Gradle is one of the standard build and dependency management systems.
+      </p>
+      <p class="paragraph-body">
+        For our client, setting up Gradle solved the massive problem of manually performing numerous tasks to create a
+        build, all while hoping and praying the build doesn’t fail.
+      </p>
+      <p class="paragraph-body">
+        Tools like Gradle bring the following to the table:
+      <ul class="paragraph-body">
+        <li>
+          <b>Automation:</b> Steps to build and test are documented as executable code so that builds are automated,
+          consistent, and reproducible.
+        </li>
+        <li>
+          <b>Uniformity:</b> Configuration of software dependencies is stored in the version control system that
+          enforces uniformity across different deployment environments like developer’s machine, test, and production.
+          This uniformity reduces errors typically labeled by saying, “works on my machine”.
+        </li>
+      </ul>
+      </p>
+    </div>
+
+    <div class="text-container">
+      <h3 class="project-highlights-subheading mt-4" id="highlight_3">
+        3. INTRODUCING QUALITY GATES VIA CI/CD AND SONAR
+      </h3>
+
+      <p class="paragraph-body mt-3">
+        With Gradle available, our next goal was frequent and smooth deployments. Hence, we established CI/CD
+        (Continuous Integration and Continuous Deployment) pipelines, which automate building, testing, scanning, and
+        deploying code, bringing in predictability in every release.
+      </p>
+      <p class="paragraph-body">
+        Thanks to the introduction of proper code review processes, developers no longer work in silos and are
+        responsible for peer-reviewing code changes before merging them into production. This stops new errors from
+        stacking on top of existing problems.
+      </p>
+      <p class="paragraph-body">
+        We set up policies in Bitbucket to reject changes whenever a build fails. For this, we used Sonar, a tool that
+        scans code to identify critical bugs. This way, errors that may cause runtime failures do not percolate into
+        existing code.
+      </p>
+      <p class="paragraph-body">
+        The practice of putting quality gates is essential for the longevity of any enterprise application. The bare
+        minimum quality gate that should be in place is ensuring the build’s success.
+      </p>
+      <p class="paragraph-body">
+        Prioritizing code quality was a huge milestone for our client.
+      </p>
+    </div>
+    <div class="text-container">
+      <h3 class="project-highlights-subheading mt-4" id="highlight_4">
+        4. BRINGING IN TESTING FRAMEWORKS AND TOOLS
+      </h3>
+
+      <p class="paragraph-body mt-3">
+        The client’s existing system lacked test frameworks and libraries.
+      </p>
+      <p class="paragraph-body">
+        Reliance on manual testing meant prolonged feedback cycles. Testing and releasing new features took longer. This
+        led to severe failures in production after deployment, indicated by high change failure rates.
+      </p>
+      <p class="paragraph-body">
+        The first step was to develop an automation testing framework. We introduced test libraries such as JUnit and
+        Mockito, which also facilitated the adoption of practices like test-driven development (TDD). As a result, we
+        began writing tests first before writing new code.
+      </p>
+    </div>
+    <div class="text-container">
+      <h3 class="project-highlights-subheading mt-4" id="highlight_5">
+        5. AUTOMATING DATABASE UPGRADES
+      </h3>
+
+      <p class="paragraph-body mt-3">
+        Most organizations often overlook automating database upgrades as part of their release process.
+      </p>
+      <p class="paragraph-body">
+        Ad-hoc and manual database upgrades often lead to problems arising from human errors and a lack of uniformity
+        across database environments.
+      </p>
+      <p class="paragraph-body">
+        Automating the process is the most foolproof method to avoid running manual queries on a database that can lead
+        to unforeseen errors.
+      </p>
+      <p class="paragraph-body">
+        We integrated Liquibase, a database-independent tool to track database changes. This tool works as part of the
+        codebase, automatically connects to the database, and upgrades it while maintaining a history of all changes
+        made.
+      </p>
+    </div>
+
+    <div class="text-container">
+      <h2 class="project-highlights-heading">CONCLUSION</h2>
+      <p class="paragraph-body mt-3">
+        In most fast-moving teams, developers are constantly busy with tactical work. This fast-paced productivity is
+        illusionary as the throughput of completed tasks often doesn't compare with the time spent.
+      </p>
+      <p class="paragraph-body">
+        As more code gets written, the hustle increases further. To break away from the loop, the start of a
+        modernization journey should prioritize important housekeeping activities.
+      </p>
+      <p class="paragraph-body">
+        Before making code or architecture changes, you must do the following:
+      <ol class="paragraph-body">
+        <li>
+          Ensure uniformity in terms of structure and dependencies of developer, testing, and production environments.
+        </li>
+        <li>
+          Automate all build, test, and deployment processes.
+        </li>
+        <li>
+          Prevent the spread of all low-quality code while also teaching people what not to do.
+        </li>
+        <li>
+          Run automated tests on every commit.
+        </li>
+        <li>
+          Pair the best technologies with the best practices to get the most out of them.
+        </li>
+      </ol>
+      </p>
+    </div>
+  </div>
+  {{ partial "recommend-case-study.html" . }} {{ partial "lets-talk.html" . }}
+</div>
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+  .template-container {
+    margin: 0 50px 0 50px;
+  }
+
+  .title {
+    margin-top: 50px;
+  }
+
+  .case-study {
+    font-family: "Nunito Sans", serif !important;
+  }
+
+  .case-study p,
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Nunito Sans", serif !important;
+  }
+
+  .text-container {
+    margin: 0 auto 0 auto;
+    max-width: 1100px;
+  }
+
+  .case-study .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 141.9%;
+    letter-spacing: 0.06em;
+
+    color: #000000;
+  }
+
+  .summary {
+    margin: 20px 0 80px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #0e3252;
+  }
+
+  .section-heading {
+    color: #0e3252;
+    font-size: 32px;
+    font-weight: 800;
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    flex: 1;
+    padding: 12px;
+    padding-top: 28px;
+    min-width: 200px !important;
+  }
+
+  .stats>p {
+    margin: 0;
+  }
+
+  .stats>p:first-child {
+    color: #0e3252;
+    font-size: 60px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+
+  .stats-container {
+    display: flex;
+    row-gap: 54px;
+    overflow-x: auto;
+    margin-bottom: 62px;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .testimonial {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .testimonial .inner {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: 0 auto 0 auto;
+  }
+
+  .testimonial p {
+    max-width: 1100px;
+    margin: 0 auto 0 auto;
+  }
+
+  .testimonial .text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .testimonial .name {
+    max-width: 1100px;
+    margin: 0 auto 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 8px;
+  }
+
+  .banner-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .img_small {
+    width: 50% !important;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .bg-tbcolor {
+    background-color: #004A6C;
+  }
+
+  .bg-deep_blue {
+    background-color: #0e3252;
+  }
+
+  .bg-grey {
+    background-color: #f1f1f1;
+  }
+
+  .banner-container>img {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    display: flex;
+  }
+
+  .client-details-container {
+    display: flex;
+    gap: 100px;
+  }
+
+  .details-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .details-box>p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: black;
+    margin: 0;
+  }
+
+  .details-box>p:first-child {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #666666;
+  }
+
+  .paragraph-body {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    color: black;
+
+    margin-bottom: 2em;
+  }
+
+  .paragraph-body-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    color: black;
+  }
+
+  .item-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    color: black;
+    margin-bottom: 2em;
+  }
+
+  .mt-5 {
+    margin-top: 3em !important;
+  }
+
+  .what-we-did-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 54px;
+    margin-bottom: 62px;
+    justify-content: space-between;
+  }
+
+  .what-we-did-container>.item {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    align-items: center;
+    width: 50%;
+  }
+
+  .what-we-did-container>.item>.label {
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    max-width: 24em;
+    margin: auto auto auto 0;
+  }
+
+  .what-we-did-container>.item>.index {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.06em;
+    color: #000000;
+  }
+
+  .project-highlights-heading {
+    color: #0e3252;
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 800;
+  }
+
+  .project-highlights-subheading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #0e3252;
+  }
+
+  .project-highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0 0;
+    grid-template-areas:
+      "item item"
+      "item item";
+  }
+
+  @media (max-width: 991px) {
+    .project-highlights-grid {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      gap: 0 0;
+      grid-template-areas:
+        "item"
+        "item"
+        "item"
+        "item";
+    }
+
+    .what-we-did-container>.item {
+      width: auto;
+    }
+
+    .testimonial .inner {
+      padding: 0 20px 0 20px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .img_small {
+      width: 100% !important;
+    }
+
+    .template-container {
+      margin: 0 20px 0 20px;
+    }
+
+    .case-study .title {
+      font-size: 32px;
+    }
+
+    .summary {
+      font-size: 20px;
+      margin: 25px 0 50px 0;
+    }
+
+    .testimonial .text {
+      font-size: 16px;
+    }
+
+    .testimonial .name {
+      font-size: 14px;
+    }
+
+    .section-heading {
+      font-size: 28px;
+    }
+
+    .project-highlights-subheading {
+      font-size: 20px;
+    }
+
+    .project-highlights-sub-subheading {
+      font-size: 18px;
+    }
+
+    .paragraph-body {
+      font-size: 16px;
+    }
+
+    .paragraph-body-list {
+      font-size: 16px;
+    }
+
+    .item-list {
+      font-size: 16px;
+    }
+
+    .stats>p:first-child {
+      font-size: 48px;
+    }
+  }
+
+  .project-highlights-grid>a>.item {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    align-items: flex-baseline;
+  }
+
+  .project-highlights-grid>a>.item>.index {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: black;
+  }
+
+  .project-highlights-grid>a>.item>.label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    max-width: 24em;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #0e3252;
+    color: black;
+  }
+
+  .project-highlights-sub-subheading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+
+    color: #0e3252;
+  }
+</style>
