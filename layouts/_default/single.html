@@ -1,5 +1,9 @@
 {{ define "main" }}
 
+{{ if (strings.Contains .Params.slug "case-study") }}
+{{ partial "case-study-styles.html" . }}
+{{ end }}
+
 {{ if (eq .Params.slug "global-case-study") }}
 {{ partial "global-case-study.html" . }}
 
