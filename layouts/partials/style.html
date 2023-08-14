@@ -94,7 +94,7 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
     .navigation-bar {
       padding: 8px 10px;
     }
-    
+
     .theme-toggle {
       display: none;
     }
@@ -362,6 +362,90 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
 
   body.dark-theme .newsletter p {
     color: white;
+  }
+
+  .newsletter {
+      margin-bottom: 30px;
+  }
+
+  @media (max-width: 768px) {
+    .newsletter, .width-small-100{
+          width: 100%;
+    }
+  }
+
+  .newsletter, .pixel-style-box {
+    margin: 2rem auto;
+    border: 8px solid #5bc6d4;
+    color: #fff;
+    padding: 2ch;
+    position: relative;
+    border-image:
+      url("data:image/svg+xml, %3Csvg fill='none' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='linear-gradient' x1='7.3%25' y1='25%25' x2='93.7%25' y2='50%25' gradientTransform='rotate(-20)'%3E%3Cstop offset='0%25' stop-color='blue' /%3E%3Cstop offset='15%25' stop-color='%2300f73b' /%3E%3Cstop offset='50%25' stop-color='%235bc6d4' /%3E%3Cstop offset='85%25' stop-color='%2300f73b' /%3E%3Cstop offset='100%25' stop-color='blue' /%3E%3CanimateTransform attributeName='gradientTransform' type='translate' from='-1 0' to='1 0' begin='0s' dur='10s' repeatCount='indefinite'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath clip-rule='evenodd' d='M16 0H8v4H4v4H0v8h4v4h4v4h8v-4h4v-4h4V8h-4V4h-4V0zm0 4v4h4v8h-4v4H8v-4H4V8h4V4h8z' fill='url(%23linear-gradient)' class='color' fill-rule='evenodd' /%3E%3C/svg%3E")
+      8 stretch;
+  }
+
+  .subscribe-message {
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    width: calc(50% - 570px - 32px);
+  }
+
+  @media (max-width: 1800px) {
+    .subscribe-message {
+      position: relative;
+      width: 100%;
+      right: 0;
+    }
+  }
+
+  .subscribe-message .col-max-small-container {
+    flex: 0 0 100% !important;
+    max-width: 100%;
+  }
+
+  .subscribe-message .width-small-100 {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  @media (min-width: 1800px) {
+    .subscribe-message-in-blogs {
+      display: none;
+    }
+  }
+
+  .subscribe-message-in-blogs{
+    height: inherit;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .subscribe-message-in-blogs .newsletter {
+    margin: 0 !important;
+    height: 100%;
+  }
+
+  .subscribe-message-in-blogs .col-max-small-container {
+    flex: 0 0 100% !important;
+    max-width: 100%;
+  }
+
+  .subscribe-message-in-blogs .width-small-100 {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .subscribe-message .pixel-style-box:before {
+    content: "";
+    position: absolute;
+    right: -32px;
+    top: calc(50% - 14px);
+    width: 24px;
+    height: 28px;
+    border: 0 !important;
+    background-image: url("data:image/svg+xml,%3Csvg fill='none' viewBox='4 0 24 28' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient gradientTransform='rotate(-30)' id='linear-gradient2' x1='7.3%25' x2='93.7%25' y1='25%25' y2='75%25'%3E%3Cstop offset='0%25' stop-color='blue' /%3E%3Cstop offset='15%25' stop-color='%2300f73b' /%3E%3Cstop offset='50%25' stop-color='%235bc6d4' /%3E%3Cstop offset='85%25' stop-color='%2300f73b' /%3E%3Cstop offset='100%25' stop-color='blue' /%3E%3CanimateTransform attributeName='gradientTransform' begin='-5s' dur='10s' from='-1 0' repeatCount='indefinite' to='1 0' type='translate' /%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M4 0H0v8h12v4h4v4h-4v4H0v8h4v-4h8v-4h4v-4h8v-4h-8V8h-4V4H4V0z' fill='url(%23linear-gradient2)' /%3E%3C/svg%3E");
   }
 
   /*END:  Dark Theme */
