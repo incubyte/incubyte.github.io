@@ -15,7 +15,7 @@
 
 
 <meta name="author" content="[Sapan Parikh]">
-<meta name="generator" content="Hugo 0.116.1">
+<meta name="generator" content="Hugo 0.117.0">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -579,7 +579,388 @@ if (!doNotTrack) {
 		
 
 
-<div class="case-study">
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+  .template-container {
+    margin: 0 50px 0 50px;
+  }
+
+  .title {
+    margin-top: 50px;
+  }
+
+  .case-study {
+    font-family: 'Nunito Sans', serif !important;
+  }
+
+  .case-study p,
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Nunito Sans', serif !important;
+  }
+
+  .text-container {
+    margin: 0 auto 0 auto;
+    max-width: 1100px;
+  }
+
+  .case-study .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 141.9%;
+    letter-spacing: 0.06em;
+
+    color: #000000;
+  }
+
+  .summary {
+    margin: 20px 0 80px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #0e3252;
+  }
+
+  .section-heading {
+    color: #0e3252;
+    font-size: 32px;
+    font-weight: 800;
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    flex: 1;
+    padding: 12px;
+    padding-top: 28px;
+    min-width: 200px !important;
+  }
+
+  .stats>p {
+    margin: 0;
+  }
+
+  .stats>p:first-child {
+    color: #0e3252;
+    font-size: 60px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+
+  .stats-container {
+    display: flex;
+    row-gap: 54px;
+    overflow-x: auto;
+    margin-bottom: 62px;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .testimonial {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .testimonial .inner {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: 0 auto 0 auto;
+  }
+
+  .testimonial p {
+    max-width: 1100px;
+    margin: 0 auto 0 auto;
+  }
+
+  .testimonial .text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .testimonial .name {
+    max-width: 1100px;
+    margin: 0 auto 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 8px;
+  }
+
+  .banner-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .img_small {
+    width: 50% !important;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .bg-deep_blue {
+    background-color: #0e3252;
+  }
+
+  .bg-grey {
+    background-color: #f1f1f1;
+  }
+
+  .banner-container>img {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    display: flex;
+  }
+
+  .client-details-container {
+    display: flex;
+    gap: 54px;
+  }
+
+  .details-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .details-box>p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: black;
+    margin: 0;
+  }
+
+  .details-box>p:first-child {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #666666;
+  }
+
+  .paragraph-body {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    color: black;
+
+    margin-bottom: 2em;
+  }
+
+  .paragraph-body-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    color: black;
+  }
+
+  .item-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    color: black;
+    margin-bottom: 2em;
+  }
+
+  .mt-5 {
+    margin-top: 3em !important;
+  }
+
+  .what-we-did-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 54px;
+    margin-bottom: 62px;
+    justify-content: space-between;
+  }
+
+  .what-we-did-container>.item {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .what-we-did-container>.item>.label {
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    max-width: 24em;
+    margin: auto;
+  }
+
+  .what-we-did-container>.item>.index {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.06em;
+    color: #000000;
+  }
+
+  .project-highlights-heading {
+    color: #0e3252;
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 800;
+  }
+
+  .project-highlights-subheading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #0e3252;
+  }
+
+  .project-highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0 0;
+    grid-template-areas:
+      'item item'
+      'item item';
+  }
+
+  @media (max-width: 991px) {
+    .project-highlights-grid {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      gap: 0 0;
+      grid-template-areas:
+        'item'
+        'item'
+        'item'
+        'item';
+    }
+
+    .testimonial .inner {
+      padding: 0 20px 0 20px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .img_small {
+      width: 100% !important;
+    }
+
+    .template-container {
+      margin: 0 20px 0 20px;
+    }
+
+    .case-study .title {
+      font-size: 32px;
+    }
+
+    .summary {
+      font-size: 20px;
+      margin: 25px 0 50px 0;
+    }
+
+    .testimonial .text {
+      font-size: 16px;
+    }
+
+    .testimonial .name {
+      font-size: 14px;
+    }
+
+    .section-heading {
+      font-size: 28px;
+    }
+
+    .project-highlights-subheading {
+      font-size: 20px;
+    }
+
+    .project-highlights-sub-subheading {
+      font-size: 18px;
+    }
+
+    .paragraph-body {
+      font-size: 16px;
+    }
+
+    .paragraph-body-list {
+      font-size: 16px;
+    }
+
+    .item-list {
+      font-size: 16px;
+    }
+
+    .stats>p:first-child {
+      font-size: 48px;
+    }
+  }
+
+  .project-highlights-grid>a>.item {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    align-items: flex-baseline;
+  }
+
+  .project-highlights-grid>a>.item>.index {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: black;
+  }
+
+  .project-highlights-grid>a>.item>.label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    max-width: 24em;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #0e3252;
+    color: black;
+  }
+
+  .project-highlights-sub-subheading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+
+    color: #0e3252;
+  }
+</style>
+
+    <div class="case-study">
   <div class="template-container">
     <div class="text-container">
       <h1 class="title text-center">Monnai: A Product Launch Journey</h1>
@@ -612,7 +993,11 @@ if (!doNotTrack) {
       </div>
     </div>
     <div class="banner-container bg-monnai_blue">
-      <img class="img_small" src="/images/2023/monnai-case-study/monnai-banner.jpg" alt="Monnai: A Product Launch Journey" />
+      <img
+        class="img_small"
+        src="/images/2023/monnai-case-study/monnai-banner.jpg"
+        alt="Monnai: A Product Launch Journey"
+      />
     </div>
     <div class="text-container">
       <h2 class="section-heading">BACKGROUND</h2>
@@ -649,16 +1034,22 @@ if (!doNotTrack) {
       <div class="what-we-did-container">
         <div class="item">
           <div class="rounded-circle bg-secondary">
-            <img class="rounded-circle" style="width: 62px; height: 62px; background: #d9d9d9 !important"
-              src="/images/2023/monnai-case-study/case-study-monnai-icons-11.png" />
+            <img
+              class="rounded-circle"
+              style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="/images/2023/monnai-case-study/case-study-monnai-icons-11.png"
+            />
           </div>
           <p class="label">Go to market in three months</p>
         </div>
 
         <div class="item">
           <div class="rounded-circle bg-secondary">
-            <img class="rounded-circle" style="width: 62px; height: 62px; background: #d9d9d9 !important"
-              src="/images/2023/monnai-case-study/case-study-monnai-icons-12.png" />
+            <img
+              class="rounded-circle"
+              style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="/images/2023/monnai-case-study/case-study-monnai-icons-12.png"
+            />
           </div>
           <p class="label">
             The ability to respond quickly to feedback from potential customers
@@ -667,16 +1058,22 @@ if (!doNotTrack) {
 
         <div class="item">
           <div class="rounded-circle bg-secondary">
-            <img class="rounded-circle" style="width: 62px; height: 62px; background: #d9d9d9 !important"
-              src="/images/2023/monnai-case-study/case-study-monnai-icons-13.png" />
+            <img
+              class="rounded-circle"
+              style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="/images/2023/monnai-case-study/case-study-monnai-icons-13.png"
+            />
           </div>
           <p class="label">Onboarding their first customer within six months</p>
         </div>
 
         <div class="item">
           <div class="rounded-circle bg-secondary">
-            <img class="rounded-circle" style="width: 62px; height: 62px; background: #d9d9d9 !important"
-              src="/images/2023/monnai-case-study/case-study-monnai-icons-14.png" />
+            <img
+              class="rounded-circle"
+              style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="/images/2023/monnai-case-study/case-study-monnai-icons-14.png"
+            />
           </div>
           <p class="label">
             Sustained frequent releases to ensure the product evolved rapidly
@@ -686,16 +1083,22 @@ if (!doNotTrack) {
 
         <div class="item">
           <div class="rounded-circle bg-secondary">
-            <img class="rounded-circle" style="width: 62px; height: 62px; background: #d9d9d9 !important"
-              src="/images/2023/monnai-case-study/case-study-monnai-icons-15.png" />
+            <img
+              class="rounded-circle"
+              style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="/images/2023/monnai-case-study/case-study-monnai-icons-15.png"
+            />
           </div>
           <p class="label">An amazing team morale</p>
         </div>
 
         <div class="item">
           <div class="rounded-circle bg-secondary">
-            <img class="rounded-circle" style="width: 62px; height: 62px; background: #d9d9d9 !important"
-              src="/images/2023/monnai-case-study/case-study-monnai-icons-16.png" />
+            <img
+              class="rounded-circle"
+              style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="/images/2023/monnai-case-study/case-study-monnai-icons-16.png"
+            />
           </div>
           <p class="label">
             $6.5 million of funding in just one year of going live.
@@ -705,7 +1108,10 @@ if (!doNotTrack) {
     </div>
     <div class="banner-container bg-deep_blue text-center testimonial">
       <div class="inner" style="padding: 0px 25px">
-        <img style="width: 62px; height: auto" src="/images/2023/open-quote.png" />
+        <img
+          style="width: 62px; height: auto"
+          src="/images/2023/open-quote.png"
+        />
         <p class="paragraph-body text-white text">
           We went from an initial call with Incubyte to starting work in under
           15 days and from an idea to a working MVP in just three months. They
@@ -720,10 +1126,16 @@ if (!doNotTrack) {
           Incubyte and would recommend them as engineering partners for any
           start-up launching new products.
         </p>
-        <img style="width: 62px; height: auto; align-self: end;" src="/images/2023/close-quote.png" />
+        <img
+          style="width: 62px; height: auto; align-self: end"
+          src="/images/2023/close-quote.png"
+        />
       </div>
-      <img class="rounded-circle" style="width: 62px; height: 62px; background: #d9d9d9 !important"
-        src="/images/2023/monnai-case-study/ravish_patel.jpg" />
+      <img
+        class="rounded-circle"
+        style="width: 62px; height: 62px; background: #d9d9d9 !important"
+        src="/images/2023/monnai-case-study/ravish_patel.jpg"
+      />
       <p class="label text-white name">Ravish Patel, Co-founder at Monnai</p>
     </div>
     <div class="text-container">
@@ -736,7 +1148,10 @@ if (!doNotTrack) {
             <p class="label">
               Defining A Vision For The Product And The Partnership
             </p>
-            <img style="width: 28px; height: auto; align-self: start" src="/images/2023/arrow_right.png" />
+            <img
+              style="width: 28px; height: auto; align-self: start"
+              src="/images/2023/arrow_right.png"
+            />
           </div>
         </a>
 
@@ -744,7 +1159,10 @@ if (!doNotTrack) {
           <div class="item">
             <p class="index">2.</p>
             <p class="label">Automation, Automation, Automation</p>
-            <img style="width: 28px; height: auto; align-self: start" src="/images/2023/arrow_right.png" />
+            <img
+              style="width: 28px; height: auto; align-self: start"
+              src="/images/2023/arrow_right.png"
+            />
           </div>
         </a>
 
@@ -752,7 +1170,10 @@ if (!doNotTrack) {
           <div class="item">
             <p class="index">3.</p>
             <p class="label">Cloud Infrastructure</p>
-            <img style="width: 28px; height: auto; align-self: start" src="/images/2023/arrow_right.png" />
+            <img
+              style="width: 28px; height: auto; align-self: start"
+              src="/images/2023/arrow_right.png"
+            />
           </div>
         </a>
 
@@ -760,7 +1181,10 @@ if (!doNotTrack) {
           <div class="item">
             <p class="index">4.</p>
             <p class="label">Observability And Monitoring</p>
-            <img style="width: 28px; height: auto; align-self: start" src="/images/2023/arrow_right.png" />
+            <img
+              style="width: 28px; height: auto; align-self: start"
+              src="/images/2023/arrow_right.png"
+            />
           </div>
         </a>
       </div>
@@ -810,7 +1234,11 @@ if (!doNotTrack) {
       </p>
     </div>
     <div class="banner-container bg-grey">
-      <img class="img_small" src="/images/2023/monnai-case-study/graph.png" alt="productivity pattern of a growing company" />
+      <img
+        class="img_small"
+        src="/images/2023/monnai-case-study/graph.png"
+        alt="productivity pattern of a growing company"
+      />
     </div>
     <div class="text-container">
       <h3 class="project-highlights-subheading mt-4" id="highlight_2">
@@ -1075,8 +1503,7 @@ if (!doNotTrack) {
     border-color: #0e3252 !important;
   }
 </style>
-
-  <div class="lets-talk">
+ <div class="lets-talk">
   <div class="d-flex justify-content-center align-items-center text-center">
     <div>LET’S BUILD WELL CRAFTED SOFTWARE TOGETHER</div>
     <div>
@@ -1138,360 +1565,8 @@ if (!doNotTrack) {
 </div>
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
-
-  .template-container {
-    margin: 0 50px 0 50px;
-  }
-
-  .title {
-    margin-top: 50px;
-  }
-
-  .case-study {
-    font-family: 'Nunito Sans', serif !important;
-  }
-
-  .case-study p,
-  h1,
-  h2,
-  h3,
-  h4 {
-    font-family: 'Nunito Sans', serif !important;
-  }
-
-  .text-container {
-    margin: 0 auto 0 auto;
-    max-width: 1100px;
-  }
-
-  .case-study .title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 141.9%;
-    letter-spacing: 0.06em;
-
-    color: #000000;
-  }
-
-  .summary {
-    margin: 20px 0 80px 0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 33px;
-
-    color: #0e3252;
-  }
-
-  .section-heading {
-    color: #0e3252;
-    font-size: 32px;
-    font-weight: 800;
-  }
-
-  .stats {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    background-color: #f1f1f1;
-    border-radius: 12px;
-    flex: 1;
-    padding: 12px;
-    padding-top: 28px;
-    min-width: 200px !important;
-  }
-
-  .stats>p {
-    margin: 0;
-  }
-
-  .stats>p:first-child {
-    color: #0e3252;
-    font-size: 60px;
-    line-height: 32px;
-    font-weight: 700;
-  }
-
-  .stats-container {
-    display: flex;
-    row-gap: 54px;
-    overflow-x: auto;
-    margin-bottom: 62px;
-    text-align: center;
-    gap: 20px;
-  }
-
-  .testimonial {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .testimonial .inner {
-    display: flex;
-    flex-direction: column;
-    max-width: 1100px;
-    margin: 0 auto 0 auto;
-  }
-
-  .testimonial p {
-    max-width: 1100px;
-    margin: 0 auto 0 auto;
-  }
-
-  .testimonial .text {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-  }
-
-  .testimonial .name {
-    max-width: 1100px;
-    margin: 0 auto 0 auto;
-    font-weight: 400;
-    font-size: 16px;
-    padding-top: 8px;
-  }
-
-  .banner-container {
-    width: 100%;
-    height: auto;
-    margin-bottom: 50px;
-  }
-
-  .img_small {
-    width: 50% !important;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .bg-deep_blue {
-    background-color: #0e3252;
-  }
-
   .bg-monnai_blue {
     background-color: #202475;
-  }
-
-  .bg-grey {
-    background-color: #f1f1f1;
-  }
-
-  .banner-container>img {
-    width: 100%;
-    margin: 0 auto 0 auto;
-    display: flex;
-  }
-
-  .client-details-container {
-    display: flex;
-    gap: 54px;
-  }
-
-  .details-box {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-  }
-
-  .details-box>p {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 27px;
-    color: black;
-    margin: 0;
-  }
-
-  .details-box>p:first-child {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: #666666;
-  }
-
-  .paragraph-body {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: 0.06em;
-    color: black;
-
-    margin-bottom: 2em;
-  }
-
-  .mt-5 {
-    margin-top: 3em !important;
-  }
-
-  .what-we-did-container {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 54px;
-    margin-bottom: 62px;
-    justify-content: space-between;
-  }
-
-  .what-we-did-container>.item {
-    display: flex;
-    justify-content: flex-start;
-    gap: 16px;
-    align-items: center;
-  }
-
-  .what-we-did-container>.item>.label {
-    color: black;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: 0.06em;
-    max-width: 24em;
-    margin: auto;
-  }
-
-  .what-we-did-container>.item>.index {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    letter-spacing: 0.06em;
-    color: #000000;
-  }
-
-  .project-highlights-heading {
-    color: #0e3252;
-    margin-bottom: 24px;
-    font-size: 32px;
-    font-weight: 800;
-  }
-
-  .project-highlights-subheading {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-
-    color: #0e3252;
-  }
-
-  .project-highlights-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 0 0;
-    grid-template-areas:
-      'item item'
-      'item item';
-  }
-
-  @media (max-width: 991px) {
-    .project-highlights-grid {
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(4, 1fr);
-      gap: 0 0;
-      grid-template-areas:
-        'item'
-        'item'
-        'item'
-        'item';
-    }
-
-    .testimonial .inner {
-      padding: 0 20px 0 20px;
-    }
-  }
-
-  @media (max-width: 425px) {
-    .img_small {
-      width: 100% !important;
-    }
-
-    .template-container {
-      margin: 0 20px 0 20px;
-    }
-
-    .case-study .title {
-      font-size: 32px;
-    }
-
-    .summary {
-      font-size: 20px;
-      margin: 25px 0 50px 0;
-    }
-
-    .testimonial .text {
-      font-size: 16px;
-    }
-
-    .testimonial .name {
-      font-size: 14px;
-    }
-
-    .section-heading {
-      font-size: 28px;
-    }
-
-    .project-highlights-subheading {
-      font-size: 20px;
-    }
-
-    .project-highlights-sub-subheading {
-      font-size: 18px;
-    }
-
-    .paragraph-body {
-      font-size: 16px;
-    }
-
-    .stats>p:first-child {
-      font-size: 48px;
-    }
-  }
-
-  .project-highlights-grid>a>.item {
-    display: flex;
-    justify-content: flex-start;
-    gap: 16px;
-    align-items: flex-baseline;
-  }
-
-  .project-highlights-grid>a>.item>.index {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.06em;
-    text-align: left;
-    color: black;
-  }
-
-  .project-highlights-grid>a>.item>.label {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: 0.06em;
-    max-width: 24em;
-    text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-color: #0e3252;
-    color: black;
-  }
-
-  .project-highlights-sub-subheading {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 32px;
-    letter-spacing: 0.06em;
-    text-transform: capitalize;
-
-    color: #0e3252;
   }
 </style>
 
