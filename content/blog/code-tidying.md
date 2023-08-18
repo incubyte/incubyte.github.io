@@ -24,7 +24,7 @@ Wouldn’t it be awesome if people would “tell” once instead of posing multi
 In programming, too, there is a “tell, do not ask” principle. Let’s visit it  (now, this was a hard segue).
 
 ## Feature Envy:
-In programming too, there exist backseat drivers. The backseat driver is a module that asks for data from another class or a module and works with it (logic), while the whole logic could have been in the other module.
+In programming, there exist backseat drivers. The backseat driver is a module that asks for data from another class or a module and works with it (logic), while the whole logic could have been in the other module.
 
 {{< figure src="/images/2023/code_tidying/1.png" >}}
 
@@ -66,7 +66,7 @@ Well, we move the method body to the class it should belong to! Here is an examp
 {{< figure src="/images/2023/code_tidying/5.gif" >}}
 
 
-Conclusion:
+## Conclusion:
 
 Larger and better architectural designs are not achieved by fancy diagrams alone. Sometimes small tidyings around code smells help you take a step towards achieving the larger vision. Like we saw here, CodeScene and IntelliJ help you achieve this, one step at a time.
 
