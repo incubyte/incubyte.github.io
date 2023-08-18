@@ -1,5 +1,5 @@
 +++
-title = "Code Tidying #2: The Story of a Backseat Driver"
+title = "Code Tidying: The Story of a Backseat Driver"
 slug = "code-tidying"
 date = 2023-08-18T00:10:46+05:30
 image = "/images/2023/code_tidying/tidying_header.jpg"
