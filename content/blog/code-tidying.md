@@ -26,22 +26,22 @@ In programming, too, there is a “tell, do not ask” principle. Let’s visit 
 ## Feature Envy:
 In programming too, there exist backseat drivers. The backseat driver is a module that asks for data from another class or a module and works with it (logic), while the whole logic could have been in the other module.
 
-{{< figure src="/images/2023/code-tidying/1.png" >}}
+{{< figure src="/images/2023/code_tidying/1.png" >}}
 
-![](Aspose.Words.408a41ad-a110-48a7-853d-28009047022b.002.png)
+{{< figure src="/images/2023/code_tidying/2.png" >}}
 
 
-## <a name="_lxfcmdo9r4id"></a>Problems Caused by Feature Envy:
+## Problems Caused by Feature Envy:
+
 - **Code Smell:** It just looks terrible! It may be an indicator of something being wrong with the overall design of the code too. 
 
 - **Coupling:** Many instances of feature envy in code indicate that clear boundaries are not drawn between modules. This lack of boundaries may also increase coupling between these modules. 
 
-~~Without proper boundaries, modules start to get interdependent or coupled with each other.~~ 
-
 - **Duplication:** Because of a lack of ownership of the logic, the same logic may be written in multiple places, causing duplication.
 
 - **Difficult Maintenance:** Because of high coupling, low cohesion, duplication, and general readability-related issues, code becomes difficult to maintain.
-## <a name="_1jr6apsafwem"></a>How to Spot it:
+
+## How to Spot it:
 Once we scanned the code with CodeScene, we looked closely at the hotspots. 
 
 CodeScene hotspots = files' churn rate + code health.
@@ -50,22 +50,20 @@ This means they might be a cesspool of many code smells. Once we knew where to l
 
 The other option to detect feature envy issues is by using IntelliJ's code analysis feature on the CodeScene hotspot.
 
-![](Aspose.Words.408a41ad-a110-48a7-853d-28009047022b.003.png)
+{{< figure src="/images/2023/code_tidying/3.gif" >}}
 
 Here is an example. Do you see how every line of code written here works with an instance of IndexMetadata class? 
 
 Though, currently, this method is in some other class entirely!
 
-![](Aspose.Words.408a41ad-a110-48a7-853d-28009047022b.004.png)
+{{< figure src="/images/2023/code_tidying/4.png" >}}
 
 
 So what can we do?
 
 Well, we move the method body to the class it should belong to! Here is an example. 
 
-![](Aspose.Words.408a41ad-a110-48a7-853d-28009047022b.005.png)
-
-
+{{< figure src="/images/2023/code_tidying/5.gif" >}}
 
 
 Conclusion:
