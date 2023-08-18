@@ -2,7 +2,7 @@
 title = "Code Tidying #2: The Story of a Backseat Driver"
 slug = "code-tidying"
 date = 2023-08-18T00:10:46+05:30
-image = "/images/2023/codescene_refactoring/blog_header.jpg"
+image = "/images/2023/codescene_tidying/tidying_header.jpg"
 draft = false
 authors = ["Sapan Parikh"]
 description = ""
