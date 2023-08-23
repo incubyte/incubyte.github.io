@@ -22,7 +22,7 @@ card_1_title="Taking Mental Healthcare Solution Global"
 card_1_desc="Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience"
 card_1_slug="global-case-study/"
 card_2_title="Monnai: A Product Launch Journey"
-card_2_desc="Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience"
+card_2_desc="Reinventing Global Consumer Insights for Fintech"
 card_2_slug="monnai-case-study/"
 +++
 
