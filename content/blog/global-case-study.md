@@ -18,10 +18,10 @@ what_we_did_icon_3 = "/images/2023/SH-case-study/SH-icons-19.png"
 what_we_did_icon_4 = "/images/2023/SH-case-study/SH-icons-20.png"
 what_we_did_icon_5 = "/images/2023/SH-case-study/SH-icons-21.png"
 card_1_title="A Centralized System for a Leading Consumer Lending Bank"
-card_1_desc="Reinventing global consumer insights for fintech"
+card_1_desc="Making Loan Processing Efficient by Transforming Manual Processes into a Centralized Automated System"
 card_1_slug="finance-case-study"
 card_2_title="Monnai: A Product Launch Journey"
-card_2_desc="Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience"
+card_2_desc="Reinventing Global Consumer Insights for Fintech"
 card_2_slug="monnai-case-study"
 +++
 
