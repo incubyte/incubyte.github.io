@@ -23,12 +23,12 @@ what_we_did_icon_6 = "/images/2023/monnai-case-study/case-study-monnai-icons-16.
 card_1_title="Taking Mental Healthcare Solution Global"
 card_1_desc="Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience"
 card_1_slug="global-case-study/"
-card_2_title="A Centralized System for a Leading Consumer Lending Bank"
-card_2_desc="Reinventing global consumer insights for fintech"
-card_2_slug="finance-case-study/"
+card_2_title="Modernizing A Legacy System: Build And Deployment"
+card_2_desc="Streamlining Expense Tracking Process by Modernizing a Solution for a US-Based Expense Management Solution Provider"
+card_2_slug="build-deployment-case-study/"
 +++
 
-Reinventing global consumer insights for fintech.
+Reinventing Global Consumer Insights for Fintech.
 
 The fintech market size stood at USD 112.5 billion in the year 2021. Yet, consumer data used for decision-making remain outdated and fragmented. Most provide limited data points and do not even work across countries and continents.
 
