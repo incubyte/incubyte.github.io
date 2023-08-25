@@ -21,10 +21,10 @@ card_1_title="Taking Mental Healthcare Solution Global"
 card_1_desc="Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience"
 card_1_slug="global-case-study/"
 card_2_title="A Centralized System for a Leading Consumer Lending Bank"
-card_2_desc="Reinventing Global Consumer Insights for Fintech"
+card_2_desc="Making Loan Processing Efficient by Transforming Manual Processes into a Centralized Automated System"
 card_2_slug="finance-case-study/"
 +++
 
-Streamlining expense tracking process by modernizing a solution for a US-based expense management solution provider.
+Streamlining Expense Tracking Process by Modernizing a Solution for a US-based Expense Management Solution Provider
 
 
