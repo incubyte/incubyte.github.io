@@ -25,6 +25,6 @@ card_2_desc="Making Loan Processing Efficient by Transforming Manual Processes i
 card_2_slug="finance-case-study/"
 +++
 
-Streamlining expense tracking process by modernizing a solution for a US-based expense management solution provider.
+Streamlining Expense Tracking Process by Modernizing a Solution for a US-based Expense Management Solution Provider
 
 
