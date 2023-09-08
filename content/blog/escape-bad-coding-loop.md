@@ -2,7 +2,7 @@
 title = "Why Companies Become Stuck In Bad Coding Loops—And How To Escape Them"
 slug = "escape-bad-coding-loop"
 date = 2023-09-08T00:10:46+05:30
-image = "/images/2023/code_tidying/tidying_header.jpg"
+image = "/images/2023/escape-bad-coding-loop/header.jpg"
 draft = false
 authors = ["Sapan Parikh"]
 description = ""
@@ -11,7 +11,7 @@ categories = ["Technical Debt"]
 type = ""
 +++
 
-<i> Originally published on Forbes Technology Council. [Read it here]{https://www.forbes.com/sites/forbestechcouncil/2023/07/25/why-companies-become-stuck-in-bad-coding-loops-and-how-to-escape-them/?utm_content=257995675&utm_medium=social&utm_source=linkedin&hss_channel=lcp-11075183&sh=579c75586808}</i>
+<i> Originally published on Forbes Technology Council. [Read it here](https://www.forbes.com/sites/forbestechcouncil/2023/07/25/why-companies-become-stuck-in-bad-coding-loops-and-how-to-escape-them/?utm_content=257995675&utm_medium=social&utm_source=linkedin&hss_channel=lcp-11075183&sh=579c75586808)</i>
 
 Imagine a multimillion-dollar company with a lot of software. The sense of moving fast is in the air, but nothing seems to be moving forward. Deadlines are missed, bugs are found, business sometimes comes to a standstill and releases take too long to go out.
 
@@ -44,6 +44,8 @@ The first loop generally looks something like this.
 4. The slower the progress, the more you hire.
 
 5. This leads back to step one.
+
+{{< figure src="/images/2023/escape-bad-coding-loop/image 1.png" >}}
 
 In order to solve the first loop, companies often create the second, equally difficult-to-escape loop.
 
