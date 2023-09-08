@@ -67,7 +67,7 @@ These loops take a long time to form, sometimes years or decades. Once your comp
 
 But if you have already entered the spiral, here are a few steps that can help.
 
-<b> 1. Freeze; stop writing code. </b>Of course, this is not entirely possible, but you can freeze hotspots of code in time. You can stop these hotspots from growing and then write new code in a new place. For instance, LinkedIn's Operation InVersion was a complete rebuild of LinkedIn’s creaky, outdated software infrastructure, where all new feature developments were frozen for two months.
+<b> 1. Freeze; stop writing code. </b>Of course, this is not entirely possible, but you can freeze hotspots of code in time. You can stop these hotspots from growing and then write new code in a new place. For instance, LinkedIn's Operation InVersion was a [complete rebuild](https://www.linkedin.com/pulse/when-your-tech-debt-comes-due-kevin-scott/) of LinkedIn’s creaky, outdated software infrastructure, where all new feature developments were frozen for two months.
 
 <b> 2. Raise the hiring bar. </b>Pivot your hiring practices. Reinforce the idea that the talent acquisition team focuses on quality candidates.
 
