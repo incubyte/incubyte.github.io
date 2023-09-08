@@ -67,13 +67,13 @@ These loops take a long time to form, sometimes years or decades. Once your comp
 
 But if you have already entered the spiral, here are a few steps that can help.
 
-1. Freeze; stop writing code. Of course, this is not entirely possible, but you can freeze hotspots of code in time. You can stop these hotspots from growing and then write new code in a new place. For instance, LinkedIn's Operation InVersion was a complete rebuild of LinkedIn’s creaky, outdated software infrastructure, where all new feature developments were frozen for two months.
+<b> 1. Freeze; stop writing code. </b>Of course, this is not entirely possible, but you can freeze hotspots of code in time. You can stop these hotspots from growing and then write new code in a new place. For instance, LinkedIn's Operation InVersion was a complete rebuild of LinkedIn’s creaky, outdated software infrastructure, where all new feature developments were frozen for two months.
 
-2. Raise the hiring bar. Pivot your hiring practices. Reinforce the idea that the talent acquisition team focuses on quality candidates.
+<b> 2. Raise the hiring bar. </b>Pivot your hiring practices. Reinforce the idea that the talent acquisition team focuses on quality candidates.
 
-3. Upskill the developers. Invest in the L&D of teams. Align the knowledge base with current and upcoming trends.
+<b> 3. Upskill the developers. </b>Invest in the L&D of teams. Align the knowledge base with current and upcoming trends.
 
-4. Reduce technical debt. By having a mission-critical task force, you can eliminate bad code at the most fundamental level and prevent it from recurring. Create a road map, and possibly a task force, to fix the debt and upskill the team. (Refer, for example, to the book, The DevOps Handbook: How to Create World-Class Agility, Reliability and Security in Technology Organizations.)
+<b> 4. Reduce technical debt. </b>By having a mission-critical task force, you can eliminate bad code at the most fundamental level and prevent it from recurring. Create a road map, and possibly a task force, to fix the debt and upskill the team. (Refer, for example, to the book, The DevOps Handbook: How to Create World-Class Agility, Reliability and Security in Technology Organizations.)
 
 Modernizing software systems is a large subject, and is not an exhaustive list of problems and solutions. When looking at your company's concerns, you can use this method to suggest more influencing flows and stocks in order to have a conversation on how it can help the system reduce technical debt.
 
