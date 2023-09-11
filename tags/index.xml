@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 18 Aug 2023 00:10:46 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Sep 2023 00:10:46 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technical Debt</title>
+      <link>https://blog.incubyte.co/tags/technical-debt/</link>
+      <pubDate>Fri, 08 Sep 2023 00:10:46 +0530</pubDate>
+      
+      <guid>https://blog.incubyte.co/tags/technical-debt/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>CodeScene</title>
       <link>https://blog.incubyte.co/tags/codescene/</link>
