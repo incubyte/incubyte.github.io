@@ -1,5 +1,5 @@
 +++
-title = "Why Companies Become Stuck In Bad Coding Loops—And How To Escape Them"
+title = "Why Companies Become Stuck In Bad Coding Loops — And How To Escape Them"
 slug = "escape-bad-coding-loop"
 date = 2023-09-08T00:10:46+05:30
 image = "/images/2023/escape-bad-coding-loop/header.jpg"
@@ -11,7 +11,7 @@ categories = ["Technical Debt"]
 type = ""
 +++
 
-<i> Originally published on [Forbes Technology Council.](https://www.forbes.com/sites/forbestechcouncil/2023/07/25/why-companies-become-stuck-in-bad-coding-loops-and-how-to-escape-them/?utm_content=257995675&utm_medium=social&utm_source=linkedin&hss_channel=lcp-11075183&sh=579c75586808)</i>
+<i> Originally published on [Forbes Technology Council.](https://www.forbes.com/sites/forbestechcouncil/2023/07/25/why-companies-become-stuck-in-bad-coding-loops-and-how-to-escape-them/)</i>
 
 Imagine a multimillion-dollar company with a lot of software. The sense of moving fast is in the air, but nothing seems to be moving forward. Deadlines are missed, bugs are found, business sometimes comes to a standstill and releases take too long to go out.
 
