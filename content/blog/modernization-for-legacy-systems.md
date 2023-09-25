@@ -1,8 +1,8 @@
 +++
 title = "Software Modernization For Legacy Software"
 slug = "software-modernization-for-legacy-software"
-date = 2023-09-22T00:10:46+05:30
-image = "/images/2023/codescene_refactoring/blog_header.jpg"
+date = 2023-09-25T00:10:46+05:30
+image = "/images/2023/modernization-for-legacy-software-header.jpg"
 draft = false
 authors = ["Sapan Parikh"]
 description = ""
