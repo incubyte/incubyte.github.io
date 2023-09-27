@@ -60,7 +60,14 @@ function displayResults(results, store) {
       );
       resultList += articleHTML;
     }
-    searchResults.innerHTML = resultList;
+    let resultHtml = `
+        <div class="container">
+            <div class="row">
+                ${resultList}
+            </div>
+        </div>
+    `;
+    searchResults.innerHTML = resultHtml;
   } else {
     searchResults.innerHTML = "No results found.";
   }
@@ -81,7 +88,6 @@ if (query) {
     this.field("authors");
     this.field("summary");
     this.field("date");
-
     for (const key in window.store) {
       this.add({
         id: key,
@@ -95,7 +101,6 @@ if (query) {
       });
     }
   });
-
   const results = idx.search(query);
   displayResults(results, window.store);
 }

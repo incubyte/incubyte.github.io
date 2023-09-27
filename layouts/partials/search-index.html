@@ -1,19 +1,17 @@
-<div>
-  <script type="application/ld+json">
-    window.store = {
-      {{ range .Data.Pages}}
-        "{{ .Permalink }}": {
-            "title": {{ .Title  }},
-            "tags": [{{ range .Params.Tags }}"{{ . }}",{{ end }}],
-            "authors":[{{range .Params.authors}}"{{ . }}",{{end}}],
-            "summary":{{ .Summary }},
-            "image":{{ .Params.image}},
-            "date": {{ .Date.Format "Monday, January 2, 2006"}},
-            "url": {{ .Permalink }}
-        },
-        {{ end }}
-    }
-  </script>
-  <script src="https://unpkg.com/lunr/lunr.js"></script>
-  <script src="/index.js"></script>
-</div>
+<script>
+  window.store = {
+    {{ range $.Site.Pages}}
+      "{{ .Permalink }}": {
+          "title": {{ .Title  }},
+          "tags": [{{ range .Params.Tags }}"{{ . }}",{{ end }}],
+          "authors":[{{range .Params.authors}}"{{ . }}",{{end}}],
+          "summary":{{ .Summary }},
+          "image":{{ .Params.image}},
+          "date": {{ .Date.Format "Monday, January 2, 2006"}},
+          "url": {{ .Permalink }}
+      },
+      {{ end }}
+  }
+</script>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="/index.js"></script>
