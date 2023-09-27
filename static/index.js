@@ -45,7 +45,6 @@ function generateArticleHTML(
 }
 function displayResults(results, store) {
   const searchResults = document.getElementById("results");
-  console.log(searchResults);
   if (results.length) {
     let resultList = "";
     for (const n in results) {
