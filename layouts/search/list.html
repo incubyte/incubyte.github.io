@@ -1,6 +1,6 @@
 {{ define "main" }} {{ partial "search-form.html" . }}
 
 <ul id="results">
-  <li>Enter a keyword above to search this site.</li>
+  <li>Enter a keyword above to search.</li>
 </ul>
-{{ end }}
+{{ partial "search-index.html" . }} {{ end }}
