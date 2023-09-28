@@ -2,8 +2,8 @@
 title = "Should you commit lock file?"
 slug = "should-you-commit-lock-file"
 date = 2023-09-27T15:48:02+05:30
-image = "/images/2023/commit-lock-file/version-locking-case.svg"
-draft = true
+image = "/images/2023/commit-lock-file/version-locking-case.png"
+draft = false
 authors = ["Akshay Vadher"]
 description = ""
 tags = ["Guideline", "Best Practice", "Build", "Tooling", "Lock File", "Package Manager", "npm", "yarn", "pnpm", "bun"]
@@ -45,6 +45,24 @@ the problem by locking the version of the package at time of first install. So, 
 version,
 but from the second time onwards, it will install the same version as in the lock file.
 
+### How?
+
+`npm install` automatically generates the lock file.
+
+Let's say the (as described in the diagram) application "A" depends on libraries "B" (1.2.9) and "C" (^6.8.7). "B"
+depends
+on "C"(6.8.8), "D"(4.5.3), and "E"(7.2.9).
+
+All the dependencies are flattened in the lock file with all versions mentioned. So, the lock file will look like this
+B(1.2.9), C(6.8.7 and 6.8.8), D(4.5.3), and E(7.2.9); along with all the individual libraries dependencies mentioned and
+recursively so on.
+
+Since the "B" has been defined as `^`, among 6.8.7 and 6.8.8, the 6.8.8 will win (or even 6.8.9 if released). So,
+the next time you try to install dependencies, it won't install 6.8.10 even if it has been released and meets the `^`
+criteria.
+
+_Above description is not exactly how it works though, it is grossly simplified._
+
 ## Security
 
 Nobody thinks about this while starting a new project, but it is important. The lock file stores the integrity hash
@@ -71,6 +89,22 @@ Here is the list of commands with different modes for different tool
 | yarn | `yarn.lock`         | `yarn`         | `yarn` (`--frozen-lockfile` or `--immutable` option)                                                  | `yarn install`                                                      |
 | pnpm | `pnpm-lock.yaml`    | `pnpm install` | `pnpm install --frozen-lockfile` (`--frozen-lockfile` is not required if `CI` ENV variable is `true`) | `pnpm install --frozen-lockfile --prod`                             |
 | bun  | `bun.lockb`         | `bun install`  | `bun install --frozen-lockfile`                                                                       | `bun install --frozen-lockfile --production`                        |
+
+# When not to commit?
+
+If you are making a library and publishing it, you don't want to lock the dependencies because it might break the host
+application. It should be the host application that is responsible for managing locking. You can mark a range of
+versions your library supports.
+
+# Should you change it manually?
+
+No.
+
+There could be a case where your application is breaking because "C" released a breaking change. So now you are tempted
+to lower the version in the lock file so that it locks the correct version. Instead of doing that, (best if you can) fix
+the
+application to work with the latest version because that is good for the long term, or change the package.json itself so
+that the next time you do `npm install`, it will correct the lock file.
 
 # Other languages
 
