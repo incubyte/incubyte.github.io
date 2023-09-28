@@ -16,7 +16,7 @@ function generateArticleHTML(
 
   let authorsHTML = "";
   for (const author of authors) {
-    authorsHTML += `<a href="/authors/${author}">${author}</a>`;
+    authorsHTML += `<a href="/authors/${author}">${author}</a><span>,</span>`;
   }
 
   const articleHTML = `
@@ -34,7 +34,7 @@ function generateArticleHTML(
             ${tagsHTML}
             <p class="card-text">${summary}</p>
             <p class="blockquote-footer text-right">
-              By ${authorsHTML}, ${date}
+              By ${authorsHTML} on ${date}
             </p>
           </div>
         </article>
@@ -58,7 +58,7 @@ function displayResults(results, store) {
         item.authors,
         item.date
       );
-      resultList += articleHTML;
+      if (item.image && item.url.includes("blog")) resultList += articleHTML;
     }
     let resultHtml = `
         <div class="container">
@@ -78,21 +78,18 @@ const query = params.get("query");
 
 if (query) {
   document.getElementById("search-input").setAttribute("value", query);
-
   const idx = lunr(function () {
     this.ref("id");
     this.field("title", {
-      boost: 15,
+      boost: 100,
     });
     this.field("tags");
-    this.field("authors");
-    this.field("summary");
-    this.field("date");
     for (const key in window.store) {
       this.add({
         id: key,
-        title: window.store[key].title,
-        tags: window.store[key].category,
+        title:
+          window.store[key].title + " " + window.store[key].authors.join(","),
+        tags: window.store[key].tags,
         authors: window.store[key].authors,
         summary: window.store[key].summary,
         image: window.store[key].image,
