@@ -29,7 +29,7 @@ after `6.2.8`.
 
 It is a nicer way to say, "It works on my machine".
 
-Let's say I use `foo` with version `^6.2.8` and use `npn install`, and it will install the latest `6.2.9`. I commit my
+Let's say I use `foo` with version `^6.2.8` and use `npm install`, and it will install the latest `6.2.9`. I commit my
 code, and developer 2 checks out the code. (s)he executes `npm install`, and it will now install `6.2.10` because `^`
 will
 always check for the latest non-major version.
@@ -62,6 +62,15 @@ the next time you try to install dependencies, it won't install 6.8.10 even if i
 criteria.
 
 _Above description is not exactly how it works though, it is grossly simplified._
+
+### Gotcha
+
+Let's eliminate wildcard characters (`^`, `~`, `*`, etc.) and use the exact version; that would solve
+the problem, right?
+
+Wrong. Even if you use the exact version for the library, the library itself might have dependencies with wildcard
+dependencies, and
+the application is still prone to breaking.
 
 ## Security
 
