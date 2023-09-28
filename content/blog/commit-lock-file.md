@@ -20,7 +20,7 @@ Yes, without fail.
 `npm` was the default package manager for `nodejs`.
 
 [Npm](https://www.npmjs.com/) follows sem version system with wildcard support. That means if
-a package `foo` is defined to use `^6.2.8` and you run `npm install`, it will install the latest version of `6.x.x`
+a package `foo` is defined to use `^6.2.8`, and you run `npm install`, it will install the latest version of `6.x.x`
 after `6.2.8`.
 
 # Issues
@@ -36,7 +36,7 @@ always check for the latest non-major version.
 
 In the ideal world, `6.2.9` and `6.2.10` should be compatible, but in the real world, it is not. It can break your
 build.
-It might work for me, but it would break for developer 2 with the exact same code. Worse, it might work in your machine
+It might work for me, but it would break for developer 2 with the same code. Worse, it might work in your machine
 but
 break the Production.
 
