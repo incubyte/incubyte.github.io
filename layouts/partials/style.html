@@ -94,7 +94,7 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
     .navigation-bar {
       padding: 8px 10px;
     }
-    
+
     .theme-toggle {
       display: none;
     }
@@ -111,6 +111,25 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
   .nav-link:focus,
   .nav-link:active {
     color: #0e3252;
+  }
+
+  .nav-search-form {
+    width: 12em;
+  }
+
+  .nav-search-input:focus {
+    border-color: #0e3252;
+  }
+
+  .nav-search-button {
+    background-color: #0e3252;
+  }
+
+  .nav-search-button:hover,
+  .nav-search-button:focus,
+  .nav-search-button:active,
+  .nav-search-button:disabled {
+    background-color: #0e3252 !important;
   }
 
   .navbar-light .navbar-nav .show > .nav-link {
@@ -175,7 +194,7 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 800;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     /* border-bottom: #aeb8c0 2px dotted; */
     /* border-width: thin; */
     word-spacing: 0.2em;
@@ -307,6 +326,10 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
 
   body.dark-theme .nav-link:hover {
     color: white !important;
+  }
+
+  body.dark-theme .nav-search-input:focus {
+    border-color: var(--app-primary) !important;
   }
 
   body.dark-theme .page-item .page-link {

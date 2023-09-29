@@ -1,78 +1,87 @@
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="navigation-bar">
   <!-- <div class="container"> -->
-    <div class="">
-        <!-- navbar -->
-        <nav class="navbar navbar-expand navbar-light bg-transparent">
-            <a class="navbar-brand" href="{{ site.Params.homeURL | absLangURL }}">
-                {{ with site.Params.logo}}
-                <img width="130px" class="img-fluid" src="{{ . | relLangURL }}" alt="{{ site.Title }}">
-                {{ else }}{{site.Title}}{{end}}
-            </a>
-            <!-- <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation" aria-label="menu">
+  <div class="">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand navbar-light bg-transparent">
+      <a class="navbar-brand" href="{{ site.Params.homeURL | absLangURL }}">
+        {{ with site.Params.logo}}
+        <img
+          width="130px"
+          class="img-fluid"
+          src="{{ . | relLangURL }}"
+          alt="{{ site.Title }}"
+        />
+        {{ else }}{{site.Title}}{{end}}
+      </a>
+      <!-- <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation" aria-label="menu">
                 <i class="fas fa-bars"></i>
             </button> -->
 
-            <div class="collapse navbar-collapse text-center" id="navigation">
-                <div>
-                    <i class="fas theme-toggle p-2" id="theme-toggle-btn"></i>
-                </div>
-                {{ if site.Params.navigation_button.enable }}
-                {{ with site.Params.navigation_button }}
-                <a href="{{ .link | relLangURL }}" title="{{ .label }}" class="big-btn btn btn-sm ml-3">{{ .label }}</a>
-                {{ end }}
-                {{ end }}
-                <a class="nav-link" href="https://www.incubyte.co/" role="button">
-                  home
-                </a>
-            </div>
-        </nav>
-    </div>
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div>
+          <i class="fas theme-toggle p-2" id="theme-toggle-btn"></i>
+        </div>
+        {{ partial "search-form.html" . }} {{ if
+        site.Params.navigation_button.enable }} {{ with
+        site.Params.navigation_button }}
+        <a
+          href="{{ .link | relLangURL }}"
+          title="{{ .label }}"
+          class="big-btn btn btn-sm ml-3"
+          >{{ .label }}</a
+        >
+        {{ end }} {{ end }}
+        <a class="nav-link" href="https://www.incubyte.co/" role="button">
+          home
+        </a>
+      </div>
+    </nav>
+  </div>
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
 
 <script type="text/javascript">
-    const body = document.querySelector("body");
-    const themeToggleButton = document.querySelector("#theme-toggle-btn");
-    
-    themeToggleButton.addEventListener('click', toggleTheme);
+  const body = document.querySelector("body");
+  const themeToggleButton = document.querySelector("#theme-toggle-btn");
 
-    function toggleTheme(){
-      const isDarkThemeActive = body.classList.contains("dark-theme");
-      if (isDarkThemeActive) {
-        changeTheme('light');
-      } else{
-        changeTheme('dark');
-      }
-    }
+  themeToggleButton.addEventListener("click", toggleTheme);
 
-    function changeTheme(theme){
-      if(theme == 'light') {
-        themeToggleButton.classList.remove('fa-sun');
-        themeToggleButton.classList.add('fa-moon');
-        body.classList.remove('dark-theme');
-        saveThemeToLocalStorage(theme);
-        
-      } else {
-        themeToggleButton.classList.add('fa-sun');
-        themeToggleButton.classList.remove('fa-moon');
-        body.classList.add('dark-theme');
-        saveThemeToLocalStorage(theme);
-      }
+  function toggleTheme() {
+    const isDarkThemeActive = body.classList.contains("dark-theme");
+    if (isDarkThemeActive) {
+      changeTheme("light");
+    } else {
+      changeTheme("dark");
     }
+  }
 
-    function saveThemeToLocalStorage(theme){
-      localStorage.setItem('theme', theme);
+  function changeTheme(theme) {
+    if (theme == "light") {
+      themeToggleButton.classList.remove("fa-sun");
+      themeToggleButton.classList.add("fa-moon");
+      body.classList.remove("dark-theme");
+      saveThemeToLocalStorage(theme);
+    } else {
+      themeToggleButton.classList.add("fa-sun");
+      themeToggleButton.classList.remove("fa-moon");
+      body.classList.add("dark-theme");
+      saveThemeToLocalStorage(theme);
     }
+  }
 
-    const currentTheme = localStorage.getItem('theme');
-    if(currentTheme){
-      if(currentTheme === 'dark') {
-        changeTheme('dark');
-      } else{
-        changeTheme('light');
-      }
-    } else{
-      changeTheme('light');
+  function saveThemeToLocalStorage(theme) {
+    localStorage.setItem("theme", theme);
+  }
+
+  const currentTheme = localStorage.getItem("theme");
+  if (currentTheme) {
+    if (currentTheme === "dark") {
+      changeTheme("dark");
+    } else {
+      changeTheme("light");
     }
-  </script>
+  } else {
+    changeTheme("light");
+  }
+</script>
