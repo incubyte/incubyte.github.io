@@ -15,7 +15,7 @@
 
 
 <meta name="author" content="[Kaushal Rohit]">
-<meta name="generator" content="Hugo 0.118.2">
+<meta name="generator" content="Hugo 0.119.0">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -193,6 +193,13 @@ if (!doNotTrack) {
     color: #fff;
     font-family: "Nunito Sans", sans-serif;
     font-weight: 700;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+
+  input {
+    border-radius: 20px !important;
+    padding-left: 20px !important;
   }
 
   .big-btn:hover {
@@ -216,7 +223,7 @@ if (!doNotTrack) {
     .navigation-bar {
       padding: 8px 10px;
     }
-    
+
     .theme-toggle {
       display: none;
     }
@@ -225,6 +232,7 @@ if (!doNotTrack) {
   .navbar-brand {
     width: 100%;
   }
+
   .nav-link {
     color: #0e3252;
   }
@@ -233,6 +241,36 @@ if (!doNotTrack) {
   .nav-link:focus,
   .nav-link:active {
     color: #0e3252;
+  }
+
+  .nav-search-form {
+    width: 12em;
+  }
+
+  .nav-search-input {
+    border-radius: 20px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+  }
+
+  .nav-search-input:focus {
+    border-color: #0e3252;
+  }
+
+  .nav-search-button {
+    background-color: #0e3252 !important;
+    border-radius: 20px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    padding-right: 12px;
+    margin-left: -8px;
+  }
+
+  .nav-search-button:hover,
+  .nav-search-button:focus,
+  .nav-search-button:active,
+  .nav-search-button:disabled {
+    background-color: #0e3252 !important;
   }
 
   .navbar-light .navbar-nav .show > .nav-link {
@@ -297,9 +335,7 @@ if (!doNotTrack) {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 800;
-    letter-spacing: .1em;
-     
-     
+    letter-spacing: 0.1em;
     word-spacing: 0.2em;
   }
 
@@ -431,6 +467,10 @@ if (!doNotTrack) {
     color: white !important;
   }
 
+  body.dark-theme .nav-search-input:focus {
+    border-color: var(--app-primary) !important;
+  }
+
   body.dark-theme .page-item .page-link {
     background: var(--dark-pagination-color) !important;
     color: white !important;
@@ -486,6 +526,11 @@ if (!doNotTrack) {
     color: white;
   }
 
+  body.dark-theme input {
+    background-color: var(--extra-dark-background) !important;
+    color: white !important;
+  }
+
    
 </style>
 
@@ -500,79 +545,122 @@ if (!doNotTrack) {
 	<!-- navigation -->
 <header class="navigation-bar">
   
-    <div class="">
+  <div class="">
+    
+    <nav class="navbar navbar-expand navbar-light bg-transparent">
+      <a class="navbar-brand" href="https://www.incubyte.co/">
         
-        <nav class="navbar navbar-expand navbar-light bg-transparent">
-            <a class="navbar-brand" href="https://www.incubyte.co/">
-                
-                <img width="130px" class="img-fluid" src="/images/logo.png" alt="Incubyte Blog">
-                
-            </a>
-            
+        <img
+          width="130px"
+          class="img-fluid"
+          src="/images/logo.png"
+          alt="Incubyte Blog"
+        />
+        
+      </a>
 
-            <div class="collapse navbar-collapse text-center" id="navigation">
-                <div>
-                    <i class="fas theme-toggle p-2" id="theme-toggle-btn"></i>
-                </div>
-                
-                
-                <a href="https://www.incubyte.co/lets-get-started" title="LET&#39;S TALK!" class="big-btn btn btn-sm ml-3">LET&#39;S TALK!</a>
-                
-                
-                <a class="nav-link" href="https://www.incubyte.co/" role="button">
-                  home
-                </a>
-            </div>
-        </nav>
-    </div>
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div>
+          <i class="fas theme-toggle" id="theme-toggle-btn"></i>
+        </div>
+        <form
+  class="d-inline-flex flex-row ml-2 nav-search-form"
+  id="search"
+  action='https://blog.incubyte.co/search/'
+  method="get"
+>
+  <div class="form-outline mr-2">
+    <input
+      type="text"
+      id="search-input"
+      name="query"
+      placeholder="Search"
+      class="form-control rounded nav-search-input"
+      oninput="enableButton()"
+    />
+  </div>
+  <button
+    type="submit"
+    id="search-button"
+    class="btn-primary rounded w-25 border-0 nav-search-button"
+    value="search"
+    disabled
+  >
+    <i class="fas fa-search"></i>
+  </button>
+</form>
+
+<script>
+  function enableButton() {
+    const searchInput = document.getElementById("search-input");
+    const searchButton = document.getElementById("search-button");
+
+    if (searchInput.value.length > 0) {
+      searchButton.removeAttribute("disabled");
+    } else {
+      searchButton.setAttribute("disabled", "true");
+    }
+  }
+</script>
+
+         
+        <a
+          href="https://www.incubyte.co/lets-get-started"
+          title="LET&#39;S TALK!"
+          class="big-btn btn btn-sm ml-2 mr-2"
+          >LET&#39;S TALK!</a
+        >
+         
+      </div>
+    </nav>
+  </div>
 </header>
 <!-- /navigation -->
 
 <script type="text/javascript">
-    const body = document.querySelector("body");
-    const themeToggleButton = document.querySelector("#theme-toggle-btn");
-    
-    themeToggleButton.addEventListener('click', toggleTheme);
+  const body = document.querySelector("body");
+  const themeToggleButton = document.querySelector("#theme-toggle-btn");
 
-    function toggleTheme(){
-      const isDarkThemeActive = body.classList.contains("dark-theme");
-      if (isDarkThemeActive) {
-        changeTheme('light');
-      } else{
-        changeTheme('dark');
-      }
-    }
+  themeToggleButton.addEventListener("click", toggleTheme);
 
-    function changeTheme(theme){
-      if(theme == 'light') {
-        themeToggleButton.classList.remove('fa-sun');
-        themeToggleButton.classList.add('fa-moon');
-        body.classList.remove('dark-theme');
-        saveThemeToLocalStorage(theme);
-        
-      } else {
-        themeToggleButton.classList.add('fa-sun');
-        themeToggleButton.classList.remove('fa-moon');
-        body.classList.add('dark-theme');
-        saveThemeToLocalStorage(theme);
-      }
+  function toggleTheme() {
+    const isDarkThemeActive = body.classList.contains("dark-theme");
+    if (isDarkThemeActive) {
+      changeTheme("light");
+    } else {
+      changeTheme("dark");
     }
+  }
 
-    function saveThemeToLocalStorage(theme){
-      localStorage.setItem('theme', theme);
+  function changeTheme(theme) {
+    if (theme == "light") {
+      themeToggleButton.classList.remove("fa-sun");
+      themeToggleButton.classList.add("fa-moon");
+      body.classList.remove("dark-theme");
+      saveThemeToLocalStorage(theme);
+    } else {
+      themeToggleButton.classList.add("fa-sun");
+      themeToggleButton.classList.remove("fa-moon");
+      body.classList.add("dark-theme");
+      saveThemeToLocalStorage(theme);
     }
+  }
 
-    const currentTheme = localStorage.getItem('theme');
-    if(currentTheme){
-      if(currentTheme === 'dark') {
-        changeTheme('dark');
-      } else{
-        changeTheme('light');
-      }
-    } else{
-      changeTheme('light');
+  function saveThemeToLocalStorage(theme) {
+    localStorage.setItem("theme", theme);
+  }
+
+  const currentTheme = localStorage.getItem("theme");
+  if (currentTheme) {
+    if (currentTheme === "dark") {
+      changeTheme("dark");
+    } else {
+      changeTheme("light");
     }
-  </script>
+  } else {
+    changeTheme("light");
+  }
+</script>
 
 
 	<main>
@@ -899,8 +987,8 @@ git push origin feature/shiny-new-branch
             type="email"
           />
         </div>
-        <div class="col-lg-2 col-md-2 mt-xl-0 mt-lg-0 mt-md-0 mt-2">
-          <input class="btn btn-primary" type="submit" value="Subscribe" />
+        <div class="col-lg-2 col-md-2 mt-xl-0 mt-lg-0 mt-md-0">
+          <input class="btn big-btn" type="submit" value="Subscribe" />
         </div>
       </div>
     </div>
