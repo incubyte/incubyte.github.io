@@ -1,11 +1,12 @@
 <script>
   window.store = {
-    {{ range $.Site.Pages}}
+    {{ range $.Site.Pages }}
       "{{ .Permalink }}": {
           "title": {{ .Title  }},
           "tags": [{{ range .Params.tags }}"{{ . }}",{{ end }}],
           "authors":[{{range .Params.authors }}"{{ . }}",{{end}}],
           "summary":{{ .Summary }},
+          "content":{{ .Content | plainify }},
           "image":{{ .Params.image }},
           "date": {{ .Date.Format "January 2, 2006" }},
           "url": {{ .Permalink }}

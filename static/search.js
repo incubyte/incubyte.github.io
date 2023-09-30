@@ -80,18 +80,20 @@ if (query) {
   document.getElementById("search-input").setAttribute("value", query);
   const idx = lunr(function () {
     this.ref("id");
-    this.field("title", {
-      boost: 100,
-    });
-    this.field("tags");
+    this.field("title", { boost: 100 })
+    this.field("tags", { boost: 80 })
+    this.field("authors", { boost: 50 })
+    this.field("summary", { boost: 20 })
+    this.field("content", { boost: 10 })
+
     for (const key in window.store) {
       this.add({
         id: key,
-        title:
-          window.store[key].title + " " + window.store[key].authors.join(","),
+        title: window.store[key].title,
         tags: window.store[key].tags,
-        authors: window.store[key].authors,
+        authors: window.store[key].authors.join(","),
         summary: window.store[key].summary,
+        content: window.store[key].content,
         image: window.store[key].image,
         date: window.store[key].date,
         url: window.store[key].url,
