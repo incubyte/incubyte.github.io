@@ -14,20 +14,17 @@
         />
         {{ else }}{{site.Title}}{{end}}
       </a>
-      <!-- <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation" aria-label="menu">
-                <i class="fas fa-bars"></i>
-            </button> -->
 
       <div class="collapse navbar-collapse text-center" id="navigation">
         <div>
-          <i class="fas theme-toggle p-2" id="theme-toggle-btn"></i>
+          <i class="fas theme-toggle" id="theme-toggle-btn"></i>
         </div>
         {{ partial "search-form.html" . }}
         {{ if site.Params.navigation_button.enable }} {{ with site.Params.navigation_button }}
         <a
           href="{{ .link | relLangURL }}"
           title="{{ .label }}"
-          class="big-btn btn btn-sm ml-3"
+          class="big-btn btn btn-sm ml-2 mr-2"
           >{{ .label }}</a
         >
         {{ end }} {{ end }}
