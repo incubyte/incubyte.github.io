@@ -1,0 +1,9 @@
+{{ define "main" }} {{ partial "page-header.html" . }}
+
+<section class="section">
+  <ul id="results">
+    <li>Enter a keyword above to search.</li>
+  </ul>
+  {{ partial "search-index.html" . }}
+</section>
+{{ end }}

@@ -71,6 +71,13 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
     color: #fff;
     font-family: "Nunito Sans", sans-serif;
     font-weight: 700;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+
+  input {
+    border-radius: 20px !important;
+    padding-left: 20px !important;
   }
 
   .big-btn:hover {
@@ -94,7 +101,7 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
     .navigation-bar {
       padding: 8px 10px;
     }
-    
+
     .theme-toggle {
       display: none;
     }
@@ -103,6 +110,7 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
   .navbar-brand {
     width: 100%;
   }
+
   .nav-link {
     color: #0e3252;
   }
@@ -111,6 +119,36 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
   .nav-link:focus,
   .nav-link:active {
     color: #0e3252;
+  }
+
+  .nav-search-form {
+    width: 12em;
+  }
+
+  .nav-search-input {
+    border-radius: 20px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+  }
+
+  .nav-search-input:focus {
+    border-color: #0e3252;
+  }
+
+  .nav-search-button {
+    background-color: #0e3252 !important;
+    border-radius: 20px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    padding-right: 12px;
+    margin-left: -8px;
+  }
+
+  .nav-search-button:hover,
+  .nav-search-button:focus,
+  .nav-search-button:active,
+  .nav-search-button:disabled {
+    background-color: #0e3252 !important;
   }
 
   .navbar-light .navbar-nav .show > .nav-link {
@@ -175,9 +213,7 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 800;
-    letter-spacing: .1em;
-    /* border-bottom: #aeb8c0 2px dotted; */
-    /* border-width: thin; */
+    letter-spacing: 0.1em;
     word-spacing: 0.2em;
   }
 
@@ -309,6 +345,10 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
     color: white !important;
   }
 
+  body.dark-theme .nav-search-input:focus {
+    border-color: var(--app-primary) !important;
+  }
+
   body.dark-theme .page-item .page-link {
     background: var(--dark-pagination-color) !important;
     color: white !important;
@@ -362,6 +402,11 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
 
   body.dark-theme .newsletter p {
     color: white;
+  }
+
+  body.dark-theme input {
+    background-color: var(--extra-dark-background) !important;
+    color: white !important;
   }
 
   /*END:  Dark Theme */
