@@ -22,9 +22,8 @@
         <div>
           <i class="fas theme-toggle p-2" id="theme-toggle-btn"></i>
         </div>
-        {{ partial "search-form.html" . }} {{ if
-        site.Params.navigation_button.enable }} {{ with
-        site.Params.navigation_button }}
+        {{ partial "search-form.html" . }}
+        {{ if site.Params.navigation_button.enable }} {{ with site.Params.navigation_button }}
         <a
           href="{{ .link | relLangURL }}"
           title="{{ .label }}"
@@ -32,9 +31,6 @@
           >{{ .label }}</a
         >
         {{ end }} {{ end }}
-        <a class="nav-link" href="https://www.incubyte.co/" role="button">
-          home
-        </a>
       </div>
     </nav>
   </div>
