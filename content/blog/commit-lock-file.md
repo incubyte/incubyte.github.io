@@ -11,7 +11,7 @@ categories = ["Guideline", "Best Practice", "Software Craftsmanship"]
 type = ""
 +++
 
-# _tl;dr;_
+# _TL;DR_
 
 Yes, without fail.
 
