@@ -57,7 +57,7 @@ All the dependencies are flattened in the lock file with all versions mentioned.
 B(1.2.9), C(6.8.7 and 6.8.8), D(4.5.3), and E(7.2.9); along with all the individual libraries dependencies mentioned and
 recursively so on.
 
-Since the "B" has been defined as `^`, among 6.8.7 and 6.8.8, the 6.8.8 will win (or even 6.8.9 if released). So,
+Since the "C" has been defined as `^`, among 6.8.7 and 6.8.8, the 6.8.8 will win (or even 6.8.9 if released). So,
 the next time you try to install dependencies, it won't install 6.8.10 even if it has been released and meets the `^`
 criteria.
 
