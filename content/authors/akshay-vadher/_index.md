@@ -4,7 +4,7 @@ image: '/authors/akshay-vadher/akshay-vadher.jpg'
 
 ---
 
-<img src="akshay-vadher.jpg" alt="Akshay Vadher profile" width="150"/>
+<img src="/authors/akshay-vadher/akshay-vadher.jpg" alt="Akshay Vadher profile" width="150"/>
 
 Getting things done.
 
