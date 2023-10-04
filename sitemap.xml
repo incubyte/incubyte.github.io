@@ -3,21 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2023-09-08T00:10:46+05:30</lastmod>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2023-09-08T00:10:46+05:30</lastmod>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/akshay-vadher/</loc>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/</loc>
-    <lastmod>2023-09-08T00:10:46+05:30</lastmod>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/best-practice/</loc>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/best-practice/</loc>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/build/</loc>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/bun/</loc>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/</loc>
-    <lastmod>2023-09-08T00:10:46+05:30</lastmod>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/authors/sapan-parikh/</loc>
-    <lastmod>2023-09-08T00:10:46+05:30</lastmod>
+    <loc>https://blog.incubyte.co/tags/guideline/</loc>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/guideline/</loc>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/lock-file/</loc>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/npm/</loc>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/package-manager/</loc>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/pnpm/</loc>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/should-you-commit-lock-file/</loc>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/</loc>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/tooling/</loc>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/yarn/</loc>
+    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/sapan-parikh/</loc>
     <lastmod>2023-09-08T00:10:46+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/technical-debt/</loc>
@@ -81,9 +126,6 @@
     <lastmod>2023-07-27T20:04:38+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
-    <lastmod>2023-07-27T20:04:38+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
     <lastmod>2023-07-27T20:04:38+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/refactoring-to-tidying/</loc>
@@ -208,9 +250,6 @@
   </url><url>
     <loc>https://blog.incubyte.co/authors/waqar-shaikh/</loc>
     <lastmod>2022-10-10T12:50:00+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/authors/akshay-vadher/</loc>
-    <lastmod>2022-09-28T10:52:06+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/automation/</loc>
     <lastmod>2022-09-28T10:52:06+05:30</lastmod>

@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 08 Sep 2023 00:10:46 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Sep 2023 15:48:02 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Best Practice</title>
+      <link>https://blog.incubyte.co/categories/best-practice/</link>
+      <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
+      
+      <guid>https://blog.incubyte.co/categories/best-practice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guideline</title>
+      <link>https://blog.incubyte.co/categories/guideline/</link>
+      <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
+      
+      <guid>https://blog.incubyte.co/categories/guideline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Craftsmanship</title>
+      <link>https://blog.incubyte.co/categories/software-craftsmanship/</link>
+      <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
+      
+      <guid>https://blog.incubyte.co/categories/software-craftsmanship/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Technical Debt</title>
       <link>https://blog.incubyte.co/categories/technical-debt/</link>
@@ -59,15 +86,6 @@
       <pubDate>Thu, 27 Jul 2023 20:04:38 +0530</pubDate>
       
       <guid>https://blog.incubyte.co/categories/playbook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software Craftsmanship</title>
-      <link>https://blog.incubyte.co/categories/software-craftsmanship/</link>
-      <pubDate>Thu, 27 Jul 2023 20:04:38 +0530</pubDate>
-      
-      <guid>https://blog.incubyte.co/categories/software-craftsmanship/</guid>
       <description></description>
     </item>
     
