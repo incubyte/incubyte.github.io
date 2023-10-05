@@ -3,15 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
+    <lastmod>2023-10-05T00:10:46+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/authors/akshay-vadher/</loc>
-    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
+    <lastmod>2023-10-05T00:10:46+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/</loc>
+    <lastmod>2023-10-05T00:10:46+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/</loc>
+    <lastmod>2023-10-05T00:10:46+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/modernization/</loc>
+    <lastmod>2023-10-05T00:10:46+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/modernization/</loc>
+    <lastmod>2023-10-05T00:10:46+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/sapan-parikh/</loc>
+    <lastmod>2023-10-05T00:10:46+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/software-modernization-for-legacy-software/</loc>
+    <lastmod>2023-10-05T00:10:46+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/</loc>
+    <lastmod>2023-10-05T00:10:46+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/akshay-vadher/</loc>
     <lastmod>2023-09-27T15:48:02+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/best-practice/</loc>
@@ -24,9 +42,6 @@
     <lastmod>2023-09-27T15:48:02+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/bun/</loc>
-    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/</loc>
     <lastmod>2023-09-27T15:48:02+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/guideline/</loc>
@@ -53,17 +68,11 @@
     <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
     <lastmod>2023-09-27T15:48:02+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/</loc>
-    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/tags/tooling/</loc>
     <lastmod>2023-09-27T15:48:02+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/yarn/</loc>
     <lastmod>2023-09-27T15:48:02+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/authors/sapan-parikh/</loc>
-    <lastmod>2023-09-08T00:10:46+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/technical-debt/</loc>
     <lastmod>2023-09-08T00:10:46+05:30</lastmod>
@@ -93,12 +102,6 @@
     <lastmod>2023-08-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/case-study/</loc>
-    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/modernization/</loc>
-    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/modernization/</loc>
     <lastmod>2023-08-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/build-deployment-case-study/</loc>
