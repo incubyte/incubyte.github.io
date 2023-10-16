@@ -2,12 +2,12 @@
 authors = ["Deepshikha Pingle", "Utsav Parmar", "Abhishek Keshri"]
 categories = ["Case Study"]
 date = 2023-01-30T00:00:00Z
-description = "Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience"
+description = "Making Mental Healthcare Accessible and Providing a Personalized Customer Experience"
 draft = false
 image = "/images/2023/SH-case-study/SH-banner-blog.jpg"
 slug = "global-case-study"
 tags = ["Case Study"]
-title = "Taking a Mental Healthcare Solution Global"
+title = "Incubyte Enables Global Healthcare Platform to Expand to 52+ Countries"
 open_quote = "/images/2023/open-quote.png"
 close_quote = "/images/2023/close-quote.png"
 right_arrow = "/images/2023/arrow_right.png"
@@ -25,5 +25,5 @@ card_2_desc="Reinventing Global Consumer Insights for Fintech"
 card_2_slug="monnai-case-study"
 +++
 
-Making Mental Healthcare Accessible by Expanding the Solution Globally and Providing a Personalized Customer Experience
+Making Mental Healthcare Accessible and Providing a Personalized Customer Experience
 
