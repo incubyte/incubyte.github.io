@@ -27,10 +27,10 @@ after `6.2.8`.
 
 ### Deterministic Builds and "It Works on My Machine" Conundrum
 
-Imagine you are using `foo` with version `^6.2.8` and you run `npm install`. By default, npm installs the latest version, `6.2.9`. Once this code is committed, another developer from the team can check out the code. He or she executes `npm install`. But this time it will install `6.2.10` because `^` always check for the latest non-major version.
+Imagine you are using `foo` with version `^6.2.8` and you run `npm install`. By default, npm installs the latest version, `6.2.9`. Now, once this code is committed, other developers can check out the same codebase and proceed to execute `npm install`. But this time it might install `6.2.10` because `^` always check for the latest non-major version.
 
-In the ideal world, `6.2.9` and `6.2.10` should be compatible, but in the real world, it is not the case. The discrepancies can break your
-build. Worse, it might work in your machine but break the production.
+In the ideal world, `6.2.9` and `6.2.10` should be compatible, but in the real world, that is not the case. These discrepancies can break your
+build. Worse, it might work on your machine but break the production.
 
 #### The Solution: Lock Files
 
