@@ -42,17 +42,17 @@ version, but in the subsequent installations, it will use the same version as in
 
 `npm install` automatically generates the lock file.
 
-Take a look at the below diagram. Application "A" depends on libraries "B" (1.2.9) and "C" (^6.8.7). "B" depends
-on "C"(6.8.8), "D"(4.5.3), and "E"(7.2.9).
+Take a look at the below diagram. 
+
+Application A depends on libraries B (1.2.9) and C (^6.8.7). B depends on C (6.8.8), D (4.5.3), and E (7.2.9).
 
 {{< figure src="/images/2023/commit-lock-file/version-locking-case.png" >}}
 
-All the dependencies are flattened in the lock file with all versions mentioned. So, the lock file will look like this
-B(1.2.9), C(6.8.7 and 6.8.8), D(4.5.3), and E(7.2.9); along with all the individual libraries dependencies mentioned and
+In the lock file, all the dependencies are flattened with their versions mentioned. So, the lock file will look like this
+B (1.2.9), C(6.8.7 and 6.8.8), D (4.5.3), and E (7.2.9), along with all the individual libraries dependencies mentioned and
 recursively so on.
 
-Since the "C" has been defined as `^`, which means among 6.8.7 and 6.8.8, the 6.8.8 version will win. So,
-the next time you try to install dependencies, it won't install 6.8.10 even if it has been released and meets the `^` criteria.
+Since C has been defined as `^`, which means among 6.8.7 and 6.8.8, the 6.8.8 version will win. So, the next time you try to install dependencies, it won't install 6.8.10 even if it has been released and meets the `^` criteria.
 
 _The above description is a grossly simplified explanation of the process._
 
