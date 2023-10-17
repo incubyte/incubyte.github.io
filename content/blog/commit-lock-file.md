@@ -17,7 +17,7 @@ In this article, we'll explore why it's essential to commit lock files and how t
 
 ## A Bit of History
 
-`npm` was the default package manager for `nodejs`.
+As you know, `npm` is the default package manager for `nodejs`.
 
 [Npm](https://www.npmjs.com/) follows sem version system with wildcard support. That means if
 a package `foo` is defined to use `^6.2.8`, and you run `npm install`, it will install the latest version of `6.x.x`
@@ -27,7 +27,7 @@ after `6.2.8`.
 
 ### Deterministic Builds and "It Works on My Machine" Conundrum
 
-Imagine you are using `foo` with version `^6.2.8` and you run `npm install`. By default, npm installs the latest `6.2.9`. Once this code is committed and another developer from the team checks out the code, and executes `npm install`. This time it might install `6.2.10` because `^` will always check for the latest non-major version.
+Imagine you are using `foo` with version `^6.2.8` and you run `npm install`. By default, npm installs the latest version, `6.2.9`. Once this code is committed, another developer from the team can check out the code. He or she executes `npm install`. But this time it will install `6.2.10` because `^` always check for the latest non-major version.
 
 In the ideal world, `6.2.9` and `6.2.10` should be compatible, but in the real world, it is not the case. The discrepancies can break your
 build. Worse, it might work in your machine but break the production.
