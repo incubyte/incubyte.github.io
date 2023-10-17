@@ -1,21 +1,23 @@
 +++
-title = "Should you commit lock file?"
+title = "The Importance of Committing Lock Files in Dependency Management"
 slug = "should-you-commit-lock-file"
 date = 2023-09-27T15:48:02+05:30
 image = "/images/2023/commit-lock-file/version-locking-case.png"
 draft = false
 authors = ["Akshay Vadher"]
 description = ""
-tags = ["Guideline", "Best Practice", "Build", "Tooling", "Lock File", "Package Manager", "npm", "yarn", "pnpm", "bun"]
-categories = ["Guideline", "Best Practice", "Software Craftsmanship"]
+tags = ["Dependency Management", "Best Practices","Software Craftsmanship"]
+categories = ["Dependency Management", "Best Practices","Software Craftsmanship"]
 type = ""
 +++
 
-# _TL;DR_
+### _TL;DR_
 
 Yes, without fail.
 
-# History
+In the world of software development, dependency management is a critical aspect that directly impacts the stability and reproducibility of your projects. When working with package managers like npm, yarn, or others, one crucial decision developers must make is whether to commit the lock file to version control. In this article, we'll explore why it's essential to commit lock files and how they help in ensuring deterministic, secure, and consistent builds.
+
+## A Bit of History
 
 `npm` was the default package manager for `nodejs`.
 
@@ -23,9 +25,9 @@ Yes, without fail.
 a package `foo` is defined to use `^6.2.8`, and you run `npm install`, it will install the latest version of `6.x.x`
 after `6.2.8`.
 
-# Issues
+## Issues
 
-## Deterministic builds
+### Deterministic builds
 
 It is a nicer way to say, "It works on my machine".
 
