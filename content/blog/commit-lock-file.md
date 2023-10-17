@@ -2,7 +2,7 @@
 title = "The Importance of Committing Lock Files in Dependency Management"
 slug = "should-you-commit-lock-file"
 date = 2023-09-27T15:48:02+05:30
-image = "/images/2023/commit-lock-file/version-locking-case.png"
+image = "/images/2023/commit-lock-file/header.jpg"
 draft = false
 authors = ["Akshay Vadher"]
 description = ""
@@ -54,6 +54,8 @@ but from the second time onwards, it will install the same version as in the loc
 Let's say the (as described in the diagram) application "A" depends on libraries "B" (1.2.9) and "C" (^6.8.7). "B"
 depends
 on "C"(6.8.8), "D"(4.5.3), and "E"(7.2.9).
+
+{{< figure src="/images/2023/commit-lock-file/version-locking-case.png" >}}
 
 All the dependencies are flattened in the lock file with all versions mentioned. So, the lock file will look like this
 B(1.2.9), C(6.8.7 and 6.8.8), D(4.5.3), and E(7.2.9); along with all the individual libraries dependencies mentioned and
