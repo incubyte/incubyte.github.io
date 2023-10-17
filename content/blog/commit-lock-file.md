@@ -17,7 +17,7 @@ In this article, we'll explore why it's essential to commit lock files and how t
 
 ## A Bit of History
 
-As you know, `npm` is the default package manager for `nodejs`.
+As you know, `npm` was the default package manager for `nodejs`.
 
 [Npm](https://www.npmjs.com/) follows sem version system with wildcard support. That means if
 a package `foo` is defined to use `^6.2.8`, and you run `npm install`, it will install the latest version of `6.x.x`
@@ -32,13 +32,13 @@ Imagine you are using `foo` with version `^6.2.8` and you run `npm install`. By 
 In the ideal world, `6.2.9` and `6.2.10` should be compatible, but in the real world, that is not the case. These discrepancies can break your
 build. Worse, it might work on your machine but break the production.
 
-#### The Solution: Lock Files
+- #### The Solution: Lock Files
 
 [Yarn](https://yarnpkg.com/cli) first introduced the concept of lock files, `yarn.lock`. It solves
 the problem by locking the version of the package during initial installation. So, `^` will still install the non-major
 version, but in the subsequent installations, it will use the same version as in the lock file.
 
-#### How Lock Files Work?
+- #### How Lock Files Work?
 
 `npm install` automatically generates the lock file.
 
@@ -56,38 +56,34 @@ Since C has been defined as `^`, which means among 6.8.7 and 6.8.8, the 6.8.8 ve
 
 _The above description is a grossly simplified explanation of the process._
 
-#### The Pitfalls of Using Exact Versions
+- #### The Pitfalls of Using Exact Versions
 
 Let's eliminate wildcard characters (`^`, `~`, `*`, etc.) and use the exact version. Wouldn't that solve the problem?
 
-Unfortunately, that's not how it works. Even if you use the exact version for the library, the library itself might have dependencies with wildcard
+Unfortunately, that's not how it works. 
+Even if you use the exact version for the library, the library itself might have dependencies with wildcard
 dependencies, and the application is still prone to breaking.
 
 ### Security
 
-Nobody thinks about this while starting a new project, but it is important. The lock file stores the integrity hash
-along with an exact dependency version, so it always checks whether the downloaded dependency is same as the one in lock
-file.
+Lock files stores the integrity hash along with an exact dependency version, so it always checks whether the downloaded dependency is same as the one in the lock file.
 
-Yarn introduced many things along with that, like caching, parallel downloads, etc. However, npm also caught up with the
-most features. And now, at the time of writing this, yarn and npm are almost the same.
+Yarn introduced many features like caching, parallel downloads, etc. However, npm has caught up with most of these. And now, at the time of writing this, yarn and npm are almost the same.
 
-# Using lock file
+## Using lock file
 
-Just having a lock file does not solve all the issues. You need to make sure you execute the proper command(s). For
-example,
-`npm install` is intended to be uses only in developer mode. If you want to install dependencies for production, you
-need
-to use `npm ci`.
+Merely having a lock file isn't sufficient. You need to make sure you execute the proper command(s). 
+For instance, `npm install` is intended to be used only in developer mode. If you want to install dependencies for production, you
+need to use `npm ci`.
 
 Here is the list of commands with different modes for different tool
 
-| Tool | Lock file name      | Developer      | CI/PROD                                                                                               | Install Only Production dependencies                                |
-|------|---------------------|----------------|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| npm  | `package-lock.json` | `npm install`  | `npm ci`                                                                                              | `npm ci --omit=dev` (or `npm i` with `NODE_ENV` set to `PRODUCTION` |
-| yarn | `yarn.lock`         | `yarn`         | `yarn` (`--frozen-lockfile` or `--immutable` option)                                                  | `yarn install`                                                      |
-| pnpm | `pnpm-lock.yaml`    | `pnpm install` | `pnpm install --frozen-lockfile` (`--frozen-lockfile` is not required if `CI` ENV variable is `true`) | `pnpm install --frozen-lockfile --prod`                             |
-| bun  | `bun.lockb`         | `bun install`  | `bun install --frozen-lockfile`                                                                       | `bun install --frozen-lockfile --production`                        |
+|   Tool   | Lock file name      | Developer      | CI/PROD                                                                                               | Install Only Production dependencies                                |
+|----------|---------------------|----------------|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+|   npm    | `package-lock.json` | `npm install`  | `npm ci`                                                                                              | `npm ci --omit=dev` (or `npm i` with `NODE_ENV` set to `PRODUCTION` |
+|   yarn   | `yarn.lock`         | `yarn`         | `yarn` (`--frozen-lockfile` or `--immutable` option)                                                  | `yarn install`                                                      |
+|   pnpm   | `pnpm-lock.yaml`    | `pnpm install` | `pnpm install --frozen-lockfile` (`--frozen-lockfile` is not required if `CI` ENV variable is `true`) | `pnpm install --frozen-lockfile --prod`                             |
+|   bun    | `bun.lockb`         | `bun install`  | `bun install --frozen-lockfile`                                                                       | `bun install --frozen-lockfile --production`                        |
 
 # When not to commit?
 
