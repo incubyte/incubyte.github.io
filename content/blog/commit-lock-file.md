@@ -70,13 +70,13 @@ Lock files stores the integrity hash along with an exact dependency version, so 
 
 Yarn introduced many features like caching, parallel downloads, etc. However, npm has caught up with most of these. And now, at the time of writing this, yarn and npm are almost the same.
 
-## Using lock file
+## Using a Lock File
 
 Merely having a lock file isn't sufficient. You need to make sure you execute the proper command(s). 
 For instance, `npm install` is intended to be used only in developer mode. If you want to install dependencies for production, you
 need to use `npm ci`.
 
-Here is the list of commands with different modes for different tool
+Here are a list of commands with different modes for different tools:
 
 |   Tool   | Lock file name      | Developer      | CI/PROD                                                                                               | Install Only Production dependencies                                |
 |----------|---------------------|----------------|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
@@ -85,23 +85,19 @@ Here is the list of commands with different modes for different tool
 |   pnpm   | `pnpm-lock.yaml`    | `pnpm install` | `pnpm install --frozen-lockfile` (`--frozen-lockfile` is not required if `CI` ENV variable is `true`) | `pnpm install --frozen-lockfile --prod`                             |
 |   bun    | `bun.lockb`         | `bun install`  | `bun install --frozen-lockfile`                                                                       | `bun install --frozen-lockfile --production`                        |
 
-# When not to commit?
+## When Not to Commit Lock Files?
 
-If you are making a library and publishing it, you don't want to lock the dependencies because it might break the host
-application. It should be the host application that is responsible for managing locking. You can mark a range of
+In cases where you're building a library and publishing it, you don't want to lock the dependencies because it might break the host
+application. Instead, let the host application handle locking to avoid potential conflicts. You can mark a range of
 versions your library supports.
 
-# Should you change it manually?
+## Should You Change a Lock File Manually?
 
 No.
 
-There could be a case where your application is breaking because "C" released a breaking change. So now you are tempted
-to lower the version in the lock file so that it locks the correct version. Instead of doing that, (best if you can) fix
-the
-application to work with the latest version because that is good for the long term, or change the package.json itself so
-that the next time you do `npm install`, it will correct the lock file.
+When facing issues caused by package updates, resist the temptation to manually adjust the lock file. It's usually better to adapt your application to work with the latest version, or update your package.json to ensure correct lock file generation during the next installation.
 
-# Other languages
+## Applicability Across Languages
 
 This applies not only to [Node.js](https://nodejs.org/en) but any language that uses package manager. For example,
 [Go](https://golang.org/) uses [go.mod](https://golang.org/ref/mod) and [go.sum](https://golang.org/ref/mod#go-sum-in),
@@ -110,10 +106,8 @@ uses [Cargo.lock](https://doc.rust-lang.org/cargo/guide/cargo-toml-vs-cargo-lock
 [Python](https://www.python.org/) uses [requirements.txt](https://pip.pypa.io/en/stable/user_guide/#requirements-files),
 etc.
 
-# Conclusion
+## Conclusion
 
-Whatever tool you use, always commit the lock file after installing the dependencies for the first time. Along with
-that, always execute the proper command for installing dependencies.
-
-The lock file and proper command will make sure that your build is deterministic and secure.
+In conclusion, committing lock files, along with executing the appropriate commands for dependency installation, is a best practice that ensures deterministic amd secure builds. 
+By doing so, developers can mitigate issues related to version conflicts, enhance project security, and foster collaborative development in an environment of consistency and reliability.
 
