@@ -1,8 +1,8 @@
 +++
-title = "Monkey Patching in Ruby"
-slug = "monkey-patching"
-date = 2023-10-23T11:33:15+05:30
-image = ""
+title = "Monkey Patching"
+slug = "monkey-patch"
+date = 2023-10-17T18:29:54+05:30
+image = "/images/2023/10/monkeywithsword.jpeg"
 draft = false
 authors = ["Nitin Rajkumar"]
 description = "Monkey patching and it's sideeffects in Ruby"
@@ -11,13 +11,13 @@ categories = ["Software Craftsmanship", "Ruby", "Monkey Patching"]
 type = ""
 +++
 
-#### Monkey Patching
-Ruby, being a dynamic language provides the ability and hence freedom to reopen the existing classes during runtime and change the behavior by adding new methods or modifying existing methods. 
+Ruby, being a dynamic programming language provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods. 
 
 #### How to monkey patch
-```
+
+```ruby
 class Sound
-	def car
+  def car
 		"honk"
 	end
 end
@@ -39,7 +39,7 @@ Usually when the programmer wants to fix the bug quickly.
 
 #### Side Effects
 
-```
+```ruby
 class String
   def upcase
     # do nothing 
@@ -58,5 +58,5 @@ The above monkey patch would return nothing causing the `upcase` to fail everywh
 
 #### Conclusion
 
-Be a good Samaritan and contribute to the open source. When a bug is discovered in 3rd party library raise a issue, fix it, and get the pull request merged meanwhile adding a monkey patch. Monkey patching has gained the popularity as the power tool in ruby because of the havoc it can cause if it is misused. Refrain from using it and use it only when it is the last resolution.
+Be a good Samaritan and contribute to the open source. When a bug is discovered in 3rd party library raise a issue, fix it, and get the pull request merged meanwhile add a monkey patch. Monkey patching has gained the popularity as the power tool in ruby because of the havoc it can cause if it is misused. Refrain from using it and use it only when it is the last resolution.
 
