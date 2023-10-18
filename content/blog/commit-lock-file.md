@@ -15,7 +15,7 @@ In software development, dependency management is a critical aspect that directl
 
 In this article, we'll explore why it's essential to commit lock files and how they help in ensuring deterministic, secure, and consistent builds.
 
-## A Bit of History
+### A Bit of History
 
 As you know, `npm` was the default package manager for `nodejs`.
 
@@ -23,22 +23,22 @@ As you know, `npm` was the default package manager for `nodejs`.
 a package `foo` is defined to use `^6.2.8`, and you run `npm install`, it will install the latest version of `6.x.x`
 after `6.2.8`.
 
-## Issues
+### Issues
 
-### Deterministic Builds and "It Works on My Machine" Conundrum
+#### Deterministic Builds and "It Works on My Machine" Conundrum
 
 Imagine you are using `foo` with version `^6.2.8` and you run `npm install`. By default, npm installs the latest version, `6.2.9`. Now, once this code is committed, other developers can check out the same codebase and proceed to execute `npm install`. But this time it might install `6.2.10` because `^` always check for the latest non-major version.
 
 In the ideal world, `6.2.9` and `6.2.10` should be compatible, but in the real world, that is not the case. These discrepancies can break your
 build. Worse, it might work on your machine but break the production.
 
-- #### The Solution: Lock Files
+- ##### The Solution: Lock Files
 
 [Yarn](https://yarnpkg.com/cli) first introduced the concept of lock files, `yarn.lock`. It solves
 the problem by locking the version of the package during initial installation. So, `^` will still install the non-major
 version, but in the subsequent installations, it will use the same version as in the lock file.
 
-- #### How Lock Files Work?
+- ##### How Lock Files Work?
 
 `npm install` automatically generates the lock file.
 
@@ -56,7 +56,7 @@ Since C has been defined as `^`, which means among 6.8.7 and 6.8.8, the 6.8.8 ve
 
 _The above description is a grossly simplified explanation of the process._
 
-- #### The Pitfalls of Using Exact Versions
+- ##### The Pitfalls of Using Exact Versions
 
 Let's eliminate wildcard characters (`^`, `~`, `*`, etc.) and use the exact version. Wouldn't that solve the problem?
 
@@ -64,13 +64,13 @@ Unfortunately, that's not how it works.
 Even if you use the exact version for the library, the library itself might have dependencies with wildcard
 dependencies, and the application is still prone to breaking.
 
-### Security
+#### Security
 
 Lock files stores the integrity hash along with an exact dependency version, so it always checks whether the downloaded dependency is same as the one in the lock file.
 
 Yarn introduced many features like caching, parallel downloads, etc. However, npm has caught up with most of these. And now, at the time of writing this, yarn and npm are almost the same.
 
-## Using a Lock File
+### Using a Lock File
 
 Merely having a lock file isn't sufficient. You need to make sure you execute the proper command(s). 
 For instance, `npm install` is intended to be used only in developer mode. If you want to install dependencies for production, you
@@ -85,19 +85,19 @@ Here are a list of commands with different modes for different tools:
 |   pnpm   | `pnpm-lock.yaml`    | `pnpm install` | `pnpm install --frozen-lockfile` (`--frozen-lockfile` is not required if `CI` ENV variable is `true`) | `pnpm install --frozen-lockfile --prod`                             |
 |   bun    | `bun.lockb`         | `bun install`  | `bun install --frozen-lockfile`                                                                       | `bun install --frozen-lockfile --production`                        |
 
-## When Not to Commit Lock Files?
+### When Not to Commit Lock Files?
 
 In cases where you're building a library and publishing it, you don't want to lock the dependencies because it might break the host
 application. Instead, let the host application handle locking to avoid potential conflicts. You can mark a range of
 versions your library supports.
 
-## Should You Change a Lock File Manually?
+### Should You Change a Lock File Manually?
 
 No.
 
 When facing issues caused by package updates, resist the temptation to manually adjust the lock file. It's usually better to adapt your application to work with the latest version, or update your package.json to ensure correct lock file generation during the next installation.
 
-## Applicability Across Languages
+### Applicability Across Languages
 
 This applies not only to [Node.js](https://nodejs.org/en) but any language that uses package manager. For example,
 [Go](https://golang.org/) uses [go.mod](https://golang.org/ref/mod) and [go.sum](https://golang.org/ref/mod#go-sum-in),
@@ -106,7 +106,7 @@ uses [Cargo.lock](https://doc.rust-lang.org/cargo/guide/cargo-toml-vs-cargo-lock
 [Python](https://www.python.org/) uses [requirements.txt](https://pip.pypa.io/en/stable/user_guide/#requirements-files),
 etc.
 
-## Conclusion
+### Conclusion
 
 In conclusion, committing lock files, along with executing the appropriate commands for dependency installation, is a best practice that ensures deterministic amd secure builds. 
 By doing so, developers can mitigate issues related to version conflicts, enhance project security, and foster collaborative development in an environment of consistency and reliability.
