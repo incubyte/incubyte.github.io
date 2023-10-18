@@ -27,9 +27,9 @@ class Sound
     "peep-peep"
   end
 end
-noise = Sound.new
-noise.car #=> honk
-noise.bike #=> peep-peep
+sound = Sound.new
+sound.car #=> honk
+sound.bike #=> peep-peep
 ```
 The above is a simple example where we reopened Sound class and added a new method. It provides many other opportunities including overriding the method of the original class.
 
