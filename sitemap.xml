@@ -32,46 +32,19 @@
     <loc>https://blog.incubyte.co/authors/akshay-vadher/</loc>
     <lastmod>2023-09-27T15:48:02+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/best-practice/</loc>
+    <loc>https://blog.incubyte.co/tags/best-practices/</loc>
     <lastmod>2023-09-27T15:48:02+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/categories/best-practice/</loc>
+    <loc>https://blog.incubyte.co/categories/best-practices/</loc>
     <lastmod>2023-09-27T15:48:02+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/build/</loc>
+    <loc>https://blog.incubyte.co/tags/dependency-management/</loc>
     <lastmod>2023-09-27T15:48:02+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/bun/</loc>
-    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/guideline/</loc>
-    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/guideline/</loc>
-    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/lock-file/</loc>
-    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/npm/</loc>
-    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/package-manager/</loc>
-    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/pnpm/</loc>
+    <loc>https://blog.incubyte.co/categories/dependency-management/</loc>
     <lastmod>2023-09-27T15:48:02+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/should-you-commit-lock-file/</loc>
-    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
-    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/tooling/</loc>
-    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/yarn/</loc>
     <lastmod>2023-09-27T15:48:02+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/technical-debt/</loc>
@@ -129,6 +102,9 @@
     <lastmod>2023-07-27T20:04:38+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
+    <lastmod>2023-07-27T20:04:38+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
     <lastmod>2023-07-27T20:04:38+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/refactoring-to-tidying/</loc>
@@ -359,17 +335,11 @@
     <loc>https://blog.incubyte.co/blog/kickstart-checklist/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/best-practices/</loc>
-    <lastmod>2021-10-18T05:06:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/tags/sdlc/</loc>
     <lastmod>2021-10-18T05:06:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/tech-debt/</loc>
     <lastmod>2021-10-18T05:06:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/best-practices/</loc>
-    <lastmod>2021-09-24T05:06:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/pair-programming/</loc>
     <lastmod>2021-09-24T05:06:00+00:00</lastmod>

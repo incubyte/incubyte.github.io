@@ -7,17 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 27 Sep 2023 15:48:02 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/categories/software-craftsmanship/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Should you commit lock file?</title>
-      <link>https://blog.incubyte.co/blog/should-you-commit-lock-file/</link>
-      <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
-      
-      <guid>https://blog.incubyte.co/blog/should-you-commit-lock-file/</guid>
-      <description>TL;DR Yes, without fail.
-History npm was the default package manager for nodejs.</description>
-    </item>
-    
+    <lastBuildDate>Thu, 27 Jul 2023 20:04:38 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/categories/software-craftsmanship/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chandrayaan 3 TDD Assessment</title>
       <link>https://blog.incubyte.co/blog/chandrayaan-3-tdd-assessment/</link>

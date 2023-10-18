@@ -18,92 +18,20 @@
     </item>
     
     <item>
-      <title>Best Practice</title>
-      <link>https://blog.incubyte.co/tags/best-practice/</link>
+      <title>Best Practices</title>
+      <link>https://blog.incubyte.co/tags/best-practices/</link>
       <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
       
-      <guid>https://blog.incubyte.co/tags/best-practice/</guid>
+      <guid>https://blog.incubyte.co/tags/best-practices/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Build</title>
-      <link>https://blog.incubyte.co/tags/build/</link>
+      <title>Dependency Management</title>
+      <link>https://blog.incubyte.co/tags/dependency-management/</link>
       <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
       
-      <guid>https://blog.incubyte.co/tags/build/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bun</title>
-      <link>https://blog.incubyte.co/tags/bun/</link>
-      <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
-      
-      <guid>https://blog.incubyte.co/tags/bun/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Guideline</title>
-      <link>https://blog.incubyte.co/tags/guideline/</link>
-      <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
-      
-      <guid>https://blog.incubyte.co/tags/guideline/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lock File</title>
-      <link>https://blog.incubyte.co/tags/lock-file/</link>
-      <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
-      
-      <guid>https://blog.incubyte.co/tags/lock-file/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>npm</title>
-      <link>https://blog.incubyte.co/tags/npm/</link>
-      <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
-      
-      <guid>https://blog.incubyte.co/tags/npm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Package Manager</title>
-      <link>https://blog.incubyte.co/tags/package-manager/</link>
-      <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
-      
-      <guid>https://blog.incubyte.co/tags/package-manager/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pnpm</title>
-      <link>https://blog.incubyte.co/tags/pnpm/</link>
-      <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
-      
-      <guid>https://blog.incubyte.co/tags/pnpm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tooling</title>
-      <link>https://blog.incubyte.co/tags/tooling/</link>
-      <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
-      
-      <guid>https://blog.incubyte.co/tags/tooling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>yarn</title>
-      <link>https://blog.incubyte.co/tags/yarn/</link>
-      <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
-      
-      <guid>https://blog.incubyte.co/tags/yarn/</guid>
+      <guid>https://blog.incubyte.co/tags/dependency-management/</guid>
       <description></description>
     </item>
     
@@ -365,15 +293,6 @@
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.incubyte.co/tags/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Best Practices</title>
-      <link>https://blog.incubyte.co/tags/best-practices/</link>
-      <pubDate>Mon, 18 Oct 2021 05:06:00 +0000</pubDate>
-      
-      <guid>https://blog.incubyte.co/tags/best-practices/</guid>
       <description></description>
     </item>
     

@@ -5,7 +5,7 @@
 
 <head>
 	<meta charset="utf-8">
-<title>Should you commit lock file?</title>
+<title>The Importance of Committing Lock Files in Dependency Management</title>
 
 
 <base href="https://blog.incubyte.co/">
@@ -31,27 +31,24 @@
 
 
 <!-- Open Graph image and Twitter Card metadata -->
-<meta property="og:image" content="https://blog.incubyte.co/images/2023/commit-lock-file/version-locking-case.png" />
-<meta name="twitter:image" content="https://blog.incubyte.co/images/2023/commit-lock-file/version-locking-case.png"/>
+<meta property="og:image" content="https://blog.incubyte.co/images/2023/commit-lock-file/header.jpg" />
+<meta name="twitter:image" content="https://blog.incubyte.co/images/2023/commit-lock-file/header.jpg"/>
 <meta name="twitter:card" content="summary_large_image">
-<meta property="og:image:width" content="769">
-<meta property="og:image:height" content="425">
-<meta property="og:image:type" content="image/png">
-<meta name="twitter:title" content="Should you commit lock file?"/>
-<meta name="twitter:description" content="TL;DR Yes, without fail.
-History npm was the default package manager for nodejs."/>
-<meta property="og:title" content="Should you commit lock file?" />
-<meta property="og:description" content="TL;DR Yes, without fail.
-History npm was the default package manager for nodejs." />
+<meta property="og:image:width" content="3456">
+<meta property="og:image:height" content="2304">
+<meta property="og:image:type" content="image/jpeg">
+<meta name="twitter:title" content="The Importance of Committing Lock Files in Dependency Management"/>
+<meta name="twitter:description" content="In software development, dependency management is a critical aspect that directly impacts the stability and reproducibility of your projects."/>
+<meta property="og:title" content="The Importance of Committing Lock Files in Dependency Management" />
+<meta property="og:description" content="In software development, dependency management is a critical aspect that directly impacts the stability and reproducibility of your projects." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blog.incubyte.co/blog/should-you-commit-lock-file/" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2023-09-27T15:48:02+05:30" />
 <meta property="article:modified_time" content="2023-09-27T15:48:02+05:30" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Should you commit lock file?"/>
-<meta name="twitter:description" content="TL;DR Yes, without fail.
-History npm was the default package manager for nodejs."/>
+<meta name="twitter:title" content="The Importance of Committing Lock Files in Dependency Management"/>
+<meta name="twitter:description" content="In software development, dependency management is a critical aspect that directly impacts the stability and reproducibility of your projects."/>
 
 
 
@@ -75,8 +72,8 @@ if (!doNotTrack) {
     {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "Should you commit lock file?",
-        "image": "/images/2023/commit-lock-file/version-locking-case.png",
+        "headline": "The Importance of Committing Lock Files in Dependency Management",
+        "image": "/images/2023/commit-lock-file/header.jpg",
         "datePublished": "Wednesday, September 27, 2023",
         "dateModified": "Wednesday, September 27, 2023",
         "author": [
@@ -102,7 +99,7 @@ if (!doNotTrack) {
                 "https://www.instagram.com/incubyte.co/"
             ]
         },
-        "keywords": ["Guideline", "Best Practice", "Build", "Tooling", "Lock File", "Package Manager", "npm", "yarn", "pnpm", "bun"]
+        "keywords": ["Dependency Management", "Best Practices"]
     }
     
 </script>
@@ -680,50 +677,18 @@ if (!doNotTrack) {
           ><strong>←</strong> Back to Blog</a
         >
         <img
-          src="/images/2023/commit-lock-file/version-locking-case.png"
-          alt="Should you commit lock file?"
+          src="/images/2023/commit-lock-file/header.jpg"
+          alt="The Importance of Committing Lock Files in Dependency Management"
           class="mt-3 img-fluid w-100 rounded mb-4"
         />
-        <h1 class="mb-4 post-title">Should you commit lock file?</h1>
+        <h1 class="mb-4 post-title">The Importance of Committing Lock Files in Dependency Management</h1>
         
         <span class="mb-3 badge rounded-pill bg-dark">
-          <a class="text-white" href="/tags/guideline">Guideline</a></span
+          <a class="text-white" href="/tags/dependency-management">Dependency Management</a></span
         >
         
         <span class="mb-3 badge rounded-pill bg-dark">
-          <a class="text-white" href="/tags/best-practice">Best Practice</a></span
-        >
-        
-        <span class="mb-3 badge rounded-pill bg-dark">
-          <a class="text-white" href="/tags/build">Build</a></span
-        >
-        
-        <span class="mb-3 badge rounded-pill bg-dark">
-          <a class="text-white" href="/tags/tooling">Tooling</a></span
-        >
-        
-        <span class="mb-3 badge rounded-pill bg-dark">
-          <a class="text-white" href="/tags/lock-file">Lock File</a></span
-        >
-        
-        <span class="mb-3 badge rounded-pill bg-dark">
-          <a class="text-white" href="/tags/package-manager">Package Manager</a></span
-        >
-        
-        <span class="mb-3 badge rounded-pill bg-dark">
-          <a class="text-white" href="/tags/npm">npm</a></span
-        >
-        
-        <span class="mb-3 badge rounded-pill bg-dark">
-          <a class="text-white" href="/tags/yarn">yarn</a></span
-        >
-        
-        <span class="mb-3 badge rounded-pill bg-dark">
-          <a class="text-white" href="/tags/pnpm">pnpm</a></span
-        >
-        
-        <span class="mb-3 badge rounded-pill bg-dark">
-          <a class="text-white" href="/tags/bun">bun</a></span
+          <a class="text-white" href="/tags/best-practices">Best Practices</a></span
         >
         
         <p class="blockquote-footer text-right">
@@ -731,124 +696,77 @@ if (!doNotTrack) {
           <a href="/authors/akshay-vadher">Akshay Vadher</a>,  on Wednesday, September 27, 2023
         </p>
 
-        <div class="content"><h1 id="_tldr_"><em>TL;DR</em></h1>
-<p>Yes, without fail.</p>
-<h1 id="history">History</h1>
-<p><code>npm</code> was the default package manager for <code>nodejs</code>.</p>
+        <div class="content"><p>In software development, dependency management is a critical aspect that directly impacts the stability and reproducibility of your projects. When working with package managers like npm, yarn, or others, one crucial decision developers must make is whether to commit the lock file to version control.</p>
+<p>In this article, we&rsquo;ll explore why it&rsquo;s essential to commit lock files and how they help in ensuring deterministic, secure, and consistent builds.</p>
+<h3 id="a-bit-of-history">A Bit of History</h3>
+<p>As you know, <code>npm</code> was the default package manager for <code>nodejs</code>.</p>
 <p><a href="https://www.npmjs.com/">Npm</a> follows sem version system with wildcard support. That means if
 a package <code>foo</code> is defined to use <code>^6.2.8</code>, and you run <code>npm install</code>, it will install the latest version of <code>6.x.x</code>
 after <code>6.2.8</code>.</p>
-<h1 id="issues">Issues</h1>
-<h2 id="deterministic-builds">Deterministic builds</h2>
-<p>It is a nicer way to say, &ldquo;It works on my machine&rdquo;.</p>
-<p>Let&rsquo;s say I use <code>foo</code> with version <code>^6.2.8</code> and use <code>npm install</code>, and it will install the latest <code>6.2.9</code>. I commit my
-code, and developer 2 checks out the code. (s)he executes <code>npm install</code>, and it will now install <code>6.2.10</code> because <code>^</code>
-will
-always check for the latest non-major version.</p>
-<p>In the ideal world, <code>6.2.9</code> and <code>6.2.10</code> should be compatible, but in the real world, it is not. It can break your
-build.
-It might work for me, but it would break for developer 2 with the same code. Worse, it might work in your machine
-but
-break the Production.</p>
-<p><a href="https://yarnpkg.com/cli">Yarn</a> first came up with the solution. You guessed it right: lock file. <code>yarn.lock</code>. It solves
-the problem by locking the version of the package at time of first install. So, <code>^</code> will still install the non-major
-version,
-but from the second time onwards, it will install the same version as in the lock file.</p>
-<h3 id="how">How?</h3>
+<h3 id="issues">Issues</h3>
+<h4 id="deterministic-builds-and-it-works-on-my-machine-conundrum">Deterministic Builds and &ldquo;It Works on My Machine&rdquo; Conundrum</h4>
+<p>Imagine you are using <code>foo</code> with version <code>^6.2.8</code> and you run <code>npm install</code>. By default, npm installs the latest version, <code>6.2.9</code>. Now, once this code is committed, other developers can check out the same codebase and proceed to execute <code>npm install</code>. But this time it might install <code>6.2.10</code> because <code>^</code> always check for the latest non-major version.</p>
+<p>In the ideal world, <code>6.2.9</code> and <code>6.2.10</code> should be compatible, but in the real world, that is not the case. These discrepancies can break your
+build. Worse, it might work on your machine but break the production.</p>
+<ul>
+<li>
+<h5 id="the-solution-lock-files">The Solution: Lock Files</h5>
+</li>
+</ul>
+<p><a href="https://yarnpkg.com/cli">Yarn</a> first introduced the concept of lock files, <code>yarn.lock</code>. It solves
+the problem by locking the version of the package during initial installation. So, <code>^</code> will still install the non-major
+version, but in the subsequent installations, it will use the same version as in the lock file.</p>
+<ul>
+<li>
+<h5 id="how-lock-files-work">How Lock Files Work?</h5>
+</li>
+</ul>
 <p><code>npm install</code> automatically generates the lock file.</p>
-<p>Let&rsquo;s say the (as described in the diagram) application &ldquo;A&rdquo; depends on libraries &ldquo;B&rdquo; (1.2.9) and &ldquo;C&rdquo; (^6.8.7). &ldquo;B&rdquo;
-depends
-on &ldquo;C&rdquo;(6.8.8), &ldquo;D&rdquo;(4.5.3), and &ldquo;E&rdquo;(7.2.9).</p>
-<p>All the dependencies are flattened in the lock file with all versions mentioned. So, the lock file will look like this
-B(1.2.9), C(6.8.7 and 6.8.8), D(4.5.3), and E(7.2.9); along with all the individual libraries dependencies mentioned and
+<p>Take a look at the below diagram.</p>
+<p>Application A depends on libraries B (1.2.9) and C (^6.8.7). B depends on C (6.8.8), D (4.5.3), and E (7.2.9).</p>
+<figure><img src="/images/2023/commit-lock-file/version-locking-case.png"/>
+</figure>
+
+<p>In the lock file, all the dependencies are flattened with their versions mentioned. So, the lock file will look like this
+B (1.2.9), C(6.8.7 and 6.8.8), D (4.5.3), and E (7.2.9), along with all the individual libraries dependencies mentioned and
 recursively so on.</p>
-<p>Since the &ldquo;C&rdquo; has been defined as <code>^</code>, among 6.8.7 and 6.8.8, the 6.8.8 will win (or even 6.8.9 if released). So,
-the next time you try to install dependencies, it won&rsquo;t install 6.8.10 even if it has been released and meets the <code>^</code>
-criteria.</p>
-<p><em>Above description is not exactly how it works though, it is grossly simplified.</em></p>
-<h3 id="gotcha">Gotcha</h3>
-<p>Let&rsquo;s eliminate wildcard characters (<code>^</code>, <code>~</code>, <code>*</code>, etc.) and use the exact version; that would solve
-the problem, right?</p>
-<p>Wrong. Even if you use the exact version for the library, the library itself might have dependencies with wildcard
-dependencies, and
-the application is still prone to breaking.</p>
-<h2 id="security">Security</h2>
-<p>Nobody thinks about this while starting a new project, but it is important. The lock file stores the integrity hash
-along
-with an exact dependency version, so it always checks whether the downloaded dependency is same as the one in lock
-file.</p>
-<p>Yarn introduced many things along with that, like caching, parallel downloads, etc. However, npm also caught up with the
-most features. And now, at the time of writing this, yarn and npm are almost the same.</p>
-<h1 id="using-lock-file">Using lock file</h1>
-<p>Just having a lock file does not solve all the issues. You need to make sure you execute the proper command(s). For
-example,
-<code>npm install</code> is intended to be uses only in developer mode. If you want to install dependencies for production, you
-need
-to use <code>npm ci</code>.</p>
-<p>Here is the list of commands with different modes for different tool</p>
-<table>
-<thead>
-<tr>
-<th>Tool</th>
-<th>Lock file name</th>
-<th>Developer</th>
-<th>CI/PROD</th>
-<th>Install Only Production dependencies</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>npm</td>
-<td><code>package-lock.json</code></td>
-<td><code>npm install</code></td>
-<td><code>npm ci</code></td>
-<td><code>npm ci --omit=dev</code> (or <code>npm i</code> with <code>NODE_ENV</code> set to <code>PRODUCTION</code></td>
-</tr>
-<tr>
-<td>yarn</td>
-<td><code>yarn.lock</code></td>
-<td><code>yarn</code></td>
-<td><code>yarn</code> (<code>--frozen-lockfile</code> or <code>--immutable</code> option)</td>
-<td><code>yarn install</code></td>
-</tr>
-<tr>
-<td>pnpm</td>
-<td><code>pnpm-lock.yaml</code></td>
-<td><code>pnpm install</code></td>
-<td><code>pnpm install --frozen-lockfile</code> (<code>--frozen-lockfile</code> is not required if <code>CI</code> ENV variable is <code>true</code>)</td>
-<td><code>pnpm install --frozen-lockfile --prod</code></td>
-</tr>
-<tr>
-<td>bun</td>
-<td><code>bun.lockb</code></td>
-<td><code>bun install</code></td>
-<td><code>bun install --frozen-lockfile</code></td>
-<td><code>bun install --frozen-lockfile --production</code></td>
-</tr>
-</tbody>
-</table>
-<h1 id="when-not-to-commit">When not to commit?</h1>
-<p>If you are making a library and publishing it, you don&rsquo;t want to lock the dependencies because it might break the host
-application. It should be the host application that is responsible for managing locking. You can mark a range of
+<p>Since C has been defined as <code>^</code>, which means among 6.8.7 and 6.8.8, the 6.8.8 version will win. So, the next time you try to install dependencies, it won&rsquo;t install 6.8.10 even if it has been released and meets the <code>^</code> criteria.</p>
+<p><em>The above description is a grossly simplified explanation of the process.</em></p>
+<ul>
+<li>
+<h5 id="the-pitfalls-of-using-exact-versions">The Pitfalls of Using Exact Versions</h5>
+</li>
+</ul>
+<p>Let&rsquo;s eliminate wildcard characters (<code>^</code>, <code>~</code>, <code>*</code>, etc.) and use the exact version. Wouldn&rsquo;t that solve the problem?</p>
+<p>Unfortunately, that&rsquo;s not how it works.
+Even if you use the exact version for the library, the library itself might have dependencies with wildcard
+dependencies, and the application is still prone to breaking.</p>
+<h4 id="security">Security</h4>
+<p>Lock files stores the integrity hash along with an exact dependency version, so it always checks whether the downloaded dependency is same as the one in the lock file.</p>
+<p>Yarn introduced many features like caching, parallel downloads, etc. However, npm has caught up with most of these. And now, at the time of writing this, yarn and npm are almost the same.</p>
+<h3 id="using-a-lock-file">Using a Lock File</h3>
+<p>Merely having a lock file isn&rsquo;t sufficient. You need to make sure you execute the proper command(s).
+For instance, <code>npm install</code> is intended to be used only in developer mode. If you want to install dependencies for production, you
+need to use <code>npm ci</code>.</p>
+<p><img src="/images/2023/commit-lock-file/table.png" alt="List of commands for different tools">
+<em>List of commands with different modes for different tools</em></p>
+<h3 id="when-not-to-commit-lock-files">When Not to Commit Lock Files?</h3>
+<p>In cases where you&rsquo;re building a library and publishing it, you don&rsquo;t want to lock the dependencies because it might break the host
+application. Instead, let the host application handle locking to avoid potential conflicts. You can mark a range of
 versions your library supports.</p>
-<h1 id="should-you-change-it-manually">Should you change it manually?</h1>
+<h3 id="should-you-change-a-lock-file-manually">Should You Change a Lock File Manually?</h3>
 <p>No.</p>
-<p>There could be a case where your application is breaking because &ldquo;C&rdquo; released a breaking change. So now you are tempted
-to lower the version in the lock file so that it locks the correct version. Instead of doing that, (best if you can) fix
-the
-application to work with the latest version because that is good for the long term, or change the package.json itself so
-that the next time you do <code>npm install</code>, it will correct the lock file.</p>
-<h1 id="other-languages">Other languages</h1>
+<p>When facing issues caused by package updates, resist the temptation to manually adjust the lock file. It&rsquo;s usually better to adapt your application to work with the latest version, or update your package.json to ensure correct lock file generation during the next installation.</p>
+<h3 id="applicability-across-languages">Applicability Across Languages</h3>
 <p>This applies not only to <a href="https://nodejs.org/en">Node.js</a> but any language that uses package manager. For example,
 <a href="https://golang.org/">Go</a> uses <a href="https://golang.org/ref/mod">go.mod</a> and <a href="https://golang.org/ref/mod#go-sum-in">go.sum</a>,
 <a href="https://www.rust-lang.org/">Rust</a>
 uses <a href="https://doc.rust-lang.org/cargo/guide/cargo-toml-vs-cargo-lock.html">Cargo.lock</a>,
 <a href="https://www.python.org/">Python</a> uses <a href="https://pip.pypa.io/en/stable/user_guide/#requirements-files">requirements.txt</a>,
 etc.</p>
-<h1 id="conclusion">Conclusion</h1>
-<p>Whatever tool you use, always commit the lock file after installing the dependencies for the first time. Along with
-that, always execute the proper command for installing dependencies.</p>
-<p>The lock file and proper command will make sure that your build is deterministic and secure.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>In conclusion, committing lock files, along with executing the appropriate commands for dependency installation, is a best practice that ensures deterministic amd secure builds.
+By doing so, developers can mitigate issues related to version conflicts, enhance project security, and foster collaborative development in an environment of consistency and reliability.</p>
 </div>
 
 
@@ -860,7 +778,7 @@ that, always execute the proper command for installing dependencies.</p>
 
 <div style="font-size: 80%">
 
-    <a class="resp-sharing-button__link" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fblog.incubyte.co%2fblog%2fshould-you-commit-lock-file%2f&t=Should%20you%20commit%20lock%20file%3f"
+    <a class="resp-sharing-button__link" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fblog.incubyte.co%2fblog%2fshould-you-commit-lock-file%2f&t=The%20Importance%20of%20Committing%20Lock%20Files%20in%20Dependency%20Management"
          target="_blank" rel="noopener" aria-label="Facebook">
         <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
@@ -874,7 +792,7 @@ that, always execute the proper command for installing dependencies.</p>
     </a>
 
     <a class="resp-sharing-button__link"
-         href="https://twitter.com/share?text=Should%20you%20commit%20lock%20file%3f&url=https%3a%2f%2fblog.incubyte.co%2fblog%2fshould-you-commit-lock-file%2f&screen_name=incubyte_co"
+         href="https://twitter.com/share?text=The%20Importance%20of%20Committing%20Lock%20Files%20in%20Dependency%20Management&url=https%3a%2f%2fblog.incubyte.co%2fblog%2fshould-you-commit-lock-file%2f&screen_name=incubyte_co"
          target="_blank" rel="noopener" aria-label="Twitter">
         <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
@@ -888,7 +806,7 @@ that, always execute the proper command for installing dependencies.</p>
     </a>
 
     <a class="resp-sharing-button__link"
-         href="mailto:?subject=Should%20you%20commit%20lock%20file%3f&body=Should%20you%20commit%20lock%20file%3f%0a%0aTL%3bDR%20Yes%2c%20without%20fail.%0aHistory%20npm%20was%20the%20default%20package%20manager%20for%20nodejs.%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fshould-you-commit-lock-file%2f%0a"
+         href="mailto:?subject=The%20Importance%20of%20Committing%20Lock%20Files%20in%20Dependency%20Management&body=The%20Importance%20of%20Committing%20Lock%20Files%20in%20Dependency%20Management%0a%0aIn%20software%20development%2c%20dependency%20management%20is%20a%20critical%20aspect%20that%20directly%20impacts%20the%20stability%20and%20reproducibility%20of%20your%20projects.%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fshould-you-commit-lock-file%2f%0a"
          target="_self" rel="noopener" aria-label="E-Mail">
         <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
@@ -904,7 +822,7 @@ that, always execute the proper command for installing dependencies.</p>
     </a>
 
     <a class="resp-sharing-button__link"
-         href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fblog.incubyte.co%2fblog%2fshould-you-commit-lock-file%2f&title=Should%20you%20commit%20lock%20file%3f&summary=TL%253BDR%2bYes%252C%2bwithout%2bfail.%250AHistory%2bnpm%2bwas%2bthe%2bdefault%2bpackage%2bmanager%2bfor%2bnodejs."
+         href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fblog.incubyte.co%2fblog%2fshould-you-commit-lock-file%2f&title=The%20Importance%20of%20Committing%20Lock%20Files%20in%20Dependency%20Management&summary=In%2bsoftware%2bdevelopment%252C%2bdependency%2bmanagement%2bis%2ba%2bcritical%2baspect%2bthat%2bdirectly%2bimpacts%2bthe%2bstability%2band%2breproducibility%2bof%2byour%2bprojects."
          target="_blank" rel="noopener" aria-label="LinkedIn">
         <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
@@ -918,7 +836,7 @@ that, always execute the proper command for installing dependencies.</p>
     </a>
 
     <a class="resp-sharing-button__link"
-         href="https://reddit.com/submit?url=https%3a%2f%2fblog.incubyte.co%2fblog%2fshould-you-commit-lock-file%2f&title=Should%20you%20commit%20lock%20file%3f"
+         href="https://reddit.com/submit?url=https%3a%2f%2fblog.incubyte.co%2fblog%2fshould-you-commit-lock-file%2f&title=The%20Importance%20of%20Committing%20Lock%20Files%20in%20Dependency%20Management"
          target="_blank" rel="noopener" aria-label="Reddit">
         <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
@@ -938,7 +856,7 @@ that, always execute the proper command for installing dependencies.</p>
     </a>
 
     <a class="resp-sharing-button__link"
-         href="whatsapp://send?text=Should%20you%20commit%20lock%20file%3f%0a%0aTL%3bDR%20Yes%2c%20without%20fail.%0aHistory%20npm%20was%20the%20default%20package%20manager%20for%20nodejs.%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fshould-you-commit-lock-file%2f%0a"
+         href="whatsapp://send?text=The%20Importance%20of%20Committing%20Lock%20Files%20in%20Dependency%20Management%0a%0aIn%20software%20development%2c%20dependency%20management%20is%20a%20critical%20aspect%20that%20directly%20impacts%20the%20stability%20and%20reproducibility%20of%20your%20projects.%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fshould-you-commit-lock-file%2f%0a"
          target="_blank" rel="noopener" aria-label="WhatsApp">
         <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">

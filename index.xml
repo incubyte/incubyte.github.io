@@ -19,13 +19,12 @@ The term &amp;ldquo;modernization&amp;rdquo; holds diverse meanings for differen
     </item>
     
     <item>
-      <title>Should you commit lock file?</title>
+      <title>The Importance of Committing Lock Files in Dependency Management</title>
       <link>https://blog.incubyte.co/blog/should-you-commit-lock-file/</link>
       <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
       
       <guid>https://blog.incubyte.co/blog/should-you-commit-lock-file/</guid>
-      <description>TL;DR Yes, without fail.
-History npm was the default package manager for nodejs.</description>
+      <description>In software development, dependency management is a critical aspect that directly impacts the stability and reproducibility of your projects.</description>
     </item>
     
     <item>
