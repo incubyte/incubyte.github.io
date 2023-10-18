@@ -18,7 +18,7 @@ Ruby, being a dynamic programming language provides the ability and hence freedo
 ```ruby
 class Sound
   def car
-    "honk"
+    "honnnnnk..."
   end
 end
 
@@ -28,7 +28,7 @@ class Sound
   end
 end
 sound = Sound.new
-sound.car #=> honk
+sound.car #=> honnnnnk...
 sound.bike #=> peep-peep
 ```
 The above is a simple example where we reopened Sound class and added a new method. It provides many other opportunities including overriding the method of the original class.
@@ -59,5 +59,7 @@ The above monkey patch would return nothing causing the `upcase` to fail everywh
 
 #### Conclusion
 
-Be a good Samaritan and contribute to the open source. When a bug is discovered in 3rd party library raise a issue, fix it, and get the pull request merged meanwhile add a monkey patch. Monkey patching has gained the popularity as the power tool in ruby because of the havoc it can cause if it is misused. Refrain from using it and use it only when it is the last resolution.
+Be a good Samaritan and contribute to open source.
+When a bug is discovered in a third-party library, raise an issue, fix it, and get the pull request merged. Meanwhile, add a monkey patch.
+Monkey patching has gained the popularity it has as a power tool in Ruby because of the havoc it can cause if misused. Refrain from using it and use it only when it is the last resort.
 
