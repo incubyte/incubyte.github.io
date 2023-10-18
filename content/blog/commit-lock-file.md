@@ -76,6 +76,8 @@ Merely having a lock file isn't sufficient. You need to make sure you execute th
 For instance, `npm install` is intended to be used only in developer mode. If you want to install dependencies for production, you
 need to use `npm ci`.
 
+{{< figure src="/images/2023/commit-lock-file/table.png" >}}
+
 Here are a list of commands with different modes for different tools:
 
 |   Tool   | Lock file name      | Developer      | CI/PROD                                                                                               | Install Only Production dependencies                                |
