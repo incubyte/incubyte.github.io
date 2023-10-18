@@ -78,7 +78,8 @@ need to use `npm ci`.
 
 {{< figure src="/images/2023/commit-lock-file/table.png" figcaption="List of commands with different modes for different tools" >}}
 
-![List of commands for different tools](/images/2023/commit-lock-file/table.png)List of commands with different modes for different tools
+![List of commands for different tools](/images/2023/commit-lock-file/table.png)
+_List of commands with different modes for different tools_
 
 Here are a list of commands with different modes for different tools:
 
