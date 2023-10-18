@@ -38,7 +38,7 @@ Usually when the programmer wants to fix the bug quickly.
 1. When the gem or library that is being used has a bug and before a patch-fix from the library if one wants to fix it in their code base.
 2. When certain method you expect the library to contain is missing, one can monkey patch the method.
 
-#### Side Effects
+#### Cons
 
 ```ruby
 class String
