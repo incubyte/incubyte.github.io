@@ -17,7 +17,7 @@ Ruby, being a dynamic programming language provides the ability and hence freedo
 
 ```ruby
 class Sound
-  def car
+	def car
 		"honk"
 	end
 end
