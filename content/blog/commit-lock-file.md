@@ -76,19 +76,8 @@ Merely having a lock file isn't sufficient. You need to make sure you execute th
 For instance, `npm install` is intended to be used only in developer mode. If you want to install dependencies for production, you
 need to use `npm ci`.
 
-{{< figure src="/images/2023/commit-lock-file/table.png" figcaption="List of commands with different modes for different tools" >}}
-
 ![List of commands for different tools](/images/2023/commit-lock-file/table.png)
 _List of commands with different modes for different tools_
-
-Here are a list of commands with different modes for different tools:
-
-|   Tool   | Lock file name      | Developer      | CI/PROD                                                                                               | Install Only Production dependencies                                |
-|----------|---------------------|----------------|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-|   npm    | `package-lock.json` | `npm install`  | `npm ci`                                                                                              | `npm ci --omit=dev` (or `npm i` with `NODE_ENV` set to `PRODUCTION` |
-|   yarn   | `yarn.lock`         | `yarn`         | `yarn` (`--frozen-lockfile` or `--immutable` option)                                                  | `yarn install`                                                      |
-|   pnpm   | `pnpm-lock.yaml`    | `pnpm install` | `pnpm install --frozen-lockfile` (`--frozen-lockfile` is not required if `CI` ENV variable is `true`) | `pnpm install --frozen-lockfile --prod`                             |
-|   bun    | `bun.lockb`         | `bun install`  | `bun install --frozen-lockfile`                                                                       | `bun install --frozen-lockfile --production`                        |
 
 ### When Not to Commit Lock Files?
 
