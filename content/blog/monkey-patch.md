@@ -17,14 +17,15 @@ Ruby, being a dynamic programming language provides the ability and hence freedo
 
 ```ruby
 class Sound
-	def car
-		"honk"
-	end
+  def car
+    "honk"
+  end
 end
+
 class Sound
-	def bike
-		"peep-peep"
-	end
+  def bike
+    "peep-peep"
+  end
 end
 noise = Sound.new
 noise.car #=> honk
