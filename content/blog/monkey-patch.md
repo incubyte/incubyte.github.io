@@ -58,10 +58,10 @@ The above monkey patch would return nothing, causing the upcase method to fail w
 3. It can be difficult to determine which patch is producing the desired result.
 
 4. This adds to technical debt, as monkey patches need to be removed once the fix is in place.
-#### Measures to take while monkey-patching
- 
-1. Instead of reopening the classes where needed, it is considered a good idea to have the patch in module and include it in the class.
-2. Document the applied monkey patches and clean them up when the fix is in place.
+#### Measures to Take While Monkey-Patching
+
+1. Instead of reopening classes where necessary, it is considered a good idea to place the patch in a module and include it in the class.
+2. Document the applied monkey patches and remove them when the fix is implemented.
 
 #### Conclusion
 
