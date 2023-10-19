@@ -49,7 +49,7 @@ class String
   end
 end
 ```
-The above monkey patch would return nothing, causing the upcase method to fail wherever the patch is applied.
+In the above monkey patch we reopened universal String class and overriding the behavior of `upcase` method to return nothing, causing a failure whereever it is called.
 
 1. In a large codebase, multiple developers may be monkey patching the same method in different ways.
 
