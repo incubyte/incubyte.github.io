@@ -34,9 +34,11 @@ sound.bike #=> peep-peep
 The above is a simple example where we reopened Sound class and added a new method. It provides many other opportunities including overriding the method of the original class.
 
 #### When does one think of using it
-Usually when the programmer wants to fix the bug quickly.
-1. When the gem or library that is being used has a bug and before a patch-fix from the library if one wants to fix it in their code base.
-2. When certain method you expect the library to contain is missing, one can monkey patch the method.
+Usually, when a programmer wants to quickly fix a bug, it occurs under the following circumstances:
+
+1. When the gem or library being used has a bug and there is no patch or fix available from the library yet, one may wish to fix it in their own codebase.
+
+2. When a certain method, which you expect the library to have, is missing, one can apply a monkey patch to that method.
 
 #### Cons
 
