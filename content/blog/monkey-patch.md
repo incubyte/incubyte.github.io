@@ -49,11 +49,15 @@ class String
   end
 end
 ```
-The above monkey patch would return nothing causing the `upcase` to fail everywhere the patch is being used.
-1. In a large code base multiple developers may be monkey patching the same method in different ways.
-2. When a 3rd-party gem is monkey patched, upgrading the gem may result in conflict.
-3. Can be difficult to track which patch is giving the result.
-4. Adds to tech debt as monkey patching needs to be cleaned out once the fix is in place.
+The above monkey patch would return nothing, causing the upcase method to fail wherever the patch is applied.
+
+1. In a large codebase, multiple developers may be monkey patching the same method in different ways.
+
+2. When a third-party gem is monkey patched, upgrading the gem may result in conflicts.
+
+3. It can be difficult to determine which patch is producing the desired result.
+
+4. This adds to technical debt, as monkey patches need to be removed once the fix is in place.
 #### Measures to take while monkey-patching
  
 1. Instead of reopening the classes where needed, it is considered a good idea to have the patch in module and include it in the class.
