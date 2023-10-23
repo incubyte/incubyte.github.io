@@ -34,7 +34,7 @@ sound.bike #=> peep-peep
 The above is a simple example where we reopened Sound class and added a new method. It provides many other opportunities including overriding the method of the original class.
 
 #### When does one think of using it
-Usually, when a programmer wants to quickly fix a bug, it occurs under the following circumstances:
+Usually, when the programmer wants to add a quick fix.
 
 1. When the gem or library being used has a bug and there is no patch or fix available from the library yet, one may wish to fix it in their own codebase.
 
@@ -49,7 +49,7 @@ class String
   end
 end
 ```
-In the above monkey patch we reopened universal String class and overriding the behavior of `upcase` method to return nothing, causing a failure whereever it is called.
+In the above monkey patch we have reopened universal String class and overrided the behavior of `upcase` method to return nothing. This produces undesired results whereever the `upcase` method is called.
 
 1. In a large codebase, multiple developers may be monkey patching the same method in different ways.
 
@@ -58,10 +58,11 @@ In the above monkey patch we reopened universal String class and overriding the 
 3. It can be difficult to determine which patch is producing the desired result.
 
 4. This adds to technical debt, as monkey patches need to be removed once the fix is in place.
+
 #### Measures to Take While Monkey-Patching
 
 1. Instead of reopening classes where necessary, it is considered a good idea to place the patch in a module and include it in the class.
-2. Document the applied monkey patches and remove them when the fix is implemented.
+2. Document the applied monkey patches to remove them when the fix is implemented.
 
 #### Conclusion
 
