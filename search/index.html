@@ -650,7 +650,7 @@ if (!doNotTrack) {
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "October 5, 2023",
+          "date": "October 17, 2023",
           "url": "https://blog.incubyte.co/"
       },
       
@@ -661,7 +661,7 @@ if (!doNotTrack) {
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "October 5, 2023",
+          "date": "October 17, 2023",
           "url": "https://blog.incubyte.co/"
       },
       
@@ -672,7 +672,7 @@ if (!doNotTrack) {
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "October 5, 2023",
+          "date": "October 17, 2023",
           "url": "https://blog.incubyte.co/authors/"
       },
       
@@ -683,8 +683,96 @@ if (!doNotTrack) {
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "October 5, 2023",
+          "date": "October 17, 2023",
           "url": "https://blog.incubyte.co/categories/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/graphql\/": {
+          "title": "GraphQL",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "October 17, 2023",
+          "url": "https://blog.incubyte.co/tags/graphql/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/monkey-patching\/": {
+          "title": "Monkey Patching",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "October 17, 2023",
+          "url": "https://blog.incubyte.co/categories/monkey-patching/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/blog\/monkey-patch\/": {
+          "title": "Monkey Patching",
+          "tags": ["Software Craftsmanship","GraphQL",],
+          "authors":["Nitin Rajkumar",],
+          "summary":"Ruby, being a dynamic programming language provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods.",
+          "content":"Ruby, being a dynamic programming language provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods.\nHow to monkey patch class Sound def car \u0026#34;honnnnnk...\u0026#34; end end class Sound def bike \u0026#34;peep-peep\u0026#34; end end sound = Sound.new sound.car #=\u0026gt; honnnnnk... sound.bike #=\u0026gt; peep-peep The above is a simple example where we reopened Sound class and added a new method. It provides many other opportunities including overriding the method of the original class.\nWhen does one think of using it Usually, when the programmer wants to add a quick fix.\nWhen the gem or library being used has a bug and there is no patch or fix available from the library yet, one may wish to fix it in their own codebase.\nWhen a certain method, which you expect the library to have, is missing, one can apply a monkey patch to that method.\nCons class String def upcase # do nothing end end In the above monkey patch we have reopened universal String class and overrided the behavior of upcase method to return nothing. This produces undesired results whereever the upcase method is called.\nIn a large codebase, multiple developers may be monkey patching the same method in different ways.\nWhen a third-party gem is monkey patched, upgrading the gem may result in conflicts.\nIt can be difficult to determine which patch is producing the desired result.\nThis adds to technical debt, as monkey patches need to be removed once the fix is in place.\nMeasures to Take While Monkey-Patching Instead of reopening classes where necessary, it is considered a good idea to place the patch in a module and include it in the class. Document the applied monkey patches to remove them when the fix is implemented. Conclusion Be a good Samaritan and contribute to open source. When a bug is discovered in a third-party library, raise an issue, fix it, and get the pull request merged. Meanwhile, add a monkey patch. Monkey patching has gained the popularity it has as a power tool in Ruby because of the havoc it can cause if misused. Refrain from using it and use it only when it is the last resort.\n",
+          "image":"/images/2023/10/monkeypatch.jpg",
+          "date": "October 17, 2023",
+          "url": "https://blog.incubyte.co/blog/monkey-patch/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/nitin-rajkumar\/": {
+          "title": "Nitin Rajkumar",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "October 17, 2023",
+          "url": "https://blog.incubyte.co/authors/nitin-rajkumar/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/ruby\/": {
+          "title": "Ruby",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "October 17, 2023",
+          "url": "https://blog.incubyte.co/categories/ruby/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/software-craftsmanship\/": {
+          "title": "Software Craftsmanship",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "October 17, 2023",
+          "url": "https://blog.incubyte.co/tags/software-craftsmanship/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/software-craftsmanship\/": {
+          "title": "Software Craftsmanship",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "October 17, 2023",
+          "url": "https://blog.incubyte.co/categories/software-craftsmanship/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/": {
+          "title": "Tags",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "October 17, 2023",
+          "url": "https://blog.incubyte.co/tags/"
       },
       
       "https:\/\/blog.incubyte.co\/tags\/modernization\/": {
@@ -729,17 +817,6 @@ if (!doNotTrack) {
           "image":"/images/2023/modernization-for-legacy-software-header.jpg",
           "date": "October 5, 2023",
           "url": "https://blog.incubyte.co/blog/software-modernization-for-legacy-software/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/": {
-          "title": "Tags",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "October 5, 2023",
-          "url": "https://blog.incubyte.co/tags/"
       },
       
       "https:\/\/blog.incubyte.co\/authors\/akshay-vadher\/": {
@@ -1004,28 +1081,6 @@ if (!doNotTrack) {
           "image": null ,
           "date": "July 27, 2023",
           "url": "https://blog.incubyte.co/categories/playbook/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/software-craftsmanship\/": {
-          "title": "Software Craftsmanship",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "July 27, 2023",
-          "url": "https://blog.incubyte.co/tags/software-craftsmanship/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/software-craftsmanship\/": {
-          "title": "Software Craftsmanship",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "July 27, 2023",
-          "url": "https://blog.incubyte.co/categories/software-craftsmanship/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/refactoring-to-tidying\/": {
@@ -1314,17 +1369,6 @@ if (!doNotTrack) {
           "url": "https://blog.incubyte.co/blog/clean-agile-with-uncle-bob-a-summary/"
       },
       
-      "https:\/\/blog.incubyte.co\/tags\/graphql\/": {
-          "title": "GraphQL",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "February 23, 2023",
-          "url": "https://blog.incubyte.co/tags/graphql/"
-      },
-      
       "https:\/\/blog.incubyte.co\/categories\/graphql\/": {
           "title": "GraphQL",
           "tags": [],
@@ -1334,17 +1378,6 @@ if (!doNotTrack) {
           "image": null ,
           "date": "February 23, 2023",
           "url": "https://blog.incubyte.co/categories/graphql/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/authors\/nitin-rajkumar\/": {
-          "title": "Nitin Rajkumar",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "February 23, 2023",
-          "url": "https://blog.incubyte.co/authors/nitin-rajkumar/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/origin-of-graphql\/": {

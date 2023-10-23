@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 05 Oct 2023 00:10:46 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Oct 2023 18:29:54 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GraphQL</title>
+      <link>https://blog.incubyte.co/tags/graphql/</link>
+      <pubDate>Tue, 17 Oct 2023 18:29:54 +0530</pubDate>
+      
+      <guid>https://blog.incubyte.co/tags/graphql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Craftsmanship</title>
+      <link>https://blog.incubyte.co/tags/software-craftsmanship/</link>
+      <pubDate>Tue, 17 Oct 2023 18:29:54 +0530</pubDate>
+      
+      <guid>https://blog.incubyte.co/tags/software-craftsmanship/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Modernization</title>
       <link>https://blog.incubyte.co/tags/modernization/</link>
@@ -90,15 +108,6 @@
     </item>
     
     <item>
-      <title>Software Craftsmanship</title>
-      <link>https://blog.incubyte.co/tags/software-craftsmanship/</link>
-      <pubDate>Thu, 27 Jul 2023 20:04:38 +0530</pubDate>
-      
-      <guid>https://blog.incubyte.co/tags/software-craftsmanship/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Architect</title>
       <link>https://blog.incubyte.co/tags/architect/</link>
       <pubDate>Wed, 28 Jun 2023 00:10:46 +0530</pubDate>
@@ -167,15 +176,6 @@
       <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://blog.incubyte.co/tags/book-review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GraphQL</title>
-      <link>https://blog.incubyte.co/tags/graphql/</link>
-      <pubDate>Thu, 23 Feb 2023 11:33:15 +0530</pubDate>
-      
-      <guid>https://blog.incubyte.co/tags/graphql/</guid>
       <description></description>
     </item>
     
