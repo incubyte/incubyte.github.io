@@ -1,12 +1,12 @@
 +++
-title = "Monkey Patching"
+title = "Monkey Patching in Ruby"
 slug = "monkey-patch"
 date = 2023-10-17T18:29:54+05:30
 image = "/images/2023/monkeypatch.png"
 draft = false
 authors = ["Nitin Rajkumar"]
-description = "Monkey patching and it's sideeffects in Ruby"
-tags = ["Software Craftsmanship", "GraphQL"]
+description = "Monkey patching and it's side-effects in Ruby"
+tags = ["Software Craftsmanship", "Ruby"]
 categories = ["Software Craftsmanship", "Ruby", "Monkey Patching"]
 type = ""
 +++
