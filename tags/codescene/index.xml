@@ -7,24 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 18 Aug 2023 00:10:46 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/tags/codescene/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Aug 2023 00:10:46 +0530</lastBuildDate>
+    <atom:link href="https://blog.incubyte.co/tags/codescene/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code Tidying: The Story of a Backseat Driver</title>
       <link>https://blog.incubyte.co/blog/code-tidying/</link>
       <pubDate>Fri, 18 Aug 2023 00:10:46 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/code-tidying/</guid>
       <description>Let&amp;rsquo;s embark on a thought experiment. Envision yourself as a driving virtuoso, conquering city streets with gear shifts smoother than a buttered dolphin on a rainbow.</description>
     </item>
-    
     <item>
       <title>The Compounding Effect of Tidying Using CodeScene</title>
       <link>https://blog.incubyte.co/blog/refactoring-to-tidying/</link>
       <pubDate>Fri, 21 Jul 2023 00:10:46 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/refactoring-to-tidying/</guid>
       <description>It turns out that most of a developer&amp;rsquo;s tasks end up being tactical activities, such as adding a text box here, adding a checkbox there, fixing a bug, or working with an outage.</description>
     </item>
-    
   </channel>
 </rss>

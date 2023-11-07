@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/authors/karishma-shah/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.incubyte.co/authors/karishma-shah/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Remote Onboarding &amp; Immersion at Incubyte</title>
       <link>https://blog.incubyte.co/blog/remote-onboarding-and-immersion/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/remote-onboarding-and-immersion/</guid>
       <description>Employee onboarding is the important process of introducing newly hired employees to the organisation.</description>
     </item>
-    
   </channel>
 </rss>

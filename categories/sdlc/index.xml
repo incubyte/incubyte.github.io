@@ -7,24 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 24 Sep 2021 05:06:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/categories/sdlc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Sep 2021 05:06:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.incubyte.co/categories/sdlc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pair Programming — How it works!</title>
       <link>https://blog.incubyte.co/blog/pair-programming/</link>
       <pubDate>Fri, 24 Sep 2021 05:06:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/pair-programming/</guid>
       <description>Have you ever come across a bug that had complex logic, and was incredibly hard to fix?</description>
     </item>
-    
     <item>
       <title>Ideas for Successful Agile Teams</title>
       <link>https://blog.incubyte.co/blog/techniques-for-an-agile-team/</link>
       <pubDate>Thu, 19 Aug 2021 05:06:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/techniques-for-an-agile-team/</guid>
       <description>Agile is the most discussed software development methodology, and probably the most widely accepted as the way forward for modern software development teams.</description>
     </item>
-    
   </channel>
 </rss>

@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.incubyte.co/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.incubyte.co/categories/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Security Practices for Postgres Web Application</title>
       <link>https://blog.incubyte.co/blog/data-security/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/data-security/</guid>
       <description>Data security is when protective measures are put in place to keep unauthorsized access out of computers, websites, and databases.</description>
     </item>
-    
   </channel>
 </rss>

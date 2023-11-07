@@ -7,532 +7,417 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 17 Oct 2023 18:29:54 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Oct 2023 18:29:54 +0530</lastBuildDate>
+    <atom:link href="https://blog.incubyte.co/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Monkey Patching</title>
+      <title>Monkey Patching in Ruby</title>
       <link>https://blog.incubyte.co/blog/monkey-patch/</link>
       <pubDate>Tue, 17 Oct 2023 18:29:54 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/monkey-patch/</guid>
-      <description>Ruby, being a dynamic programming language provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods.</description>
+      <description>Ruby, as you all know, is a dynamic programming language that provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods.</description>
     </item>
-    
     <item>
       <title>Software Modernization For Legacy Software</title>
       <link>https://blog.incubyte.co/blog/software-modernization-for-legacy-software/</link>
       <pubDate>Thu, 05 Oct 2023 00:10:46 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/software-modernization-for-legacy-software/</guid>
       <description>Originally published on Forbes Technology Council.
 The term &amp;ldquo;modernization&amp;rdquo; holds diverse meanings for different organizations.</description>
     </item>
-    
     <item>
       <title>The Importance of Committing Lock Files in Dependency Management</title>
       <link>https://blog.incubyte.co/blog/should-you-commit-lock-file/</link>
       <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/should-you-commit-lock-file/</guid>
       <description>In software development, dependency management is a critical aspect that directly impacts the stability and reproducibility of your projects.</description>
     </item>
-    
     <item>
       <title>Why Companies Become Stuck In Bad Coding Loops — And How To Escape Them</title>
       <link>https://blog.incubyte.co/blog/escape-bad-coding-loop/</link>
       <pubDate>Fri, 08 Sep 2023 00:10:46 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/escape-bad-coding-loop/</guid>
       <description>Originally published on Forbes Technology Council.
 Imagine a multimillion-dollar company with a lot of software.</description>
     </item>
-    
     <item>
       <title>Code Tidying: The Story of a Backseat Driver</title>
       <link>https://blog.incubyte.co/blog/code-tidying/</link>
       <pubDate>Fri, 18 Aug 2023 00:10:46 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/code-tidying/</guid>
       <description>Let&amp;rsquo;s embark on a thought experiment. Envision yourself as a driving virtuoso, conquering city streets with gear shifts smoother than a buttered dolphin on a rainbow.</description>
     </item>
-    
     <item>
       <title>Modernizing a Legacy System: Build and Deployment</title>
       <link>https://blog.incubyte.co/blog/build-deployment-case-study/</link>
       <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/build-deployment-case-study/</guid>
       <description>Streamlining Expense Tracking Process by Modernizing a Solution for a US-based Expense Management Solution Provider</description>
     </item>
-    
     <item>
       <title>Four Lenses of Productivity: Incubyte&#39;s Take</title>
       <link>https://blog.incubyte.co/blog/four-lenses-of-productivity/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/four-lenses-of-productivity/</guid>
       <description>This blog discusses different levels of productivity along with common pitfalls and different ways to optimize them.</description>
     </item>
-    
     <item>
       <title>Chandrayaan 3 TDD Assessment</title>
       <link>https://blog.incubyte.co/blog/chandrayaan-3-tdd-assessment/</link>
       <pubDate>Thu, 27 Jul 2023 20:04:38 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/chandrayaan-3-tdd-assessment/</guid>
       <description>Before you begin A Software Craftsperson at Incubyte is a person who has a strong commitment to the craft of software development.</description>
     </item>
-    
     <item>
       <title>The Compounding Effect of Tidying Using CodeScene</title>
       <link>https://blog.incubyte.co/blog/refactoring-to-tidying/</link>
       <pubDate>Fri, 21 Jul 2023 00:10:46 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/refactoring-to-tidying/</guid>
       <description>It turns out that most of a developer&amp;rsquo;s tasks end up being tactical activities, such as adding a text box here, adding a checkbox there, fixing a bug, or working with an outage.</description>
     </item>
-    
     <item>
       <title>How to Think Like an Architect</title>
       <link>https://blog.incubyte.co/blog/think-like-architect/</link>
       <pubDate>Wed, 28 Jun 2023 00:10:46 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/think-like-architect/</guid>
       <description>Have you ever wondered what skills it takes to be a software architect?</description>
     </item>
-    
     <item>
       <title>Prompt Engineering 101</title>
       <link>https://blog.incubyte.co/blog/prompt-engg/</link>
       <pubDate>Fri, 23 Jun 2023 00:10:46 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/prompt-engg/</guid>
       <description>Are you feeling lost in the new world of AI tools and Prompt Engineering?</description>
     </item>
-    
     <item>
       <title>Testing With Java - Part 2 : TDD</title>
       <link>https://blog.incubyte.co/blog/testing-with-java-tdd/</link>
       <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/testing-with-java-tdd/</guid>
       <description>In the annals of software development, there exists a cautionary tale from the year 1996, when the European Space Agency (ESA) launched its ambitious Ariane 5 rocket.</description>
     </item>
-    
     <item>
       <title>Psychological Safety in Agile Teams</title>
       <link>https://blog.incubyte.co/blog/psychological-safety/</link>
       <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/psychological-safety/</guid>
       <description>Think back to the first time your code was under review.</description>
     </item>
-    
     <item>
       <title>Using Azure DevOps to Create Robust Product Roadmaps</title>
       <link>https://blog.incubyte.co/blog/product-roadmaps-with-azure-devops/</link>
       <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/product-roadmaps-with-azure-devops/</guid>
       <description>This article explores the learnings we gathered from using Azure DevOps to create robust product roadmaps.</description>
     </item>
-    
     <item>
       <title>Is there a more economical and efficient alternative to Salesforce?</title>
       <link>https://blog.incubyte.co/blog/salesforce-vs-in-house-custom-development/</link>
       <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/salesforce-vs-in-house-custom-development/</guid>
       <description>Choosing a direction when redefining your organization&amp;rsquo;s technical backbone is never easy.</description>
     </item>
-    
     <item>
       <title>Accelerate: Metrics that Define High-Performance Software Delivery</title>
       <link>https://blog.incubyte.co/blog/accelerate-metrics/</link>
       <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/accelerate-metrics/</guid>
       <description>Accelerate by Nicole Forsgren, Jez Humble, and Gene Kim was released in 2018, and it changed how I think about software delivery.</description>
     </item>
-    
     <item>
       <title>Clean Agile with Uncle Bob: A Summary</title>
       <link>https://blog.incubyte.co/blog/clean-agile-with-uncle-bob-a-summary/</link>
       <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/clean-agile-with-uncle-bob-a-summary/</guid>
       <description>Clean Agile Summary Clean Agile is a book by Rober C.</description>
     </item>
-    
     <item>
       <title>Origins of Graphql</title>
       <link>https://blog.incubyte.co/blog/origin-of-graphql/</link>
       <pubDate>Thu, 23 Feb 2023 11:33:15 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/origin-of-graphql/</guid>
       <description>Königsberg Bridge Problem — The Big Bang of GraphQL “Starting from any of the four land areas A, B, C, D is it possible to cross each of the seven bridges exactly once and come back to the starting point without swimming across the river?</description>
     </item>
-    
     <item>
       <title>Testing With Java - Part 1 : Introduction</title>
       <link>https://blog.incubyte.co/blog/testing-with-java-intro/</link>
       <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/testing-with-java-intro/</guid>
       <description>On July 22, 1962, Mariner 1 – America&amp;rsquo;s first interplanetary spacecraft, lifted off from the ground on its way to fly by Venus.</description>
     </item>
-    
     <item>
       <title>A Centralized System for a Leading Consumer Lending Bank</title>
       <link>https://blog.incubyte.co/blog/finance-case-study/</link>
       <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/finance-case-study/</guid>
       <description>Making Loan Processing Efficient by Transforming Manual Processes into a Centralized Automated System for a Consumer Lending Bank</description>
     </item>
-    
     <item>
       <title>Incubyte Enables Global Healthcare Platform to Expand to 52&#43; Countries</title>
       <link>https://blog.incubyte.co/blog/global-case-study/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/global-case-study/</guid>
       <description>Making Mental Healthcare Accessible and Providing a Personalized Customer Experience</description>
     </item>
-    
     <item>
       <title>Are you sabotaging your organizational goals?</title>
       <link>https://blog.incubyte.co/blog/simple-sabotage/</link>
       <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/simple-sabotage/</guid>
       <description>I recently came across Simple Sabotage Field Manual. What struck me was you do not need bombs and explosives to start sabotaging.</description>
     </item>
-    
     <item>
       <title>Monnai: A Product Launch Journey</title>
       <link>https://blog.incubyte.co/blog/monnai-case-study/</link>
       <pubDate>Sat, 05 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/monnai-case-study/</guid>
       <description>Reinventing Global Consumer Insights for Fintech</description>
     </item>
-    
     <item>
       <title>Angular Provider</title>
       <link>https://blog.incubyte.co/blog/angular-provider/</link>
       <pubDate>Mon, 10 Oct 2022 12:50:00 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/angular-provider/</guid>
       <description>Angular Provider is like a command to Angular Dependency Injection system regarding how to get an object/instance for a particular dependency.</description>
     </item>
-    
     <item>
       <title>Learnings From Terraform</title>
       <link>https://blog.incubyte.co/blog/learnings-from-terraform/</link>
       <pubDate>Wed, 28 Sep 2022 10:52:06 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/learnings-from-terraform/</guid>
       <description>Preface Terraform is infrastructure as a code. I know it is a fancy word but here is the meaning.</description>
     </item>
-    
     <item>
       <title>Rails RESTful API, Outside in TDD</title>
       <link>https://blog.incubyte.co/blog/rails-restapi-tdd/</link>
       <pubDate>Sat, 02 Jul 2022 02:32:46 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/rails-restapi-tdd/</guid>
       <description>There is always a disciplined way to do things I was waiting for the coffee dispenser to finish filling up my cup and my mind started wandering.</description>
     </item>
-    
     <item>
       <title>How We Hire Software Craftspeople</title>
       <link>https://blog.incubyte.co/blog/software-crsftspeople-interview-process/</link>
       <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/software-crsftspeople-interview-process/</guid>
       <description>Incubyte is a combined effort of its team. Working here entails bringing your knowledge, curiosity and authenticity to the table.</description>
     </item>
-    
     <item>
       <title>Five Git Tricks To Make Crafting Software Easier</title>
       <link>https://blog.incubyte.co/blog/five-git-tricks/</link>
       <pubDate>Tue, 14 Jun 2022 00:10:46 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/five-git-tricks/</guid>
       <description>Git is the most widely used version control system in the world and it is something that every Software Craftsperson should master.</description>
     </item>
-    
     <item>
       <title>Estimating Software Development Time</title>
       <link>https://blog.incubyte.co/blog/estimation/</link>
       <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/estimation/</guid>
       <description>What is the need for an “Estimate”, because everything is bound to change rite in actuality.</description>
     </item>
-    
     <item>
       <title>Learnings From Clean Code</title>
       <link>https://blog.incubyte.co/blog/learnings-from-clean-code/</link>
       <pubDate>Fri, 29 Apr 2022 11:55:43 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/learnings-from-clean-code/</guid>
       <description>Learnings from Robert “Uncle Bob” Martin Robert Martin, fondly known as “Uncle Bob” in our community, is a software engineer and more famously an author and one of the founding fathers of Software Craftsmanship movement.</description>
     </item>
-    
     <item>
       <title>Why Code Coverage Should Not Be Your Measure of Reliability</title>
       <link>https://blog.incubyte.co/blog/code-coverage-and-reliability/</link>
       <pubDate>Thu, 10 Feb 2022 22:58:11 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/code-coverage-and-reliability/</guid>
       <description>What is code coverage? Code coverage is a measure (in percentage) of the degree to which the source code of a program is executed wh­en a particular test suite is run.</description>
     </item>
-    
     <item>
       <title>Incubyte DevOps Assessment</title>
       <link>https://blog.incubyte.co/blog/devops-assessment/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/devops-assessment/</guid>
       <description>Hello there, Welcome to the Incubyte DevOps Assessment!
 Through this assessment, we want to evaluate how well you can work with CI/CD tools across the board.</description>
     </item>
-    
     <item>
       <title>Your daily productivity test</title>
       <link>https://blog.incubyte.co/blog/your-daily-checklist/</link>
       <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/your-daily-checklist/</guid>
       <description>Are you a software developer? How can you be more effective on this journey of being a craftsperson?</description>
     </item>
-    
     <item>
       <title>Project Kickstart Checklist</title>
       <link>https://blog.incubyte.co/blog/kickstart-checklist/</link>
       <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/kickstart-checklist/</guid>
       <description>The Checklist Manifesto by Atul Gawande, walks us through the benefits of the humble checklist.</description>
     </item>
-    
     <item>
       <title>Understanding Technical debt!</title>
       <link>https://blog.incubyte.co/blog/tech-debt/</link>
       <pubDate>Mon, 18 Oct 2021 05:06:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/tech-debt/</guid>
       <description>The term &amp;ldquo;Technical Debt&amp;rdquo; was coined by Ward Cunningham (one of the authors of Agile Manifesto).</description>
     </item>
-    
     <item>
       <title>Pair Programming — How it works!</title>
       <link>https://blog.incubyte.co/blog/pair-programming/</link>
       <pubDate>Fri, 24 Sep 2021 05:06:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/pair-programming/</guid>
       <description>Have you ever come across a bug that had complex logic, and was incredibly hard to fix?</description>
     </item>
-    
     <item>
       <title>Incubyte TDD Assessment</title>
       <link>https://blog.incubyte.co/blog/tdd-assessment/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/tdd-assessment/</guid>
       <description>Hello there and welcome to the Incubyte TDD Kata!
 This assessment is the first step in our recruiting process and will be followed by two pair programming/discussion sessions.</description>
     </item>
-    
     <item>
       <title>Ideas for Successful Agile Teams</title>
       <link>https://blog.incubyte.co/blog/techniques-for-an-agile-team/</link>
       <pubDate>Thu, 19 Aug 2021 05:06:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/techniques-for-an-agile-team/</guid>
       <description>Agile is the most discussed software development methodology, and probably the most widely accepted as the way forward for modern software development teams.</description>
     </item>
-    
     <item>
       <title>One Year Of Pandemic &amp; One Year Of Incubyte</title>
       <link>https://blog.incubyte.co/blog/one-year-of-incubyte/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/one-year-of-incubyte/</guid>
       <description>It all started when— unbeknownst to the world, a series of lockdowns changed the way India Inc.</description>
     </item>
-    
     <item>
       <title>12 Books Developers Must Read</title>
       <link>https://blog.incubyte.co/blog/books-we-believe-should-be-on-your-bookshelf-and-read-them-too/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/books-we-believe-should-be-on-your-bookshelf-and-read-them-too/</guid>
       <description>Books are a massive source of knowledge. Before we list all the books here, we want to discuss why we think it&amp;rsquo;s essential for programmers to read them.</description>
     </item>
-    
     <item>
       <title>How to contribute to open-source project: A beginner&#39;s guide</title>
       <link>https://blog.incubyte.co/blog/how-to-contribute-to-open-source-project-a-beginners-guide/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/how-to-contribute-to-open-source-project-a-beginners-guide/</guid>
       <description>Are you a first-time contributor? Are you wondering how to start contributing to OSS?</description>
     </item>
-    
     <item>
       <title>Benefits and Challenges of Open-Source Development</title>
       <link>https://blog.incubyte.co/blog/benefits-and-challenges-of-open-source-development/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/benefits-and-challenges-of-open-source-development/</guid>
       <description>Open-source software (OSS) is the holy grail for developers. It is a hub of innovation through intense collaboration in this era of agile software development.</description>
     </item>
-    
     <item>
       <title>Do not assume that technical debt is a problem with your code</title>
       <link>https://blog.incubyte.co/blog/do-not-assume-that-technical-debt-is-a-problem-with-your-code/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/do-not-assume-that-technical-debt-is-a-problem-with-your-code/</guid>
       <description>Ever saw SonarQube laden with thousands of maintainability and security issues?</description>
     </item>
-    
     <item>
       <title>Not All Tests are the Same</title>
       <link>https://blog.incubyte.co/blog/notalltestsarethesame/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/notalltestsarethesame/</guid>
       <description>On multiple occasions, I have worked on projects where I learned how critical testing is and that not all tests are the same.</description>
     </item>
-    
     <item>
       <title>Remote Onboarding &amp; Immersion at Incubyte</title>
       <link>https://blog.incubyte.co/blog/remote-onboarding-and-immersion/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/remote-onboarding-and-immersion/</guid>
       <description>Employee onboarding is the important process of introducing newly hired employees to the organisation.</description>
     </item>
-    
     <item>
       <title>The Battle of Source Control</title>
       <link>https://blog.incubyte.co/blog/the-battle-of-source-control/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/the-battle-of-source-control/</guid>
       <description>git pull origin develop git checkout -b feature/shiny-new-branch It&amp;rsquo;s the start of a sprint, and you have picked up a new User Story.</description>
     </item>
-    
     <item>
       <title>Why Incubyte?</title>
       <link>https://blog.incubyte.co/blog/why-incubyte/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/why-incubyte/</guid>
       <description>Quality is usually an implicit requirement when it comes to developing software.</description>
     </item>
-    
     <item>
       <title>Do not Release Code Without Automated Tests</title>
       <link>https://blog.incubyte.co/blog/do-not-release-code-without-automated-tests/</link>
       <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/do-not-release-code-without-automated-tests/</guid>
       <description>Most projects that I see facing serious problems lack tests. You should write tests for two things</description>
     </item>
-    
     <item>
       <title>Do not Get so busy that you stop learning</title>
       <link>https://blog.incubyte.co/blog/do-not-get-so-busy-that-you-stop-learning/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/do-not-get-so-busy-that-you-stop-learning/</guid>
       <description>Learning is the most vital part of a software developer&amp;rsquo;s life.</description>
     </item>
-    
     <item>
       <title>Do not Optimize Prematurely</title>
       <link>https://blog.incubyte.co/blog/do-not-optimize-prematurely/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/do-not-optimize-prematurely/</guid>
       <description>Once again, you would think that the software development community has moved past this point, but I still get many teammates who want to &amp;ldquo;save memory&amp;rdquo; using HashMaps instead of POJOs.</description>
     </item>
-    
     <item>
       <title>Do not Show Separate Estimate for Unit Testing</title>
       <link>https://blog.incubyte.co/blog/do-not-show-separate-estimate-for-testing/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/do-not-show-separate-estimate-for-testing/</guid>
       <description>Once I was asked in an interview (I was the interviewer!</description>
     </item>
-    
     <item>
       <title>Security Practices for Postgres Web Application</title>
       <link>https://blog.incubyte.co/blog/data-security/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/data-security/</guid>
       <description>Data security is when protective measures are put in place to keep unauthorsized access out of computers, websites, and databases.</description>
     </item>
-    
     <item>
       <title>Working at Incubyte</title>
       <link>https://blog.incubyte.co/blog/working-at-incubyte/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/working-at-incubyte/</guid>
       <description>At Incubyte we strongly believe in finding the right talent, helping them to unleash their maximum capacity, and then getting out of their way to let them do what they do best.</description>
     </item>
-    
     <item>
       <title>Do not Copy and paste code to minimize the impact:</title>
       <link>https://blog.incubyte.co/blog/do-not-copy-and-paste-code/</link>
       <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/do-not-copy-and-paste-code/</guid>
       <description>Have you ever seen code in your module, which was so complex that you decided to copy and paste it entirely rather than changing it to accommodate your requirement?</description>
     </item>
-    
     <item>
       <title>Do not Fall for faux agile</title>
       <link>https://blog.incubyte.co/blog/do-not-fall-for-faux-agile/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/do-not-fall-for-faux-agile/</guid>
       <description>Enough ink is already spilled on this topic, nevertheless talking about it once again may not hurt.</description>
     </item>
-    
     <item>
       <title>Feedback &amp; Rapid Prototyping</title>
       <link>https://blog.incubyte.co/blog/feedback/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/feedback/</guid>
       <description>&amp;ldquo;No fixed direction remains valid for long&amp;rdquo; - Extreme Programming Explained by Kent Beck</description>
     </item>
-    
     <item>
       <title>Planning &amp; Communication</title>
       <link>https://blog.incubyte.co/blog/planning/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/planning/</guid>
       <description>One of our primary process goals is to make frequent, small releases of our working software.</description>
     </item>
-    
     <item>
       <title>Technology Platforms &amp; Business Economics</title>
       <link>https://blog.incubyte.co/blog/technology-platforms-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/technology-platforms-2/</guid>
       <description>Early in a project, we have to decide which platforms we&amp;rsquo;ll use.</description>
     </item>
-    
   </channel>
 </rss>

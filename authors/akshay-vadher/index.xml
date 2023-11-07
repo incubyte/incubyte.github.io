@@ -7,33 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 27 Sep 2023 15:48:02 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/authors/akshay-vadher/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Sep 2023 15:48:02 +0530</lastBuildDate>
+    <atom:link href="https://blog.incubyte.co/authors/akshay-vadher/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Importance of Committing Lock Files in Dependency Management</title>
       <link>https://blog.incubyte.co/blog/should-you-commit-lock-file/</link>
       <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/should-you-commit-lock-file/</guid>
       <description>In software development, dependency management is a critical aspect that directly impacts the stability and reproducibility of your projects.</description>
     </item>
-    
     <item>
       <title>Learnings From Terraform</title>
       <link>https://blog.incubyte.co/blog/learnings-from-terraform/</link>
       <pubDate>Wed, 28 Sep 2022 10:52:06 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/learnings-from-terraform/</guid>
       <description>Preface Terraform is infrastructure as a code. I know it is a fancy word but here is the meaning.</description>
     </item>
-    
     <item>
       <title>Why Code Coverage Should Not Be Your Measure of Reliability</title>
       <link>https://blog.incubyte.co/blog/code-coverage-and-reliability/</link>
       <pubDate>Thu, 10 Feb 2022 22:58:11 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/code-coverage-and-reliability/</guid>
       <description>What is code coverage? Code coverage is a measure (in percentage) of the degree to which the source code of a program is executed wh­en a particular test suite is run.</description>
     </item>
-    
   </channel>
 </rss>

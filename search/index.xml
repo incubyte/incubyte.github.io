@@ -6,6 +6,7 @@
     <description>Recent content on Incubyte Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2022 Incubyte. All rights reserved.</copyright><atom:link href="https://blog.incubyte.co/search/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2022 Incubyte. All rights reserved.</copyright>
+    <atom:link href="https://blog.incubyte.co/search/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

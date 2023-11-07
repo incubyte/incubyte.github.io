@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 10 Feb 2022 22:58:11 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/tags/measure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Feb 2022 22:58:11 +0530</lastBuildDate>
+    <atom:link href="https://blog.incubyte.co/tags/measure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Code Coverage Should Not Be Your Measure of Reliability</title>
       <link>https://blog.incubyte.co/blog/code-coverage-and-reliability/</link>
       <pubDate>Thu, 10 Feb 2022 22:58:11 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/code-coverage-and-reliability/</guid>
       <description>What is code coverage? Code coverage is a measure (in percentage) of the degree to which the source code of a program is executed wh­en a particular test suite is run.</description>
     </item>
-    
   </channel>
 </rss>

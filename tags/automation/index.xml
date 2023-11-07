@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 28 Sep 2022 10:52:06 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Sep 2022 10:52:06 +0530</lastBuildDate>
+    <atom:link href="https://blog.incubyte.co/tags/automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learnings From Terraform</title>
       <link>https://blog.incubyte.co/blog/learnings-from-terraform/</link>
       <pubDate>Wed, 28 Sep 2022 10:52:06 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/learnings-from-terraform/</guid>
       <description>Preface Terraform is infrastructure as a code. I know it is a fancy word but here is the meaning.</description>
     </item>
-    
   </channel>
 </rss>

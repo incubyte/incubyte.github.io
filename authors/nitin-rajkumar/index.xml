@@ -7,33 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 17 Oct 2023 18:29:54 +0530</lastBuildDate><atom:link href="https://blog.incubyte.co/authors/nitin-rajkumar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Oct 2023 18:29:54 +0530</lastBuildDate>
+    <atom:link href="https://blog.incubyte.co/authors/nitin-rajkumar/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Monkey Patching</title>
+      <title>Monkey Patching in Ruby</title>
       <link>https://blog.incubyte.co/blog/monkey-patch/</link>
       <pubDate>Tue, 17 Oct 2023 18:29:54 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/monkey-patch/</guid>
-      <description>Ruby, being a dynamic programming language provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods.</description>
+      <description>Ruby, as you all know, is a dynamic programming language that provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods.</description>
     </item>
-    
     <item>
       <title>Origins of Graphql</title>
       <link>https://blog.incubyte.co/blog/origin-of-graphql/</link>
       <pubDate>Thu, 23 Feb 2023 11:33:15 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/origin-of-graphql/</guid>
       <description>Königsberg Bridge Problem — The Big Bang of GraphQL “Starting from any of the four land areas A, B, C, D is it possible to cross each of the seven bridges exactly once and come back to the starting point without swimming across the river?</description>
     </item>
-    
     <item>
       <title>Rails RESTful API, Outside in TDD</title>
       <link>https://blog.incubyte.co/blog/rails-restapi-tdd/</link>
       <pubDate>Sat, 02 Jul 2022 02:32:46 +0530</pubDate>
-      
       <guid>https://blog.incubyte.co/blog/rails-restapi-tdd/</guid>
       <description>There is always a disciplined way to do things I was waiting for the coffee dispenser to finish filling up my cup and my mind started wandering.</description>
     </item>
-    
   </channel>
 </rss>
