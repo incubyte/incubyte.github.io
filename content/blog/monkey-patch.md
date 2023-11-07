@@ -33,7 +33,7 @@ sound = Sound.new
 sound.car #=> honnnnnk...
 sound.bike #=> peep-peep
 ```
-In the above code snippet, we reopen Sound class to add a new method. This way we can overrise the exisitng method of the original class.
+In the above code snippet, we reopen Sound class to add a new method. This way we can override the existing method of the original class.
 
 #### When to Use Monkey Patching
 Usually, programmers implement this technique when they need to add a quick fix. This could be adding functionality to existing code or replacing code for testing when modifying source code is impractical.
