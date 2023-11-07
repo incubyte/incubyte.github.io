@@ -1,8 +1,8 @@
 +++
-title = "Applying Systems Thinking in Software Architecture"
-slug = "applying-systems-thinking-in-software-architecture"
+title = "Introduction to Systems Thinking and Escaping Common System Traps"
+slug = "introduction-to-systems-thinking-and-escaping-common-system-traps"
 date = 2023-11-06T15:43:57+05:30
-image = "/images/2023/systems-thinking-in-software-architecture/banner.jpg"
+image = "/images/2023/introduction-to-systems-thinking-and-escaping-common-system-traps/banner.jpg"
 draft = true
 authors = ["Aditya Sapate"]
 description = ""
@@ -16,7 +16,7 @@ type = ""
 
 Everything in software architecture is a trade-off, so the famous answer to every decision is “It depends”. It depends on the engineering practices and processes, the organization's culture, business drivers, the developer's skill sets and many other factors.
 
-{{<figure src="/images/2023/systems-thinking-in-software-architecture/architecture.jpg">}}
+{{<figure src="/images/2023/introduction-to-systems-thinking-and-escaping-common-system-traps/architecture.jpg">}}
 
 It is important to understand these systems to make the most effective interventions. How? With Systems Thinking.
 
@@ -35,13 +35,13 @@ Systems Thinking is a discipline for seeing wholes, recognizing patterns and int
 Systems Thinkers see the world of variables (quantifiable elements) and feedback loops: regulating mechanisms which drain, increase or balance these variables.
 
 <center>
-<figure> <img src="/images/2023/systems-thinking-in-software-architecture/balancing_loop.jpg"> 
+<figure> <img src="/images/2023/introduction-to-systems-thinking-and-escaping-common-system-traps/balancing_loop.jpg"> 
 <figcaption> A causal loop diagram of coffee cup cooling, where a balancing loop is trying to bring the discrepancy between coffee’s temperature and room temperature to zero.. </figcaption> 
 </figure>
 </center>
 
 <center>
-<figure> <img src="/images/2023/systems-thinking-in-software-architecture/reinforcing_loop.jpg"> 
+<figure> <img src="/images/2023/introduction-to-systems-thinking-and-escaping-common-system-traps/reinforcing_loop.jpg"> 
 <figcaption> A causal loop diagram of Interest bearing bank account, where a reinforcing loop is in place which enables the growth of the money in the bank account as a constant fraction of itself. </figcaption>
 </figure>
 </center>
@@ -63,7 +63,7 @@ In a multinational enterprise
 
 This is a common system trap called “Policy Resistance” occurs when the actors within the system “resist” the rules or laws imposed on them. The goals of the policy do not align with the goals of the actors.
 
- <figure> <img src="/images/2023/systems-thinking-in-software-architecture/policy_resistance.jpg"> <figcaption> To achieve the desired consistency, the architect has introduced a policy to allocate more time to architecture reviews. However, developers are not pleased with this policy because it is adversely affecting delivery speed. In this system, when architects introduce new policies aimed at ensuring consistency and they prove to be effective, it tends to divert developers from their primary goal of speedy delivery. </figcaption> </figure>
+ <figure> <img src="/images/2023/introduction-to-systems-thinking-and-escaping-common-system-traps/policy_resistance.jpg"> <figcaption> To achieve the desired consistency, the architect has introduced a policy to allocate more time to architecture reviews. However, developers are not pleased with this policy because it is adversely affecting delivery speed. In this system, when architects introduce new policies aimed at ensuring consistency and they prove to be effective, it tends to divert developers from their primary goal of speedy delivery. </figcaption> </figure>
 
 ### **The way out of the Policy resistance trap by using leverage points**
 
