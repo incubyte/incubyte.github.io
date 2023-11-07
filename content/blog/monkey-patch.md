@@ -40,7 +40,7 @@ Usually, programmers implement this technique when they need to add a quick fix.
 
 1. When you encounter a bug in a gem or library without an available patch or fix, you can temporarily address it within your own codebase using monkey patching.
 
-2. When a library lacks a specific method you need, you can add the missing functionality using a monkey patch
+2. When a library lacks a specific method you need, you can add the missing functionality using a monkey patch.
 
 #### Pitfalls of Using Monkey Patch
 
@@ -53,7 +53,7 @@ class String
   end
 end
 ```
-In the above example, we modified the built-in String class by  redefining the behavior of its `upcase` method to return nothing. This alteration has unintended consequences, as it will affect the outcome whenever the `upcase` method is invoked.
+In the above example, we modify the built-in String class by  redefining the behavior of its `upcase` method to return nothing. This alteration has unintended consequences, as it will affect the outcome whenever the `upcase` method is invoked.
 
 While monkey patching offers flexibility, it also introduces potential drawbacks:
 
