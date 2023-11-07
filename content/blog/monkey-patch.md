@@ -13,8 +13,6 @@ type = ""
 
 Ruby, as you all know, is a dynamic programming language that provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods. This is what we refer to as 'Monkey Patching'.
 
-Monkey patching allows developers to customize existing code without modifying its original source.
-
 #### How to Monkey Patch
 
 ```ruby
