@@ -1,8 +1,8 @@
 +++
 title = "Using dup vs deep dup in Ruby on Rails"
 slug = "ruby-on-rails-dup-vs-deep-dup"
-date = 2023-06-13T19:20:29+05:30
-image = "/images/2023/06/Ruby_On_Rails_Logo.png"
+date = 2023-11-09T18:20:29+05:30
+image = "/images/2023/11/copying.png"
 draft = false
 authors = ["Syed Mohd Mehndi", "Bhavesh Choudhary"]
 description = "Using dup vs deep_dup in Ruby on Rails"
@@ -11,13 +11,10 @@ categories = ["Software Craftsmanship", "Ruby on Rails", "Dup", "Deep Dup"]
 type = ""
 +++
 
-We often use `.dup` in Ruby on Rails when we want to modify a copy of an object without modifying the original object
+In Ruby on Rails, the `.dup` method is commonly used to create a duplicate of an object, allowing modifications without affecting the original. However, it's crucial to understand its limitations, especially when dealing with nested structures.
 
-Usually everything works as expected
-
-But sometimes using `.dup` can land you in trouble, if your object contains nested values
-
-Lets look at the below code to understand it better
+## The Shallow Copy Pitfall
+Consider the following scenario with a user object:
 
 ```ruby
 user = { name: 'Hello', email: 'hello@gmail.com', address: { city: 'Delhi' } }
@@ -31,15 +28,9 @@ puts user_dup[:email]
 
 puts user[:email]
 # hello@gmail.com
-
 ```
 
-
-Everything works as expected
-
-Original object still has email = 'hello@gmail.com' and the duplicate object has email = 'world@gmail.com'
-
-Lets proceed to next step and try to do the same thing for city which is nested under address
+Here, modifying the duplicated object (`user_dup`) doesn't impact the original object (`user`), and everything seems fine. However, things take an unexpected turn when dealing with nested attributes:
 
 ```ruby
 user_dup[:address][:city] = 'Mumbai'
@@ -49,39 +40,12 @@ puts user_dup[:address][:city]
 
 puts user[:address][:city]
 # Mumbai
-
 ```
 
-What happened!
+Surprisingly, changing the city for `user_dup` also alters the city for the original `user` object. The culprit here is the Shallow Copy nature of `.dup`. While it creates a new object with a different `object_id`, the nested attributes still reference the original object. This leads to unintended side effects when modifying nested values.
 
-Something is not right
-
-We tried modifying the `city` field for `user_dup` object but ended up modifying `city` for the original user object too
-
-What went wrong here?
-
-The reason for this behaviour is **Shallow Copy**
-
-When we call the `.dup` method, it creates a new object with a different `object_id` but the nested attributes still refer to original object
-
-```ruby
-user.object_id
-# 101680
-user_dup.object_id
-# 101780
-
-user[:name].object_id
-# 101760
-user_dup[:name].object_id
-# 101760
-
-```
-
-Due to this if we try to update a value in a nested object, then because of reference sharing the data gets updated in the parent object as well
-
-To avoid this we should use `deep_dup` instead of `dup` if our object contains deep nesting similar to our example where `city` is nested inside `address`
-
-Lets test the same situation now with deep_dup
+## The Solution:
+To avoid such pitfalls, it's recommended to use the `deep_dup` method instead of `dup` when dealing with objects containing deep nesting. Let's revisit the previous example with `deep_dup`:
 
 ```ruby
 user = { name: 'Hello', email: 'hello@gmail.com', address: { city: 'Delhi' } }
@@ -95,7 +59,9 @@ puts user_deep_dup[:address][:city]
 
 puts user[:address][:city]
 # Delhi
-
 ```
 
-Everything works as expected
+By using `deep_dup`, we ensure that the duplicated object is a deep copy, preventing unintended modifications to nested attributes. This practice is particularly crucial when dealing with complex data structures in Ruby on Rails applications.
+
+## Conclusion
+Understanding the distinction between `dup` and `deep_dup` is vital for avoiding unexpected behaviors, especially when working with nested objects in Ruby on Rails. While `dup` creates a shallow copy, retaining references to nested attributes, `deep_dup` ensures a complete duplication, safeguarding against unintended side effects. Choosing the appropriate method based on the depth of your data structure is key to maintaining the integrity of your objects.
