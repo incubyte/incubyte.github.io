@@ -1,7 +1,7 @@
 +++
 authors = ["Pranita Aitwadkar"]
 categories = ["Testing", "Quality", "Automation", "Software Craftsmanship"]
-date = 2023-06-30T00:00:00Z
+date = 2023-11-09T00:00:00Z
 description = ""
 draft = false
 image = "/images/2021/06/Picture1.jpg"
@@ -10,38 +10,51 @@ tags = ["Testing", "Automation", "Software Craftsmanship"]
 title = "Unleashing the Power of Cypress: A Comprehensive Guide to Web Testing"
 +++
 
-In the fast-paced world of web development, ensuring the quality of your applications is paramount. One powerful tool that has gained significant popularity in recent years is Cypress. Cypress is an end-to-end testing framework that empowers developers and QA engineers to write reliable, efficient, and maintainable tests. In this blog, we will explore the ins and outs of Cypress and discover how it can revolutionize your web testing workflow.
+In the fast-paced world of web development, ensuring the quality of your applications is paramount.
+One powerful tool that has gained significant popularity in recent years is Cypress.
+Cypress is an end-to-end testing framework that empowers developers and QA engineers to write reliable, efficient, and maintainable tests.
+In this blog, we will explore the ins and outs of Cypress and discover how it can revolutionize your web testing workflow.
 
 ## What is Cypress?
 
 Cypress is a automation testing tool for web applications.
-It runs on Windows, Linux and macOS. Cypress app is open-source software released under the MIT License while the Cypress Cloud is a web application.
+It runs on Windows, Linux and macOS.
+Cypress app is open-source software released under the MIT License while the Cypress Cloud is a web application.
 
 ## Installation and Setup Instructions for Cypress:
 
-1. Prerequisites: Ensure that you have Node.js installed on your machine. You can download and install it from the [official Node.js website](https://nodejs.org).
+1. **Prerequisites:** Ensure that you have Node.js installed on your machine.
+You can download and install it from the [Node.js website](https://nodejs.org).
+
 2. Create a new project: Create a new directory for your project and navigate to it in your terminal or command prompt.
+
+```bash
+mkdir -p cypress-starter
+cd cypress-starter
+```
+
 3. Initialize npm: Run the following command to initialize a new npm project:
 
-```
+```bash
 npm init -y
 ```
 
 4. Install Cypress: Run the following command to install Cypress as a development dependency in your project:
 
-```
+```bash
 npm install cypress --save-dev
 ```
 
-5. Verify installation: After the installation is complete, Cypress should be available in your project's node_modules directory. You can verify it by running the Cypress command:
+5. Verify installation: After the installation is complete, Cypress should be available in your project's node_modules directory.
+You can verify it by running the Cypress command:
 
-```
+```bash
 npx cypress --version
 ```
 
 6. Open Cypress: To open the Cypress Test Runner, run the following command:
 
-```
+```bash
 npx cypress open
 ```
 
@@ -49,11 +62,14 @@ This command will open the Cypress Test Runner, which provides an interactive in
 
 ## Creating Your First Cypress Test:
 
-1. With the Cypress Test Runner open, you'll see a list of example tests provided by Cypress. You can choose to keep them or remove them.
+1. With the Cypress Test Runner open, you'll see a list of example tests provided by Cypress.
+You can choose to keep them or remove them.
 
-2. Create a new test file: To create a new test, click on the "New File" button in the Cypress Test Runner. By default, the test files are created in the cypress/e2e directory.
+2. Create a new test file: To create a new test, click on the "New File" button in the Cypress Test Runner.
+By default, the test files are created in the cypress/e2e directory.
 
-3. Write a test: In your new test file, you can write your first Cypress test using the Cypress API. Here's a simple example that tests the title of a web page:
+3. Write a test: In your new test file, you can write your first Cypress test using the Cypress API.
+Here's a simple example that tests the title of a web page:
 
 ```javascript
 describe('My First Test', () => {
@@ -64,33 +80,65 @@ describe('My First Test', () => {
 });
 ```
 
-4. Save the test file: Save the test file with a `.cy.js` extension. For example, you can save it as `homepage.cy.js`.
+4. Save the test file: Save the test file with a `.cy.js` extension.
+For example, you can save it as `homepage.cy.js`.
 
-5.Run the test: In the Cypress Test Runner, click on your test file to run it. You should see a browser window open and the test being executed. You can see the test commands and assertions in the Cypress Test Runner's command log.
+5. Run the test: In the Cypress Test Runner, click on your test file to run it.
+You should see a browser window open and the test being executed.
+You can see the test commands and assertions in the Cypress Test Runner's command log.
 
-**Feature of Cypress:**
+### Feature of Cypress:
 
-1. Time Travel: Cypress has a cool feature called time-travel debugging. Basically, it allows you to watch your tests run step by step, pause whenever you want, and check out what's happening in the application at that moment. It's like having a slow-motion button for your tests!
+#### Time Travel:
 
-2. Automatic Waiting and Retrying: Cypress is a testing tool that does something pretty cool. It automatically waits for things to finish before moving on to the next step in your test. What's great about this is that it's really smart. If a command or assertion takes longer than expected, Cypress will keep retrying it until it succeeds or until it reaches a timeout. So you don't have to worry about writing explicit waits or adding delays in your tests.
+Cypress has a cool feature called time-travel debugging.
+Basically, it allows you to watch your tests run step by step, pause whenever you want, and check out what's happening in the application at that moment.
+It's like having a slow-motion button for your tests!
 
-3. Screenshots and Video Recording: Cypress has a really handy feature that captures screenshots and records videos while your tests are running. This is super useful because it helps you visually diagnose any failures that might occur during the test.
+#### Automatic Waiting and Retrying:
 
-4. Headless and Interactive Modes: Cypress gives you the freedom to run tests in different modes: headless mode and interactive mode.
+Cypress is a testing tool that does something pretty cool.
+It automatically waits for things to finish before moving on to the next step in your test.
+What's great about this is that it's really smart.
+If a command or assertion takes longer than expected, Cypress will keep retrying it until it succeeds or until it reaches a timeout.
+So you don't have to worry about writing explicit waits or adding delays in your tests.
 
-5. Customization and Extensibility: Cypress has a really cool feature called the plugin architecture. It's like a toolbox that allows you to customize and expand the capabilities of Cypress to fit your specific needs. With this plugin architecture, you can create your own custom commands.
+#### Screenshots and Video Recording:
 
-6. DOM Manipulation and Control: Cypress makes it really easy to work with the DOM (Document Object Model) directly. The DOM is like the blueprint of a webpage, and Cypress gives you the power to interact with it effortlessly.You can find specific elements on the page by using selectors. It's like having a super-smart search tool that helps you locate exactly what you're looking for. Once you've found an element, you can do all sorts of things with it.
+Cypress has a really handy feature that captures screenshots and records videos while your tests are running.
+This is super useful because it helps you visually diagnose any failures that might occur during the test.
 
-7. Cross Browser Testing: We can run tests with Firefox, Chrome, Edge & Electron.
+#### Headless and Interactive Modes:
 
-8. Debugging: When a test fails, you can simply open the developer tools & explore the console, network, request & other useful information.
+Cypress gives you the freedom to run tests in different modes: headless mode and interactive mode.
 
-**Conclusion:**
+#### Customization and Extensibility:
+
+Cypress has a really cool feature called the plugin architecture.
+It's like a toolbox that allows you to customize and expand the capabilities of Cypress to fit your specific needs.
+With this plugin architecture, you can create your own custom commands.
+
+#### DOM Manipulation and Control:
+
+Cypress makes it really easy to work with the DOM (Document Object Model) directly.
+The DOM is like the blueprint of a webpage, and Cypress gives you the power to interact with it effortlessly.You can find specific elements on the page by using selectors.
+It's like having a super-smart search tool that helps you locate exactly what you're looking for.
+Once you've found an element, you can do all sorts of things with it.
+
+#### Cross Browser Testing:
+
+We can run tests with Firefox, Chrome, Edge & Electron.
+
+#### Debugging:
+
+When a test fails, you can simply open the developer tools & explore the console, network, request & other useful information.
+
+### Conclusion:
+
 Cypress is undoubtedly a game-changer in the world of web testing, providing developers and QA engineers with a powerful and intuitive toolset.
 With its extensive features, straightforward syntax, and seamless integration with modern development workflows, Cypress is a valuable asset for any web testing endeavor.
 
 By following the guidance and best practices outlined in this guide, you'll be equipped to leverage Cypress to its fullest potential, delivering high-quality web applications with confidence.
 Get ready to elevate your web testing game with Cypress!
 
-**Reference from: (https://www.testrigtechnologies.com/)**
+For more details check: [Cypress Docs](https://docs.cypress.io/guides/getting-started/installing-cypress)
