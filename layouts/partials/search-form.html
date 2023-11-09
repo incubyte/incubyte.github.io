@@ -1,0 +1,39 @@
+<form
+  class="d-inline-flex flex-row ml-2 nav-search-form"
+  id="search"
+  action='{{ with .GetPage "/search" }}{{.Permalink}}{{end}}'
+  method="get"
+>
+  <div class="form-outline mr-2">
+    <input
+      type="text"
+      id="search-input"
+      name="query"
+      placeholder="Search"
+      class="form-control rounded nav-search-input"
+      oninput="enableButton()"
+    />
+  </div>
+  <button
+    type="submit"
+    id="search-button"
+    class="btn-primary rounded w-25 border-0 nav-search-button"
+    value="search"
+    disabled
+  >
+    <i class="fas fa-search"></i>
+  </button>
+</form>
+
+<script>
+  function enableButton() {
+    const searchInput = document.getElementById("search-input");
+    const searchButton = document.getElementById("search-button");
+
+    if (searchInput.value.length > 0) {
+      searchButton.removeAttribute("disabled");
+    } else {
+      searchButton.setAttribute("disabled", "true");
+    }
+  }
+</script>

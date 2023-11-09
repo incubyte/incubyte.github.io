@@ -1,13 +1,8 @@
 {{ define "main" }}
 
-{{ if (eq .Params.slug "global-case-study") }}
-{{ partial "global-case-study.html" . }}
-
-{{ else if (eq .Params.slug "monnai-case-study") }}
-{{ partial "monnai-case-study.html" . }}
-
-{{ else if (eq .Params.slug "finance-case-study") }}
-{{ partial "finance-case-study.html" . }}
+{{ if (strings.Contains .Params.slug "case-study") }}
+    {{ partial "case-study-styles.html" . }}
+    {{ partial (printf "%s.html" .Params.slug) . }}
 
 {{ else if or (or (eq .Section "post") (eq .Section "blog")) (or (eq .Section "categories") (eq .Section "tags") )}}
 
