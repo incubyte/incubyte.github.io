@@ -3,7 +3,7 @@ authors = ["Sapan Parikh"]
 date = 0001-01-01T00:00:00Z
 description = ""
 draft = true
-image = "https://images.unsplash.com/photo-1536094919620-d948a02d5085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDZ8fGRlYWR8ZW58MHx8fHwxNjE4NjQ1NzMy&ixlib=rb-1.2.1&q=80&w=2000"
+image = "/images/2023/dead-code-header.jpg"
 slug = "dead-code"
 title = "Dead code"
 

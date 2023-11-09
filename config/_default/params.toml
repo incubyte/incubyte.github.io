@@ -20,7 +20,7 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation buttons
 [navigation_button]
 enable = true
-label = "LET'S TALK!"
+label = "Let's Talk"
 link = "https://www.incubyte.co/lets-get-started"
 
 
