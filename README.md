@@ -38,6 +38,8 @@ hugo new blog/article-name.md`
 ```
 If you are adding images make sure they are optimized, we suggest something like `https://squoosh.app/`, images are stored in `static/images`
 
+When done with changes run `prettier -w file_path` for formatting
+
 Commit in a new branch and create PR against `main` branch
 
 [Contributing Guidelines](./CONTRIBUTING.md)
