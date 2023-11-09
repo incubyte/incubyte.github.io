@@ -11,7 +11,7 @@ categories = ["Software Craftsmanship"]
 type = ""
 +++
 
-> There is no right or wrong answer in architecture - only trade offs.\
+> There is no right or wrong answer in architecture — only trade offs. \
 > ---<cite>Fundamentals of Software Architecture By Mark Richards, Neal Ford. </cite>
 
 Everything in software architecture is a trade-off, so the famous answer to every decision is “It depends”. It depends on the engineering practices and processes, the organization's culture, business drivers, the developer's skill sets and many other factors.
@@ -32,16 +32,16 @@ To overcome this trap, leverage points such as improving information flow, chang
 
 Systems Thinking is a discipline for seeing wholes, recognizing patterns and interrelationships, and learning how to influence those interrelationships in more effective, efficient ways.
 
-Systems Thinkers see the world of variables (quantifiable elements) and feedback loops: regulating mechanisms which drain, increase or balance these variables.
+Systems Thinkers see the world of variables (quantifiable elements) and feedback loops: regulating mechanisms, which drain, increase or balance these variables.
 
 <center>
-<figure> <img src="/images/2023/introduction-to-systems-thinking-and-escaping-common-system-traps/balancing_loop.jpg"> 
-<figcaption> A causal loop diagram of coffee cup cooling, where a balancing loop is trying to bring the discrepancy between coffee’s temperature and room temperature to zero.. </figcaption> 
+<figure> <img src="/images/2023/introduction-to-systems-thinking-and-escaping-common-system-traps/balancing_loop.jpg">
+<figcaption> A causal loop diagram of coffee cup cooling, where a balancing loop is trying to bring the discrepancy between coffee’s temperature and room temperature to zero. </figcaption>
 </figure>
 </center>
 
 <center>
-<figure> <img src="/images/2023/introduction-to-systems-thinking-and-escaping-common-system-traps/reinforcing_loop.jpg"> 
+<figure> <img src="/images/2023/introduction-to-systems-thinking-and-escaping-common-system-traps/reinforcing_loop.jpg">
 <figcaption> A causal loop diagram of Interest bearing bank account, where a reinforcing loop is in place which enables the growth of the money in the bank account as a constant fraction of itself. </figcaption>
 </figure>
 </center>
@@ -54,12 +54,12 @@ In this blog, we will explore a common archetype in a system and pinpoint strate
 
 In a multinational enterprise
 
-- For consistency, the enterprise architect has issued a standard to use DDD for all development.
-- The development team is slow in adopting, complaining that this is a bottleneck that reduces delivery speed.
-- The architect tries to fix it with.
-  - Automated compliance checking.
-  - Spend more time on architecture review.
-  - Ask everyone to follow design specifications.
+-   For consistency, the enterprise architect has issued a standard to use DDD for all development.
+-   The development team is slow in adopting, complaining that this is a bottleneck that reduces delivery speed.
+-   The architect tries to fix it with.
+    -   Automated compliance checking.
+    -   Spend more time on architecture review.
+    -   Ask everyone to follow design specifications.
 
 This is a common system trap called “Policy Resistance” occurs when the actors within the system “resist” the rules or laws imposed on them. The goals of the policy do not align with the goals of the actors.
 
@@ -75,10 +75,10 @@ This is a common system trap called “Policy Resistance” occurs when the acto
 
 ## Where to apply Systems Thinking?
 
-- Not everywhere!
-- Issues that won’t go away
-- Issues that get worse the more you try to fix them
-- “Paradigm shifting” changes in technology or approach
+-   Not everywhere!
+-   Issues that won’t go away
+-   Issues that get worse the more you try to fix them
+-   “Paradigm shifting” changes in technology or approach
 
 ## Key Takeaway
 
@@ -86,6 +86,6 @@ By identifying patterns and problem-generating structures, we can strategically 
 
 ## Follow the below resources to learn more about Systems Thinking and Resources
 
-- Thinking in Systems by Donella H. Meadows
-- [Leverage Points](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/)
-- [Keynote: Systems Thinking — Kent Beck & Jessica Kerr](https://www.youtube.com/watch?v=z8bL_V9in9o&t=854)
+-   Thinking in Systems by Donella H. Meadows
+-   [Leverage Points](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/)
+-   [Keynote: Systems Thinking — Kent Beck & Jessica Kerr](https://www.youtube.com/watch?v=z8bL_V9in9o&t=854)
