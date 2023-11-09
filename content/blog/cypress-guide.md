@@ -22,20 +22,25 @@ It runs on Windows, Linux and macOS. Cypress app is open-source software release
 1. Prerequisites: Ensure that you have Node.js installed on your machine. You can download and install it from the [official Node.js website](https://nodejs.org).
 2. Create a new project: Create a new directory for your project and navigate to it in your terminal or command prompt.
 3. Initialize npm: Run the following command to initialize a new npm project:
+
 ```
 npm init -y
 ```
+
 4. Install Cypress: Run the following command to install Cypress as a development dependency in your project:
+
 ```
 npm install cypress --save-dev
 ```
 
 5. Verify installation: After the installation is complete, Cypress should be available in your project's node_modules directory. You can verify it by running the Cypress command:
+
 ```
 npx cypress --version
 ```
 
 6. Open Cypress: To open the Cypress Test Runner, run the following command:
+
 ```
 npx cypress open
 ```
@@ -49,17 +54,19 @@ This command will open the Cypress Test Runner, which provides an interactive in
 2. Create a new test file: To create a new test, click on the "New File" button in the Cypress Test Runner. By default, the test files are created in the cypress/e2e directory.
 
 3. Write a test: In your new test file, you can write your first Cypress test using the Cypress API. Here's a simple example that tests the title of a web page:
+
 ```javascript
-describe('My First Test',()=>{
-    it('Visits the  homepage and checks the title', () =>{
+describe('My First Test', () => {
+    it('Visits the  homepage and checks the title', () => {
         cy.visit('https://example.com');
         cy.title().should('contain', 'Example Domain');
     });
 });
 ```
+
 4. Save the test file: Save the test file with a `.cy.js` extension. For example, you can save it as `homepage.cy.js`.
 
-5.Run the test:  In the Cypress Test Runner, click on your test file to run it. You should see a browser window open and the test being executed. You can see the test commands and assertions in the Cypress Test Runner's command log.
+5.Run the test: In the Cypress Test Runner, click on your test file to run it. You should see a browser window open and the test being executed. You can see the test commands and assertions in the Cypress Test Runner's command log.
 
 **Feature of Cypress:**
 
@@ -77,8 +84,7 @@ describe('My First Test',()=>{
 
 7. Cross Browser Testing: We can run tests with Firefox, Chrome, Edge & Electron.
 
-8. Debugging: When a test fails, you can  simply open the developer tools & explore the console, network, request & other useful information.
-
+8. Debugging: When a test fails, you can simply open the developer tools & explore the console, network, request & other useful information.
 
 **Conclusion:**
 Cypress is undoubtedly a game-changer in the world of web testing, providing developers and QA engineers with a powerful and intuitive toolset.
@@ -88,4 +94,3 @@ By following the guidance and best practices outlined in this guide, you'll be e
 Get ready to elevate your web testing game with Cypress!
 
 **Reference from: (https://www.testrigtechnologies.com/)**
-
