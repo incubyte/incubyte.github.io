@@ -1,19 +1,19 @@
 +++
-title = "Monkey Patching"
+title = "Monkey Patching in Ruby"
 slug = "monkey-patch"
 date = 2023-10-17T18:29:54+05:30
-image = "/images/2023/10/monkeypatch.jpg"
+image = "/images/2023/monkeypatch.png"
 draft = false
 authors = ["Nitin Rajkumar"]
-description = "Monkey patching and it's sideeffects in Ruby"
-tags = ["Software Craftsmanship", "GraphQL"]
+description = "Monkey patching and it's side-effects in Ruby"
+tags = ["Software Craftsmanship", "Ruby"]
 categories = ["Software Craftsmanship", "Ruby", "Monkey Patching"]
 type = ""
 +++
 
-Ruby, being a dynamic programming language provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods. 
+Ruby, as you all know, is a dynamic programming language that provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods. This is what we refer to as 'Monkey Patching'.
 
-#### How to monkey patch
+#### How to Monkey Patch
 
 ```ruby
 class Sound
@@ -31,16 +31,18 @@ sound = Sound.new
 sound.car #=> honnnnnk...
 sound.bike #=> peep-peep
 ```
-The above is a simple example where we reopened Sound class and added a new method. It provides many other opportunities including overriding the method of the original class.
+In the above code snippet, we reopen Sound class to add a new method. This way we can override the existing method of the original class.
 
-#### When does one think of using it
-Usually, when the programmer wants to add a quick fix.
+#### When to Use Monkey Patching
+Usually, programmers implement this technique when they need to add a quick fix. This could be adding functionality to existing code or replacing code for testing when modifying source code is impractical.
 
-1. When the gem or library being used has a bug and there is no patch or fix available from the library yet, one may wish to fix it in their own codebase.
+1. When you encounter a bug in a gem or library without an available patch or fix, you can temporarily address it within your own codebase using monkey patching.
 
-2. When a certain method, which you expect the library to have, is missing, one can apply a monkey patch to that method.
+2. When a library lacks a specific method you need, you can add the missing functionality using a monkey patch.
 
-#### Cons
+#### Pitfalls of Using Monkey Patch
+
+Monkey patching can make code more difficult to understand and maintain, leading to unexpected behavior and potential bugs.
 
 ```ruby
 class String
@@ -49,24 +51,27 @@ class String
   end
 end
 ```
-In the above monkey patch we have reopened universal String class and overrided the behavior of `upcase` method to return nothing. This produces undesired results whereever the `upcase` method is called.
+In the above example, we modify the built-in String class by  redefining the behavior of its `upcase` method to return nothing. This alteration has unintended consequences, as it will affect the outcome whenever the `upcase` method is invoked.
 
-1. In a large codebase, multiple developers may be monkey patching the same method in different ways.
+While monkey patching offers flexibility, it also introduces potential drawbacks:
 
-2. When a third-party gem is monkey patched, upgrading the gem may result in conflicts.
+**Conflict Potential**: In large codebases, multiple developers may modify the same method using monkey patching, leading to unexpected behavior and potential conflicts.
 
-3. It can be difficult to determine which patch is producing the desired result.
+**Upgrade Issues**: Monkey patching third-party gems can cause issues when upgrading the gem, as the new version may conflict with the applied patches.
 
-4. This adds to technical debt, as monkey patches need to be removed once the fix is in place.
+**Debugging Issues**: Identifying the specific monkey patch responsible for a particular outcome can be challenging, making debugging more difficult.
+
+**Technical Debt Accumulation**: Monkey patches often act as temporary solutions, and eventually need to be removed once the underlying issue is resolved, adding to technical debt.
 
 #### Measures to Take While Monkey-Patching
 
-1. Instead of reopening classes where necessary, it is considered a good idea to place the patch in a module and include it in the class.
-2. Document the applied monkey patches to remove them when the fix is implemented.
+**Encapsulate Patches in Modules**: Rather than reopening classes, it is best practice to create a module to encapsulate the monkey patch and include it in the class as needed. This promotes modularity and simplifies patch management.
+
+**Thorough Documentation**: Document all applied monkey patches to maintain code clarity. Clearly identify the purpose and scope of each patch, making it easier to remove them once the underlying issue is resolved.
 
 #### Conclusion
 
-Be a good Samaritan and contribute to open source.
-When a bug is discovered in a third-party library, raise an issue, fix it, and get the pull request merged. Meanwhile, add a monkey patch.
-Monkey patching has gained the popularity it has as a power tool in Ruby because of the havoc it can cause if misused. Refrain from using it and use it only when it is the last resort.
+Monkey patching has gained popularity as a power tool in Ruby because of the havoc it can wreak if misused. While monkey patching offers flexibility, it should be considered a last resort due to its potential risks. 
+
+Meanwhile, it doesn't hurt to be a good samaritan and contribute to open source. When a bug is discovered in a third-party library, raise an issue, fix it, and get the pull request merged.
 
