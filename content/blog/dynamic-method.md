@@ -65,7 +65,7 @@ There is another way of defining methods dynamically using method_missing.
 
 ### Ghost Method
 
-What happens when you call a method on an object that is not yet defined. A method missing error is displayed. What happens internally is ruby goes right and up and checks from the ancestor chain up till `BasicObject` and when the method is not found it transfers the call to `method_missing` in `BasicObject` class, which returns `NoMethodError`.
+What happens when you call a method on an object that is not yet defined. A method missing error is displayed. What happens internally is ruby goes up the object hierarchy and checks up till `BasicObject` and when the method is not found it transfers the call to `method_missing` in `BasicObject` class, which returns `NoMethodError`.
 
 ```ruby
 class Book	
