@@ -1,13 +1,13 @@
 +++
 authors = ["Pranita Aitwadkar"]
-categories = ["Testing", "Quality", "Automation", "Software Craftsmanship"]
-date = 2023-11-09T00:00:00Z
+categories = ["Testing", "Automation"]
+date = 2023-11-10T00:00:00Z
 description = ""
 draft = false
-image = "/images/2021/06/Picture1.jpg"
+image = "/images/2023/cypress-guide/header.png"
 slug = "cypress-guide"
-tags = ["Testing", "Automation", "Software Craftsmanship"]
-title = "Unleashing the Power of Cypress: A Comprehensive Guide to Web Testing"
+tags = ["Testing", "Automation"]
+title = "A Comprehensive Guide To Web Testing with Cypress"
 +++
 
 In the fast-paced world of web development, ensuring the quality of your applications is paramount.
