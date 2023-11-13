@@ -3,16 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2023-10-17T18:29:54+05:30</lastmod>
+    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2023-10-17T18:29:54+05:30</lastmod>
+    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/</loc>
-    <lastmod>2023-10-17T18:29:54+05:30</lastmod>
+    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/bhavesh-choudhary/</loc>
+    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/</loc>
-    <lastmod>2023-10-17T18:29:54+05:30</lastmod>
+    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/deep-dup/</loc>
+    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/deep-dup/</loc>
+    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/dup/</loc>
+    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/dup/</loc>
+    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/ruby-on-rails/</loc>
+    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/ruby-on-rails/</loc>
+    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
+    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
+    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/syed-mohd-mehndi/</loc>
+    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/</loc>
+    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</loc>
+    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/monkey-patching/</loc>
     <lastmod>2023-10-17T18:29:54+05:30</lastmod>
@@ -27,15 +63,6 @@
     <lastmod>2023-10-17T18:29:54+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/ruby/</loc>
-    <lastmod>2023-10-17T18:29:54+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
-    <lastmod>2023-10-17T18:29:54+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
-    <lastmod>2023-10-17T18:29:54+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/</loc>
     <lastmod>2023-10-17T18:29:54+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/modernization/</loc>
@@ -264,12 +291,6 @@
     <lastmod>2022-09-28T10:52:06+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/rails-restapi-tdd/</loc>
-    <lastmod>2022-07-02T02:32:46+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/ruby-on-rails/</loc>
-    <lastmod>2022-07-02T02:32:46+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/ruby-on-rails/</loc>
     <lastmod>2022-07-02T02:32:46+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/arohi-parikh/</loc>

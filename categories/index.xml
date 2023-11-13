@@ -7,8 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 17 Oct 2023 18:29:54 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 09 Nov 2023 18:20:29 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deep Dup</title>
+      <link>https://blog.incubyte.co/categories/deep-dup/</link>
+      <pubDate>Thu, 09 Nov 2023 18:20:29 +0530</pubDate>
+      <guid>https://blog.incubyte.co/categories/deep-dup/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dup</title>
+      <link>https://blog.incubyte.co/categories/dup/</link>
+      <pubDate>Thu, 09 Nov 2023 18:20:29 +0530</pubDate>
+      <guid>https://blog.incubyte.co/categories/dup/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby on Rails</title>
+      <link>https://blog.incubyte.co/categories/ruby-on-rails/</link>
+      <pubDate>Thu, 09 Nov 2023 18:20:29 +0530</pubDate>
+      <guid>https://blog.incubyte.co/categories/ruby-on-rails/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Craftsmanship</title>
+      <link>https://blog.incubyte.co/categories/software-craftsmanship/</link>
+      <pubDate>Thu, 09 Nov 2023 18:20:29 +0530</pubDate>
+      <guid>https://blog.incubyte.co/categories/software-craftsmanship/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Monkey Patching</title>
       <link>https://blog.incubyte.co/categories/monkey-patching/</link>
@@ -21,13 +49,6 @@
       <link>https://blog.incubyte.co/categories/ruby/</link>
       <pubDate>Tue, 17 Oct 2023 18:29:54 +0530</pubDate>
       <guid>https://blog.incubyte.co/categories/ruby/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Craftsmanship</title>
-      <link>https://blog.incubyte.co/categories/software-craftsmanship/</link>
-      <pubDate>Tue, 17 Oct 2023 18:29:54 +0530</pubDate>
-      <guid>https://blog.incubyte.co/categories/software-craftsmanship/</guid>
       <description></description>
     </item>
     <item>
@@ -161,13 +182,6 @@
       <link>https://blog.incubyte.co/categories/terraform/</link>
       <pubDate>Wed, 28 Sep 2022 10:52:06 +0530</pubDate>
       <guid>https://blog.incubyte.co/categories/terraform/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruby on Rails</title>
-      <link>https://blog.incubyte.co/categories/ruby-on-rails/</link>
-      <pubDate>Sat, 02 Jul 2022 02:32:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/categories/ruby-on-rails/</guid>
       <description></description>
     </item>
     <item>
