@@ -147,4 +147,4 @@ By following the best practices outlined in this guide, you'll be equipped to le
 
 Get ready to elevate your web testing game with Cypress!
 
-For more details, check out the official [Cypress Docs](https://docs.cypress.io/guides/getting-started/installing-cypress)
+For more details, check out the official [Cypress Docs.](https://docs.cypress.io/guides/getting-started/installing-cypress)
