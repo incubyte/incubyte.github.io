@@ -121,7 +121,8 @@ Cypress offers a convenient feature that captures screenshots and records videos
 
 #### Headless and Interactive Modes
 
-Cypress gives you the freedom to run tests in different modes: headless mode and interactive mode.
+Cypress gives you the freedom to run tests in different modes: headless mode and interactive mode.Running your tests in headless mode can speed up the testing process and allow you to run tests in environments.Cypress runs tests interactively, allowing you to see commands as they execute while also viewing the Application or Component Under Test, and exploring its DOM.
+
 
 #### Customization and Extensibility
 
