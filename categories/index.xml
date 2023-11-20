@@ -7,8 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 09 Nov 2023 18:20:29 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 14 Nov 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automation</title>
+      <link>https://blog.incubyte.co/categories/automation/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/categories/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testing</title>
+      <link>https://blog.incubyte.co/categories/testing/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/categories/testing/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Deep Dup</title>
       <link>https://blog.incubyte.co/categories/deep-dup/</link>
@@ -161,13 +175,6 @@
       <link>https://blog.incubyte.co/categories/angular/</link>
       <pubDate>Mon, 10 Oct 2022 12:50:00 +0530</pubDate>
       <guid>https://blog.incubyte.co/categories/angular/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Automation</title>
-      <link>https://blog.incubyte.co/categories/automation/</link>
-      <pubDate>Wed, 28 Sep 2022 10:52:06 +0530</pubDate>
-      <guid>https://blog.incubyte.co/categories/automation/</guid>
       <description></description>
     </item>
     <item>

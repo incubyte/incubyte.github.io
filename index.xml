@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 09 Nov 2023 18:20:29 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 14 Nov 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Comprehensive Guide To Web Testing with Cypress</title>
+      <link>https://blog.incubyte.co/blog/cypress-guide/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/blog/cypress-guide/</guid>
+      <description>In the fast-paced world of web development, ensuring the quality of your applications is paramount.</description>
+    </item>
     <item>
       <title>Using dup vs deep dup in Ruby on Rails</title>
       <link>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</link>

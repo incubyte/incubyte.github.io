@@ -3,18 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
+    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
+    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/cypress-guide/</loc>
+    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/</loc>
-    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
+    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/authors/bhavesh-choudhary/</loc>
-    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
+    <loc>https://blog.incubyte.co/tags/automation/</loc>
+    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/automation/</loc>
+    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/</loc>
+    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/pranita-aitwadkar/</loc>
+    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/</loc>
+    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/testing/</loc>
+    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/testing/</loc>
+    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/bhavesh-choudhary/</loc>
     <lastmod>2023-11-09T18:20:29+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/deep-dup/</loc>
@@ -42,9 +63,6 @@
     <lastmod>2023-11-09T18:20:29+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/syed-mohd-mehndi/</loc>
-    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/</loc>
     <lastmod>2023-11-09T18:20:29+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</loc>
@@ -269,12 +287,6 @@
     <loc>https://blog.incubyte.co/authors/waqar-shaikh/</loc>
     <lastmod>2022-10-10T12:50:00+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/automation/</loc>
-    <lastmod>2022-09-28T10:52:06+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/automation/</loc>
-    <lastmod>2022-09-28T10:52:06+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/tags/infrastructure/</loc>
     <lastmod>2022-09-28T10:52:06+05:30</lastmod>
   </url><url>
@@ -480,6 +492,8 @@
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/search/</loc>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/utsav-parmar/pranita-aitwadkar/</loc>
   </url><url>
     <loc>https://blog.incubyte.co/blog/technology-platforms-2/</loc>
   </url>
