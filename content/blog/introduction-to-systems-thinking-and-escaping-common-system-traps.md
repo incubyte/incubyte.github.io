@@ -36,7 +36,7 @@ Systems Thinkers see the world of variables (quantifiable elements) and feedback
 
 <center>
 <figure> <img src="/images/2023/introduction-to-systems-thinking/balancing_loop.jpg"> 
-<figcaption> A causal loop diagram of coffee cup cooling, where a balancing loop is trying to bring the discrepancy between coffee’s temperature and room temperature to zero.. </figcaption> 
+<figcaption> A causal loop diagram of coffee cup cooling, where a balancing loop is trying to bring the discrepancy between coffee’s temperature and room temperature to zero. </figcaption> 
 </figure>
 </center>
 
