@@ -17,6 +17,13 @@
       <description>In Ruby on Rails, the .dup method is commonly used to create a duplicate of an object, allowing modifications without affecting the original.</description>
     </item>
     <item>
+      <title>Introduction to Systems Thinking and Escaping Common System Traps</title>
+      <link>https://blog.incubyte.co/blog/introduction-to-systems-thinking/</link>
+      <pubDate>Mon, 06 Nov 2023 15:43:57 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/introduction-to-systems-thinking/</guid>
+      <description>There is no right or wrong answer in architecture - only trade offs.</description>
+    </item>
+    <item>
       <title>Monkey Patching in Ruby</title>
       <link>https://blog.incubyte.co/blog/monkey-patch/</link>
       <pubDate>Tue, 17 Oct 2023 18:29:54 +0530</pubDate>
