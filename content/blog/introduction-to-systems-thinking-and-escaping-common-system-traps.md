@@ -1,7 +1,7 @@
 +++
 title = "Introduction to Systems Thinking and Escaping Common System Traps"
 slug = "introduction-to-systems-thinking"
-date = 2023-11-06T15:43:57+05:30
+date = 2023-12-04T15:43:57+05:30
 image = "/images/2023/introduction-to-systems-thinking/banner.jpg"
 draft = false
 authors = ["Aditya Sapate"]
