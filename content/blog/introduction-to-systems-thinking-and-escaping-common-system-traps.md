@@ -88,4 +88,4 @@ By identifying patterns and problem-generating structures, we can strategically 
 
 - [Thinking in Systems by Donella H. Meadows](https://en.wikipedia.org/wiki/Thinking_In_Systems:_A_Primer)
 - [Leverage Points](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/)
-- [Keynote: Systems Thinking — Kent Beck & Jessica Kerr](https://www.youtube.com/watch?v=z8bL_V9in9o&t=854)
+- [Keynote: Systems Thinking — Kent Beck & Jessica Kerr](https://www.youtube.com/watch?v=z8bL_V9in9o)
