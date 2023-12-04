@@ -7,8 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 14 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Dec 2023 15:43:57 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Craftsmanship</title>
+      <link>https://blog.incubyte.co/tags/software-craftsmanship/</link>
+      <pubDate>Mon, 04 Dec 2023 15:43:57 +0530</pubDate>
+      <guid>https://blog.incubyte.co/tags/software-craftsmanship/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Systems Thinking</title>
+      <link>https://blog.incubyte.co/tags/systems-thinking/</link>
+      <pubDate>Mon, 04 Dec 2023 15:43:57 +0530</pubDate>
+      <guid>https://blog.incubyte.co/tags/systems-thinking/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Automation</title>
       <link>https://blog.incubyte.co/tags/automation/</link>
@@ -42,20 +56,6 @@
       <link>https://blog.incubyte.co/tags/ruby-on-rails/</link>
       <pubDate>Thu, 09 Nov 2023 18:20:29 +0530</pubDate>
       <guid>https://blog.incubyte.co/tags/ruby-on-rails/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Craftsmanship</title>
-      <link>https://blog.incubyte.co/tags/software-craftsmanship/</link>
-      <pubDate>Thu, 09 Nov 2023 18:20:29 +0530</pubDate>
-      <guid>https://blog.incubyte.co/tags/software-craftsmanship/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Systems Thinking</title>
-      <link>https://blog.incubyte.co/tags/systems-thinking/</link>
-      <pubDate>Mon, 06 Nov 2023 15:43:57 +0530</pubDate>
-      <guid>https://blog.incubyte.co/tags/systems-thinking/</guid>
       <description></description>
     </item>
     <item>
