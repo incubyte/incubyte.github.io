@@ -19,11 +19,11 @@ The name does not matter; you can call it anything. I like to call it “Huddle.
 
 If we look at the [Agile Manifesto](https://agilemanifesto.org/), it does not describe how to manage your project,
 however, there are two methodologies that comes to our mind:
-1 [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)), which is the most popular; The "Daily Scrum"
-comes from that, and 2. [Extreme programming](https://en.wikipedia.org/wiki/Extreme_programming) which is considered to
-be the best explanation of Agile.
 
-While “Standup meeting,” “Daily Sync meeting,” “Daily Scrum,” and “Any other” have different definitions, we should
+1. [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)), which is the most popular; The "Daily Scrum" comes from that.
+2. [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) which is considered to be the best explanation of Agile.
+
+While “Standup meeting,” “Daily Sync meeting,” “Daily Scrum,” and any other name have different definitions, we should
 focus on the meeting from the Agile perspective instead of religiously following process each one’s process and
 definition.
 
@@ -33,14 +33,13 @@ meetings. Agile became just another name for the older project management proces
 ### Values
 
 If we look at Agile values, it focuses on “Interactions,” “Collaboration,” “Delivery,” and “Change.” Remember these
-while creating your own rules for Standup meetings.
+while creating your own rules for standup meetings.
 
 ### FAQ
 
 ##### Q: What is the ideal frequency?
 
-Usually, every day. However, if you are “Interacting” frequently and do not need to know the status, then you can meet
-less.
+Usually, every day. However, if you are “Interacting” frequently and do not need to know the status, then you can meet less.
 
 ##### Q: Where?
 
@@ -59,8 +58,7 @@ can do it anytime.
 
 ##### Q: How granular?
 
-Remember, it is for the team. Your updates should be abstract enough that everyone can understand and contribute to
-the project goal.
+Remember, it is for the team. Your updates should be abstract enough that everyone can understand and contribute to the project goal.
 
 ##### Q: Duration?
 
@@ -82,8 +80,10 @@ scrum master can help streamline that. Also, in this case, don't make the scrum 
 
 ##### Q: What should be the scrum master's role?
 
-They teach the team to follow the practice and create other scrum masters. Remember, scrum master is not a permanent
-process. It is just an initial push. These are just the people who know how to conduct the meeting effectively.
+They teach the team to follow the practice and create other scrum masters.
+Remember, scrum master is not a permanent process.
+It is just an initial push.
+These are just the people who know how to conduct the meeting effectively.
 
 ##### Q: What is a facilitator?
 
@@ -108,8 +108,8 @@ That is a great way to visualize the status. However, status is not the goal; ac
 Anything that helps the project.
 It helps identify whether you need to organize yourself and the team better.
 
-Another way is to have just sticky notes or cards in a dashboard. Identify how many cards should have been moved and
-current status.
+Another way is to have just sticky notes or cards in a dashboard.
+Identify how many cards should have been moved and current status.
 
 Any tool that publishes data is good enough.
 
@@ -119,8 +119,8 @@ Many teams don't even use any!
 
 ##### Too granular
 
-"I worked on the order class and implemented that method", "I worked on liquibase scripts", nobody cares and should care
-about that. Make it abstract enough as if the recipients are non devs.
+"I worked on the order class and implemented that method", "I worked on liquibase scripts", nobody cares and should care about that.
+Make it abstract enough as if the recipients are non devs.
 The meeting is for the project, not yourself. Don't go too technical.
 
 Focus on the task or story's completeness or challenge.
@@ -136,8 +136,8 @@ This is one reason why the meeting continues after the designated time and lasts
 
 ##### Everyone addressing to one person
 
-The meeting is not a project status report meeting! It is a sync up call. Everyone should address the team, not the team
-lead or project manager.
+The meeting is not a project status report meeting! It is a sync up call.
+Everyone should address the team, not the team lead or project manager.
 
 Non devs or attendees who are not directly working with the team should be quiet or give their updates to
 everyone like any other person but never be a receiver.
@@ -145,8 +145,8 @@ everyone like any other person but never be a receiver.
 ##### Slip in other thing.
 
 "Let me show the demo of what I did", "Hey, if you are facing this issue, then do this to solve it", "Why don't you do
-this?", "Why don't we do this?". None of this should happen. Everyone should focus on only strictly updates. Nothing
-else.
+this?", "Why don't we do this?".
+None of this should happen. Everyone should focus on only strictly updates. Nothing else.
 
 Did I say nothing else?
 
@@ -156,7 +156,7 @@ Even if the next meeting will have the same participants, don't do it now; call 
 ##### Too many update
 
 "I worked on setting up that server then talked to Bob then talked to Yoda about order detail then talked to Groot about
-invoice preparation" - How does this help the project? Why should anyone care?
+invoice preparation" — How does this help the project? Why should anyone care?
 
 ##### Too much project specific
 
@@ -166,7 +166,7 @@ everyone would have context on what "ABC-549" is; instead, try to say, "I worked
 ### Honorary addition
 
 Lately, some teams have started introducing non project related and team related talks in the meeting.
-Those are not bad. Those help team building. Some of the examples are as follows,
+Those are not bad. Those help team building. Some examples are as follows,
 
 - How was your weekend?
 - What did you learn recently?
@@ -174,8 +174,5 @@ Those are not bad. Those help team building. Some of the examples are as follows
 - How are you feeling?
 - Do you want to thank anyone?
 
-Photo by <a href="https://unsplash.com/@omilaev?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Igor
-Omilaev</a>
-on <a href="https://unsplash.com/photos/a-group-of-blue-statues-sitting-on-top-of-a-wooden-floor-thVXPlANB1U?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
-Unsplash</a>
-  
+Photo by <a href="https://unsplash.com/@omilaev?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Igor Omilaev</a>
+on <a href="https://unsplash.com/photos/a-group-of-blue-statues-sitting-on-top-of-a-wooden-floor-thVXPlANB1U?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"> Unsplash</a>
