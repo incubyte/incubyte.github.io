@@ -24,8 +24,7 @@ however, there are two methodologies that comes to our mind:
 2. [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) which is considered to be the best explanation of Agile.
 
 While “Standup meeting,” “Daily Sync meeting,” “Daily Scrum,” and any other name have different definitions, we should
-focus on the meeting from the Agile perspective instead of religiously following process each one’s process and
-definition.
+focus on the meeting from the Agile perspective instead of religiously following each one’s process and definition.
 
 Over the years, as “regular” project managers converted to the Agile way, Agile lost its core value, and so did standup
 meetings. Agile became just another name for the older project management process.
@@ -44,6 +43,9 @@ Usually, every day. However, if you are “Interacting” frequently and do not 
 ##### Q: Where?
 
 Anywhere the whole team is comfortable. Physical or Remote. Does not matter.
+
+If you are conducting it remotely, always have videos on.
+You want to talk to humans, not animated figures!
 
 ##### Q: When?
 
@@ -75,20 +77,27 @@ are not ending in time, you should definitely start standing up.
 
 If you are married to the process of Scrum, then sure. But, if your focus is on Agile values, you don't need to.
 
-However, if you observe that the team is not doing what they need to do or doing what they shouldn't be doing, then
-scrum master can help streamline that. Also, in this case, don't make the scrum master your process.
+I disagree with the concept of having a Scrum master. The word master is terrible anyway. 
+It also brings all the micromanagement, like tracking the burndown chart like a hawk, and certifications like CSM.
 
-##### Q: What should be the scrum master's role?
+We should rename that to Agile mentor/coach, even if we want someone to teach Agile principles.
 
-They teach the team to follow the practice and create other scrum masters.
-Remember, scrum master is not a permanent process.
+##### Q: Should we hire an Agile coach/mentor?
+
+If you observe that the team is not doing what they need to do or doing what they shouldn't be doing, then
+an Agile coach can help streamline that. Also, in this case, don't make the Agile coach your process.
+
+##### Q: What should be the Agile coach's role?
+
+They teach the team to follow the practice and create other Agile coaches.
+Remember, Agile coaching is not a permanent process.
 It is just an initial push.
 These are just the people who know how to conduct the meeting effectively.
 
 ##### Q: What is a facilitator?
 
-After the scum master left the team, one person from the team takes up the role of facilitator,
-almost like a scrum master.
+After the Agile coach/mentor leaves the team, one person from the team takes up the role of facilitator,
+almost like an Agile coach/mentor but internal.
 They initiate and make sure of a smooth exchange of baton. Don't make a single person facilitator; always rotate them.
 
 You don't need a facilitator if you think your team is mature enough to handle things.
@@ -102,7 +111,7 @@ some like the last person nominating the next person.
 
 You can be creative as soon as meetings are short and effective.
 
-##### Q: Do I need a burn down chart? Or any chart?
+##### Q: Do I need a burn down chart? Or any chart? any board?
 
 That is a great way to visualize the status. However, status is not the goal; action item is the goal.
 Anything that helps the project.
@@ -113,7 +122,7 @@ Identify how many cards should have been moved and current status.
 
 Any tool that publishes data is good enough.
 
-Many teams don't even use any!
+Many teams don't even use any! (These are very mature teams. I would recommend having some visual representation.)
 
 ### What not to do
 
@@ -153,15 +162,39 @@ Did I say nothing else?
 If you want another conversation, meet after the meeting and have a separate meeting with a smaller group.
 Even if the next meeting will have the same participants, don't do it now; call another meeting and do it separately.
 
+##### Q: But we work only remotely, and this is the only time the whole team is together; I would want it to last a little longer and combine other things.
+
+Even in that case, keep the standup time shorter. Be on the same call with the same people, just complete standup in a short time.
+Don't slip in a demo along with standup. Do other things after officially concluding standup. Wear a different hat after that. 
+
+Remember, the standup should be completed on time in a short duration. 
+The meeting or call can be extended with the same or different participants.
+
 ##### Too many update
 
 "I worked on setting up that server then talked to Bob then talked to Yoda about order detail then talked to Groot about
 invoice preparation" — How does this help the project? Why should anyone care?
 
-##### Too much project specific
+##### Absence of context
 
 "I worked on ABC-549 and ABC-588 and will keep working on that". While this looks like good enough. However, not
 everyone would have context on what "ABC-549" is; instead, try to say, "I worked on order detail screen".
+
+##### Not using burndown chart or team board because it is not updated
+
+If you have some other way you can get the project status then it is okay to not have a board.
+However, having incorrect status for tasks/stories is not a good reason not to have a board.
+
+Always keep your tasks/stories updated with the latest status as soon as you make progress. 
+Don't wait for standup to update those.
+
+It is always better to have some visual representation than not having any.
+
+##### Sticking to one process
+
+Don't make your standups boring. 
+
+Standup is a practice, and its effectiveness must be questioned, and ways of improving must be part of retro discussions.
 
 ### Honorary addition
 
@@ -173,6 +206,7 @@ Those are not bad. Those help team building. Some examples are as follows,
 - What books are you reading?
 - How are you feeling?
 - Do you want to thank anyone?
+- Anything you are excited about this week?
 
 Photo by <a href="https://unsplash.com/@omilaev?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Igor Omilaev</a>
 on <a href="https://unsplash.com/photos/a-group-of-blue-statues-sitting-on-top-of-a-wooden-floor-thVXPlANB1U?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"> Unsplash</a>
