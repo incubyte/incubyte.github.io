@@ -17,17 +17,17 @@ The name does not matter; you can call it anything. I like to call it “Huddle.
 
 ### Intent
 
-If we look at the [Agile Manifesto](https://agilemanifesto.org/), it does not describe how to manage your project,
-however, there are two methodologies that comes to our mind:
+If we look at the [Agile Manifesto](https://agilemanifesto.org/), it does not describe how to manage your project.
+However, two methodologies come to our mind:
 
 1. [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)), which is the most popular; The "Daily Scrum" comes from that.
-2. [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) which is considered to be the best explanation of Agile.
+2. [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) is considered to be the best implementation of Agile.
 
 While “Standup meeting,” “Daily Sync meeting,” “Daily Scrum,” and any other name have different definitions, we should
 focus on the meeting from the Agile perspective instead of religiously following each one’s process and definition.
 
-Over the years, as “regular” project managers converted to the Agile way, Agile lost its core value, and so did standup
-meetings. Agile became just another name for the older project management process.
+Over the years, as “conventional” project managers converted to the Agile way, Agile lost its core value, and so did standup
+meetings. Agile has become just another project management process. And the developers were far removed from it.
 
 ### Values
 
@@ -38,7 +38,7 @@ while creating your own rules for standup meetings.
 
 ##### Q: What is the ideal frequency?
 
-Usually, every day. However, if you are “Interacting” frequently and do not need to know the status, then you can meet less.
+Usually, every day. However, if all the stakeholders interact frequently and do not need to know the status, you can meet less.
 
 ##### Q: Where?
 
@@ -54,18 +54,18 @@ can do it anytime.
 
 ##### Q: What content?
 
-- What did I do since the last meeting?
-- What will I do until the next meeting?
-- Challenges
+- What did I do towards the iteration goal?
+- What will I do next?
+- What is inhibiting me from achieving my goals?
 
 ##### Q: How granular?
 
-Remember, it is for the team. Your updates should be abstract enough that everyone can understand and contribute to the project goal.
+Remember, it is for the team. Your updates should be at the right level so everyone can understand and contribute to the project goal.
 
 ##### Q: Duration?
 
 Ideally, 15 minutes max. Every team member should speak for only 2 or 3 minutes. If there are too many
-participants and not everyone can finish in 15 minutes, then it is a different problem. Ideally, divide the
+participants and not everyone can finish in 15 minutes, it is a different problem. Ideally, divide the
 team instead of shortening individuals' time or increasing standup meetings' time.
 
 ##### Q: Should I be standing up?
@@ -78,7 +78,11 @@ are not ending in time, you should definitely start standing up.
 If you are married to the process of Scrum, then sure. But, if your focus is on Agile values, you don't need to.
 
 I disagree with the concept of having a Scrum master. The word master is terrible anyway. 
-It also brings all the micromanagement, like tracking the burndown chart like a hawk, and certifications like CSM.
+It also brings all the micromanagement, like tracking the burndown chart like a hawk.
+I have seen very bad standups where a "scrum master" will go through all the issues on the board and ask everyone for a status.
+
+People who are going to talk should take charge of their own work,
+from updating tickets to delivering and updating others in the team about it.
 
 We should rename that to Agile mentor/coach, even if we want someone to teach Agile principles.
 
@@ -98,7 +102,7 @@ These are just the people who know how to conduct the meeting effectively.
 
 After the Agile coach/mentor leaves the team, one person from the team takes up the role of facilitator,
 almost like an Agile coach/mentor but internal.
-They initiate and make sure of a smooth exchange of baton. Don't make a single person facilitator; always rotate them.
+They initiate and make sure of a smooth exchange of baton. Don't make a single person facilitator; continuously rotate them.
 
 You don't need a facilitator if you think your team is mature enough to handle things.
 
@@ -109,7 +113,7 @@ Choose whatever suits you.
 Some like the alphabetical order, some like the current position they are sitting in, some like facilitator assigning,
 some like the last person nominating the next person.
 
-You can be creative as soon as meetings are short and effective.
+You can be creative as far as meetings are short and effective.
 
 ##### Q: Do I need a burn down chart? Or any chart? any board?
 
@@ -135,7 +139,7 @@ The meeting is for the project, not yourself. Don't go too technical.
 Focus on the task or story's completeness or challenge.
 
 This is one of the reasons the meeting becomes boring.
-Because nobody understands what the other person really means, and then they stop paying attention to the other person.
+Because nobody understands what the other person really means, so they stop paying attention to the other person.
 
 ##### Cutting each other
 
@@ -175,6 +179,8 @@ The meeting or call can be extended with the same or different participants.
 "I worked on setting up that server then talked to Bob then talked to Yoda about order detail then talked to Groot about
 invoice preparation" — How does this help the project? Why should anyone care?
 
+Number of updates or time you take to update others is not a measure of success or hard work.
+
 ##### Absence of context
 
 "I worked on ABC-549 and ABC-588 and will keep working on that". While this looks like good enough. However, not
@@ -182,7 +188,7 @@ everyone would have context on what "ABC-549" is; instead, try to say, "I worked
 
 ##### Not using burndown chart or team board because it is not updated
 
-If you have some other way you can get the project status then it is okay to not have a board.
+If you have another way to get the project status, then it is okay not to have a board.
 However, having incorrect status for tasks/stories is not a good reason not to have a board.
 
 Always keep your tasks/stories updated with the latest status as soon as you make progress. 
@@ -194,7 +200,7 @@ It is always better to have some visual representation than not having any.
 
 Don't make your standups boring. 
 
-Standup is a practice, and its effectiveness must be questioned, and ways of improving must be part of retro discussions.
+Standup is a practice; its effectiveness must be questioned, and ways of improving must be part of retro discussions.
 
 ### Honorary addition
 
