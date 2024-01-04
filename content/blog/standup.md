@@ -13,7 +13,7 @@ type = ""
 
 The "Standup meeting" or "Daily Scrum" that everyone does religiously just for the sake of calling themselves "Agile."
 
-The name does not matter; you can call it anything. I like to call it “Huddle.”
+The name does not matter; you can call it anything. I like to call it a “Huddle.”
 
 ### Intent
 
@@ -23,18 +23,18 @@ However, two methodologies come to our mind:
 1. [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)), which is the most popular; The "Daily Scrum" comes from that.
 2. [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) is considered to be the best implementation of Agile.
 
-While “Standup meeting,” “Daily Sync meeting,” “Daily Scrum,” and any other name have different definitions, we should
+Although terms like "Standup meeting," "Daily Sync meeting," "Daily Scrum," and others may have distinct definitions, we should
 focus on the meeting from the Agile perspective instead of religiously following each one’s process and definition.
 
 Over the years, as “conventional” project managers converted to the Agile way, Agile lost its core value, and so did standup
-meetings. Agile has become just another project management process. And the developers were far removed from it.
+meetings. Agile transformed into just another project management process, and developers found themselves increasingly detached from its original essence.
 
 ### Values
 
 If we look at Agile values, it focuses on “Interactions,” “Collaboration,” “Delivery,” and “Change.” Remember these
 while creating your own rules for standup meetings.
 
-### FAQ
+### FAQs
 
 ##### Q: What is the ideal frequency?
 
@@ -42,7 +42,7 @@ Usually, every day. However, if all the stakeholders interact frequently and do 
 
 ##### Q: Where?
 
-Anywhere the whole team is comfortable. Physical or Remote. Does not matter.
+Anywhere the whole team is comfortable. Physical or remote, does not matter. 
 
 If you are conducting it remotely, always have videos on.
 You want to talk to humans, not animated figures!
@@ -64,14 +64,12 @@ Remember, it is for the team. Your updates should be at the right level so every
 
 ##### Q: Duration?
 
-Ideally, 15 minutes max. Every team member should speak for only 2 or 3 minutes. If there are too many
-participants and not everyone can finish in 15 minutes, it is a different problem. Ideally, divide the
-team instead of shortening individuals' time or increasing standup meetings' time.
+Ideally, a maximum of 15 minutes. Every team member should speak for only 2 or 3 minutes. If there are too many participants and the meeting cannot be concluded in a 15-minute timeframe, it is a different problem. Ideally in such cases, divide the
+team instead of shortening individuals' time or increasing the duration of the standup meetings.
 
 ##### Q: Should I be standing up?
 
-Well, the meeting should be short. So, psychologically, if you are standing up, you would be quick. So, if your standups
-are not ending in time, you should definitely start standing up.
+Since the goal is to keep the meeting short, adopting a psychological approach, standing up tends to lead to brevity. If your standup meetings consistently exceed the allotted time, you should definitely transition to standing meetings.
 
 ##### Q: Should we hire a scrum master?
 
@@ -100,11 +98,9 @@ These are just the people who know how to conduct the meeting effectively.
 
 ##### Q: What is a facilitator?
 
-After the Agile coach/mentor leaves the team, one person from the team takes up the role of facilitator,
-almost like an Agile coach/mentor but internal.
-They initiate and make sure of a smooth exchange of baton. Don't make a single person facilitator; continuously rotate them.
+After the Agile coach/mentor moves on, one of the team members steps up as the facilitator, playing a role akin to an internal Agile coach/mentor. They kick things off and ensure a smooth exchange of the baton. Avoid sticking with a single facilitator; keep the rotation going among team members.
 
-You don't need a facilitator if you think your team is mature enough to handle things.
+This goes without saying but you don't need a facilitator if you think your team is mature enough to handle things.
 
 ##### Q: What order?
 
@@ -115,14 +111,14 @@ some like the last person nominating the next person.
 
 You can be creative as far as meetings are short and effective.
 
-##### Q: Do I need a burn down chart? Or any chart? any board?
+##### Q: Do I need a burn down chart? Or any chart or board?
 
 That is a great way to visualize the status. However, status is not the goal; action item is the goal.
 Anything that helps the project.
 It helps identify whether you need to organize yourself and the team better.
 
 Another way is to have just sticky notes or cards in a dashboard.
-Identify how many cards should have been moved and current status.
+Identify how many cards should have been moved and their current status.
 
 Any tool that publishes data is good enough.
 
@@ -133,7 +129,7 @@ Many teams don't even use any! (These are very mature teams. I would recommend h
 ##### Too granular
 
 "I worked on the order class and implemented that method", "I worked on liquibase scripts", nobody cares and should care about that.
-Make it abstract enough as if the recipients are non devs.
+Make it abstract enough as if the recipients are non-developers.
 The meeting is for the project, not yourself. Don't go too technical.
 
 Focus on the task or story's completeness or challenge.
@@ -147,15 +143,15 @@ Only one person speaks!
 
 This is one reason why the meeting continues after the designated time and lasts for even an hour!
 
-##### Everyone addressing to one person
+##### Everyone addressing one person
 
 The meeting is not a project status report meeting! It is a sync up call.
 Everyone should address the team, not the team lead or project manager.
 
-Non devs or attendees who are not directly working with the team should be quiet or give their updates to
+Non-developers or attendees who are not directly working with the team should be quiet or give their updates to
 everyone like any other person but never be a receiver.
 
-##### Slip in other thing.
+##### Slip in other things
 
 "Let me show the demo of what I did", "Hey, if you are facing this issue, then do this to solve it", "Why don't you do
 this?", "Why don't we do this?".
@@ -164,17 +160,18 @@ None of this should happen. Everyone should focus on only strictly updates. Noth
 Did I say nothing else?
 
 If you want another conversation, meet after the meeting and have a separate meeting with a smaller group.
-Even if the next meeting will have the same participants, don't do it now; call another meeting and do it separately.
+Even if the next meeting will have the same participants, don't do it now—organize a separate session for that purpose.
 
-##### Q: But we work only remotely, and this is the only time the whole team is together; I would want it to last a little longer and combine other things.
+Now you might have a question-
 
-Even in that case, keep the standup time shorter. Be on the same call with the same people, just complete standup in a short time.
-Don't slip in a demo along with standup. Do other things after officially concluding standup. Wear a different hat after that. 
+##### But we work only remotely, and this is the only time the whole team is together; I would want it to last a little longer and combine other things.
+
+Even in that case, keep the standup time shorter. Do other things after officially concluding standup. You can wear a different hat after that. 
 
 Remember, the standup should be completed on time in a short duration. 
 The meeting or call can be extended with the same or different participants.
 
-##### Too many update
+##### Too many updates
 
 "I worked on setting up that server then talked to Bob then talked to Yoda about order detail then talked to Groot about
 invoice preparation" — How does this help the project? Why should anyone care?
@@ -183,12 +180,11 @@ Number of updates or time you take to update others is not a measure of success 
 
 ##### Absence of context
 
-"I worked on ABC-549 and ABC-588 and will keep working on that". While this looks like good enough. However, not
-everyone would have context on what "ABC-549" is; instead, try to say, "I worked on order detail screen".
+"I worked on ABC-549 and ABC-588 and will keep working on that". Although this looks good enough, not everyone may have the context for what "ABC-549" represents. Consider saying, "I've been working on the order detail screen." This provides clearer information for everyone involved.
 
 ##### Not using burndown chart or team board because it is not updated
 
-If you have another way to get the project status, then it is okay not to have a board.
+If you have another way to get the project status, then it is okay to not have a board.
 However, having incorrect status for tasks/stories is not a good reason not to have a board.
 
 Always keep your tasks/stories updated with the latest status as soon as you make progress. 
@@ -198,13 +194,11 @@ It is always better to have some visual representation than not having any.
 
 ##### Sticking to one process
 
-Don't make your standups boring. 
-
-Standup is a practice; its effectiveness must be questioned, and ways of improving must be part of retro discussions.
+Don't make your standups boring. Standup is a practice; its effectiveness must be questioned, and ways of improving must be part of retro discussions.
 
 ### Honorary addition
 
-Lately, some teams have started introducing non project related and team related talks in the meeting.
+Lately, some teams have started introducing non-project related and team-related talks in the meeting.
 Those are not bad. Those help team building. Some examples are as follows,
 
 - How was your weekend?
@@ -213,6 +207,8 @@ Those are not bad. Those help team building. Some examples are as follows,
 - How are you feeling?
 - Do you want to thank anyone?
 - Anything you are excited about this week?
+
+These additions are great at creating a more connected and collaborative work environment.
 
 Photo by <a href="https://unsplash.com/@omilaev?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Igor Omilaev</a>
 on <a href="https://unsplash.com/photos/a-group-of-blue-statues-sitting-on-top-of-a-wooden-floor-thVXPlANB1U?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"> Unsplash</a>
