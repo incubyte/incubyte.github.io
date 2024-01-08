@@ -76,4 +76,3 @@ But if you have already entered the spiral, here are a few steps that can help.
 <b> 4. Reduce technical debt. </b>By having a mission-critical task force, you can eliminate bad code at the most fundamental level and prevent it from recurring. Create a road map, and possibly a task force, to fix the debt and upskill the team. (Refer, for example, to the book, The DevOps Handbook: How to Create World-Class Agility, Reliability and Security in Technology Organizations.)
 
 Modernizing software systems is a large subject, and is not an exhaustive list of problems and solutions. When looking at your company's concerns, you can use this method to suggest more influencing flows and stocks in order to have a conversation on how it can help the system reduce technical debt.
-

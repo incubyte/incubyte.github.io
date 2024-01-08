@@ -10,9 +10,6 @@ tags = ["Playbook"]
 title = "One Year Of Pandemic & One Year Of Incubyte"
 +++
 
-
-
-
 It all started when— unbeknownst to the world, a series of lockdowns changed the way India Inc. operated. The world hit a big fast-forward button to the future of remote work. And right around that time, in February of 2020, a small team that called itself Incubyte set out on its own mission in this new normal.
 
 A common goal to create well-crafted software and promote better coding practices in India is what brought the team together. This blog commemorates our first anniversary, but more than that, it is a tribute to Incubyte’s wonderful journey and the individuals who have contributed to it.
@@ -47,12 +44,12 @@ We have teammates from tier 2 and tier 3 cities like Guwahati, Udaipur, Rajkot, 
 
 Here are some benefits we experienced ourselves in this new normal:
 
-* Work from the comfort of our own homes
-* No commute stresses
-* Impact on sustainability
-* Cuts additional costs of working away from home
-* Re-distribution of the workforce
-* More time to pursue other hobbies/pet projects
+- Work from the comfort of our own homes
+- No commute stresses
+- Impact on sustainability
+- Cuts additional costs of working away from home
+- Re-distribution of the workforce
+- More time to pursue other hobbies/pet projects
 
 ### Work Flexibility as Work Stability
 
@@ -64,15 +61,15 @@ One of our teammates, Akshay, went on a month-long work-cation to remote Uttarak
 
 Some of our tactics to make remote working fun and sustainable:
 
-* Encouraging our people to take vacations
-* Enabling flexible hours
-* Unlimited leaves
-* No attendance or time tracking
-* Access to a professional health & nutrition consultant at any time
+- Encouraging our people to take vacations
+- Enabling flexible hours
+- Unlimited leaves
+- No attendance or time tracking
+- Access to a professional health & nutrition consultant at any time
 
 This is an area where there is so much, we can do – we are learning and trying to get better at it every day!
 
-> ___“I’ve always been a working mom. Worked through my pregnancy and barely took maternity leave. This is the first time in my child’s life that I’ve been around him so much and our happiness quotient (both his and mine) is so much higher. It is possible to run a company and be there for a kid!”___  -Rushali Parikh
+> **_“I’ve always been a working mom. Worked through my pregnancy and barely took maternity leave. This is the first time in my child’s life that I’ve been around him so much and our happiness quotient (both his and mine) is so much higher. It is possible to run a company and be there for a kid!”_** -Rushali Parikh
 
 ### Team Building and Team Bonding
 
@@ -80,23 +77,22 @@ As a remote-first company, bridging the gap between co-workers has been our bigg
 
 In addition to following the usual Agile practices, other efforts in this direction include:
 
-* 4-6 hours of pairing daily
-* Mob code reviews
-* A flat hierarchy
-* Imbibing a strong feedback culture at every level
-* Regular retrospectives
-* Lightning talks
-* Inter and Intra team brainstorming sessions and huddles
-* Not having long email chains
-* Practices to indulge in healthy work-life routine
+- 4-6 hours of pairing daily
+- Mob code reviews
+- A flat hierarchy
+- Imbibing a strong feedback culture at every level
+- Regular retrospectives
+- Lightning talks
+- Inter and Intra team brainstorming sessions and huddles
+- Not having long email chains
+- Practices to indulge in healthy work-life routine
 
 ### Celebrating one year
 
 We’re happy about how we’ve grown this year and set a high bar for the year to come. We feel our growth this year was at a sustainable pace and that has helped us set the foundation right.
 
-> ___“When you are on a growth trajectory you are often only reacting, and when you react, you end up making mistakes. When you are acting, you can strategize and plan time without cutting corners.”__ _
+> **\_“When you are on a growth trajectory you are often only reacting, and when you react, you end up making mistakes. When you are acting, you can strategize and plan time without cutting corners.”** \_
 
 We have grown as a team of enthusiastic people sharing core principles and values, working towards the shared goal of delivering high-quality software.
 
 We're always learning about new ways to facilitate opportunities, promote clean coding techniques, create scalable decoupled systems, and provide constant incremental value to our clients. We head into year two with much anticipation, excitement, and a continued commitment - to our people, that we will always strive to be a better employer and a commitment to our clients that we will always look out for their best interests.
-

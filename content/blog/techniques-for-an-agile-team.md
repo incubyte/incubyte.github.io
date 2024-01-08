@@ -27,12 +27,12 @@ A feature owner steps up when there is new functionality to implement. The featu
 
 The feature owner works closely with the product owner to:
 
--   Get a clear understanding of the feature from the stakeholders
--   Craft stories for the feature
--   Keep track of timelines and ensure timely delivery
--   Escalate blockers that impede timely delivery
--   Own the feedback-iteration loop through sprint review
--   Be the go-to person for the feature domain knowledge
+- Get a clear understanding of the feature from the stakeholders
+- Craft stories for the feature
+- Keep track of timelines and ensure timely delivery
+- Escalate blockers that impede timely delivery
+- Own the feedback-iteration loop through sprint review
+- Be the go-to person for the feature domain knowledge
 
 ## 2) Story Analysts:
 
@@ -42,10 +42,10 @@ It is always better to perform story mapping before it gets picked up in the nex
 
 Below are the points we can consider for story analysis
 
--   Are the acceptance criteria specified such that there is no ambiguity?
--   Is there any technical debt related to the story?
--   Is there a need to split the story into thinner slices?
--   Does the story need a spike?
+- Are the acceptance criteria specified such that there is no ambiguity?
+- Is there any technical debt related to the story?
+- Is there a need to split the story into thinner slices?
+- Does the story need a spike?
 
 The outcome of story analysis is that the story is ready to be picked up in the next IPM.
 
@@ -87,9 +87,9 @@ The responsibility of a team member here is two-fold - to transfer gained knowle
 
 To avoid knowledge hoarding, the following things can be done:
 
--   Pair Rotation: If a story is taking a few days to complete, one of the developers from the pair can roll out, say after 2 days, and the new developer can join in. The developer already working on the story will ensure that the new folk joining gets all insights into work done so far, and what needs to be done next.
+- Pair Rotation: If a story is taking a few days to complete, one of the developers from the pair can roll out, say after 2 days, and the new developer can join in. The developer already working on the story will ensure that the new folk joining gets all insights into work done so far, and what needs to be done next.
 
--   Sessions: Conduct sessions within the team showcasing the architectural implementation/discussion, new feature integration, and its design decision, sharing domain knowledge of the feature, what are the requirements from the product owner, etc.
+- Sessions: Conduct sessions within the team showcasing the architectural implementation/discussion, new feature integration, and its design decision, sharing domain knowledge of the feature, what are the requirements from the product owner, etc.
 
 ## 6) GO-TO Person:
 

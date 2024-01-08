@@ -34,18 +34,15 @@ Seventeen programmers met in Snowbird lodge in Utah and wrote the following mani
 
 > This physics constrains all projects to obey an unassailable trade-off called the Iron Cross of project management. Good, fast, cheap, done: Pick any three you like. You can’t have the fourth.
 >
->
 > The reality is that a good project manager understands that these four attributes have coefficients. A good manager drives a project to be good enough, fast enough, cheap enough, and done as much as necessary. A good manager manages the coefficients on these attributes rather than demanding that all those coefficients are 100%. It is this kind of management that Agile strives to enable.
->
 
 The velocity and burndown charts are valuable tools to manage these coefficients. Agile is a feedback-driven approach, “in most cases, your tomorrows are going to look like yesterdays!” These charts help you make appropriate adjustments and fail fast if you do not meet the deadlines.
 
 Talking of deadlines, they are the first thing you know. Even before the name of the project is decided, the deadline is. In a typical waterfall way, the projects would go through different phases for a few months before a half-baked project is delivered to a client, which causes a lot of friction at the end of the project.
 
-On the contrary, a more agile way of working maybe work in tiny iterations, say a week.  We may deliver a working product each week by delivering a well-analyzed, small subset of stories! Each week we know how much we can deliver and in case how much spills over. We use that data to estimate our next iteration. Use the data being generated to feed to upcoming iterations.
+On the contrary, a more agile way of working maybe work in tiny iterations, say a week. We may deliver a working product each week by delivering a well-analyzed, small subset of stories! Each week we know how much we can deliver and in case how much spills over. We use that data to estimate our next iteration. Use the data being generated to feed to upcoming iterations.
 
 > Some folks think that Agile is about going fast. It’s not, and it’s never been about going fast. Agile is about knowing, as early as possible, just how screwed we are.
->
 
 Working in small iterations based on data generated in each iteration allows us to manage and finetune the iron cross while welcoming the changing scope.
 
@@ -56,7 +53,6 @@ Most of the book then focuses on the Circle Of Life (XP) because it is the most 
 Let’s conclude with a quote from the book.
 
 > Agile is a process wherein a project is subdivided into iterations. The output of each iteration is measured and used to continuously evaluate the schedule. Features are implemented in the order of business value so that the most valuable things are implemented first. Quality is kept as high as possible. The schedule is primarily managed by manipulating scope.
->
 
 ## Chapter 2 The Reasons for Agile
 
@@ -78,7 +74,7 @@ Our managers, customers and users should reasonably be able to expect the follow
 8. **Test Automation.** Repeatable tests must be automated. Manual QA should do something that involves human creativity and imagination.
 9. **We cover for each other.** Teams cover for each other.
 10. **Honest Estimates.** “I don’t know” is a much better estimate than “I will try” or estimates based on gut feeling.
-11. **You Need to Say “No.”**  Your inputs are regularly used to make decisions; thus, you may need to say “no” when you think something is impossible.
+11. **You Need to Say “No.”** Your inputs are regularly used to make decisions; thus, you may need to say “no” when you think something is impossible.
 12. **Continuous Aggressive Learning.** Learn Learn Learn
 13. **Mentoring.** Teach to learn and learn to teach
 

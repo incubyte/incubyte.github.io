@@ -26,5 +26,3 @@ card_2_slug="finance-case-study/"
 +++
 
 Streamlining Expense Tracking Process by Modernizing a Solution for a US-based Expense Management Solution Provider
-
-

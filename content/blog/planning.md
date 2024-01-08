@@ -11,7 +11,6 @@ title = "Planning & Communication"
 
 +++
 
-
 One of our primary process goals is to make frequent, small releases of our working software. We do this through regular communication and bi-weekly iterations on a product.
 
 Communication helps our team achieve this goal by spreading knowledge, and creating a sense of a team, collaboration, and co-operation without the frequent releases would not be possible. Many times, solutions to problems emerge from within our team when we huddle to brainstorm together.
@@ -30,4 +29,3 @@ Few visible benefits we pass on to our client by communicating well inside and o
 2. Effective communication with all stakeholders helps us get quicker feedback, thus providing the opportunity to fine-tune our team's direction and the project as per the evolving requirements.
 3. Familiarity in the team within the team and our clients ensures that all the stakeholders are always on the same page, and there is little left open to assumptions.
 4. Our teams harness the individual's complementary skills, and effective communication ensures that there is knowledge transfer, and the whole group grows in multiple directions simultaneously.
-
