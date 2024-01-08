@@ -710,7 +710,7 @@ if (!doNotTrack) {
 <blockquote>
 <p>SELECT ∗ FROM users WHERE email = ’‘ OR Email != ‘’</p>
 </blockquote>
-<p>The WHERE clause in this statement is a tautology (a statement that is true by definition). This means the email address is either equal to the empty string or not equal to the empty string.  We do not have to know which email addresses that are present in the table and the query will return every row in the table.</p>
+<p>The WHERE clause in this statement is a tautology (a statement that is true by definition). This means the email address is either equal to the empty string or not equal to the empty string. We do not have to know which email addresses that are present in the table and the query will return every row in the table.</p>
 <p>Similarly, the malicious user can join data together from multiple tables, insert data, modify data, and delete data.</p>
 <p>If the user enters &ldquo;FALSE; DROP TABLE&rdquo; users. Our query after concatenation will result in a table deletion query. The entire <em>users</em> table will be deleted!</p>
 <blockquote>
@@ -724,7 +724,7 @@ if (!doNotTrack) {
 </blockquote>
 <p>The <strong>?</strong> is used as the placeholder and value is added by various set<type> functions. Java provides type-specific binding functions for data such as setString() or setInt(). These functions help sanity check the data received from the user</p>
 <p>The power of this approach is that the SQL and the data are always kept separate. If an attacker inserts a long string, that will result in the database rejecting it because it was expecting an integer.</p>
-<p>The grammar of the above expression will always be <em>email=something</em>  and the SELECT statement will return records only where the email column <strong>exactly matches</strong> the value of the parameter provided to the statements.  The query below will try to search email with value * and will not return all the rows.</p>
+<p>The grammar of the above expression will always be <em>email=something</em> and the SELECT statement will return records only where the email column <strong>exactly matches</strong> the value of the parameter provided to the statements. The query below will try to search email with value * and will not return all the rows.</p>
 <blockquote>
 <p>statement.setInt(1, &ldquo;*&rdquo;)</p>
 </blockquote>
@@ -734,7 +734,7 @@ if (!doNotTrack) {
 </blockquote>
 <p>Prepared Statements can save us from the attacks specified above, But it doesn&rsquo;t mean the prepared statements will change the result set. Consider the code that changes the email comparison from an equality test (=) as in the previous examples to a LIKE statement that would support wildcard matches.</p>
 <blockquote>
-<p>statement = con.prepareStatement(&ldquo;SELECT email FROM  employee WHERE email LIKE ?&rdquo;) statement.setString(1, &ldquo;%@%&rdquo;)</p>
+<p>statement = con.prepareStatement(&ldquo;SELECT email FROM employee WHERE email LIKE ?&rdquo;) statement.setString(1, &ldquo;%@%&rdquo;)</p>
 </blockquote>
 <p>This will return all the email addresses as all the emails contain @.</p>
 <p>This attack is possible as the &lsquo;<strong>like&rsquo;</strong> statement supports wildcards and hence special characters like the asterisk (*), percent symbol (%), underscore (_), and question mark (?) can be inserted into a bound parameter resulting in undesirable effects.</p>
@@ -742,7 +742,7 @@ if (!doNotTrack) {
 <h4 id="2-jap-hibernate--orm">2. JAP/ Hibernate / ORM</h4>
 <p>JPA or ORM do not <strong>prevent us from writing vulnerable code.</strong> Let’s consider the example below</p>
 <blockquote>
-<p>TypedQuery<User> query = em.createQuery( &ldquo;SELECT * FROM User  WHERE userid= &lsquo;&rdquo; + userId+ &ldquo;&rsquo;&rdquo;, User.class); User user= query.getSingleResult();</p>
+<p>TypedQuery<User> query = em.createQuery( &ldquo;SELECT * FROM User WHERE userid= &lsquo;&rdquo; + userId+ &ldquo;&rsquo;&rdquo;, User.class); User user= query.getSingleResult();</p>
 </blockquote>
 <p>All the vulnerabilities specified above are persistent in this Query. To avoid them we may write parameterized queries Similar to JDBC PreparedStatement, either by using Positional parameters or named Parameters</p>
 <p>‍<strong>Positional parameters</strong></p>

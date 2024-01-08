@@ -727,10 +727,10 @@ if (!doNotTrack) {
 <p>Monkey patching can make code more difficult to understand and maintain, leading to unexpected behavior and potential bugs.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">String</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">upcase</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># do nothing </span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># do nothing</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
-</span></span></code></pre></div><p>In the above example, we modify the built-in String class by  redefining the behavior of its <code>upcase</code> method to return nothing. This alteration has unintended consequences, as it will affect the outcome whenever the <code>upcase</code> method is invoked.</p>
+</span></span></code></pre></div><p>In the above example, we modify the built-in String class by redefining the behavior of its <code>upcase</code> method to return nothing. This alteration has unintended consequences, as it will affect the outcome whenever the <code>upcase</code> method is invoked.</p>
 <p>While monkey patching offers flexibility, it also introduces potential drawbacks:</p>
 <p><strong>Conflict Potential</strong>: In large codebases, multiple developers may modify the same method using monkey patching, leading to unexpected behavior and potential conflicts.</p>
 <p><strong>Upgrade Issues</strong>: Monkey patching third-party gems can cause issues when upgrading the gem, as the new version may conflict with the applied patches.</p>

@@ -751,10 +751,10 @@ By default, the test files are created in the cypress/e2e directory.</p>
 </ol>
 <p>Here&rsquo;s a simple example that tests the title of a web page.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">describe</span>(<span style="color:#e6db74">&#39;My First Test&#39;</span>, () =&gt; {
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">it</span>(<span style="color:#e6db74">&#39;Visits the  homepage and checks the title&#39;</span>, () =&gt; {
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">cy</span>.<span style="color:#a6e22e">visit</span>(<span style="color:#e6db74">&#39;https://example.com&#39;</span>);
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">cy</span>.<span style="color:#a6e22e">title</span>().<span style="color:#a6e22e">should</span>(<span style="color:#e6db74">&#39;contain&#39;</span>, <span style="color:#e6db74">&#39;Example Domain&#39;</span>);
-</span></span><span style="display:flex;"><span>    });
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">it</span>(<span style="color:#e6db74">&#39;Visits the  homepage and checks the title&#39;</span>, () =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">cy</span>.<span style="color:#a6e22e">visit</span>(<span style="color:#e6db74">&#39;https://example.com&#39;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">cy</span>.<span style="color:#a6e22e">title</span>().<span style="color:#a6e22e">should</span>(<span style="color:#e6db74">&#39;contain&#39;</span>, <span style="color:#e6db74">&#39;Example Domain&#39;</span>);
+</span></span><span style="display:flex;"><span>  });
 </span></span><span style="display:flex;"><span>});
 </span></span></code></pre></div><ol start="4">
 <li>

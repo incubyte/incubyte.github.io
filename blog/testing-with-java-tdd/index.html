@@ -725,59 +725,59 @@ if (!doNotTrack) {
 <h2 id="the-tdd-process-step-by-step">The TDD Process: Step by Step</h2>
 <p><strong>Let&rsquo;s walk through the TDD process by examining the code examples below:</strong></p>
 <h3 id="1-writing-the-first-test">1. Writing the First Test:</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> org.junit.Test; 
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import static</span> org.junit.Assert.*; 
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LeapYearTest</span> { 
-</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">@Test</span> 
-</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">test_is_leap_year_divisible_by_4</span>() { 
-</span></span><span style="display:flex;"><span>   assertTrue(LeapYear.<span style="color:#a6e22e">isLeapYear</span>(2020)); 
-</span></span><span style="display:flex;"><span>   } 
-</span></span><span style="display:flex;"><span>} 
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> org.junit.Test;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import static</span> org.junit.Assert.*;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LeapYearTest</span> {
+</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">@Test</span>
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">test_is_leap_year_divisible_by_4</span>() {
+</span></span><span style="display:flex;"><span>   assertTrue(LeapYear.<span style="color:#a6e22e">isLeapYear</span>(2020));
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h3 id="2-running-the-test">2. Running the Test:</h3>
-<p>After writing the test, it&rsquo;s crucial to execute it. Since the corresponding production code is yet to 	be implemented, we anticipate the test to fail initially.</p>
+<p>After writing the test, it&rsquo;s crucial to execute it. Since the corresponding production code is yet to be implemented, we anticipate the test to fail initially.</p>
 <h3 id="3-implementing-the-production-code">3. Implementing the Production Code:</h3>
 <p>Now, it&rsquo;s time to write the minimum code necessary to make the test pass.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LeapYear</span> { 
-</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">isLeapYear</span>(<span style="color:#66d9ef">int</span> year) { 
-</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">if</span> (year <span style="color:#f92672">%</span> 4 <span style="color:#f92672">==</span> 0) { 
-</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>; 
-</span></span><span style="display:flex;"><span>       }  
-</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span>; 
-</span></span><span style="display:flex;"><span>   } 
-</span></span><span style="display:flex;"><span>} 
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LeapYear</span> {
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">isLeapYear</span>(<span style="color:#66d9ef">int</span> year) {
+</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">if</span> (year <span style="color:#f92672">%</span> 4 <span style="color:#f92672">==</span> 0) {
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>       }
+</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span>;
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h3 id="4-rerunning-the-test">4. Rerunning the Test:</h3>
 <p>After implementing the production code, let’s rerun the test and ensure that it passes successfully.</p>
 <h3 id="5-expanding-test-coverage">5. Expanding Test Coverage:</h3>
 <p>To augment test coverage, we add more tests to encompass additional cases and edge conditions. Upon running all tests, we expect the newly added tests to fail initially as the updated logic to handle these cases hasn’t been implemented yet.</p>
 <p><strong>Test is leap year divisible by 100 but not by 400:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@Test</span> 
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">test_is_leap_year_divisible_by_100_but_not_by_400</span>() { 
-</span></span><span style="display:flex;"><span>assertFalse(LeapYear.<span style="color:#a6e22e">isLeapYear</span>(1900)); 
-</span></span><span style="display:flex;"><span>} 
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@Test</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">test_is_leap_year_divisible_by_100_but_not_by_400</span>() {
+</span></span><span style="display:flex;"><span>assertFalse(LeapYear.<span style="color:#a6e22e">isLeapYear</span>(1900));
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>Test is leap year divisible by 4 but not by 100:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@Test</span> 
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">test_is_leap_year_divisible_by_4_but_not_by_100</span>() { 
-</span></span><span style="display:flex;"><span>assertTrue(LeapYear.<span style="color:#a6e22e">isLeapYear</span>(2008)); 
-</span></span><span style="display:flex;"><span>} 
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@Test</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">test_is_leap_year_divisible_by_4_but_not_by_100</span>() {
+</span></span><span style="display:flex;"><span>assertTrue(LeapYear.<span style="color:#a6e22e">isLeapYear</span>(2008));
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>Test is not a leap year:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@Test</span> 
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">test_is_leap_year_not_divisible_by_4</span>() { 
-</span></span><span style="display:flex;"><span>assertFalse(LeapYear.<span style="color:#a6e22e">isLeapYear</span>(2017)); 
-</span></span><span style="display:flex;"><span>} 
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@Test</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">test_is_leap_year_not_divisible_by_4</span>() {
+</span></span><span style="display:flex;"><span>assertFalse(LeapYear.<span style="color:#a6e22e">isLeapYear</span>(2017));
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h3 id="6-updating-the-production-code">6. Updating the Production Code:</h3>
 <p>Let’s Refactor the production code to accommodate the new test cases and ensure that all tests pass.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LeapYear</span> { 
-</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">isLeapYear</span>(<span style="color:#66d9ef">int</span> year) { 
-</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">if</span> (year <span style="color:#f92672">%</span> 400 <span style="color:#f92672">==</span> 0) { 
-</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>; 
-</span></span><span style="display:flex;"><span>       } <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (year <span style="color:#f92672">%</span> 100 <span style="color:#f92672">==</span> 0) { 
-</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span>; 
-</span></span><span style="display:flex;"><span>       } <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (year <span style="color:#f92672">%</span> 4 <span style="color:#f92672">==</span> 0) { 
-</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>; 
-</span></span><span style="display:flex;"><span>       } 
-</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span>; 
-</span></span><span style="display:flex;"><span>   } 
-</span></span><span style="display:flex;"><span>} 
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LeapYear</span> {
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">isLeapYear</span>(<span style="color:#66d9ef">int</span> year) {
+</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">if</span> (year <span style="color:#f92672">%</span> 400 <span style="color:#f92672">==</span> 0) {
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>       } <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (year <span style="color:#f92672">%</span> 100 <span style="color:#f92672">==</span> 0) {
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span>;
+</span></span><span style="display:flex;"><span>       } <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (year <span style="color:#f92672">%</span> 4 <span style="color:#f92672">==</span> 0) {
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>       }
+</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span>;
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h3 id="7-rerunning-all-tests">7. Rerunning All Tests:</h3>
 <p>We re-run all the tests to verify that the code handles all scenarios correctly.</p>
 <h2 id="benefits-of-test-driven-development">Benefits of Test-Driven Development:</h2>
