@@ -11,7 +11,6 @@ title = "Why Incubyte?"
 type = "featured"
 +++
 
-
 Quality is usually an implicit requirement when it comes to developing software. Users ask for a beautiful UI, outstanding performance, and the functionality they need, but quality is never on the list - it is just expected! And because it is so, it is often overlooked. Users end up getting only what was explicitly stated.
 
 Incubyte's goal is to focus equally on the implicit aspects of software development, that include better scalability, maintainability, testability and security.
@@ -29,4 +28,3 @@ Most developers end up developing software for machines. When they start develop
 None of the quality we talk about is possible without continuous learning and upskilling. People that acknowledge this, make a conscious effort to grow the depth and breadth of their skillset. This not only reflects in the work done, but also in more effective pairing sessions, educative lightning talks and stimulating conversations.
 
 These are the teams and the people at Incubyte and they help create quality products, happy users and satisfied clients.
-

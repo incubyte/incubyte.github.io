@@ -1,3 +1,3 @@
 ---
-    url: blog
+url: blog
 ---

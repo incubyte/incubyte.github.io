@@ -46,7 +46,7 @@ Once you can see others making mistakes, you feel safer making mistakes too!
 
 Pairing, a practice in extreme programming and a type of co-creation allows team members to collaborate in coding activities, simultaneously seeing and accepting each other's mistakes. It has a high impact on psychological safety.
 
->  When you co-create more, you start to feel psychologically safer.
+> When you co-create more, you start to feel psychologically safer.
 
 {{< figure src="/images/2023/psych-safety-1.jpg" >}}
 
@@ -57,12 +57,12 @@ The diagram above shows this cycle:
 - **The more you accept mistakes,** own and of others, the more everyone feels psychologically safe
 - **The more everyone feels safe,** the more they co-create. The loop continues.
 
-
 ## Reduce Batch Size to Increase Safety!
 
 Kent Beck famously said, **“Make it work, make it right, make it fast.”** (In that order!).
 
 A piece of code evolves as follows:
+
 1. It first solves a specific problem.
 1. It is then refactored to be maintainable.
 1. If necessary, it is changed to perform better.
@@ -78,7 +78,6 @@ Now, imagine you are continuously releasing small, incremental changes. You are 
 By draft PRs, teams are encouraged to see how code evolves from mediocre to “perfect,” i.e., seeing a piece of code go through multiple iterations. The developers also reduce the batch size by showcasing their work early and frequently.
 
 {{< figure src="/images/2023/psych-safety-2.jpg" >}}
-
 
 The diagram above shows this cycle:
 
@@ -97,12 +96,11 @@ Combining both system diagrams gives you a better understanding of the levers or
 - Higher psychological safety leads to a willingness to receive mentorship and improve technical competency.
 
 ## Conclusion
+
 Overlooking psychological safety leads to many consequences in different areas of a company. Unsafe employees feel unfulfilled and contribute to work poorly, affecting an organization's quality of work and customer happiness.
 
 As a first step, team leaders can lead by example. Acknowledging mistakes and actively seeking and implementing feedback is how you instill confidence in others to do the same.
 
 This slowly moves the needle towards creating a productive and harmonious work environment where nobody feels penalized for making mistakes or restricted from sharing what's on their mind.
 
-
-*Thanks to [Dragan Stepanovic](https://www.linkedin.com/in/dstepanovic/) for the inspiration for this blog.*
-
+_Thanks to [Dragan Stepanovic](https://www.linkedin.com/in/dstepanovic/) for the inspiration for this blog._

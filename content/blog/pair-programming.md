@@ -11,7 +11,6 @@ categories = ["Software Craftsmanship", "Best Practices", "SDLC"]
 type = ""
 +++
 
-
 Have you ever come across a bug that had complex logic, and was incredibly hard to fix? You are trying to chase this bug for more than several hours, but all you have is frustration and a bit of self-doubt. Now imagine you find another developer to work with you, possibly the original authors! You request her to pair with you and, swoosh, the bug gets fixed!
 
 Two brains are (obviously) better than one and getting ideas from one another increases your chances of producing more effective solutions. You would believe this while working on complex or highly escalated issues then why not when creating and innovating new software?
@@ -140,7 +139,7 @@ Similar to Ping-Pong approach this also prevents disengagement while also allowi
 
 ### Strong Style Pairing
 
-"_For an idea to go from your head into the computer it \*must\* go through someone else's hands - [_Llewellyn Falco_](http://llewellynfalco.blogspot.com/2014/06/llewellyns-strong-style-pairing.html)_"
+"_For an idea to go from your head into the computer it \*must\* go through someone else's hands - [\_Llewellyn Falco_](http://llewellynfalco.blogspot.com/2014/06/llewellyns-strong-style-pairing.html)_"
 
 This quote very briefly sums up Strong Style pairing. In this approach the navigator will explain her/his ideas for the solution, in higher levels of abstraction. The driver will interpret these and implement it. If the driver has her/his own ideas, roles are switched and the process continues.
 

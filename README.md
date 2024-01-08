@@ -30,12 +30,15 @@ git clone --recurse-submodules https://github.com/incubyte/incubyte.github.io.gi
 cd incubyte.github.io
 hugo server -D
 ```
+
 The blog should now be live at http://localhost:1313
 
 To add a new article
+
 ```bash
 hugo new blog/article-name.md`
 ```
+
 If you are adding images make sure they are optimized, we suggest something like `https://squoosh.app/`, images are stored in `static/images`
 
 Commit in a new branch and create PR against `main` branch

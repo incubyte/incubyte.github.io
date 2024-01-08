@@ -1,7 +1,7 @@
 ---
 title: Abhishek Keshri
-image:  '/authors/abhishek-keshri/abhishek.jpg'
-subtitle: "Software Craftsperson @Incubyte 💼 | Learner 📚 | Maker 👨🏻‍💻 | Explorer 🔎"
+image: '/authors/abhishek-keshri/abhishek.jpg'
+subtitle: 'Software Craftsperson @Incubyte 💼 | Learner 📚 | Maker 👨🏻‍💻 | Explorer 🔎'
 ---
 
 Passion Driven Software Craftsperson with a strong affinity for OSS and the CLI.

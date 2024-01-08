@@ -11,12 +11,11 @@ title = "How to contribute to open-source project: A beginner's guide"
 
 +++
 
-
-Are you a first-time contributor?  Are you wondering how to start contributing to OSS? Well, this guide is made for you. Hopefully, you are reading this because you are looking to take the first step toward making an open-source contribution! You’ve been using multiple Open-Source projects and have read many articles, including [this](/benefits-and-challenges-of-open-source-development/) introduction to Open-Source Software. You’ve been sold on the idea and can’t wait to start! Only, how do you even begin? How do you decide on the right project? What happens if something goes wrong? This can be a bit intimidating at first. No need to worry though.
+Are you a first-time contributor? Are you wondering how to start contributing to OSS? Well, this guide is made for you. Hopefully, you are reading this because you are looking to take the first step toward making an open-source contribution! You’ve been using multiple Open-Source projects and have read many articles, including [this](/benefits-and-challenges-of-open-source-development/) introduction to Open-Source Software. You’ve been sold on the idea and can’t wait to start! Only, how do you even begin? How do you decide on the right project? What happens if something goes wrong? This can be a bit intimidating at first. No need to worry though.
 
 There is a myriad of ways to start contributing. Let’s dive right in then.
 
-**Step 0:  Preparation**
+**Step 0: Preparation**
 
 First, let’s get this one thing clear: You don’t need to know coding to contribute to OSS Project. You can work on documentation projects or contribute using your design, communication, and guiding abilities! Here is a list of such Open-Source projects [link](https://github.com/szabgab/awesome-for-non-programmers)
 
@@ -86,8 +85,7 @@ Congratulations on your first PR!
 
 Skip to a couple of months ahead of your first OSS contribution, you’re now an experienced contributor. You don’t look for “Beginner Issues” anymore and you even find bugs and solve them yourselves. You’ve come a long way from where you began and now, you’re wondering what’s next.
 
-* For student developers, there are many programs to encourage OSS contributions. One such is [Google Summer of Code](https://summerofcode.withgoogle.com/) where students work on a 10-week programming project, giving them experience in real-world software development with an Open-Source organization.
-* [Outreachy](https://www.outreachy.org/) is yet another program with a unique aim to provide internships to work on Open-Source projects for a diverse community of people subjected to structural bias in the tech industry.
+- For student developers, there are many programs to encourage OSS contributions. One such is [Google Summer of Code](https://summerofcode.withgoogle.com/) where students work on a 10-week programming project, giving them experience in real-world software development with an Open-Source organization.
+- [Outreachy](https://www.outreachy.org/) is yet another program with a unique aim to provide internships to work on Open-Source projects for a diverse community of people subjected to structural bias in the tech industry.
 
 Do you have a project that other people can also benefit from? Do you still feel that your project has room for growth? You don't have to do it alone. Make your project Open Source! Add an Open-Source license to it, automate tests and builds with CI/CD pipelines. Add your README to explain why your project is useful, what wonders it does and how people can use it. Create CONTRIBUTION guidelines with respect to the standards you want to be followed in your repository. Connect with a wider community of users and contributors while building something you love.
-

@@ -78,4 +78,3 @@ Understanding the distinction between `dup` and `deep_dup` is vital for avoiding
 While `dup` creates a shallow copy, retaining references to nested attributes, `deep_dup` ensures a complete duplication, safeguarding against unintended side effects.
 
 Choosing the appropriate method based on the depth of your data structure is key to maintaining the integrity of your objects.
-

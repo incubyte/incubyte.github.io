@@ -11,7 +11,6 @@ title = "Working at Incubyte"
 
 +++
 
-
 At Incubyte we strongly believe in finding the right talent, helping them to unleash their maximum capacity, and then getting out of their way to let them do what they do best.
 
 The people who make us what we are, are a group of super-passionate individuals who are proud of the way they work. These highly driven individuals own the whole DevOps pipeline and are evangelists of extreme programming principles.
@@ -63,4 +62,3 @@ The Company holds each one of its employees to an extremely high standard on per
 11. Laptop hardware is provided to all our employees as per their configuration need
 
 12. Welcome Kit with Incubyte merchandise
-

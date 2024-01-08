@@ -9,7 +9,6 @@ tags = ["Modernization", "Book Review"]
 title = "Accelerate: Metrics that Define High-Performance Software Delivery"
 +++
 
-
 Accelerate by Nicole Forsgren, Jez Humble, and Gene Kim was released in 2018, and it changed how I think about software delivery.
 
 Who really is responsible for the software delivery business or engineering? The book summarizes years of research of the State of DevOps Reports and presents four key metrics to measure software delivery performance. Each measure balances the other in such a way that an organization can perform well only if business and engineering work hand in hand, and it's hard for someone to cheat the system!
