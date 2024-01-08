@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 04 Dec 2023 15:43:57 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 28 Dec 2023 17:48:58 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/categories/software-craftsmanship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Standup Meeting Playbook</title>
+      <link>https://blog.incubyte.co/blog/standup/</link>
+      <pubDate>Thu, 28 Dec 2023 17:48:58 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/standup/</guid>
+      <description>The &amp;ldquo;Standup meeting&amp;rdquo; or &amp;ldquo;Daily Scrum&amp;rdquo; that everyone does religiously just for the sake of calling themselves &amp;ldquo;Agile.</description>
+    </item>
     <item>
       <title>Introduction to Systems Thinking and Escaping Common System Traps</title>
       <link>https://blog.incubyte.co/blog/introduction-to-systems-thinking/</link>
@@ -147,8 +154,7 @@
       <link>https://blog.incubyte.co/blog/devops-assessment/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/devops-assessment/</guid>
-      <description>Hello there, Welcome to the Incubyte DevOps Assessment!
-Through this assessment, we want to evaluate how well you can work with CI/CD tools across the board.</description>
+      <description>Hello there, Welcome to the Incubyte DevOps Assessment!&#xA;Through this assessment, we want to evaluate how well you can work with CI/CD tools across the board.</description>
     </item>
     <item>
       <title>Pair Programming — How it works!</title>
@@ -162,8 +168,7 @@ Through this assessment, we want to evaluate how well you can work with CI/CD to
       <link>https://blog.incubyte.co/blog/tdd-assessment/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/tdd-assessment/</guid>
-      <description>Hello there and welcome to the Incubyte TDD Kata!
-This assessment is the first step in our recruiting process and will be followed by two pair programming/discussion sessions.</description>
+      <description>Hello there and welcome to the Incubyte TDD Kata!&#xA;This assessment is the first step in our recruiting process and will be followed by two pair programming/discussion sessions.</description>
     </item>
     <item>
       <title>Ideas for Successful Agile Teams</title>

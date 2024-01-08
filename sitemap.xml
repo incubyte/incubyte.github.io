@@ -3,33 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2023-12-04T15:43:57+05:30</lastmod>
+    <lastmod>2023-12-28T17:48:58+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2023-12-04T15:43:57+05:30</lastmod>
+    <lastmod>2023-12-28T17:48:58+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/authors/aditya-sapate/</loc>
-    <lastmod>2023-12-04T15:43:57+05:30</lastmod>
+    <loc>https://blog.incubyte.co/authors/akshay-vadher/</loc>
+    <lastmod>2023-12-28T17:48:58+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/</loc>
-    <lastmod>2023-12-04T15:43:57+05:30</lastmod>
+    <lastmod>2023-12-28T17:48:58+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/</loc>
+    <lastmod>2023-12-28T17:48:58+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/daily-scrum/</loc>
+    <lastmod>2023-12-28T17:48:58+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/meeting/</loc>
+    <lastmod>2023-12-28T17:48:58+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/playbook/</loc>
+    <lastmod>2023-12-28T17:48:58+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/playbook/</loc>
+    <lastmod>2023-12-28T17:48:58+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
+    <lastmod>2023-12-28T17:48:58+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
+    <lastmod>2023-12-28T17:48:58+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/standup/</loc>
+    <lastmod>2023-12-28T17:48:58+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/</loc>
+    <lastmod>2023-12-28T17:48:58+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/aditya-sapate/</loc>
     <lastmod>2023-12-04T15:43:57+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/introduction-to-systems-thinking/</loc>
     <lastmod>2023-12-04T15:43:57+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
-    <lastmod>2023-12-04T15:43:57+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
-    <lastmod>2023-12-04T15:43:57+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/tags/systems-thinking/</loc>
-    <lastmod>2023-12-04T15:43:57+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/</loc>
     <lastmod>2023-12-04T15:43:57+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/cypress-guide/</loc>
@@ -104,9 +122,6 @@
     <loc>https://blog.incubyte.co/blog/software-modernization-for-legacy-software/</loc>
     <lastmod>2023-10-05T00:10:46+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/authors/akshay-vadher/</loc>
-    <lastmod>2023-09-27T15:48:02+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/tags/best-practices/</loc>
     <lastmod>2023-09-27T15:48:02+05:30</lastmod>
   </url><url>
@@ -168,12 +183,6 @@
     <lastmod>2023-07-27T20:04:38+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/nirav-chavda/</loc>
-    <lastmod>2023-07-27T20:04:38+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/playbook/</loc>
-    <lastmod>2023-07-27T20:04:38+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/playbook/</loc>
     <lastmod>2023-07-27T20:04:38+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/refactoring-to-tidying/</loc>

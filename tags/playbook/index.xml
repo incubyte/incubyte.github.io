@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2022 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 27 Jul 2023 20:04:38 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 28 Dec 2023 17:48:58 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/tags/playbook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Standup Meeting Playbook</title>
+      <link>https://blog.incubyte.co/blog/standup/</link>
+      <pubDate>Thu, 28 Dec 2023 17:48:58 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/standup/</guid>
+      <description>The &amp;ldquo;Standup meeting&amp;rdquo; or &amp;ldquo;Daily Scrum&amp;rdquo; that everyone does religiously just for the sake of calling themselves &amp;ldquo;Agile.</description>
+    </item>
     <item>
       <title>Chandrayaan 3 TDD Assessment</title>
       <link>https://blog.incubyte.co/blog/chandrayaan-3-tdd-assessment/</link>
