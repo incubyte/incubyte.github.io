@@ -1,5 +1,5 @@
 ---
 # meta description
 draft: false
-url: "/"
+url: '/'
 ---

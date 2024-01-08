@@ -1,7 +1,6 @@
 ---
 title: Akshay Vadher
 image: '/authors/akshay-vadher/akshay-vadher.jpg'
-
 ---
 
 <img src="/authors/akshay-vadher/akshay-vadher.jpg" alt="Akshay Vadher profile" width="150"/>

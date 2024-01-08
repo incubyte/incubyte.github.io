@@ -25,7 +25,7 @@ Over breakfast, while chewing on a piece of bread I remember thinking to myself 
 
 I quickly set up the Rails API only project.
 
-*Rails is a web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.*
+_Rails is a web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern._
 
 ```bash
 To start a new rails api only project
@@ -150,6 +150,7 @@ I did not want to revisit the realization of it being "too late".
 Never underestimate the impact just a few minutes of planning can make.
 
 Did some research and found out the basic checks my code was supposed to pass for optimum results.
+
 - [x] Fulfill Requirements without errors.
 - [x] The code should be maintainable and scalable.
 - [x] The code should adhere to the Single Responsibility Principle(SRP).
@@ -250,7 +251,9 @@ class Repository
     end
 end
 ```
+
 ### Simplicity is key
+
 Where should I start first? Model specs, Controller specs, Runner specs, or Repository Specs? This question has to be responded to every time a new resource or functionality is addressed.
 
 In 1952, William Edmund Hick and Ray Hyman a pair of psychologists experimented to examine the relationship between the number of stimuli present and an individual’s reaction time to any given stimulus. The result was obvious, the more options the user had to choose from, the longer it took them to decide on which one to interact with.
@@ -279,10 +282,10 @@ $ rspec
 running the above specification resulted in the error
 
 RED:
-  1) Todos with valid request attributes will create a Todo and return 201 
+  1) Todos with valid request attributes will create a Todo and return 201
      Failure/Error: post '/todos', params: {title: "Todo-1", description:'First todo' }, as: :json
 
-     ActionController::RoutingError:     
+     ActionController::RoutingError:
 
 I need not ponder what to do next as the spec failure suggested what needed fixing.
 
@@ -301,7 +304,7 @@ Running the test after fixing it resulted in another error that reads
 
      ActionController::RoutingError:
        uninitialized constant TodosController
- ```
+```
 
 The fix would be to add a new controller but according to Test driven development, we need to have the test file before the Controller itself.
 I created a new folder in the spec directory and named it `controllers` and added a spec file and named it `todos_controller_spec.rb`
@@ -338,6 +341,7 @@ GREEN:
         end
     end
 ```
+
 Run the tests
 
 ```ruby
@@ -385,6 +389,7 @@ GREEN:
         @runner.create_todo
     end
 ```
+
 ```ruby
 
 $ rspec
@@ -406,11 +411,12 @@ GREEN:
     end
 
 ```
+
 ```ruby
 $ rspec
 
 RED:
-  1) Todos with valid request attributes will create a Todo and return 201 
+  1) Todos with valid request attributes will create a Todo and return 201
      Failure/Error: @runner.create_todo(todo_params)
 
      NoMethodError:
@@ -476,6 +482,7 @@ GREEN:
     Created new file todos_runner.rb in runners folder of app directory.
 
 ```
+
 ```ruby
 $ rspec
 RED:
@@ -490,6 +497,7 @@ GREEN:
 
     end
 ```
+
 ```ruby
 $ rspec
 
@@ -508,6 +516,7 @@ GREEN:
 
     end
 ```
+
 ```ruby
 $ rspec
 
@@ -604,6 +613,7 @@ GREEN:
         @repo.save_todo(todo)
     end
 ```
+
 ```ruby
 Failing Test Case:
         it " calls save_todo to save initialized todo and returns created" do

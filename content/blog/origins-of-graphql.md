@@ -37,7 +37,7 @@ A GraphQL schema is an acyclic-directed graph containing types(node), representi
 
 Invention arises from idleness, possibly also from laziness to save oneself from trouble - <em>Agatha Christie</em>
 
-But, every invention is attributed to the need of the context of its times. 
+But, every invention is attributed to the need of the context of its times.
 
 Had people been both idle and lazy, GraphQL would have been developed long time before facebook had faced the challenge of transferring large amount of data between client and server, with its mobile application.
 
@@ -46,10 +46,10 @@ Had people been both idle and lazy, GraphQL would have been developed long time 
 **SOAP**(Simple Objects Access Protocol) — It was developed in late 1990s as an alternative for RPC. Supports only XML for sending and receiving requests and responses with large file sizes of XML the bandwidth required is large. Built in security can add to its complexity can make it slow.
 
 **REST**(Representational State Transfer) — It was first introduced in 2000 by Roy Fielding. The REST architectural style was designed to be a more flexible and scalable alternative of SOAP. REST provides server-side data available in the simple format of JSON with standard HTTP methods(GET, POST, PUT, DELETE). Although it is widely used for its decoupled, stateless, cache-friendly architecture it has few strain points.
-  1. Over fetching — It takes a lot less time to fetch the 3 fields we need than to fetch the object with all the 20 keys.
-  2. Under fetching — Hit more endpoints and make many requests rather than fetching everything in a single request.
-  3. May add new route — Dev time may increase in doing so instead of adding a type or field as in GraphQL
 
+1. Over fetching — It takes a lot less time to fetch the 3 fields we need than to fetch the object with all the 20 keys.
+2. Under fetching — Hit more endpoints and make many requests rather than fetching everything in a single request.
+3. May add new route — Dev time may increase in doing so instead of adding a type or field as in GraphQL
 
 **GraphQL**: GraphQL is a query language for your APIs. It’s also a runtime for fulfilling queries with your data. The GraphQL service is transport agnostic but is typically served over HTTP. With GraphQL, our clients can get all the data they need in one request.
 

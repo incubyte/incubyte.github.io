@@ -50,7 +50,7 @@ if(need to update){
 }
 ```
 
-Code like the example above soon becomes more complex, growing in depth and breadth, which means these methods tend to get longer and more nested with logic.  
+Code like the example above soon becomes more complex, growing in depth and breadth, which means these methods tend to get longer and more nested with logic.
 
 One such method in the Elasticsearch hotspot was the following:
 
@@ -59,7 +59,6 @@ One such method in the Elasticsearch hotspot was the following:
 ## Extract to Improve
 
 To increase code readability and maintainability, it is easier to start extracting methods, i.e., copying a part of the nested code and creating a new method. Most IDEs support this process fully automatically, meaning extracting a method is low-risk and free of manual operations.
-
 
 {{< figure src="/images/2023/codescene_refactoring/refactor-gif.gif" >}}
 
@@ -75,5 +74,4 @@ Consequently, a more modular version of the code tends to suggest further refact
 
 ## Conclusion
 
-As the saying goes, small changes garner big wins. Similarly, in code, the compounding effect of refactoring is evident in healthy code quality over time. Just think of it as simplifying complex code to enhance readability, benefiting both present and future developer teams. 
-
+As the saying goes, small changes garner big wins. Similarly, in code, the compounding effect of refactoring is evident in healthy code quality over time. Just think of it as simplifying complex code to enhance readability, benefiting both present and future developer teams.

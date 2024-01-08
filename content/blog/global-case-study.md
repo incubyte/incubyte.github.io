@@ -26,4 +26,3 @@ card_2_slug="monnai-case-study"
 +++
 
 Making Mental Healthcare Accessible and Providing a Personalized Customer Experience
-
