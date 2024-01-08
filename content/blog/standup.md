@@ -20,7 +20,7 @@ The name does not matter; you can call it anything. I like to call it a “Huddl
 If we look at the [Agile Manifesto](https://agilemanifesto.org/), it does not describe how to manage your project.
 However, two methodologies come to our mind:
 
-1. [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)), which is the most popular; The "Daily Scrum" comes from that.
+1. [Scrum](<https://en.wikipedia.org/wiki/Scrum_(software_development)>), which is the most popular; The "Daily Scrum" comes from that.
 2. [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) is considered to be the best implementation of Agile.
 
 Although terms like "Standup meeting," "Daily Sync meeting," "Daily Scrum," and others may have distinct definitions, we should
@@ -42,7 +42,7 @@ Usually, every day. However, if all the stakeholders interact frequently and do 
 
 ##### Q: Where?
 
-Anywhere the whole team is comfortable. Physical or remote, does not matter. 
+Anywhere the whole team is comfortable. Physical or remote, does not matter.
 
 If you are conducting it remotely, always have videos on.
 You want to talk to humans, not animated figures!
@@ -60,11 +60,11 @@ can do it anytime.
 
 ##### Q: How granular?
 
-Remember, it is for the team. Your updates should be at the right level so everyone can understand and contribute to the project goal.
+Remember, it is for the team. Your updates should be at the right level, so everyone can understand and contribute to the project goal.
 
 ##### Q: Duration?
 
-Ideally, a maximum of 15 minutes. Every team member should speak for only 2 or 3 minutes. If there are too many participants and the meeting cannot be concluded in a 15-minute timeframe, it is a different problem. Ideally in such cases, divide the
+Ideally, a maximum of 15 minutes. Every team member should speak for only 2 or 3 minutes. If there are too many participants, and the meeting cannot be concluded in a 15-minute timeframe, it is a different problem. Ideally in such cases, divide the
 team instead of shortening individuals' time or increasing the duration of the standup meetings.
 
 ##### Q: Should I be standing up?
@@ -75,7 +75,7 @@ Since the goal is to keep the meeting short, adopting a psychological approach, 
 
 If you are married to the process of Scrum, then sure. But, if your focus is on Agile values, you don't need to.
 
-I disagree with the concept of having a Scrum master. The word master is terrible anyway. 
+I disagree with the concept of having a Scrum master. The word master is terrible anyway.
 It also brings all the micromanagement, like tracking the burndown chart like a hawk.
 I have seen very bad standups where a "scrum master" will go through all the issues on the board and ask everyone for a status.
 
@@ -100,7 +100,7 @@ These are just the people who know how to conduct the meeting effectively.
 
 After the Agile coach/mentor moves on, one of the team members steps up as the facilitator, playing a role akin to an internal Agile coach/mentor. They kick things off and ensure a smooth exchange of the baton. Avoid sticking with a single facilitator; keep the rotation going among team members.
 
-This goes without saying but you don't need a facilitator if you think your team is mature enough to handle things.
+This goes without saying, but you don't need a facilitator if you think your team is mature enough to handle things.
 
 ##### Q: What order?
 
@@ -166,9 +166,9 @@ Now you might have a question-
 
 ##### But we work only remotely, and this is the only time the whole team is together; I would want it to last a little longer and combine other things.
 
-Even in that case, keep the standup time shorter. Do other things after officially concluding standup. You can wear a different hat after that. 
+Even in that case, keep the standup time shorter. Do other things after officially concluding standup. You can wear a different hat after that.
 
-Remember, the standup should be completed on time in a short duration. 
+Remember, the standup should be completed on time in a short duration.
 The meeting or call can be extended with the same or different participants.
 
 ##### Too many updates
@@ -187,7 +187,7 @@ Number of updates or time you take to update others is not a measure of success 
 If you have another way to get the project status, then it is okay to not have a board.
 However, having incorrect status for tasks/stories is not a good reason not to have a board.
 
-Always keep your tasks/stories updated with the latest status as soon as you make progress. 
+Always keep your tasks/stories updated with the latest status as soon as you make progress.
 Don't wait for standup to update those.
 
 It is always better to have some visual representation than not having any.
