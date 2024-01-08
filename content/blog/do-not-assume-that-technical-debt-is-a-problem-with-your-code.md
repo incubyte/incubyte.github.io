@@ -30,4 +30,3 @@ So, what can you do to reduce technical debt? Of course, fixing important things
 4. **Prioritize your debt**; developers don't have to pay off all the debt. "Software Design X-Rays" by Adam Tornhill is an excellent book on this subject.
 
 Finally, this is not an exhaustive list. Instead, it is meant for us to think about what causes technical debt and to create a strategy to eliminate the root cause, not just the debt created. Always remember, cleaning things takes a lot more time as compared to messing them up. Thus, it is crucial to stop the leakages right at the source.
-

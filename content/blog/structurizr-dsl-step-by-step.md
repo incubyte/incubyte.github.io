@@ -9,7 +9,6 @@ title = "Structurizr DSL Step by Step"
 
 +++
 
-
 In this tutorial, we will go through a step by step instruction of building architecture diagram of a very simpleeCommerce system.As we build the diagrams, we will also familiarize ourselves with four "Cs" of C4 diagrams.Let us start with creating a free account of Structurizr. Once you have done that, Structurizr will create one free workspace for you. To get started quickly, you can navigate to the URL that looks like the following._https://structurizr.com/workspace/6***7/dsl_
 
 The hidden number is your workspace ID. The screen will look something like the following.
@@ -208,4 +207,3 @@ workspace "Getting Started" "This is a model of my software system." {
 ```
 
 The 4th `C` of the system is `Code` and we are not going to jump into it in this tutorial. Now you are ready to go to your dashboard and navigate to your diagram's presentation mode. This will start displaying the diagram in full screen, and note that you can interact with the diagram components. Try double-clicking on the blue box of the eCommerce software system, and the diagram should navigate to a new page to display the containers.This tutorial should now get you started to develop your own diagrams with the help of the [DSL references documentation](_docs/language-reference.md_).
-

@@ -11,8 +11,7 @@ title = "Not All Tests are the Same"
 
 +++
 
-
-On multiple occasions, I have worked on projects where I learned how critical  testing is and that not all tests are the same.
+On multiple occasions, I have worked on projects where I learned how critical testing is and that not all tests are the same.
 
 They differ from each other in at least two ways, speed of execution and risk of failure.
 
@@ -49,4 +48,3 @@ This scoring finally should be arranged in a matrix like the following image.
 {{< figure src="/images/2021/01/Pasted-image-20210123205213.png" >}}
 
 The product of these two measures gives you a _Risk Score_ for each of the test cases. For example, you may decide to prioritize every test case that gets a score of 12 and higher. These test cases are the high impact, high likelihood ones that must pass even before the alpha version of a product comes out, giving the alpha version a certain basic stability while ensuring an early rollout.
-

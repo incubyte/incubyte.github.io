@@ -71,11 +71,11 @@ Writing tests is often seen as something which takes a lot of time and doesn’t
 However, that’s far from the truth, writing tests unravels many aspects we would have not uncovered otherwise.
 A good test suite could be a challenge to write, but the F.I.R.S.T. principle can help us out:
 
-* Fast – Tests should run fast. If they are slow, nobody would want to run them.
-* Independent – Each test should be independent of other tests, and they should be isolated enough to be run individually.
-* Repeatable – They should be environment-independent. Should run on dev, prod, QA, etc.
-* Self-Validating – The test should either pass or fail. Anything in between means more time would be wasted on reading log messages.
-* Timely – Unit tests should be written before writing the production code. Tests serve their purpose only when written in a timely manner.
+- Fast – Tests should run fast. If they are slow, nobody would want to run them.
+- Independent – Each test should be independent of other tests, and they should be isolated enough to be run individually.
+- Repeatable – They should be environment-independent. Should run on dev, prod, QA, etc.
+- Self-Validating – The test should either pass or fail. Anything in between means more time would be wasted on reading log messages.
+- Timely – Unit tests should be written before writing the production code. Tests serve their purpose only when written in a timely manner.
 
 Core learning: Having a good test suit is important.
 
@@ -85,12 +85,12 @@ Coding is hard enough without concurrency.
 It has its unique challenges – complexity, overhead, non-repeatability of bugs, etc. and as such it requires a fundamental change in the design strategy.
 That being said, some principles must be followed if we want to include concurrency in our system:
 
-* Single Responsibility Principle – Keep concurrent code separate from non-concurrent code
-* Encapsulation – Limit access to the shared data
-* Know the Library – Understand the concurrency library inside-out
-* Keep It Simple, Silly – Make sure that non-concurrent code runs and functions properly first
-* Platforms – Run your concurrent code on different platforms
-* Go back to the basics – Problems like Consumer-Producer, Dining Philosophers, and Reader-Writers are a good start for selecting an execution method for concurrent code
+- Single Responsibility Principle – Keep concurrent code separate from non-concurrent code
+- Encapsulation – Limit access to the shared data
+- Know the Library – Understand the concurrency library inside-out
+- Keep It Simple, Silly – Make sure that non-concurrent code runs and functions properly first
+- Platforms – Run your concurrent code on different platforms
+- Go back to the basics – Problems like Consumer-Producer, Dining Philosophers, and Reader-Writers are a good start for selecting an execution method for concurrent code
 
 Core learning: Follow best practices.
 

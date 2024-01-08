@@ -11,9 +11,6 @@ title = "Do not Fall for faux agile"
 
 +++
 
-
-
-
 Enough ink is already spilled on this topic, nevertheless talking about it once again may not hurt.
 
 A team that is adopting agile must adopt its underlying spirit.
@@ -40,12 +37,9 @@ Teams should embrace other software development tools and practices too, a few t
 
 Finally, here are the values of Agile from the Agile Manifesto
 
-
-
-* _Individuals and interactions over processes and tools_
-* _Working software over comprehensive documentation_
-* _Customer collaboration over contract negotiation_
-* _Responding to change over following a plan_
+- _Individuals and interactions over processes and tools_
+- _Working software over comprehensive documentation_
+- _Customer collaboration over contract negotiation_
+- _Responding to change over following a plan_
 
 _That is, while there is value in the items on the right, we value the items on the left more._
-

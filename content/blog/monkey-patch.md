@@ -31,9 +31,11 @@ sound = Sound.new
 sound.car #=> honnnnnk...
 sound.bike #=> peep-peep
 ```
+
 In the above code snippet, we reopen Sound class to add a new method. This way we can override the existing method of the original class.
 
 #### When to Use Monkey Patching
+
 Usually, programmers implement this technique when they need to add a quick fix. This could be adding functionality to existing code or replacing code for testing when modifying source code is impractical.
 
 1. When you encounter a bug in a gem or library without an available patch or fix, you can temporarily address it within your own codebase using monkey patching.
@@ -47,11 +49,12 @@ Monkey patching can make code more difficult to understand and maintain, leading
 ```ruby
 class String
   def upcase
-    # do nothing 
+    # do nothing
   end
 end
 ```
-In the above example, we modify the built-in String class by  redefining the behavior of its `upcase` method to return nothing. This alteration has unintended consequences, as it will affect the outcome whenever the `upcase` method is invoked.
+
+In the above example, we modify the built-in String class by redefining the behavior of its `upcase` method to return nothing. This alteration has unintended consequences, as it will affect the outcome whenever the `upcase` method is invoked.
 
 While monkey patching offers flexibility, it also introduces potential drawbacks:
 
@@ -71,7 +74,6 @@ While monkey patching offers flexibility, it also introduces potential drawbacks
 
 #### Conclusion
 
-Monkey patching has gained popularity as a power tool in Ruby because of the havoc it can wreak if misused. While monkey patching offers flexibility, it should be considered a last resort due to its potential risks. 
+Monkey patching has gained popularity as a power tool in Ruby because of the havoc it can wreak if misused. While monkey patching offers flexibility, it should be considered a last resort due to its potential risks.
 
 Meanwhile, it doesn't hurt to be a good samaritan and contribute to open source. When a bug is discovered in a third-party library, raise an issue, fix it, and get the pull request merged.
-

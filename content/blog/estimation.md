@@ -30,9 +30,11 @@ We have established that we want to estimate because we need to plan ‘Somethin
 Estimation can be broadly classified into two types, “Effort Estimation” and “Cost Estimation” both of which are equally important in an agile software environment.
 
 ## Effort Estimation:
+
 This translates to the amount of probable time that is to be spent on completing a defined task. The accuracy of this estimate directly depends on the definition of this task.
 
 To quote “Donal Rumsfield”
+
 ```
 There are known knowns – there are things we know that we know.
 There are known unknowns – that is to say, there are things we know we don’t know.
@@ -44,6 +46,7 @@ How much we know about a task and how much we don’t know, and the time spent i
 There are many techniques available for estimating the effort. Given below are some of the popular techniques, which are used in effort estimation:
 
 ## Parametric Estimation:
+
 Parametric estimation is one of the statistical methods to estimate the amount of time required to complete a project. This technique is mainly dependent on the available historical data of an assumed ‘parameter’. The output of a parametric estimate can be classified into two types based on granularity and accuracy: Deterministic and Probabilistic.
 
 A parameter with its assumed correlation to the amount of time taken is determined and is then scaled up to the actual project size. A deterministic result is a certain number or a figure based on such scaling of the correlation. A probabilistic result on the other hand provides a range of estimates over a probability density curve as given below:
@@ -51,7 +54,7 @@ A parameter with its assumed correlation to the amount of time taken is determin
 {{<figure src="/images/2022/05/Probabilistic_Parametric_Estimate.png">}}
 
 The first step in this technique is to determine the required parameter and the level of accuracy of the estimate. For example, take the method of story point estimation. We know that one story point is assigned to a task or a feature, which is the most basic work that can be completed in a given time. Keeping such a story as a reference, all the other stories can be assigned points. This means we can correlate the time taken to complete a task and the story point, which is
-EP = A<sub>old</sub>/P<sub>old</sub> * P<sub>curr</sub>.
+EP = A<sub>old</sub>/P<sub>old</sub> \* P<sub>curr</sub>.
 
 where EP is the parametric estimate,
 A<sub>old</sub> is the historic average time taken,
@@ -62,16 +65,18 @@ So, if a team used to complete 50 story points in a 3-week sprint for a project 
 Calculating multiple parametric estimates with different sprint lengths and story points for a project can help narrow down the variance and standard deviation. This in turn can be used to approximate how many of these estimates fall under one standard deviation from the mean, which is the most likely estimate for the current project.
 
 ## Rough Order of Magnitude (ROM)
+
 As the name suggests, this technique provides a quick rough estimate on an assumed parameter and throughout the project, the estimate becomes more definitive within the boundaries of accuracy.
 The initial estimate gives us a wide range of accuracy without any definitive results based on the parameter, which is the ROM Estimate. Assuming we require an accuracy range of 25-75% the boundaries can be calculated as given below.
-Upper Boundary = ROM_Estimate * (1+75%)
-Lower Boundary = ROM_Estimate * (1-25%)
+Upper Boundary = ROM*Estimate * (1+75%)
+Lower Boundary = ROM*Estimate * (1-25%)
 
 When a project is in its initial phases, the accuracy of our estimates tends to be vague as we accommodate for many unknowns, but as we progress along the project the estimates tend to be more definitive with lesser deviation in terms of accuracy.
 
 {{<figure src="/images/2022/05/ROM_funnel.png">}}
 
 ## PERT:
+
 PERT, also known as Project Evaluation Review Technique is another statistical estimation technique that incorporates all the uncertainties in the estimates. It is based on the idea that any task can have a broad range of estimates depending on unknowns. It is divided likely into the following points:
 
 O = Optimistic Estimate
@@ -88,6 +93,7 @@ We can also calculate the variance, which is the level of volatility of the requ
 which is basically the variance from our most likely estimate.
 
 ## Weighted Average:
+
 A weighted average is a simple and quick way to estimate wherein we assign weights to a parameter of the estimate. For example, if we consider the optimistic, pessimistic, and most likely outcomes and assign weights to each outcome based on a probability percentage assuming our estimates are story points then the weighted average will be as follows:
 
 Optimistic = 50 with a likely outcome of 70%
@@ -97,6 +103,7 @@ Most Likely = 45 with a likely outcome of 30%
 Weighted average = `(50*70%)+(40*40%)+(45*30%) / 3`
 
 ## Delphi:
+
 Unlike statistical methods, Delphi is a qualitative estimation technique where it mainly depends on experts working on the project. There are multiple rounds of questionnaires along the lines of effort and estimate, and in each round, everything is collated and summarized. The next round of questions is based on the disagreements of the previous rounds.
 
 This brings us to a very important question. Considering all things agile, is it really necessary to spend time and resources on estimating when you know things are bound to change?

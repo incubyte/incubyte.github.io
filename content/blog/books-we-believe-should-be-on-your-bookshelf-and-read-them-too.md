@@ -11,7 +11,6 @@ title = "12 Books Developers Must Read"
 
 +++
 
-
 ###
 
 Books are a massive source of knowledge. Before we list all the books here, we want to discuss why we think it's essential for programmers to read them.
@@ -42,7 +41,7 @@ A continuous learning process, especially when English is not the first language
 
 Coming to the point, we've listed below some recommended and popular programming books.
 
-We believe that these software development books will prove as a piece of advice to developers.   [Mancuso, Sandro. The Software Craftsman: Professionalism, Pragmatism, Pride.](https://www.amazon.in/Software-Craftsman-Professionalism-Pragmatism-Robert-ebook/dp/B00QXAGIDO)
+We believe that these software development books will prove as a piece of advice to developers. [Mancuso, Sandro. The Software Craftsman: Professionalism, Pragmatism, Pride.](https://www.amazon.in/Software-Craftsman-Professionalism-Pragmatism-Robert-ebook/dp/B00QXAGIDO)
 
 [Martin, Robert C., et al. Clean Code: a Handbook of Agile Software Craftsmanship.](https://www.amazon.in/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM)
 
@@ -67,6 +66,3 @@ We believe that these software development books will prove as a piece of advice
 [Feathers, Michael C. Working Effectively with Legacy Code.](https://www.amazon.in/Working-Effectively-Legacy-Robert-Martin/dp/0131177052)
 
 We hope you read them!
-
-
-

@@ -9,7 +9,6 @@ title = "Dead code"
 
 +++
 
-
 While developers look at their code as a prized possession, I have learned to look at code as a liability, and I think developers should discuss why.
 
 `more code = more liability`
@@ -48,4 +47,3 @@ There is no arguing that dead code can make your code less readable and less mai
 Finally, dead code increases the size of your code. This means, bit by bit, dead code makes your tests slower, your builds slower, security and static analysis scans slower, download of artifacts slower.
 
 If you are still not convinced about deleting dead code, then, once again, let me remind you that it impacts security :-).
-
