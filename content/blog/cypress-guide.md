@@ -73,10 +73,10 @@ This will open the Cypress Test Runner, which provides an interactive interface 
 ## Creating Your First Cypress Test
 
 1. With the Cypress Test Runner open, you'll see a list of example tests provided by Cypress.
-You can choose to keep them or remove them.
+   You can choose to keep them or remove them.
 
 2. To create a new test, click on the "New File" button in the Cypress Test Runner.
-By default, the test files are created in the cypress/e2e directory.
+   By default, the test files are created in the cypress/e2e directory.
 
 3. In your new test file, you can write your first Cypress test using the Cypress API.
 
@@ -84,19 +84,19 @@ Here's a simple example that tests the title of a web page.
 
 ```javascript
 describe('My First Test', () => {
-    it('Visits the  homepage and checks the title', () => {
-        cy.visit('https://example.com');
-        cy.title().should('contain', 'Example Domain');
-    });
+  it('Visits the  homepage and checks the title', () => {
+    cy.visit('https://example.com');
+    cy.title().should('contain', 'Example Domain');
+  });
 });
 ```
 
 4. Save the test file with a `.cy.js` extension.
-For instance, you can save it as `homepage.cy.js`.
+   For instance, you can save it as `homepage.cy.js`.
 
 5. In the Cypress Test Runner, click on your test file to run it.
-You should see a browser window open and the test being executed.
-You can see the test commands and assertions in the Cypress Test Runner's command log.
+   You should see a browser window open and the test being executed.
+   You can see the test commands and assertions in the Cypress Test Runner's command log.
 
 ### Feature of Cypress
 
@@ -122,7 +122,6 @@ Cypress offers a convenient feature that captures screenshots and records videos
 #### Headless and Interactive Modes
 
 Cypress gives you the freedom to run tests in different modes: headless mode and interactive mode.Running your tests in headless mode can speed up the testing process and allow you to run tests in environments.Cypress runs tests interactively, allowing you to see commands as they execute while also viewing the Application or Component Under Test, and exploring its DOM.
-
 
 #### Customization and Extensibility
 

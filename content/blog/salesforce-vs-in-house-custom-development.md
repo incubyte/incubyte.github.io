@@ -10,7 +10,6 @@ tags = ["Case Study"]
 title = "Is there a more economical and efficient alternative to Salesforce?"
 +++
 
-
 Choosing a direction when redefining your organization's technical backbone is never easy. In this case study, we had the unique opportunity to observe the implementation of both - a Low-code/no-code CRM and tailored software solutions over two years. The outcome? When done right, tailored software solutions can bring more value to an organization, faster!
 
 ## The client
@@ -52,11 +51,11 @@ Redefining tech solutions for the banking industry has unique challenges. It is 
 
 ## Progress in two years: Salesforce vs Custom Software Solution
 
-| Salesforce | Metamorphosis |
-| --- | --- |
-| Needed a lot of upfront planning before onboarding any users | Genie increased the number of users by slowly and steadily improving the system iteratively and consistently. |
+| Salesforce                                                                                                                                                            | Metamorphosis                                                                                                                                            |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Needed a lot of upfront planning before onboarding any users                                                                                                          | Genie increased the number of users by slowly and steadily improving the system iteratively and consistently.                                            |
 | Agencies specializing in niche areas had to be engaged since the low-code implementation still required professional services in MuleSoft, Cloud Data Migration, etc. | The cross-functional team at Incubyte owned the entire stack from discovery to deployment, reducing communication overhead and dependencies across teams |
-| ~100 users onboarded | 900+ users onboarded. |
+| ~100 users onboarded                                                                                                                                                  | 900+ users onboarded.                                                                                                                                    |
 
 ## How we did it
 
@@ -71,7 +70,7 @@ _Metamorphosis was always release-ready._
 ## Scoreboard
 
 | Salesforce Scoreboard                    | Metamorphosis Scoreboard                           |
-|------------------------------------------|----------------------------------------------------|
+| ---------------------------------------- | -------------------------------------------------- |
 | Total Users Onboarded - 100              | Total Users Onboarded - 900+                       |
 | Operational CTC for 100 users = 270,000$ | Operational CTC per year for 900+ users = 100,000$ |
 | Typical Lead Time to Release = Undefined | Typical Lead Time to Release = 3 Weeks             |
@@ -85,8 +84,7 @@ Genie started saving 1000 hours a day across 225+ daily active users.
 - **Saved 1200 hours a day.** Team members onboarded by the Metamorphosis project have a seamless workflow that resulted in time saving
 - **Over 900 users onboarded** by maintaining smaller, stable, consistent releases
 - **It's a tailored solution**, it is more than customization, because Incubyte developed a solution with the end user and the customer's use cases in mind
-- **By being fast, economical, and agile**, Metamorphis started adding value from the very beginning 
-
+- **By being fast, economical, and agile**, Metamorphis started adding value from the very beginning
 
 ## Where Salesforce works
 
@@ -101,6 +99,7 @@ When it comes to adopting solutions like Salesforce, a company would need to pay
 Consider your requirements and choose wisely. Will your end users absolutely benefit from the CRM or could they do more with a custom tool?
 
 ## The power of Metamorphosis, a.k.a. Custom Tailored Development
+
 - **Built per the needs of business, client and employees** in mind from day one
 - **Cost shifts from opex to capex** once built there is no additional expenditure to onboard new users
 - **Can be faster cheaper and better** if done right
@@ -109,4 +108,3 @@ Consider your requirements and choose wisely. Will your end users absolutely ben
 Choosing a direction to tackle a system overhaul is never easy. There are no simple decisions, and every action has long-lasting consequences. We hope this study helped you understand your options better and what they ultimately translate to for your business. Contact us if you want to know how tailored digital products can uplift your business and enable your employees.
 
 **Reach out to us at hello@incubyte.co if you are considering tailored digital products vs Salesforce to uplift your business. We would love to help you with your Metamorphosis.**
-

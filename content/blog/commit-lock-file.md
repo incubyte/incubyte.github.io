@@ -11,7 +11,7 @@ categories = ["Dependency Management", "Best Practices"]
 type = ""
 +++
 
-In software development, dependency management is a critical aspect that directly impacts the stability and reproducibility of your projects. When working with package managers like npm, yarn, or others, one crucial decision developers must make is whether to commit the lock file to version control. 
+In software development, dependency management is a critical aspect that directly impacts the stability and reproducibility of your projects. When working with package managers like npm, yarn, or others, one crucial decision developers must make is whether to commit the lock file to version control.
 
 In this article, we'll explore why it's essential to commit lock files and how they help in ensuring deterministic, secure, and consistent builds.
 
@@ -42,7 +42,7 @@ version, but in the subsequent installations, it will use the same version as in
 
 `npm install` automatically generates the lock file.
 
-Take a look at the below diagram. 
+Take a look at the below diagram.
 
 Application A depends on libraries B (1.2.9) and C (^6.8.7). B depends on C (6.8.8), D (4.5.3), and E (7.2.9).
 
@@ -60,7 +60,7 @@ _The above description is a grossly simplified explanation of the process._
 
 Let's eliminate wildcard characters (`^`, `~`, `*`, etc.) and use the exact version. Wouldn't that solve the problem?
 
-Unfortunately, that's not how it works. 
+Unfortunately, that's not how it works.
 Even if you use the exact version for the library, the library itself might have dependencies with wildcard
 dependencies, and the application is still prone to breaking.
 
@@ -72,7 +72,7 @@ Yarn introduced many features like caching, parallel downloads, etc. However, np
 
 ### Using a Lock File
 
-Merely having a lock file isn't sufficient. You need to make sure you execute the proper command(s). 
+Merely having a lock file isn't sufficient. You need to make sure you execute the proper command(s).
 For instance, `npm install` is intended to be used only in developer mode. If you want to install dependencies for production, you
 need to use `npm ci`.
 
@@ -102,6 +102,5 @@ etc.
 
 ### Conclusion
 
-In conclusion, committing lock files, along with executing the appropriate commands for dependency installation, is a best practice that ensures deterministic amd secure builds. 
+In conclusion, committing lock files, along with executing the appropriate commands for dependency installation, is a best practice that ensures deterministic amd secure builds.
 By doing so, developers can mitigate issues related to version conflicts, enhance project security, and foster collaborative development in an environment of consistency and reliability.
-

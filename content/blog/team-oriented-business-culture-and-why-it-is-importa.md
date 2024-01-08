@@ -8,10 +8,9 @@ title = "Team-oriented business culture, and why it is important"
 
 +++
 
+Every manager likes to think of their team as being a big, happy unit. After all, everyone gets along well and is collaborative **most** of the time. But the thing is, there’s more to having a team-oriented culture than Friday drinks and good banter on the office [chat app](https://www.typetalk.com/): It’s more complex than you might think. \***\*It’s an interplay between leadership, teamwork, and communication\*\***, and how successful your team is depends on how well each of these play out.
 
-Every manager likes to think of their team as being a big, happy unit. After all, everyone gets along well and is collaborative __most__ of the time. But the thing is, there’s more to having a team-oriented culture than Friday drinks and good banter on the office [chat app](https://www.typetalk.com/): It’s more complex than you might think. ****It’s an interplay between leadership, teamwork, and communication****, and how successful your team is depends on how well each of these play out.
-
-It’s also about recognizing the strengths and qualities of a team player and nurturing them while encouraging collaboration and communication between everyone as a whole. __Let’s take a closer look at how to create a team-oriented business culture.__
+It’s also about recognizing the strengths and qualities of a team player and nurturing them while encouraging collaboration and communication between everyone as a whole. **Let’s take a closer look at how to create a team-oriented business culture.**
 
 ## **What is a ‘team-oriented culture’**
 
@@ -21,7 +20,7 @@ Being team-oriented is about working well with others. And ‘workplace culture�
 
 Being team-oriented as an individual is a [soft skill](https://www.thebalancecareers.com/list-of-soft-skills-2063770). It’s about working well with people, and, as a manager, this translates into focusing on motivation and wellbeing as opposed to completing tasks and deadlines.
 
-If you’re a team-oriented manager, you still care about tasks, but you put your energy into helping people achieve those goals from a more human perspective. To give you an idea of the differences between the two, a team-oriented manager might ask an employee __how__ they’re feeling and whether they feel confident with their workload, whereas a task-oriented manager will ask when they can expect the work to be delivered.
+If you’re a team-oriented manager, you still care about tasks, but you put your energy into helping people achieve those goals from a more human perspective. To give you an idea of the differences between the two, a team-oriented manager might ask an employee **how** they’re feeling and whether they feel confident with their workload, whereas a task-oriented manager will ask when they can expect the work to be delivered.
 
 Team-oriented leadership shares some similarities with a [bottom-up style of management](https://backlog.com/blog/top-down-approach-or-bottom-up-smart-project-managers-choose-both/): leaders and team members are considered more equal. This contrasts with a [top-down style of management](https://backlog.com/blog/top-down-approach-or-bottom-up-smart-project-managers-choose-both/), which is more about hierarchies.
 
@@ -62,4 +61,3 @@ If you’re used to top-down working, trusting others to take the reins can be t
 Teamwork and communication go hand-in-hand. [Online collaboration tools](https://nulab.com/products/)like chat apps and project management software can help managers stay in control and up-to-date, while automation handles repetitive tasks leaving leaders with more time to focus on employee motivation and wellbeing. These are also perfect for when face-to-face communication isn’t an option — something that’s becoming increasingly common as more businesses embrace the benefits of remote work.
 
 Invest in tools that help employees communicate and collaborate from wherever they are, in a way they enjoy, and a team-oriented way of working will soon follow.
-

@@ -11,14 +11,13 @@ title = "Remote Onboarding & Immersion at Incubyte"
 
 +++
 
-
 Employee onboarding is the important process of introducing newly hired employees to the organisation. It is everything that leads up to the employee's total immersion into the organisation's culture. An effective onboarding process helps the new employee relate better with the company values and helps them get up and running quicker. Immersion is the process of creating a common future and common purpose for all employees by aligning expectation, values, purpose, mission and goals.
 
 Rather than an onboarding checklist, we believe that a successful onboarding process covers three broad areas:
 
-* Operational
-* Technical
-* Cultural
+- Operational
+- Technical
+- Cultural
 
 These together, help provide a holistic understanding of the company and the employees' role within the company.
 
@@ -44,13 +43,13 @@ They talk to their Buddy about what a typical day looks like, including getting 
 
 ### Day Three to Five
 
-In the first week, we encourage the new employee to do regular one-on-one meetings with each person in their team to get to know them, their role in the team and just in general, say hello.   They also dive deep into learning the ropes of the product they're working on. The long-term goal of this exercise is to make sure communication remains open and hierarchies flat despite being part of remote teams.
+In the first week, we encourage the new employee to do regular one-on-one meetings with each person in their team to get to know them, their role in the team and just in general, say hello. They also dive deep into learning the ropes of the product they're working on. The long-term goal of this exercise is to make sure communication remains open and hierarchies flat despite being part of remote teams.
 
 ### Week Two and Three
 
 This is when the new employee starts dipping their feet into actual work and starts seeing their name on the agile board. Domain knowledge sharing continues at each and every stage as they start pairing and participating in day-to-day activities and projects.
 
-At the end of the second week,  the People Success Team checks in on how they're doing and that onboarding has been effective. This also helps us continuously improve and evolve our onboarding and hiring process!
+At the end of the second week, the People Success Team checks in on how they're doing and that onboarding has been effective. This also helps us continuously improve and evolve our onboarding and hiring process!
 
 ### Week Four
 
@@ -63,4 +62,3 @@ Towards the end of week four, we do one-on-ones with the founders and the People
 We hope that through this process of remote onboarding, we are able to set clear expectations and immerse new hires in the Incubyte culture. We aim to provide them with the tools, context, information, connections and other key details they need to get started.
 
 Employees are our most valuable asset, and we're committed to doing everything we can to ensure a seamless start to our exciting journey together!
-

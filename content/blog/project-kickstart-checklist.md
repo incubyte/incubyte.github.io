@@ -11,9 +11,10 @@ title = "Project Kickstart Checklist"
 
 +++
 
-The [Checklist Manifesto](http://atulgawande.com/book/the-checklist-manifesto/) by Atul Gawande, walks us through the benefits of the humble checklist. He talks about how checklists of "dumb stuff"  can save us from disasters in life and death situations. We developers, too, can use such a checklist when we start a new project.
+The [Checklist Manifesto](http://atulgawande.com/book/the-checklist-manifesto/) by Atul Gawande, walks us through the benefits of the humble checklist. He talks about how checklists of "dumb stuff" can save us from disasters in life and death situations. We developers, too, can use such a checklist when we start a new project.
 
 ### 1. Is your code in the source control?
+
 Source control has become a litmus test of a good development workflow. SCM is the first item in Joel Spolsky's "[The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)." Though typical mistake developers make is they use source control only for code. Make sure that you use SCM systems for all of the following.
 
 1. Code
@@ -25,9 +26,11 @@ Source control has become a litmus test of a good development workflow. SCM is t
 7. Any infrastructure-related scripts. Ex dockerfile, docker compose, terraform etc
 
 ### 2. Do you have an automated database versioning tool?
+
 Tools like Flyway and, Liquibase stores your database migrations in a text file. Once the database changes are captured in a text file, they can become part of the SCM and be versioned!
 
 ### 3. Did you start with a unit test?
+
 Practices like TDD or TCR(Test Commit Revert) are a few of the best practices for development workflow, but if you don't do it, at least make sure that high-quality test cases are part of your codebase. And they should execute often and preferably before you merge the code in your mainline.
 
 ### 4. Have you chosen a build tool? Is your build automated? Think Gradle, Maven, PyBuilder, or others.
@@ -38,7 +41,6 @@ Having your build configuration and dependencies as text files in the codebase h
 
 ### 5. Did you choose a logging framework?
 
-
 While it's is very tempting to defer choosing the logging framework and keep using console logging, it's not a good idea.
 Make this decision early on. You will be writing cleaner code by avoiding console printing like `print()` and `System.out.println()`.
 This decision will become helpful when you want to integrate a monitoring system like Sentry, Datadog, ELK, etc.
@@ -48,12 +50,15 @@ This decision will become helpful when you want to integrate a monitoring system
 Many code linters exist today, ranging from open-source PMD to Sonar or Snyke. These linters can catch code-style issues as well security vulnerabilities early in the SDLC. Make it part of your IDE as well as CI/CD pipelines.
 
 ### 7. Do you have quality gates as part of the CI/CD pipeline?
+
 Configure your CI/CD pipelines in such a way so that your code repositories reject any code change which has issues. These issues can range from unit test failure to static code analysis issues in the build.
 
 ### 8. Do you have a fully automated release and deployment process without manual steps?
+
 Does your code automatically deploy upon successful merge in the pipeline? Does it require manual release approval? Whatever it may be, it has to be part of the fully automated pipeline. You are doing something severely wrong if you need to SSH somewhere or FTP files manually.
 
 ### 9. Did you deploy a walking skeleton?
+
 Once you have the smallest working piece of your software along with a framework that can do all of the above, deploy it. This will require you to set up a build tool, database, migration tool, CI/CD pipeline, code scan, and test execution.
 And finally, validate all of it by pushing small code changes that gets tested and deployed automatically and succesfully.
 

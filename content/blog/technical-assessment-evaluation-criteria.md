@@ -27,6 +27,7 @@ A typical interview process at Incubyte involves 5 stages:
 Once your application is shortlisted, you will receive an email with a list of resources and short videos. This email is meant to help prepare you for the interview process and set you up for success. The suggested learning in the email is self-paced and there is no time limit for you to complete it - we're perpetually hiring!
 
 Some of our favourites:
+
 - [Test-Driven Development](https://www.youtube.com/watch?v=qkblc5WRn-U)
 - [Software Craftsmanship](https://www.youtube.com/watch?v=c07uQGBZl0A)
 - [Clean Code](https://www.youtube.com/watch?v=zV079g7Irks&feature=emb_imp_woyt)
@@ -45,10 +46,9 @@ A 30-minute discussion focused on your technical background and journey so far. 
 
 This round is where the fun begins! Fire up your IDE with the language of your choice, have a working Hello World project pre-opened, and be ready to get your hands dirty. We will solve a short Kata together as a team! Consider this round as a pairing exercise, in which an Incubyte Craftsperson will partner with you and act as a navigator. It is fine to look stuff up on the internet, we Google things while working on production projects ALL the time - it's the thought process that matters!
 
-*It is important that you have a good Wi-Fi connection since we'd want to have your video on during both these technical rounds.*
+_It is important that you have a good Wi-Fi connection since we'd want to have your video on during both these technical rounds._
 
 This brings us to the end of our interview process. Expect to walk away with an offer once you have cleared all these rounds. We've even put together some additional information to help you crack it! You're welcome. ;)
-
 
 ## Cheat Sheet (a.k.a. how to crack interviews at Incubyte)
 
@@ -80,6 +80,5 @@ Our interview process helps us not only identify the interviewees’ technical s
 - Effective communication and the right attitude are as vital as technical proficiency
 
 We look for people with hunger for knowledge and a passion for mastering their craft. If you think you have the perfect blend of skills and expertise (or know someone who does) for this, drop us a note at [careers@incubyte.co](mailto:careers@incubyte.co)
-
 
 > Go to [current openings](https://incubyte.co/careers).

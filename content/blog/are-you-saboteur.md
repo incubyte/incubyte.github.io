@@ -16,7 +16,9 @@ When seen in the context of software modernization, it's clear that software mod
 Following is the list of simple sabotage guidelines, cherry-picked from the paper.
 
 ## General Interference with Organizations and Production
+
 ### Organizations and Conferences
+
 1. Insist on doing everything through “channels.” Never permit short-cuts to be taken in order to expedite decisions.
 2. Make “speeches.” Talk as frequently as possible and at great length. Illustrate your “points” by long anecdotes and accounts of personal experiences. Never hesitate to make a few appropriate “patriotic” comments.
 3. When possible, refer all matters to committees, for “further study and consideration.” Attempt to make the committees as large as possible—never less than five.
@@ -27,6 +29,7 @@ Following is the list of simple sabotage guidelines, cherry-picked from the pape
 8. Be worried about the propriety of any decision—raise the question of whether such action as is contemplated lies within the jurisdiction of the group or whether it might conflict with the policy of some higher echelon.
 
 ### Managers and Supervisors
+
 9. Demand written orders.
 10. Do everything possible to delay the delivery of orders. Even though parts of an order may be ready beforehand, don’t deliver it until it is completely ready.
 11. Don’t order new working materials until your current stocks have been virtually exhausted, so that the slightest delay in filling your order will mean a shutdown.
@@ -42,21 +45,24 @@ Following is the list of simple sabotage guidelines, cherry-picked from the pape
 21. Apply all regulations to the last letter.
 
 ### Office Workers
+
 22. Make mistakes in quantities of material when you are copying orders. Confuse similar names. Use wrong addresses.
 23. Misfile essential documents.
 
 ### Employees
+
 24. Work slowly. Think out ways to increase the number of movements necessary on your job: use a light hammer instead of a heavy one, try to make a small wrench do when a big one is necessary...
 25. Contrive as many interruptions to your work as you can: when changing the material on which you are working, as you would on a lathe or punch, take needless time to do it. If you are cutting, shaping or doing other measured work, measure dimensions twice as often as you need to. When you go to the lavatory, spend a longer time there than is necessary.
 26. Do your work poorly and blame it on bad tools, machinery, or equipment. Complain that these things are preventing you from doing your job right.
 27. Never pass on your skill and experience to a new or less skillful worker.
 
 ## General Devices for Lowering Morale and Creating Confusion
+
 1. Act stupid.
 2. Give lengthy and incomprehensible explanations when questioned.
 3. Report imaginary ~~spies~~ or danger
 
 ## Industrial Production: Manufacturing
+
 1. Leave saws slightly twisted when you are not using them. After a while, they will break when used.
 2. Let cutting tools grow dull. They will be inefficient, will slow down production, and may damage the materials and parts you use them on.
-
