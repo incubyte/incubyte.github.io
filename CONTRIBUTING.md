@@ -51,4 +51,4 @@ These branches should be deleted as soon as the branch is merged to `main`.
 
 - GitHub actions pipeline is set to verify the formatting using `prettier` (a NodeJs library)
 - Check in the local by running `npx prettier --check .\content\blog\<filename>.md`
-- Fix in the local by running (Beware!) `npx prettier --w .\content\blog\standup.md`
+- Fix in the local by running (Beware!) `npx prettier --w .\content\blog\<filename>.md`
