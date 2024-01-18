@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 28 Dec 2023 17:48:58 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ruby</title>
+      <link>https://blog.incubyte.co/tags/ruby/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/tags/ruby/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Daily Scrum</title>
       <link>https://blog.incubyte.co/tags/daily-scrum/</link>
@@ -77,13 +84,6 @@
       <link>https://blog.incubyte.co/tags/ruby-on-rails/</link>
       <pubDate>Thu, 09 Nov 2023 18:20:29 +0530</pubDate>
       <guid>https://blog.incubyte.co/tags/ruby-on-rails/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruby</title>
-      <link>https://blog.incubyte.co/tags/ruby/</link>
-      <pubDate>Tue, 17 Oct 2023 18:29:54 +0530</pubDate>
-      <guid>https://blog.incubyte.co/tags/ruby/</guid>
       <description></description>
     </item>
     <item>

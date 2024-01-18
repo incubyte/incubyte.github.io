@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 17 Oct 2023 18:29:54 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/categories/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Enigma of Ruby Boolean (or the lack thereof)</title>
+      <link>https://blog.incubyte.co/blog/ruby-boolean/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/blog/ruby-boolean/</guid>
+      <description>Imagine this: You wake up half-asleep to discover Darth Vader in a rage.</description>
+    </item>
     <item>
       <title>Monkey Patching in Ruby</title>
       <link>https://blog.incubyte.co/blog/monkey-patch/</link>

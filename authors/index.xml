@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 28 Dec 2023 17:48:58 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Utsav Parmar</title>
+      <link>https://blog.incubyte.co/authors/utsav-parmar/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/authors/utsav-parmar/</guid>
+      <description>Developer | Co-organizer at @swcraftindia | Trying to change the world one PR at a time</description>
+    </item>
     <item>
       <title>Akshay Vadher</title>
       <link>https://blog.incubyte.co/authors/akshay-vadher/</link>
@@ -99,13 +106,6 @@
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/authors/deepshikha-pingle/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>Utsav Parmar</title>
-      <link>https://blog.incubyte.co/authors/utsav-parmar/</link>
-      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/authors/utsav-parmar/</guid>
-      <description>Developer | Co-organizer at @swcraftindia | Trying to change the world one PR at a time</description>
     </item>
     <item>
       <title>Waqar Shaikh</title>

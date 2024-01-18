@@ -650,7 +650,7 @@ if (!doNotTrack) {
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "December 28, 2023",
+          "date": "January 9, 2024",
           "url": "https://blog.incubyte.co/"
       },
       
@@ -661,8 +661,85 @@ if (!doNotTrack) {
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "December 28, 2023",
+          "date": "January 9, 2024",
           "url": "https://blog.incubyte.co/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/": {
+          "title": "Authors",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 9, 2024",
+          "url": "https://blog.incubyte.co/authors/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/": {
+          "title": "Categories",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 9, 2024",
+          "url": "https://blog.incubyte.co/categories/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/ruby\/": {
+          "title": "Ruby",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 9, 2024",
+          "url": "https://blog.incubyte.co/tags/ruby/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/ruby\/": {
+          "title": "Ruby",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 9, 2024",
+          "url": "https://blog.incubyte.co/categories/ruby/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/": {
+          "title": "Tags",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 9, 2024",
+          "url": "https://blog.incubyte.co/tags/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/blog\/ruby-boolean\/": {
+          "title": "The Enigma of Ruby Boolean (or the lack thereof)",
+          "tags": ["Ruby",],
+          "authors":["Utsav Parmar",],
+          "summary":"Imagine this: You wake up half-asleep to discover Darth Vader in a rage.",
+          "content":"Imagine this: You wake up half-asleep to discover Darth Vader in a rage. He\u0026rsquo;s furious because the count of active stormtroopers he sees on the system you coded doesn\u0026rsquo;t align with the Imperial Army data.\nIt\u0026rsquo;s a sev-0 bug, and your life is on the line.\nWithout hesitation, you dive into debugging mode:\nlegion501 = stormtroopers.select{ |trooper| trooper.alive and trooper.commander == \u0026#34;Dark Lord\u0026#34; } All seems well until you click on alive in your IDE and navigate to its definition. To your dismay, you discover that a rookie trooper added this code (without any tests (╥﹏╥)), and instead of assigning a boolean value, they\u0026rsquo;ve assigned integer values.\n\u0026ldquo;Not a big deal,\u0026rdquo; you think, assuming that 0 implies false and 1 implies true always.\nirb\u0026gt; StormTrooper.all.to_a.select{ |trooper| not trooper.alive } With that assumption, you embark on your testing journey, only to get all the stormtroopers.\n\u0026ldquo;Surely, not so many can still be alive\u0026rdquo;, you ponder, now casting doubt on the library implementation\nirb\u0026gt; 0 ? \u0026#34;true\u0026#34; : \u0026#34;false\u0026#34; =\u0026gt; \u0026#34;true\u0026#34; # Hmm..it must be reversed in ruby. 1 must be false now irb\u0026gt; 1 : \u0026#34;true\u0026#34; : \u0026#34;false\u0026#34; =\u0026gt; \u0026#34;true\u0026#34; irb\u0026gt; what the heck ruby (irb):in `\u0026lt;main\u0026gt;\u0026#39;: undefined local variable or method `ruby\u0026#39; for main (NameError) Confused by the situation, you proceed to change alive to accept boolean values — true and false — and, surprisingly, this resolves the issue.\nYou manage to avert the risk to your life and, growing more curious, delve into understanding the intricacies at play.\nLack of Boolean in Ruby What is the point of 0 or 1 or any number to be accepted for a boolean parameter if everything is going to be evaluated to true?\nWhy is only true and false actually true and false respectively?\nIn other higher languages such as Python, 0 is treated as False and 1 as True because bool is a subclass of int. So it\u0026rsquo;s not that the integers are evaluated to boolean values but integers have the boolean value.\n\u0026gt;\u0026gt;\u0026gt; False == 0 True \u0026gt;\u0026gt;\u0026gt; False == 1 False \u0026gt;\u0026gt;\u0026gt; True == 1 True \u0026gt;\u0026gt;\u0026gt; True == 0 False All of this makes perfect sense. Then why not Ruby?\nirb\u0026gt; 0.class.ancestors =\u0026gt; [Integer, Numeric, Comparable, Object, PP::ObjectMixin, Kernel, BasicObject] irb\u0026gt; true.class.ancestors =\u0026gt; [TrueClass, Object, PP::ObjectMixin, Kernel, BasicObject] Weirdly, there are no common ancestors between integer class and boole..? No boolean class here?!\nirb\u0026gt; false.class.ancestors =\u0026gt; [FalseClass, Object, PP::ObjectMixin, Kernel, BasicObject] Not only there is no Boolean class but true and false have their own classes!?\nDon\u0026rsquo;t true and false have so much in common? It should make sense to keep them under the same class.\nirb\u0026gt; false.methods.count 59 irb\u0026gt; true.methods.count 59 # Aha, language fault possibly irb\u0026gt; (false.methods \u0026amp; true.methods).count 59 irb\u0026gt; (false.methods \u0026amp; true.methods) - Object.methods =\u0026gt; [:\u0026amp;, :|, :^] # Most definitely They only have three methods precisely in common with each other (╭ರ_•́)\nirb\u0026gt; true \u0026amp; true =\u0026gt; true irb\u0026gt; false \u0026amp; false =\u0026gt; false irb\u0026gt; true | false =\u0026gt; true irb\u0026gt; false | false =\u0026gt; false irb\u0026gt; true ^ true =\u0026gt; false irb\u0026gt; false ^ true =\u0026gt; true It is evident from the above snippets that true and false share exactly opposite behaviour. There is nothing common between them (except the methods that are common to all objects) for us to move it to a single Boolean class.\nTo sum it up true and false are indeed the very opposite of each other by nature. Something can be true or not true, i.e., false, its antithesis. If there is nothing similar between two objects, then what is the point of grouping them? Thus, there is no common class for true and false in Ruby.\nThere remains yet a mention of the special class: NilClass\nnil value means nothing, nada, devoid of everything. If there is nothing, then you don\u0026rsquo;t do anything and so, it is treated as false.\nBut why not 0 then?\nBecause 0 represents something. Similarly, empty arrays, strings, and hashes are simply empty and not nothing. That is why, except for false and nil, everything is truthy in Ruby.\nRemember that this is Ruby, one of the most dynamic languages. There is no boolean because TrueClass and FalseClass suffices everything we need until now. If you think it doesn\u0026rsquo;t, then by all means, go ahead and create an encompassing class. After all, Ruby\u0026rsquo;s philosophy is giving freedom to its users to choose.\n",
+          "image":"images/2023/ruby-boolean.png",
+          "date": "January 9, 2024",
+          "url": "https://blog.incubyte.co/blog/ruby-boolean/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/utsav-parmar\/": {
+          "title": "Utsav Parmar",
+          "tags": [],
+          "authors":[],
+          "summary":"Developer | Co-organizer at @swcraftindia | Trying to change the world one PR at a time",
+          "content":"Developer | Co-organizer at @swcraftindia | Trying to change the world one PR at a time\n",
+          "image":"/images/favicon.png",
+          "date": "January 9, 2024",
+          "url": "https://blog.incubyte.co/authors/utsav-parmar/"
       },
       
       "https:\/\/blog.incubyte.co\/authors\/akshay-vadher\/": {
@@ -674,28 +751,6 @@ if (!doNotTrack) {
           "image":"/authors/akshay-vadher/akshay-vadher.jpg",
           "date": "December 28, 2023",
           "url": "https://blog.incubyte.co/authors/akshay-vadher/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/authors\/": {
-          "title": "Authors",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "December 28, 2023",
-          "url": "https://blog.incubyte.co/authors/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/": {
-          "title": "Categories",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "December 28, 2023",
-          "url": "https://blog.incubyte.co/categories/"
       },
       
       "https:\/\/blog.incubyte.co\/tags\/daily-scrum\/": {
@@ -773,17 +828,6 @@ if (!doNotTrack) {
           "image":"/images/2023/12/meeting.jpg",
           "date": "December 28, 2023",
           "url": "https://blog.incubyte.co/blog/standup/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/": {
-          "title": "Tags",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "December 28, 2023",
-          "url": "https://blog.incubyte.co/tags/"
       },
       
       "https:\/\/blog.incubyte.co\/authors\/aditya-sapate\/": {
@@ -1015,28 +1059,6 @@ if (!doNotTrack) {
           "image": null ,
           "date": "October 17, 2023",
           "url": "https://blog.incubyte.co/authors/nitin-rajkumar/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/ruby\/": {
-          "title": "Ruby",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "October 17, 2023",
-          "url": "https://blog.incubyte.co/tags/ruby/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/ruby\/": {
-          "title": "Ruby",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "October 17, 2023",
-          "url": "https://blog.incubyte.co/categories/ruby/"
       },
       
       "https:\/\/blog.incubyte.co\/tags\/modernization\/": {
@@ -1675,17 +1697,6 @@ if (!doNotTrack) {
           "image":"/images/2023/SH-case-study/SH-banner-blog.jpg",
           "date": "January 30, 2023",
           "url": "https://blog.incubyte.co/blog/global-case-study/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/authors\/utsav-parmar\/": {
-          "title": "Utsav Parmar",
-          "tags": [],
-          "authors":[],
-          "summary":"Developer | Co-organizer at @swcraftindia | Trying to change the world one PR at a time",
-          "content":"Developer | Co-organizer at @swcraftindia | Trying to change the world one PR at a time\n",
-          "image":"/images/favicon.png",
-          "date": "January 30, 2023",
-          "url": "https://blog.incubyte.co/authors/utsav-parmar/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/simple-sabotage\/": {
