@@ -46,3 +46,9 @@ These branches should be deleted as soon as the branch is merged to `main`.
 
 - We'll follow category naming convention similar to what is explained for branches.
 - Here's a quick rundown — [Standard Terminology](https://gist.github.com/turbo/efb8d57c145e00dc38907f9526b60f17)
+
+## Formatting
+
+- GitHub actions pipeline is set to verify the formatting using `prettier` (a NodeJs library)
+- Check in the local by running `npx prettier --check .\content\blog\<filename>.md`
+- Fix in the local by running (Beware!) `npx prettier --w .\content\blog\standup.md`

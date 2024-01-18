@@ -127,8 +127,8 @@ Many teams don't even use any! (These are very mature teams. I would recommend h
 ##### Q: Our team is small, do I even need a standup meeting?
 
 If you have some mechanism like a storyboard or sticky notes on the wall,
-and you know the project status without having a separate meeting, 
-you don't even need a standup meeting in theory. 
+and you know the project status without having a separate meeting,
+you don't even need a standup meeting in theory.
 
 However, I recommend having a standup meeting even if you are a two-person team.
 
@@ -136,10 +136,10 @@ Sometimes, it helps to wear a specific hat to think about abstract project statu
 
 There is a famous unrelated terminology called "duck debugging."
 When stuck in a problem,
-a developer tries to explain the situation to a rubber duck, and a solution automatically emerges. 
+a developer tries to explain the situation to a rubber duck, and a solution automatically emerges.
 In the same way, if we do a standup meeting as if we are publishing project status,
 even though the receiver either already knows or doesn't even want to know,
-you will get solutions to your problems.  
+you will get solutions to your problems.
 
 ### What not to do
 
