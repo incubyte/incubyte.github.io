@@ -124,6 +124,27 @@ Any tool that publishes data is good enough.
 
 Many teams don't even use any! (These are very mature teams. I would recommend having some visual representation.)
 
+##### Q: Our team is small. Do we even need a standup meeting?
+
+In theory,
+if you have a mechanism like a storyboard or sticky notes on the wall that keeps you informed about the project status,
+a separate meeting may not seem essential.
+
+However, I would still recommend having a standup meeting, even for a two-person team.
+
+Wearing a different hat often leads to remarkable insights.
+To explain this through an analogy, take the example of the "duck debugging."
+When stuck with a problem, a developer tries to explain it to a rubber duck, and surprisingly, a solution often emerges.
+
+Similarly,
+conducting a standup meeting to share the project status can unexpectedly provide insights or generate solutions.
+Even if the audience is already informed or not particularly interested,
+the act of vocalizing the information can trigger valuable discussions.
+
+In essence,
+the standup meeting becomes a valuable process for problem-solving
+and maintaining a shared understanding of the project.
+
 ### What not to do
 
 ##### Too granular
