@@ -9,14 +9,16 @@ function generateArticleHTML(
 ) {
   let tagsHTML = "";
   for (const tag of tags) {
+    const urlizedTag = tag.toLowerCase().replace(/\s+/g, '-');
     tagsHTML += `<span class="badge rounded-pill bg-dark">
-                    <a class="text-white" href="/tags/${tag}">${tag}</a>
+                    <a class="text-white" href="/tags/${urlizedTag}">${tag}</a>
                   </span>`;
   }
 
   let authorsHTML = "";
   for (const author of authors) {
-    authorsHTML += `<a href="/authors/${author}">${author}</a><span>,</span>`;
+    const urlizedAuthor = author.toLowerCase().replace(/\s+/g, '-');
+    authorsHTML += `<a href="/authors/${urlizedAuthor}">${author}</a><span>,</span>`;
   }
 
   const articleHTML = `
