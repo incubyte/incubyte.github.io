@@ -42,15 +42,18 @@ With that, let's jump right in!
 
 ## String Calculator TDD Kata
 
-1. Create a simple String calculator with a method signature:
+1. Create a simple String calculator with a method signature similar to this
 
-   ```java
-   int add(string numbers)
    ```
+   int add(string numbers)
 
-   The method can take up to two numbers, separated by commas, and will return their sum.
+   Input: a string of comma separated numbers
+   Output: an integer, sum of the numbers
 
-   For example `""` or `"1"` or `"1,2"` as inputs. (for an empty string it will return 0)
+   Examples:
+   Input: "", "1", "1,5"
+   Output: 0, 1, 6
+   ```
 
    Hints:
 
