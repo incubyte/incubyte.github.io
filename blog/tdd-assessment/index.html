@@ -703,25 +703,30 @@ if (!doNotTrack) {
         <div class="content"><p>Hello there and welcome to the Incubyte TDD Kata!</p>
 <p>This assessment is the first step in our recruiting process and will be followed by two pair programming/discussion sessions.</p>
 <h2 id="what-were-looking-for">What we’re looking for</h2>
-<p>A Software Craftsperson at Incubyte is a person who has a strong commitment to the craft of software development. Someone who is passionate about software, knows her/his tools well and is able to use them effectively to create carefully crafted software. Ultimately, a person who has a strong sense of what it is they are doing and is self-motivated to learn and grow.</p>
-<p>TDD is a core practice for all of us at Incubyte. We strongly believe that well written software, is a lot more valuable for the business and end users, as compared to software that is hacked together (but works!).</p>
-<p>Through this assessment, we want to evaluate how readable and testable your code is. We want see the Software Craftsperson in you.</p>
-<p>As software developers, searching the internet is something of a necessity and is vital tool for being effective problem solvers. We encourage you to Google away! You can also visit our <a href="https://incubyte.co/inspiration/">inspiration</a> page to find some useful talks and references that will help you sail through this assessment.</p>
-<p>With that, let&rsquo;s jump right in! Follow the instructions below, take your time to do it well and send us your kata once you’re happy with what you’ve done.</p>
+<p>A Software Craftsperson at Incubyte is a person who has a strong commitment to the craft of software development.
+Someone who is passionate about software, knows her/his tools well and is able to use them effectively to create carefully crafted software.
+Ultimately, a person who has a strong sense of what it is they are doing and is self-motivated to learn and grow.</p>
+<p>TDD is a core practice for all of us at Incubyte.
+We strongly believe that well written software, is a lot more valuable for the business and end users, as compared to software that is hacked together (but works!).</p>
+<p>Through this assessment, we want to evaluate how readable and testable your code is.
+We want to see the Software Craftsperson in you.</p>
+<p>As software developers, searching the internet is something of a necessity and is vital tool for being effective problem solvers.
+We encourage you to Google away! You can also visit our <a href="https://incubyte.co/inspiration/">inspiration</a> page to find some useful talks and references that will help you sail through this assessment.</p>
+<p>With that, let&rsquo;s jump right in!</p>
 <h2 id="things-to-keep-in-mind">Things to keep in mind</h2>
 <ol>
 <li>Host your solution on a <strong>public</strong> GitHub/GitLab repository</li>
 <li>Follow best practices for TDD. Watch <a href="https://youtu.be/qkblc5WRn-U">this video</a> to understand TDD better</li>
-<li>Commit your changes frequently to show how your code evolves with every step of TDD</li>
+<li>Commit your changes frequently, ideally after every change to show how your code evolves with every step of TDD</li>
 <li>We encourage you to use the programming language and tools you feel most comfortable with</li>
 <li>Do not rush, take your time, we want to see your best work!</li>
-<li>Send us the link to your repo once you’re happy with what you’ve done</li>
+<li>Send us the link to your repo once you’re happy with what you have done</li>
 </ol>
 <h2 id="string-calculator-tdd-kata">String Calculator TDD Kata</h2>
 <ol>
 <li>
 <p>Create a simple String calculator with a method signature:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">Add</span>(string numbers)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">add</span>(string numbers)
 </span></span></code></pre></div><p>The method can take up to two numbers, separated by commas, and will return their sum.</p>
 <p>For example <code>&quot;&quot;</code> or <code>&quot;1&quot;</code> or <code>&quot;1,2&quot;</code> as inputs. (for an empty string it will return 0)</p>
 <p>Hints:</p>
@@ -732,25 +737,27 @@ if (!doNotTrack) {
 </ul>
 </li>
 <li>
-<p>Allow the Add method to handle an unknown amount of numbers</p>
+<p>Allow the add method to handle an any amount of numbers.</p>
 </li>
 <li>
-<p>Allow the Add method to handle new lines between numbers (instead of commas).</p>
+<p>Allow the add method to handle new lines between numbers (instead of commas).</p>
 <ul>
-<li>The following input is ok: <code>&quot;1\n2,3&quot;</code> (will equal 6)</li>
-<li>The following input is NOT ok: <code>&quot;1,\n&quot;</code> (not need to prove it - just clarifying)</li>
+<li>The following input is valid: <code>&quot;1\n2,3&quot;</code> (will return <code>6</code>)</li>
+<li>The following input is invalid: <code>&quot;1,\n&quot;</code></li>
 </ul>
 </li>
 <li>
 <p>Support different delimiters</p>
 <ul>
-<li>To change a delimiter, the beginning of the string will contain a separate line that looks like this: <code>&quot;//[delimiter]\n[numbers…]&quot;</code> for example <code>&quot;//;\n1;2&quot;</code> should return three where the default delimiter is <code>&quot;;&quot;</code></li>
-<li>The first line is optional. all existing scenarios should still be supported</li>
+<li>To change delimiter, the beginning of the string will contain a separate line that looks like this: <code>&quot;//[delimiter]\n[numbers…]&quot;</code>,
+for example <code>&quot;//;\n1;2&quot;</code> here the delimiter is <code>&quot;;&quot;</code> and this should return <code>3</code>.</li>
 </ul>
 </li>
 <li>
-<p>Calling Add with a negative number will throw an exception <code>&quot;negatives not allowed&quot;</code> - and the negative that was passed.</p>
-<p>If there are multiple negatives, show all of them in the exception message.</p>
+<p>Calling add with a negative number will throw an exception <code>&quot;negative numbers not allowed &lt;negative_number&gt;&quot;</code>.</p>
+<ul>
+<li>If there are multiple negative numbers, show all of them in the exception message, separated by commas</li>
+</ul>
 </li>
 </ol>
 <blockquote>
