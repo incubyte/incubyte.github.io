@@ -7,8 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Angular</title>
+      <link>https://blog.incubyte.co/tags/angular/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/tags/angular/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Migration</title>
+      <link>https://blog.incubyte.co/tags/migration/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/tags/migration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modernization</title>
+      <link>https://blog.incubyte.co/tags/modernization/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/tags/modernization/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ruby</title>
       <link>https://blog.incubyte.co/tags/ruby/</link>
@@ -84,13 +105,6 @@
       <link>https://blog.incubyte.co/tags/ruby-on-rails/</link>
       <pubDate>Thu, 09 Nov 2023 18:20:29 +0530</pubDate>
       <guid>https://blog.incubyte.co/tags/ruby-on-rails/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Modernization</title>
-      <link>https://blog.incubyte.co/tags/modernization/</link>
-      <pubDate>Thu, 05 Oct 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/tags/modernization/</guid>
       <description></description>
     </item>
     <item>
@@ -206,13 +220,6 @@
       <description></description>
     </item>
     <item>
-      <title>Angular</title>
-      <link>https://blog.incubyte.co/tags/angular/</link>
-      <pubDate>Mon, 10 Oct 2022 12:50:00 +0530</pubDate>
-      <guid>https://blog.incubyte.co/tags/angular/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Infrastructure</title>
       <link>https://blog.incubyte.co/tags/infrastructure/</link>
       <pubDate>Wed, 28 Sep 2022 10:52:06 +0530</pubDate>
@@ -269,7 +276,7 @@
       <description></description>
     </item>
     <item>
-      <title>Not to do</title>
+      <title>Not to Do</title>
       <link>https://blog.incubyte.co/tags/not-to-do/</link>
       <pubDate>Thu, 10 Feb 2022 22:58:11 +0530</pubDate>
       <guid>https://blog.incubyte.co/tags/not-to-do/</guid>
@@ -290,7 +297,7 @@
       <description></description>
     </item>
     <item>
-      <title>97 Things Not To Do</title>
+      <title>97 Things Not to Do</title>
       <link>https://blog.incubyte.co/tags/97-things-not-to-do/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/tags/97-things-not-to-do/</guid>

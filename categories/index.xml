@@ -7,8 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Angular</title>
+      <link>https://blog.incubyte.co/categories/angular/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/categories/angular/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Migration</title>
+      <link>https://blog.incubyte.co/categories/migration/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/categories/migration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modernization</title>
+      <link>https://blog.incubyte.co/categories/modernization/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/categories/modernization/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ruby</title>
       <link>https://blog.incubyte.co/categories/ruby/</link>
@@ -70,13 +91,6 @@
       <link>https://blog.incubyte.co/categories/monkey-patching/</link>
       <pubDate>Tue, 17 Oct 2023 18:29:54 +0530</pubDate>
       <guid>https://blog.incubyte.co/categories/monkey-patching/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Modernization</title>
-      <link>https://blog.incubyte.co/categories/modernization/</link>
-      <pubDate>Thu, 05 Oct 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/categories/modernization/</guid>
       <description></description>
     </item>
     <item>
@@ -171,13 +185,6 @@
       <description></description>
     </item>
     <item>
-      <title>Angular</title>
-      <link>https://blog.incubyte.co/categories/angular/</link>
-      <pubDate>Mon, 10 Oct 2022 12:50:00 +0530</pubDate>
-      <guid>https://blog.incubyte.co/categories/angular/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Infrastructure</title>
       <link>https://blog.incubyte.co/categories/infrastructure/</link>
       <pubDate>Wed, 28 Sep 2022 10:52:06 +0530</pubDate>
@@ -241,7 +248,7 @@
       <description></description>
     </item>
     <item>
-      <title>97 Things Not To Do</title>
+      <title>97 Things Not to Do</title>
       <link>https://blog.incubyte.co/categories/97-things-not-to-do/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/categories/97-things-not-to-do/</guid>

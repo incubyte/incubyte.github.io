@@ -3,16 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/akshay-vadher/</loc>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/angular/</loc>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/angular/</loc>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/</loc>
-    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/</loc>
-    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/migrating-angularjs-to-angular/</loc>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/migration/</loc>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/migration/</loc>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/modernization/</loc>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/modernization/</loc>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/</loc>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/yogendra-jaiswal/</loc>
+    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/ruby/</loc>
     <lastmod>2024-01-09T00:00:00+00:00</lastmod>
@@ -20,17 +50,11 @@
     <loc>https://blog.incubyte.co/categories/ruby/</loc>
     <lastmod>2024-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/</loc>
-    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/blog/ruby-boolean/</loc>
     <lastmod>2024-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/utsav-parmar/</loc>
     <lastmod>2024-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/authors/akshay-vadher/</loc>
-    <lastmod>2023-12-28T17:48:58+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/daily-scrum/</loc>
     <lastmod>2023-12-28T17:48:58+05:30</lastmod>
@@ -115,12 +139,6 @@
   </url><url>
     <loc>https://blog.incubyte.co/authors/nitin-rajkumar/</loc>
     <lastmod>2023-10-17T18:29:54+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/modernization/</loc>
-    <lastmod>2023-10-05T00:10:46+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/modernization/</loc>
-    <lastmod>2023-10-05T00:10:46+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/sapan-parikh/</loc>
     <lastmod>2023-10-05T00:10:46+05:30</lastmod>
@@ -295,12 +313,6 @@
   </url><url>
     <loc>https://blog.incubyte.co/blog/monnai-case-study/</loc>
     <lastmod>2022-11-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/angular/</loc>
-    <lastmod>2022-10-10T12:50:00+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/angular/</loc>
-    <lastmod>2022-10-10T12:50:00+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/angular-provider/</loc>
     <lastmod>2022-10-10T12:50:00+05:30</lastmod>
