@@ -24,7 +24,7 @@ Running an unsupported framework affects your application’s ability to adapt t
 
 ## Why You Need to Migrate from AngularJS to Angular
 
-Launched in 2010, AngularJS revolutionized frontend development with its two-way data binding and modular structure. However, performance issues started cropping up eventually because Google officially ended support for AngularJS which meant no more security patches, bug fixes, or feature updates.
+Launched in 2010, AngularJS revolutionized frontend development with its two-way data binding and modular structure. However, performance issues started cropping up eventually because Google officially ended support for AngularJS, which meant no more security patches, bug fixes, or feature updates.
 
 While the framework once dominated the single-page application landscape, the rapid pace of web technology has left AngularJS behind, making way for its more popular successor, Angular.
 
@@ -32,27 +32,27 @@ While the framework once dominated the single-page application landscape, the ra
 
 Angular, now in its 14th iteration, boasts significant advantages over its predecessor such as
 
-#### 1\. Enhanced Performance and Scalability
+#### 1. Enhanced Performance and Scalability
 
 **Lazy Loading:** Angular allows for modularizing your application into smaller, independently loadable chunks, reducing initial load times and improving responsiveness.
 
 **Ivy Renderer:** The Ivy renderer utilizes a more efficient algorithm for data binding, leading to faster applications compared to AngularJS's two-way binding mechanism. This performance boost scales effectively as your application grows in complexity.
 
-#### 2\. Development with TypeScript
+#### 2. Development with TypeScript
 
 Angular relies on TypeScript, a superset of JavaScript that adds optional static typing. This enables early detection of potential errors during development, leading to more stable and maintainable codebases.
 
-#### 3\. Modern Architecture and Tooling
+#### 3. Modern Architecture and Tooling
 
 **Component-Based Structure:** Angular applications are built by composing reusable components, each encapsulating its own logic and view. This promotes modularity, code organization, and easier testing.
 
 **Angular CLI (Command Line Interface)**: The CLI streamlines development with functionalities like project creation, code generation, testing, building and deployment. Angular CLI empowers developers with building functionalities like transpilation, tree-shaking, minification, and uglification, making it significantly more powerful than AngularJS.
 
-#### 4\. Mobile-First Approach
+#### 4. Mobile-First Approach
 
 Angular seamlessly integrates with Progressive Web App (PWA) features like offline functionality and push notifications, allowing you to build web applications that behave more like native mobile apps.
 
-#### 5\. Active Community
+#### 5. Active Community
 
 The Angular team consistently releases updates ensuring the framework stays current with modern web development trends. The framework also has an active community that contributes a wide range of third-party libraries and tools that cater to diverse development needs.
 
@@ -71,7 +71,7 @@ The Angular team consistently releases updates ensuring the framework stays curr
 - **Gradual Migration vs. Rewrite:** Consider the project size, timeline, and team expertise. Think of it like choosing between renovating a building in stages or starting from scratch. While gradual migration allows phased updates, a rewrite might be faster for smaller projects.
 - **Feature-based Approach:** Prioritize migrating critical features first, like addressing essential functionalities in a project. This minimizes disruption and ensures core operations remain stable.
 - **Hybrid Application Structure:** This is your app's future architecture. Plan how Angular and AngularJS components will coexist and interact, ensuring smooth communication between different frameworks.
-- **Bootstrap Strategy**: Choose between root-level or component-level bootstrapping based on your migration approach. The former approach loads everything at once and the latter loads components only when needed which is better for performance.
+- **Bootstrap Strategy**: Choose between root-level or component-level bootstrapping based on your migration approach. The former approach loads everything at once, and the latter loads components only when needed, which is better for performance.
 
 **3. Setting Up the Environment**
 
@@ -145,11 +145,11 @@ The right time to migrate was yesterday; the second-best time to migrate is <ins
 
 2. How complex is the migration process?
 
-Migration complexity depends on-
+Migration complexity depends on:
 
-- version difference of the frameworks,
-- intricacy of the application and its size, and
-- familiarity of the team with Angular and migration best practices.
+- Framework version disparities
+- Application intricacy and size
+- Team familiarity with Angular and migration best practices
 
 3. Should I migrate the entire application at once or incrementally?
 
