@@ -7,6 +7,7 @@ draft = false
 authors = ["Akshay Vadher", "Yogendra Jaiswal"]
 description = "Migrating from AngularJS to Angular"
 tags = ["Modernization", "Migration", "Angular"]
+categories = ["Modernization", "Migration", "Angular"]
 type = ""
 +++
 
