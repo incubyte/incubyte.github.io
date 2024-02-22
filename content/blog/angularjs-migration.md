@@ -136,7 +136,7 @@ With the advent of AI, tech migration can now be done quicker with less pressure
 
 The right time to migrate was yesterday; the second-best time to migrate is today.
 
-1. How complex is the migration process?
+2. How complex is the migration process?
 
 Migration complexity depends on-
 
@@ -144,6 +144,6 @@ Migration complexity depends on-
 - intricacy of the application and its size, and 
 - familiarity of the team with Angular and migration best practices.
 
-1. Should I migrate the entire application at once or incrementally?
+3. Should I migrate the entire application at once or incrementally?
 
 Incremental migration is ideal for large applications, where risks are reduced, and adoption is gradual. While migrating the entire application can result in longer downtimes and require extensive planning and effort, it allows you to reap the benefits of the new framework more quickly.
