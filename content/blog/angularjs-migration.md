@@ -46,7 +46,7 @@ Angular seamlessly integrates with Progressive Web App (PWA) features like offli
 #### 5\. Active Community
 The Angular team consistently releases updates ensuring the framework stays current with modern web development trends. The framework also has an active community that contributes a wide range of third-party libraries and tools that cater to diverse development needs.
 
-{{<figure src="/images/2024/angular-migration.png">}}
+{{<figure src="/images/2024/angular-migration/angular-migration.png">}}
 
 
 ## A Step-by-Step Guide on Manual Migration 
@@ -129,6 +129,9 @@ With the advent of AI, tech migration can now be done quicker with less pressure
 
 
 **Ready to experience the CodeAid advantage?**  Learn more about our [expert modernization services](https://www.incubyte.co/services) to see how CodeAid-led migration services can propel your migration journey. 
+
+{{<figure src="/images/2024/angular-migration/modernization-banner.png">}}
+
 
 ## FAQs
 
