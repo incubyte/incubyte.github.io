@@ -2,7 +2,7 @@
 title = "Essential Guide to Tech Migration: Why and How to Migrate from AngularJS to Angular"
 slug = "migrating-angularjs-to-angular"
 date = 2024-02-22T00:00:00Z
-image = "/images/2023/12/meeting.jpg"
+image = "/images/2024/angular-migration/header-image.png"
 draft = false
 authors = ["Akshay Vadher", "Yogendra Jaiswal"]
 description = ""
