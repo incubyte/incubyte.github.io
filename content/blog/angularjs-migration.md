@@ -127,11 +127,7 @@ With the advent of AI, tech migration can now be done quicker with less pressure
 - **Effortless Testing:** Automatically generate missing test cases, ensuring code quality and reliability.
 - **Clear Documentation:** Generate detailed documentation, even for undocumented legacy codebases.
 
-
-{{<figure src="/images/2024/angular-migration/modernization-banner.png">}}
-
-//https://www.incubyte.co/services
-
+<a href="https://www.incubyte.co/services">{{<figure src="/images/2024/angular-migration/modernization-banner.png">}}</a>
 
 ## FAQs
 
