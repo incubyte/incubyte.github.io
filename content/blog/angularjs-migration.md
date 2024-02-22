@@ -1,16 +1,15 @@
 +++
 title = "Essential Guide to Tech Migration: Why and How to Migrate from AngularJS to Angular"
 slug = "migrating-angularjs-to-angular"
-date = 2024-02-22T17:48:58+05:30
+date = 2024-02-22T00:00:00Z
 image = "/images/2023/12/meeting.jpg"
 draft = false
-authors = ["Akshay Vadher", "Yogendra Jaiswal"]
-description = "Migrating from AngularJS to Angular"
+authors = ["Akshay Vadher"]
+description = ""
 tags = ["Modernization", "Migration", "Angular"]
 categories = ["Modernization", "Migration", "Angular"]
 type = ""
 +++
-
 
 For countless applications built with AngularJS, a critical decision looms: migrate to Angular or risk stagnation. While the front-end framework served its time, its end-of-life that passed in December 2021 means no further official security updates or bug fixes are coming, exposing your application to vulnerabilities.
 
