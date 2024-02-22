@@ -128,16 +128,16 @@ With the advent of AI, tech migration can now be done quicker with less pressure
 - **Clear Documentation:** Generate detailed documentation, even for undocumented legacy codebases.
 
 
-**Ready to experience the CodeAid advantage?**  Learn more about our [expert modernization services](https://www.incubyte.co/services) to see how CodeAid-led migration services can propel your migration journey. 
-
 {{<figure src="/images/2024/angular-migration/modernization-banner.png">}}
+
+//https://www.incubyte.co/services
 
 
 ## FAQs
 
 1. When is it necessary to migrate from Angular JS?
 
-The right time to migrate was yesterday; the second-best time to migrate is today.
+The right time to migrate was yesterday; the second-best time to migrate is <ins>today</ins>.
 
 2. How complex is the migration process?
 
