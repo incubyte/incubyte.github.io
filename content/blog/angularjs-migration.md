@@ -46,7 +46,8 @@ Angular seamlessly integrates with Progressive Web App (PWA) features like offli
 #### 5\. Active Community
 The Angular team consistently releases updates ensuring the framework stays current with modern web development trends. The framework also has an active community that contributes a wide range of third-party libraries and tools that cater to diverse development needs.
 
-![](Aspose.Words.29be7372-ecd0-410a-9df1-aae439f43aa3.001.png)
+{{<figure src="/images/2024/angular-migration.png">}}
+
 
 ## A Step-by-Step Guide on Manual Migration 
 
