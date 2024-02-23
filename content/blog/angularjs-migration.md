@@ -17,10 +17,10 @@ Running an unsupported framework affects your application’s ability to adapt t
 
 ## Table of Contents
 
-1. Why You Need to Migrate from AngularJS to Angular
-1. A Step-by-Step Guide on Manual Migration
-1. Accelerating Tech Migration with CodeAid
-1. FAQs
+1. [Why You Need to Migrate from AngularJS to Angular](#why-you-need-to-migrate-from-angularjs-to-angular)
+1. [A Step-by-Step Guide on Manual Migration](#a-step-by-step-guide-on-manual-migration)
+1. [Accelerating Tech Migration with CodeAid](#accelerating-tech-migration-with-codeaid)
+1. [FAQs](#faqs)
 
 ## Why You Need to Migrate from AngularJS to Angular
 
