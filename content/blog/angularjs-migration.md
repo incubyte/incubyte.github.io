@@ -17,10 +17,10 @@ Running an unsupported framework affects your application’s ability to adapt t
 
 ## Table of Contents
 
-1. Why You Need to Migrate from AngularJS to Angular
-1. A Step-by-Step Guide on Manual Migration
-1. Accelerating Tech Migration with CodeAid
-1. FAQs
+1. [Why You Need to Migrate from AngularJS to Angular](#why-you-need-to-migrate-from-angularjs-to-angular)
+1. [A Step-by-Step Guide on Manual Migration](#a-step-by-step-guide-on-manual-migration)
+1. [Accelerating Tech Migration with CodeAid](#accelerating-tech-migration-with-codeaid)
+1. [FAQs](#faqs)
 
 ## Why You Need to Migrate from AngularJS to Angular
 
@@ -139,11 +139,11 @@ With the advent of AI, tech migration can now be done quicker with less pressure
 
 ## FAQs
 
-1. When is it necessary to migrate from AngularJS?
+**1. When is it necessary to migrate from AngularJS?**
 
 The right time to migrate was yesterday; the second-best time to migrate is <ins>today</ins>.
 
-2. How complex is the migration process?
+**2. How complex is the migration process?**
 
 Migration complexity depends on:
 
@@ -151,6 +151,6 @@ Migration complexity depends on:
 - Application intricacy and size
 - Team familiarity with Angular and migration best practices
 
-3. Should I migrate the entire application at once or incrementally?
+**3. Should I migrate the entire application at once or incrementally?**
 
 Incremental migration is ideal for large applications, where risks are reduced, and adoption is gradual. While migrating the entire application can result in longer downtimes and require extensive planning and effort, it allows you to reap the benefits of the new framework more quickly.
