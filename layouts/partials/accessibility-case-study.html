@@ -1,0 +1,362 @@
+<div class="case-study">
+  <div class="template-container">
+    <div class="text-container">
+      <h1 class="title text-center">{{ .Title }}</h1>
+      <p class="summary text-center">{{ .Description }}</p>
+      <p></p>
+
+      <h2 class="section-heading text-center">OUTCOMES</h2>
+
+      <div class="stats-container mt-5">
+        <div class="stats">
+          <p>52+</p>
+          <p>Countries with product presence</p>
+        </div>
+        <div class="stats">
+          <p>22+</p>
+          <p>Languages supported</p>
+        </div>
+        <div class="stats">
+          <p>15k+</p>
+          <p>Global users added</p>
+        </div>
+        <div class="stats">
+          <p>7</p>
+          <p>days to add a new language</p>
+        </div>
+        <div class="stats">
+          <p>RTL</p>
+          <p>Language support</p>
+        </div>
+      </div>
+    </div>
+    <div class="banner-container bg-shcolor">
+      <img
+        class="img_small"
+        src="{{ .Params.banner_image |relURL }}"
+        alt="{{ .Title }}"
+      />
+    </div>
+    <div class="text-container">
+      <h2 class="section-heading">BACKGROUND</h2>
+
+      <div class="client-details-container mt-4">
+        <div class="details-box">
+          <p>Client</p>
+          <p>Mental Health Solution Provider</p>
+        </div>
+        <div class="details-box">
+          <p>Industry</p>
+          <p>Healthcare</p>
+        </div>
+      </div>
+
+      <p class="paragraph-body">
+        Our client is a leading, comprehensive global mental health solution
+        provider that advocates for better mental healthcare benefits for
+        everyone. They achieve this by delivering personalized solutions that
+        fit the individual while providing the proper clinical guidance and
+        emotional support.
+      </p>
+      <p class="paragraph-body">
+        Our client started their journey in 2016 and received series C funding,
+        resulting in a valuation of $2 billion in 2021. They now offer
+        top-quality mental healthcare solutions worldwide.
+      </p>
+
+      <h2 class="section-heading mt-5">WHAT WE DID</h2>
+      <p class="paragraph-body">
+        Our client’s reach was limited to English speakers in the US for the
+        first few years. As part of their expansion strategy, they now needed to
+        add native language support and take their solution global.
+      </p>
+      <p class="paragraph-body-list">
+        Expanding the product presented its own set of challenges that included
+        the following:
+      </p>
+      <ul class="item-list">
+        <li>Scalability of the existing design</li>
+        <li>Support for new countries</li>
+        <li>Support for new languages</li>
+      </ul>
+      <p class="paragraph-body">
+        A keen study of the existing product and our client’s requirements, a
+        careful selection of suitable solutions, and close collaboration with
+        the client helped us achieve the goal of delivering a highly scalable
+        solution in a short time. Some of our key wins include:
+      </p>
+      <div class="what-we-did-container">
+        <div class="item">
+          <div class="rounded-circle bg-secondary">
+            <img
+              class="rounded-circle"
+              style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="{{ .Params.what_we_did_icon_1 |relURL }}"
+            />
+          </div>
+          <p class="label">
+            Three months to make the product globalization ready
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="rounded-circle bg-secondary">
+            <img
+              class="rounded-circle"
+              style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="{{ .Params.what_we_did_icon_2 |relURL }}"
+            />
+          </div>
+          <p class="label">
+            Following this, under seven days and minimal development effort to
+            introduce a new language
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="rounded-circle bg-secondary">
+            <img
+              class="rounded-circle"
+              style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="{{ .Params.what_we_did_icon_3 |relURL }}"
+            />
+          </div>
+          <p class="label">
+            Launched in 52+ countries and 22+ languages in the following months
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="rounded-circle bg-secondary">
+            <img
+              class="rounded-circle"
+              style="width: 62px; height: 62px; background: #d9d9d9 !important"
+              src="{{ .Params.what_we_did_icon_4 |relURL }}"
+            />
+          </div>
+          <p class="label">
+            Built trust and long-term association with the client to execute
+            their vision and strategic direction
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-container">
+      <h2 class="project-highlights-heading">PROJECT HIGHLIGHTS</h2>
+
+      <div class="project-highlights-grid">
+        <a href="{{.Page.Permalink}}#highlight_1">
+          <div class="item">
+            <p class="index">1.</p>
+            <p class="label">Creating the approach</p>
+            <img
+              style="width: 28px; height: auto; align-self: start"
+              src="{{ .Params.right_arrow |relURL }}"
+            />
+          </div>
+        </a>
+
+        <a href="{{.Page.Permalink}}#highlight_2">
+          <div class="item">
+            <p class="index">2.</p>
+            <p class="label">Tackling the frontend</p>
+            <img
+              style="width: 28px; height: auto; align-self: start"
+              src="{{ .Params.right_arrow |relURL }}"
+            />
+          </div>
+        </a>
+
+        <a href="{{.Page.Permalink}}#highlight_3">
+          <div class="item">
+            <p class="index">3.</p>
+            <p class="label">Next step, the backend</p>
+            <img
+              style="width: 28px; height: auto; align-self: start"
+              src="{{ .Params.right_arrow |relURL }}"
+            />
+          </div>
+        </a>
+
+        <a href="{{.Page.Permalink}}#highlight_4">
+          <div class="item">
+            <p class="index">4.</p>
+            <p class="label">Solution for emails</p>
+            <img
+              style="width: 28px; height: auto; align-self: start"
+              src="{{ .Params.right_arrow |relURL }}"
+            />
+          </div>
+        </a>
+
+        <a href="{{.Page.Permalink}}#highlight_5">
+          <div class="item">
+            <p class="index">5.</p>
+            <p class="label">Support for RTL languages</p>
+            <img
+              style="width: 28px; height: auto; align-self: start"
+              src="{{ .Params.right_arrow |relURL }}"
+            />
+          </div>
+        </a>
+      </div>
+
+      <h3 class="project-highlights-subheading mt-5" id="highlight_1">
+        1. Creating the approach
+      </h3>
+
+      <p class="paragraph-body mt-3">
+        When building software products, content is often distributed across the
+        application. Some are UI-embedded, while some come from the backend and
+        the database.
+      </p>
+
+      <p class="paragraph-body">
+        Since language is a crucial aspect affecting user experience, we needed
+        a proper strategy to retrieve content in the target language based on
+        user location.
+      </p>
+
+      <p class="paragraph-body">
+        Our approach was to extract the strings of content, save their
+        translations, and serve this translated version to the end user. To
+        achieve this, we set up several steps in the frontend, backend, and
+        database. We also made our solution user-friendly by translating emails
+        and supporting right-to-left languages to enhance user experience.
+      </p>
+    </div>
+    <div class="text-container">
+      <h3 class="project-highlights-subheading mt-4" id="highlight_2">
+        2. Tackling the Frontend
+      </h3>
+
+      <p class="paragraph-body mt-3">
+        Every software product typically communicates with its users through its
+        UI. Our first challenge was translating the UI based on the user’s
+        language preference.
+      </p>
+      <p class="paragraph-body">
+        The first step in tackling the UI-embedded content was to move it from
+        code to simple text files. This helps simplify the process of
+        introducing new languages in the future. A new language can be added
+        simply by replicating the flat file in a different language.
+      </p>
+      <p class="paragraph-body">
+        We used JSON files to separate code from the language embedded in it.
+        Doing so ensures all content is available in one place, and a
+        translation service can easily translate this content.
+      </p>
+      <p class="paragraph-body">
+        In a global solution, there is a need for customized content based on
+        the user’s location. In addition to generalizing common and hard coded
+        content, helpline numbers are dynamically displayed based on user
+        location to ensure users get the correct information.
+      </p>
+      <p class="paragraph-body">
+        Lastly, we introduced Crowdin, a third-party translation provider, to
+        get translations for new languages. To extend this further, we
+        integrated Crowdin with GitHub PR workflow so that the automated
+        pipelines can handle the translations without a developer’s manual
+        intervention, saving time for the team.
+      </p>
+    </div>
+
+    <div class="text-container">
+      <h3 class="project-highlights-subheading mt-4" id="highlight_3">
+        3. Next Step, the Backend 
+      </h3>
+
+      <p class="paragraph-body mt-3">
+        Maintaining consistency is vital in development, so we took similar
+        steps in the backend to those in the frontend, ensuring a seamless user
+        experience without disruptions.
+      </p>
+      <p class="paragraph-body">
+        We configured the application to deliver localized content based on the
+        user’s language preferences.
+      </p>
+      <p class="paragraph-body">
+        Initially, all content was retrieved directly from the database and
+        passed to the frontend in English. As new languages were introduced, we
+        made the necessary adjustments to the application to serve the
+        translated data content instead.
+      </p>
+      <p class="paragraph-body">
+        For translations, we opted for a hybrid of database and YAML files for
+        serving translated content, using Crowdin as our choice tool for
+        providing translations.
+      </p>
+    </div>
+    <div class="text-container">
+      <h3 class="project-highlights-subheading mt-4" id="highlight_4">
+        4. Solution for Emails 
+      </h3>
+
+      <p class="paragraph-body mt-3">
+        Next, we also wanted customers to receive emails in their target
+        language.
+      </p>
+      <p class="paragraph-body">
+        In the case of emails, we integrated a third-party mail service
+        provider, Iterable. Iterable offers smooth email translations thanks to
+        its locale-based templates that automatically translate content based on
+        the user's preference. For existing emails, we migrated them to use
+        these easy-to-edit templates.
+      </p>
+      <p class="paragraph-body">
+        In the future, our client's marketing team can effortlessly launch
+        events and email campaigns with these editable templates.
+      </p>
+      <p class="paragraph-body">
+        For our client, this meant a better overall experience. Mails are now
+        translated and can be modified without a dependency on the developer,
+        removing a significant bottleneck for the client's marketing team.
+      </p>
+    </div>
+    <div class="text-container">
+      <h3 class="project-highlights-subheading mt-4" id="highlight_5">
+        5. Support for RTL Languages
+      </h3>
+
+      <p class="paragraph-body mt-3">
+        While the application empowered users to access content in their
+        preferred language, supporting RTL language was the natural next step.
+      </p>
+      <p class="paragraph-body">
+        For right-to-left languages such as Arabic, the UI usually appears
+        mirrored. Based on this factor, we identified the elements that would
+        appear mirrored to ensure an intuitive user experience.
+      </p>
+      <p class="paragraph-body">
+        Bidirectionality is an integral part of the UI to support RTL content.
+        An instance of this would be the direction of the arrow that indicates
+        the back button in RTL languages. To accommodate this, we added
+        bidirectional text and icons configured to mirror depending on the
+        language needs.
+      </p>
+      <p class="paragraph-body">
+        At the same time, content types such as images appear the same
+        irrespective of language. For this content, we added smart exceptions as
+        they don’t adhere to RTL styling rules. The same applies to specific
+        icons that don’t hold directional meaning.
+      </p>
+      <p class="paragraph-body">
+        Overall, the steps we took, such as translating English to RTL language
+        and UI mirroring, transformed our solution into a robust tool that met
+        the diverse needs of each end-user.
+      </p>
+      <p class="paragraph-body">
+        *All the metrics in this case study are accurate as of the time of
+        publishing.
+      </p>
+    </div>
+  </div>
+  {{ partial "recommend-case-study.html" . }} {{ partial "lets-talk.html" . }}
+</div>
+
+<style>
+  .bg-shcolor {
+    background-color: #319f96;
+  }
+</style>
