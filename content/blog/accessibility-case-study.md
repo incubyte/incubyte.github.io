@@ -2,12 +2,12 @@
 authors = ["Abhishek Keshri"]
 categories = ["Case Study"]
 date = 2024-04-03T00:00:00Z
-description = "Making Mental Healthcare Accessible and Providing a Personalized Customer Experience"
+description = "From Exclusion to Expansion"
 draft = false
 image = "/images/2024/a11y-case-study/banner-image.png"
 slug = "accessibility-case-study"
 tags = ["Case Study"]
-title = "A Global Mental Healthcare Solution Provider Makes Accessibility a Competitive Advantage: From Exclusion to Expansion"
+title = "A Global Mental Healthcare Solution Provider Makes Accessibility a Competitive Advantage"
 open_quote = "/images/2023/open-quote.png"
 close_quote = "/images/2023/close-quote.png"
 right_arrow = "/images/2023/arrow_right.png"
@@ -25,4 +25,4 @@ card_2_desc="Reinventing Global Consumer Insights for Fintech"
 card_2_slug="monnai-case-study"
 +++
 
-Making Mental Healthcare Accessible and Providing a Personalized Customer Experience
+From Exclusion to Expansion: Making Mental Healthcare Accessible
