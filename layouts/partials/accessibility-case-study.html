@@ -106,9 +106,6 @@
             Achieved WCAG 2.1 A & AA standards for conformance levels 
           </p>
         </div>
-        <p class="paragraph-body">
-        Further enhancements included semantic HTML structure, right-to-left language support with text-to-speech, and fully keyboard-operable interfaces. Our efforts extended to ensuring generated PDFs complied with accessibility standards. 
-      </p>
       </div>
     </div>
 <div class="text-container">
@@ -158,7 +155,7 @@
         <a href="{{.Page.Permalink}}#highlight_2">
           <div class="item">
             <p class="index">2.</p>
-            <p class="label">Making App Screen-Reader Friendly</p>
+            <p class="label">Making the App Screen-Reader Friendly</p>
             <img
               style="width: 28px; height: auto; align-self: start"
               src="{{ .Params.right_arrow |relURL }}"
@@ -214,15 +211,15 @@
       </h3>
 
       <p class="paragraph-body mt-3">
-        To ensure the application is accessible to everyone, we used a tool called <a href="https://www.deque.com/axe/">Deque Axe DevTools</a> to check it thoroughly. This tool helped us find areas where application accessibility can be improved. Next step involved creating a list of tasks based on the findings from the check.
+        To ensure the application is accessible to everyone, we used <a href="https://www.deque.com/axe/">Deque Axe</a>.This tool helped us find areas where application accessibility can be improved.
       </p>
       <p class="paragraph-body mt-3">
-        After that, we went through each task one by one, focusing on the ones that would have the biggest impact. Doing this ensures that the application follows accessibility guidelines, making it easier for users to use and enjoy.
+        After creating a priority list of tasks, we went through each one, focusing on ones that have the biggest impact.
       </p>
     </div>
     <div class="text-container">
       <h3 class="project-highlights-subheading mt-4" id="highlight_2">
-        2. Making App Screen-Reader Friendly 
+        2. Making the App Screen-Reader Friendly 
       </h3>
       <p class="paragraph-body mt-3">
        Screen readers rely on descriptive labels to navigate through content. We started with adding appropriate labels, also ensuring all inputs were fully interactive with different input methods. 
@@ -231,10 +228,10 @@
         We then addressed contrast and readability issues which enhances the usability of the application for users with conditions like color blindness.
       </p>
       <p class="paragraph-body mt-3">
-        Utilizing semantic HTML tags correctly, such as &lt;a&gt; for links and &lt;button&gt; for buttons, ensures compatibility with assistive technologies and provides clearer navigation cues for users. We also added 'role' attributes to elements to help clarify their purpose and behavior for assistive technologies. Assigning semantic headings with appropriate 'role' and 'aria-level' attributes aids in document structure comprehension for users of screen readers which is what we did by assiging role=heading and aria-level attributes for heading.
+        Utilizing semantic HTML tags correctly, such as &lt;a&gt; for links and &lt;button&gt; for buttons, ensures compatibility with assistive technologies and provides clearer navigation cues for users. We also added 'role' attributes to elements to help clarify their purpose and behavior for assistive technologies. Assigning semantic headings with appropriate 'role' and 'aria-level' attributes aids in document structure comprehension for users of screen readers which was our next step.
       </p>
       <p class="paragraph-body mt-3">
-        Ensuring that all image and icon elements have alternate text or captions was also a priority. For users to comfortable access the app, we ensured all content was fully visible with upto 400% zoom levels and on mobile devices.
+        Ensuring that all image and icon elements have alternate text or captions was also a priority. For users to comfortably access the app, we ensured all content was fully visible with upto 400% zoom levels.
       </p>
       <p class="paragraph-body mt-3">
         We also added a 'position' attribute to dropdown elements that allows screen readers to announce the current selection's position within the dropdown list, for instance, Option 1 out of 5.
@@ -253,7 +250,7 @@
         4. Right-to-Left (RTL) Languages
       </h3>
       <p class="paragraph-body mt-3">
-        To accommodate languages such as Arabic and Hebrew, which are read from right to left, we updated the app to support RTL languages making sure users across different linguistic backgrounds can access the content seamlessly, regardless of reading direction, thereby promoting inclusivity.
+        For RTL languages such as Arabic and Hebrew, we updated the app to ensure users across different linguistic backgrounds can access the content seamlessly, regardless of reading direction, thereby promoting inclusivity.
       </p>
     </div>
     <div class="text-container">
@@ -261,7 +258,10 @@
         5. Keyboard Navigation Enhancement
       </h3>
       <p class="paragraph-body mt-3">
-        To facilitate easy navigation and interaction for users who rely solely on keyboard input, particularly individuals with motor impairments, we made improvements to ensure full keyboard operability throughout the app. This involved adding appropriate focus targets and labels, ensuring a logical focus order. These enhancements significantly improve accessibility for users who navigate using keyboard commands rather than a mouse.
+        To facilitate easy navigation and interaction for users who rely solely on keyboard input, particularly individuals with motor impairments, we made improvements to ensure full keyboard operability throughout the app. This involved adding appropriate focus targets and labels, ensuring a logical focus order.
+      </p>
+      <p class="paragraph-body mt-3">
+        These enhancements significantly improve accessibility for users who navigate using keyboard commands rather than a mouse.
       </p>
     </div>
     <div class="text-container">
@@ -269,7 +269,10 @@
         6. Accessible PDFs
       </h3>
       <p class="paragraph-body mt-3">
-        Lastly, We updated all generated PDFs to adhere to WCAG and User Agent Accessibility Guidelines (UAAG) standards. This involved optimizing contrast ratios, enhancing keyboard navigation within PDF documents, and ensuring compatibility with text-to-speech readers. We utilized tools like the PDF Accessibility Checker (PAC) to verify compliance with these standards, ensuring that our PDFs are accessible to a wide range of users.
+        Lastly, we updated all generated PDFs to adhere to WCAG and User Agent Accessibility Guidelines (UAAG) standards. This involved optimizing contrast ratios, enhancing keyboard navigation within PDF documents, and ensuring compatibility with text-to-speech readers.
+      </p>
+       <p class="paragraph-body mt-3">
+        We utilized tools like the PDF Accessibility Checker (PAC) to verify compliance with these standards, ensuring that our PDFs are accessible to a wide range of users.
       </p>
     </div>
   </div>
