@@ -15,7 +15,7 @@
 
 
 <meta name="author" content="[Akshay Vadher]">
-<meta name="generator" content="Hugo 0.123.4">
+<meta name="generator" content="Hugo 0.124.1">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,7 +45,6 @@
 <meta property="og:url" content="https://blog.incubyte.co/blog/should-you-commit-lock-file/" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2023-09-27T15:48:02+05:30" />
 <meta property="article:modified_time" content="2023-09-27T15:48:02+05:30" />
-
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="The Importance of Committing Lock Files in Dependency Management"/>
 <meta name="twitter:description" content="In software development, dependency management is a critical aspect that directly impacts the stability and reproducibility of your projects."/>
@@ -724,7 +723,7 @@ version, but in the subsequent installations, it will use the same version as in
 <p><code>npm install</code> automatically generates the lock file.</p>
 <p>Take a look at the below diagram.</p>
 <p>Application A depends on libraries B (1.2.9) and C (^6.8.7). B depends on C (6.8.8), D (4.5.3), and E (7.2.9).</p>
-<figure><img src="/images/2023/commit-lock-file/version-locking-case.png"/>
+<figure><img src="/images/2023/commit-lock-file/version-locking-case.png">
 </figure>
 
 <p>In the lock file, all the dependencies are flattened with their versions mentioned. So, the lock file will look like this

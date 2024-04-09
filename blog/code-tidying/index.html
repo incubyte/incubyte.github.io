@@ -15,7 +15,7 @@
 
 
 <meta name="author" content="[Sapan Parikh]">
-<meta name="generator" content="Hugo 0.123.4">
+<meta name="generator" content="Hugo 0.124.1">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,7 +45,6 @@
 <meta property="og:url" content="https://blog.incubyte.co/blog/code-tidying/" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2023-08-18T00:10:46+05:30" />
 <meta property="article:modified_time" content="2023-08-18T00:10:46+05:30" />
-
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Code Tidying: The Story of a Backseat Driver"/>
 <meta name="twitter:description" content="Let&rsquo;s embark on a thought experiment. Envision yourself as a driving virtuoso, conquering city streets with gear shifts smoother than a buttered dolphin on a rainbow."/>
@@ -704,10 +703,10 @@ if (!doNotTrack) {
 <p>In programming, too, there is a “tell, do not ask” principle. Let’s visit it (now, this was a hard segue).</p>
 <h2 id="feature-envy">Feature Envy:</h2>
 <p>In programming, there exist backseat drivers. The backseat driver is a module that asks for data from another class or a module and works with it (logic), while the whole logic could have been in the other module.</p>
-<figure><img src="/images/2023/code_tidying/1.png"/>
+<figure><img src="/images/2023/code_tidying/1.png">
 </figure>
 
-<figure><img src="/images/2023/code_tidying/2.png"/>
+<figure><img src="/images/2023/code_tidying/2.png">
 </figure>
 
 <h2 id="problems-caused-by-feature-envy">Problems Caused by Feature Envy:</h2>
@@ -730,17 +729,17 @@ if (!doNotTrack) {
 <p>CodeScene hotspots = files&rsquo; churn rate + code health.</p>
 <p>This means they might be a cesspool of many code smells. Once we knew where to look, finding such feature envy instances was easy.</p>
 <p>The other option to detect feature envy issues is by using IntelliJ&rsquo;s code analysis feature on the CodeScene hotspot.</p>
-<figure><img src="/images/2023/code_tidying/3.gif"/>
+<figure><img src="/images/2023/code_tidying/3.gif">
 </figure>
 
 <p>Here is an example. Do you see how every line of code written here works with an instance of IndexMetadata class?</p>
 <p>Though, currently, this method is in some other class entirely!</p>
-<figure><img src="/images/2023/code_tidying/4.png"/>
+<figure><img src="/images/2023/code_tidying/4.png">
 </figure>
 
 <p>So what can we do?</p>
 <p>Well, we move the method body to the class it should belong to! Here is an example.</p>
-<figure><img src="/images/2023/code_tidying/5.gif"/>
+<figure><img src="/images/2023/code_tidying/5.gif">
 </figure>
 
 <h2 id="conclusion">Conclusion:</h2>

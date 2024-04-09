@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abhishek Keshri</title>
+      <link>https://blog.incubyte.co/authors/abhishek-keshri/</link>
+      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/authors/abhishek-keshri/</guid>
+      <description>Passion Driven Software Craftsperson with a strong affinity for OSS and the CLI.</description>
+    </item>
     <item>
       <title>Akshay Vadher</title>
       <link>https://blog.incubyte.co/authors/akshay-vadher/</link>
@@ -85,13 +92,6 @@
       <pubDate>Thu, 27 Jul 2023 20:04:38 +0530</pubDate>
       <guid>https://blog.incubyte.co/authors/nirav-chavda/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>Abhishek Keshri</title>
-      <link>https://blog.incubyte.co/authors/abhishek-keshri/</link>
-      <pubDate>Wed, 28 Jun 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/authors/abhishek-keshri/</guid>
-      <description>Passion Driven Software Craftsperson with a strong affinity for OSS and the CLI.</description>
     </item>
     <item>
       <title>Sutirtha Das</title>

@@ -3,10 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/accessibility-case-study/</loc>
+    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/abhishek-keshri/</loc>
+    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/</loc>
+    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/case-study/</loc>
+    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/case-study/</loc>
+    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/</loc>
+    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/</loc>
+    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/akshay-vadher/</loc>
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
@@ -15,12 +36,6 @@
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/angular/</loc>
-    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/authors/</loc>
-    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/</loc>
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/migrating-angularjs-to-angular/</loc>
@@ -36,9 +51,6 @@
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/modernization/</loc>
-    <lastmod>2024-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/</loc>
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/yogendra-jaiswal/</loc>
@@ -185,12 +197,6 @@
     <loc>https://blog.incubyte.co/categories/refactoring/</loc>
     <lastmod>2023-08-18T00:10:46+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/case-study/</loc>
-    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/case-study/</loc>
-    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/blog/build-deployment-case-study/</loc>
     <lastmod>2023-08-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -211,9 +217,6 @@
   </url><url>
     <loc>https://blog.incubyte.co/blog/refactoring-to-tidying/</loc>
     <lastmod>2023-07-21T00:10:46+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/authors/abhishek-keshri/</loc>
-    <lastmod>2023-06-28T00:10:46+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/architect/</loc>
     <lastmod>2023-06-28T00:10:46+05:30</lastmod>

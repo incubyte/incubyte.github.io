@@ -15,7 +15,7 @@
 
 
 <meta name="author" content="[Sapan Parikh]">
-<meta name="generator" content="Hugo 0.123.4">
+<meta name="generator" content="Hugo 0.124.1">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,7 +45,6 @@
 <meta property="og:url" content="https://blog.incubyte.co/blog/notalltestsarethesame/" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2021-01-01T00:00:00+00:00" />
 <meta property="article:modified_time" content="2021-01-01T00:00:00+00:00" />
-
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Not All Tests are the Same"/>
 <meta name="twitter:description" content="On multiple occasions, I have worked on projects where I learned how critical testing is and that not all tests are the same."/>
@@ -699,7 +698,7 @@ if (!doNotTrack) {
 <p>Approach one, which depended solely on unit testing of backend code, had many false positives. In this scenario, the test cases passed all the time. Yet, the software in production did not work. This false assurance could be because of a lack of Javascript tests or missed 3rd party integration errors because of the limited scope of the unit tests.</p>
 <p>On the other hand, the second approach had precisely the opposite issue. This approach had lots of false negatives. Here many test cases failed, but things were not broken to the extent indicated. For instance, a single bug could cause 100 broken Selenium test cases, or a few percent of test cases would always break due to timeouts or other issues not related to the code in production.</p>
 <p>This discussion brings us back to the testing pyramid. Any organization or project&rsquo;s testing strategy should include a combination of unit tests, integration tests, Selenium tests, manual tests, etc.</p>
-<figure><img src="/images/2021/02/image.png"/>
+<figure><img src="/images/2021/02/image.png">
 </figure>
 
 <p>Image credit: <a href="https://martinfowler.com/articles/practical-test-pyramid.html">https://martinfowler.com/articles/practical-test-pyramid.html</a></p>
@@ -711,7 +710,7 @@ if (!doNotTrack) {
 <p><strong>Frequency of failure:</strong> Using historical data, one can figure out the likelihood of failure. A test that&rsquo;s always known to pass can be given the score of one, and a test that&rsquo;s know to fail a lot can get a score of five.</p>
 <p><strong>Impact:</strong> A failing test case which does not harm much can be given a score of one. Versus, if there are scenarios that if broken, can do permanent damage to the company&rsquo;s image, then they should be given a score of five.</p>
 <p>This scoring finally should be arranged in a matrix like the following image.</p>
-<figure><img src="/images/2021/01/Pasted-image-20210123205213.png"/>
+<figure><img src="/images/2021/01/Pasted-image-20210123205213.png">
 </figure>
 
 <p>The product of these two measures gives you a <em>Risk Score</em> for each of the test cases. For example, you may decide to prioritize every test case that gets a score of 12 and higher. These test cases are the high impact, high likelihood ones that must pass even before the alpha version of a product comes out, giving the alpha version a certain basic stability while ensuring an early rollout.</p>
