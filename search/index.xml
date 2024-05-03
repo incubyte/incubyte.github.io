@@ -4,7 +4,7 @@
     <title>Incubyte Blog</title>
     <link>https://blog.incubyte.co/search/</link>
     <description>Recent content on Incubyte Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <atom:link href="https://blog.incubyte.co/search/index.xml" rel="self" type="application/rss+xml" />
