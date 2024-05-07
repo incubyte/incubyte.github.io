@@ -16,16 +16,16 @@ Despite my searches, I couldn’t find a tutorial that perfectly fit our needs f
 
 {{< figure src="/images/2024/firebase-cloud-function/firebase-cloud-function-1.png" >}}
 
-<h2>Setting up Firebase</h2>
+### Setting up Firebase
 
 Before we dive into the code, ensure you have a Firebase project set up with Firestore as your database. If you’re new to Firebase, follow their [official documentation](https://firebase.google.com/docs) to create a new project and enable the Firestore database and cloud functions.
 
-<h2>Table.jsx</h2>
+### Table.jsx
 
 Once you have your Firebase project and Firestore database ready, the next step is to integrate Firestore data into your React/Next.js application. This example illustrates how to display Firestore data in a table within a React component using hooks like `useState` and `useEffect`.
 
 
-```
+```react
 import { db } from "../utils/firebase";
 import { useState, useEffect } from "react";
 import { collection, query, orderBy, getDocs } from "firebase/firestore";
@@ -134,8 +134,8 @@ export default function Table() {
     </div>
   );
 }
-
 ```
+
 
 <ul>
   <li>
@@ -146,11 +146,11 @@ export default function Table() {
   </li>
 </ul>
 
-<h2>Button.jsx</h2>
+### Button.jsx
 
 This component works as a trigger for the cloud function.
 
-```
+```react
 import { addDoc, collection, doc, onSnapshot } from "firebase/firestore";
 import { db } from "../utils/firebase";
 import { useState } from "react";
@@ -208,8 +208,8 @@ const Button = () => {
 };
 
 export default Button;
-
 ```
+
 <ul>
   <li>
     When the “Get Report” button is clicked, a document is added to the reports collection, which acts as a trigger for the cloud function.
@@ -219,17 +219,15 @@ export default Button;
   </li>
 </ul>
 
-<h2>Cloud Function</h2>
+### Cloud Function
 
-<h3>Setting up the Environment</h3>
+#### Setting up the Environment
 
 Before diving into the code, ensure you have the necessary modules installed and initialized:
 
 <ul>
   <li>
-  
     **Firebase Functions:**  Manage cloud functions.
-    
   </li>
   <li>
    __Firebase Admin:__ Interact with various Firebase services, including Firestore and Storage.
@@ -242,7 +240,8 @@ Before diving into the code, ensure you have the necessary modules installed and
   </li>
 </ul>
 
-```
+
+```react
 /**
  * Import function triggers from their respective submodules:
  *
@@ -319,10 +318,9 @@ exports.createCSV = functions.region("asia-south1")
       return console.log(err);
     }
   });
-
 ```
 
-<h3>Key Points</h3>
+### Key Points
 
 <ul>
   <li>
@@ -351,7 +349,7 @@ exports.createCSV = functions.region("asia-south1")
   </li>
 </ul>
 
-<h2>Conclusion</h2>
+### Conclusion
 
 In this tutorial, we’ve demonstrated how to automate the process of converting Firestore documents into a CSV format using Firebase Cloud Functions. This functionality is particularly useful for generating timely reports or exports, streamlining data management tasks without manual intervention.
 
