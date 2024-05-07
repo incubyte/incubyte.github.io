@@ -227,16 +227,16 @@ Before diving into the code, ensure you have the necessary modules installed and
 
 <ul>
   <li>
-    **Firebase Functions:**  Manage cloud functions.
+   <strong>Firebase Functions:</strong>  Manage cloud functions.
   </li>
   <li>
-   __Firebase Admin:__ Interact with various Firebase services, including Firestore and Storage.
+   <strong>Firebase Admin:</strong> Interact with various Firebase services, including Firestore and Storage.
   </li>
   <li>
-   __Papaparse:__ A powerful library for parsing and un-parsing CSV files.
+   <strong>Papaparse:</strong> A powerful library for parsing and un-parsing CSV files.
   </li>
   <li>
-   __date-fns (Optional):__ A library to manipulate JavaScript dates in a straightforward way.
+   <strong>date-fns (Optional):</strong> A library to manipulate JavaScript dates in a straightforward way.
   </li>
 </ul>
 
@@ -324,28 +324,28 @@ exports.createCSV = functions.region("asia-south1")
 
 <ul>
   <li>
- **Trigger:** The function is triggered by creating a new document in the reports collection.
+ <strong>Trigger:</strong> The function is triggered by creating a new document in the reports collection.
   </li>
   <li>
-  **Data Fetching:** Retrieves all documents from the bills collection.
+  <strong>Data Fetching:</strong> Retrieves all documents from the bills collection.
   </li>
   <li>
-  **Date Manipulation:** Converts Firestore timestamp fields to a more readable format using date-fns.
+  <strong>Date Manipulation:</strong> Converts Firestore timestamp fields to a more readable format using date-fns.
   </li>
   <li>
-  **CSV Conversion:** Uses Papaparse to convert the data to CSV format.
+  <strong>CSV Conversion:</strong> Uses Papaparse to convert the data to CSV format.
   </li>
   <li>
-**File Handling:** Creates a temporary file for the CSV, then uploads it to Firebase Storage.
+<strong>File Handling:</strong> Creates a temporary file for the CSV, then uploads it to Firebase Storage.
   </li>
   <li>
- **Public Access:** Makes the uploaded file publicly accessible.
+ <strong>Public Access:</strong> Makes the uploaded file publicly accessible.
   </li>
     <li>
-**Update Firestore Document:** Updates the report document with the CSV file’s download link and marks the report as complete.
+<strong>Update Firestore Document:</strong> Updates the report document with the CSV file’s download link and marks the report as complete.
   </li>
     <li>
-**Error Handling:** Includes try-catch for robust error management.
+<strong>Error Handling:</strong> Includes try-catch for robust error management.
   </li>
 </ul>
 
