@@ -215,7 +215,7 @@ export default Button;
     When the “Get Report” button is clicked, a document is added to the reports collection, which acts as a trigger for the cloud function.
   </li>
   <li>
-   The `onSnapshot()` method watches for any updates to the document, retrieving the download link once it's ready.
+   The ` onSnapshot() ` method watches for any updates to the document, retrieving the download link once it's ready.
   </li>
 </ul>
 
