@@ -10,9 +10,8 @@ title = "Using Firebase Cloud Functions: Exporting Firestore Data to Excel in Re
 +++
 
 
-One day, my senior developer presented me with a challenge: we needed a feature that would allow us to download our admin data directly as Excel files for easier reporting and analysis. After extensive research and some help from AI tools like ChatGPT, I devised a solution using Firebase Cloud Functions.
+One day, my senior developer gave me a challenge: we needed a way to download our admin data as Excel files for better reporting. Despite searching, I couldn’t find a tutorial that fit our needs for a React/Next.js app. After more research, including using AI tools like ChatGPT, I figured out a solution. In this blog, I'll show you how we use Firebase Cloud Functions to make it happen.
 
-Despite my searches, I couldn’t find a tutorial that perfectly fit our needs for a React/Next.js application. Realizing others might face the same dilemma, I decided to write this blog.
 
 {{< figure src="/images/2024/firebase-cloud-function/firebase-cloud-function-1.png" >}}
 
