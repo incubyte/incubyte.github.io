@@ -227,16 +227,16 @@ Before diving into the code, ensure you have the necessary modules installed and
 
 <ul>
   <li>
-   **Firebase Functions:** Manage cloud functions.
+   __Firebase Functions:__ Manage cloud functions.
   </li>
   <li>
-   **Firebase Admin:** Interact with various Firebase services, including Firestore and Storage.
+   __Firebase Admin:__ Interact with various Firebase services, including Firestore and Storage.
   </li>
   <li>
-   **Papaparse:** A powerful library for parsing and un-parsing CSV files.
+   __Papaparse:__ A powerful library for parsing and un-parsing CSV files.
   </li>
   <li>
-   **date-fns (Optional):** A library to manipulate JavaScript dates in a straightforward way.
+   __date-fns (Optional):__ A library to manipulate JavaScript dates in a straightforward way.
   </li>
 </ul>
 
