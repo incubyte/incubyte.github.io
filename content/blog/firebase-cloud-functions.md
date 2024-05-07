@@ -18,7 +18,7 @@ Despite my searches, I couldn’t find a tutorial that perfectly fit our needs f
 
 <h2>Setting up Firebase</h2>
 
-Before we dive into the code, ensure you have a Firebase project set up with Firestore as your database. If you’re new to Firebase, follow their official documentation to create a new project and enable the Firestore database and cloud functions.
+Before we dive into the code, ensure you have a Firebase project set up with Firestore as your database. If you’re new to Firebase, follow their [official documentation](https://firebase.google.com/docs) to create a new project and enable the Firestore database and cloud functions.
 
 <h2>Table.jsx</h2>
 
@@ -215,7 +215,7 @@ export default Button;
     When the “Get Report” button is clicked, a document is added to the reports collection, which acts as a trigger for the cloud function.
   </li>
   <li>
-   The onSnapshot() method watches for any updates to the document, retrieving the download link once it's ready.
+   The `onSnapshot()` method watches for any updates to the document, retrieving the download link once it's ready.
   </li>
 </ul>
 
@@ -227,16 +227,16 @@ Before diving into the code, ensure you have the necessary modules installed and
 
 <ul>
   <li>
-   Firebase Functions: Manage cloud functions.
+   **Firebase Functions:** Manage cloud functions.
   </li>
   <li>
-   Firebase Admin: Interact with various Firebase services, including Firestore and Storage.
+   **Firebase Admin:** Interact with various Firebase services, including Firestore and Storage.
   </li>
   <li>
-   Papaparse: A powerful library for parsing and un-parsing CSV files.
+   **Papaparse:** A powerful library for parsing and un-parsing CSV files.
   </li>
   <li>
-   date-fns (Optional): A library to manipulate JavaScript dates in a straightforward way.
+   **date-fns (Optional):** A library to manipulate JavaScript dates in a straightforward way.
   </li>
 </ul>
 
@@ -324,28 +324,28 @@ exports.createCSV = functions.region("asia-south1")
 
 <ul>
   <li>
- Trigger: The function is triggered by creating a new document in the reports collection.
+ **Trigger:** The function is triggered by creating a new document in the reports collection.
   </li>
   <li>
-  Data Fetching: Retrieves all documents from the bills collection.
+  **Data Fetching:** Retrieves all documents from the bills collection.
   </li>
   <li>
-  Date Manipulation: Converts Firestore timestamp fields to a more readable format using date-fns.
+  **Date Manipulation:** Converts Firestore timestamp fields to a more readable format using date-fns.
   </li>
   <li>
-  CSV Conversion: Uses Papaparse to convert the data to CSV format.
+  **CSV Conversion:** Uses Papaparse to convert the data to CSV format.
   </li>
   <li>
-File Handling: Creates a temporary file for the CSV, then uploads it to Firebase Storage.
+**File Handling:** Creates a temporary file for the CSV, then uploads it to Firebase Storage.
   </li>
   <li>
- Public Access: Makes the uploaded file publicly accessible.
+ **Public Access:** Makes the uploaded file publicly accessible.
   </li>
     <li>
-Update Firestore Document: Updates the report document with the CSV file’s download link and marks the report as complete.
+**Update Firestore Document:** Updates the report document with the CSV file’s download link and marks the report as complete.
   </li>
     <li>
-Error Handling: Includes try-catch for robust error management.
+**Error Handling:** Includes try-catch for robust error management.
   </li>
 </ul>
 
