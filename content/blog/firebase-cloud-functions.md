@@ -10,7 +10,7 @@ title = "Using Firebase Cloud Functions: Exporting Firestore Data to Excel in Re
 +++
 
 
-One day, my senior developer gave me a challenge: we needed a way to download our admin data as Excel files for better reporting. Despite searching, I couldn’t find a tutorial that fit our needs for a React/Next.js app. After more research, including using AI tools like ChatGPT, I figured out a solution. In this blog, I'll show you how we use Firebase Cloud Functions to make it happen.
+One day, one of my team members gave me a challenge: we needed a way to download our admin data as Excel files for better reporting. Despite searching, I couldn’t find a tutorial that fit our needs for a React/Next.js app. After more research, including using AI tools like ChatGPT, I figured out a solution. In this blog, I'll show you how we use Firebase Cloud Functions to make it happen.
 
 
 {{< figure src="/images/2024/firebase-cloud-function/firebase-cloud-function-1.png" >}}
@@ -136,14 +136,8 @@ export default function Table() {
 ```
 
 
-<ul>
-  <li>
-    Here we have a very simple table showing data fetched from Firestore using React hooks.
-  </li>
-  <li>
-    Additionally, there is a “Get Report” button that triggers a cloud function.
-  </li>
-</ul>
+- Here we have a very simple table showing data fetched from Firestore using React hooks.
+- Additionally, there is a “Get Report” button that triggers a cloud function.
 
 ### Button.jsx
 
@@ -209,14 +203,8 @@ const Button = () => {
 export default Button;
 ```
 
-<ul>
-  <li>
-    When the “Get Report” button is clicked, a document is added to the reports collection, which acts as a trigger for the cloud function.
-  </li>
-  <li>
-   The ` onSnapshot() ` method watches for any updates to the document, retrieving the download link once it's ready.
-  </li>
-</ul>
+- When the “Get Report” button is clicked, a document is added to the reports collection, which acts as a trigger for the cloud function.
+- The ` onSnapshot() ` method watches for any updates to the document, retrieving the download link once it's ready.
 
 ### Cloud Function
 
@@ -224,20 +212,10 @@ export default Button;
 
 Before diving into the code, ensure you have the necessary modules installed and initialized:
 
-<ul>
-  <li>
-   <strong>Firebase Functions:</strong>  Manage cloud functions.
-  </li>
-  <li>
-   <strong>Firebase Admin:</strong> Interact with various Firebase services, including Firestore and Storage.
-  </li>
-  <li>
-   <strong>Papaparse:</strong> A powerful library for parsing and un-parsing CSV files.
-  </li>
-  <li>
-   <strong>date-fns (Optional):</strong> A library to manipulate JavaScript dates in a straightforward way.
-  </li>
-</ul>
+- **Firebase Functions:**  Manage cloud functions.
+- **Firebase Admin:** Interact with various Firebase services, including Firestore and Storage.
+- **Papaparse:** A powerful library for parsing and un-parsing CSV files.
+- **date-fns (Optional):**  A library to manipulate JavaScript dates in a straightforward way.
 
 
 ```react
@@ -321,32 +299,14 @@ exports.createCSV = functions.region("asia-south1")
 
 ### Key Points
 
-<ul>
-  <li>
- <strong>Trigger:</strong> The function is triggered by creating a new document in the reports collection.
-  </li>
-  <li>
-  <strong>Data Fetching:</strong> Retrieves all documents from the bills collection.
-  </li>
-  <li>
-  <strong>Date Manipulation:</strong> Converts Firestore timestamp fields to a more readable format using date-fns.
-  </li>
-  <li>
-  <strong>CSV Conversion:</strong> Uses Papaparse to convert the data to CSV format.
-  </li>
-  <li>
-<strong>File Handling:</strong> Creates a temporary file for the CSV, then uploads it to Firebase Storage.
-  </li>
-  <li>
- <strong>Public Access:</strong> Makes the uploaded file publicly accessible.
-  </li>
-    <li>
-<strong>Update Firestore Document:</strong> Updates the report document with the CSV file’s download link and marks the report as complete.
-  </li>
-    <li>
-<strong>Error Handling:</strong> Includes try-catch for robust error management.
-  </li>
-</ul>
+- **Trigger:** The function is triggered by creating a new document in the reports collection.
+- **Data Fetching:** Retrieves all documents from the bills collection.
+- **Date Manipulation:** Converts Firestore timestamp fields to a more readable format using date-fns.
+- **CSV Conversion:** Uses Papaparse to convert the data to CSV format.
+- **File Handling:** Creates a temporary file for the CSV, then uploads it to Firebase Storage.
+- **Public Access:** Makes the uploaded file publicly accessible.
+- **Update Firestore Document:** Updates the report document with the CSV file’s download link and marks the report as complete.
+- **Error Handling:** Includes try-catch for robust error management.
 
 ### Conclusion
 
