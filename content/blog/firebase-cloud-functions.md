@@ -355,7 +355,7 @@ In this tutorial, we’ve demonstrated how to automate the process of converting
 
 Below is a GIF that illustrates how the application behaves once integrated. This visual representation helps to understand the seamless flow from data trigger to CSV generation and retrieval.
 
-<gif>
+{{< figure src="/images/2024/firebase-cloud-function/firebase-cloud-function-2.gif" >}}
 
 For more detailed code, check out this GitHub repository: https://github.com/dixitt5/firestore-data-to-excel
 
