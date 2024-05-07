@@ -1,11 +1,11 @@
 +++
-authors = ["Dixit Talaji"]
-date = 2024-05-06T00:00:00Z
+authors = ["Dixit Tilaji"]
+date = 2024-05-07T00:00:00Z
 description = "Using Firebase Cloud Functions: Exporting Firestore Data to Excel in React Apps"
 draft = false
 image = "/images/2023/03/accelerate.jpg"
 slug = "using-firebase-cloud-functions"
-tags = [""]
+tags = ["Software Craftsmanship","React"]
 title = "Using Firebase Cloud Functions: Exporting Firestore Data to Excel in React Apps"
 +++
 
@@ -14,7 +14,7 @@ One day, my senior developer presented me with a challenge: we needed a feature 
 
 Despite my searches, I couldn’t find a tutorial that perfectly fit our needs for a React/Next.js application. Realizing others might face the same dilemma, I decided to write this blog.
 
-<image>
+{{< figure src="/images/2024/firebase-cloud-function/firebase-cloud-function-1.png" >}}
 
 <h2>Setting up Firebase</h2>
 
@@ -22,7 +22,7 @@ Before we dive into the code, ensure you have a Firebase project set up with Fir
 
 <h2>Table.jsx</h2>
 
-Once you have your Firebase project and Firestore database ready, the next step is to integrate Firestore data into your React/Next.js application. This example illustrates how to display Firestore data in a table within a React component using hooks like useState and useEffect.
+Once you have your Firebase project and Firestore database ready, the next step is to integrate Firestore data into your React/Next.js application. This example illustrates how to display Firestore data in a table within a React component using hooks like `useState` and `useEffect`.
 
 
 ```
