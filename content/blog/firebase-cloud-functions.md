@@ -227,7 +227,9 @@ Before diving into the code, ensure you have the necessary modules installed and
 
 <ul>
   <li>
-   __Firebase Functions:__ Manage cloud functions.
+  
+    **Firebase Functions:**  Manage cloud functions.
+    
   </li>
   <li>
    __Firebase Admin:__ Interact with various Firebase services, including Firestore and Storage.
