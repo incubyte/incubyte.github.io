@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 03 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>React</title>
+      <link>https://blog.incubyte.co/tags/react/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/tags/react/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Craftsmanship</title>
+      <link>https://blog.incubyte.co/tags/software-craftsmanship/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/tags/software-craftsmanship/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Case Study</title>
       <link>https://blog.incubyte.co/tags/case-study/</link>
@@ -63,13 +77,6 @@
       <link>https://blog.incubyte.co/tags/playbook/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/tags/playbook/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Craftsmanship</title>
-      <link>https://blog.incubyte.co/tags/software-craftsmanship/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/tags/software-craftsmanship/</guid>
       <description></description>
     </item>
     <item>

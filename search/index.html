@@ -14,7 +14,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.125.5">
+<meta name="generator" content="Hugo 0.125.6">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -646,7 +646,7 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "April 3, 2024",
+          "date": "May 7, 2024",
           "url": "https://blog.incubyte.co/"
       },
       
@@ -657,8 +657,74 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "April 3, 2024",
+          "date": "May 7, 2024",
           "url": "https://blog.incubyte.co/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/": {
+          "title": "Authors",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "May 7, 2024",
+          "url": "https://blog.incubyte.co/authors/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/dixit-tilaji\/": {
+          "title": "Dixit Tilaji",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "May 7, 2024",
+          "url": "https://blog.incubyte.co/authors/dixit-tilaji/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/react\/": {
+          "title": "React",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "May 7, 2024",
+          "url": "https://blog.incubyte.co/tags/react/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/software-craftsmanship\/": {
+          "title": "Software Craftsmanship",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "May 7, 2024",
+          "url": "https://blog.incubyte.co/tags/software-craftsmanship/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/": {
+          "title": "Tags",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "May 7, 2024",
+          "url": "https://blog.incubyte.co/tags/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/blog\/using-firebase-cloud-functions\/": {
+          "title": "Using Firebase Cloud Functions: Exporting Firestore Data to Excel in React Apps",
+          "tags": ["Software Craftsmanship","React",],
+          "authors":["Dixit Tilaji",],
+          "summary":"One day, one of my team members gave me a challenge: we needed a way to download our admin data as Excel files for better reporting.",
+          "content":"One day, one of my team members gave me a challenge: we needed a way to download our admin data as Excel files for better reporting. Despite searching, I couldn’t find a tutorial that fit our needs for a React/Next.js app. After more research, including using AI tools like ChatGPT, I figured out a solution. In this blog, I\u0026rsquo;ll show you how we use Firebase Cloud Functions to make it happen.\nSetting up Firebase Before we dive into the code, ensure you have a Firebase project set up with Firestore as your database. If you’re new to Firebase, follow their official documentation to create a new project and enable the Firestore database and cloud functions.\nTable.jsx Once you have your Firebase project and Firestore database ready, the next step is to integrate Firestore data into your React/Next.js application. This example illustrates how to display Firestore data in a table within a React component using hooks like useState and useEffect.\nimport { db } from \u0026#34;../utils/firebase\u0026#34;; import { useState, useEffect } from \u0026#34;react\u0026#34;; import { collection, query, orderBy, getDocs } from \u0026#34;firebase/firestore\u0026#34;; import Button from \u0026#34;./Button\u0026#34;; export default function Table() { const [logs, setLogs] = useState([]); const [loading, setLoading] = useState(false); useEffect(() =\u0026gt; { const fetchLogs = async () =\u0026gt; { setLoading(true); const logsRef = collection(db, \u0026#34;bills\u0026#34;); const logsBills = query(logsRef, orderBy(\u0026#34;time\u0026#34;, \u0026#34;desc\u0026#34;)); const logsSnapshot = await getDocs(logsBills); const logsData = logsSnapshot.docs.map((doc) =\u0026gt; doc.data()); setLogs(logsData); setLoading(false); }; fetchLogs(); }, []); return ( \u0026lt;div className=\u0026#34; dark:bg-slate-900 bg-gray-100 flex h-full items-left pb-96 text-black\u0026#34;\u0026gt; \u0026lt;div className=\u0026#34;max-w-auto mx-auto p-6\u0026#34;\u0026gt; \u0026lt;div className=\u0026#34;text-center\u0026#34;\u0026gt; \u0026lt;h1 className=\u0026#34;text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white\u0026#34;\u0026gt; User Bills \u0026lt;/h1\u0026gt; \u0026lt;/div\u0026gt; \u0026lt;div className=\u0026#34;flex flex-col bg-white rounded-md mt-4 p-6\u0026#34;\u0026gt; \u0026lt;div className=\u0026#34;flex flex-col\u0026#34;\u0026gt; \u0026lt;div className=\u0026#34;-m-1.5 overflow-x-auto\u0026#34;\u0026gt; \u0026lt;div className=\u0026#34;p-1.5 min-w-full inline-block align-middle\u0026#34;\u0026gt; \u0026lt;div className=\u0026#34;overflow-hidden\u0026#34;\u0026gt; \u0026lt;table className=\u0026#34;min-w-full divide-y divide-gray-200 dark:divide-gray-700\u0026#34;\u0026gt; \u0026lt;thead\u0026gt; \u0026lt;tr\u0026gt; \u0026lt;th scope=\u0026#34;col\u0026#34; className=\u0026#34;px-2 py-3 text-center text-xs font-medium text-gray-500 uppercase\u0026#34; \u0026gt; Index \u0026lt;/th\u0026gt; \u0026lt;th scope=\u0026#34;col\u0026#34; className=\u0026#34;px-2 py-3 text-center text-xs font-medium text-gray-500 uppercase\u0026#34; \u0026gt; Name \u0026lt;/th\u0026gt; \u0026lt;th scope=\u0026#34;col\u0026#34; className=\u0026#34;px-2 py-3 text-center text-xs font-medium text-gray-500 uppercase\u0026#34; \u0026gt; Bills \u0026lt;/th\u0026gt; \u0026lt;th scope=\u0026#34;col\u0026#34; className=\u0026#34;px-2 py-3 text-center text-xs font-medium text-gray-500 uppercase\u0026#34; \u0026gt; Time \u0026lt;/th\u0026gt; \u0026lt;/tr\u0026gt; \u0026lt;/thead\u0026gt; \u0026lt;tbody className=\u0026#34;divide-y divide-gray-200 dark:divide-gray-700\u0026#34;\u0026gt; {logs.map((item, index) =\u0026gt; ( \u0026lt;tr key={index}\u0026gt; \u0026lt;td className=\u0026#34;px-2 py-4 whitespace-nowrap text-sm font-medium text-black place-self-center\u0026#34;\u0026gt; {index + 1} \u0026lt;/td\u0026gt; \u0026lt;td className=\u0026#34;px-2 py-4 whitespace-nowrap text-center font-bold text-sm text-black\u0026#34;\u0026gt; \u0026lt;div className=\u0026#34;flex flex-row gap-2 justify-center items-center\u0026#34;\u0026gt; \u0026lt;span\u0026gt;{item.name}\u0026lt;/span\u0026gt; \u0026lt;/div\u0026gt; \u0026lt;/td\u0026gt; \u0026lt;td className=\u0026#34;px-2 py-4 whitespace-nowrap text-center font-bold text-sm text-black\u0026#34;\u0026gt; \u0026lt;div className=\u0026#34;flex flex-row gap-2 justify-center items-center\u0026#34;\u0026gt; \u0026lt;span\u0026gt;{item.bills}\u0026lt;/span\u0026gt; \u0026lt;/div\u0026gt; \u0026lt;/td\u0026gt; \u0026lt;td className=\u0026#34;px-2 py-4 whitespace-nowrap text-center text-sm font-bold\u0026#34;\u0026gt; \u0026lt;div className=\u0026#34;text-black\u0026#34;\u0026gt; {item?.time ? item?.time.toDate().toLocaleTimeString() + \u0026#34; \u0026#34; + item?.time.toDate().toDateString() : \u0026#34;Not Set\u0026#34;} \u0026lt;/div\u0026gt; \u0026lt;/td\u0026gt; \u0026lt;/tr\u0026gt; ))} \u0026lt;/tbody\u0026gt; \u0026lt;/table\u0026gt; \u0026lt;div className=\u0026#34;flex justify-center\u0026#34;\u0026gt; {loading \u0026amp;\u0026amp; \u0026lt;p\u0026gt;Loading..\u0026lt;/p\u0026gt;} \u0026lt;/div\u0026gt; \u0026lt;/div\u0026gt; \u0026lt;/div\u0026gt; \u0026lt;/div\u0026gt; \u0026lt;/div\u0026gt; \u0026lt;/div\u0026gt; \u0026lt;Button /\u0026gt; \u0026lt;/div\u0026gt; \u0026lt;/div\u0026gt; ); } Here we have a very simple table showing data fetched from Firestore using React hooks. Additionally, there is a “Get Report” button that triggers a cloud function. Button.jsx This component works as a trigger for the cloud function.\nimport { addDoc, collection, doc, onSnapshot } from \u0026#34;firebase/firestore\u0026#34;; import { db } from \u0026#34;../utils/firebase\u0026#34;; import { useState } from \u0026#34;react\u0026#34;; const Button = () =\u0026gt; { const [report, setReport] = useState(\u0026#34;\u0026#34;); const [reportLoaded, setReportLoaded] = useState(false); const handleDownload = async () =\u0026gt; { try { const reportsRef = collection(db, \u0026#34;reports\u0026#34;); const report = await addDoc(reportsRef, { status: \u0026#34;pending\u0026#34;, type: \u0026#34;queries\u0026#34;, downloadLink: \u0026#34;\u0026#34;, }); const reportDocRef = doc(db, \u0026#34;reports\u0026#34;, report.id); onSnapshot(reportDocRef, (doc) =\u0026gt; { setReport(doc.data().downloadLink); }); setReportLoaded(true); } catch (error) { console.error(error); } }; return ( \u0026lt;div className=\u0026#34;flex flex-col items-center justify-center my-4\u0026#34;\u0026gt; \u0026lt;button onClick={handleDownload} className=\u0026#34;p-2 rounded-md text-sm bg-white text-black font-bold\u0026#34; \u0026gt; Get Report \u0026lt;/button\u0026gt; {report === \u0026#34;\u0026#34; \u0026amp;\u0026amp; reportLoaded ? ( \u0026lt;div className=\u0026#34;flex flex-row justify-center my-4\u0026#34;\u0026gt; \u0026lt;div className=\u0026#34;animate-spin inline-block w-6 h-6 border-[3px] border-current border-t-transparent text-gray-800 rounded-full dark:text-white\u0026#34; role=\u0026#34;status\u0026#34; aria-label=\u0026#34;loading\u0026#34; \u0026gt; \u0026lt;span className=\u0026#34;sr-only\u0026#34;\u0026gt;Loading...\u0026lt;/span\u0026gt; \u0026lt;/div\u0026gt; \u0026lt;/div\u0026gt; ) : report !== \u0026#34;\u0026#34; \u0026amp;\u0026amp; reportLoaded ? ( \u0026lt;div className=\u0026#34;bg-white mt-2 rounded-md p-2 text-sm font-extrabold text-purple-800\u0026#34;\u0026gt; \u0026lt;a target=\u0026#34;_blank\u0026#34; rel=\u0026#34;noopener noreferrer\u0026#34; href={report}\u0026gt; Download Report \u0026lt;/a\u0026gt; \u0026lt;/div\u0026gt; ) : ( \u0026#34;\u0026#34; )} \u0026lt;/div\u0026gt; ); }; export default Button; When the “Get Report” button is clicked, a document is added to the reports collection, which acts as a trigger for the cloud function. The onSnapshot() method watches for any updates to the document, retrieving the download link once it\u0026rsquo;s ready. Cloud Function Setting up the Environment Before diving into the code, ensure you have the necessary modules installed and initialized:\nFirebase Functions: Manage cloud functions. Firebase Admin: Interact with various Firebase services, including Firestore and Storage. Papaparse: A powerful library for parsing and un-parsing CSV files. date-fns (Optional): A library to manipulate JavaScript dates in a straightforward way. /** * Import function triggers from their respective submodules: * * const {onCall} = require(\u0026#34;firebase-functions/v2/https\u0026#34;); * const {onDocumentWritten} = require(\u0026#34;firebase-functions/v2/firestore\u0026#34;); * * See a full list of supported triggers at https://firebase.google.com/docs/functions */ const functions = require(\u0026#34;firebase-functions\u0026#34;); const admin = require(\u0026#34;firebase-admin\u0026#34;); admin.initializeApp(); const db = admin.firestore(); const fs = require(\u0026#34;fs-extra\u0026#34;); const bucket = admin.storage().bucket(); const path = require(\u0026#34;path\u0026#34;); const os = require(\u0026#34;os\u0026#34;); const Papa = require(\u0026#34;papaparse\u0026#34;); const { format, addHours, addMinutes } = require(\u0026#34;date-fns\u0026#34;); exports.createCSV = functions.region(\u0026#34;asia-south1\u0026#34;) .firestore.document(\u0026#34;reports/{reportId}\u0026#34;) .onCreate(async (change, context) =\u0026gt; { const reportId = context?.params?.reportId || \u0026#34;test\u0026#34;; const fileName = `reports/${reportId}.csv`; const tempFilePath = path.join(os.tmpdir(), fileName); const reportRef = db.collection(\u0026#34;reports\u0026#34;).doc(reportId); try { const billsSnapshot = await db.collection(\u0026#34;bills\u0026#34;).get(); const bills = []; billsSnapshot.forEach((doc) =\u0026gt; { bills.push({ ...doc.data(), id: doc.id }); }); const preprocessedData = bills.map((item) =\u0026gt; { const newItem = { ...item }; if (newItem.time \u0026amp;\u0026amp; newItem.time._seconds) { // this function converts the timestamp object to time string, ignore if not needed const dateDelist = new Date(newItem.time._seconds * 1000); const dateInISTDelist = addMinutes(addHours(dateDelist, 5), 30); newItem.time = format(dateInISTDelist, \u0026#34;dd-MM-yyyy hh:mm:ss aaa\u0026#34;); } return newItem; }); const csv = Papa.unparse(preprocessedData, { quotes: false, delimiter: \u0026#34;,\u0026#34;, header: true, newline: \u0026#34;\\r\\n\u0026#34;, dynamicTyping: true, skipEmptyLines: true, }); await fs.outputFile(tempFilePath, csv); await bucket.upload(tempFilePath, { destination: fileName }); const file = bucket.file(fileName); await file.makePublic(); const publicUrl = `https://storage.googleapis.com/${bucket.name}/${fileName}`; return await reportRef.update({ status: \u0026#34;complete\u0026#34;, downloadLink: publicUrl, createdAt: admin.firestore.Timestamp.now(), }); } catch (err) { return console.log(err); } }); Key Points Trigger: The function is triggered by creating a new document in the reports collection. Data Fetching: Retrieves all documents from the bills collection. Date Manipulation: Converts Firestore timestamp fields to a more readable format using date-fns. CSV Conversion: Uses Papaparse to convert the data to CSV format. File Handling: Creates a temporary file for the CSV, then uploads it to Firebase Storage. Public Access: Makes the uploaded file publicly accessible. Update Firestore Document: Updates the report document with the CSV file’s download link and marks the report as complete. Error Handling: Includes try-catch for robust error management. Conclusion In this tutorial, we’ve demonstrated how to automate the process of converting Firestore documents into a CSV format using Firebase Cloud Functions. This functionality is particularly useful for generating timely reports or exports, streamlining data management tasks without manual intervention.\nBelow is a GIF that illustrates how the application behaves once integrated. This visual representation helps to understand the seamless flow from data trigger to CSV generation and retrieval.\nFor more detailed code, check out this GitHub repository: https://github.com/dixitt5/firestore-data-to-excel\nHappy coding!\n",
+          "image":"/images/2024/firebase-cloud-function/firebase-cloud-function-header.png",
+          "date": "May 7, 2024",
+          "url": "https://blog.incubyte.co/blog/using-firebase-cloud-functions/"
       },
       
       "https:\/\/blog.incubyte.co\/authors\/abhishek-keshri\/": {
@@ -670,17 +736,6 @@
           "image":"/authors/abhishek-keshri/abhishek.jpg",
           "date": "April 3, 2024",
           "url": "https://blog.incubyte.co/authors/abhishek-keshri/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/authors\/": {
-          "title": "Authors",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "April 3, 2024",
-          "url": "https://blog.incubyte.co/authors/"
       },
       
       "https:\/\/blog.incubyte.co\/tags\/case-study\/": {
@@ -725,17 +780,6 @@
           "image":"/images/2024/a11y-case-study/banner-image.png",
           "date": "April 3, 2024",
           "url": "https://blog.incubyte.co/blog/accessibility-case-study/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/": {
-          "title": "Tags",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "April 3, 2024",
-          "url": "https://blog.incubyte.co/tags/"
       },
       
       "https:\/\/blog.incubyte.co\/authors\/akshay-vadher\/": {
@@ -923,17 +967,6 @@
           "image": null ,
           "date": "December 28, 2023",
           "url": "https://blog.incubyte.co/categories/playbook/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/software-craftsmanship\/": {
-          "title": "Software Craftsmanship",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "December 28, 2023",
-          "url": "https://blog.incubyte.co/tags/software-craftsmanship/"
       },
       
       "https:\/\/blog.incubyte.co\/categories\/software-craftsmanship\/": {
