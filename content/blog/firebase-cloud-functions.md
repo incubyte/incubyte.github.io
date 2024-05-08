@@ -9,9 +9,7 @@ tags = ["Software Craftsmanship","React"]
 title = "Using Firebase Cloud Functions: Exporting Firestore Data to Excel in React Apps"
 +++
 
-
 One day, one of my team members gave me a challenge: we needed a way to download our admin data as Excel files for better reporting. Despite searching, I couldn’t find a tutorial that fit our needs for a React/Next.js app. After more research, including using AI tools like ChatGPT, I figured out a solution. In this blog, I'll show you how we use Firebase Cloud Functions to make it happen.
-
 
 {{< figure src="/images/2024/firebase-cloud-function/firebase-cloud-function-1.png" >}}
 
@@ -22,7 +20,6 @@ Before we dive into the code, ensure you have a Firebase project set up with Fir
 ### Table.jsx
 
 Once you have your Firebase project and Firestore database ready, the next step is to integrate Firestore data into your React/Next.js application. This example illustrates how to display Firestore data in a table within a React component using hooks like `useState` and `useEffect`.
-
 
 ```react
 import { db } from "../utils/firebase";
@@ -135,7 +132,6 @@ export default function Table() {
 }
 ```
 
-
 - Here we have a very simple table showing data fetched from Firestore using React hooks.
 - Additionally, there is a “Get Report” button that triggers a cloud function.
 
@@ -204,7 +200,7 @@ export default Button;
 ```
 
 - When the “Get Report” button is clicked, a document is added to the reports collection, which acts as a trigger for the cloud function.
-- The ` onSnapshot() ` method watches for any updates to the document, retrieving the download link once it's ready.
+- The `onSnapshot()` method watches for any updates to the document, retrieving the download link once it's ready.
 
 ### Cloud Function
 
@@ -212,11 +208,10 @@ export default Button;
 
 Before diving into the code, ensure you have the necessary modules installed and initialized:
 
-- **Firebase Functions:**  Manage cloud functions.
+- **Firebase Functions:** Manage cloud functions.
 - **Firebase Admin:** Interact with various Firebase services, including Firestore and Storage.
 - **Papaparse:** A powerful library for parsing and un-parsing CSV files.
-- **date-fns (Optional):**  A library to manipulate JavaScript dates in a straightforward way.
-
+- **date-fns (Optional):** A library to manipulate JavaScript dates in a straightforward way.
 
 ```react
 /**
