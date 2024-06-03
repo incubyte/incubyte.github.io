@@ -11,6 +11,8 @@ categories = ["Internals", "Software Craftsmanship"]
 type = ""
 +++
 
+When was the last time you thought about IDs, There's many out there, all with their Pros and Cons, let's explore a few of them in this article.
+
 Choosing the right Unique Identifier for your next project is crucial. We always want to ensure that our Unique Identifier is reliable, scalable, and gives more performance. In this article, we’ve broken down some well-known IDs such as UUID, ULID, CUID, and NanoID. Each has its pros and cons. As an outcome of this article, you’ll be able to decide the right Unique Identifier for your next project.
 
 ### UUID
