@@ -4,7 +4,7 @@ slug = "which-unique-identifier-is-right-for-you"
 date = 2024-06-01T14:35:19+05:30
 image = "/images/2024/which-unique-identifier-is-right-for-you/which-unique-identifier-is-right-for-you-header.png"
 draft = false
-authors = ["Om Jogani"]
+authors = ["Om Jogani", "Akshay Vadher"]
 description = "Internal granular details of different Unique Identifier, that helps to pick right Identifier for your next project."
 tags = ["Unique Identifiers", "Software Craftsmanship"]
 categories = ["Internals", "Software Craftsmanship"]
@@ -140,6 +140,10 @@ and so on...
 | Storage Efficient       | NO   | YES  | YES  | YES     |
 | Collision Resistant     | YES  | YES  | YES  | YES     |
 | Wide Language Support   | YES  | YES  | NO   | YES     |
+| Speed of ID Generation  | YES  | YES  | NO   | YES     |
+| Adoption (Community)    | YES  | NO   | YES  | YES     |
+
+> Note: For really critical systems where security is top priority, CUID might be a better choice because it's harder to guess the next ID. It uses SHA3 and CSPRNG to make IDs more random and unpredictable. If security isn't the biggest concern, NanoID or Other Ids can be good.
 
 ### Conclusion
 
