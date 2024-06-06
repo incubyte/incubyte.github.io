@@ -15,11 +15,10 @@ When was the last time you considered unique identifiers (IDs) for your projects
 
 Choosing the right unique identifier is crucial. We want our IDs to be reliable, scalable, and performant. We’ll break down some well-known IDs: UUID, ULID, CUID, and NanoID, examining their strengths and weaknesses. By the end, you'll be able to choose the right identifier for your needs.
 
-### UUID
+### UUID (Universally Unique Identifier)
 
-Universally Unique Identifiers also known as UUIDs. It allows you to generate a unique ID that can be used to identify objects uniquely. We generally use it for Primary Key. It has from version_1 to version_8 while writing this article, the Most widely used version is version_4.
+UUIDs are widely used to generate unique IDs for objects, often as primary keys. UUIDs have several versions, with version 4 being the most common.
 
-Let's break down UUID for better visibility.
 
 {{< figure src="/images/2024/which-unique-identifier-is-right-for-you/UUID-architecture.png" >}}
 
@@ -30,75 +29,73 @@ Let's break down UUID for better visibility.
 - It's simple and works well with small projects.
 - It has native support for some of the databases like PostgreSQL (`uuid_generate_v4()`), MySQL (`UUID()`), etc.
 
+- Independently generated without needing knowledge of other systems.
+- Reduces single points of failure in distributed systems.
+- Simple and works well for small projects.
+- Supported by databases like PostgreSQL (`uuid_generate_v4()`), MySQL (`UUID()`), and more.
+
 #### Cons
 
-- It impacts insert performance with MySQL at scale: MySQL uses B+ tree which requires frequent re-balancing aka Page Splitting. When randomness is there in the algorithm, it takes significantly longer than usual to perform tree re-balancing or page splitting.
-- UUID takes larger space (128 bits) compared to traditional integer-based IDs. So, It's not storage efficient.
-- Ordering can be a nightmare while it's not naturally ordered or sequential. Where sequentiality is important UUID may not be the best option to consider.
+- Can impact insert performance in MySQL (MySQL uses B+ tree which requires frequent re-balancing aka page splitting. With randomness, it takes significantly longer than usual to perform tree re-balancing)
+- Takes up more space (128 bits) than traditional integer-based IDs.
+- Not naturally ordered, making sequential ordering difficult.
 
 ---
 
-### ULID
+### ULID (Universally Unique Lexicographically Sortable Identifier)
 
-Universally Unique Lexicographically Sortable Identifier also known as ULID. It was specially designed to overcome the limitations of UUID. It's 26 characters long ID (48 bits of timestamp and 80 bits of randomness), URL safe, doesn't contain any special character, case insensitive.
-
-Let's break down ULID to grab granular details.
+ULID addresses some limitations of UUID. It’s a 26-character ID composed of a 48-bit timestamp and 80 bits of randomness, URL-safe, and case insensitive.
 
 {{< figure src="/images/2024/which-unique-identifier-is-right-for-you/ULID-architecture.png" >}}
 
-It uses a UNIX Timestamp in milliseconds and a Cryptographically secure source of randomness to generate 2nd part of ULID (Randomness).
+It uses a UNIX timestamp in milliseconds and a cryptographically secure source of randomness to generate the second part of the ULID (randomness).
 
 #### Pros
 
-- Lexicographical Sorting is the biggest highlight of ULID. It can be sorted by their natural order.
-- It's more readable and URL friendly and moreover, it is compact in length compared to UUID. Hence it saves space in terms of storage.
-- ULID is the most feasible solution if there is a need for sequentiality or order.
+- Lexicographical sorting is the biggest highlight of ULID, allowing IDs to be sorted in their natural order.
+- More readable and compact than UUID, saving storage space.
+- Ideal solution if there is a need for sequentiality or order.
 
 #### Cons
 
-- Randomness is limited in timestamp, It is possible to generate multiple IDs within the same millisecond.
-- Due to limited randomness, It doesn't guarantee a collision-resistant solution.
-- It has yet to be adopted much due to compatibility issues with UUID. (if systems are already using UUID).
+- Randomness is limited in the timestamp, so it is possible to generate multiple IDs within the same millisecond.
+- Due to limited randomness, it doesn't guarantee a collision-resistant solution.
+- Not widely adopted due to compatibility issues with UUID systems.
 
 ---
 
-### CUID
+### CUID (Collision-Resistant Unique Identifier)
 
-Collision-resistant Unique Identifier also known as CUID, It's secure, guarantees strong collision-resistant and provides good performance.
+CUIDs are designed for high collision resistance and performance, with a default length of 24 characters but configurable up to 32 characters.
 
 To react 50% chance of collision, you'd need to generate roughly 4,000,000,000,000,000,000 IDs. Which is quite huge.
 
-It is configurable to at max 32 characters long, the default length is 24 characters.
-
-Let's break it down to understand it better
-
 {{< figure src="/images/2024/which-unique-identifier-is-right-for-you/CUID-architecture.png" >}}
 
-It uses a combination of UNIX Time in Millisecond + Salt + Session Count + Fingerprint and Hash these values with SHA3 Hashing Algorithm prefix by random alphabet.
+It uses a combination of UNIX time in milliseconds, salt, session count, fingerprint, and hashes these values with the SHA3 hashing algorithm, prefixed by a random alphabet.
 
 #### Pros
 
-- The main advantage of CUID is Collision-Resistant, It's quite strong in ensuring uniqueness. It focuses on keeping entropy as high as possible to ensure correct randomness.
-- It's secure and non-guessable, provides offline ID generation support, URL friendly (Doesn't contain special symbols).
-- CUID is horizontally scalable, it can generate IDs on various machines with coordination.
+- Strong collision resistance, making it highly unique.
+- Secure, non-guessable, URL-friendly, and supports offline ID generation.
+- Horizontally scalable, can generate IDs across multiple machines.
 
 #### Cons
 
 - It doesn't work well if sequentiality is in focus.
-- If security and cross-host uniqueness are not priorities then CUID doesn't perform well.
-- It's a little complex due to SHA3 Hashing and Pseudorandom Number Generator (PRNG) compared to UUID.
+- Less performant if security and cross-host uniqueness are not priorities.
+- Complex due to SHA3 hashing and Pseudorandom Number Generator (PRNG).
+
 
 ---
 
 ### NanoId
 
-It is a tiny, secure, URL-friendly, unique string ID generator for JavaScript. NanoId has a similar number of random bits, hence, It has similar collision probability as UUID.
+NanoID is a tiny, secure, URL-friendly, unique string ID generator for JavaScript. With a similar number of random bits, NanoID has a collision probability comparable to UUID.
 
-The length of NanoId is 21 characters long. It ensures unpredictability by using Cryptographic Random Number Generator.
+NanoID is 21 characters long and ensures unpredictability by using a cryptographic random number generator.
 
-It is possible to configure the length of NanoId, similar to CUID.
-
-Let's break it down to understand how it works
+Like CUID, it is possible to configure the length of NanoID.
 
 {{< figure src="/images/2024/which-unique-identifier-is-right-for-you/NanoID-architecture.png" >}}
 
@@ -121,15 +118,17 @@ and so on...
 
 #### Pros
 
-- NanoId has fast ID generation. It is compact and URL-friendly (because of no special character).
-- It has wide language support, It relies on a Cryptographic Secure Number Generator (CSPRNG) makes it difficult to predict or guess the next ID.
-- In terms of Storage, because of it's compactness, it takes less storage compared to UUID.
+- Fast ID generation, compact, and URL-friendly.
+- Wide language support and relies on a cryptographic secure number generator (CSPRNG), making it difficult to predict or guess the next ID.
+- More storage-efficient compared to UUID.
 
 #### Cons
 
-- It has a similar probability of Collision as UUID. So, can't guarantee strong collision resistance.
-- It relies on CSPRNG instead of timestamps or other information directly, hence it has limited information encoding.
-- While everything depends on Random values, It may not be a good option if we consider sequentiality or order. Although it can be configured with custom configuration.
+- Similar collision probability as UUID, not guaranteeing strong collision resistance.
+- Limited information encoding due to reliance on CSPRNG.
+- Not ideal for applications requiring sequential order, though configurable.
+
+---
 
 ### Summary
 
@@ -143,10 +142,8 @@ and so on...
 | Speed of ID Generation  | YES  | YES  | NO   | YES     |
 | Adoption (Community)    | YES  | NO   | YES  | YES     |
 
-> Note: For really critical systems where security is top priority, CUID might be a better choice because it's harder to guess the next ID. It uses SHA3 and CSPRNG to make IDs more random and unpredictable. If security isn't the biggest concern, NanoID or Other Ids can be good.
+> Note: For highly critical systems where security is a top priority, CUID might be a better choice because it’s harder to guess the next ID. It uses SHA3 and CSPRNG to make IDs more random and unpredictable. If security isn’t the biggest concern, NanoID or other IDs can be good options.
 
 ### Conclusion
 
-Choosing the right ID system for your application depends on various factors such as sequentiality, performance, storage efficiency, collision resistance, and language support.
-
-Now, that you know how those IDs work internally and When to use which ID, decide Which ID is best suited for your next project!
+Choosing the right ID system for your application depends on various factors like sequentiality, performance, storage efficiency, collision resistance, and language support. Now that you understand how these IDs work and when to use them, you can make an informed decision for your next project!
