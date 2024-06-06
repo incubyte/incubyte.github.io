@@ -1,7 +1,7 @@
 +++
 title = "Which Unique Identifier is right for you?"
 slug = "which-unique-identifier-is-right-for-you"
-date = 2024-06-06T14:35:19+05:30
+date = 2024-06-06T00:00:00Z
 image = "/images/2024/which-unique-identifier-is-right-for-you/which-unique-identifier-is-right-for-you-header.png"
 draft = false
 authors = ["Om Jogani", "Akshay Vadher"]
