@@ -6,8 +6,8 @@ image = "/images/2024/which-unique-identifier-is-right-for-you/which-unique-iden
 draft = false
 authors = ["Om Jogani", "Akshay Vadher"]
 description = "Internal granular details of different Unique Identifier, that helps to pick right Identifier for your next project."
-tags = ["Unique Identifiers", "Software Craftsmanship"]
-categories = ["Internals", "Software Craftsmanship"]
+tags = ["Software Craftsmanship"]
+categories = ["Software Craftsmanship"]
 type = ""
 +++
 
