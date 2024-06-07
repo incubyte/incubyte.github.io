@@ -24,13 +24,8 @@ UUIDs are widely used to generate unique IDs for objects, often as primary keys.
 
 #### Pros
 
-- It doesn't require knowledge of other systems to generate an ID. (generate independently)
-- Reduce the risk of a single point of failure in a distributed system while it doesn't depend on centralized service.
-- It's simple and works well with small projects.
-- It has native support for some of the databases like PostgreSQL (`uuid_generate_v4()`), MySQL (`UUID()`), etc.
-
 - Independently generated without needing knowledge of other systems.
-- Reduces single points of failure in distributed systems.
+- Reduces single points of failure in distributed systems as it doesn't depend on centralized service.
 - Simple and works well for small projects.
 - Supported by databases like PostgreSQL (`uuid_generate_v4()`), MySQL (`UUID()`), and more.
 
@@ -44,7 +39,7 @@ UUIDs are widely used to generate unique IDs for objects, often as primary keys.
 
 ### ULID (Universally Unique Lexicographically Sortable Identifier)
 
-ULID addresses some limitations of UUID. It’s a 26-character ID composed of a 48-bit timestamp and 80 bits of randomness, URL-safe, and case insensitive.
+ULID addresses some limitations of UUID. It’s a 26-character ID composed of a 48-bit timestamp and 80 bits of randomness, URL-safe (no special characters), and case insensitive.
 
 {{< figure src="/images/2024/which-unique-identifier-is-right-for-you/ULID-architecture.png" >}}
 
@@ -76,7 +71,7 @@ It uses a combination of UNIX time in milliseconds, salt, session count, fingerp
 
 #### Pros
 
-- Strong collision resistance, making it highly unique.
+- Strong collision resistance, making it highly unique with the focus on keeping entropy as high as possible to ensure correct randomness.
 - Secure, non-guessable, URL-friendly, and supports offline ID generation.
 - Horizontally scalable, can generate IDs across multiple machines.
 
@@ -91,7 +86,7 @@ It uses a combination of UNIX time in milliseconds, salt, session count, fingerp
 
 ### NanoId
 
-NanoID is a tiny, secure, URL-friendly, unique string ID generator for JavaScript. With a similar number of random bits, NanoID has a collision probability comparable to UUID.
+NanoID is a tiny, secure, URL-friendly, unique string ID generator for JavaScript. With a similar number of random bits, NanoID has similar collision probability to UUID.
 
 NanoID is 21 characters long and ensures unpredictability by using a cryptographic random number generator.
 
@@ -126,7 +121,7 @@ and so on...
 
 - Similar collision probability as UUID, not guaranteeing strong collision resistance.
 - Limited information encoding due to reliance on CSPRNG.
-- Not ideal for applications requiring sequential order, though configurable.
+- Due to the full dependency on random values, it's not ideal for applications requiring sequential order, though it is configurable.
 
 ---
 
