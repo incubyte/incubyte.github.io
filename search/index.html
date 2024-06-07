@@ -14,7 +14,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.126.1">
+<meta name="generator" content="Hugo 0.127.0">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -648,7 +648,7 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "May 7, 2024",
+          "date": "June 6, 2024",
           "url": "https://blog.incubyte.co/"
       },
       
@@ -659,8 +659,19 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "May 7, 2024",
+          "date": "June 6, 2024",
           "url": "https://blog.incubyte.co/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/akshay-vadher\/": {
+          "title": "Akshay Vadher",
+          "tags": [],
+          "authors":[],
+          "summary":"Getting things done.",
+          "content":" Getting things done.\n",
+          "image":"/authors/akshay-vadher/akshay-vadher.jpg",
+          "date": "June 6, 2024",
+          "url": "https://blog.incubyte.co/authors/akshay-vadher/"
       },
       
       "https:\/\/blog.incubyte.co\/authors\/": {
@@ -670,8 +681,74 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "May 7, 2024",
+          "date": "June 6, 2024",
           "url": "https://blog.incubyte.co/authors/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/": {
+          "title": "Categories",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "June 6, 2024",
+          "url": "https://blog.incubyte.co/categories/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/om-jogani\/": {
+          "title": "Om Jogani",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "June 6, 2024",
+          "url": "https://blog.incubyte.co/authors/om-jogani/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/software-craftsmanship\/": {
+          "title": "Software Craftsmanship",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "June 6, 2024",
+          "url": "https://blog.incubyte.co/tags/software-craftsmanship/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/software-craftsmanship\/": {
+          "title": "Software Craftsmanship",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "June 6, 2024",
+          "url": "https://blog.incubyte.co/categories/software-craftsmanship/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/": {
+          "title": "Tags",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "June 6, 2024",
+          "url": "https://blog.incubyte.co/tags/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/blog\/which-unique-identifier-is-right-for-you\/": {
+          "title": "Which Unique Identifier is right for you?",
+          "tags": ["Software Craftsmanship",],
+          "authors":["Om Jogani","Akshay Vadher",],
+          "summary":"When was the last time you considered unique identifiers (IDs) for your projects?",
+          "content":"When was the last time you considered unique identifiers (IDs) for your projects? There are many options available, each with its pros and cons. In this article, we\u0026rsquo;ll explore some popular choices to help you decide which one is best for your next project.\nChoosing the right unique identifier is crucial. We want our IDs to be reliable, scalable, and performant. We’ll break down some well-known IDs: UUID, ULID, CUID, and NanoID, examining their strengths and weaknesses. By the end, you\u0026rsquo;ll be able to choose the right identifier for your needs.\nUUID (Universally Unique Identifier) UUIDs are widely used to generate unique IDs for objects, often as primary keys. UUIDs have several versions, with version 4 being the most common.\nPros Independently generated without needing knowledge of other systems. Reduces single points of failure in distributed systems as it doesn\u0026rsquo;t depend on centralized service. Simple and works well for small projects. Supported by databases like PostgreSQL (uuid_generate_v4()), MySQL (UUID()), and more. Cons Can impact insert performance in MySQL (MySQL uses B+ tree which requires frequent re-balancing aka page splitting. With randomness, it takes significantly longer than usual to perform tree re-balancing) Takes up more space (128 bits) than traditional integer-based IDs. Not naturally ordered, making sequential ordering difficult. ULID (Universally Unique Lexicographically Sortable Identifier) ULID addresses some limitations of UUID. It’s a 26-character ID composed of a 48-bit timestamp and 80 bits of randomness, URL-safe (no special characters), and case insensitive.\nIt uses a UNIX timestamp in milliseconds and a cryptographically secure source of randomness to generate the second part of the ULID (randomness).\nPros Lexicographical sorting is the biggest highlight of ULID, allowing IDs to be sorted in their natural order. More readable and compact than UUID, saving storage space. Ideal solution if there is a need for sequentiality or order. Cons Randomness is limited in the timestamp, so it is possible to generate multiple IDs within the same millisecond. Due to limited randomness, it doesn\u0026rsquo;t guarantee a collision-resistant solution. Not widely adopted due to compatibility issues with UUID systems. CUID (Collision-Resistant Unique Identifier) CUIDs are designed for high collision resistance and performance, with a default length of 24 characters but configurable up to 32 characters.\nTo react 50% chance of collision, you\u0026rsquo;d need to generate roughly 4,000,000,000,000,000,000 IDs. Which is quite huge.\nIt uses a combination of UNIX time in milliseconds, salt, session count, fingerprint, and hashes these values with the SHA3 hashing algorithm, prefixed by a random alphabet.\nPros Strong collision resistance, making it highly unique with the focus on keeping entropy as high as possible to ensure correct randomness. Secure, non-guessable, URL-friendly, and supports offline ID generation. Horizontally scalable, can generate IDs across multiple machines. Cons It doesn\u0026rsquo;t work well if sequentiality is in focus. Less performant if security and cross-host uniqueness are not priorities. Complex due to SHA3 hashing and Pseudorandom Number Generator (PRNG). NanoId NanoID is a tiny, secure, URL-friendly, unique string ID generator for JavaScript. With a similar number of random bits, NanoID has similar collision probability to UUID.\nNanoID is 21 characters long and ensures unpredictability by using a cryptographic random number generator.\nLike CUID, it is possible to configure the length of NanoID.\nOperation in NanoID // Randomly Generated 21 bytes Sequence (generated using CSPRNG) [23, 45, 67, 89, 12, 34, 56, 78, 90, 21, 43, 65, 87, 109, 131, 151, 171, 191, 210, 233, 255] On each element of the above array, the modulus operation is performed with 64.\n// Example 23 % 64 = 23 (character: \u0026#39;X\u0026#39;) 45 % 64 = 45 (character: \u0026#39;t\u0026#39;) 67 % 64 = 3 (character: \u0026#39;d\u0026#39;) and so on... Pros Fast ID generation, compact, and URL-friendly. Wide language support and relies on a cryptographic secure number generator (CSPRNG), making it difficult to predict or guess the next ID. More storage-efficient compared to UUID. Cons Similar collision probability as UUID, not guaranteeing strong collision resistance. Limited information encoding due to reliance on CSPRNG. Due to the full dependency on random values, it\u0026rsquo;s not ideal for applications requiring sequential order, though it is configurable. Summary Functionality / Feature UUID ULID CUID NanoID Sequentiality / Order NO YES NO PARTIAL Performance NO YES YES YES Storage Efficient NO YES YES YES Collision Resistant YES YES YES YES Wide Language Support YES YES NO YES Speed of ID Generation YES YES NO YES Adoption (Community) YES NO YES YES Note: For highly critical systems where security is a top priority, CUID might be a better choice because it’s harder to guess the next ID. It uses SHA3 and CSPRNG to make IDs more random and unpredictable. If security isn’t the biggest concern, NanoID or other IDs can be good options.\nConclusion Choosing the right ID system for your application depends on various factors like sequentiality, performance, storage efficiency, collision resistance, and language support. Now that you understand how these IDs work and when to use them, you can make an informed decision for your next project!\n",
+          "image":"/images/2024/which-unique-identifier-is-right-for-you/which-unique-identifier-is-right-for-you-header.png",
+          "date": "June 6, 2024",
+          "url": "https://blog.incubyte.co/blog/which-unique-identifier-is-right-for-you/"
       },
       
       "https:\/\/blog.incubyte.co\/authors\/dixit-tilaji\/": {
@@ -694,28 +771,6 @@
           "image": null ,
           "date": "May 7, 2024",
           "url": "https://blog.incubyte.co/tags/react/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/software-craftsmanship\/": {
-          "title": "Software Craftsmanship",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "May 7, 2024",
-          "url": "https://blog.incubyte.co/tags/software-craftsmanship/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/": {
-          "title": "Tags",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "May 7, 2024",
-          "url": "https://blog.incubyte.co/tags/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/using-firebase-cloud-functions\/": {
@@ -762,17 +817,6 @@
           "url": "https://blog.incubyte.co/categories/case-study/"
       },
       
-      "https:\/\/blog.incubyte.co\/categories\/": {
-          "title": "Categories",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "April 3, 2024",
-          "url": "https://blog.incubyte.co/categories/"
-      },
-      
       "https:\/\/blog.incubyte.co\/blog\/accessibility-case-study\/": {
           "title": "Global Mental Healthcare Solution Provider Makes Accessibility a Competitive Advantage",
           "tags": ["Case Study",],
@@ -782,17 +826,6 @@
           "image":"/images/2024/a11y-case-study/banner-image.png",
           "date": "April 3, 2024",
           "url": "https://blog.incubyte.co/blog/accessibility-case-study/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/authors\/akshay-vadher\/": {
-          "title": "Akshay Vadher",
-          "tags": [],
-          "authors":[],
-          "summary":"Getting things done.",
-          "content":" Getting things done.\n",
-          "image":"/authors/akshay-vadher/akshay-vadher.jpg",
-          "date": "February 22, 2024",
-          "url": "https://blog.incubyte.co/authors/akshay-vadher/"
       },
       
       "https:\/\/blog.incubyte.co\/tags\/angular\/": {
@@ -969,17 +1002,6 @@
           "image": null ,
           "date": "December 28, 2023",
           "url": "https://blog.incubyte.co/categories/playbook/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/software-craftsmanship\/": {
-          "title": "Software Craftsmanship",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "December 28, 2023",
-          "url": "https://blog.incubyte.co/categories/software-craftsmanship/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/standup\/": {

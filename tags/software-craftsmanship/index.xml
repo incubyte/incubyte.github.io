@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 07 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/tags/software-craftsmanship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Which Unique Identifier is right for you?</title>
+      <link>https://blog.incubyte.co/blog/which-unique-identifier-is-right-for-you/</link>
+      <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/blog/which-unique-identifier-is-right-for-you/</guid>
+      <description>When was the last time you considered unique identifiers (IDs) for your projects?</description>
+    </item>
     <item>
       <title>Using Firebase Cloud Functions: Exporting Firestore Data to Excel in React Apps</title>
       <link>https://blog.incubyte.co/blog/using-firebase-cloud-functions/</link>
