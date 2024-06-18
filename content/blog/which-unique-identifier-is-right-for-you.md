@@ -19,7 +19,6 @@ Choosing the right unique identifier is crucial. We want our IDs to be reliable,
 
 UUIDs are widely used to generate unique IDs for objects, often as primary keys. UUIDs have several versions, with version 4 being the most common.
 
-
 {{< figure src="/images/2024/which-unique-identifier-is-right-for-you/UUID-architecture.png" >}}
 
 #### Pros
@@ -80,7 +79,6 @@ It uses a combination of UNIX time in milliseconds, salt, session count, fingerp
 - It doesn't work well if sequentiality is in focus.
 - Less performant if security and cross-host uniqueness are not priorities.
 - Complex due to SHA3 hashing and Pseudorandom Number Generator (PRNG).
-
 
 ---
 
