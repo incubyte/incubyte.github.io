@@ -20,8 +20,9 @@ Imagine you are crafting a magic spell. Without testing it in a controlled envir
 Testing by hand is the old sorcery—a time-consuming and error-prone process. Automation is our new magic wand. It speeds up the testing process, reduces errors, and frees up our apprentice developers for more creative and complex tasks. With automated tests, we can quickly check if our latest changes have caused any disturbances in previously enchanted functionalities.
 
 ## The Enchantment of Writing Tests First
-In the realm of TDD, tests are written before the actual code, a proactive measure akin to planting a shield before an incoming attack. This not only clarifies the goal (what the code should do) but also ensures that every piece of code written is testable and focused solely on meeting the requirements set out by the test. Writing tests first prevents the code from becoming too tightly coupled or too complex to test effectively, a common challenge when tests are an afterthought.
- Additionally, seeing a test fail before making it work ensures that the test itself is correct. It acts as a quality gate, confirming that the test accurately reflects the desired behavior and is capable of detecting deviations from it. This iterative process of writing, failing, and fixing tests reinforces the robustness of the testing suite and the reliability of the software under development.
+In the realm of TDD, tests are written before the actual code, a proactive measure akin to planting a shield before an incoming attack. This not only clarifies the goal (what the code should do) but also ensures that every piece of code written is testable and focused solely on meeting the requirements set out by the test. 
+
+Writing tests first prevents the code from becoming too tightly coupled or too complex to test effectively, a common challenge when tests are an afterthought. Additionally, seeing a test fail before making it work ensures that the test itself is correct. It acts as a quality gate, confirming that the test accurately reflects the desired behavior and is capable of detecting deviations from it. This iterative process of writing, failing, and fixing tests reinforces the robustness of the testing suite and the reliability of the software under development.
  
  
 ## Unraveling the True Spell of TDD: Robert C. Martin's Three Laws
