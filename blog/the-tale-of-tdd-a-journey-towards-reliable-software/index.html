@@ -5,7 +5,7 @@
 
 <head>
 	<meta charset="utf-8">
-<title>Authors</title>
+<title>The Tale of TDD: A Journey Towards Reliable Software</title>
 
 
 <base href="https://blog.incubyte.co/">
@@ -14,6 +14,7 @@
 
 
 
+<meta name="author" content="[Siya Agarwal]">
 <meta name="generator" content="Hugo 0.127.0">
 
 
@@ -30,25 +31,29 @@
 
 
 <!-- Open Graph image and Twitter Card metadata -->
-<meta property="og:image" content="https://blog.incubyte.co/images/logo.png" />
-<meta name="twitter:image" content="https://blog.incubyte.co/images/logo.png"/>
+<meta property="og:image" content="https://blog.incubyte.co/images/2024/tale_of_tdd/tale_of_tdd_header.jpg" />
+<meta name="twitter:image" content="https://blog.incubyte.co/images/2024/tale_of_tdd/tale_of_tdd_header.jpg"/>
 <meta name="twitter:card" content="summary_large_image">
-<meta property="og:image:width" content="1847">
-<meta property="og:image:height" content="511">
-<meta property="og:image:type" content="image/png">
-<meta name="twitter:title" content="Authors"/>
-<meta name="twitter:description" content="Incubyte Blog"/>
-<meta property="og:url" content="https://blog.incubyte.co/authors/">
+<meta property="og:image:width" content="1792">
+<meta property="og:image:height" content="1024">
+<meta property="og:image:type" content="image/jpeg">
+<meta name="twitter:title" content="The Tale of TDD: A Journey Towards Reliable Software"/>
+<meta name="twitter:description" content="The Tale of TDD: A Journey Towards Reliable Software"/>
+<meta property="og:url" content="https://blog.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/">
   <meta property="og:site_name" content="Incubyte Blog">
-  <meta property="og:title" content="Authors">
-  <meta property="og:description" content="Incubyte Blog">
+  <meta property="og:title" content="The Tale of TDD: A Journey Towards Reliable Software">
+  <meta property="og:description" content="The Tale of TDD: A Journey Towards Reliable Software">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2024-06-17T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-06-17T00:00:00+00:00">
+    <meta property="article:tag" content="Software Craftsmanship">
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Authors">
-  <meta name="twitter:description" content="Incubyte Blog">
+  <meta name="twitter:title" content="The Tale of TDD: A Journey Towards Reliable Software">
+  <meta name="twitter:description" content="The Tale of TDD: A Journey Towards Reliable Software">
 
 
 
@@ -63,6 +68,39 @@
 
 
 <script type="application/ld+json">
+    
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "The Tale of TDD: A Journey Towards Reliable Software",
+        "image": "/images/2024/tale_of_tdd/tale_of_tdd_header.jpg",
+        "datePublished": "Monday, June 17, 2024",
+        "dateModified": "Monday, June 17, 2024",
+        "author": [
+            
+                {
+                    "@type": "Person",
+                    "name": "Siya Agarwal"
+                }
+            
+        ],
+        "mainEntityOfPage": { "@type": "WebPage" },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Incubyte",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "images/logo.png"
+            },
+            "sameAs": [
+                "https://incubyte.co",
+                "https://github.com/incubyte",
+                "https://twitter.com/incubyte_co",
+                "https://www.instagram.com/incubyte.co/"
+            ]
+        },
+        "keywords": ["Software Craftsmanship"]
+    }
     
 </script>
 
@@ -628,179 +666,366 @@
 
 	<main>
 		
-<section class="section pb-0">
-  <div class="container text-left">
-    <h1 class="display-5">Authors</h1>
-    
+
+
+
+<section class="section">
+  <div class="container">
+    <article class="row">
+      <div class="col-lg-8 mx-auto">
+        <a class="back-link" href="https://blog.incubyte.co/"
+          ><strong>←</strong> Back to Blog</a
+        >
+        <img
+          src="/images/2024/tale_of_tdd/tale_of_tdd_header.jpg"
+          alt="The Tale of TDD: A Journey Towards Reliable Software"
+          class="mt-3 img-fluid w-100 rounded mb-4"
+        />
+        <h1 class="mb-4 post-title">The Tale of TDD: A Journey Towards Reliable Software</h1>
+        
+        <span class="mb-3 badge rounded-pill bg-dark">
+          <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span
+        >
+        
+        <p class="blockquote-footer text-right">
+          By 
+          <a href="/authors/siya-agarwal">Siya Agarwal</a>,  on Monday, June 17, 2024
+        </p>
+
+        <div class="content"><p>Once upon a time, in the vast kingdom of Software Development, there was a growing need for structures that wouldn&rsquo;t crumble under pressure. Just as architects wouldn&rsquo;t dream of building a skyscraper without a blueprint and rigorous checks, why should software developers? This tale unfolds the essence of Test-Driven Development (TDD) and how it champions building robust software.</p>
+<h2 id="the-why-of-testing-software">The Why of Testing Software</h2>
+<p>Imagine you are crafting a magic spell. Without testing it in a controlled environment, casting it might lead to unpredictable chaos. Similarly, software without tests is like a spell untested. Testing is our controlled trial, ensuring our software behaves as expected in every possible scenario, preventing chaos in the real world when the software is deployed.</p>
+<h2 id="the-magic-of-automation-in-testing">The Magic of Automation in Testing</h2>
+<p>Testing by hand is the old sorcery—a time-consuming and error-prone process. Automation is our new magic wand. It speeds up the testing process, reduces errors, and frees up our apprentice developers for more creative and complex tasks. With automated tests, we can quickly check if our latest changes have caused any disturbances in previously enchanted functionalities.</p>
+<h2 id="the-enchantment-of-writing-tests-first">The Enchantment of Writing Tests First</h2>
+<p>In the realm of TDD, tests are written before the actual code, a proactive measure akin to planting a shield before an incoming attack. This not only clarifies the goal (what the code should do) but also ensures that every piece of code written is testable and focused solely on meeting the requirements set out by the test.</p>
+<p>Writing tests first prevents the code from becoming too tightly coupled or too complex to test effectively, a common challenge when tests are an afterthought. Additionally, seeing a test fail before making it work ensures that the test itself is correct. It acts as a quality gate, confirming that the test accurately reflects the desired behavior and is capable of detecting deviations from it. This iterative process of writing, failing, and fixing tests reinforces the robustness of the testing suite and the reliability of the software under development.</p>
+<h2 id="unraveling-the-true-spell-of-tdd-robert-c-martins-three-laws">Unraveling the True Spell of TDD: Robert C. Martin&rsquo;s Three Laws</h2>
+<p>TDD isn’t just about testing before coding. Robert C. Martin, another wizard of our software saga, lays out three essential laws for TDD:</p>
+<ul>
+<li>First, write production code only to pass a failing unit test.</li>
+<li>Second, write no more of a unit test than sufficient to fail; remember, compilation failures are failures too.</li>
+<li>Third, write no more production code than necessary to pass the one failing unit test.</li>
+</ul>
+<p>These laws ensure that development is incremental, manageable, and above all, focused on fulfilling specific functional requirements through minimalistic design.</p>
+<h2 id="the-power-of-refactoring">The Power of Refactoring</h2>
+<p>Refactoring is the final, often overlooked, phase of TDD. It’s akin to polishing a newly forged sword to ensure it’s not only functional but also flawless. Refactoring means improving the structure of the code without changing its external behavior. This crucial step enhances code readability and reduces complexity, which helps future developers maintain and upgrade the system without introducing bugs.</p>
+<p>In conclusion, TDD is more than a development technique; it&rsquo;s a philosophy that fosters quality and reliability in software development. By writing tests first, automating them, and continuously refactoring, developers can ensure that their software is both robust and adaptable to future needs. This approach minimizes bugs, maximizes efficiency, and ensures that the software is built correctly from the ground up.</p>
+<p>So, as we continue to cast spells in the form of code, let’s remember the importance of TDD—a powerful ally in our quest to create magic that lasts. And thus, the developers in the kingdom lived with fewer bugs and happier clients, all thanks to the disciplined practice of TDD. The end&hellip; or rather, the beginning of bug-free software development!</p>
+</div>
+
+
+        
+
+
+
+<h2>Consider Sharing!</h2>
+
+<div style="font-size: 80%">
+
+    <a class="resp-sharing-button__link" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fblog.incubyte.co%2fblog%2fthe-tale-of-tdd-a-journey-towards-reliable-software%2f&t=The%20Tale%20of%20TDD%3a%20A%20Journey%20Towards%20Reliable%20Software"
+         target="_blank" rel="noopener" aria-label="Facebook">
+        <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm3.6 11.5h-2.1v7h-3v-7h-2v-2h2V8.34c0-1.1.35-2.82 2.65-2.82h2.35v2.3h-1.4c-.25 0-.6.13-.6.66V9.5h2.34l-.24 2z" />
+                </svg>
+            </div>
+            Facebook
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="https://twitter.com/share?text=The%20Tale%20of%20TDD%3a%20A%20Journey%20Towards%20Reliable%20Software&url=https%3a%2f%2fblog.incubyte.co%2fblog%2fthe-tale-of-tdd-a-journey-towards-reliable-software%2f&screen_name=incubyte_co"
+         target="_blank" rel="noopener" aria-label="Twitter">
+        <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm5.26 9.38v.34c0 3.48-2.64 7.5-7.48 7.5-1.48 0-2.87-.44-4.03-1.2 1.37.17 2.77-.2 3.9-1.08-1.16-.02-2.13-.78-2.46-1.83.38.1.8.07 1.17-.03-1.2-.24-2.1-1.3-2.1-2.58v-.05c.35.2.75.32 1.18.33-.7-.47-1.17-1.28-1.17-2.2 0-.47.13-.92.36-1.3C7.94 8.85 9.88 9.9 12.06 10c-.04-.2-.06-.4-.06-.6 0-1.46 1.18-2.63 2.63-2.63.76 0 1.44.3 1.92.82.6-.12 1.95-.27 1.95-.27-.35.53-.72 1.66-1.24 2.04z" />
+                </svg>
+            </div>
+            Twitter
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="mailto:?subject=The%20Tale%20of%20TDD%3a%20A%20Journey%20Towards%20Reliable%20Software&body=The%20Tale%20of%20TDD%3a%20A%20Journey%20Towards%20Reliable%20Software%0a%0aOnce%20upon%20a%20time%2c%20in%20the%20vast%20kingdom%20of%20Software%20Development%2c%20there%20was%20a%20growing%20need%20for%20structures%20that%20wouldn%26rsquo%3bt%20crumble%20under%20pressure.%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fthe-tale-of-tdd-a-journey-towards-reliable-software%2f%0a"
+         target="_self" rel="noopener" aria-label="E-Mail">
+        <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm8 16c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2v8z" />
+                    <path
+                        d="M17.9 8.18c-.2-.2-.5-.24-.72-.07L12 12.38 6.82 8.1c-.22-.16-.53-.13-.7.08s-.15.53.06.7l3.62 2.97-3.57 2.23c-.23.14-.3.45-.15.7.1.14.25.22.42.22.1 0 .18-.02.27-.08l3.85-2.4 1.06.87c.1.04.2.1.32.1s.23-.06.32-.1l1.06-.9 3.86 2.4c.08.06.17.1.26.1.17 0 .33-.1.42-.25.15-.24.08-.55-.15-.7l-3.57-2.22 3.62-2.96c.2-.2.24-.5.07-.72z" />
+                </svg>
+            </div>
+            E-Mail
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fblog.incubyte.co%2fblog%2fthe-tale-of-tdd-a-journey-towards-reliable-software%2f&title=The%20Tale%20of%20TDD%3a%20A%20Journey%20Towards%20Reliable%20Software&summary=Once%2bupon%2ba%2btime%252C%2bin%2bthe%2bvast%2bkingdom%2bof%2bSoftware%2bDevelopment%252C%2bthere%2bwas%2ba%2bgrowing%2bneed%2bfor%2bstructures%2bthat%2bwouldn%2526rsquo%253Bt%2bcrumble%2bunder%2bpressure."
+         target="_blank" rel="noopener" aria-label="LinkedIn">
+        <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" xml:space="preserve">
+        <path
+                    d="M12,0C5.383,0,0,5.383,0,12s5.383,12,12,12s12-5.383,12-12S18.617,0,12,0z M9.5,16.5h-2v-7h2V16.5z M8.5,7.5 c-0.553,0-1-0.448-1-1c0-0.552,0.447-1,1-1s1,0.448,1,1C9.5,7.052,9.053,7.5,8.5,7.5z M18.5,16.5h-3V13c0-0.277-0.225-0.5-0.5-0.5 c-0.276,0-0.5,0.223-0.5,0.5v3.5h-3c0,0,0.031-6.478,0-7h3v0.835c0,0,0.457-0.753,1.707-0.753c1.55,0,2.293,1.12,2.293,3.296V16.5z" />
+    </svg>
+            </div>
+            LinkedIn
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="https://reddit.com/submit?url=https%3a%2f%2fblog.incubyte.co%2fblog%2fthe-tale-of-tdd-a-journey-towards-reliable-software%2f&title=The%20Tale%20of%20TDD%3a%20A%20Journey%20Towards%20Reliable%20Software"
+         target="_blank" rel="noopener" aria-label="Reddit">
+        <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <circle cx="9.391" cy="13.392" r=".978" />
+                    <path
+                        d="M14.057 15.814c-1.14.66-2.987.655-4.122-.004-.238-.138-.545-.058-.684.182-.13.24-.05.545.19.685.72.417 1.63.646 2.568.646.93 0 1.84-.228 2.558-.642.24-.13.32-.44.185-.68-.14-.24-.445-.32-.683-.18zM5 12.086c0 .41.23.78.568.978.27-.662.735-1.264 1.353-1.774-.2-.207-.48-.334-.79-.334-.62 0-1.13.507-1.13 1.13z" />
+                    <path
+                        d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm6.673 14.055c.01.104.022.208.022.314 0 2.61-3.004 4.73-6.695 4.73s-6.695-2.126-6.695-4.74c0-.105.013-.21.022-.313C4.537 13.73 4 12.97 4 12.08c0-1.173.956-2.13 2.13-2.13.63 0 1.218.29 1.618.757 1.04-.607 2.345-.99 3.77-1.063.057-.803.308-2.33 1.388-2.95.633-.366 1.417-.323 2.322.085.302-.81 1.076-1.397 1.99-1.397 1.174 0 2.13.96 2.13 2.13 0 1.177-.956 2.133-2.13 2.133-1.065 0-1.942-.79-2.098-1.81-.734-.4-1.315-.506-1.716-.276-.6.346-.818 1.395-.88 2.087 1.407.08 2.697.46 3.728 1.065.4-.468.987-.756 1.617-.756 1.17 0 2.13.953 2.13 2.13 0 .89-.54 1.65-1.33 1.97z" />
+                    <circle cx="14.609" cy="13.391" r=".978" />
+                    <path
+                        d="M17.87 10.956c-.302 0-.583.128-.79.334.616.51 1.082 1.112 1.352 1.774.34-.197.568-.566.568-.978 0-.623-.507-1.13-1.13-1.13z" />
+                </svg>
+            </div>
+            Reddit
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="whatsapp://send?text=The%20Tale%20of%20TDD%3a%20A%20Journey%20Towards%20Reliable%20Software%0a%0aOnce%20upon%20a%20time%2c%20in%20the%20vast%20kingdom%20of%20Software%20Development%2c%20there%20was%20a%20growing%20need%20for%20structures%20that%20wouldn%26rsquo%3bt%20crumble%20under%20pressure.%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fthe-tale-of-tdd-a-journey-towards-reliable-software%2f%0a"
+         target="_blank" rel="noopener" aria-label="WhatsApp">
+        <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24">
+                    <path
+                        d="m12 0c-6.6 0-12 5.4-12 12s5.4 12 12 12 12-5.4 12-12-5.4-12-12-12zm0 3.8c2.2 0 4.2 0.9 5.7 2.4 1.6 1.5 2.4 3.6 2.5 5.7 0 4.5-3.6 8.1-8.1 8.1-1.4 0-2.7-0.4-3.9-1l-4.4 1.1 1.2-4.2c-0.8-1.2-1.1-2.6-1.1-4 0-4.5 3.6-8.1 8.1-8.1zm0.1 1.5c-3.7 0-6.7 3-6.7 6.7 0 1.3 0.3 2.5 1 3.6l0.1 0.3-0.7 2.4 2.5-0.7 0.3 0.099c1 0.7 2.2 1 3.4 1 3.7 0 6.8-3 6.9-6.6 0-1.8-0.7-3.5-2-4.8s-3-2-4.8-2zm-3 2.9h0.4c0.2 0 0.4-0.099 0.5 0.3s0.5 1.5 0.6 1.7 0.1 0.2 0 0.3-0.1 0.2-0.2 0.3l-0.3 0.3c-0.1 0.1-0.2 0.2-0.1 0.4 0.2 0.2 0.6 0.9 1.2 1.4 0.7 0.7 1.4 0.9 1.6 1 0.2 0 0.3 0.001 0.4-0.099s0.5-0.6 0.6-0.8c0.2-0.2 0.3-0.2 0.5-0.1l1.4 0.7c0.2 0.1 0.3 0.2 0.5 0.3 0 0.1 0.1 0.5-0.099 1s-1 0.9-1.4 1c-0.3 0-0.8 0.001-1.3-0.099-0.3-0.1-0.7-0.2-1.2-0.4-2.1-0.9-3.4-3-3.5-3.1s-0.8-1.1-0.8-2.1c0-1 0.5-1.5 0.7-1.7s0.4-0.3 0.5-0.3z" />
+                </svg>
+            </div>
+            WhatsApp
+        </div>
+    </a>
+
+</div>
+
+<style>
+    .resp-sharing-button__link,
+    .resp-sharing-button__icon {
+        display: inline-block
+    }
+
+    .resp-sharing-button__link {
+        text-decoration: none;
+        color: #fff;
+        margin: 0.5em
+    }
+
+    .resp-sharing-button {
+        border-radius: 5px;
+        transition: 25ms ease-out;
+        padding: 0.5em 0.75em;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+    }
+
+    .resp-sharing-button__icon svg {
+        width: 1em;
+        height: 1em;
+        margin-right: 0.4em;
+        vertical-align: top
+    }
+
+    .resp-sharing-button--small svg {
+        margin: 0;
+        vertical-align: middle
+    }
+
+     
+    .resp-sharing-button__icon {
+        stroke: #fff;
+        fill: none
+    }
+
+     
+    .resp-sharing-button__icon--solid,
+    .resp-sharing-button__icon--solidcircle {
+        fill: #fff;
+        stroke: none
+    }
+
+    .resp-sharing-button--twitter {
+        background-color: #55acee
+    }
+
+    .resp-sharing-button--twitter:hover {
+        background-color: #2795e9
+    }
+
+
+    .resp-sharing-button--facebook {
+        background-color: #3b5998
+    }
+
+    .resp-sharing-button--facebook:hover {
+        background-color: #2d4373
+    }
+
+    .resp-sharing-button--linkedin {
+        background-color: #0077b5
+    }
+
+    .resp-sharing-button--linkedin:hover {
+        background-color: #046293
+    }
+
+    .resp-sharing-button--email {
+        background-color: #777
+    }
+
+    .resp-sharing-button--email:hover {
+        background-color: #5e5e5e
+    }
+
+    .resp-sharing-button--whatsapp {
+        background-color: #25D366
+    }
+
+    .resp-sharing-button--whatsapp:hover {
+        background-color: #1da851
+    }
+
+    .resp-sharing-button--facebook {
+        background-color: #3b5998;
+        border-color: #3b5998;
+    }
+
+    .resp-sharing-button--facebook:hover,
+    .resp-sharing-button--facebook:active {
+        background-color: #2d4373;
+        border-color: #2d4373;
+    }
+
+    .resp-sharing-button--twitter {
+        background-color: #55acee;
+        border-color: #55acee;
+    }
+
+    .resp-sharing-button--twitter:hover,
+    .resp-sharing-button--twitter:active {
+        background-color: #2795e9;
+        border-color: #2795e9;
+    }
+
+    .resp-sharing-button--email {
+        background-color: #777777;
+        border-color: #777777;
+    }
+
+    .resp-sharing-button--email:hover,
+    .resp-sharing-button--email:active {
+        background-color: #5e5e5e;
+        border-color: #5e5e5e;
+    }
+
+    .resp-sharing-button--linkedin {
+        background-color: #0077b5;
+        border-color: #0077b5;
+    }
+
+    .resp-sharing-button--linkedin:hover,
+    .resp-sharing-button--linkedin:active {
+        background-color: #046293;
+        border-color: #046293;
+    }
+
+    .resp-sharing-button--reddit {
+        background-color: #ff4500;
+        border-color: #5f99cf;
+    }
+
+    .resp-sharing-button--reddit:hover,
+    .resp-sharing-button--reddit:active {
+        background-color: #ff6510;
+        color: #777;
+        border-color: #3a80c1;
+    }
+
+    .resp-sharing-button--whatsapp {
+        background-color: #0D9F4E;
+        border-color: #0D9F4E;
+    }
+
+    .resp-sharing-button--whatsapp:hover,
+    .resp-sharing-button--whatsapp:active {
+        background-color: #1DA851;
+        color: #777;
+        border-color: #1DA851;
+    }
+</style>
+ <div class="mt-5 newsletter">
+  <iframe id="subscription-form-iframe" name="subscription-form-iframe" style="display:none;"></iframe>
+
+  <form
+    action="https://hooks.airtable.com/workflows/v1/genericWebhook/appZga3G6CMmBbNQJ/wflzPU7JTdzStS9aT/wtrbcKCrRNfPAh0e8"
+    method="POST"
+    target="subscription-form-iframe"
+  >
+    <h2>Hey You!</h2>
+    <p>
+      You were caught scrolling too fast! 🚨
+      <br>
+      Tell us your email so that we can inform you next time we release a blog.
+    </p>
+
+    <div id="subscription-form-input">
+      <div class="row">
+        <div class="col-lg-10 col-md-10 d-flex align-items-center">
+          <input
+            aria-label="Input your email to subscribe to Incubyte"
+            class="form-control"
+            name="email"
+            placeholder="name@email.com"
+            required
+            type="email"
+          />
+        </div>
+        <div class="col-lg-2 col-md-2 mt-xl-0 mt-lg-0 mt-md-0">
+          <input class="btn big-btn" type="submit" value="Subscribe" />
+        </div>
+      </div>
+    </div>
+
+    <div class="text-primary font-weight-bold" id="subscription-form-result">
+    </div>
+  </form>
+</div>
+
+<script>
+  
+  const iframe = document.querySelector('iframe[name="subscription-form-iframe"]');
+  iframe.addEventListener('load', () => {
+    document.querySelector('#subscription-form-input').innerHTML = ''
+    document.querySelector('#subscription-form-result').innerHTML = 'Ha! I got you!... and your email too!'
+  });
+</script>
+
+
+        
+        
+      </div>
+    </article>
   </div>
 </section>
 
 
-<section class="">
-    <div class="container">
-        
-        <div class="display-4">Posts</div>
-        <hr>
-        <div class="row">
-            
-            
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/authors/waqar-shaikh/" title="Waqar Shaikh" class="post-title">Waqar Shaikh</a></h3>
-                        
-                        <p class="card-text"> </p>
-                        <p class="blockquote-footer text-right">
-                            By  on October 10, 2022
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/authors/arohi-parikh/">
-                        <img src="/authors/arohi-parikh/arohi.jpg" alt="Arohi Parikh" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/authors/arohi-parikh/" title="Arohi Parikh" class="post-title">Arohi Parikh</a></h3>
-                        
-                        <p class="card-text">Operations @incubyte_co | Community Builder @swcraftindia | Conscious Human | Words: &ldquo;Leave the world better than you found it&rdquo; </p>
-                        <p class="blockquote-footer text-right">
-                            By  on June 22, 2022
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/authors/arjun-rk/" title="Arjun RK" class="post-title">Arjun RK</a></h3>
-                        
-                        <p class="card-text"> </p>
-                        <p class="blockquote-footer text-right">
-                            By  on June 6, 2022
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/authors/jaymin-shah/">
-                        <img src="/images/favicon.png" alt="Jaymin Shah" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/authors/jaymin-shah/" title="Jaymin Shah" class="post-title">Jaymin Shah</a></h3>
-                        
-                        <p class="card-text">To be added soon. </p>
-                        <p class="blockquote-footer text-right">
-                            By  on April 29, 2022
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/authors/rupali-pardeshi/" title="Rupali Pardeshi" class="post-title">Rupali Pardeshi</a></h3>
-                        
-                        <p class="card-text"> </p>
-                        <p class="blockquote-footer text-right">
-                            By  on August 19, 2021
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/authors/karishma-shah/">
-                        <img src="/images/favicon.png" alt="Karishma Shah" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/authors/karishma-shah/" title="Karishma Shah" class="post-title">Karishma Shah</a></h3>
-                        
-                        <p class="card-text">To be added soon. </p>
-                        <p class="blockquote-footer text-right">
-                            By  on November 1, 2020
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/authors/kaushal-rohit/" title="Kaushal Rohit" class="post-title">Kaushal Rohit</a></h3>
-                        
-                        <p class="card-text"> </p>
-                        <p class="blockquote-footer text-right">
-                            By  on October 1, 2020
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/authors/rushali-parikh/">
-                        <img src="/authors/rushali-parikh/rushali.jpg" alt="Rushali Parikh" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/authors/rushali-parikh/" title="Rushali Parikh" class="post-title">Rushali Parikh</a></h3>
-                        
-                        <p class="card-text">Co-founder of @incubyte_co | Co-organizer of Software Craftspeople - India | Product Enthusiast | Dedicated to making clean coding practices accessible </p>
-                        <p class="blockquote-footer text-right">
-                            By  on October 1, 2020
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-12">
-                
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/authors/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/authors/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/authors/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-
+ 
 	</main>
 
 	
