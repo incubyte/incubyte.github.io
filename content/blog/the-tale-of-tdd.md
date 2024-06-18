@@ -27,9 +27,11 @@ Writing tests first prevents the code from becoming too tightly coupled or too c
  
 ## Unraveling the True Spell of TDD: Robert C. Martin's Three Laws
 TDD isn’t just about testing before coding. Robert C. Martin, another wizard of our software saga, lays out three essential laws for TDD:
-First, write production code only to pass a failing unit test.
-Second, write no more of a unit test than sufficient to fail; remember, compilation failures are failures too.
-Third, write no more production code than necessary to pass the one failing unit test.
+
+- First, write production code only to pass a failing unit test.
+- Second, write no more of a unit test than sufficient to fail; remember, compilation failures are failures too.
+- Third, write no more production code than necessary to pass the one failing unit test.
+  
 These laws ensure that development is incremental, manageable, and above all, focused on fulfilling specific functional requirements through minimalistic design.
 
 ## The Power of Refactoring
