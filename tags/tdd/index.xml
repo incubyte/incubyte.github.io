@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 21 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/tags/tdd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Tale of TDD: A Journey Towards Reliable Software</title>
+      <link>https://blog.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/</guid>
+      <description>Once upon a time, in the vast kingdom of Software Development, there was a growing need for structures that wouldn&amp;rsquo;t crumble under pressure.</description>
+    </item>
     <item>
       <title>Testing With Java - Part 2 : TDD</title>
       <link>https://blog.incubyte.co/blog/testing-with-java-tdd/</link>
