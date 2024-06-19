@@ -5,7 +5,7 @@ description = "The Tale of TDD: A Journey Towards Reliable Software"
 draft = false
 image = "/images/2024/tale_of_tdd/tale_of_tdd_header.jpg"
 slug = "the-tale-of-tdd-a-journey-towards-reliable-software"
-tags = ["Software Craftsmanship"]
+tags = ["Software Craftsmanship", "TDD"]
 title = "The Tale of TDD: A Journey Towards Reliable Software"
 +++
 
