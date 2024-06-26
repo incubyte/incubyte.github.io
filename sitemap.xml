@@ -3,21 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-26T11:19:22+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-26T11:19:22+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/</loc>
-    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-26T11:19:22+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/</loc>
+    <lastmod>2024-06-26T11:19:22+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/rdbms/</loc>
+    <lastmod>2024-06-26T11:19:22+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/rdbms/</loc>
+    <lastmod>2024-06-26T11:19:22+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/sql/</loc>
+    <lastmod>2024-06-26T11:19:22+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/sql/</loc>
+    <lastmod>2024-06-26T11:19:22+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/syed-mohd-mehndi/</loc>
+    <lastmod>2024-06-26T11:19:22+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/</loc>
+    <lastmod>2024-06-26T11:19:22+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/understanding-sql-dialects/</loc>
+    <lastmod>2024-06-26T11:19:22+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/siya-agarwal/</loc>
     <lastmod>2024-06-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
-    <lastmod>2024-06-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/</loc>
     <lastmod>2024-06-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/tdd/</loc>
@@ -27,9 +48,6 @@
     <lastmod>2024-06-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/akshay-vadher/</loc>
-    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/</loc>
     <lastmod>2024-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/om-jogani/</loc>
@@ -159,9 +177,6 @@
     <lastmod>2023-11-09T18:20:29+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/ruby-on-rails/</loc>
-    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/authors/syed-mohd-mehndi/</loc>
     <lastmod>2023-11-09T18:20:29+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</loc>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL on Incubyte Blog</title>
+    <link>https://blog.incubyte.co/tags/sql/</link>
+    <description>Recent content in SQL on Incubyte Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2024 Incubyte. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 26 Jun 2024 11:19:22 +0530</lastBuildDate>
+    <atom:link href="https://blog.incubyte.co/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding SQL Dialects: How Different Databases Speak Their Own SQL Language</title>
+      <link>https://blog.incubyte.co/blog/understanding-sql-dialects/</link>
+      <pubDate>Wed, 26 Jun 2024 11:19:22 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/understanding-sql-dialects/</guid>
+      <description>Structured Query Language or SQL is the cornerstone of database management and data manipulation.</description>
+    </item>
+  </channel>
+</rss>
