@@ -15,7 +15,7 @@ Structured Query Language or SQL is the cornerstone of database management and d
 
 ### Oracle (PL/SQL)
 
-Oracle's dialect, PL/SQL (Procedural Language/SQL), extends standard SQL with procedural capabilities. Here are some of the key features unique to Oracle:
+Oracle's dialect, Procedural Language/SQL (PL/SQL), extends standard SQL by adding procedural capabilities. Here are some of the key features unique to Oracle:
 
 - **Sequences:** Used to generate unique numbers automatically.
 - **Synonyms:** Aliases for database objects to simplify access and enhance security.
@@ -25,7 +25,7 @@ Oracle's dialect, PL/SQL (Procedural Language/SQL), extends standard SQL with pr
 
 ### SQL Server (T-SQL)
 
-Microsoft SQL Server uses T-SQL (Transact-SQL), which includes several proprietary features:
+Microsoft SQL Server uses Transact-SQL (T-SQL), which includes several proprietary features:
 
 - **IDENTITY:** A property to auto-generate unique values for a column, often used for primary keys.
 - **GO:** A batch separator used in SQL scripts to group commands.
