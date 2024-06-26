@@ -11,7 +11,7 @@ categories = ["SQL", "RDBMS"]
 type = ""
 +++
 
-SQL (Structured Query Language) is the cornerstone of database management and data manipulation. While the core SQL commands are standardized and consistent across different Database Management Systems (DBMS), each DBMS has its own dialect with unique features and terminologies. Understanding these differences can help you write more efficient and optimized SQL code tailored to each environment. Let's explore the nuances of SQL dialects in three popular DBMSs: Oracle, SQL Server, and PostgreSQL.
+SQL (Structured Query Language) is the cornerstone of database management and data manipulation. While the core SQL commands are standardized and consistent across different Database Management Systems (DBMS), each DBMS has its own dialect with unique features and terminologies. Understanding these differences can help you write more efficient and optimized SQL code tailored to each environment. Let's explore the nuances of SQL dialects in four popular DBMSs: Oracle, SQL Server, PostgreSQL and MySQL.
 
 ### Oracle (PL/SQL)
 
@@ -43,6 +43,16 @@ PostgreSQL’s procedural language, PL/pgSQL, also offers distinct features:
 - **hstore:** A key-value store within a PostgreSQL value, useful for dynamic schemas.
 - **DO:** Anonymous code blocks for executing procedural code without creating a stored procedure.
 
+### MySQL
+
+MySQL, known for its simplicity and speed, has its own set of unique features:
+
+- **AUTO_INCREMENT:** Property to auto-generate unique values for a column, similar to SQL Server’s IDENTITY.
+- **ENGINE:** Specifies the storage engine for a table (e.g., InnoDB, MyISAM).
+- **ENUM and SET:** Data types for defining columns that can take on a predefined set of values.
+- **Prepared Statements:** Enhance security and performance by precompiling SQL statements.
+- **Triggers:** Automatic execution of specified commands in response to certain events on a particular table.
+
 ## Key Terminology Differences
 
 Each DBMS has its own terminology and syntax for various SQL features. Here are a few examples:
@@ -52,18 +62,21 @@ Each DBMS has its own terminology and syntax for various SQL features. Here are 
 - **Oracle**: CREATE SEQUENCE seq_name;
 - **SQL Server**: IDENTITY(1,1)
 - **PostgreSQL**: SERIAL
+- **MySQL:** AUTO_INCREMENT
 
 ### String Concatenation
 
 - **Oracle:** ||
 - **SQL Server:** +
 - **PostgreSQL:** ||
+- **MySQL:** CONCAT()
 
 ### Current Date/Time
 
 - **Oracle:** SYSDATE
 - **SQL Server:** GETDATE()
 - **PostgreSQL:** CURRENT_TIMESTAMP
+- **MySQL:** NOW()
 
 ## Conclusion
 
