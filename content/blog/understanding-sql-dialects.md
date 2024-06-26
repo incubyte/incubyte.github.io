@@ -6,8 +6,8 @@ image = "/images/2024/understanding_sql_dialects.png"
 draft = false
 authors = ["Syed Mohd Mehndi"]
 description = "This blog post aims to provide a general overview of how different DBMSs extend standard SQL with their unique features, making it easier for developers to understand and utilize these systems effectively."
-tags = ["SQL", "Database", "RDBMS", "Postgres", "Oracle", "SQL Server"]
-categories = ["SQL", "Database"]
+tags = ["SQL", "RDBMS"]
+categories = ["SQL", "RDBMS"]
 type = ""
 +++
 
