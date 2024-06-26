@@ -1,6 +1,6 @@
 +++
 title = "Understanding SQL Dialects: How Different Databases Speak Their Own SQL Language"
-slug = "demo-post"
+slug = "understanding-sql-dialects"
 date = 2024-06-26T11:19:22+05:30
 image = "/images/2024/understanding_sql_dialects.png"
 draft = true
