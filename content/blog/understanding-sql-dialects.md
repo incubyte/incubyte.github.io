@@ -11,7 +11,7 @@ categories = ["SQL", "RDBMS"]
 type = ""
 +++
 
-SQL (Structured Query Language) is the cornerstone of database management and data manipulation. While the core SQL commands are standardized and consistent across different Database Management Systems (DBMS), each DBMS has its own dialect with unique features and terminologies. Understanding these differences can help you write more efficient and optimized SQL code tailored to each environment. Let's explore the nuances of SQL dialects in four popular DBMSs: Oracle, SQL Server, PostgreSQL and MySQL.
+Structured Query Language or SQL is the cornerstone of database management and data manipulation. While the core SQL commands are standardized and consistent across different Database Management Systems (DBMS), each DBMS has its own dialect with unique features and terminologies. Understanding these differences can help you write more efficient and optimized SQL code tailored to each environment. Let's explore the nuances of SQL dialects in four popular DBMSs: Oracle, SQL Server, PostgreSQL and MySQL.
 
 ### Oracle (PL/SQL)
 
