@@ -1,11 +1,11 @@
 +++
-title = "LangChain Memory Types: Buffer, BufferWindow, TokenBuffer and Summary"
-slug = "langchain-memory-types"
+title = "LangChain Basic Memory Types: Buffer, BufferWindow, TokenBuffer and Summary"
+slug = "langchain-basic-memory-types"
 date = 2024-06-30T14:49:39+05:30
-image = "/images/2024/langchain-memory-types.png"
+image = "/images/2024/langchain-basic-memory-types.png"
 draft = false
 authors = ["Syed Mohd Mehndi"]
-description = "LangChain Memory Types: Buffer, BufferWindow, TokenBuffer and Summary"
+description = "LangChain Basic Memory Types: Buffer, BufferWindow, TokenBuffer and Summary"
 tags = ["AI", "Langchain"]
 categories = ["AI", "Langchain"]
 type = ""
