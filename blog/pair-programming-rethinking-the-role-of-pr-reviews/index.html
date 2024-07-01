@@ -5,7 +5,7 @@
 
 <head>
 	<meta charset="utf-8">
-<title>Incubyte Blog</title>
+<title>Pair Programming: Rethinking the Role of PR Reviews</title>
 
 
 <base href="https://blog.incubyte.co/">
@@ -14,6 +14,7 @@
 
 
 
+<meta name="author" content="[Siya Agarwal]">
 <meta name="generator" content="Hugo 0.128.0">
 
 
@@ -30,25 +31,30 @@
 
 
 <!-- Open Graph image and Twitter Card metadata -->
-<meta property="og:image" content="https://blog.incubyte.co/images/logo.png" />
-<meta name="twitter:image" content="https://blog.incubyte.co/images/logo.png"/>
+<meta property="og:image" content="https://blog.incubyte.co/images/2024/role-of-pr-reviews/header.jpg" />
+<meta name="twitter:image" content="https://blog.incubyte.co/images/2024/role-of-pr-reviews/header.jpg"/>
 <meta name="twitter:card" content="summary_large_image">
-<meta property="og:image:width" content="1847">
-<meta property="og:image:height" content="511">
-<meta property="og:image:type" content="image/png">
-<meta name="twitter:title" content="Incubyte Blog"/>
-<meta name="twitter:description" content="Incubyte Blog"/>
-<meta property="og:url" content="https://blog.incubyte.co/">
+<meta property="og:image:width" content="1792">
+<meta property="og:image:height" content="1024">
+<meta property="og:image:type" content="image/jpeg">
+<meta name="twitter:title" content="Pair Programming: Rethinking the Role of PR Reviews"/>
+<meta name="twitter:description" content="Pair programming is a collaborative approach where two developers work together at a single workstation, continuously reviewing each other’s code."/>
+<meta property="og:url" content="https://blog.incubyte.co/blog/pair-programming-rethinking-the-role-of-pr-reviews/">
   <meta property="og:site_name" content="Incubyte Blog">
-  <meta property="og:title" content="Incubyte Blog">
-  <meta property="og:description" content="Incubyte Blog">
+  <meta property="og:title" content="Pair Programming: Rethinking the Role of PR Reviews">
+  <meta property="og:description" content="Pair programming is a collaborative approach where two developers work together at a single workstation, continuously reviewing each other’s code.">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2024-07-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-07-01T00:00:00+00:00">
+    <meta property="article:tag" content="Software Craftsmanship">
+    <meta property="article:tag" content="Pair Programming">
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Incubyte Blog">
-  <meta name="twitter:description" content="Incubyte Blog">
+  <meta name="twitter:title" content="Pair Programming: Rethinking the Role of PR Reviews">
+  <meta name="twitter:description" content="Pair programming is a collaborative approach where two developers work together at a single workstation, continuously reviewing each other’s code.">
 
 
 
@@ -67,11 +73,16 @@
     {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "",
-        "image": "/",
+        "headline": "Pair Programming: Rethinking the Role of PR Reviews",
+        "image": "/images/2024/role-of-pr-reviews/header.jpg",
         "datePublished": "Monday, July 1, 2024",
         "dateModified": "Monday, July 1, 2024",
         "author": [
+            
+                {
+                    "@type": "Person",
+                    "name": "Siya Agarwal"
+                }
             
         ],
         "mainEntityOfPage": { "@type": "WebPage" },
@@ -89,7 +100,7 @@
                 "https://www.instagram.com/incubyte.co/"
             ]
         },
-        "keywords": []
+        "keywords": ["Software Craftsmanship", "Pair Programming"]
     }
     
 </script>
@@ -656,514 +667,432 @@
 
 	<main>
 		
-<section class="section pb-0">
-  <div class="container text-left">
-    <h1 class="display-5"></h1>
-    
+
+
+
+<section class="section">
+  <div class="container">
+    <article class="row">
+      <div class="col-lg-8 mx-auto">
+        <a class="back-link" href="https://blog.incubyte.co/"
+          ><strong>←</strong> Back to Blog</a
+        >
+        <img
+          src="/images/2024/role-of-pr-reviews/header.jpg"
+          alt="Pair Programming: Rethinking the Role of PR Reviews"
+          class="mt-3 img-fluid w-100 rounded mb-4"
+        />
+        <h1 class="mb-4 post-title">Pair Programming: Rethinking the Role of PR Reviews</h1>
+        
+        <span class="mb-3 badge rounded-pill bg-dark">
+          <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span
+        >
+        
+        <span class="mb-3 badge rounded-pill bg-dark">
+          <a class="text-white" href="/tags/pair-programming">Pair Programming</a></span
+        >
+        
+        <p class="blockquote-footer text-right">
+          By 
+          <a href="/authors/siya-agarwal">Siya Agarwal</a>,  on Monday, July 1, 2024
+        </p>
+
+        <div class="content"><p>Pair programming is a collaborative approach where two developers work together at a single workstation, continuously reviewing each other’s code. This method is known for enhancing code quality, facilitating knowledge sharing, and reducing the need for formal pull request (PR) reviews. However, there are scenarios where a third-person review can be beneficial, even when pair programming is in place. In this blog, I’ll discuss why I favor internal reviews within the pair and treat third-person reviews as exceptions, exploring when each approach is most appropriate.</p>
+<h3 id="the-power-of-pair-programming">The Power of Pair Programming</h3>
+<p>Before diving into the specifics, let’s briefly revisit the benefits of pair programming:</p>
+<ul>
+<li>
+<p><strong>Continuous Code Review</strong>: As two developers work together, they continuously review each other’s work, catching issues early and ensuring high code quality.</p>
+</li>
+<li>
+<p><strong>Knowledge Sharing</strong>: Both developers gain a deeper understanding of the codebase and the changes being made, promoting team-wide knowledge distribution.</p>
+</li>
+<li>
+<p><strong>Reduced Context Switching</strong>: Since both developers are familiar with the changes, there’s less need for additional context during a formal review process.</p>
+</li>
+</ul>
+<p>Despite these advantages, there are scenarios where an additional layer of review is crucial.</p>
+<h3 id="scenarios-where-the-pair-can-handle-the-review">Scenarios Where the Pair Can Handle the Review</h3>
+<ul>
+<li><strong>Minor Changes and Bug Fixes</strong></li>
+</ul>
+<p><strong><em>Why?</em></strong> Small, well-understood changes, such as minor bug fixes or cosmetic updates, can typically be reviewed within the pair without needing additional oversight.</p>
+<p><strong><em>Example:</em></strong> Fixing a typo in the UI or resolving a minor bug in a non-critical feature.</p>
+<ul>
+<li><strong>Routine Updates</strong></li>
+</ul>
+<p><strong><em>Why?</em></strong> Regular updates or enhancements that follow well-established patterns and practices in the codebase can often be reviewed by the pair.</p>
+<p><strong><em>Example:</em></strong> Adding a new endpoint to an existing API following a standard pattern.</p>
+<ul>
+<li><strong>Non-Critical Parts of the System</strong></li>
+</ul>
+<p><strong><em>Why?</em></strong> Changes to less critical or less complex parts of the system may not require the same level of scrutiny and can be effectively reviewed within the pair.</p>
+<p><strong><em>Example:</em></strong> Updating documentation or improving log messages.</p>
+<ul>
+<li><strong>High Collaboration and Trust</strong></li>
+</ul>
+<p><strong><em>Why?</em></strong> In teams with a high level of collaboration and trust, where pair programming is deeply embedded in the culture, many changes can be reviewed within the pair, relying on the strength of the collaborative process.</p>
+<p><strong><em>Example:</em></strong> Two senior developers working on a well-understood part of the codebase.</p>
+<ul>
+<li><strong>Prototype or Experimental Code</strong></li>
+</ul>
+<p><strong><em>Why?</em></strong> Code that is experimental or part of a prototype might not need formal review, as it is not intended for production use and is likely to be revisited.</p>
+<p><strong><em>Example:</em></strong> Creating a proof-of-concept for a new feature to explore its feasibility.</p>
+<h3 id="scenarios-needing-a-pr-review-by-a-third-person">Scenarios Needing a PR Review by a Third Person</h3>
+<ul>
+<li><strong>High-Risk Changes</strong></li>
+</ul>
+<p><strong><em>Why?</em></strong> Changes involving critical or sensitive parts of the system, such as security-related code, core algorithms, or significant architectural changes, require extra scrutiny to ensure no issues are missed.</p>
+<p><strong><em>Example:</em></strong> Modifying authentication mechanisms or altering data handling processes in a financial application.</p>
+<ul>
+<li><strong>Large-Scale Refactoring</strong></li>
+</ul>
+<p><strong><em>Why?</em></strong> Major refactoring affecting multiple components or modules benefits from a third-person review to ensure comprehensive coverage and avoid unintended consequences.</p>
+<p><strong><em>Example:</em></strong> Refactoring the entire user interface framework in a large web application.</p>
+<ul>
+<li><strong>New or Complex Features</strong></li>
+</ul>
+<p><strong><em>Why?</em></strong> Introducing new features or making complex changes might require a fresh perspective to ensure all edge cases are considered and handled appropriately.</p>
+<p><strong><em>Example:</em></strong> Adding a new payment integration system in an e-commerce platform.</p>
+<ul>
+<li><strong>Compliance and Regulatory Requirements</strong></li>
+</ul>
+<p><strong><em>Why?</em></strong> Industries with strict compliance and regulatory requirements, such as healthcare or finance, often necessitate third-party reviews to meet legal obligations and ensure adherence to standards.</p>
+<p><strong><em>Example:</em></strong> Implementing changes to handle GDPR compliance.</p>
+<ul>
+<li><strong>Onboarding New Team Members</strong></li>
+</ul>
+<p><strong><em>Why?</em></strong> When a pair includes a new team member, having a third-person review helps ensure the new member adheres to coding standards and best practices.</p>
+<p><strong><em>Example:</em></strong> A new developer working on their first significant feature in the codebase.</p>
+<ul>
+<li><strong>Disagreements or Uncertainty</strong></li>
+</ul>
+<p><strong><em>Why?</em></strong> If the pair cannot agree on a solution or is uncertain about the correctness or impact of their changes, a third person’s perspective can provide clarity and resolve disagreements.</p>
+<p><strong><em>Example:</em></strong> Differing opinions on the best approach to optimize a complex algorithm.</p>
+<h3 id="best-practices">Best Practices</h3>
+<p>To strike a balance between the efficiency of pair programming and the assurance provided by third-party reviews, consider the following best practices:</p>
+<ul>
+<li><strong>Document Guidelines</strong>: Clearly document the guidelines and scenarios that require third-party reviews. This helps in maintaining consistency and understanding across the team.</li>
+<li><strong>Automated Checks</strong>: Use automated tools for static analysis, testing, and continuous integration to catch common issues, reducing the burden on manual reviews.</li>
+<li><strong>Regular Retrospectives</strong>: Hold regular retrospectives to assess the effectiveness of the review process and make adjustments as needed.</li>
+</ul>
+<h3 id="conclusion">Conclusion</h3>
+<p>Pair programming can significantly reduce the need for formal PR reviews, but incorporating third-person reviews in specific scenarios can provide additional benefits in terms of oversight, consistency, documentation, and learning. By applying these guidelines, you can ensure high-quality code and smooth collaboration within your team, leveraging the strengths of both pair programming and PR reviews.</p>
+<p>By understanding when to involve a third person and when to rely on the pair, teams can create a robust and flexible review process that enhances code quality and fosters a collaborative environment.</p>
+</div>
+
+
+        
+
+
+
+<h2>Consider Sharing!</h2>
+
+<div style="font-size: 80%">
+
+    <a class="resp-sharing-button__link" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fblog.incubyte.co%2fblog%2fpair-programming-rethinking-the-role-of-pr-reviews%2f&t=Pair%20Programming%3a%20Rethinking%20the%20Role%20of%20PR%20Reviews"
+         target="_blank" rel="noopener" aria-label="Facebook">
+        <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm3.6 11.5h-2.1v7h-3v-7h-2v-2h2V8.34c0-1.1.35-2.82 2.65-2.82h2.35v2.3h-1.4c-.25 0-.6.13-.6.66V9.5h2.34l-.24 2z" />
+                </svg>
+            </div>
+            Facebook
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="https://twitter.com/share?text=Pair%20Programming%3a%20Rethinking%20the%20Role%20of%20PR%20Reviews&url=https%3a%2f%2fblog.incubyte.co%2fblog%2fpair-programming-rethinking-the-role-of-pr-reviews%2f&screen_name=incubyte_co"
+         target="_blank" rel="noopener" aria-label="Twitter">
+        <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm5.26 9.38v.34c0 3.48-2.64 7.5-7.48 7.5-1.48 0-2.87-.44-4.03-1.2 1.37.17 2.77-.2 3.9-1.08-1.16-.02-2.13-.78-2.46-1.83.38.1.8.07 1.17-.03-1.2-.24-2.1-1.3-2.1-2.58v-.05c.35.2.75.32 1.18.33-.7-.47-1.17-1.28-1.17-2.2 0-.47.13-.92.36-1.3C7.94 8.85 9.88 9.9 12.06 10c-.04-.2-.06-.4-.06-.6 0-1.46 1.18-2.63 2.63-2.63.76 0 1.44.3 1.92.82.6-.12 1.95-.27 1.95-.27-.35.53-.72 1.66-1.24 2.04z" />
+                </svg>
+            </div>
+            Twitter
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="mailto:?subject=Pair%20Programming%3a%20Rethinking%20the%20Role%20of%20PR%20Reviews&body=Pair%20Programming%3a%20Rethinking%20the%20Role%20of%20PR%20Reviews%0a%0aPair%20programming%20is%20a%20collaborative%20approach%20where%20two%20developers%20work%20together%20at%20a%20single%20workstation%2c%20continuously%20reviewing%20each%20other%e2%80%99s%20code.%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fpair-programming-rethinking-the-role-of-pr-reviews%2f%0a"
+         target="_self" rel="noopener" aria-label="E-Mail">
+        <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm8 16c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2v8z" />
+                    <path
+                        d="M17.9 8.18c-.2-.2-.5-.24-.72-.07L12 12.38 6.82 8.1c-.22-.16-.53-.13-.7.08s-.15.53.06.7l3.62 2.97-3.57 2.23c-.23.14-.3.45-.15.7.1.14.25.22.42.22.1 0 .18-.02.27-.08l3.85-2.4 1.06.87c.1.04.2.1.32.1s.23-.06.32-.1l1.06-.9 3.86 2.4c.08.06.17.1.26.1.17 0 .33-.1.42-.25.15-.24.08-.55-.15-.7l-3.57-2.22 3.62-2.96c.2-.2.24-.5.07-.72z" />
+                </svg>
+            </div>
+            E-Mail
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fblog.incubyte.co%2fblog%2fpair-programming-rethinking-the-role-of-pr-reviews%2f&title=Pair%20Programming%3a%20Rethinking%20the%20Role%20of%20PR%20Reviews&summary=Pair%2bprogramming%2bis%2ba%2bcollaborative%2bapproach%2bwhere%2btwo%2bdevelopers%2bwork%2btogether%2bat%2ba%2bsingle%2bworkstation%252C%2bcontinuously%2breviewing%2beach%2bother%25E2%2580%2599s%2bcode."
+         target="_blank" rel="noopener" aria-label="LinkedIn">
+        <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" xml:space="preserve">
+        <path
+                    d="M12,0C5.383,0,0,5.383,0,12s5.383,12,12,12s12-5.383,12-12S18.617,0,12,0z M9.5,16.5h-2v-7h2V16.5z M8.5,7.5 c-0.553,0-1-0.448-1-1c0-0.552,0.447-1,1-1s1,0.448,1,1C9.5,7.052,9.053,7.5,8.5,7.5z M18.5,16.5h-3V13c0-0.277-0.225-0.5-0.5-0.5 c-0.276,0-0.5,0.223-0.5,0.5v3.5h-3c0,0,0.031-6.478,0-7h3v0.835c0,0,0.457-0.753,1.707-0.753c1.55,0,2.293,1.12,2.293,3.296V16.5z" />
+    </svg>
+            </div>
+            LinkedIn
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="https://reddit.com/submit?url=https%3a%2f%2fblog.incubyte.co%2fblog%2fpair-programming-rethinking-the-role-of-pr-reviews%2f&title=Pair%20Programming%3a%20Rethinking%20the%20Role%20of%20PR%20Reviews"
+         target="_blank" rel="noopener" aria-label="Reddit">
+        <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <circle cx="9.391" cy="13.392" r=".978" />
+                    <path
+                        d="M14.057 15.814c-1.14.66-2.987.655-4.122-.004-.238-.138-.545-.058-.684.182-.13.24-.05.545.19.685.72.417 1.63.646 2.568.646.93 0 1.84-.228 2.558-.642.24-.13.32-.44.185-.68-.14-.24-.445-.32-.683-.18zM5 12.086c0 .41.23.78.568.978.27-.662.735-1.264 1.353-1.774-.2-.207-.48-.334-.79-.334-.62 0-1.13.507-1.13 1.13z" />
+                    <path
+                        d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm6.673 14.055c.01.104.022.208.022.314 0 2.61-3.004 4.73-6.695 4.73s-6.695-2.126-6.695-4.74c0-.105.013-.21.022-.313C4.537 13.73 4 12.97 4 12.08c0-1.173.956-2.13 2.13-2.13.63 0 1.218.29 1.618.757 1.04-.607 2.345-.99 3.77-1.063.057-.803.308-2.33 1.388-2.95.633-.366 1.417-.323 2.322.085.302-.81 1.076-1.397 1.99-1.397 1.174 0 2.13.96 2.13 2.13 0 1.177-.956 2.133-2.13 2.133-1.065 0-1.942-.79-2.098-1.81-.734-.4-1.315-.506-1.716-.276-.6.346-.818 1.395-.88 2.087 1.407.08 2.697.46 3.728 1.065.4-.468.987-.756 1.617-.756 1.17 0 2.13.953 2.13 2.13 0 .89-.54 1.65-1.33 1.97z" />
+                    <circle cx="14.609" cy="13.391" r=".978" />
+                    <path
+                        d="M17.87 10.956c-.302 0-.583.128-.79.334.616.51 1.082 1.112 1.352 1.774.34-.197.568-.566.568-.978 0-.623-.507-1.13-1.13-1.13z" />
+                </svg>
+            </div>
+            Reddit
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="whatsapp://send?text=Pair%20Programming%3a%20Rethinking%20the%20Role%20of%20PR%20Reviews%0a%0aPair%20programming%20is%20a%20collaborative%20approach%20where%20two%20developers%20work%20together%20at%20a%20single%20workstation%2c%20continuously%20reviewing%20each%20other%e2%80%99s%20code.%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fpair-programming-rethinking-the-role-of-pr-reviews%2f%0a"
+         target="_blank" rel="noopener" aria-label="WhatsApp">
+        <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24">
+                    <path
+                        d="m12 0c-6.6 0-12 5.4-12 12s5.4 12 12 12 12-5.4 12-12-5.4-12-12-12zm0 3.8c2.2 0 4.2 0.9 5.7 2.4 1.6 1.5 2.4 3.6 2.5 5.7 0 4.5-3.6 8.1-8.1 8.1-1.4 0-2.7-0.4-3.9-1l-4.4 1.1 1.2-4.2c-0.8-1.2-1.1-2.6-1.1-4 0-4.5 3.6-8.1 8.1-8.1zm0.1 1.5c-3.7 0-6.7 3-6.7 6.7 0 1.3 0.3 2.5 1 3.6l0.1 0.3-0.7 2.4 2.5-0.7 0.3 0.099c1 0.7 2.2 1 3.4 1 3.7 0 6.8-3 6.9-6.6 0-1.8-0.7-3.5-2-4.8s-3-2-4.8-2zm-3 2.9h0.4c0.2 0 0.4-0.099 0.5 0.3s0.5 1.5 0.6 1.7 0.1 0.2 0 0.3-0.1 0.2-0.2 0.3l-0.3 0.3c-0.1 0.1-0.2 0.2-0.1 0.4 0.2 0.2 0.6 0.9 1.2 1.4 0.7 0.7 1.4 0.9 1.6 1 0.2 0 0.3 0.001 0.4-0.099s0.5-0.6 0.6-0.8c0.2-0.2 0.3-0.2 0.5-0.1l1.4 0.7c0.2 0.1 0.3 0.2 0.5 0.3 0 0.1 0.1 0.5-0.099 1s-1 0.9-1.4 1c-0.3 0-0.8 0.001-1.3-0.099-0.3-0.1-0.7-0.2-1.2-0.4-2.1-0.9-3.4-3-3.5-3.1s-0.8-1.1-0.8-2.1c0-1 0.5-1.5 0.7-1.7s0.4-0.3 0.5-0.3z" />
+                </svg>
+            </div>
+            WhatsApp
+        </div>
+    </a>
+
+</div>
+
+<style>
+    .resp-sharing-button__link,
+    .resp-sharing-button__icon {
+        display: inline-block
+    }
+
+    .resp-sharing-button__link {
+        text-decoration: none;
+        color: #fff;
+        margin: 0.5em
+    }
+
+    .resp-sharing-button {
+        border-radius: 5px;
+        transition: 25ms ease-out;
+        padding: 0.5em 0.75em;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+    }
+
+    .resp-sharing-button__icon svg {
+        width: 1em;
+        height: 1em;
+        margin-right: 0.4em;
+        vertical-align: top
+    }
+
+    .resp-sharing-button--small svg {
+        margin: 0;
+        vertical-align: middle
+    }
+
+     
+    .resp-sharing-button__icon {
+        stroke: #fff;
+        fill: none
+    }
+
+     
+    .resp-sharing-button__icon--solid,
+    .resp-sharing-button__icon--solidcircle {
+        fill: #fff;
+        stroke: none
+    }
+
+    .resp-sharing-button--twitter {
+        background-color: #55acee
+    }
+
+    .resp-sharing-button--twitter:hover {
+        background-color: #2795e9
+    }
+
+
+    .resp-sharing-button--facebook {
+        background-color: #3b5998
+    }
+
+    .resp-sharing-button--facebook:hover {
+        background-color: #2d4373
+    }
+
+    .resp-sharing-button--linkedin {
+        background-color: #0077b5
+    }
+
+    .resp-sharing-button--linkedin:hover {
+        background-color: #046293
+    }
+
+    .resp-sharing-button--email {
+        background-color: #777
+    }
+
+    .resp-sharing-button--email:hover {
+        background-color: #5e5e5e
+    }
+
+    .resp-sharing-button--whatsapp {
+        background-color: #25D366
+    }
+
+    .resp-sharing-button--whatsapp:hover {
+        background-color: #1da851
+    }
+
+    .resp-sharing-button--facebook {
+        background-color: #3b5998;
+        border-color: #3b5998;
+    }
+
+    .resp-sharing-button--facebook:hover,
+    .resp-sharing-button--facebook:active {
+        background-color: #2d4373;
+        border-color: #2d4373;
+    }
+
+    .resp-sharing-button--twitter {
+        background-color: #55acee;
+        border-color: #55acee;
+    }
+
+    .resp-sharing-button--twitter:hover,
+    .resp-sharing-button--twitter:active {
+        background-color: #2795e9;
+        border-color: #2795e9;
+    }
+
+    .resp-sharing-button--email {
+        background-color: #777777;
+        border-color: #777777;
+    }
+
+    .resp-sharing-button--email:hover,
+    .resp-sharing-button--email:active {
+        background-color: #5e5e5e;
+        border-color: #5e5e5e;
+    }
+
+    .resp-sharing-button--linkedin {
+        background-color: #0077b5;
+        border-color: #0077b5;
+    }
+
+    .resp-sharing-button--linkedin:hover,
+    .resp-sharing-button--linkedin:active {
+        background-color: #046293;
+        border-color: #046293;
+    }
+
+    .resp-sharing-button--reddit {
+        background-color: #ff4500;
+        border-color: #5f99cf;
+    }
+
+    .resp-sharing-button--reddit:hover,
+    .resp-sharing-button--reddit:active {
+        background-color: #ff6510;
+        color: #777;
+        border-color: #3a80c1;
+    }
+
+    .resp-sharing-button--whatsapp {
+        background-color: #0D9F4E;
+        border-color: #0D9F4E;
+    }
+
+    .resp-sharing-button--whatsapp:hover,
+    .resp-sharing-button--whatsapp:active {
+        background-color: #1DA851;
+        color: #777;
+        border-color: #1DA851;
+    }
+</style>
+ <div class="mt-5 newsletter">
+  <iframe id="subscription-form-iframe" name="subscription-form-iframe" style="display:none;"></iframe>
+
+  <form
+    action="https://hooks.airtable.com/workflows/v1/genericWebhook/appZga3G6CMmBbNQJ/wflzPU7JTdzStS9aT/wtrbcKCrRNfPAh0e8"
+    method="POST"
+    target="subscription-form-iframe"
+  >
+    <h2>Hey You!</h2>
+    <p>
+      You were caught scrolling too fast! 🚨
+      <br>
+      Tell us your email so that we can inform you next time we release a blog.
+    </p>
+
+    <div id="subscription-form-input">
+      <div class="row">
+        <div class="col-lg-10 col-md-10 d-flex align-items-center">
+          <input
+            aria-label="Input your email to subscribe to Incubyte"
+            class="form-control"
+            name="email"
+            placeholder="name@email.com"
+            required
+            type="email"
+          />
+        </div>
+        <div class="col-lg-2 col-md-2 mt-xl-0 mt-lg-0 mt-md-0">
+          <input class="btn big-btn" type="submit" value="Subscribe" />
+        </div>
+      </div>
+    </div>
+
+    <div class="text-primary font-weight-bold" id="subscription-form-result">
+    </div>
+  </form>
+</div>
+
+<script>
+  
+  const iframe = document.querySelector('iframe[name="subscription-form-iframe"]');
+  iframe.addEventListener('load', () => {
+    document.querySelector('#subscription-form-input').innerHTML = ''
+    document.querySelector('#subscription-form-result').innerHTML = 'Ha! I got you!... and your email too!'
+  });
+</script>
+
+
+        
+        
+      </div>
+    </article>
   </div>
 </section>
 
 
-<section class="">
-    <div class="container">
-        
-        <div class="display-4">Posts</div>
-        <hr>
-        <div class="row">
-            
-            <div class="col-12 mb-5 pb-5">
-                <article class="row align-items-center">
-                    <div class="col-md-6 mb-4 mb-md-0">
-                        <a href="https://blog.incubyte.co/blog/why-incubyte/">
-                            <img src="/images/2020/10/why-incubyte-cover.jpg" alt="Why Incubyte?" class="img-fluid rounded-lg w-100">
-                        </a>
-                    </div>
-                    <div class="col-md-6">
-                        <h2><a href="https://blog.incubyte.co/blog/why-incubyte/" title="Why Incubyte?" class="post-title">Why Incubyte?</a></h2>
-                        
-                        <span class="mb-1 badge rounded-pill bg-dark"> <a class="text-white"
-                                href="/tags/playbook">Playbook</a></span>
-                        
-                        <span class="mb-1 badge rounded-pill bg-dark"> <a class="text-white"
-                                href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <p class="card-text">Quality is usually an implicit requirement when it comes to developing software.</p>
-                        <a href="https://blog.incubyte.co/blog/why-incubyte/" title=" - Why Incubyte?"
-                            class="btn btn-main-art btn-primary">Read more</a>
-                    </div>
-                </article>
-            </div>
-            
-            
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/learnings-from-terraform/">
-                        <img src="/images/2022/09/scott-blake-x-ghf9LjrVg-unsplash.jpg" alt="Learnings From Terraform" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/learnings-from-terraform/" title="Learnings From Terraform" class="post-title">Learnings From Terraform</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/playbook">Playbook</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/learnings">Learnings</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/terraform">Terraform</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/infrastructure">Infrastructure</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/automation">Automation</a></span>
-                        
-                        <p class="card-text">Preface Terraform is infrastructure as a code. I know it is a fancy word but here is the meaning. </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/akshay-vadher">Akshay Vadher</a>,  on September 28, 2022
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/rails-restapi-tdd/">
-                        <img src="/images/2022/07/outsidein.jpg" alt="Rails RESTful API, Outside in TDD" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/rails-restapi-tdd/" title="Rails RESTful API, Outside in TDD" class="post-title">Rails RESTful API, Outside in TDD</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/ruby-on-rails">Ruby on Rails</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/tdd">TDD</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <p class="card-text">There is always a disciplined way to do things I was waiting for the coffee dispenser to finish filling up my cup and my mind started wandering. </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/nitin-rajkumar">Nitin Rajkumar</a>,  on July 2, 2022
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/software-crsftspeople-interview-process/">
-                        <img src="/images/2023/hire.jpg" alt="How We Hire Software Craftspeople" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/software-crsftspeople-interview-process/" title="How We Hire Software Craftspeople" class="post-title">How We Hire Software Craftspeople</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/careers">Careers</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <p class="card-text">Incubyte is a combined effort of its team. Working here entails bringing your knowledge, curiosity and authenticity to the table. </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/arohi-parikh">Arohi Parikh</a>,  on June 22, 2022
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/five-git-tricks/">
-                        <img src="/images/2022/06/octocat.jpg" alt="Five Git Tricks To Make Crafting Software Easier" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/five-git-tricks/" title="Five Git Tricks To Make Crafting Software Easier" class="post-title">Five Git Tricks To Make Crafting Software Easier</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/git">Git</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/open-source">Open Source</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <p class="card-text">Git is the most widely used version control system in the world and it is something that every Software Craftsperson should master. </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/abhishek-keshri">Abhishek Keshri</a>,  on June 14, 2022
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/estimation/">
-                        <img src="/images/2022/05/esdt_title.jpg" alt="Estimating Software Development Time" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/estimation/" title="Estimating Software Development Time" class="post-title">Estimating Software Development Time</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/agile">Agile</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/estimation">Estimation</a></span>
-                        
-                        <p class="card-text">What is the need for an “Estimate”, because everything is bound to change rite in actuality. </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/arjun-rk">Arjun RK</a>,  on June 6, 2022
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/learnings-from-clean-code/">
-                        <img src="/images/2022/04/clean-code.jpg" alt="Learnings From Clean Code" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/learnings-from-clean-code/" title="Learnings From Clean Code" class="post-title">Learnings From Clean Code</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/playbook">Playbook</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/book-review">Book Review</a></span>
-                        
-                        <p class="card-text">Learnings from Robert “Uncle Bob” Martin Robert Martin, fondly known as “Uncle Bob” in our community, is a software engineer and more famously an author and one of the founding fathers of Software Craftsmanship movement. </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/jaymin-shah">Jaymin Shah</a>,  on April 29, 2022
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/code-coverage-and-reliability/">
-                        <img src="/images/2022/02/code-coverage.jpeg" alt="Why Code Coverage Should Not Be Your Measure of Reliability" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/code-coverage-and-reliability/" title="Why Code Coverage Should Not Be Your Measure of Reliability" class="post-title">Why Code Coverage Should Not Be Your Measure of Reliability</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/measure">Measure</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/not-to-do">Not to do</a></span>
-                        
-                        <p class="card-text">What is code coverage? Code coverage is a measure (in percentage) of the degree to which the source code of a program is executed wh­en a particular test suite is run. </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/akshay-vadher">Akshay Vadher</a>,  on February 10, 2022
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/devops-assessment/">
-                        <img src="/images/2023/devops.jpg" alt="Incubyte DevOps Assessment" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/devops-assessment/" title="Incubyte DevOps Assessment" class="post-title">Incubyte DevOps Assessment</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/careers">Careers</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/devops">DevOps</a></span>
-                        
-                        <p class="card-text">Hello there, Welcome to the Incubyte DevOps Assessment!
-Through this assessment, we want to evaluate how well you can work with CI/CD tools across the board. </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/abhishek-keshri">Abhishek Keshri</a>,  on January 4, 2022
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/your-daily-checklist/">
-                        <img src="/images/2021/11/checklist2.jpg" alt="Your daily productivity test" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/your-daily-checklist/" title="Your daily productivity test" class="post-title">Your daily productivity test</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/playbook">Playbook</a></span>
-                        
-                        <p class="card-text">Are you a software developer? How can you be more effective on this journey of being a craftsperson? </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/sapan-parikh">Sapan Parikh</a>,  on November 16, 2021
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/kickstart-checklist/">
-                        <img src="/images/2021/11/checklist.jpg" alt="Project Kickstart Checklist" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/kickstart-checklist/" title="Project Kickstart Checklist" class="post-title">Project Kickstart Checklist</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/playbook">Playbook</a></span>
-                        
-                        <p class="card-text">The Checklist Manifesto by Atul Gawande, walks us through the benefits of the humble checklist. </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/sapan-parikh">Sapan Parikh</a>,  on November 15, 2021
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/tech-debt/">
-                        <img src="/images/2021/10/tech-debt-head.png" alt="Understanding Technical debt!" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/tech-debt/" title="Understanding Technical debt!" class="post-title">Understanding Technical debt!</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/best-practices">Best Practices</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/sdlc">SDLC</a></span>
-                        
-                        <p class="card-text">The term &ldquo;Technical Debt&rdquo; was coined by Ward Cunningham (one of the authors of Agile Manifesto). </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/sapan-parikh">Sapan Parikh</a>,  on October 18, 2021
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/pair-programming/">
-                        <img src="/images/2021/09/pair-prog-head.jpg" alt="Pair Programming — How it works!" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/pair-programming/" title="Pair Programming — How it works!" class="post-title">Pair Programming — How it works!</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/best-practices">Best Practices</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/sdlc">SDLC</a></span>
-                        
-                        <p class="card-text">Have you ever come across a bug that had complex logic, and was incredibly hard to fix? </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/sapan-parikh">Sapan Parikh</a>,  on September 24, 2021
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/tdd-assessment/">
-                        <img src="/images/2021/09/laptop-plant.jpg" alt="Incubyte TDD Assessment" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/tdd-assessment/" title="Incubyte TDD Assessment" class="post-title">Incubyte TDD Assessment</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/careers">Careers</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/tdd">TDD</a></span>
-                        
-                        <p class="card-text">Hello there and welcome to the Incubyte TDD Kata!
-This assessment is the first step in our recruiting process and will be followed by two pair programming/discussion sessions. </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/abhishek-keshri">Abhishek Keshri</a>,  on September 21, 2021
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/techniques-for-an-agile-team/">
-                        <img src="/images/2021/08/agile-team-head.png" alt="Ideas for Successful Agile Teams" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/techniques-for-an-agile-team/" title="Ideas for Successful Agile Teams" class="post-title">Ideas for Successful Agile Teams</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/agile">Agile</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/best-practices">Best Practices</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/sdlc">SDLC</a></span>
-                        
-                        <p class="card-text">Agile is the most discussed software development methodology, and probably the most widely accepted as the way forward for modern software development teams. </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/rupali-pardeshi">Rupali Pardeshi</a>,  on August 19, 2021
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/one-year-of-incubyte/">
-                        <img src="/images/2021/07/1-year-blog-01.jpg" alt="One Year Of Pandemic &amp; One Year Of Incubyte" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/one-year-of-incubyte/" title="One Year Of Pandemic &amp; One Year Of Incubyte" class="post-title">One Year Of Pandemic &amp; One Year Of Incubyte</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/playbook">Playbook</a></span>
-                        
-                        <p class="card-text">It all started when— unbeknownst to the world, a series of lockdowns changed the way India Inc. </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/arohi-parikh">Arohi Parikh</a>,  on July 1, 2021
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/books-we-believe-should-be-on-your-bookshelf-and-read-them-too/">
-                        <img src="/images/2021/06/Picture1.jpg" alt="12 Books Developers Must Read" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/books-we-believe-should-be-on-your-bookshelf-and-read-them-too/" title="12 Books Developers Must Read" class="post-title">12 Books Developers Must Read</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/careers">Careers</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <p class="card-text">Books are a massive source of knowledge. Before we list all the books here, we want to discuss why we think it&rsquo;s essential for programmers to read them. </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/sapan-parikh">Sapan Parikh</a>,  on June 1, 2021
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/how-to-contribute-to-open-source-project-a-beginners-guide/">
-                        <img src="/images/2021/06/1_Making-your-first-oss-project.png" alt="How to contribute to open-source project: A beginner&#39;s guide" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/how-to-contribute-to-open-source-project-a-beginners-guide/" title="How to contribute to open-source project: A beginner&#39;s guide" class="post-title">How to contribute to open-source project: A beginner&#39;s guide</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/open-source">Open Source</a></span>
-                        
-                        <p class="card-text">Are you a first-time contributor? Are you wondering how to start contributing to OSS? </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/utsav-parmar">Utsav Parmar</a>,  on June 1, 2021
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/benefits-and-challenges-of-open-source-development/">
-                        <img src="/images/2021/05/1.oss-1.jpg" alt="Benefits and Challenges of Open-Source Development" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/benefits-and-challenges-of-open-source-development/" title="Benefits and Challenges of Open-Source Development" class="post-title">Benefits and Challenges of Open-Source Development</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/open-source">Open Source</a></span>
-                        
-                        <p class="card-text">Open-source software (OSS) is the holy grail for developers. It is a hub of innovation through intense collaboration in this era of agile software development. </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/sapan-parikh">Sapan Parikh</a>,  on May 1, 2021
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-12">
-                
-    <ul class="pagination pagination-default">
-      <li class="page-item">
-        <a href="/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/page/2/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/4/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/page/4/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-
+ 
 	</main>
 
 	

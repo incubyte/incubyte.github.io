@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 26 Jun 2024 11:19:22 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pair Programming</title>
+      <link>https://blog.incubyte.co/categories/pair-programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/categories/pair-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Craftsmanship</title>
+      <link>https://blog.incubyte.co/categories/software-craftsmanship/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/categories/software-craftsmanship/</guid>
+      <description></description>
+    </item>
     <item>
       <title>RDBMS</title>
       <link>https://blog.incubyte.co/categories/rdbms/</link>
@@ -21,13 +35,6 @@
       <link>https://blog.incubyte.co/categories/sql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/categories/sql/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Craftsmanship</title>
-      <link>https://blog.incubyte.co/categories/software-craftsmanship/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/categories/software-craftsmanship/</guid>
       <description></description>
     </item>
     <item>
