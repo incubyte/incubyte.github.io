@@ -1,4 +1,16 @@
-## Pair Programming: Rethinking the Role of PR Reviews
++++
+title = "Pair Programming: Rethinking the Role of PR Reviews"
+slug = "pair-programming-rethinking-the-role-of-pr-reviews"
+date = 2024-07-01T00:00:00Z
+image = "/images/2024/role-of-pr-reviews/header.jpg" 
+draft = false
+authors = ["Siya Agarwal"]
+description = ""
+tags = ["Software Craftsmanship", "Pair Programming"]
+categories = ["Software Craftsmanship", "Pair Programming"]
+type = ""
++++
+
 
 Pair programming is a collaborative approach where two developers work together at a single workstation, continuously reviewing each other’s code. This method is known for enhancing code quality, facilitating knowledge sharing, and reducing the need for formal pull request (PR) reviews. However, there are scenarios where a third-person review can be beneficial, even when pair programming is in place. In this blog, I’ll discuss why I favor internal reviews within the pair and treat third-person reviews as exceptions, exploring when each approach is most appropriate.
 
