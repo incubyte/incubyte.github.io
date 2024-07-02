@@ -2,7 +2,7 @@
 title = "Pair Programming: Rethinking the Role of PR Reviews"
 slug = "pair-programming-rethinking-the-role-of-pr-reviews"
 date = 2024-07-01T00:00:00Z
-image = "/images/2024/role-of-pr-reviews/header.jpg" 
+image = "/images/2024/role-of-pr-reviews/header.jpg"
 draft = false
 authors = ["Siya Agarwal"]
 description = ""
@@ -100,9 +100,9 @@ Despite these advantages, there are scenarios where an additional layer of revie
 To strike a balance between the efficiency of pair programming and the assurance provided by third-party reviews, consider the following best practices:
 
 - **Document Guidelines**: Clearly document the guidelines and scenarios that require third-party reviews. This helps in maintaining consistency and understanding across the team.
-  
+
 - **Automated Checks**: Use automated tools for static analysis, testing, and continuous integration to catch common issues, reducing the burden on manual reviews.
-  
+
 - **Regular Retrospectives**: Hold regular retrospectives to assess the effectiveness of the review process and make adjustments as needed.
 
 ### Conclusion
