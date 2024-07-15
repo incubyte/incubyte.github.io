@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Best Practices on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/categories/best-practices/</link>
+    <link>https://engineering.incubyte.co/categories/best-practices/</link>
     <description>Recent content in Best Practices on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Wed, 27 Sep 2023 15:48:02 +0530</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/categories/best-practices/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://engineering.incubyte.co/categories/best-practices/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Importance of Committing Lock Files in Dependency Management</title>
-      <link>https://blog.incubyte.co/blog/should-you-commit-lock-file/</link>
+      <link>https://engineering.incubyte.co/blog/should-you-commit-lock-file/</link>
       <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/should-you-commit-lock-file/</guid>
+      <guid>https://engineering.incubyte.co/blog/should-you-commit-lock-file/</guid>
       <description>In software development, dependency management is a critical aspect that directly impacts the stability and reproducibility of your projects.</description>
     </item>
     <item>
       <title>Pair Programming — How it works!</title>
-      <link>https://blog.incubyte.co/blog/pair-programming/</link>
+      <link>https://engineering.incubyte.co/blog/pair-programming/</link>
       <pubDate>Fri, 24 Sep 2021 05:06:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/pair-programming/</guid>
+      <guid>https://engineering.incubyte.co/blog/pair-programming/</guid>
       <description>Have you ever come across a bug that had complex logic, and was incredibly hard to fix?</description>
     </item>
     <item>
       <title>Ideas for Successful Agile Teams</title>
-      <link>https://blog.incubyte.co/blog/techniques-for-an-agile-team/</link>
+      <link>https://engineering.incubyte.co/blog/techniques-for-an-agile-team/</link>
       <pubDate>Thu, 19 Aug 2021 05:06:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/techniques-for-an-agile-team/</guid>
+      <guid>https://engineering.incubyte.co/blog/techniques-for-an-agile-team/</guid>
       <description>Agile is the most discussed software development methodology, and probably the most widely accepted as the way forward for modern software development teams.</description>
     </item>
   </channel>

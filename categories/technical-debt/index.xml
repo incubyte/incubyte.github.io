@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technical Debt on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/categories/technical-debt/</link>
+    <link>https://engineering.incubyte.co/categories/technical-debt/</link>
     <description>Recent content in Technical Debt on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Fri, 08 Sep 2023 00:10:46 +0530</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/categories/technical-debt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://engineering.incubyte.co/categories/technical-debt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Companies Become Stuck In Bad Coding Loops — And How To Escape Them</title>
-      <link>https://blog.incubyte.co/blog/escape-bad-coding-loop/</link>
+      <link>https://engineering.incubyte.co/blog/escape-bad-coding-loop/</link>
       <pubDate>Fri, 08 Sep 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/escape-bad-coding-loop/</guid>
+      <guid>https://engineering.incubyte.co/blog/escape-bad-coding-loop/</guid>
       <description>Originally published on Forbes Technology Council.&#xA;Imagine a multimillion-dollar company with a lot of software.</description>
     </item>
   </channel>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/tags/security/</link>
+    <link>https://engineering.incubyte.co/tags/security/</link>
     <description>Recent content in Security on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://engineering.incubyte.co/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Security Practices for Postgres Web Application</title>
-      <link>https://blog.incubyte.co/blog/data-security/</link>
+      <link>https://engineering.incubyte.co/blog/data-security/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/data-security/</guid>
+      <guid>https://engineering.incubyte.co/blog/data-security/</guid>
       <description>Data security is when protective measures are put in place to keep unauthorsized access out of computers, websites, and databases.</description>
     </item>
   </channel>

@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ruby on Rails on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/categories/ruby-on-rails/</link>
+    <link>https://engineering.incubyte.co/categories/ruby-on-rails/</link>
     <description>Recent content in Ruby on Rails on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Thu, 09 Nov 2023 18:20:29 +0530</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/categories/ruby-on-rails/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://engineering.incubyte.co/categories/ruby-on-rails/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using dup vs deep dup in Ruby on Rails</title>
-      <link>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</link>
+      <link>https://engineering.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</link>
       <pubDate>Thu, 09 Nov 2023 18:20:29 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</guid>
+      <guid>https://engineering.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</guid>
       <description>In Ruby on Rails, the .dup method is commonly used to create a duplicate of an object, allowing modifications without affecting the original.</description>
     </item>
     <item>
       <title>Rails RESTful API, Outside in TDD</title>
-      <link>https://blog.incubyte.co/blog/rails-restapi-tdd/</link>
+      <link>https://engineering.incubyte.co/blog/rails-restapi-tdd/</link>
       <pubDate>Sat, 02 Jul 2022 02:32:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/rails-restapi-tdd/</guid>
+      <guid>https://engineering.incubyte.co/blog/rails-restapi-tdd/</guid>
       <description>There is always a disciplined way to do things I was waiting for the coffee dispenser to finish filling up my cup and my mind started wandering.</description>
     </item>
   </channel>

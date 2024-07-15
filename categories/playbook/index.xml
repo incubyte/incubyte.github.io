@@ -2,109 +2,109 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Playbook on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/categories/playbook/</link>
+    <link>https://engineering.incubyte.co/categories/playbook/</link>
     <description>Recent content in Playbook on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Thu, 28 Dec 2023 17:48:58 +0530</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/categories/playbook/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://engineering.incubyte.co/categories/playbook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Standup Meeting Playbook</title>
-      <link>https://blog.incubyte.co/blog/standup/</link>
+      <link>https://engineering.incubyte.co/blog/standup/</link>
       <pubDate>Thu, 28 Dec 2023 17:48:58 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/standup/</guid>
+      <guid>https://engineering.incubyte.co/blog/standup/</guid>
       <description>The &amp;ldquo;Standup meeting&amp;rdquo; or &amp;ldquo;Daily Scrum&amp;rdquo; that everyone does religiously just for the sake of calling themselves &amp;ldquo;Agile.</description>
     </item>
     <item>
       <title>Chandrayaan 3 TDD Assessment</title>
-      <link>https://blog.incubyte.co/blog/chandrayaan-3-tdd-assessment/</link>
+      <link>https://engineering.incubyte.co/blog/chandrayaan-3-tdd-assessment/</link>
       <pubDate>Thu, 27 Jul 2023 20:04:38 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/chandrayaan-3-tdd-assessment/</guid>
+      <guid>https://engineering.incubyte.co/blog/chandrayaan-3-tdd-assessment/</guid>
       <description>Before you begin A Software Craftsperson at Incubyte is a person who has a strong commitment to the craft of software development.</description>
     </item>
     <item>
       <title>Angular Provider</title>
-      <link>https://blog.incubyte.co/blog/angular-provider/</link>
+      <link>https://engineering.incubyte.co/blog/angular-provider/</link>
       <pubDate>Mon, 10 Oct 2022 12:50:00 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/angular-provider/</guid>
+      <guid>https://engineering.incubyte.co/blog/angular-provider/</guid>
       <description>Angular Provider is like a command to Angular Dependency Injection system regarding how to get an object/instance for a particular dependency.</description>
     </item>
     <item>
       <title>Learnings From Terraform</title>
-      <link>https://blog.incubyte.co/blog/learnings-from-terraform/</link>
+      <link>https://engineering.incubyte.co/blog/learnings-from-terraform/</link>
       <pubDate>Wed, 28 Sep 2022 10:52:06 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/learnings-from-terraform/</guid>
+      <guid>https://engineering.incubyte.co/blog/learnings-from-terraform/</guid>
       <description>Preface Terraform is infrastructure as a code. I know it is a fancy word but here is the meaning.</description>
     </item>
     <item>
       <title>Learnings From Clean Code</title>
-      <link>https://blog.incubyte.co/blog/learnings-from-clean-code/</link>
+      <link>https://engineering.incubyte.co/blog/learnings-from-clean-code/</link>
       <pubDate>Fri, 29 Apr 2022 11:55:43 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/learnings-from-clean-code/</guid>
+      <guid>https://engineering.incubyte.co/blog/learnings-from-clean-code/</guid>
       <description>Learnings from Robert “Uncle Bob” Martin Robert Martin, fondly known as “Uncle Bob” in our community, is a software engineer and more famously an author and one of the founding fathers of Software Craftsmanship movement.</description>
     </item>
     <item>
       <title>Why Code Coverage Should Not Be Your Measure of Reliability</title>
-      <link>https://blog.incubyte.co/blog/code-coverage-and-reliability/</link>
+      <link>https://engineering.incubyte.co/blog/code-coverage-and-reliability/</link>
       <pubDate>Thu, 10 Feb 2022 22:58:11 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/code-coverage-and-reliability/</guid>
+      <guid>https://engineering.incubyte.co/blog/code-coverage-and-reliability/</guid>
       <description>What is code coverage? Code coverage is a measure (in percentage) of the degree to which the source code of a program is executed wh­en a particular test suite is run.</description>
     </item>
     <item>
       <title>Project Kickstart Checklist</title>
-      <link>https://blog.incubyte.co/blog/kickstart-checklist/</link>
+      <link>https://engineering.incubyte.co/blog/kickstart-checklist/</link>
       <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/kickstart-checklist/</guid>
+      <guid>https://engineering.incubyte.co/blog/kickstart-checklist/</guid>
       <description>The Checklist Manifesto by Atul Gawande, walks us through the benefits of the humble checklist.</description>
     </item>
     <item>
       <title>One Year Of Pandemic &amp; One Year Of Incubyte</title>
-      <link>https://blog.incubyte.co/blog/one-year-of-incubyte/</link>
+      <link>https://engineering.incubyte.co/blog/one-year-of-incubyte/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/one-year-of-incubyte/</guid>
+      <guid>https://engineering.incubyte.co/blog/one-year-of-incubyte/</guid>
       <description>It all started when— unbeknownst to the world, a series of lockdowns changed the way India Inc.</description>
     </item>
     <item>
       <title>Remote Onboarding &amp; Immersion at Incubyte</title>
-      <link>https://blog.incubyte.co/blog/remote-onboarding-and-immersion/</link>
+      <link>https://engineering.incubyte.co/blog/remote-onboarding-and-immersion/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/remote-onboarding-and-immersion/</guid>
+      <guid>https://engineering.incubyte.co/blog/remote-onboarding-and-immersion/</guid>
       <description>Employee onboarding is the important process of introducing newly hired employees to the organisation.</description>
     </item>
     <item>
       <title>Why Incubyte?</title>
-      <link>https://blog.incubyte.co/blog/why-incubyte/</link>
+      <link>https://engineering.incubyte.co/blog/why-incubyte/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/why-incubyte/</guid>
+      <guid>https://engineering.incubyte.co/blog/why-incubyte/</guid>
       <description>Quality is usually an implicit requirement when it comes to developing software.</description>
     </item>
     <item>
       <title>Working at Incubyte</title>
-      <link>https://blog.incubyte.co/blog/working-at-incubyte/</link>
+      <link>https://engineering.incubyte.co/blog/working-at-incubyte/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/working-at-incubyte/</guid>
+      <guid>https://engineering.incubyte.co/blog/working-at-incubyte/</guid>
       <description>At Incubyte we strongly believe in finding the right talent, helping them to unleash their maximum capacity, and then getting out of their way to let them do what they do best.</description>
     </item>
     <item>
       <title>Feedback &amp; Rapid Prototyping</title>
-      <link>https://blog.incubyte.co/blog/feedback/</link>
+      <link>https://engineering.incubyte.co/blog/feedback/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/feedback/</guid>
+      <guid>https://engineering.incubyte.co/blog/feedback/</guid>
       <description>&amp;ldquo;No fixed direction remains valid for long&amp;rdquo; - Extreme Programming Explained by Kent Beck</description>
     </item>
     <item>
       <title>Planning &amp; Communication</title>
-      <link>https://blog.incubyte.co/blog/planning/</link>
+      <link>https://engineering.incubyte.co/blog/planning/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/planning/</guid>
+      <guid>https://engineering.incubyte.co/blog/planning/</guid>
       <description>One of our primary process goals is to make frequent, small releases of our working software.</description>
     </item>
     <item>
       <title>Technology Platforms &amp; Business Economics</title>
-      <link>https://blog.incubyte.co/blog/technology-platforms-2/</link>
+      <link>https://engineering.incubyte.co/blog/technology-platforms-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/technology-platforms-2/</guid>
+      <guid>https://engineering.incubyte.co/blog/technology-platforms-2/</guid>
       <description>Early in a project, we have to decide which platforms we&amp;rsquo;ll use.</description>
     </item>
   </channel>

@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TDD on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/tags/tdd/</link>
+    <link>https://engineering.incubyte.co/tags/tdd/</link>
     <description>Recent content in TDD on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/tags/tdd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://engineering.incubyte.co/tags/tdd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Tale of TDD: A Journey Towards Reliable Software</title>
-      <link>https://blog.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/</link>
+      <link>https://engineering.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/</link>
       <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/</guid>
+      <guid>https://engineering.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/</guid>
       <description>Once upon a time, in the vast kingdom of Software Development, there was a growing need for structures that wouldn&amp;rsquo;t crumble under pressure.</description>
     </item>
     <item>
       <title>Testing With Java - Part 2 : TDD</title>
-      <link>https://blog.incubyte.co/blog/testing-with-java-tdd/</link>
+      <link>https://engineering.incubyte.co/blog/testing-with-java-tdd/</link>
       <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/testing-with-java-tdd/</guid>
+      <guid>https://engineering.incubyte.co/blog/testing-with-java-tdd/</guid>
       <description>In the annals of software development, there exists a cautionary tale from the year 1996, when the European Space Agency (ESA) launched its ambitious Ariane 5 rocket.</description>
     </item>
     <item>
       <title>Rails RESTful API, Outside in TDD</title>
-      <link>https://blog.incubyte.co/blog/rails-restapi-tdd/</link>
+      <link>https://engineering.incubyte.co/blog/rails-restapi-tdd/</link>
       <pubDate>Sat, 02 Jul 2022 02:32:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/rails-restapi-tdd/</guid>
+      <guid>https://engineering.incubyte.co/blog/rails-restapi-tdd/</guid>
       <description>There is always a disciplined way to do things I was waiting for the coffee dispenser to finish filling up my cup and my mind started wandering.</description>
     </item>
     <item>
       <title>Incubyte TDD Assessment</title>
-      <link>https://blog.incubyte.co/blog/tdd-assessment/</link>
+      <link>https://engineering.incubyte.co/blog/tdd-assessment/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/tdd-assessment/</guid>
+      <guid>https://engineering.incubyte.co/blog/tdd-assessment/</guid>
       <description>Hello there and welcome to the Incubyte TDD Kata!&#xA;This assessment is the first step in our recruiting process and will be followed by two pair programming/discussion sessions.</description>
     </item>
   </channel>

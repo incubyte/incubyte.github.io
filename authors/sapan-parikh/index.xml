@@ -2,193 +2,193 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sapan Parikh on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/authors/sapan-parikh/</link>
+    <link>https://engineering.incubyte.co/authors/sapan-parikh/</link>
     <description>Recent content in Sapan Parikh on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Thu, 05 Oct 2023 00:10:46 +0530</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/authors/sapan-parikh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://engineering.incubyte.co/authors/sapan-parikh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Software Modernization For Legacy Software</title>
-      <link>https://blog.incubyte.co/blog/software-modernization-for-legacy-software/</link>
+      <link>https://engineering.incubyte.co/blog/software-modernization-for-legacy-software/</link>
       <pubDate>Thu, 05 Oct 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/software-modernization-for-legacy-software/</guid>
+      <guid>https://engineering.incubyte.co/blog/software-modernization-for-legacy-software/</guid>
       <description>Originally published on Forbes Technology Council.&#xA;The term &amp;ldquo;modernization&amp;rdquo; holds diverse meanings for different organizations.</description>
     </item>
     <item>
       <title>Why Companies Become Stuck In Bad Coding Loops — And How To Escape Them</title>
-      <link>https://blog.incubyte.co/blog/escape-bad-coding-loop/</link>
+      <link>https://engineering.incubyte.co/blog/escape-bad-coding-loop/</link>
       <pubDate>Fri, 08 Sep 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/escape-bad-coding-loop/</guid>
+      <guid>https://engineering.incubyte.co/blog/escape-bad-coding-loop/</guid>
       <description>Originally published on Forbes Technology Council.&#xA;Imagine a multimillion-dollar company with a lot of software.</description>
     </item>
     <item>
       <title>Code Tidying: The Story of a Backseat Driver</title>
-      <link>https://blog.incubyte.co/blog/code-tidying/</link>
+      <link>https://engineering.incubyte.co/blog/code-tidying/</link>
       <pubDate>Fri, 18 Aug 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/code-tidying/</guid>
+      <guid>https://engineering.incubyte.co/blog/code-tidying/</guid>
       <description>Let&amp;rsquo;s embark on a thought experiment. Envision yourself as a driving virtuoso, conquering city streets with gear shifts smoother than a buttered dolphin on a rainbow.</description>
     </item>
     <item>
       <title>Modernizing a Legacy System: Build and Deployment</title>
-      <link>https://blog.incubyte.co/blog/build-deployment-case-study/</link>
+      <link>https://engineering.incubyte.co/blog/build-deployment-case-study/</link>
       <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/build-deployment-case-study/</guid>
+      <guid>https://engineering.incubyte.co/blog/build-deployment-case-study/</guid>
       <description>Streamlining Expense Tracking Process by Modernizing a Solution for a US-based Expense Management Solution Provider</description>
     </item>
     <item>
       <title>Four Lenses of Productivity: Incubyte&#39;s Take</title>
-      <link>https://blog.incubyte.co/blog/four-lenses-of-productivity/</link>
+      <link>https://engineering.incubyte.co/blog/four-lenses-of-productivity/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/four-lenses-of-productivity/</guid>
+      <guid>https://engineering.incubyte.co/blog/four-lenses-of-productivity/</guid>
       <description>This blog discusses different levels of productivity along with common pitfalls and different ways to optimize them.</description>
     </item>
     <item>
       <title>The Compounding Effect of Tidying Using CodeScene</title>
-      <link>https://blog.incubyte.co/blog/refactoring-to-tidying/</link>
+      <link>https://engineering.incubyte.co/blog/refactoring-to-tidying/</link>
       <pubDate>Fri, 21 Jul 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/refactoring-to-tidying/</guid>
+      <guid>https://engineering.incubyte.co/blog/refactoring-to-tidying/</guid>
       <description>It turns out that most of a developer&amp;rsquo;s tasks end up being tactical activities, such as adding a text box here, adding a checkbox there, fixing a bug, or working with an outage.</description>
     </item>
     <item>
       <title>Psychological Safety in Agile Teams</title>
-      <link>https://blog.incubyte.co/blog/psychological-safety/</link>
+      <link>https://engineering.incubyte.co/blog/psychological-safety/</link>
       <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/psychological-safety/</guid>
+      <guid>https://engineering.incubyte.co/blog/psychological-safety/</guid>
       <description>Think back to the first time your code was under review.</description>
     </item>
     <item>
       <title>Is there a more economical and efficient alternative to Salesforce?</title>
-      <link>https://blog.incubyte.co/blog/salesforce-vs-in-house-custom-development/</link>
+      <link>https://engineering.incubyte.co/blog/salesforce-vs-in-house-custom-development/</link>
       <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/salesforce-vs-in-house-custom-development/</guid>
+      <guid>https://engineering.incubyte.co/blog/salesforce-vs-in-house-custom-development/</guid>
       <description>Choosing a direction when redefining your organization&amp;rsquo;s technical backbone is never easy.</description>
     </item>
     <item>
       <title>Accelerate: Metrics that Define High-Performance Software Delivery</title>
-      <link>https://blog.incubyte.co/blog/accelerate-metrics/</link>
+      <link>https://engineering.incubyte.co/blog/accelerate-metrics/</link>
       <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/accelerate-metrics/</guid>
+      <guid>https://engineering.incubyte.co/blog/accelerate-metrics/</guid>
       <description>Accelerate by Nicole Forsgren, Jez Humble, and Gene Kim was released in 2018, and it changed how I think about software delivery.</description>
     </item>
     <item>
       <title>Clean Agile with Uncle Bob: A Summary</title>
-      <link>https://blog.incubyte.co/blog/clean-agile-with-uncle-bob-a-summary/</link>
+      <link>https://engineering.incubyte.co/blog/clean-agile-with-uncle-bob-a-summary/</link>
       <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/clean-agile-with-uncle-bob-a-summary/</guid>
+      <guid>https://engineering.incubyte.co/blog/clean-agile-with-uncle-bob-a-summary/</guid>
       <description>Clean Agile Summary Clean Agile is a book by Rober C.</description>
     </item>
     <item>
       <title>Are you sabotaging your organizational goals?</title>
-      <link>https://blog.incubyte.co/blog/simple-sabotage/</link>
+      <link>https://engineering.incubyte.co/blog/simple-sabotage/</link>
       <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/simple-sabotage/</guid>
+      <guid>https://engineering.incubyte.co/blog/simple-sabotage/</guid>
       <description>I recently came across Simple Sabotage Field Manual. What struck me was you do not need bombs and explosives to start sabotaging.</description>
     </item>
     <item>
       <title>Monnai: A Product Launch Journey</title>
-      <link>https://blog.incubyte.co/blog/monnai-case-study/</link>
+      <link>https://engineering.incubyte.co/blog/monnai-case-study/</link>
       <pubDate>Sat, 05 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/monnai-case-study/</guid>
+      <guid>https://engineering.incubyte.co/blog/monnai-case-study/</guid>
       <description>Reinventing Global Consumer Insights for Fintech</description>
     </item>
     <item>
       <title>Your daily productivity test</title>
-      <link>https://blog.incubyte.co/blog/your-daily-checklist/</link>
+      <link>https://engineering.incubyte.co/blog/your-daily-checklist/</link>
       <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/your-daily-checklist/</guid>
+      <guid>https://engineering.incubyte.co/blog/your-daily-checklist/</guid>
       <description>Are you a software developer? How can you be more effective on this journey of being a craftsperson?</description>
     </item>
     <item>
       <title>Project Kickstart Checklist</title>
-      <link>https://blog.incubyte.co/blog/kickstart-checklist/</link>
+      <link>https://engineering.incubyte.co/blog/kickstart-checklist/</link>
       <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/kickstart-checklist/</guid>
+      <guid>https://engineering.incubyte.co/blog/kickstart-checklist/</guid>
       <description>The Checklist Manifesto by Atul Gawande, walks us through the benefits of the humble checklist.</description>
     </item>
     <item>
       <title>Understanding Technical debt!</title>
-      <link>https://blog.incubyte.co/blog/tech-debt/</link>
+      <link>https://engineering.incubyte.co/blog/tech-debt/</link>
       <pubDate>Mon, 18 Oct 2021 05:06:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/tech-debt/</guid>
+      <guid>https://engineering.incubyte.co/blog/tech-debt/</guid>
       <description>The term &amp;ldquo;Technical Debt&amp;rdquo; was coined by Ward Cunningham (one of the authors of Agile Manifesto).</description>
     </item>
     <item>
       <title>Pair Programming — How it works!</title>
-      <link>https://blog.incubyte.co/blog/pair-programming/</link>
+      <link>https://engineering.incubyte.co/blog/pair-programming/</link>
       <pubDate>Fri, 24 Sep 2021 05:06:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/pair-programming/</guid>
+      <guid>https://engineering.incubyte.co/blog/pair-programming/</guid>
       <description>Have you ever come across a bug that had complex logic, and was incredibly hard to fix?</description>
     </item>
     <item>
       <title>12 Books Developers Must Read</title>
-      <link>https://blog.incubyte.co/blog/books-we-believe-should-be-on-your-bookshelf-and-read-them-too/</link>
+      <link>https://engineering.incubyte.co/blog/books-we-believe-should-be-on-your-bookshelf-and-read-them-too/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/books-we-believe-should-be-on-your-bookshelf-and-read-them-too/</guid>
+      <guid>https://engineering.incubyte.co/blog/books-we-believe-should-be-on-your-bookshelf-and-read-them-too/</guid>
       <description>Books are a massive source of knowledge. Before we list all the books here, we want to discuss why we think it&amp;rsquo;s essential for programmers to read them.</description>
     </item>
     <item>
       <title>Benefits and Challenges of Open-Source Development</title>
-      <link>https://blog.incubyte.co/blog/benefits-and-challenges-of-open-source-development/</link>
+      <link>https://engineering.incubyte.co/blog/benefits-and-challenges-of-open-source-development/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/benefits-and-challenges-of-open-source-development/</guid>
+      <guid>https://engineering.incubyte.co/blog/benefits-and-challenges-of-open-source-development/</guid>
       <description>Open-source software (OSS) is the holy grail for developers. It is a hub of innovation through intense collaboration in this era of agile software development.</description>
     </item>
     <item>
       <title>Do not assume that technical debt is a problem with your code</title>
-      <link>https://blog.incubyte.co/blog/do-not-assume-that-technical-debt-is-a-problem-with-your-code/</link>
+      <link>https://engineering.incubyte.co/blog/do-not-assume-that-technical-debt-is-a-problem-with-your-code/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/do-not-assume-that-technical-debt-is-a-problem-with-your-code/</guid>
+      <guid>https://engineering.incubyte.co/blog/do-not-assume-that-technical-debt-is-a-problem-with-your-code/</guid>
       <description>Ever saw SonarQube laden with thousands of maintainability and security issues?</description>
     </item>
     <item>
       <title>Not All Tests are the Same</title>
-      <link>https://blog.incubyte.co/blog/notalltestsarethesame/</link>
+      <link>https://engineering.incubyte.co/blog/notalltestsarethesame/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/notalltestsarethesame/</guid>
+      <guid>https://engineering.incubyte.co/blog/notalltestsarethesame/</guid>
       <description>On multiple occasions, I have worked on projects where I learned how critical testing is and that not all tests are the same.</description>
     </item>
     <item>
       <title>Do not Release Code Without Automated Tests</title>
-      <link>https://blog.incubyte.co/blog/do-not-release-code-without-automated-tests/</link>
+      <link>https://engineering.incubyte.co/blog/do-not-release-code-without-automated-tests/</link>
       <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/do-not-release-code-without-automated-tests/</guid>
+      <guid>https://engineering.incubyte.co/blog/do-not-release-code-without-automated-tests/</guid>
       <description>Most projects that I see facing serious problems lack tests. You should write tests for two things</description>
     </item>
     <item>
       <title>Do not Get so busy that you stop learning</title>
-      <link>https://blog.incubyte.co/blog/do-not-get-so-busy-that-you-stop-learning/</link>
+      <link>https://engineering.incubyte.co/blog/do-not-get-so-busy-that-you-stop-learning/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/do-not-get-so-busy-that-you-stop-learning/</guid>
+      <guid>https://engineering.incubyte.co/blog/do-not-get-so-busy-that-you-stop-learning/</guid>
       <description>Learning is the most vital part of a software developer&amp;rsquo;s life.</description>
     </item>
     <item>
       <title>Do not Optimize Prematurely</title>
-      <link>https://blog.incubyte.co/blog/do-not-optimize-prematurely/</link>
+      <link>https://engineering.incubyte.co/blog/do-not-optimize-prematurely/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/do-not-optimize-prematurely/</guid>
+      <guid>https://engineering.incubyte.co/blog/do-not-optimize-prematurely/</guid>
       <description>Once again, you would think that the software development community has moved past this point, but I still get many teammates who want to &amp;ldquo;save memory&amp;rdquo; using HashMaps instead of POJOs.</description>
     </item>
     <item>
       <title>Do not Show Separate Estimate for Unit Testing</title>
-      <link>https://blog.incubyte.co/blog/do-not-show-separate-estimate-for-testing/</link>
+      <link>https://engineering.incubyte.co/blog/do-not-show-separate-estimate-for-testing/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/do-not-show-separate-estimate-for-testing/</guid>
+      <guid>https://engineering.incubyte.co/blog/do-not-show-separate-estimate-for-testing/</guid>
       <description>Once I was asked in an interview (I was the interviewer!</description>
     </item>
     <item>
       <title>Do not Copy and paste code to minimize the impact:</title>
-      <link>https://blog.incubyte.co/blog/do-not-copy-and-paste-code/</link>
+      <link>https://engineering.incubyte.co/blog/do-not-copy-and-paste-code/</link>
       <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/do-not-copy-and-paste-code/</guid>
+      <guid>https://engineering.incubyte.co/blog/do-not-copy-and-paste-code/</guid>
       <description>Have you ever seen code in your module, which was so complex that you decided to copy and paste it entirely rather than changing it to accommodate your requirement?</description>
     </item>
     <item>
       <title>Do not Fall for faux agile</title>
-      <link>https://blog.incubyte.co/blog/do-not-fall-for-faux-agile/</link>
+      <link>https://engineering.incubyte.co/blog/do-not-fall-for-faux-agile/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/do-not-fall-for-faux-agile/</guid>
+      <guid>https://engineering.incubyte.co/blog/do-not-fall-for-faux-agile/</guid>
       <description>Enough ink is already spilled on this topic, nevertheless talking about it once again may not hurt.</description>
     </item>
   </channel>

@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abhishek Keshri on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/authors/abhishek-keshri/</link>
+    <link>https://engineering.incubyte.co/authors/abhishek-keshri/</link>
     <description>Recent content in Abhishek Keshri on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Wed, 03 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/authors/abhishek-keshri/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://engineering.incubyte.co/authors/abhishek-keshri/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Global Mental Healthcare Solution Provider Makes Accessibility a Competitive Advantage</title>
-      <link>https://blog.incubyte.co/blog/accessibility-case-study/</link>
+      <link>https://engineering.incubyte.co/blog/accessibility-case-study/</link>
       <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/accessibility-case-study/</guid>
+      <guid>https://engineering.incubyte.co/blog/accessibility-case-study/</guid>
       <description>From Exclusion to Expansion: Making Mental Healthcare Accessible</description>
     </item>
     <item>
       <title>How to Think Like an Architect</title>
-      <link>https://blog.incubyte.co/blog/think-like-architect/</link>
+      <link>https://engineering.incubyte.co/blog/think-like-architect/</link>
       <pubDate>Wed, 28 Jun 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/think-like-architect/</guid>
+      <guid>https://engineering.incubyte.co/blog/think-like-architect/</guid>
       <description>Have you ever wondered what skills it takes to be a software architect?</description>
     </item>
     <item>
       <title>Prompt Engineering 101</title>
-      <link>https://blog.incubyte.co/blog/prompt-engg/</link>
+      <link>https://engineering.incubyte.co/blog/prompt-engg/</link>
       <pubDate>Fri, 23 Jun 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/prompt-engg/</guid>
+      <guid>https://engineering.incubyte.co/blog/prompt-engg/</guid>
       <description>Are you feeling lost in the new world of AI tools and Prompt Engineering?</description>
     </item>
     <item>
       <title>Incubyte Enables Global Healthcare Platform to Expand to 52&#43; Countries</title>
-      <link>https://blog.incubyte.co/blog/global-case-study/</link>
+      <link>https://engineering.incubyte.co/blog/global-case-study/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/global-case-study/</guid>
+      <guid>https://engineering.incubyte.co/blog/global-case-study/</guid>
       <description>Making Mental Healthcare Accessible and Providing a Personalized Customer Experience</description>
     </item>
     <item>
       <title>Five Git Tricks To Make Crafting Software Easier</title>
-      <link>https://blog.incubyte.co/blog/five-git-tricks/</link>
+      <link>https://engineering.incubyte.co/blog/five-git-tricks/</link>
       <pubDate>Tue, 14 Jun 2022 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/five-git-tricks/</guid>
+      <guid>https://engineering.incubyte.co/blog/five-git-tricks/</guid>
       <description>Git is the most widely used version control system in the world and it is something that every Software Craftsperson should master.</description>
     </item>
     <item>
       <title>Incubyte DevOps Assessment</title>
-      <link>https://blog.incubyte.co/blog/devops-assessment/</link>
+      <link>https://engineering.incubyte.co/blog/devops-assessment/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/devops-assessment/</guid>
+      <guid>https://engineering.incubyte.co/blog/devops-assessment/</guid>
       <description>Hello there, Welcome to the Incubyte DevOps Assessment!&#xA;Through this assessment, we want to evaluate how well you can work with CI/CD tools across the board.</description>
     </item>
     <item>
       <title>Incubyte TDD Assessment</title>
-      <link>https://blog.incubyte.co/blog/tdd-assessment/</link>
+      <link>https://engineering.incubyte.co/blog/tdd-assessment/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/tdd-assessment/</guid>
+      <guid>https://engineering.incubyte.co/blog/tdd-assessment/</guid>
       <description>Hello there and welcome to the Incubyte TDD Kata!&#xA;This assessment is the first step in our recruiting process and will be followed by two pair programming/discussion sessions.</description>
     </item>
   </channel>

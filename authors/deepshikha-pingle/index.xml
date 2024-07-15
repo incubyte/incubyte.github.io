@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deepshikha Pingle on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/authors/deepshikha-pingle/</link>
+    <link>https://engineering.incubyte.co/authors/deepshikha-pingle/</link>
     <description>Recent content in Deepshikha Pingle on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/authors/deepshikha-pingle/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://engineering.incubyte.co/authors/deepshikha-pingle/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Incubyte Enables Global Healthcare Platform to Expand to 52&#43; Countries</title>
-      <link>https://blog.incubyte.co/blog/global-case-study/</link>
+      <link>https://engineering.incubyte.co/blog/global-case-study/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/global-case-study/</guid>
+      <guid>https://engineering.incubyte.co/blog/global-case-study/</guid>
       <description>Making Mental Healthcare Accessible and Providing a Personalized Customer Experience</description>
     </item>
   </channel>
