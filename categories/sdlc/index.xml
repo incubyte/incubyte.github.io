@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SDLC on Incubyte Blog</title>
-    <link>https://engineering.incubyte.co/categories/sdlc/</link>
+    <link>https://blog.incubyte.co/categories/sdlc/</link>
     <description>Recent content in SDLC on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Fri, 24 Sep 2021 05:06:00 +0000</lastBuildDate>
-    <atom:link href="https://engineering.incubyte.co/categories/sdlc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.incubyte.co/categories/sdlc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pair Programming — How it works!</title>
-      <link>https://engineering.incubyte.co/blog/pair-programming/</link>
+      <link>https://blog.incubyte.co/blog/pair-programming/</link>
       <pubDate>Fri, 24 Sep 2021 05:06:00 +0000</pubDate>
-      <guid>https://engineering.incubyte.co/blog/pair-programming/</guid>
+      <guid>https://blog.incubyte.co/blog/pair-programming/</guid>
       <description>Have you ever come across a bug that had complex logic, and was incredibly hard to fix?</description>
     </item>
     <item>
       <title>Ideas for Successful Agile Teams</title>
-      <link>https://engineering.incubyte.co/blog/techniques-for-an-agile-team/</link>
+      <link>https://blog.incubyte.co/blog/techniques-for-an-agile-team/</link>
       <pubDate>Thu, 19 Aug 2021 05:06:00 +0000</pubDate>
-      <guid>https://engineering.incubyte.co/blog/techniques-for-an-agile-team/</guid>
+      <guid>https://blog.incubyte.co/blog/techniques-for-an-agile-team/</guid>
       <description>Agile is the most discussed software development methodology, and probably the most widely accepted as the way forward for modern software development teams.</description>
     </item>
   </channel>

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Incubyte Blog</title>
-    <link>https://engineering.incubyte.co/search/</link>
+    <link>https://blog.incubyte.co/search/</link>
     <description>Recent content on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
-    <atom:link href="https://engineering.incubyte.co/search/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.incubyte.co/search/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
