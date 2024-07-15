@@ -1,65 +1,36 @@
-<footer class="bg-custom section pb-0">
+<footer class="bg-custom section py-3">
   <div class="container">
-      <div class="d-flex flex-column flex-sm-row justify-content-between">
-        <div class="mb-5">
-          <a class="d-block h3 mb-3" href="{{ site.BaseURL | absLangURL}}">
-            {{ with site.Params.logo}}
-            <img width="{{site.Params.logo_width}}" class="img-fluid" src="{{ . | relURL }}" alt="{{ site.Title }}">
-            {{ else }}{{site.Title}}{{end}}
-          </a>
-          {{ with site.Params.social }}
-          <ul class="list-inline pl-2 pb-4">
-            {{ range . }}
-            <li class="list-inline-item"><a href="{{ .link | safeURL }}" title="{{ .title }}"><i class="{{ .icon }} mr-1 ml-1"></i></a></li>
+    <div class="d-flex flex-lg-row flex-column justify-content-between align-items-lg-start align-items-center mb-4 mt-0 footer-top">
+        <div class="logo-container">
+            <a class="d-block h3" href="{{ site.BaseURL | absLangURL}}">
+                {{ with site.Params.logo_alt }}
+                <img class="img-fluid" src="{{ . | relURL }}" alt="{{ site.Title }}">
+                {{ end }}
+            </a>
+        </div>
+        <div class="d-flex flex-md-row flex-column align-items-center align-items-sm-start footer-top-links">
+            {{ range site.Menus.footer_top }}
+                <ul class="py-1"><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></ul>
             {{ end }}
-          </ul>
-          {{ end }}
         </div>
-  
-        <div class="mb-5 d-none d-lg-block">
-          {{ if site.Menus.footer_left}}
-          <div><u>{{ site.Params.footer_menu_left }}</u></div>
-          <div class="d-flex">
-            <ul class="list-unstyled footer-list mr-5">
-              {{ range site.Menus.footer_left }}
-              <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
-              {{ end }}
-            </ul>
-            <ul class="list-unstyled footer-list">
-              {{ range site.Menus.footer_middle }}
-              <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
-              {{ end }}
-            </ul>
-          </div>
-          {{ end }}
-        </div>
-        <div class="mb-5">
-          {{ if site.Menus.footer_right }}
-          <div><u>{{ site.Params.footer_menu_right }}</u></div>
-          <ul class="list-unstyled footer-list">
-            <!-- {{ range site.Menus.footer_right }}
-            <li><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></li>
-            {{ end }} -->
-            <li>
-              <h4>REACH US</h4>
-              <a href="mailto:hello@incubyte.co">hello@incubyte.co</a>
-            </li>
-            <li>
-              <h4>WORK WITH US</h4>
-              <a href="mailto:careers@incubyte.co">careers@incubyte.co</a>
-            </li>
-            <li>
-              <a href="tel:+91-9512342973">+91 95123 42973</a> </small>
-              <a href="tel:+1-6068871782">+1 606-887-1782</a> </small>
-            </li>
-          </ul>
-          {{ end }}
+        <div class="d-flex align-items-center socials">
+            {{ range site.Params.social }}
+                <li class="list-inline-item py-2"><a href="{{ .link | safeURL }}" title="{{ .title }}"><i class="{{ .icon }} mr-1 ml-1"></i></a></li>
+            {{ end }}
         </div>
     </div>
-    <div class="border-top border-default text-center py-4 mt-4">
-      <small class="d-flex flex-column flex-sm-row justify-content-between align-items-center mb-1">
-        <p>905 Swati Clover, Thaltej, Ahmedabad - 380054</p>
-      <small class="content">{{ site.Params.Copyright | markdownify }}</small>
+
+    <div class="border-top border-default py-3 footer-bottom">
+        <div class="d-flex flex-lg-row justify-content-between flex-column align-items-center">
+            <div class="content copyright">
+                {{ site.Copyright | markdownify }}
+            </div>
+            <div class="d-flex align-items-center footer-bottom-links">
+                {{ range site.Menus.footer_bottom }}
+                    <ul class="py-2"><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></ul>
+                {{ end }}
+            </div>
+        </div>
     </div>
   </div>
   <!-- Microsoft Clarity -->
