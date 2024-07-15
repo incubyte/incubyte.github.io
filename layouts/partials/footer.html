@@ -1,9 +1,9 @@
-<footer class="bg-custom section pb-0">
+<footer class="bg-custom section pb-6">
   <div class="container">
     <div class="d-flex flex-column flex-sm-row justify-content-between mb-4">
         <div class="d-flex align-items-center">
             <a class="d-block h3" href="{{ site.BaseURL | absLangURL}}">
-                {{ with site.Params.logo }}
+                {{ with site.Params.logo_alt }}
                 <img width="{{site.Params.logo_width}}" class="img-fluid" src="{{ . | relURL }}" alt="{{ site.Title }}">
                 {{ end }}
             </a>
