@@ -40,7 +40,7 @@ High technical debt makes simple changes difficult to implement, taking a toll o
 
 Many businesses are oblivious to the existence of tech debt, and they continue to endure the immense costs associated with having it – simply because that's how they have always done things!
 
-That said, having some technical debt isn't always a bad thing either. If developers spend all their time perfecting code, nothing will ever get released! [Not all technical debt is the same](https://engineering.incubyte.co/blog/do-not-assume-that-technical-debt-is-a-problem-with-your-code/) and development teams must always weigh the benefits of solving it vs. the cost of keeping it. "Software Design X-Rays" by Adam Tornhill is an excellent book on this subject.
+That said, having some technical debt isn't always a bad thing either. If developers spend all their time perfecting code, nothing will ever get released! [Not all technical debt is the same](https://blog.incubyte.co/blog/do-not-assume-that-technical-debt-is-a-problem-with-your-code/) and development teams must always weigh the benefits of solving it vs. the cost of keeping it. "Software Design X-Rays" by Adam Tornhill is an excellent book on this subject.
 
 ## Cost of Technical Debt
 

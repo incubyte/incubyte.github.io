@@ -50,5 +50,5 @@ link = "https://www.github.com/incubyte"
 [[social]]
 title = "RSS Feed"
 icon = "fas fa-rss" # themify icon : https://themify.me/themify-icons
-link = "https://feedly.com/i/subscription/feed/https://engineering.incubyte.co/rss/"
+link = "https://feedly.com/i/subscription/feed/https://blog.incubyte.co/rss/"
 

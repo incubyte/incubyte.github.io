@@ -49,7 +49,7 @@ Often, you may take shortcuts while coding, note them down, revisit the notes, c
 ### 7. Did I commit and push something?
 
 Now you have created the new shiny feature with the cleanest possible code, the Monalisa! Were you able to commit and push it?
-Understandably, you can't push something every day. But as developers, we must strive to create stories so small that we can do commits and push every day. These practices will promote frequent releases, smaller changes, and lower risks. Of course, all of this works well if you have looked into our [project kickoff checklist.](https://engineering.incubyte.co/blog/kickstart-checklist/)
+Understandably, you can't push something every day. But as developers, we must strive to create stories so small that we can do commits and push every day. These practices will promote frequent releases, smaller changes, and lower risks. Of course, all of this works well if you have looked into our [project kickoff checklist.](https://blog.incubyte.co/blog/kickstart-checklist/)
 
 ### 8. Did I create a diagram?
 
