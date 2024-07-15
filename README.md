@@ -1,6 +1,6 @@
-# [incubyte.github.io](https://engineering.incubyte.co)
+# [incubyte.github.io](https://blog.incubyte.co)
 
-[Our blog! ✍🏼](https://engineering.incubyte.co/)
+[Our blog! ✍🏼](https://blog.incubyte.co/)
 
 ## Contributing
 
