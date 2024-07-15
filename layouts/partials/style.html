@@ -89,6 +89,12 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
     padding: 8px 50px;
   }
 
+  @media (max-width: 356px) {
+    .nav-search-form {
+      margin-left: 0 !important;
+    }
+  }
+
   @media (max-width: 991px) {
     .navigation-bar {
       padding: 8px 20px;
