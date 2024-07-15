@@ -329,8 +329,11 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
     filter: invert(1) hue-rotate(180deg);
   }
 
-  body.dark-theme a.post-title,
-  .card-text {
+  body.dark-theme a.post-title {
+    color: #fff;
+  }
+
+  body.dark-theme .card-text {
     color: #fff;
   }
 
