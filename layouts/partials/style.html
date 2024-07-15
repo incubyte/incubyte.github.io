@@ -308,7 +308,7 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
     --dark-charcoal-background: #333333;
     --dark-pagination-color: #555555;
     --link-color: #32a1d4;
-    --app-primary: #5cc5d5;
+    --app-primary: #24908e;
   }
 
   body.dark-theme {
@@ -319,7 +319,8 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
     filter: invert(1) hue-rotate(180deg);
   }
 
-  body.dark-theme a.post-title {
+  body.dark-theme a.post-title,
+  .card-text {
     color: #fff;
   }
 
