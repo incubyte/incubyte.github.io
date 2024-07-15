@@ -1,33 +1,33 @@
-<footer class="bg-custom section pb-3">
+<footer class="bg-custom section py-3">
   <div class="container">
-    <div class="d-flex flex-column flex-sm-row justify-content-between mb-4 mt-0">
-        <div class="d-flex align-items-center">
+    <div class="d-flex flex-lg-row flex-column justify-content-between align-items-lg-start align-items-center mb-4 mt-0 footer-top">
+        <div class="logo-container">
             <a class="d-block h3" href="{{ site.BaseURL | absLangURL}}">
                 {{ with site.Params.logo_alt }}
-                <img width="{{site.Params.logo_width}}" class="img-fluid" src="{{ . | relURL }}" alt="{{ site.Title }}">
+                <img class="img-fluid" src="{{ . | relURL }}" alt="{{ site.Title }}">
                 {{ end }}
             </a>
         </div>
-        <div class="d-flex align-items-center footer-top">
+        <div class="d-flex flex-md-row flex-column align-items-center align-items-sm-start footer-top-links">
             {{ range site.Menus.footer_top }}
-                <ul><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></ul>
+                <ul class="py-1"><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></ul>
             {{ end }}
         </div>
         <div class="d-flex align-items-center socials">
             {{ range site.Params.social }}
-                <li class="list-inline-item"><a href="{{ .link | safeURL }}" title="{{ .title }}"><i class="{{ .icon }} mr-1 ml-1"></i></a></li>
+                <li class="list-inline-item py-2"><a href="{{ .link | safeURL }}" title="{{ .title }}"><i class="{{ .icon }} mr-1 ml-1"></i></a></li>
             {{ end }}
         </div>
     </div>
 
-    <div class="border-top border-default py-3">
-        <div class="d-flex justify-content-between align-items-center">
-            <div class="content">
+    <div class="border-top border-default py-3 footer-bottom">
+        <div class="d-flex flex-lg-row justify-content-between flex-column align-items-center">
+            <div class="content copyright">
                 {{ site.Copyright | markdownify }}
             </div>
-            <div class="d-flex align-items-center footer-top">
+            <div class="d-flex align-items-center footer-bottom-links">
                 {{ range site.Menus.footer_bottom }}
-                    <ul><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></ul>
+                    <ul class="py-2"><a href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a></ul>
                 {{ end }}
             </div>
         </div>
