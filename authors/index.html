@@ -171,6 +171,12 @@
     padding: 8px 50px;
   }
 
+  @media (max-width: 356px) {
+    .nav-search-form {
+      margin-left: 0 !important;
+    }
+  }
+
   @media (max-width: 991px) {
     .navigation-bar {
       padding: 8px 20px;
@@ -405,8 +411,11 @@
     filter: invert(1) hue-rotate(180deg);
   }
 
-  body.dark-theme a.post-title,
-  .card-text {
+  body.dark-theme a.post-title {
+    color: #fff;
+  }
+
+  body.dark-theme .card-text {
     color: #fff;
   }
 
@@ -507,8 +516,8 @@
   
   <div class="">
     
-    <nav class="navbar navbar-expand navbar-light bg-transparent">
-      <a class="navbar-brand" href="https://www.incubyte.co/">
+    <nav class="navbar navbar-expand navbar-light bg-transparent p-0 px-sm-2 py-sm-3">
+      <a class="navbar-brand d-none d-sm-block" href="https://www.incubyte.co/">
         
         <img
           width="130px"
@@ -918,15 +927,9 @@
                 </article>
             </div>
             
-            <div class="col-12 pagination">
-                
-    <ul class="pagination pagination-default">
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
-      </li>
+            <div class="col-12 pagination px-0">
+              
+    <ul class="pagination pagination-terse">
       <li class="page-item active">
         <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
       </li>

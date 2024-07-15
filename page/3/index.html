@@ -199,6 +199,12 @@
     padding: 8px 50px;
   }
 
+  @media (max-width: 356px) {
+    .nav-search-form {
+      margin-left: 0 !important;
+    }
+  }
+
   @media (max-width: 991px) {
     .navigation-bar {
       padding: 8px 20px;
@@ -433,8 +439,11 @@
     filter: invert(1) hue-rotate(180deg);
   }
 
-  body.dark-theme a.post-title,
-  .card-text {
+  body.dark-theme a.post-title {
+    color: #fff;
+  }
+
+  body.dark-theme .card-text {
     color: #fff;
   }
 
@@ -535,8 +544,8 @@
   
   <div class="">
     
-    <nav class="navbar navbar-expand navbar-light bg-transparent">
-      <a class="navbar-brand" href="https://www.incubyte.co/">
+    <nav class="navbar navbar-expand navbar-light bg-transparent p-0 px-sm-2 py-sm-3">
+      <a class="navbar-brand d-none d-sm-block" href="https://www.incubyte.co/">
         
         <img
           width="130px"
@@ -1127,17 +1136,14 @@ This assessment is the first step in our recruiting process and will be followed
                 </article>
             </div>
             
-            <div class="col-12 pagination">
-                
-    <ul class="pagination pagination-default">
+            <div class="col-12 pagination px-0">
+              
+    <ul class="pagination pagination-terse">
       <li class="page-item">
         <a href="/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
       </li>
       <li class="page-item">
         <a href="/page/2/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/" aria-label="Page 1" class="page-link" role="button">1</a>
       </li>
       <li class="page-item">
         <a href="/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
