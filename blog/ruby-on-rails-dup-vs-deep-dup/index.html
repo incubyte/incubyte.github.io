@@ -221,9 +221,16 @@
     .navigation-bar {
       padding: 8px 20px;
     }
+  }
 
-    footer .d-flex.flex-column.flex-sm-row {
-      flex-direction: column;
+  @media (max-width: 760px) {
+    .footer-top-links ul {
+      padding: 0;
+    }
+
+    .pagination {
+      max-width: 100%;
+      transform: scale(0.9);
     }
   }
 
@@ -396,17 +403,6 @@
     letter-spacing: 1px;
   }
 
-  @media (max-width: 760px) {
-    .footer-top-links ul {
-      padding: 0;
-    }
-
-    .pagination {
-      max-width: 100%;
-      transform: scale(0.9);
-    }
-  }
-
   .badge {
     letter-spacing: 1px;
     margin-top: 0.25rem;
@@ -438,7 +434,6 @@
     --dark-body-background: #222222;
     --extra-dark-background: #111111;
     --dark-charcoal-background: #333333;
-    --dark-footer-color: #fff;
     --dark-pagination-color: #555555;
     --link-color: #32a1d4;
     --app-primary: #5cc5d5;
@@ -448,19 +443,6 @@
     background: var(--dark-body-background);
   }
 
-  body.dark-theme footer {
-    background: var(--dark-charcoal-background);
-  }
-
-  body.dark-theme footer,
-  body.dark-theme footer p,
-  body.dark-theme footer u,
-  body.dark-theme footer i,
-  body.dark-theme footer a {
-    color: var(--dark-footer-color) !important;
-  }
-
-  body.dark-theme footer img,
   body.dark-theme .navbar-brand img {
     filter: invert(1) hue-rotate(180deg);
   }
