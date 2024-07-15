@@ -59,8 +59,8 @@
                 </article>
             </div>
             {{ end }}
-            <div class="col-12 pagination">
-                {{ template "_internal/pagination.html" . }}
+            <div class="col-12 pagination px-0">
+              {{ template "_internal/pagination.html" (dict "page" . "format" "terse") }}
             </div>
         </div>
     </div>
