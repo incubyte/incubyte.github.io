@@ -148,4 +148,4 @@ The Ariane 5 disaster stands as a poignant reminder of the devastating consequen
 
 As software development continues to evolve, embracing TDD can provide developers with a solid foundation for building robust and dependable software systems. By investing time and effort in testing early and consistently, let’s embark on this journey to shape a future of exceptional software craftsmanship with less risks, enhanced code quality and reliable software solutions to meet user expectations, empowered by the magic of Test-Driven Development.
 
-**Read the previous part of the series on [Introduction to Testing](https://blog.incubyte.co/blog/testing-with-java-intro/)**
+**Read the previous part of the series on [Introduction to Testing](https://engineering.incubyte.co/blog/testing-with-java-intro/)**
