@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://blog.incubyte.co/"
+baseURL = "https://engineering.incubyte.co/"
 title = "Incubyte Blog"
 theme = "bigspring"
 # post pagination
