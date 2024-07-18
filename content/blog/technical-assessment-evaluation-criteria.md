@@ -12,7 +12,7 @@ title = "How We Hire Software Craftspeople"
 
 Incubyte is a combined effort of its team. Working here entails bringing your knowledge, curiosity and authenticity to the table. Our recruiting process plays a vital role here, and it is carefully designed to identify the right people whose technical prowess, culture and mindset, all align with that of the company.
 
-We deeply care about our core values ([Why Incubyte](https://engineering.incubyte.co/blog/why-incubyte/)) and strive toward making our workplace a nurturing, diverse and inclusive environment. There exists a culture of constant learning and feedback enabling an equal opportunity for everyone to thrive professionally and be the best version of themselves they can be.
+We deeply care about our core values ([Why Incubyte](https://blog.incubyte.co/blog/why-incubyte/)) and strive toward making our workplace a nurturing, diverse and inclusive environment. There exists a culture of constant learning and feedback enabling an equal opportunity for everyone to thrive professionally and be the best version of themselves they can be.
 
 A typical interview process at Incubyte involves 5 stages:
 
@@ -65,7 +65,7 @@ We do not expect everyone to be proficient at all of the above, but knowing abou
 
 ### Non-technical
 
-Attitude, effective communication, the ability to accept and deliver feedback, how well you use your IDE (read-shortcuts), the ability to work collaboratively as a team, and a consultant mindset to name a few, are some qualities we look for in a future team member. A common thread that binds every single person at Incubyte is the passion to keep learning. We learn -> apply -> learn again -> apply once more towards the goal of achieving professional mastery. We believe that each individual owns their own career and is a lifelong learner. Here is a curated a blog on books we recommended to this effect: ([here](https://engineering.incubyte.co/blog/books-we-believe-should-be-on-your-bookshelf-and-read-them-too/))
+Attitude, effective communication, the ability to accept and deliver feedback, how well you use your IDE (read-shortcuts), the ability to work collaboratively as a team, and a consultant mindset to name a few, are some qualities we look for in a future team member. A common thread that binds every single person at Incubyte is the passion to keep learning. We learn -> apply -> learn again -> apply once more towards the goal of achieving professional mastery. We believe that each individual owns their own career and is a lifelong learner. Here is a curated a blog on books we recommended to this effect: ([here](https://blog.incubyte.co/blog/books-we-believe-should-be-on-your-bookshelf-and-read-them-too/))
 
 Life cannot be all work. Read your favourite books, write blogs, help with documents on GitHub, contribute to OSS or give back to the community, you will be provided with endless amounts of encouragement for wherever your passion lies.
 
