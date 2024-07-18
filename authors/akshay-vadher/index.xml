@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Akshay Vadher on Incubyte Blog</title>
-    <link>https://engineering.incubyte.co/authors/akshay-vadher/</link>
+    <link>https://blog.incubyte.co/authors/akshay-vadher/</link>
     <description>Recent content in Akshay Vadher on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Thu, 06 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://engineering.incubyte.co/authors/akshay-vadher/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.incubyte.co/authors/akshay-vadher/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Which Unique Identifier is right for you?</title>
-      <link>https://engineering.incubyte.co/blog/which-unique-identifier-is-right-for-you/</link>
+      <link>https://blog.incubyte.co/blog/which-unique-identifier-is-right-for-you/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://engineering.incubyte.co/blog/which-unique-identifier-is-right-for-you/</guid>
+      <guid>https://blog.incubyte.co/blog/which-unique-identifier-is-right-for-you/</guid>
       <description>When was the last time you considered unique identifiers (IDs) for your projects?</description>
     </item>
     <item>
       <title>Essential Guide to Tech Migration: Why and How to Migrate from AngularJS to Angular</title>
-      <link>https://engineering.incubyte.co/blog/migrating-angularjs-to-angular/</link>
+      <link>https://blog.incubyte.co/blog/migrating-angularjs-to-angular/</link>
       <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://engineering.incubyte.co/blog/migrating-angularjs-to-angular/</guid>
+      <guid>https://blog.incubyte.co/blog/migrating-angularjs-to-angular/</guid>
       <description>For countless applications built with AngularJS, a critical decision looms: migrate to Angular or risk stagnation.</description>
     </item>
     <item>
       <title>Standup Meeting Playbook</title>
-      <link>https://engineering.incubyte.co/blog/standup/</link>
+      <link>https://blog.incubyte.co/blog/standup/</link>
       <pubDate>Thu, 28 Dec 2023 17:48:58 +0530</pubDate>
-      <guid>https://engineering.incubyte.co/blog/standup/</guid>
+      <guid>https://blog.incubyte.co/blog/standup/</guid>
       <description>The &amp;ldquo;Standup meeting&amp;rdquo; or &amp;ldquo;Daily Scrum&amp;rdquo; that everyone does religiously just for the sake of calling themselves &amp;ldquo;Agile.</description>
     </item>
     <item>
       <title>The Importance of Committing Lock Files in Dependency Management</title>
-      <link>https://engineering.incubyte.co/blog/should-you-commit-lock-file/</link>
+      <link>https://blog.incubyte.co/blog/should-you-commit-lock-file/</link>
       <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
-      <guid>https://engineering.incubyte.co/blog/should-you-commit-lock-file/</guid>
+      <guid>https://blog.incubyte.co/blog/should-you-commit-lock-file/</guid>
       <description>In software development, dependency management is a critical aspect that directly impacts the stability and reproducibility of your projects.</description>
     </item>
     <item>
       <title>Learnings From Terraform</title>
-      <link>https://engineering.incubyte.co/blog/learnings-from-terraform/</link>
+      <link>https://blog.incubyte.co/blog/learnings-from-terraform/</link>
       <pubDate>Wed, 28 Sep 2022 10:52:06 +0530</pubDate>
-      <guid>https://engineering.incubyte.co/blog/learnings-from-terraform/</guid>
+      <guid>https://blog.incubyte.co/blog/learnings-from-terraform/</guid>
       <description>Preface Terraform is infrastructure as a code. I know it is a fancy word but here is the meaning.</description>
     </item>
     <item>
       <title>Why Code Coverage Should Not Be Your Measure of Reliability</title>
-      <link>https://engineering.incubyte.co/blog/code-coverage-and-reliability/</link>
+      <link>https://blog.incubyte.co/blog/code-coverage-and-reliability/</link>
       <pubDate>Thu, 10 Feb 2022 22:58:11 +0530</pubDate>
-      <guid>https://engineering.incubyte.co/blog/code-coverage-and-reliability/</guid>
+      <guid>https://blog.incubyte.co/blog/code-coverage-and-reliability/</guid>
       <description>What is code coverage? Code coverage is a measure (in percentage) of the degree to which the source code of a program is executed wh­en a particular test suite is run.</description>
     </item>
   </channel>

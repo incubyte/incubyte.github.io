@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Refactoring on Incubyte Blog</title>
-    <link>https://engineering.incubyte.co/categories/refactoring/</link>
+    <link>https://blog.incubyte.co/categories/refactoring/</link>
     <description>Recent content in Refactoring on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Fri, 18 Aug 2023 00:10:46 +0530</lastBuildDate>
-    <atom:link href="https://engineering.incubyte.co/categories/refactoring/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.incubyte.co/categories/refactoring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code Tidying: The Story of a Backseat Driver</title>
-      <link>https://engineering.incubyte.co/blog/code-tidying/</link>
+      <link>https://blog.incubyte.co/blog/code-tidying/</link>
       <pubDate>Fri, 18 Aug 2023 00:10:46 +0530</pubDate>
-      <guid>https://engineering.incubyte.co/blog/code-tidying/</guid>
+      <guid>https://blog.incubyte.co/blog/code-tidying/</guid>
       <description>Let&amp;rsquo;s embark on a thought experiment. Envision yourself as a driving virtuoso, conquering city streets with gear shifts smoother than a buttered dolphin on a rainbow.</description>
     </item>
     <item>
       <title>The Compounding Effect of Tidying Using CodeScene</title>
-      <link>https://engineering.incubyte.co/blog/refactoring-to-tidying/</link>
+      <link>https://blog.incubyte.co/blog/refactoring-to-tidying/</link>
       <pubDate>Fri, 21 Jul 2023 00:10:46 +0530</pubDate>
-      <guid>https://engineering.incubyte.co/blog/refactoring-to-tidying/</guid>
+      <guid>https://blog.incubyte.co/blog/refactoring-to-tidying/</guid>
       <description>It turns out that most of a developer&amp;rsquo;s tasks end up being tactical activities, such as adding a text box here, adding a checkbox there, fixing a bug, or working with an outage.</description>
     </item>
   </channel>

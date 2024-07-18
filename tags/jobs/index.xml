@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jobs on Incubyte Blog</title>
-    <link>https://engineering.incubyte.co/tags/jobs/</link>
+    <link>https://blog.incubyte.co/tags/jobs/</link>
     <description>Recent content in Jobs on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://engineering.incubyte.co/tags/jobs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.incubyte.co/tags/jobs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Remote Onboarding &amp; Immersion at Incubyte</title>
-      <link>https://engineering.incubyte.co/blog/remote-onboarding-and-immersion/</link>
+      <link>https://blog.incubyte.co/blog/remote-onboarding-and-immersion/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://engineering.incubyte.co/blog/remote-onboarding-and-immersion/</guid>
+      <guid>https://blog.incubyte.co/blog/remote-onboarding-and-immersion/</guid>
       <description>Employee onboarding is the important process of introducing newly hired employees to the organisation.</description>
     </item>
   </channel>
