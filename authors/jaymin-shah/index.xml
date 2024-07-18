@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jaymin Shah on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/authors/jaymin-shah/</link>
+    <link>https://engineering.incubyte.co/authors/jaymin-shah/</link>
     <description>Recent content in Jaymin Shah on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Fri, 29 Apr 2022 11:55:43 +0530</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/authors/jaymin-shah/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://engineering.incubyte.co/authors/jaymin-shah/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learnings From Clean Code</title>
-      <link>https://blog.incubyte.co/blog/learnings-from-clean-code/</link>
+      <link>https://engineering.incubyte.co/blog/learnings-from-clean-code/</link>
       <pubDate>Fri, 29 Apr 2022 11:55:43 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/learnings-from-clean-code/</guid>
+      <guid>https://engineering.incubyte.co/blog/learnings-from-clean-code/</guid>
       <description>Learnings from Robert “Uncle Bob” Martin Robert Martin, fondly known as “Uncle Bob” in our community, is a software engineer and more famously an author and one of the founding fathers of Software Craftsmanship movement.</description>
     </item>
   </channel>

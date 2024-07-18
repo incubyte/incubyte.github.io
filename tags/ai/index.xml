@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/tags/ai/</link>
+    <link>https://engineering.incubyte.co/tags/ai/</link>
     <description>Recent content in AI on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Fri, 23 Jun 2023 00:10:46 +0530</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://engineering.incubyte.co/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prompt Engineering 101</title>
-      <link>https://blog.incubyte.co/blog/prompt-engg/</link>
+      <link>https://engineering.incubyte.co/blog/prompt-engg/</link>
       <pubDate>Fri, 23 Jun 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/prompt-engg/</guid>
+      <guid>https://engineering.incubyte.co/blog/prompt-engg/</guid>
       <description>Are you feeling lost in the new world of AI tools and Prompt Engineering?</description>
     </item>
   </channel>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terraform on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/categories/terraform/</link>
+    <link>https://engineering.incubyte.co/categories/terraform/</link>
     <description>Recent content in Terraform on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Wed, 28 Sep 2022 10:52:06 +0530</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/categories/terraform/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://engineering.incubyte.co/categories/terraform/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learnings From Terraform</title>
-      <link>https://blog.incubyte.co/blog/learnings-from-terraform/</link>
+      <link>https://engineering.incubyte.co/blog/learnings-from-terraform/</link>
       <pubDate>Wed, 28 Sep 2022 10:52:06 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/learnings-from-terraform/</guid>
+      <guid>https://engineering.incubyte.co/blog/learnings-from-terraform/</guid>
       <description>Preface Terraform is infrastructure as a code. I know it is a fancy word but here is the meaning.</description>
     </item>
   </channel>

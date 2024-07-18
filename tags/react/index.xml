@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>React on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/tags/react/</link>
+    <link>https://engineering.incubyte.co/tags/react/</link>
     <description>Recent content in React on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Tue, 07 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://engineering.incubyte.co/tags/react/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Firebase Cloud Functions: Exporting Firestore Data to Excel in React Apps</title>
-      <link>https://blog.incubyte.co/blog/using-firebase-cloud-functions/</link>
+      <link>https://engineering.incubyte.co/blog/using-firebase-cloud-functions/</link>
       <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/using-firebase-cloud-functions/</guid>
+      <guid>https://engineering.incubyte.co/blog/using-firebase-cloud-functions/</guid>
       <description>One day, one of my team members gave me a challenge: we needed a way to download our admin data as Excel files for better reporting.</description>
     </item>
   </channel>
