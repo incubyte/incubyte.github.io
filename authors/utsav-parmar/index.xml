@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Utsav Parmar on Incubyte Blog</title>
-    <link>https://engineering.incubyte.co/authors/utsav-parmar/</link>
+    <link>https://blog.incubyte.co/authors/utsav-parmar/</link>
     <description>Recent content in Utsav Parmar on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://engineering.incubyte.co/authors/utsav-parmar/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.incubyte.co/authors/utsav-parmar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Enigma of Ruby Boolean (or the lack thereof)</title>
-      <link>https://engineering.incubyte.co/blog/ruby-boolean/</link>
+      <link>https://blog.incubyte.co/blog/ruby-boolean/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://engineering.incubyte.co/blog/ruby-boolean/</guid>
+      <guid>https://blog.incubyte.co/blog/ruby-boolean/</guid>
       <description>Imagine this: You wake up half-asleep to discover Darth Vader in a rage.</description>
     </item>
     <item>
       <title>Incubyte Enables Global Healthcare Platform to Expand to 52&#43; Countries</title>
-      <link>https://engineering.incubyte.co/blog/global-case-study/</link>
+      <link>https://blog.incubyte.co/blog/global-case-study/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://engineering.incubyte.co/blog/global-case-study/</guid>
+      <guid>https://blog.incubyte.co/blog/global-case-study/</guid>
       <description>Making Mental Healthcare Accessible and Providing a Personalized Customer Experience</description>
     </item>
     <item>
       <title>How to contribute to open-source project: A beginner&#39;s guide</title>
-      <link>https://engineering.incubyte.co/blog/how-to-contribute-to-open-source-project-a-beginners-guide/</link>
+      <link>https://blog.incubyte.co/blog/how-to-contribute-to-open-source-project-a-beginners-guide/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://engineering.incubyte.co/blog/how-to-contribute-to-open-source-project-a-beginners-guide/</guid>
+      <guid>https://blog.incubyte.co/blog/how-to-contribute-to-open-source-project-a-beginners-guide/</guid>
       <description>Are you a first-time contributor? Are you wondering how to start contributing to OSS?</description>
     </item>
   </channel>

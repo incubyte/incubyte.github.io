@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ajinkya Rathod on Incubyte Blog</title>
-    <link>https://engineering.incubyte.co/authors/ajinkya-rathod/</link>
+    <link>https://blog.incubyte.co/authors/ajinkya-rathod/</link>
     <description>Recent content in Ajinkya Rathod on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Thu, 27 Jul 2023 20:04:38 +0530</lastBuildDate>
-    <atom:link href="https://engineering.incubyte.co/authors/ajinkya-rathod/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.incubyte.co/authors/ajinkya-rathod/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chandrayaan 3 TDD Assessment</title>
-      <link>https://engineering.incubyte.co/blog/chandrayaan-3-tdd-assessment/</link>
+      <link>https://blog.incubyte.co/blog/chandrayaan-3-tdd-assessment/</link>
       <pubDate>Thu, 27 Jul 2023 20:04:38 +0530</pubDate>
-      <guid>https://engineering.incubyte.co/blog/chandrayaan-3-tdd-assessment/</guid>
+      <guid>https://blog.incubyte.co/blog/chandrayaan-3-tdd-assessment/</guid>
       <description>Before you begin A Software Craftsperson at Incubyte is a person who has a strong commitment to the craft of software development.</description>
     </item>
   </channel>

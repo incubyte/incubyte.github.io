@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pair Programming on Incubyte Blog</title>
-    <link>https://engineering.incubyte.co/tags/pair-programming/</link>
+    <link>https://blog.incubyte.co/tags/pair-programming/</link>
     <description>Recent content in Pair Programming on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
     <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://engineering.incubyte.co/tags/pair-programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.incubyte.co/tags/pair-programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pair Programming: Rethinking the Role of PR Reviews</title>
-      <link>https://engineering.incubyte.co/blog/pair-programming-rethinking-the-role-of-pr-reviews/</link>
+      <link>https://blog.incubyte.co/blog/pair-programming-rethinking-the-role-of-pr-reviews/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://engineering.incubyte.co/blog/pair-programming-rethinking-the-role-of-pr-reviews/</guid>
+      <guid>https://blog.incubyte.co/blog/pair-programming-rethinking-the-role-of-pr-reviews/</guid>
       <description>Pair programming is a collaborative approach where two developers work together at a single workstation, continuously reviewing each other’s code.</description>
     </item>
   </channel>
