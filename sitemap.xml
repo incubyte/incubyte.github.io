@@ -140,33 +140,6 @@
     <loc>https://blog.incubyte.co/blog/standup/</loc>
     <lastmod>2023-12-28T17:48:58+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/authors/aditya-sapate/</loc>
-    <lastmod>2023-12-04T15:43:57+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/blog/introduction-to-systems-thinking/</loc>
-    <lastmod>2023-12-04T15:43:57+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/systems-thinking/</loc>
-    <lastmod>2023-12-04T15:43:57+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/blog/cypress-guide/</loc>
-    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/automation/</loc>
-    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/automation/</loc>
-    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/authors/pranita-aitwadkar/</loc>
-    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/testing/</loc>
-    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/testing/</loc>
-    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/authors/bhavesh-choudhary/</loc>
     <lastmod>2023-11-09T18:20:29+05:30</lastmod>
   </url><url>
@@ -368,6 +341,12 @@
     <loc>https://blog.incubyte.co/authors/waqar-shaikh/</loc>
     <lastmod>2022-10-10T12:50:00+05:30</lastmod>
   </url><url>
+    <loc>https://blog.incubyte.co/tags/automation/</loc>
+    <lastmod>2022-09-28T10:52:06+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/automation/</loc>
+    <lastmod>2022-09-28T10:52:06+05:30</lastmod>
+  </url><url>
     <loc>https://blog.incubyte.co/tags/infrastructure/</loc>
     <lastmod>2022-09-28T10:52:06+05:30</lastmod>
   </url><url>
@@ -461,18 +440,6 @@
     <loc>https://blog.incubyte.co/blog/kickstart-checklist/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/sdlc/</loc>
-    <lastmod>2021-10-18T05:06:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/blog/tech-debt/</loc>
-    <lastmod>2021-10-18T05:06:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/blog/pair-programming/</loc>
-    <lastmod>2021-09-24T05:06:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/sdlc/</loc>
-    <lastmod>2021-09-24T05:06:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/blog/tdd-assessment/</loc>
     <lastmod>2021-09-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -480,6 +447,12 @@
     <lastmod>2021-08-19T05:06:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/rupali-pardeshi/</loc>
+    <lastmod>2021-08-19T05:06:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/sdlc/</loc>
+    <lastmod>2021-08-19T05:06:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/sdlc/</loc>
     <lastmod>2021-08-19T05:06:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/one-year-of-incubyte/</loc>
@@ -557,9 +530,6 @@
     <loc>https://blog.incubyte.co/blog/data-security/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/blog/working-at-incubyte/</loc>
-    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/blog/do-not-copy-and-paste-code/</loc>
     <lastmod>2020-08-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -573,6 +543,8 @@
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/search/</loc>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/pranita-aitwadkar/</loc>
   </url><url>
     <loc>https://blog.incubyte.co/blog/technology-platforms-2/</loc>
   </url>

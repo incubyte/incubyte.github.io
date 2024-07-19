@@ -31,13 +31,6 @@
       <description>The &amp;ldquo;Standup meeting&amp;rdquo; or &amp;ldquo;Daily Scrum&amp;rdquo; that everyone does religiously just for the sake of calling themselves &amp;ldquo;Agile.</description>
     </item>
     <item>
-      <title>Introduction to Systems Thinking and Escaping Common System Traps</title>
-      <link>https://blog.incubyte.co/blog/introduction-to-systems-thinking/</link>
-      <pubDate>Mon, 04 Dec 2023 15:43:57 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/introduction-to-systems-thinking/</guid>
-      <description>There is no right or wrong answer in architecture - only trade offs.</description>
-    </item>
-    <item>
       <title>Using dup vs deep dup in Ruby on Rails</title>
       <link>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</link>
       <pubDate>Thu, 09 Nov 2023 18:20:29 +0530</pubDate>
@@ -169,13 +162,6 @@
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/devops-assessment/</guid>
       <description>Hello there, Welcome to the Incubyte DevOps Assessment!&#xA;Through this assessment, we want to evaluate how well you can work with CI/CD tools across the board.</description>
-    </item>
-    <item>
-      <title>Pair Programming — How it works!</title>
-      <link>https://blog.incubyte.co/blog/pair-programming/</link>
-      <pubDate>Fri, 24 Sep 2021 05:06:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/pair-programming/</guid>
-      <description>Have you ever come across a bug that had complex logic, and was incredibly hard to fix?</description>
     </item>
     <item>
       <title>Incubyte TDD Assessment</title>

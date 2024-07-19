@@ -73,20 +73,6 @@
       <description>The &amp;ldquo;Standup meeting&amp;rdquo; or &amp;ldquo;Daily Scrum&amp;rdquo; that everyone does religiously just for the sake of calling themselves &amp;ldquo;Agile.</description>
     </item>
     <item>
-      <title>Introduction to Systems Thinking and Escaping Common System Traps</title>
-      <link>https://blog.incubyte.co/blog/introduction-to-systems-thinking/</link>
-      <pubDate>Mon, 04 Dec 2023 15:43:57 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/introduction-to-systems-thinking/</guid>
-      <description>There is no right or wrong answer in architecture - only trade offs.</description>
-    </item>
-    <item>
-      <title>A Comprehensive Guide To Web Testing with Cypress</title>
-      <link>https://blog.incubyte.co/blog/cypress-guide/</link>
-      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/cypress-guide/</guid>
-      <description>In the fast-paced world of web development, ensuring the quality of your applications is paramount.</description>
-    </item>
-    <item>
       <title>Using dup vs deep dup in Ruby on Rails</title>
       <link>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</link>
       <pubDate>Thu, 09 Nov 2023 18:20:29 +0530</pubDate>
@@ -332,20 +318,6 @@
       <description>The Checklist Manifesto by Atul Gawande, walks us through the benefits of the humble checklist.</description>
     </item>
     <item>
-      <title>Understanding Technical debt!</title>
-      <link>https://blog.incubyte.co/blog/tech-debt/</link>
-      <pubDate>Mon, 18 Oct 2021 05:06:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/tech-debt/</guid>
-      <description>The term &amp;ldquo;Technical Debt&amp;rdquo; was coined by Ward Cunningham (one of the authors of Agile Manifesto).</description>
-    </item>
-    <item>
-      <title>Pair Programming — How it works!</title>
-      <link>https://blog.incubyte.co/blog/pair-programming/</link>
-      <pubDate>Fri, 24 Sep 2021 05:06:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/pair-programming/</guid>
-      <description>Have you ever come across a bug that had complex logic, and was incredibly hard to fix?</description>
-    </item>
-    <item>
       <title>Incubyte TDD Assessment</title>
       <link>https://blog.incubyte.co/blog/tdd-assessment/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
@@ -456,13 +428,6 @@
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/data-security/</guid>
       <description>Data security is when protective measures are put in place to keep unauthorsized access out of computers, websites, and databases.</description>
-    </item>
-    <item>
-      <title>Working at Incubyte</title>
-      <link>https://blog.incubyte.co/blog/working-at-incubyte/</link>
-      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/working-at-incubyte/</guid>
-      <description>At Incubyte we strongly believe in finding the right talent, helping them to unleash their maximum capacity, and then getting out of their way to let them do what they do best.</description>
     </item>
     <item>
       <title>Do not Copy and paste code to minimize the impact:</title>

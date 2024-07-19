@@ -108,27 +108,6 @@
       <description></description>
     </item>
     <item>
-      <title>Systems Thinking</title>
-      <link>https://blog.incubyte.co/tags/systems-thinking/</link>
-      <pubDate>Mon, 04 Dec 2023 15:43:57 +0530</pubDate>
-      <guid>https://blog.incubyte.co/tags/systems-thinking/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Automation</title>
-      <link>https://blog.incubyte.co/tags/automation/</link>
-      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/tags/automation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Testing</title>
-      <link>https://blog.incubyte.co/tags/testing/</link>
-      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/tags/testing/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Deep Dup</title>
       <link>https://blog.incubyte.co/tags/deep-dup/</link>
       <pubDate>Thu, 09 Nov 2023 18:20:29 +0530</pubDate>
@@ -248,6 +227,13 @@
       <description></description>
     </item>
     <item>
+      <title>Automation</title>
+      <link>https://blog.incubyte.co/tags/automation/</link>
+      <pubDate>Wed, 28 Sep 2022 10:52:06 +0530</pubDate>
+      <guid>https://blog.incubyte.co/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Infrastructure</title>
       <link>https://blog.incubyte.co/tags/infrastructure/</link>
       <pubDate>Wed, 28 Sep 2022 10:52:06 +0530</pubDate>
@@ -320,7 +306,7 @@
     <item>
       <title>SDLC</title>
       <link>https://blog.incubyte.co/tags/sdlc/</link>
-      <pubDate>Mon, 18 Oct 2021 05:06:00 +0000</pubDate>
+      <pubDate>Thu, 19 Aug 2021 05:06:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/tags/sdlc/</guid>
       <description></description>
     </item>

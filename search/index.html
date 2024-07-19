@@ -1153,105 +1153,6 @@
           "url": "https://blog.incubyte.co/blog/standup/"
       },
       
-      "https:\/\/blog.incubyte.co\/authors\/aditya-sapate\/": {
-          "title": "Aditya Sapate",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "December 4, 2023",
-          "url": "https://blog.incubyte.co/authors/aditya-sapate/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/blog\/introduction-to-systems-thinking\/": {
-          "title": "Introduction to Systems Thinking and Escaping Common System Traps",
-          "tags": ["Systems Thinking","Software Craftsmanship",],
-          "authors":["Aditya Sapate",],
-          "summary":"There is no right or wrong answer in architecture - only trade offs.",
-          "content":" There is no right or wrong answer in architecture - only trade offs.\n\u0026mdash;Fundamentals of Software Architecture By Mark Richards, Neal Ford. Everything in software architecture is a trade-off, so the famous answer to every decision is “It depends”. It depends on the engineering practices and processes, the organization\u0026rsquo;s culture, business drivers, the developer\u0026rsquo;s skill sets and many other factors.\nIt is important to understand these systems to make the most effective interventions. How? With Systems Thinking.\nTL;DR Systems Thinking is a discipline for recognizing patterns and interrelationships in complex systems and finding more effective ways to influence those interrelationships.\nIt helps understand the structure of systems and identify problem-generating structures. In this blog, we explore the Policy Resistance archetype, where actors within a system resist rules or policies imposed on them.\nTo overcome this trap, leverage points such as improving information flow, changing rules and authority, increasing self-organization, changing goals and purpose, and shifting paradigms can be applied.\nWhat is Systems Thinking? Systems Thinking is a discipline for seeing wholes, recognizing patterns and interrelationships, and learning how to influence those interrelationships in more effective, efficient ways.\nSystems Thinkers see the world of variables (quantifiable elements) and feedback loops: regulating mechanisms which drain, increase or balance these variables.\nA causal loop diagram of coffee cup cooling, where a balancing loop is trying to bring the discrepancy between coffee’s temperature and room temperature to zero. A causal loop diagram of Interest bearing bank account, where a reinforcing loop is in place which enables the growth of the money in the bank account as a constant fraction of itself. With the help of causal loop diagrams, we can map out the structure of these systems and identify what is keeping the system functional and archetypes, which are the problem-generating structures in the systems.\nIn this blog, we will explore a common archetype in a system and pinpoint strategic points for intervention within the system.\nPolicy Resistance archetype In a multinational enterprise\nFor consistency, the enterprise architect has issued a standard to use DDD for all development. The development team is slow in adopting, complaining that this is a bottleneck that reduces delivery speed. The architect tries to fix it with. Automated compliance checking. Spend more time on architecture review. Ask everyone to follow design specifications. This is a common system trap called “Policy Resistance” occurs when the actors within the system “resist” the rules or laws imposed on them. The goals of the policy do not align with the goals of the actors.\nTo achieve the desired consistency, the architect has introduced a policy to allocate more time to architecture reviews. However, developers are not pleased with this policy because it is adversely affecting delivery speed. In this system, when architects introduce new policies aimed at ensuring consistency and they prove to be effective, it tends to divert developers from their primary goal of speedy delivery. The way out of the Policy resistance trap by using leverage points Improve information flow: Communicate the mission; provide education on DDD. Change the rule and authority: Relax standards to focus on interoperability, introduce optional guidelines, and change the review process to consultation. Increase self-organization: Create a community of practice where individuals from development teams can provide input to standards and guidelines. Change goals and purpose: Elevate the purpose from “consistency” to goals that help development teams: delivery speed. Shift the paradigm: Redefine the development team’s perception of architecture. Where to apply Systems Thinking? Not everywhere! Issues that won’t go away Issues that get worse the more you try to fix them “Paradigm shifting” changes in technology or approach Key Takeaway By identifying patterns and problem-generating structures, we can strategically intervene and make more effective changes. It is a valuable approach for addressing persistent issues and driving paradigm-shifting changes in technology or approach.\nFollow the below resources to learn more about Systems Thinking Thinking in Systems by Donella H. Meadows Leverage Points Keynote: Systems Thinking — Kent Beck \u0026amp; Jessica Kerr ",
-          "image":"/images/2023/introduction-to-systems-thinking/banner.jpg",
-          "date": "December 4, 2023",
-          "url": "https://blog.incubyte.co/blog/introduction-to-systems-thinking/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/systems-thinking\/": {
-          "title": "Systems Thinking",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "December 4, 2023",
-          "url": "https://blog.incubyte.co/tags/systems-thinking/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/blog\/cypress-guide\/": {
-          "title": "A Comprehensive Guide To Web Testing with Cypress",
-          "tags": ["Testing","Automation",],
-          "authors":["Pranita Aitwadkar",],
-          "summary":"In the fast-paced world of web development, ensuring the quality of your applications is paramount.",
-          "content":"In the fast-paced world of web development, ensuring the quality of your applications is paramount. One powerful tool that has gained significant popularity in recent years is Cypress. Cypress is an end-to-end testing framework that empowers developers and QA engineers to write reliable, efficient, and maintainable tests. In this blog, we will explore the ins and outs of Cypress and discover how it can revolutionize your web testing workflow.\nWhat is Cypress? Cypress is an automation testing tool for web applications. It runs on Windows, Linux and macOS. Cypress app is open-source software released under the MIT License while the Cypress Cloud is a web application.\nInstallation and Setup Instructions Prerequisites: Ensure that you have Node.js installed on your machine. You can download and install it from the Node.js website.\nCreating a new project Create a new directory for your project and navigate to it in your terminal or command prompt.\nmkdir -p cypress-starter cd cypress-starter Initializing npm Run the following command to initialize a new npm project.\nnpm init -y Installing Cypress Run the following command to install Cypress as a development dependency in your project.\nnpm install cypress --save-dev Verifying installation After the installation is complete, Cypress should be available in your project\u0026rsquo;s node_modules directory. You can verify it by running the following Cypress command.\nnpx cypress --version Opening Cypress To open the Cypress Test Runner, run the below command.\nnpx cypress open This will open the Cypress Test Runner, which provides an interactive interface for managing and running your tests.\nCreating Your First Cypress Test With the Cypress Test Runner open, you\u0026rsquo;ll see a list of example tests provided by Cypress. You can choose to keep them or remove them.\nTo create a new test, click on the \u0026ldquo;New File\u0026rdquo; button in the Cypress Test Runner. By default, the test files are created in the cypress/e2e directory.\nIn your new test file, you can write your first Cypress test using the Cypress API.\nHere\u0026rsquo;s a simple example that tests the title of a web page.\ndescribe(\u0026#39;My First Test\u0026#39;, () =\u0026gt; { it(\u0026#39;Visits the homepage and checks the title\u0026#39;, () =\u0026gt; { cy.visit(\u0026#39;https://example.com\u0026#39;); cy.title().should(\u0026#39;contain\u0026#39;, \u0026#39;Example Domain\u0026#39;); }); }); Save the test file with a .cy.js extension. For instance, you can save it as homepage.cy.js.\nIn the Cypress Test Runner, click on your test file to run it. You should see a browser window open and the test being executed. You can see the test commands and assertions in the Cypress Test Runner\u0026rsquo;s command log.\nFeature of Cypress Time Travel Cypress has an interesting feature called time-travel debugging. Basically, it allows you to watch your tests run step by step, pause whenever you want, and check out what\u0026rsquo;s happening in the application at that moment.\nIt\u0026rsquo;s like having a slow-motion button for your tests!\nAutomatic Waiting and Retrying Cypress automatically waits for things to finish before moving on to the next step in your test.\nWhat\u0026rsquo;s great about this is that it\u0026rsquo;s really smart! If a command or assertion takes longer than expected, Cypress will keep retrying it until it succeeds or until it reaches a timeout.\nSo you don\u0026rsquo;t have to worry about writing explicit waits or adding delays in your tests.\nScreenshots and Video Recording Cypress offers a convenient feature that captures screenshots and records videos as your tests run. This proves incredibly useful for visually diagnosing any failures that may occur during the test.\nHeadless and Interactive Modes Cypress gives you the freedom to run tests in different modes: headless mode and interactive mode.Running your tests in headless mode can speed up the testing process and allow you to run tests in environments.Cypress runs tests interactively, allowing you to see commands as they execute while also viewing the Application or Component Under Test, and exploring its DOM.\nCustomization and Extensibility The plugin architecture feature in Cypress operates like a toolbox, enabling you to customize and expand Cypress\u0026rsquo;s capabilities to meet your specific needs. With this plugin architecture, you can create your own custom commands.\nDOM Manipulation and Control Cypress simplifies working with the Document Object Model (DOM) directly. The DOM serves as the blueprint of a webpage, and Cypress empowers you to interact with it effortlessly. By using selectors, you can pinpoint specific elements on the page, just like using a super-smart search tool that precisely locates what you\u0026rsquo;re seeking.\nCross Browser Testing Cypress makes it easy to run tests with Firefox, Chrome, Edge \u0026amp; Electron.\nDebugging With Cypress, when a test fails, you can simply open the developer tools \u0026amp; explore the console, network, request \u0026amp; other useful information.\nConclusion Cypress is undoubtedly a game-changer in the world of web testing, providing developers and QA engineers with a powerful and intuitive toolset. With its extensive features, straightforward syntax, and seamless integration with modern development workflows, Cypress is a valuable asset for any web testing endeavor.\nBy following the best practices outlined in this guide, you\u0026rsquo;ll be equipped to leverage Cypress to its fullest potential, delivering high-quality web applications with confidence.\nGet ready to elevate your web testing game with Cypress!\nFor more details, check out the official Cypress Docs.\n",
-          "image":"/images/2023/cypress-guide/header-image.jpg",
-          "date": "November 14, 2023",
-          "url": "https://blog.incubyte.co/blog/cypress-guide/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/automation\/": {
-          "title": "Automation",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "November 14, 2023",
-          "url": "https://blog.incubyte.co/tags/automation/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/automation\/": {
-          "title": "Automation",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "November 14, 2023",
-          "url": "https://blog.incubyte.co/categories/automation/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/authors\/pranita-aitwadkar\/": {
-          "title": "Pranita Aitwadkar",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image":"/images/favicon.png",
-          "date": "November 14, 2023",
-          "url": "https://blog.incubyte.co/authors/pranita-aitwadkar/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/testing\/": {
-          "title": "Testing",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "November 14, 2023",
-          "url": "https://blog.incubyte.co/tags/testing/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/testing\/": {
-          "title": "Testing",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "November 14, 2023",
-          "url": "https://blog.incubyte.co/categories/testing/"
-      },
-      
       "https:\/\/blog.incubyte.co\/authors\/bhavesh-choudhary\/": {
           "title": "Bhavesh Choudhary",
           "tags": [],
@@ -1989,6 +1890,28 @@
           "url": "https://blog.incubyte.co/authors/waqar-shaikh/"
       },
       
+      "https:\/\/blog.incubyte.co\/tags\/automation\/": {
+          "title": "Automation",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "September 28, 2022",
+          "url": "https://blog.incubyte.co/tags/automation/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/automation\/": {
+          "title": "Automation",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "September 28, 2022",
+          "url": "https://blog.incubyte.co/categories/automation/"
+      },
+      
       "https:\/\/blog.incubyte.co\/tags\/infrastructure\/": {
           "title": "Infrastructure",
           "tags": [],
@@ -2330,50 +2253,6 @@
           "url": "https://blog.incubyte.co/blog/kickstart-checklist/"
       },
       
-      "https:\/\/blog.incubyte.co\/tags\/sdlc\/": {
-          "title": "SDLC",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "October 18, 2021",
-          "url": "https://blog.incubyte.co/tags/sdlc/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/blog\/tech-debt\/": {
-          "title": "Understanding Technical debt!",
-          "tags": ["Software Craftsmanship","Best Practices","SDLC",],
-          "authors":["Sapan Parikh",],
-          "summary":"The term \u0026ldquo;Technical Debt\u0026rdquo; was coined by Ward Cunningham (one of the authors of Agile Manifesto).",
-          "content":"The term \u0026ldquo;Technical Debt\u0026rdquo; was coined by Ward Cunningham (one of the authors of Agile Manifesto). He found financial debt to be the perfect analogy to what is widely known as Tech debt. As software evolves, so does its complexity. Updating existing code versus implementing new features is often a tradeoff and there are many battles to be fought when it comes to spending time on the former. The Technical Debt concept is an effective way to communicate about the need for refactoring and improvement tasks related to the source code and its architecture. This blog looks deeper into understanding this.\nWhat is Technical Debt? Technical debt in programming reflects the extra development effort needed to maintain a codebase. It is debt in the true sense of the word – something that will have to be paid off eventually or the bearer faces consequences.\nIt typically arises when short cuts are taken instead of implementing the best overall solution. As technical debt accrues in a project, it tends to increase estimates for new work items and bug fixes. This is the debt manifesting in terms of time to ship new features, extra effort involved, opportunity cost of the time spent and reduced developer morale.\nAs Eisenhower once said, \u0026ldquo;I have two kinds of tasks, important and urgent. Ones which are urgent are not important and ones which are important are not urgent.\u0026rdquo;\nUrgent Not urgent Important Work on a new feature requirement Rearchitect some of the modules Create new regulatory features Refactor heavily changed files Fix security issues Decouple features Not Important Buying conference tickets Meeting with no agenda Mark some emails \u0026ldquo;read\u0026rdquo; Check social media To summarize, technical debt often occurs when we focus on urgent work and put off the important items.\nWhy is it worth understanding? Technical debt affects both, the developers and the business.\nHigh technical debt makes simple changes difficult to implement, taking a toll on developers. To keep the codebase in control, developers need to take time to pay down that debt, creating delays in feature delivery. It is also, often, the source of glitches and other problems that negatively affect user experience. All of this eventually trickles down to dissatisfied customers.\nMany businesses are oblivious to the existence of tech debt, and they continue to endure the immense costs associated with having it – simply because that\u0026rsquo;s how they have always done things!\nThat said, having some technical debt isn\u0026rsquo;t always a bad thing either. If developers spend all their time perfecting code, nothing will ever get released! Not all technical debt is the same and development teams must always weigh the benefits of solving it vs. the cost of keeping it. \u0026ldquo;Software Design X-Rays\u0026rdquo; by Adam Tornhill is an excellent book on this subject.\nCost of Technical Debt 1. Development Team\u0026rsquo;s Velocity is Hampered Technical debt can cause software development teams to become overwhelmed. It has the potential to quickly turn an efficient team into a sluggish train wreck. In the longer run, it diverts the team\u0026rsquo;s attention to either addressing the tech debt or slowly navigating the complexity to continue delivering features.\nConsider this scenario: Your codebase has a perplexing module structure. You now need to add new features. It would take you four days to add the functionality if the module layout was simple, but it takes you six days with the current structure. The additional two days is the interest you pay on the debt, and you haven\u0026rsquo;t even paid the debt down.\n2. Working on new features becomes a struggle Technical debt has an exponential effect on increasing the effort needed to build new features.\nTeams might generate more clutter too in trying to keep up with the pace of delivery. And this end up increasing technical debt even further. To put it another way, we might assume that a team\u0026rsquo;s \u0026ldquo;Performance efficiency\u0026rdquo; drops.\n\u0026ldquo;Even making a minor security update with a modern framework in mind, where we wanted to integrate the authentication system to the current structure, proved difficult due to the application\u0026rsquo;s conventional routing mechanism. Before we could even update the authentication, we had to first understand the existing framework, which was quite a tedious job\u0026rdquo;, mentioned a fellow developer.\n3. Negative Impact Negative Impact! Yes, you heard it right.\n\u0026ldquo;End users are unaware of behind the scenes, it\u0026rsquo;s the developers who care about the code and manage it.\u0026rdquo; - Fellow developer. The development, testing, implementation, and documentation of new features\u0026rsquo; costs time and money. But developers are busy fixing the debt and it limits their efficiency. This creates a negative impact since this effort could be better used for long-term creativity or delivering new features.\nTechnical Debt, if not fixed on time, will just steer more broken windows, eventually leading to device downtimes, a poor user interface that affects customer/user loyalty, poor system efficiency, and so on, thus affecting customer experience.\n4. Lack of Motivation for Developers The entire process of fixing technical debt is extremely time-consuming. There are spikes, understanding the collective concept, generating a report, getting it approved, then incorporating the changes and several other obstacles along the way. If no test cases are available, developers may encounter more issues and waste too much time.\nAfter a certain amount of time, it becomes frustrating and to be honest no one enjoys performing repeated unproductive tasks daily. If the same thing keeps happening over and over again, the frustration keeps piling up.\nEmployees can become demotivated as a result of any of the above.\nTechnical Debt Quadrant Martin Fowler suggests a simple approach to navigate the complex matter of technical debt:\n\u0026ldquo;Did we incur this technical debt deliberately or inadvertently?\u0026rdquo; \u0026ldquo;Was that decision prudent or reckless?\u0026rdquo; These two questions give you the four quadrants of technical debt:\nDeliberate and Reckless In this quadrant, you know you are making a design choice that is bound to create technical debt. Often the reasons revolve around working under immense pressure to meet thin deadlines and getting ahead in a competitive market.\nDeliberate and Prudent This quadrant is about making an informed decision to take on technical debt. Decision makers weigh the risks involved and carefully plan to mitigate them over time.\nStart-ups can embrace this to make their product ship faster, get customer feedback early and adapt course accordingly.\nInadvertent and Reckless This is a quadrant of things you should have known about but didn\u0026rsquo;t. Constant learning is part of the job. Knowing the underlying principles helps developers define the solution better and avoid patterns that are known to cause problems. This, along with following the right development practices help reduce issues in this quadrant.\nInadvertent and Prudent Having followed best practices and design principles, we can still face challenges. There still will be times when you realize missteps after the job is done. Doing POC\u0026rsquo;s helps you find these uh-oh moments before it\u0026rsquo;s embedded with your actual code.\nFinal Thoughts All software developers and businesses strive to facilitate releasing competitive products faster and generate commercial value. But, if the debt is not cleared in time, you\u0026rsquo;ll go bankrupt (technically).\nNobody would have the patience to fix technical debt, if it is left unresolved for too long. That would just result in more havoc. So, don\u0026rsquo;t give up on Clean Code! Practice conventions that will help reduce technical debt and prevent introduction of more technical debt.\nMake a deliberate decision that will encourage you to step forward while still encouraging future refactoring. Create that \u0026ldquo;YAY\u0026rdquo; moment and leave the code in a condition that makes it easy for someone else to scan and rework on.\nAs a developer, it\u0026rsquo;s up to you to begin improving things!\n",
-          "image":"/images/2021/10/tech-debt-head.png",
-          "date": "October 18, 2021",
-          "url": "https://blog.incubyte.co/blog/tech-debt/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/blog\/pair-programming\/": {
-          "title": "Pair Programming — How it works!",
-          "tags": ["Software Craftsmanship","Best Practices","SDLC",],
-          "authors":["Sapan Parikh",],
-          "summary":"Have you ever come across a bug that had complex logic, and was incredibly hard to fix?",
-          "content":"Have you ever come across a bug that had complex logic, and was incredibly hard to fix? You are trying to chase this bug for more than several hours, but all you have is frustration and a bit of self-doubt. Now imagine you find another developer to work with you, possibly the original authors! You request her to pair with you and, swoosh, the bug gets fixed!\nTwo brains are (obviously) better than one and getting ideas from one another increases your chances of producing more effective solutions. You would believe this while working on complex or highly escalated issues then why not when creating and innovating new software?\nSo, what is Pair Programming? Pair programming is an eXtreme Programming practice wherein two developers collaborate on a single piece of code. The developers take up either of the two roles, driver or navigator and switch frequently.\nThe driver is responsible for meticulously writing code while the navigator\u0026rsquo;s role is to evaluate, focus on the agenda and pop in with helpful advice.\nDriver? Navigator? What??\nA few quick definitions of the terms you may encounter while exploring pair programming:\nPair : Two people pair programming, e.g., \u0026ldquo;The pair worked on Feature A\u0026rdquo; One of the pairing partners, e.g., \u0026ldquo;I\u0026rsquo;ll discuss this with my pair\u0026rdquo; The act of pairing, e.g., \u0026ldquo;Hey, can we pair on this?\u0026rdquo;\nPair Programming Sessions : The duration that a pair is connected for solving problems\nDriver : The person typing the code\nNavigator : The navigator strategizing and helping the driver implement the strategy\nHow Pair Programming really works? The primary goal is to share ownership and product knowledge across the team, to keep development flowing and to have a healthy exchange of ideas and learnings between teammates.\nThe driver oversees sailing the ship (by that, I mean actually writing code) and the navigator roles include helping with directions and his pearls of wisdom (design direction or useful tips to code the right way). Both the driver and the navigator communicate on a regular basis, and switch roles often to improve their expertise and efficacy in coding.\nThe idea is not about making the two developers sit together and code until the task is complete. Rather, it is an amazing way, to share knowledge and discuss your approach to reduce chances of going wrong. It also helps work as a team and cultivates empathy as teammates. This becomes even more important when working remotely on a project.\nBenefits of Pair Programming There are many benefits of pair programming, the most important ones being:\nSolutions are well thought out and are less error-prone, as more than one brain is working on solving the same problem. Features are less likely to break and there are fewer hotfixes needed in production. Knowledge of any solution/feature implementation is more diffused and isn\u0026rsquo;t limited to a particular team member, so knowledge loss with team members leaving or time taken on knowledge transfers is minimized. In other words, having at least two people familiar with every part of the code base, rather than information living with only one person certainly helps generate quality code. Builds stronger connections among team members. As they interact more with each other they become more empathetic towards their co-workers and form strong bonds. This is crucial for remote organizations as it not only helps with mental health but also develops a sense of belonging. Time taken to fix a bug is inversely proportional to how long, after writing the code, it is found! People often believe that time taken to develop software is the same as the time taken to \u0026ldquo;type\u0026rdquo; the code. That is a wrong notion of time, as developing software means researching and analysing how to build it, writing code, testing it, releasing it and then having real users use it. Now think of the time saved when you avoided a bug, because your pair said, \u0026ldquo;Oh I think that condition may cause a null pointer exception\u0026rdquo; and you changed the code right then. That\u0026rsquo;s day\u0026rsquo;s worth of work saved later, but now! And avoided user frustration, an additional intangible benefit. Is Remote Pair Programming interesting? Pairing is a core practice at Incubyte and we have been pairing virtually since day one of our existence. In general, we utilise it to evaluate, coach and resolve complicated issues. Virtual or remote pair programming is two developers located in completely different places pairing and collaborating using a shared editor or a virtual pairing IDE plugin.\nThis involves challenges that are easily avoided in co-located teams, like delayed coordination, misinterpretations of verbal communication that might lead to confusion and clashes over minor issues.\nThat said, we understand these pitfalls and indulge in practices and tooling that help us feel less \u0026ldquo;remote\u0026rdquo;. Pair programming is surely about pragmatically implementing the best possible solution, but more than that it is also about understanding each other\u0026rsquo;s time and mind space and working with rhythm and empathy.\nPair Programming Tools for Remote Pairing: When it comes to working on a project with pair programming you can always go for standard screen sharing and remote-control tools to get the job done. Tools like MS Teams or Google Meet come to mind.\nBut wait! there are better tools built right into your dev environment, which are much more suited for this workflow. Some that we\u0026rsquo;ve explored include:\nLive Share - Microsoft\u0026rsquo;s free to use collaboration solution. Pre-installed with Visual Studio and available as an extension for VS Code users, has features like shared terminals, focus and follow, audio calls etc. built-in. De-facto if you use Visual Studio or VS Code. Very easy to set up and use. Code With Me - JetBrains\u0026rsquo;s collaboration solution, built into all of its IDEs, has support for audio and video calls, follow, terminal sharing and a lot more. Also comes with ,an on-premise version for higher security and a standalone client as well. The standard for all the IntelliJ users and a breeze to set up. Tmux - This one\u0026rsquo;s for the terminal lovers out there and not recommended for the faint of heart. It will let you create a shared terminal session over ssh and you can use all your CLI tools together (vim people here?!). You can have a look at this article to get started. Fortunately, there are tools tmate and wemux that make the process much easier. This is a much more lightweight solution compared to the others and also has very few dependencies, which makes it ideal for working on remote boxes. Unfortunately, it is also pretty bare bones, so doesn\u0026rsquo;t include all the bells and whistles. I would also love to try out Tuple. Eagerly waiting for their Linux client!\nOf course, you can also use simple desktop sharing programs like Teams, Zoom and the likes.\nBest practices for effective pair programming We keep refining how we pair through trial and error, as well as feedback from retrospectives. Best practices will undoubtedly differ for different teams, but here are some that we highly encourage.\n1. Think aloud It is necessary that both the driver and navigator are on the same page. While partnering, communicating your thoughts is critical. It allows both the developers to maintain pace and work collaboratively.\nObserving a little pointer on a screen can quickly result in boredom. To avoid this, make sure your partner is always aware of what you are doing. Pair programming in person is much easier. On the other hand, in virtual pairing one person appears to take over as driver/navigator for significantly longer durations. Therefore, thinking aloud, and bridging the in-person communication gap makes remote pairing less boring.\nPair programming is all about good communication so having open communication between the pairs is always encouraged. The sessions are much better if the pairs trust each other and have a safe and open space to share their ideas.\n2. Equal participation is vital The driver owns implementation, while the navigator is analyzing the work. Switching roles frequently guarantees fair participation.\nAlthough switching completely depends on the work, doing so every 30 minutes can keep your effort and focus at its peak. Commit frequently to maintain the flow and ensure that both of you are on the same track.\nAlso, it is more beneficial when the developers have a comparable skill level, so that the session doesn\u0026rsquo;t lead to only one of them calling the shots and the other being just an observer and feeling dissatisfied. This is also known as \u0026ldquo;Watch the master\u0026rdquo; and has its own uses in training/mentorship.\n3. Take coffee or tea breaks (whatever works for you) Pair programming keeps both the individuals engaged and work-focused the entire time. After a certain point, it becomes physically and mentally draining. Taking breaks helps preserve alertness for the next round of effective pairing.\nIt is also preferable to unplug from the work during the break so that you can return with a fresh mind. Checking emails, calling a friend, or, as we prefer, taking a coffee break are some revitalizing activities.\n4. Celebrate small wins When programming in a pair, it is important to stay motivated, and one way to do so is to celebrate that one little successful compiling, that one victorious run and that one neatly written code your pair got in the first go. Appreciate your small wins, even if it is just completing a simple task. Reward yourself and your pair with a pat on the back, a break time, or whatever works best for you.\nIt is important to celebrate small wins, and they may eventually become the driving force for your next 5,000 lines of code! You made code work, and it is fantastic!\nMethodologies for pair programming There are many different approaches to pair programming, we would suggest trying out a few of them and figuring out which ones work best for you.\nPing-Pong Pairing TDD (Test Driven Development) is one of the core practices we follow and this form of pairing is derived from TDD\u0026rsquo;s red → green → refactor loop. The approach is pretty simple and relies on switching roles often within the pair. Suppose Sachin and Sehwag are pairing on a solution, this is how their workflow will roughly look like:\nSachin writes the failing test case (red) Sehwag takes over as the driver and writes the solution (green) Sachin takes over and refactors the solution These roles are then switched after every iteration. Pair rotations promote better code quality and preventing disengagement within the pair.\nPomodoro Pairing This approach incorporates the Pomodoro technique with pair programming, and it goes something like this:\nStart a timer for 25 mins After the time is up, step away from work for 5 mins and do something individually Join back in and switch roles Take a 20 min break after every four cycles Similar to Ping-Pong approach this also prevents disengagement while also allowing small pockets of breathers to prevent burnout.\nStrong Style Pairing \u0026ldquo;For an idea to go from your head into the computer it *must* go through someone else\u0026rsquo;s hands - _Llewellyn Falco_\u0026rdquo;\nThis quote very briefly sums up Strong Style pairing. In this approach the navigator will explain her/his ideas for the solution, in higher levels of abstraction. The driver will interpret these and implement it. If the driver has her/his own ideas, roles are switched and the process continues.\nFinal Thoughts Pair programming is often a matter of discussion, and everyone has their own opinions.\nWe often hear arguments stating that having two programmers work on the same code when they might work separately on different things, and develop twice as many features is ineffective.\nHowever, this is not always the case, one feature developed and shipped perfectly with comparatively fewer defects rather than two partially-developed features is anytime better. Pair programming allows you to boost the number of features you ship that is accurate and complete. It reduces maintenance costs as well with lower bugs, high code readability and better software design. It is safe to say that pair programming can help elevate the overall code quality.\nBut, is coding in a pair suitable for all? There is no one answer applicable to all. We are all unique, the results will undoubtedly differ. For some, it works wonders, while for others, the outcomes are the opposite.\nAs they say \u0026ldquo;A problem shared is a problem halved.\u0026rdquo; We like to use pair programming to improve employee skills and performance. Of course, we do not enforce it 24 X 7 and each team finds its own sweet spot around the number of hours to pair every day. We love the process and are surely going to keep it!\nHave you tried programming in a pair? We are always looking for programmers who are keen on crafting great software. Write to us at hello@incubyte.co to know more.\n",
-          "image":"/images/2021/09/pair-prog-head.jpg",
-          "date": "September 24, 2021",
-          "url": "https://blog.incubyte.co/blog/pair-programming/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/sdlc\/": {
-          "title": "SDLC",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "September 24, 2021",
-          "url": "https://blog.incubyte.co/categories/sdlc/"
-      },
-      
       "https:\/\/blog.incubyte.co\/blog\/tdd-assessment\/": {
           "title": "Incubyte TDD Assessment",
           "tags": ["Careers","Software Craftsmanship","TDD",],
@@ -2405,6 +2284,28 @@
           "image": null ,
           "date": "August 19, 2021",
           "url": "https://blog.incubyte.co/authors/rupali-pardeshi/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/sdlc\/": {
+          "title": "SDLC",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "August 19, 2021",
+          "url": "https://blog.incubyte.co/tags/sdlc/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/sdlc\/": {
+          "title": "SDLC",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "August 19, 2021",
+          "url": "https://blog.incubyte.co/categories/sdlc/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/one-year-of-incubyte\/": {
@@ -2682,17 +2583,6 @@
           "url": "https://blog.incubyte.co/blog/data-security/"
       },
       
-      "https:\/\/blog.incubyte.co\/blog\/working-at-incubyte\/": {
-          "title": "Working at Incubyte",
-          "tags": ["Careers","Playbook",],
-          "authors":["Arohi Parikh",],
-          "summary":"At Incubyte we strongly believe in finding the right talent, helping them to unleash their maximum capacity, and then getting out of their way to let them do what they do best.",
-          "content":"At Incubyte we strongly believe in finding the right talent, helping them to unleash their maximum capacity, and then getting out of their way to let them do what they do best.\nThe people who make us what we are, are a group of super-passionate individuals who are proud of the way they work. These highly driven individuals own the whole DevOps pipeline and are evangelists of extreme programming principles.\nOne of the many common threads that bind each one of us here at Incubyte, is the thirst for continuous learning and constantly up-skilling ourselves. Be it deepening our knowledge in our field of expertise, or widening our knowledge base to include even more feathers in our cap. The founders and other senior members personally commit to the goal of up-skilling the newer team members and always strive to help them to reach their individual maximum potential.\nWork hours For our team members, there is a freedom to pick their own work hours, with a promise that they will be available when the Company, clients, or your team members need them. There is an agreement to the fact that accountability is towards task completion and not based on the number of hours put in. Our team members are known to get so engrossed in a particular flow that they would be working on it because the problem is so interesting vs. just to deliver a solution.\nLeaves We understand that our teams work hard and deserve time off. We do not believe in stringent leave policies and offer freedom to take time off as and when necessary. The only requirement is advance communication so that the managers and team members can plan accordingly. We trust our team members to be reasonable and responsible in doing this and will always be honest about the reasons behind taking time off.\nPersonal values The Company holds each one of its employees to an extremely high standard on personal values. Individuals are expected to imbibe the following core values:\nHonesty \u0026amp; Integrity: always be trusted to be real, honest, and genuine. Candour is highly appreciated and feedback is always cherished Accountability \u0026amp; Ownership: do whatever it takes to get the job done, take initiatives to overcome roadblocks, and always follow through on commitments made Respect \u0026amp; Discipline: be respectful of all people and facilities of the Company and behave professionally at all times Continuous Learning: eager to learn and sharpen your existing skillset and will continue to do it always Hold readiness for training, activities, and sessions as per business needs. Benefits of working at Incubyte! Holidays \u0026amp; flexibility of working - We offer as many holiday days our people need in addition to national holidays, as long as they are responsible about taking the days off. We’re also flexible with how our people manage their time and believe in self-driven work as opposed to rigid structures. Workations are not only allowed, but encouraged as long as your work quality is maintained\nPensions and tax benefits\nHome Office Fund - A budget allocated for each employee to set up their home office comfortably. We help you to be your most productive self\nRemote - Incubyte being a fully remote organization, is open to pan-India hiring.\nLearning pool budget - As long as the course is relevant for the company and you\u0026rsquo;ll do a lightning talk on the subject, we’re happy to help pay for it\nLightning talk - We do monthly lightning talks where different speakers do 5-15 min presentations on a single topic, example, idea, project, or technique. Meant to invoke interest, and to quickly introduce people to a topic\nBooks and reading list – We have a growing list of recommended books to read that will keep you up to speed on the latest developments\nBookclub - We have a monthly book club meeting where one or two team members talk about the latest books they have read or books that have stayed with them over a period of time and there is an open discussion around the subject or subjects\nAutonomy in working\nMedical and accident coverage\nLaptop hardware is provided to all our employees as per their configuration need\nWelcome Kit with Incubyte merchandise\n",
-          "image":"/images/2020/09/1562394898.jpg",
-          "date": "September 1, 2020",
-          "url": "https://blog.incubyte.co/blog/working-at-incubyte/"
-      },
-      
       "https:\/\/blog.incubyte.co\/blog\/do-not-copy-and-paste-code\/": {
           "title": "Do not Copy and paste code to minimize the impact:",
           "tags": ["97 Things Not To Do",],
@@ -2746,6 +2636,17 @@
           "image": null ,
           "date": "January 1, 0001",
           "url": "https://blog.incubyte.co/search/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/pranita-aitwadkar\/": {
+          "title": "Pranita Aitwadkar",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image":"/images/favicon.png",
+          "date": "January 1, 0001",
+          "url": "https://blog.incubyte.co/authors/pranita-aitwadkar/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/technology-platforms-2\/": {

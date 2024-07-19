@@ -80,20 +80,6 @@
       <description></description>
     </item>
     <item>
-      <title>Automation</title>
-      <link>https://blog.incubyte.co/categories/automation/</link>
-      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/categories/automation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Testing</title>
-      <link>https://blog.incubyte.co/categories/testing/</link>
-      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/categories/testing/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Deep Dup</title>
       <link>https://blog.incubyte.co/categories/deep-dup/</link>
       <pubDate>Thu, 09 Nov 2023 18:20:29 +0530</pubDate>
@@ -206,6 +192,13 @@
       <description></description>
     </item>
     <item>
+      <title>Automation</title>
+      <link>https://blog.incubyte.co/categories/automation/</link>
+      <pubDate>Wed, 28 Sep 2022 10:52:06 +0530</pubDate>
+      <guid>https://blog.incubyte.co/categories/automation/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Infrastructure</title>
       <link>https://blog.incubyte.co/categories/infrastructure/</link>
       <pubDate>Wed, 28 Sep 2022 10:52:06 +0530</pubDate>
@@ -264,7 +257,7 @@
     <item>
       <title>SDLC</title>
       <link>https://blog.incubyte.co/categories/sdlc/</link>
-      <pubDate>Fri, 24 Sep 2021 05:06:00 +0000</pubDate>
+      <pubDate>Thu, 19 Aug 2021 05:06:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/categories/sdlc/</guid>
       <description></description>
     </item>
