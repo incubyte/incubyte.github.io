@@ -17,27 +17,6 @@
       <description>When was the last time you considered unique identifiers (IDs) for your projects?</description>
     </item>
     <item>
-      <title>Essential Guide to Tech Migration: Why and How to Migrate from AngularJS to Angular</title>
-      <link>https://blog.incubyte.co/blog/migrating-angularjs-to-angular/</link>
-      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/migrating-angularjs-to-angular/</guid>
-      <description>For countless applications built with AngularJS, a critical decision looms: migrate to Angular or risk stagnation.</description>
-    </item>
-    <item>
-      <title>Standup Meeting Playbook</title>
-      <link>https://blog.incubyte.co/blog/standup/</link>
-      <pubDate>Thu, 28 Dec 2023 17:48:58 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/standup/</guid>
-      <description>The &amp;ldquo;Standup meeting&amp;rdquo; or &amp;ldquo;Daily Scrum&amp;rdquo; that everyone does religiously just for the sake of calling themselves &amp;ldquo;Agile.</description>
-    </item>
-    <item>
-      <title>The Importance of Committing Lock Files in Dependency Management</title>
-      <link>https://blog.incubyte.co/blog/should-you-commit-lock-file/</link>
-      <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/should-you-commit-lock-file/</guid>
-      <description>In software development, dependency management is a critical aspect that directly impacts the stability and reproducibility of your projects.</description>
-    </item>
-    <item>
       <title>Learnings From Terraform</title>
       <link>https://blog.incubyte.co/blog/learnings-from-terraform/</link>
       <pubDate>Wed, 28 Sep 2022 10:52:06 +0530</pubDate>

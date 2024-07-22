@@ -966,94 +966,6 @@
           "url": "https://blog.incubyte.co/blog/accessibility-case-study/"
       },
       
-      "https:\/\/blog.incubyte.co\/tags\/angular\/": {
-          "title": "Angular",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "February 22, 2024",
-          "url": "https://blog.incubyte.co/tags/angular/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/angular\/": {
-          "title": "Angular",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "February 22, 2024",
-          "url": "https://blog.incubyte.co/categories/angular/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/blog\/migrating-angularjs-to-angular\/": {
-          "title": "Essential Guide to Tech Migration: Why and How to Migrate from AngularJS to Angular",
-          "tags": ["Modernization","Migration","Angular",],
-          "authors":["Akshay Vadher","Yogendra Jaiswal",],
-          "summary":"For countless applications built with AngularJS, a critical decision looms: migrate to Angular or risk stagnation.",
-          "content":"For countless applications built with AngularJS, a critical decision looms: migrate to Angular or risk stagnation. While the front-end framework served its time, its end-of-life that passed in December 2021 means no further official security updates or bug fixes are coming, exposing your application to vulnerabilities.\nRunning an unsupported framework affects your application’s ability to adapt to evolving web standards. Angular, the successor to AngularJS, has been gaining popularity with the State of JavaScript 2021 survey reporting that it continues to be among the most widely used JavaScript frameworks, with a growing community and ecosystem.\nTable of Contents Why You Need to Migrate from AngularJS to Angular A Step-by-Step Guide on Manual Migration Accelerating Tech Migration with CodeAid FAQs Why You Need to Migrate from AngularJS to Angular Launched in 2010, AngularJS revolutionized frontend development with its two-way data binding and modular structure. However, performance issues started cropping up eventually because Google officially ended support for AngularJS, which meant no more security patches, bug fixes, or feature updates.\nWhile the framework once dominated the single-page application landscape, the rapid pace of web technology has left AngularJS behind, making way for its more popular successor, Angular.\nAdvantages of Angular over AngularJS Angular, now in its 14th iteration, boasts significant advantages over its predecessor such as\n1. Enhanced Performance and Scalability Lazy Loading: Angular allows for modularizing your application into smaller, independently loadable chunks, reducing initial load times and improving responsiveness.\nIvy Renderer: The Ivy renderer utilizes a more efficient algorithm for data binding, leading to faster applications compared to AngularJS\u0026rsquo;s two-way binding mechanism. This performance boost scales effectively as your application grows in complexity.\n2. Development with TypeScript Angular relies on TypeScript, a superset of JavaScript that adds optional static typing. This enables early detection of potential errors during development, leading to more stable and maintainable codebases.\n3. Modern Architecture and Tooling Component-Based Structure: Angular applications are built by composing reusable components, each encapsulating its own logic and view. This promotes modularity, code organization, and easier testing.\nAngular CLI (Command Line Interface): The CLI streamlines development with functionalities like project creation, code generation, testing, building and deployment. Angular CLI empowers developers with building functionalities like transpilation, tree-shaking, minification, and uglification, making it significantly more powerful than AngularJS.\n4. Mobile-First Approach Angular seamlessly integrates with Progressive Web App (PWA) features like offline functionality and push notifications, allowing you to build web applications that behave more like native mobile apps.\n5. Active Community The Angular team consistently releases updates ensuring the framework stays current with modern web development trends. The framework also has an active community that contributes a wide range of third-party libraries and tools that cater to diverse development needs.\nA Step-by-Step Guide on Manual Migration 1. Initial Assessment\nComplexity Scorecard: Begin by analyzing features, dependencies, and custom logic based on their difficulty (low, medium, high). Prioritize areas needing more attention, like tasks in a project plan. Dependency Audit: Update all AngularJS dependencies to their latest versions, identifying deprecated components like outdated tools or equipment that might need replacing. Futureproofing: Consider upcoming Angular features and potential technological advancements that might impact your project. Align your strategy to leverage them for long-term success. 2. Strategy Definition\nGradual Migration vs. Rewrite: Consider the project size, timeline, and team expertise. Think of it like choosing between renovating a building in stages or starting from scratch. While gradual migration allows phased updates, a rewrite might be faster for smaller projects. Feature-based Approach: Prioritize migrating critical features first, like addressing essential functionalities in a project. This minimizes disruption and ensures core operations remain stable. Hybrid Application Structure: This is your app\u0026rsquo;s future architecture. Plan how Angular and AngularJS components will coexist and interact, ensuring smooth communication between different frameworks. Bootstrap Strategy: Choose between root-level or component-level bootstrapping based on your migration approach. The former approach loads everything at once, and the latter loads components only when needed, which is better for performance. 3. Setting Up the Environment\nBefore embarking on complex changes, ensure the AngularJS code is well-organized. Employ the \u0026lsquo;feature approach\u0026rsquo; by grouping files in folders based on functionality.\nAs Kent Beck has said,\nMake the change easy, then make the easy change.\nTidy up the codebase first, making the next steps smoother and less daunting.\nAdditionally, choose the right tools like Angular CLI and ngUpgrade. These tools simplify migration and manage your hybrid app effectively.\n4. Hybrid Application Bootstrap\nBootstrapping with Angular: In a hybrid application, bootstrapping with Angular streamlines migration. Starting with Angular as the \u0026ldquo;skeleton\u0026rdquo; automatically converts it to Angular as you migrate components. This avoids a final migration step for the bootstrap itself, unlike starting with AngularJS. Dependency Injection: Imagine a data flow system. Configure dependency injection for both frameworks to share data and services seamlessly. UpgradeModule Integration: ngUpgrade acts like a bridge, enabling communication and collaboration between AngularJS and Angular components. Utilizing it effectively ensures smooth interaction. 5. Component Migration\nLeaf-to-Root Approach: Start with smaller, independent components (\u0026ldquo;leaves\u0026rdquo;) like reusable UI elements or data models. Gradually migrate towards more complex components (\u0026ldquo;branches\u0026rdquo;) with intricate logic and interactions. Component Conversion: Use ngUpgrade to seamlessly integrate existing AngularJS components into your Angular app, or rewrite them in Angular from scratch, adopting its component lifecycle hooks and data binding mechanisms. Template Translation: Convert AngularJS directives and expressions (like ng-model and {{}}) to their equivalent Angular syntax (like [(ngModel)] and {{ }}). This ensures consistent rendering and behavior across your migrated components, as if translating the language of the leaves to match the tree. 6. Service Migration\nService Evaluation: Carefully assess each service. Can it be directly upgraded for use in Angular? Does it require duplication to cater to specific Angular needs? Or can it be effectively wrapped in an Angular service to bridge the gap? Decide on the best approach for each service, ensuring a smooth transition of valuable functionalities. Data Persistence: Ensure consistent data access and management across both frameworks. Consider shared storage solutions or migrating data models to Angular\u0026rsquo;s persistence mechanisms, guaranteeing your data remains accessible and secure throughout the move. API Integration: Adapt external API interactions to work with Angular\u0026rsquo;s HTTP client or integrate existing AngularJS service logic. Imagine seamlessly connecting your services to external resources, like rewiring them to function within the new system\u0026rsquo;s infrastructure. 7. Routing Integration\nRoute Mapping: Define clear rules for navigation, avoiding conflicts and providing a consistent user experience. Consider factors like URL structure, component mapping, and route parameters. State Management: Choose a state management solution (like NgRx) to share routing state and prevent inconsistencies across frameworks. 8. Testing and Validation\nContinuous Testing: Implement a comprehensive testing strategy, including unit tests for migrated components, integration tests for component interactions, and end-to-end tests for overall functionality within the hybrid environment. Hybrid Focus: Pay special attention to how migrated and non-migrated sections interact. Test data flowing between frameworks, user journeys involving both parts, and edge cases that might expose compatibility issues. 9. Incremental Deployment\nFeature-by-Feature Rollout: Deploy migrated features progressively, starting with less critical ones. This minimizes disruption to users and allows for quick feedback and adjustments if needed. Versioning and Rollback: Implement versioning and rollback mechanisms to easily revert to previous versions if issues arise. This provides a safety net during deployment. Communication and Feedback: Keep stakeholders informed about deployment progress and gather feedback. Address concerns and iterate based on user experience. 10. Final Cut-over\nDependency Removal: Once all components and services are migrated, remove unused AngularJS dependencies. Documentation and Support: Most importantly, update documentation to reflect the new Angular architecture and provide support for users. Accelerating Tech Migration with CodeAid Migrating away from AngularJS is not just about making a technical shift but also a strategic business decision that ensures security, improves user experience, boosts development efficiency, and future-proofs your application for long-term success.\nWith the advent of AI, tech migration can now be done quicker with less pressure on the development teams. Developed for accelerated Angular migration, CodeAid empowers modernization teams to boost productivity and comes with features such as -\nSeamless Modernization: Simplify your tech stack transition, freeing up resources for high-impact activities. Enhanced Security: Identify and fix vulnerabilities like SQL injection and XSS, building cyber resilience. Effortless Testing: Automatically generate missing test cases, ensuring code quality and reliability. Clear Documentation: Generate detailed documentation, even for undocumented legacy codebases. FAQs 1. When is it necessary to migrate from AngularJS?\nThe right time to migrate was yesterday; the second-best time to migrate is today.\n2. How complex is the migration process?\nMigration complexity depends on:\nFramework version disparities Application intricacy and size Team familiarity with Angular and migration best practices 3. Should I migrate the entire application at once or incrementally?\nIncremental migration is ideal for large applications, where risks are reduced, and adoption is gradual. While migrating the entire application can result in longer downtimes and require extensive planning and effort, it allows you to reap the benefits of the new framework more quickly.\n",
-          "image":"/images/2024/angular-migration/header-image.png",
-          "date": "February 22, 2024",
-          "url": "https://blog.incubyte.co/blog/migrating-angularjs-to-angular/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/migration\/": {
-          "title": "Migration",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "February 22, 2024",
-          "url": "https://blog.incubyte.co/tags/migration/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/migration\/": {
-          "title": "Migration",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "February 22, 2024",
-          "url": "https://blog.incubyte.co/categories/migration/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/modernization\/": {
-          "title": "Modernization",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "February 22, 2024",
-          "url": "https://blog.incubyte.co/tags/modernization/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/modernization\/": {
-          "title": "Modernization",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "February 22, 2024",
-          "url": "https://blog.incubyte.co/categories/modernization/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/authors\/yogendra-jaiswal\/": {
-          "title": "Yogendra Jaiswal",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "February 22, 2024",
-          "url": "https://blog.incubyte.co/authors/yogendra-jaiswal/"
-      },
-      
       "https:\/\/blog.incubyte.co\/tags\/ruby\/": {
           "title": "Ruby",
           "tags": [],
@@ -1096,61 +1008,6 @@
           "image":"/images/favicon.png",
           "date": "January 9, 2024",
           "url": "https://blog.incubyte.co/authors/utsav-parmar/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/daily-scrum\/": {
-          "title": "Daily Scrum",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "December 28, 2023",
-          "url": "https://blog.incubyte.co/tags/daily-scrum/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/meeting\/": {
-          "title": "Meeting",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "December 28, 2023",
-          "url": "https://blog.incubyte.co/tags/meeting/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/playbook\/": {
-          "title": "Playbook",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "December 28, 2023",
-          "url": "https://blog.incubyte.co/tags/playbook/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/playbook\/": {
-          "title": "Playbook",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "December 28, 2023",
-          "url": "https://blog.incubyte.co/categories/playbook/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/blog\/standup\/": {
-          "title": "Standup Meeting Playbook",
-          "tags": ["Playbook","Software Craftsmanship","Meeting","Daily Scrum",],
-          "authors":["Akshay Vadher",],
-          "summary":"The \u0026ldquo;Standup meeting\u0026rdquo; or \u0026ldquo;Daily Scrum\u0026rdquo; that everyone does religiously just for the sake of calling themselves \u0026ldquo;Agile.",
-          "content":"The \u0026ldquo;Standup meeting\u0026rdquo; or \u0026ldquo;Daily Scrum\u0026rdquo; that everyone does religiously just for the sake of calling themselves \u0026ldquo;Agile.\u0026rdquo;\nThe name does not matter; you can call it anything. I like to call it a “Huddle.”\nIntent If we look at the Agile Manifesto, it does not describe how to manage your project. However, two methodologies come to our mind:\nScrum, which is the most popular; The \u0026ldquo;Daily Scrum\u0026rdquo; comes from that. Extreme Programming is considered to be the best implementation of Agile. Although terms like \u0026ldquo;Standup meeting,\u0026rdquo; \u0026ldquo;Daily Sync meeting,\u0026rdquo; \u0026ldquo;Daily Scrum,\u0026rdquo; and others may have distinct definitions, we should focus on the meeting from the Agile perspective instead of religiously following each one’s process and definition.\nOver the years, as “conventional” project managers converted to the Agile way, Agile lost its core value, and so did standup meetings. Agile transformed into just another project management process, and developers found themselves increasingly detached from its original essence.\nValues If we look at Agile values, it focuses on “Interactions,” “Collaboration,” “Delivery,” and “Change.” Remember these while creating your own rules for standup meetings.\nFAQs Q: What is the ideal frequency? Usually, every day. However, if all the stakeholders interact frequently and do not need to know the status, you can meet less.\nQ: Where? Anywhere the whole team is comfortable. Physical or remote, does not matter.\nIf you are conducting it remotely, always have videos on. You want to talk to humans, not animated figures!\nQ: When? Ideally at the start of the day. However, if everyone is not available or working remotely in different geographies, you can do it anytime.\nQ: What content? What did I do towards the iteration goal? What will I do next? What is inhibiting me from achieving my goals? Q: How granular? Remember, it is for the team. Your updates should be at the right level, so everyone can understand and contribute to the project goal.\nQ: Duration? Ideally, a maximum of 15 minutes. Every team member should speak for only 2 or 3 minutes. If there are too many participants, and the meeting cannot be concluded in a 15-minute timeframe, it is a different problem. Ideally in such cases, divide the team instead of shortening individuals\u0026rsquo; time or increasing the duration of the standup meetings.\nQ: Should I be standing up? Since the goal is to keep the meeting short, adopting a psychological approach, standing up tends to lead to brevity. If your standup meetings consistently exceed the allotted time, you should definitely transition to standing meetings.\nQ: Should we hire a scrum master? If you are married to the process of Scrum, then sure. But, if your focus is on Agile values, you don\u0026rsquo;t need to.\nI disagree with the concept of having a Scrum master. The word master is terrible anyway. It also brings all the micromanagement, like tracking the burndown chart like a hawk. I have seen very bad standups where a \u0026ldquo;scrum master\u0026rdquo; will go through all the issues on the board and ask everyone for a status.\nPeople who are going to talk should take charge of their own work, from updating tickets to delivering and updating others in the team about it.\nWe should rename that to Agile mentor/coach, even if we want someone to teach Agile principles.\nQ: Should we hire an Agile coach/mentor? If you observe that the team is not doing what they need to do or doing what they shouldn\u0026rsquo;t be doing, then an Agile coach can help streamline that. Also, in this case, don\u0026rsquo;t make the Agile coach your process.\nQ: What should be the Agile coach\u0026rsquo;s role? They teach the team to follow the practice and create other Agile coaches. Remember, Agile coaching is not a permanent process. It is just an initial push. These are just the people who know how to conduct the meeting effectively.\nQ: What is a facilitator? After the Agile coach/mentor moves on, one of the team members steps up as the facilitator, playing a role akin to an internal Agile coach/mentor. They kick things off and ensure a smooth exchange of the baton. Avoid sticking with a single facilitator; keep the rotation going among team members.\nThis goes without saying, but you don\u0026rsquo;t need a facilitator if you think your team is mature enough to handle things.\nQ: What order? Choose whatever suits you.\nSome like the alphabetical order, some like the current position they are sitting in, some like facilitator assigning, some like the last person nominating the next person.\nYou can be creative as far as meetings are short and effective.\nQ: Do I need a burn down chart? Or any chart or board? That is a great way to visualize the status. However, status is not the goal; action item is the goal. Anything that helps the project. It helps identify whether you need to organize yourself and the team better.\nAnother way is to have just sticky notes or cards in a dashboard. Identify how many cards should have been moved and their current status.\nAny tool that publishes data is good enough.\nMany teams don\u0026rsquo;t even use any! (These are very mature teams. I would recommend having some visual representation.)\nQ: Our team is small. Do we even need a standup meeting? In theory, if you have a mechanism like a storyboard or sticky notes on the wall that keeps you informed about the project status, a separate meeting may not seem essential.\nHowever, I would still recommend having a standup meeting, even for a two-person team.\nWearing a different hat often leads to remarkable insights. To explain this through an analogy, take the example of the \u0026ldquo;duck debugging.\u0026rdquo; When stuck with a problem, a developer tries to explain it to a rubber duck, and surprisingly, a solution often emerges.\nSimilarly, conducting a standup meeting to share the project status can unexpectedly provide insights or generate solutions. Even if the audience is already informed or not particularly interested, the act of vocalizing the information can trigger valuable discussions.\nIn essence, the standup meeting becomes a valuable process for problem-solving and maintaining a shared understanding of the project.\nWhat not to do Too granular \u0026ldquo;I worked on the order class and implemented that method\u0026rdquo;, \u0026ldquo;I worked on liquibase scripts\u0026rdquo;, nobody cares and should care about that. Make it abstract enough as if the recipients are non-developers. The meeting is for the project, not yourself. Don\u0026rsquo;t go too technical.\nFocus on the task or story\u0026rsquo;s completeness or challenge.\nThis is one of the reasons the meeting becomes boring. Because nobody understands what the other person really means, so they stop paying attention to the other person.\nCutting each other Only one person speaks!\nThis is one reason why the meeting continues after the designated time and lasts for even an hour!\nEveryone addressing one person The meeting is not a project status report meeting! It is a sync up call. Everyone should address the team, not the team lead or project manager.\nNon-developers or attendees who are not directly working with the team should be quiet or give their updates to everyone like any other person but never be a receiver.\nSlip in other things \u0026ldquo;Let me show the demo of what I did\u0026rdquo;, \u0026ldquo;Hey, if you are facing this issue, then do this to solve it\u0026rdquo;, \u0026ldquo;Why don\u0026rsquo;t you do this?\u0026rdquo;, \u0026ldquo;Why don\u0026rsquo;t we do this?\u0026rdquo;. None of this should happen. Everyone should focus on only strictly updates. Nothing else.\nDid I say nothing else?\nIf you want another conversation, meet after the meeting and have a separate meeting with a smaller group. Even if the next meeting will have the same participants, don\u0026rsquo;t do it now—organize a separate session for that purpose.\nNow you might have a question-\nBut we work only remotely, and this is the only time the whole team is together; I would want it to last a little longer and combine other things. Even in that case, keep the standup time shorter. Do other things after officially concluding standup. You can wear a different hat after that.\nRemember, the standup should be completed on time in a short duration. The meeting or call can be extended with the same or different participants.\nToo many updates \u0026ldquo;I worked on setting up that server then talked to Bob then talked to Yoda about order detail then talked to Groot about invoice preparation\u0026rdquo; — How does this help the project? Why should anyone care?\nNumber of updates or time you take to update others is not a measure of success or hard work.\nAbsence of context \u0026ldquo;I worked on ABC-549 and ABC-588 and will keep working on that\u0026rdquo;. Although this looks good enough, not everyone may have the context for what \u0026ldquo;ABC-549\u0026rdquo; represents. Consider saying, \u0026ldquo;I\u0026rsquo;ve been working on the order detail screen.\u0026rdquo; This provides clearer information for everyone involved.\nNot using burndown chart or team board because it is not updated If you have another way to get the project status, then it is okay to not have a board. However, having incorrect status for tasks/stories is not a good reason not to have a board.\nAlways keep your tasks/stories updated with the latest status as soon as you make progress. Don\u0026rsquo;t wait for standup to update those.\nIt is always better to have some visual representation than not having any.\nSticking to one process Don\u0026rsquo;t make your standups boring. Standup is a practice; its effectiveness must be questioned, and ways of improving must be part of retro discussions.\nHonorary addition Lately, some teams have started introducing non-project related and team-related talks in the meeting. Those are not bad. Those help team building. Some examples are as follows,\nHow was your weekend? What did you learn recently? What books are you reading? How are you feeling? Do you want to thank anyone? Anything you are excited about this week? These additions are great at creating a more connected and collaborative work environment.\nPhoto by Igor Omilaev on Unsplash\n",
-          "image":"/images/2023/12/meeting.jpg",
-          "date": "December 28, 2023",
-          "url": "https://blog.incubyte.co/blog/standup/"
       },
       
       "https:\/\/blog.incubyte.co\/authors\/bhavesh-choudhary\/": {
@@ -1274,116 +1131,6 @@
           "url": "https://blog.incubyte.co/authors/nitin-rajkumar/"
       },
       
-      "https:\/\/blog.incubyte.co\/authors\/sapan-parikh\/": {
-          "title": "Sapan Parikh",
-          "tags": [],
-          "authors":[],
-          "summary":"A tech evangelist and mentor, Sapan has been fuelled by two things in his 15+ year professional career; coffee and his love of designing self-motivated, high-performing and passionate software engineering teams.",
-          "content":"A tech evangelist and mentor, Sapan has been fuelled by two things in his 15+ year professional career; coffee and his love of designing self-motivated, high-performing and passionate software engineering teams. Being a software craftsperson at heart, he has created and coached teams of over 500 software developers spread across the US and India with the sole objective of forging exceptional software products with an unfettered focus on quality.\n",
-          "image":"/images/favicon.png",
-          "date": "October 5, 2023",
-          "url": "https://blog.incubyte.co/authors/sapan-parikh/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/blog\/software-modernization-for-legacy-software\/": {
-          "title": "Software Modernization For Legacy Software",
-          "tags": ["Modernization",],
-          "authors":["Sapan Parikh",],
-          "summary":"Originally published on Forbes Technology Council.\nThe term \u0026ldquo;modernization\u0026rdquo; holds diverse meanings for different organizations.",
-          "content":" Originally published on Forbes Technology Council.\nThe term \u0026ldquo;modernization\u0026rdquo; holds diverse meanings for different organizations. To some, it means buying new software or developing a custom solution. For some others, it means taking a strategic shift towards cloud-based solutions like Salesforce.\nRegardless, the pivotal question here is: When is the right time for an organization to embark on such a transformation? To understand this better, read on.\nOverview Writer Michael C. Feathers stated, “To me, legacy code is simply code without tests.”\nWhy would he say this? Software without tests inhibits its ability to change fast. Today when SaaS software is so common, it\u0026rsquo;s not only the software without tests but software that lacks any continuous integration and deployment (CI/CD), infrastructure as code, coding standards, incremental changes, observability and practices like test-driven development (TDD), pairing, refactoring and small releases.\nIn my experience, I’ve found that the following company archetypes typically struggle with technical debt:\nThe well-established: Stable companies with software expertise and tech-savvy staff that typically resist change The people pleaser: Companies that prioritize feature additions and neglect implicit software needs The new kid in the town: Funded, growth-focused companies that neglect non-functional requirements The dependent: Companies that lack in-house expertise, work mainly with vendors and listen to internal experts. Legacy System Symptoms Technical debt issues are neither directly nor easily visible, nor do they appear as bugs. They enter the ecosystem so slowly that you don\u0026rsquo;t know when they become a way of life or a way of functioning. Here are eight of the most common symptoms found when working with legacy systems:\nEnd users finding bugs\nNew changes that introduce unexpected bugs\nSlowing down changes seems to be the only option\nBecause released changes break things, there are change approval committees and boards (CAB) that slow down everything by \u0026ldquo;reviewing\u0026rdquo; all software changes\nHigh team attrition\nThe feeling that everyone is running around but nothing moves\nTime spent waiting for something to happen\nLots of manual processes, including email writing\nWhen To Act And Find Experts If you feel you need help with tech debt-related pains, I’ve come to find that, most probably, it\u0026rsquo;s already too late in these scenarios. However, consult with an expert if you see the following in your system:\nDipping customer happiness because of bugs\nCustomers resisting upgrading versions\nCustomer needs are not being met because it takes time to release new changes\nLong manual QA cycles\nPainful new engineer onboarding\nFrequent hotfixes\nCauses Of Technical Debt Technical debt is accrued due to various issues ranging from organizational behavior to technical choices and shortcuts. A company must respond to market needs, and sometimes it makes sense to take shortcuts, making choices that may not be the best tech decision but may be best for the business.\nRemember, poor-quality code is not technical debt. That\u0026rsquo;s just bad programming. Companies get into a cycle of accruing technical debt because they never make a list of all such historical shortcuts and never get back to them to pay them off.\nJust like financial debt, you must repay it month to month and account for it every time you make any expense (in this case, when you write code).\nLet\u0026rsquo;s go through six examples of decisions that may increase technical debt.\nWriting duplicate code while you could use existing code from the codebase\nUsing an older version of third-party libraries.\nIgnoring coding standards\nBypassing testing before committing new code\nLack of collaboration and code review\nIgnoring non-functional development\nRisk Factors Additionally, there are some factors that may increase your risk of accruing technical debt fast. All of this starts early in the product development lifecycle because people may be chasing the initial illusion of speed.\nWhat behaviors increase tech debt? This could be a lack of engineering discipline, a bias toward a “quick and dirty now, clean it later” approach, or accelerated hiring, just to name a few.\nComplications While it may seem that the technical debt only has to do with the time to develop it, many other complications are raised because of it. This includes security issues, dependency on end-of-life components, manual errors and loss of money.\nPrevention To prevent these risks, adopt engineering disciplines and practices like:\nTDD\nCI/CD\nIssue postmortem\nMob reviews\nTrunk-based development (this only works if you are a very disciplined team)\nPrioritizing non-functional requirements\nContinually improving and refactoring\nPromoting a culture of continuous learning\nTreating Legacy Code Treatment of legacy code is more like exercise, as opposed to a painkiller. One must consistently prioritize non-functional requirements directly impacting one of the following DORA metrics:\nDeployment frequency\nLead time for changes\nMean time to recover\nChange the failure rate\nRemember, technical debt has to do as much with organizational behavior as it has to do with technology. To start treating it, start with the following:\nDecrease the batch size. It has the highest impact on all these measures\nIncrease psychological safety\nDecrease work in progress (WIP)\nPromote pairing, as it will decrease the change failure rate\nGet skilled at flawless deployments\nConclusion In the ever-evolving landscape of technology, modernization is a complex and multifaceted endeavor that encompasses much more than merely adopting new software or moving to cloud-based solutions. It is intricately tied to an organization\u0026rsquo;s ability to manage technical debt, align its processes with contemporary practices like CI/CD, TDD, and refactoring, and foster a culture of continuous improvement and learning.\nThe signs of technical debt may be subtle, but they are insidious, impacting not just development time but also security, reliability and financial stability. Treating legacy code and technical debt requires tools and techniques and a shift in organizational behavior and values.\nWhether you\u0026rsquo;re a well-established company or the new kid in town, acknowledging the risks and embracing the disciplines to prevent and manage technical debt will be paramount to your success in this era of rapid technological change. The time to act is now because waiting until the symptoms become painful might be too late.\n",
-          "image":"/images/2023/modernization-for-legacy-software-header.jpg",
-          "date": "October 5, 2023",
-          "url": "https://blog.incubyte.co/blog/software-modernization-for-legacy-software/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/best-practices\/": {
-          "title": "Best Practices",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "September 27, 2023",
-          "url": "https://blog.incubyte.co/tags/best-practices/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/best-practices\/": {
-          "title": "Best Practices",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "September 27, 2023",
-          "url": "https://blog.incubyte.co/categories/best-practices/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/dependency-management\/": {
-          "title": "Dependency Management",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "September 27, 2023",
-          "url": "https://blog.incubyte.co/tags/dependency-management/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/dependency-management\/": {
-          "title": "Dependency Management",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "September 27, 2023",
-          "url": "https://blog.incubyte.co/categories/dependency-management/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/blog\/should-you-commit-lock-file\/": {
-          "title": "The Importance of Committing Lock Files in Dependency Management",
-          "tags": ["Dependency Management","Best Practices",],
-          "authors":["Akshay Vadher",],
-          "summary":"In software development, dependency management is a critical aspect that directly impacts the stability and reproducibility of your projects.",
-          "content":"In software development, dependency management is a critical aspect that directly impacts the stability and reproducibility of your projects. When working with package managers like npm, yarn, or others, one crucial decision developers must make is whether to commit the lock file to version control.\nIn this article, we\u0026rsquo;ll explore why it\u0026rsquo;s essential to commit lock files and how they help in ensuring deterministic, secure, and consistent builds.\nA Bit of History As you know, npm was the default package manager for nodejs.\nNpm follows sem version system with wildcard support. That means if a package foo is defined to use ^6.2.8, and you run npm install, it will install the latest version of 6.x.x after 6.2.8.\nIssues Deterministic Builds and \u0026ldquo;It Works on My Machine\u0026rdquo; Conundrum Imagine you are using foo with version ^6.2.8 and you run npm install. By default, npm installs the latest version, 6.2.9. Now, once this code is committed, other developers can check out the same codebase and proceed to execute npm install. But this time it might install 6.2.10 because ^ always check for the latest non-major version.\nIn the ideal world, 6.2.9 and 6.2.10 should be compatible, but in the real world, that is not the case. These discrepancies can break your build. Worse, it might work on your machine but break the production.\nThe Solution: Lock Files Yarn first introduced the concept of lock files, yarn.lock. It solves the problem by locking the version of the package during initial installation. So, ^ will still install the non-major version, but in the subsequent installations, it will use the same version as in the lock file.\nHow Lock Files Work? npm install automatically generates the lock file.\nTake a look at the below diagram.\nApplication A depends on libraries B (1.2.9) and C (^6.8.7). B depends on C (6.8.8), D (4.5.3), and E (7.2.9).\nIn the lock file, all the dependencies are flattened with their versions mentioned. So, the lock file will look like this B (1.2.9), C(6.8.7 and 6.8.8), D (4.5.3), and E (7.2.9), along with all the individual libraries dependencies mentioned and recursively so on.\nSince C has been defined as ^, which means among 6.8.7 and 6.8.8, the 6.8.8 version will win. So, the next time you try to install dependencies, it won\u0026rsquo;t install 6.8.10 even if it has been released and meets the ^ criteria.\nThe above description is a grossly simplified explanation of the process.\nThe Pitfalls of Using Exact Versions Let\u0026rsquo;s eliminate wildcard characters (^, ~, *, etc.) and use the exact version. Wouldn\u0026rsquo;t that solve the problem?\nUnfortunately, that\u0026rsquo;s not how it works. Even if you use the exact version for the library, the library itself might have dependencies with wildcard dependencies, and the application is still prone to breaking.\nSecurity Lock files stores the integrity hash along with an exact dependency version, so it always checks whether the downloaded dependency is same as the one in the lock file.\nYarn introduced many features like caching, parallel downloads, etc. However, npm has caught up with most of these. And now, at the time of writing this, yarn and npm are almost the same.\nUsing a Lock File Merely having a lock file isn\u0026rsquo;t sufficient. You need to make sure you execute the proper command(s). For instance, npm install is intended to be used only in developer mode. If you want to install dependencies for production, you need to use npm ci.\nList of commands with different modes for different tools\nWhen Not to Commit Lock Files? In cases where you\u0026rsquo;re building a library and publishing it, you don\u0026rsquo;t want to lock the dependencies because it might break the host application. Instead, let the host application handle locking to avoid potential conflicts. You can mark a range of versions your library supports.\nShould You Change a Lock File Manually? No.\nWhen facing issues caused by package updates, resist the temptation to manually adjust the lock file. It\u0026rsquo;s usually better to adapt your application to work with the latest version, or update your package.json to ensure correct lock file generation during the next installation.\nApplicability Across Languages This applies not only to Node.js but any language that uses package manager. For example, Go uses go.mod and go.sum, Rust uses Cargo.lock, Python uses requirements.txt, etc.\nConclusion In conclusion, committing lock files, along with executing the appropriate commands for dependency installation, is a best practice that ensures deterministic amd secure builds. By doing so, developers can mitigate issues related to version conflicts, enhance project security, and foster collaborative development in an environment of consistency and reliability.\n",
-          "image":"/images/2023/commit-lock-file/header.jpg",
-          "date": "September 27, 2023",
-          "url": "https://blog.incubyte.co/blog/should-you-commit-lock-file/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/technical-debt\/": {
-          "title": "Technical Debt",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "September 8, 2023",
-          "url": "https://blog.incubyte.co/tags/technical-debt/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/technical-debt\/": {
-          "title": "Technical Debt",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "September 8, 2023",
-          "url": "https://blog.incubyte.co/categories/technical-debt/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/blog\/escape-bad-coding-loop\/": {
-          "title": "Why Companies Become Stuck In Bad Coding Loops — And How To Escape Them",
-          "tags": ["Technical Debt",],
-          "authors":["Sapan Parikh",],
-          "summary":"Originally published on Forbes Technology Council.\nImagine a multimillion-dollar company with a lot of software.",
-          "content":" Originally published on Forbes Technology Council.\nImagine a multimillion-dollar company with a lot of software. The sense of moving fast is in the air, but nothing seems to be moving forward. Deadlines are missed, bugs are found, business sometimes comes to a standstill and releases take too long to go out.\nHow did they get here?\nThe Downward Spiral After celebrating series B funding, the company\u0026rsquo;s first goal was to make the product more feature-rich to meet investors\u0026rsquo; expectations. They kickstarted hiring. They moved fast. Along with the front-end and the back-end developers, they hired a few developers specializing in infrastructure as code. Developers worked hard, adding one feature at a time, to meet KPIs and climb the tech ladder.\nBut here\u0026rsquo;s the catch: To meet deadlines, shortcuts are taken. Doing things the right way will take more time. The longer-term consequences of these shortcuts are explained away without putting in the effort to figure out how to do it right and do it fast. They never prioritized code fitness, so it\u0026rsquo;s taking them too long to roll out new changes. In most cases, they can\u0026rsquo;t pinpoint the \u0026ldquo;why.\u0026rdquo;\nLuckily, they still have money, so they hire more people to move faster. The urgency is too high, and the hiring needs to catch up. The VPs and the CXO push the hiring managers to move fast. They, in turn, push the interviewers for better outcomes by asking questions like, \u0026ldquo;Why are you rejecting all the candidates?\u0026rdquo;\nNow, when the interviewers find themselves on the fence, they might just hire candidates they are uncertain about. This slowly lowers the bar. With the bar lowered, the company has very few people who could be better than the first-generation (founder-generation) engineers who cared about their work and the company\u0026rsquo;s direction.\nFinally, this leads to the overwhelming accumulation of bad-quality code—and a company that still hasn\u0026rsquo;t scaled to the next level.\nThe Two Loops Of Bad Coding Practices When it comes to coding, moving fast can sometimes lead to bad decisions that lead to worse decisions. This process creates two loops that are very difficult to escape once you\u0026rsquo;ve entered them.\nThe first loop generally looks something like this.\nCompanies hire software engineers to write code.\nThe more code you write, the more technical debt is created (sometimes called entropy).\nThe more entropy in the system, the harder it is to write new code, making everyone slower.\nThe slower the progress, the more you hire.\nThis leads back to step one.\nIn order to solve the first loop, companies often create the second, equally difficult-to-escape loop.\nThe slower the progress, the more pressure is put on recruiters to hire faster.\nThe more hiring pressure on everyone, the more they lower the bar of hiring.\nThe lower the bar, the lower the skill level of hired engineers.\nThe lower the skill, the more bad code practices accumulate in the system.\nAs the quality of code goes down, it makes you slower.\nThis leads back to step one.\nHow Can Companies Break Out Of These Loops These loops take a long time to form, sometimes years or decades. Once your company has found itself in these loops, getting out of these is neither easy nor fast. (Sorry, there is no magic pill for bad code.) Like your own health, software health also lives by the maxim: \u0026ldquo;Prevention is better than cure.\u0026rdquo;\nBut if you have already entered the spiral, here are a few steps that can help.\n1. Freeze; stop writing code. Of course, this is not entirely possible, but you can freeze hotspots of code in time. You can stop these hotspots from growing and then write new code in a new place. For instance, LinkedIn\u0026rsquo;s Operation InVersion was a complete rebuild of LinkedIn’s creaky, outdated software infrastructure, where all new feature developments were frozen for two months.\n2. Raise the hiring bar. Pivot your hiring practices. Reinforce the idea that the talent acquisition team focuses on quality candidates.\n3. Upskill the developers. Invest in the L\u0026amp;D of teams. Align the knowledge base with current and upcoming trends.\n4. Reduce technical debt. By having a mission-critical task force, you can eliminate bad code at the most fundamental level and prevent it from recurring. Create a road map, and possibly a task force, to fix the debt and upskill the team. (Refer, for example, to the book, The DevOps Handbook: How to Create World-Class Agility, Reliability and Security in Technology Organizations.)\nModernizing software systems is a large subject, and is not an exhaustive list of problems and solutions. When looking at your company\u0026rsquo;s concerns, you can use this method to suggest more influencing flows and stocks in order to have a conversation on how it can help the system reduce technical debt.\n",
-          "image":"/images/2023/escape-bad-coding-loop/header.jpg",
-          "date": "September 8, 2023",
-          "url": "https://blog.incubyte.co/blog/escape-bad-coding-loop/"
-      },
-      
       "https:\/\/blog.incubyte.co\/blog\/code-tidying\/": {
           "title": "Code Tidying: The Story of a Backseat Driver",
           "tags": ["Refactoring","CodeScene",],
@@ -1437,6 +1184,39 @@
           "image": null ,
           "date": "August 18, 2023",
           "url": "https://blog.incubyte.co/categories/refactoring/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/sapan-parikh\/": {
+          "title": "Sapan Parikh",
+          "tags": [],
+          "authors":[],
+          "summary":"A tech evangelist and mentor, Sapan has been fuelled by two things in his 15+ year professional career; coffee and his love of designing self-motivated, high-performing and passionate software engineering teams.",
+          "content":"A tech evangelist and mentor, Sapan has been fuelled by two things in his 15+ year professional career; coffee and his love of designing self-motivated, high-performing and passionate software engineering teams. Being a software craftsperson at heart, he has created and coached teams of over 500 software developers spread across the US and India with the sole objective of forging exceptional software products with an unfettered focus on quality.\n",
+          "image":"/images/favicon.png",
+          "date": "August 18, 2023",
+          "url": "https://blog.incubyte.co/authors/sapan-parikh/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/modernization\/": {
+          "title": "Modernization",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "August 3, 2023",
+          "url": "https://blog.incubyte.co/tags/modernization/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/modernization\/": {
+          "title": "Modernization",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "August 3, 2023",
+          "url": "https://blog.incubyte.co/categories/modernization/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/build-deployment-case-study\/": {
@@ -1505,6 +1285,28 @@
           "url": "https://blog.incubyte.co/authors/nirav-chavda/"
       },
       
+      "https:\/\/blog.incubyte.co\/tags\/playbook\/": {
+          "title": "Playbook",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "July 27, 2023",
+          "url": "https://blog.incubyte.co/tags/playbook/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/playbook\/": {
+          "title": "Playbook",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "July 27, 2023",
+          "url": "https://blog.incubyte.co/categories/playbook/"
+      },
+      
       "https:\/\/blog.incubyte.co\/blog\/refactoring-to-tidying\/": {
           "title": "The Compounding Effect of Tidying Using CodeScene",
           "tags": ["Refactoring","CodeScene",],
@@ -1514,61 +1316,6 @@
           "image":"/images/2023/codescene_refactoring/blog_header.jpg",
           "date": "July 21, 2023",
           "url": "https://blog.incubyte.co/blog/refactoring-to-tidying/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/architect\/": {
-          "title": "Architect",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "June 28, 2023",
-          "url": "https://blog.incubyte.co/tags/architect/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/architect\/": {
-          "title": "Architect",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "June 28, 2023",
-          "url": "https://blog.incubyte.co/categories/architect/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/blog\/think-like-architect\/": {
-          "title": "How to Think Like an Architect",
-          "tags": ["Architect","Learning","Software Craftsmanship",],
-          "authors":["Abhishek Keshri",],
-          "summary":"Have you ever wondered what skills it takes to be a software architect?",
-          "content":"Have you ever wondered what skills it takes to be a software architect?\nWhile civil architects design awe-inspiring structures that stand the test of time, software architects craft intricate architectures that form the foundation of modern technology. Software architects mold the digital landscape as we know it.\nArchitects possess a unique mindset that enables them to design and develop robust software architectures. Their ability to think strategically, make informed decisions, and balance trade-offs is vital for creating successful systems.\nIn this article, we dive deep into key principles and strategies that will help you train your brain to think like an architect.\nThe First Law of Software Architecture: Everything is a Trade-off The foundation of architectural thinking lies in understanding that everything in software architecture involves trade-offs. Architectural decisions require careful consideration of competing factors, such as\nPerformance vs. Readability Modularity vs. Reusability Flexibility vs. Simplicity A good architect recognizes and embraces these trade-offs, making balanced choices that align with a project\u0026rsquo;s long-term goals.\nArchitectural Thinking Impacts Businesses, Teams and End Users Architectural thinking impacts business facets such as values, internal team dynamics, and customer satisfaction.\nBusiness Value In an organization, business executives and management may be concerned more with scalability, time-to-market, and cost-effectiveness. This is where architectural thinking becomes significant in delivering business value. Architects get to make technical choices with business goals in mind because they get to think more holistically.\nHappier Teams Architectural thinking fosters effective collaboration and empowers team members. By creating architectures that promote communication, clarity, and shared understanding, architects contribute to happier and more productive teams.\nUser Satisfaction A well-designed architecture ensures system reliability, performance and usability. Thinking like an architect means you prioritize user experience, i.e., the needs of your end user.\nStrategies for Identifying Architectural Characteristics Identifying architectural characteristics is crucial for designing effective software systems. Here are some strategies to find and define these characteristics:\nThrough Understanding the Business Domain: Gain a deep understanding of the domain in which the software system will operate. This understanding helps identify key concerns, requirements and constraints that influence the architecture.\nThrough User Stories and Requirements: Architectural characteristics can often be found implicitly or explicitly in user stories and requirements documents. Pay attention to both functional and non-functional requirements, as they provide insights into the desired qualities of the system.\nThrough Business Conversations: Engage in conversations with stakeholders, business analysts, and domain experts to uncover architectural characteristics. Discussions about system goals, performance expectations, and scalability requirements can reveal crucial insights for architectural decision-making.\nTechnical Depth vs. Breadth Striking a balance between technical depth and breadth is essential for architects. Here\u0026rsquo;s a breakdown of these two dimensions:\nThe 20-Minute Rule To enhance technical breadth, commit at least 20 minutes each day to expand your knowledge. Here are some resources that you can use to stay updated and explore new ideas:\nInfoQ Dzone Refcardz Thoughtworks Radar Hacker News Tips for Thinking Like an Architect To enhance your architect\u0026rsquo;s mindset, keep the following tips in mind:\nArchitecture is an iterative process, just like software development. Collaborative decision-making and communication are crucial in effective architecture. Involving developers and business stakeholders provides a broader perspective and considers multiple viewpoints. Be mindful of the context when making decisions Consider the specific project requirements, constraints and objectives to avoid falling into out-of-context traps. Avoid over-evangelizing a particular solution or technology. Architectural decisions should be driven by a project\u0026rsquo;s unique needs rather than personal preferences or biases. By embracing the principles of architectural thinking, you can cultivate a mindset that enables you to approach software design and decision-making like an architect. This perspective empowers you to create well-balanced, effective, and successful architectures.\n",
-          "image":"/images/2023/think-like-architect.png",
-          "date": "June 28, 2023",
-          "url": "https://blog.incubyte.co/blog/think-like-architect/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/learning\/": {
-          "title": "Learning",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "June 28, 2023",
-          "url": "https://blog.incubyte.co/tags/learning/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/learning\/": {
-          "title": "Learning",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "June 28, 2023",
-          "url": "https://blog.incubyte.co/categories/learning/"
       },
       
       "https:\/\/blog.incubyte.co\/tags\/ai\/": {
@@ -1681,28 +1428,6 @@
           "url": "https://blog.incubyte.co/blog/testing-with-java-tdd/"
       },
       
-      "https:\/\/blog.incubyte.co\/blog\/psychological-safety\/": {
-          "title": "Psychological Safety in Agile Teams",
-          "tags": ["Software Craftsmanship","Team Culture",],
-          "authors":["Sapan Parikh",],
-          "summary":"Think back to the first time your code was under review.",
-          "content":"Think back to the first time your code was under review. As the dread of receiving negative feedback looms over you, someone yells at you, \u0026ldquo;HEY! Don\u0026rsquo;t be scared. You need to feel safe\u0026rdquo;.\nUnless you are a bot, chances are this does not make you feel any safer!\nPsychological safety in a team is the belief that making mistakes, taking risks, and sharing ideas, opinions and concerns are acceptable, and the individuals who do so do not face repercussions or judgments.\nThe extent to which individuals feel safe in their work environment directly impacts their willingness to contribute as team players.\nPsychological safety, as a belief, is very individual. You cannot directly control the level of safety any team member feels.\nWhen teams feel psychologically safe, they embrace mistakes as learning opportunities and engage more in open communication.\nWhat Reduces Psychological Safety? In the coding world, fear of judgment and failure contribute to low psychological safety. During code reviews and pairing sessions, developers expose their way of working and unique thought processes. This could lead to their fear of being judged in terms of competence and the mistakes they make.\nSome signs of decreased psychological safety could be -\nBias towards following processes as opposed to mastering practices and blaming the process when something goes wrong Resistance to trying new things or taking risks Not expressing ideas or speaking up during meetings and discussions Hesitant to give feedback, only resorting to giving anonymous feedback Fear of embracing failures and mistakes Psychological Safety Improves During Co-creation When developers work in isolation, they may make their code perfect over multiple iterations before publishing it.\nThis published code sets a very high standard for everyone else on the team. However, no one has seen or realized that the code seems to look spotless due to multiple iterations.\nCo-creation lets you see the mistakes of others, their process, and finally, the outcome.\nOnce you can see others making mistakes, you feel safer making mistakes too!\nPairing, a practice in extreme programming and a type of co-creation allows team members to collaborate in coding activities, simultaneously seeing and accepting each other\u0026rsquo;s mistakes. It has a high impact on psychological safety.\nWhen you co-create more, you start to feel psychologically safer.\nThe diagram above shows this cycle:\nThe more you co-create, the more you see others making mistakes The more you see others making mistakes, the more you are open and accepting of errors The more you accept mistakes, own and of others, the more everyone feels psychologically safe The more everyone feels safe, the more they co-create. The loop continues. Reduce Batch Size to Increase Safety! Kent Beck famously said, “Make it work, make it right, make it fast.” (In that order!).\nA piece of code evolves as follows:\nIt first solves a specific problem. It is then refactored to be maintainable. If necessary, it is changed to perform better. In most organizations, these stages of evolution are not visible. Everyone directly sees the end state of the code through processes like pull requests(PRs).\nAs a result, others feel they must also showcase only their polished code, decreasing the likelihood of the entire team showing their work early in the SDLC.\nSo they wait on these changes until it piles up, resulting in a mountain of different work items batched together. As the batch size of PRs increases, so does the size of failures. Bigger the post-release issues, the more unsafe the developers feel!\nNow, imagine you are continuously releasing small, incremental changes. You are automatically reducing the size of possible failures and thus the repercussions, aren’t you?\nBy draft PRs, teams are encouraged to see how code evolves from mediocre to “perfect,” i.e., seeing a piece of code go through multiple iterations. The developers also reduce the batch size by showcasing their work early and frequently.\nThe diagram above shows this cycle:\nThe bigger the size of the failure, the less safe someone feels The less safe someone feels, the less likelihood of exposure to early work The less likelihood of them exposing their work early, the larger the batch size becomes The bigger the batch size, the higher the potential for failure, and the loop continues. Combining both system diagrams gives you a better understanding of the levers or knobs that positively and negatively impact psychological safety.\nPairing helps increase psychological safety as developers are open about their mistakes. Draft PRs help increase safety and decrease batch sizes. Sharing and learning from failures increases the psychological safety of a team. Higher psychological safety leads to a willingness to receive mentorship and improve technical competency. Conclusion Overlooking psychological safety leads to many consequences in different areas of a company. Unsafe employees feel unfulfilled and contribute to work poorly, affecting an organization\u0026rsquo;s quality of work and customer happiness.\nAs a first step, team leaders can lead by example. Acknowledging mistakes and actively seeking and implementing feedback is how you instill confidence in others to do the same.\nThis slowly moves the needle towards creating a productive and harmonious work environment where nobody feels penalized for making mistakes or restricted from sharing what\u0026rsquo;s on their mind.\nThanks to Dragan Stepanovic for the inspiration for this blog.\n",
-          "image":"/images/2023/psych-safety-header.jpg",
-          "date": "June 14, 2023",
-          "url": "https://blog.incubyte.co/blog/psychological-safety/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/team-culture\/": {
-          "title": "Team Culture",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "June 14, 2023",
-          "url": "https://blog.incubyte.co/tags/team-culture/"
-      },
-      
       "https:\/\/blog.incubyte.co\/authors\/padma-b\/": {
           "title": "Padma B",
           "tags": [],
@@ -1734,28 +1459,6 @@
           "image":"/images/2023/03/code.jpg",
           "date": "March 10, 2023",
           "url": "https://blog.incubyte.co/blog/salesforce-vs-in-house-custom-development/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/blog\/accelerate-metrics\/": {
-          "title": "Accelerate: Metrics that Define High-Performance Software Delivery",
-          "tags": ["Modernization","Book Review",],
-          "authors":["Sapan Parikh",],
-          "summary":"Accelerate by Nicole Forsgren, Jez Humble, and Gene Kim was released in 2018, and it changed how I think about software delivery.",
-          "content":"Accelerate by Nicole Forsgren, Jez Humble, and Gene Kim was released in 2018, and it changed how I think about software delivery.\nWho really is responsible for the software delivery business or engineering? The book summarizes years of research of the State of DevOps Reports and presents four key metrics to measure software delivery performance. Each measure balances the other in such a way that an organization can perform well only if business and engineering work hand in hand, and it\u0026rsquo;s hard for someone to cheat the system!\nHere is how the four measures are defined in the State of DevOps Reports 2022.\nDeployment Frequency For the primary application or service you work on, how often does your organization deploy code to production or release it to end users? The best in this category would be organizations that can deploy their code more than once a day.\nLead Time for Changes For the primary application or service you work on, what is your lead time for changes (i.e., how long does it take to go from code committed to code successfully running in production)? The best-performing organization has a lead time ranging from one day to one week.\nTime to Restore Service For the primary application or service you work on, how long does it generally take to restore service when a service incident, or a defect that impacts users occurs (e.g., unplanned outage or service impairment)? Best companies can recover in less than one day.\nChange Failure Rate For the primary application or service you work on, what percentage of changes to production or released to users result in degraded service (e.g., lead to service impairment or service outage) and subsequently require remediation (e.g., require a hotfix, rollback, fix forward, patch)?\nBest companies allow such incidents to be as low as 0 to 15%\nThese measures keep both business and engineering in check because they self-balance each other. If you try to reduce the lead time to change without adopting proper engineering practices, then your change failure rate may increase. If you want to decrease the change failure rate by never upgrading your customers, then your deployment frequency may reduce so on and so forth!\nAt Incubyte, we\u0026rsquo;ve taken software craftsmanship to heart. Internalizing an Agile and craftsmanship mindset has helped us focus on what makes our customers and end users happier. Small and frequent releases help us get value in the hands of the end users fast, get feedback from them fast, and continuously refine the product to create maximum impact - fast! Disciplined engineering practices have ensured that our software is always stable and bug-free. A user-first approach helps not only build the right product, but also fosters a collaborative and productive relationship with our customers.\n",
-          "image":"/images/2023/03/accelerate.jpg",
-          "date": "March 8, 2023",
-          "url": "https://blog.incubyte.co/blog/accelerate-metrics/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/book-review\/": {
-          "title": "Book Review",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "March 8, 2023",
-          "url": "https://blog.incubyte.co/tags/book-review/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/clean-agile-with-uncle-bob-a-summary\/": {
@@ -1857,6 +1560,17 @@
           "url": "https://blog.incubyte.co/blog/simple-sabotage/"
       },
       
+      "https:\/\/blog.incubyte.co\/tags\/book-review\/": {
+          "title": "Book Review",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 15, 2023",
+          "url": "https://blog.incubyte.co/tags/book-review/"
+      },
+      
       "https:\/\/blog.incubyte.co\/blog\/monnai-case-study\/": {
           "title": "Monnai: A Product Launch Journey",
           "tags": ["Case Study",],
@@ -1866,6 +1580,28 @@
           "image":"/images/2023/monnai-case-study/monnai-banner-blog.jpg",
           "date": "November 5, 2022",
           "url": "https://blog.incubyte.co/blog/monnai-case-study/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/angular\/": {
+          "title": "Angular",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "October 10, 2022",
+          "url": "https://blog.incubyte.co/tags/angular/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/angular\/": {
+          "title": "Angular",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "October 10, 2022",
+          "url": "https://blog.incubyte.co/categories/angular/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/angular-provider\/": {
@@ -1976,50 +1712,6 @@
           "image":"/images/2022/07/outsidein.jpg",
           "date": "July 2, 2022",
           "url": "https://blog.incubyte.co/blog/rails-restapi-tdd/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/authors\/arohi-parikh\/": {
-          "title": "Arohi Parikh",
-          "tags": [],
-          "authors":[],
-          "summary":"Operations @incubyte_co | Community Builder @swcraftindia | Conscious Human | Words: \u0026ldquo;Leave the world better than you found it\u0026rdquo;",
-          "content":"Operations @incubyte_co | Community Builder @swcraftindia | Conscious Human | Words: \u0026ldquo;Leave the world better than you found it\u0026rdquo;\n",
-          "image":"/authors/arohi-parikh/arohi.jpg",
-          "date": "June 22, 2022",
-          "url": "https://blog.incubyte.co/authors/arohi-parikh/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/careers\/": {
-          "title": "Careers",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "June 22, 2022",
-          "url": "https://blog.incubyte.co/tags/careers/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/careers\/": {
-          "title": "Careers",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "June 22, 2022",
-          "url": "https://blog.incubyte.co/categories/careers/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/blog\/software-crsftspeople-interview-process\/": {
-          "title": "How We Hire Software Craftspeople",
-          "tags": ["Careers","Software Craftsmanship",],
-          "authors":["Arohi Parikh",],
-          "summary":"Incubyte is a combined effort of its team. Working here entails bringing your knowledge, curiosity and authenticity to the table.",
-          "content":"Incubyte is a combined effort of its team. Working here entails bringing your knowledge, curiosity and authenticity to the table. Our recruiting process plays a vital role here, and it is carefully designed to identify the right people whose technical prowess, culture and mindset, all align with that of the company.\nWe deeply care about our core values (Why Incubyte) and strive toward making our workplace a nurturing, diverse and inclusive environment. There exists a culture of constant learning and feedback enabling an equal opportunity for everyone to thrive professionally and be the best version of themselves they can be.\nA typical interview process at Incubyte involves 5 stages:\nApplication (See our open positions) Self-paced, prerequisite learning Call with the People Success Team Technical Discussion Hands-on Pairing Self-paced, Prerequisite Learning Once your application is shortlisted, you will receive an email with a list of resources and short videos. This email is meant to help prepare you for the interview process and set you up for success. The suggested learning in the email is self-paced and there is no time limit for you to complete it - we\u0026rsquo;re perpetually hiring!\nSome of our favourites:\nTest-Driven Development Software Craftsmanship Clean Code The email also highlights other skills needed for the interviews. For example, knowing common git operations, hands-on knowledge of your IDE (with shortcuts), and an understanding of a unit testing framework to name a few!\nCall with our People Success Team This step helps align your expectations from the role with what we have to offer. Being remote-first also means that it is important we\u0026rsquo;re aligned not just on tech, but also on culture, attitude, and core values! Our People Success Team would also love to answer any questions you have about the company, so ask away!\nTechnical Discussion with an Incubyte Craftsperson A 30-minute discussion focused on your technical background and journey so far. You can expect the conversation to revolve around languages, frameworks and databases you have worked with, your prior experiences, projects, etc. This is for us to get introduced to the depth and breadth of your technical expertise.\nHands-on Pairing with an Incubyte Craftsperson This round is where the fun begins! Fire up your IDE with the language of your choice, have a working Hello World project pre-opened, and be ready to get your hands dirty. We will solve a short Kata together as a team! Consider this round as a pairing exercise, in which an Incubyte Craftsperson will partner with you and act as a navigator. It is fine to look stuff up on the internet, we Google things while working on production projects ALL the time - it\u0026rsquo;s the thought process that matters!\nIt is important that you have a good Wi-Fi connection since we\u0026rsquo;d want to have your video on during both these technical rounds.\nThis brings us to the end of our interview process. Expect to walk away with an offer once you have cleared all these rounds. We\u0026rsquo;ve even put together some additional information to help you crack it! You\u0026rsquo;re welcome. ;)\nCheat Sheet (a.k.a. how to crack interviews at Incubyte) We have broken this down into two parts:\nTechnical Non-technical Technical We want to see how you code, think and generally vibe with the things that matter to us. Clean coding, Test-Driven Development (TDD), Pairing, Refactoring, Behaviour Driven Development (BDD), and working in iterations are a few practices we take seriously. In our interviews for Software Craftspeople, we look for everything from a neat directory structure to the use of build management tools like Maven, Gradle, npm; proficiency in the programming language of your choice (we majorly use Java, C#, Python \u0026amp; TypeScript); unit test frameworks such as JUnit, testNG, PyTest, Jest, Mocha and more!\nWe do not expect everyone to be proficient at all of the above, but knowing about the benefits and committing to master them is a great start. Preparing for the interview by implementing these practises on a few Katas will help a lot.\nNon-technical Attitude, effective communication, the ability to accept and deliver feedback, how well you use your IDE (read-shortcuts), the ability to work collaboratively as a team, and a consultant mindset to name a few, are some qualities we look for in a future team member. A common thread that binds every single person at Incubyte is the passion to keep learning. We learn -\u0026gt; apply -\u0026gt; learn again -\u0026gt; apply once more towards the goal of achieving professional mastery. We believe that each individual owns their own career and is a lifelong learner. Here is a curated a blog on books we recommended to this effect: (here)\nLife cannot be all work. Read your favourite books, write blogs, help with documents on GitHub, contribute to OSS or give back to the community, you will be provided with endless amounts of encouragement for wherever your passion lies.\nTo sum it all up Our interview process helps us not only identify the interviewees’ technical skills but also their intrinsic qualities such as principles, beliefs and values. The key take-aways are:\nCode should be logically correct It’s not just about completing the task, it’s more about the approach We are huge fans of clean code practices Simplicity and readability top the game Effective communication and the right attitude are as vital as technical proficiency We look for people with hunger for knowledge and a passion for mastering their craft. If you think you have the perfect blend of skills and expertise (or know someone who does) for this, drop us a note at careers@incubyte.co\nGo to current openings.\n",
-          "image":"/images/2023/hire.jpg",
-          "date": "June 22, 2022",
-          "url": "https://blog.incubyte.co/blog/software-crsftspeople-interview-process/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/five-git-tricks\/": {
@@ -2209,6 +1901,28 @@
           "url": "https://blog.incubyte.co/blog/code-coverage-and-reliability/"
       },
       
+      "https:\/\/blog.incubyte.co\/tags\/careers\/": {
+          "title": "Careers",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 4, 2022",
+          "url": "https://blog.incubyte.co/tags/careers/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/careers\/": {
+          "title": "Careers",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 4, 2022",
+          "url": "https://blog.incubyte.co/categories/careers/"
+      },
+      
       "https:\/\/blog.incubyte.co\/tags\/devops\/": {
           "title": "DevOps",
           "tags": [],
@@ -2264,6 +1978,28 @@
           "url": "https://blog.incubyte.co/blog/tdd-assessment/"
       },
       
+      "https:\/\/blog.incubyte.co\/tags\/best-practices\/": {
+          "title": "Best Practices",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "August 19, 2021",
+          "url": "https://blog.incubyte.co/tags/best-practices/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/best-practices\/": {
+          "title": "Best Practices",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "August 19, 2021",
+          "url": "https://blog.incubyte.co/categories/best-practices/"
+      },
+      
       "https:\/\/blog.incubyte.co\/blog\/techniques-for-an-agile-team\/": {
           "title": "Ideas for Successful Agile Teams",
           "tags": ["Software Craftsmanship","Agile","Best Practices","SDLC",],
@@ -2306,6 +2042,17 @@
           "image": null ,
           "date": "August 19, 2021",
           "url": "https://blog.incubyte.co/categories/sdlc/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/arohi-parikh\/": {
+          "title": "Arohi Parikh",
+          "tags": [],
+          "authors":[],
+          "summary":"Operations @incubyte_co | Community Builder @swcraftindia | Conscious Human | Words: \u0026ldquo;Leave the world better than you found it\u0026rdquo;",
+          "content":"Operations @incubyte_co | Community Builder @swcraftindia | Conscious Human | Words: \u0026ldquo;Leave the world better than you found it\u0026rdquo;\n",
+          "image":"/authors/arohi-parikh/arohi.jpg",
+          "date": "July 1, 2021",
+          "url": "https://blog.incubyte.co/authors/arohi-parikh/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/one-year-of-incubyte\/": {
@@ -2548,6 +2295,17 @@
           "image":"/images/2023/testing-estimate-header.jpg",
           "date": "September 1, 2020",
           "url": "https://blog.incubyte.co/blog/do-not-show-separate-estimate-for-testing/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/blog\/hiring-process\/": {
+          "title": "How We Hire Software Craftspeople",
+          "tags": ["Careers","Playbook","Jobs","Getting Started",],
+          "authors":["Karishma Shah",],
+          "summary":"Any organization is the sum of its people and employees are its main spokespeople.",
+          "content":"Any organization is the sum of its people and employees are its main spokespeople. Human capital is our most valued asset. So, hiring suitable candidates, who share the same values and core principles as Incubyte is our biggest imperative.\nTo do this, we handle our recruitment process and like to take our time evaluating all aspects of applicants before we make them a part of our team. Our interview process is designed to help us understand the breadth and depth of a candidate\u0026rsquo;s technical expertise, soft skills as well as more intangible things like values and principles. The latter also being an intrinsic screening criterion, both during the hiring process as well as after joining, we hold our people to very high personal values. Integrity, honesty and accountability, among others, are non-negotiable and we try to gauge each through the entire process.\nThe end-to-end employee selection process has five steps:\n1. Coding Test: Candidates take an online coding test and send us a link to their Git repo. The instructions are simple…they need to code up the problem using Test Driven Development.\nOur goals at this interview stage are to:\na) Finding potential candidates who invest their time in taking our hiring test, and so are interested in becoming a part of our current team\nb) Evaluate their thought process, problem-solving skills and concept clarity.\n2. Phone interview: This is usually a 30-minute call with our hiring team for us to get to know each other and see if our values and interests align. We start with open-ended questions and gradually go through past experiences, a few background checks; explain the role and gauge where their interests lie. At this stage, we are more interested in the mindset and understanding the criteria that are important for the candidate, in work and life! We are also happy to answer any and every question that the candidate might have for us.\n3. Technical Interview: Next up is a technical/functional conversation with one of our software engineers. The goal here is for us to get a better understanding of technical skills and a glimpse into their developer intelligence. This is a great opportunity for the candidate to ask questions and know more about the company culture from the current employees.\n4. Live Coding Session: This remote interview of programming session with one (or more) of our Craftspeople, with the choice of IDE and tooling left to the applicant. In this phase, we tackle a coding kata together, to help us, deep-dive, into their coding language and software design skills, their inclination and ability to pair and their willingness for feedback. This is also a really good platform for candidates to point us to snippets of code or past work they\u0026rsquo;ve done that showcase their talent.\n5. The Finale: This is a call with the talent makers(our founders) to determine alignment in attitude, emotional intelligence and work philosophy. This may also include a short coding session and some technical questions. It is mostly an open-ended casual conversation to see if we like each other and our expectations are aligned.\nIn the end, post all the reference checks, if there is a unanimous thumbs up from everyone involved in the process, the applicant is now a colleague and the onboarding process begins!\nHaving said that, it is not easy to find potential employees with the high technical, personal and cultural values that we hold oh, so dear! Our hiring ratio is less than 0.20% of people we talk to, so don\u0026rsquo;t feel disheartened. We always give constructive feedback and are more than happy to talk to a candidate again once they have honed their skills!\nOur process is hard and time-consuming, but we are invested in it, are constantly looking to improve it, and do whatever it takes to find that person from the talent pool, who will help us learn, grow, and become smarter together.\n",
+          "image":"/images/2021/06/WhatsApp-Image-2021-06-25-at-12.43.20-PM.jpeg",
+          "date": "September 1, 2020",
+          "url": "https://blog.incubyte.co/blog/hiring-process/"
       },
       
       "https:\/\/blog.incubyte.co\/tags\/security\/": {

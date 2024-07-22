@@ -59,52 +59,10 @@
       <description></description>
     </item>
     <item>
-      <title>Angular</title>
-      <link>https://blog.incubyte.co/tags/angular/</link>
-      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/tags/angular/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Migration</title>
-      <link>https://blog.incubyte.co/tags/migration/</link>
-      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/tags/migration/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Modernization</title>
-      <link>https://blog.incubyte.co/tags/modernization/</link>
-      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/tags/modernization/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Ruby</title>
       <link>https://blog.incubyte.co/tags/ruby/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/tags/ruby/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Daily Scrum</title>
-      <link>https://blog.incubyte.co/tags/daily-scrum/</link>
-      <pubDate>Thu, 28 Dec 2023 17:48:58 +0530</pubDate>
-      <guid>https://blog.incubyte.co/tags/daily-scrum/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Meeting</title>
-      <link>https://blog.incubyte.co/tags/meeting/</link>
-      <pubDate>Thu, 28 Dec 2023 17:48:58 +0530</pubDate>
-      <guid>https://blog.incubyte.co/tags/meeting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Playbook</title>
-      <link>https://blog.incubyte.co/tags/playbook/</link>
-      <pubDate>Thu, 28 Dec 2023 17:48:58 +0530</pubDate>
-      <guid>https://blog.incubyte.co/tags/playbook/</guid>
       <description></description>
     </item>
     <item>
@@ -129,27 +87,6 @@
       <description></description>
     </item>
     <item>
-      <title>Best Practices</title>
-      <link>https://blog.incubyte.co/tags/best-practices/</link>
-      <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
-      <guid>https://blog.incubyte.co/tags/best-practices/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dependency Management</title>
-      <link>https://blog.incubyte.co/tags/dependency-management/</link>
-      <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
-      <guid>https://blog.incubyte.co/tags/dependency-management/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Technical Debt</title>
-      <link>https://blog.incubyte.co/tags/technical-debt/</link>
-      <pubDate>Fri, 08 Sep 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/tags/technical-debt/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>CodeScene</title>
       <link>https://blog.incubyte.co/tags/codescene/</link>
       <pubDate>Fri, 18 Aug 2023 00:10:46 +0530</pubDate>
@@ -164,6 +101,13 @@
       <description></description>
     </item>
     <item>
+      <title>Modernization</title>
+      <link>https://blog.incubyte.co/tags/modernization/</link>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/tags/modernization/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>DevEx</title>
       <link>https://blog.incubyte.co/tags/devex/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
@@ -171,17 +115,10 @@
       <description></description>
     </item>
     <item>
-      <title>Architect</title>
-      <link>https://blog.incubyte.co/tags/architect/</link>
-      <pubDate>Wed, 28 Jun 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/tags/architect/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Learning</title>
-      <link>https://blog.incubyte.co/tags/learning/</link>
-      <pubDate>Wed, 28 Jun 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/tags/learning/</guid>
+      <title>Playbook</title>
+      <link>https://blog.incubyte.co/tags/playbook/</link>
+      <pubDate>Thu, 27 Jul 2023 20:04:38 +0530</pubDate>
+      <guid>https://blog.incubyte.co/tags/playbook/</guid>
       <description></description>
     </item>
     <item>
@@ -206,24 +143,24 @@
       <description></description>
     </item>
     <item>
-      <title>Team Culture</title>
-      <link>https://blog.incubyte.co/tags/team-culture/</link>
-      <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/tags/team-culture/</guid>
+      <title>GraphQL</title>
+      <link>https://blog.incubyte.co/tags/graphql/</link>
+      <pubDate>Thu, 23 Feb 2023 11:33:15 +0530</pubDate>
+      <guid>https://blog.incubyte.co/tags/graphql/</guid>
       <description></description>
     </item>
     <item>
       <title>Book Review</title>
       <link>https://blog.incubyte.co/tags/book-review/</link>
-      <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/tags/book-review/</guid>
       <description></description>
     </item>
     <item>
-      <title>GraphQL</title>
-      <link>https://blog.incubyte.co/tags/graphql/</link>
-      <pubDate>Thu, 23 Feb 2023 11:33:15 +0530</pubDate>
-      <guid>https://blog.incubyte.co/tags/graphql/</guid>
+      <title>Angular</title>
+      <link>https://blog.incubyte.co/tags/angular/</link>
+      <pubDate>Mon, 10 Oct 2022 12:50:00 +0530</pubDate>
+      <guid>https://blog.incubyte.co/tags/angular/</guid>
       <description></description>
     </item>
     <item>
@@ -245,13 +182,6 @@
       <link>https://blog.incubyte.co/tags/terraform/</link>
       <pubDate>Wed, 28 Sep 2022 10:52:06 +0530</pubDate>
       <guid>https://blog.incubyte.co/tags/terraform/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Careers</title>
-      <link>https://blog.incubyte.co/tags/careers/</link>
-      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/tags/careers/</guid>
       <description></description>
     </item>
     <item>
@@ -297,10 +227,24 @@
       <description></description>
     </item>
     <item>
+      <title>Careers</title>
+      <link>https://blog.incubyte.co/tags/careers/</link>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/tags/careers/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>DevOps</title>
       <link>https://blog.incubyte.co/tags/devops/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Best Practices</title>
+      <link>https://blog.incubyte.co/tags/best-practices/</link>
+      <pubDate>Thu, 19 Aug 2021 05:06:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/tags/best-practices/</guid>
       <description></description>
     </item>
     <item>

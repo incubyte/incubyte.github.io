@@ -7,22 +7,8 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 05 Oct 2023 00:10:46 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 18 Aug 2023 00:10:46 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/authors/sapan-parikh/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Software Modernization For Legacy Software</title>
-      <link>https://blog.incubyte.co/blog/software-modernization-for-legacy-software/</link>
-      <pubDate>Thu, 05 Oct 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/software-modernization-for-legacy-software/</guid>
-      <description>Originally published on Forbes Technology Council.&#xA;The term &amp;ldquo;modernization&amp;rdquo; holds diverse meanings for different organizations.</description>
-    </item>
-    <item>
-      <title>Why Companies Become Stuck In Bad Coding Loops — And How To Escape Them</title>
-      <link>https://blog.incubyte.co/blog/escape-bad-coding-loop/</link>
-      <pubDate>Fri, 08 Sep 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/escape-bad-coding-loop/</guid>
-      <description>Originally published on Forbes Technology Council.&#xA;Imagine a multimillion-dollar company with a lot of software.</description>
-    </item>
     <item>
       <title>Code Tidying: The Story of a Backseat Driver</title>
       <link>https://blog.incubyte.co/blog/code-tidying/</link>
@@ -52,25 +38,11 @@
       <description>It turns out that most of a developer&amp;rsquo;s tasks end up being tactical activities, such as adding a text box here, adding a checkbox there, fixing a bug, or working with an outage.</description>
     </item>
     <item>
-      <title>Psychological Safety in Agile Teams</title>
-      <link>https://blog.incubyte.co/blog/psychological-safety/</link>
-      <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/psychological-safety/</guid>
-      <description>Think back to the first time your code was under review.</description>
-    </item>
-    <item>
       <title>Is there a more economical and efficient alternative to Salesforce?</title>
       <link>https://blog.incubyte.co/blog/salesforce-vs-in-house-custom-development/</link>
       <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/salesforce-vs-in-house-custom-development/</guid>
       <description>Choosing a direction when redefining your organization&amp;rsquo;s technical backbone is never easy.</description>
-    </item>
-    <item>
-      <title>Accelerate: Metrics that Define High-Performance Software Delivery</title>
-      <link>https://blog.incubyte.co/blog/accelerate-metrics/</link>
-      <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/accelerate-metrics/</guid>
-      <description>Accelerate by Nicole Forsgren, Jez Humble, and Gene Kim was released in 2018, and it changed how I think about software delivery.</description>
     </item>
     <item>
       <title>Clean Agile with Uncle Bob: A Summary</title>

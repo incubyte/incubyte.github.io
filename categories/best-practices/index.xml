@@ -7,15 +7,8 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 27 Sep 2023 15:48:02 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 19 Aug 2021 05:06:00 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/categories/best-practices/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The Importance of Committing Lock Files in Dependency Management</title>
-      <link>https://blog.incubyte.co/blog/should-you-commit-lock-file/</link>
-      <pubDate>Wed, 27 Sep 2023 15:48:02 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/should-you-commit-lock-file/</guid>
-      <description>In software development, dependency management is a critical aspect that directly impacts the stability and reproducibility of your projects.</description>
-    </item>
     <item>
       <title>Ideas for Successful Agile Teams</title>
       <link>https://blog.incubyte.co/blog/techniques-for-an-agile-team/</link>

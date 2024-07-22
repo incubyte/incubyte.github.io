@@ -24,13 +24,6 @@
       <description>When was the last time you considered unique identifiers (IDs) for your projects?</description>
     </item>
     <item>
-      <title>Standup Meeting Playbook</title>
-      <link>https://blog.incubyte.co/blog/standup/</link>
-      <pubDate>Thu, 28 Dec 2023 17:48:58 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/standup/</guid>
-      <description>The &amp;ldquo;Standup meeting&amp;rdquo; or &amp;ldquo;Daily Scrum&amp;rdquo; that everyone does religiously just for the sake of calling themselves &amp;ldquo;Agile.</description>
-    </item>
-    <item>
       <title>Using dup vs deep dup in Ruby on Rails</title>
       <link>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</link>
       <pubDate>Thu, 09 Nov 2023 18:20:29 +0530</pubDate>
@@ -52,13 +45,6 @@
       <description>Before you begin A Software Craftsperson at Incubyte is a person who has a strong commitment to the craft of software development.</description>
     </item>
     <item>
-      <title>How to Think Like an Architect</title>
-      <link>https://blog.incubyte.co/blog/think-like-architect/</link>
-      <pubDate>Wed, 28 Jun 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/think-like-architect/</guid>
-      <description>Have you ever wondered what skills it takes to be a software architect?</description>
-    </item>
-    <item>
       <title>Prompt Engineering 101</title>
       <link>https://blog.incubyte.co/blog/prompt-engg/</link>
       <pubDate>Fri, 23 Jun 2023 00:10:46 +0530</pubDate>
@@ -71,13 +57,6 @@
       <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/testing-with-java-tdd/</guid>
       <description>In the annals of software development, there exists a cautionary tale from the year 1996, when the European Space Agency (ESA) launched its ambitious Ariane 5 rocket.</description>
-    </item>
-    <item>
-      <title>Psychological Safety in Agile Teams</title>
-      <link>https://blog.incubyte.co/blog/psychological-safety/</link>
-      <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/psychological-safety/</guid>
-      <description>Think back to the first time your code was under review.</description>
     </item>
     <item>
       <title>Using Azure DevOps to Create Robust Product Roadmaps</title>
@@ -127,13 +106,6 @@
       <pubDate>Sat, 02 Jul 2022 02:32:46 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/rails-restapi-tdd/</guid>
       <description>There is always a disciplined way to do things I was waiting for the coffee dispenser to finish filling up my cup and my mind started wandering.</description>
-    </item>
-    <item>
-      <title>How We Hire Software Craftspeople</title>
-      <link>https://blog.incubyte.co/blog/software-crsftspeople-interview-process/</link>
-      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/software-crsftspeople-interview-process/</guid>
-      <description>Incubyte is a combined effort of its team. Working here entails bringing your knowledge, curiosity and authenticity to the table.</description>
     </item>
     <item>
       <title>Five Git Tricks To Make Crafting Software Easier</title>
