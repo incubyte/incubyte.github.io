@@ -77,18 +77,6 @@
     <loc>https://blog.incubyte.co/blog/using-firebase-cloud-functions/</loc>
     <lastmod>2024-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/authors/abhishek-keshri/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/case-study/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/case-study/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/blog/accessibility-case-study/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/tags/ruby/</loc>
     <lastmod>2024-01-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -152,15 +140,6 @@
     <loc>https://blog.incubyte.co/authors/sapan-parikh/</loc>
     <lastmod>2023-08-18T00:10:46+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/modernization/</loc>
-    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/modernization/</loc>
-    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/blog/build-deployment-case-study/</loc>
-    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/tags/devex/</loc>
     <lastmod>2023-08-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -184,6 +163,9 @@
   </url><url>
     <loc>https://blog.incubyte.co/blog/refactoring-to-tidying/</loc>
     <lastmod>2023-07-21T00:10:46+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/abhishek-keshri/</loc>
+    <lastmod>2023-06-23T00:10:46+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/ai/</loc>
     <lastmod>2023-06-23T00:10:46+05:30</lastmod>
@@ -221,6 +203,12 @@
     <loc>https://blog.incubyte.co/blog/product-roadmaps-with-azure-devops/</loc>
     <lastmod>2023-04-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blog.incubyte.co/tags/case-study/</loc>
+    <lastmod>2023-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/case-study/</loc>
+    <lastmod>2023-03-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.incubyte.co/blog/salesforce-vs-in-house-custom-development/</loc>
     <lastmod>2023-03-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -239,23 +227,14 @@
     <loc>https://blog.incubyte.co/blog/testing-with-java-intro/</loc>
     <lastmod>2023-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/blog/finance-case-study/</loc>
-    <lastmod>2023-02-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/authors/deepshikha-pingle/</loc>
-    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/blog/global-case-study/</loc>
-    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/blog/simple-sabotage/</loc>
     <lastmod>2023-01-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/book-review/</loc>
     <lastmod>2023-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/blog/monnai-case-study/</loc>
-    <lastmod>2022-11-05T00:00:00+00:00</lastmod>
+    <loc>https://blog.incubyte.co/tags/modernization/</loc>
+    <lastmod>2023-01-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/angular/</loc>
     <lastmod>2022-10-10T12:50:00+05:30</lastmod>

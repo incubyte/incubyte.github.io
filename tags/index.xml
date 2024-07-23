@@ -52,13 +52,6 @@
       <description></description>
     </item>
     <item>
-      <title>Case Study</title>
-      <link>https://blog.incubyte.co/tags/case-study/</link>
-      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/tags/case-study/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Ruby</title>
       <link>https://blog.incubyte.co/tags/ruby/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
@@ -101,13 +94,6 @@
       <description></description>
     </item>
     <item>
-      <title>Modernization</title>
-      <link>https://blog.incubyte.co/tags/modernization/</link>
-      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/tags/modernization/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>DevEx</title>
       <link>https://blog.incubyte.co/tags/devex/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
@@ -143,6 +129,13 @@
       <description></description>
     </item>
     <item>
+      <title>Case Study</title>
+      <link>https://blog.incubyte.co/tags/case-study/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/tags/case-study/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>GraphQL</title>
       <link>https://blog.incubyte.co/tags/graphql/</link>
       <pubDate>Thu, 23 Feb 2023 11:33:15 +0530</pubDate>
@@ -154,6 +147,13 @@
       <link>https://blog.incubyte.co/tags/book-review/</link>
       <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/tags/book-review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modernization</title>
+      <link>https://blog.incubyte.co/tags/modernization/</link>
+      <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/tags/modernization/</guid>
       <description></description>
     </item>
     <item>
