@@ -35,7 +35,7 @@ Method can be called using dot notation but this restricts making the method cal
 There is another way to call a method that is using `send`. It accepts method name and the method's arguments as it own arguments.
 
 ```ruby
-	number.send(:square, 3) #=> 9
+number.send(:square, 3) #=> 9
 ```
 
 Since the method name is an argument it can be replaced by any method name during runtime.
@@ -60,16 +60,16 @@ We can not only call methods during runtime but also define methods during runti
 A method can be defined using `define_method` at the run time.
 
 ```ruby
-  class Number
-    define_component(method_name, argument, power)
-  	define_method(method_name) do |argument, power|
-  		argument ** power
-  	end
-    end
+class Number
+  define_component(method_name, argument, power)
+	define_method(method_name) do |argument, power|
+		argument ** power
+	end
   end
-	number = Number.new
-	number.define_component(square,4, 2) #=> 16
-	number.define_component(cube,4, 3) #=> 64
+end
+number = Number.new
+number.define_component(square,4, 2) #=> 16
+number.define_component(cube,4, 3) #=> 64
 ```
 
 There is another way of defining methods dynamically using method_missing.
