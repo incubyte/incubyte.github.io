@@ -34,11 +34,6 @@
 
 
         {{ partial "share-buttons.html" . }} {{ partial "subscribe.html" . }}
-
-        <!-- comments -->
-        {{ if site.DisqusShortname }}
-        <div class="mt-5">{{ template "_internal/disqus.html" . }}</div>
-        {{ end }}
       </div>
     </article>
   </div>
