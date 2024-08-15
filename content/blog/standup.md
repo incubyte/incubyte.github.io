@@ -3,7 +3,7 @@ title = "Standup Meeting Playbook"
 slug = "standup"
 date = 2023-12-28T17:48:58+05:30
 image = "/images/2023/12/meeting.jpg"
-draft = false
+draft = true
 authors = ["Akshay Vadher"]
 description = "Playbook to conduct effective standup meeting"
 tags = ["Playbook", "Software Craftsmanship", "Meeting", "Daily Scrum"]
@@ -123,6 +123,27 @@ Identify how many cards should have been moved and their current status.
 Any tool that publishes data is good enough.
 
 Many teams don't even use any! (These are very mature teams. I would recommend having some visual representation.)
+
+##### Q: Our team is small. Do we even need a standup meeting?
+
+In theory,
+if you have a mechanism like a storyboard or sticky notes on the wall that keeps you informed about the project status,
+a separate meeting may not seem essential.
+
+However, I would still recommend having a standup meeting, even for a two-person team.
+
+Wearing a different hat often leads to remarkable insights.
+To explain this through an analogy, take the example of the "duck debugging."
+When stuck with a problem, a developer tries to explain it to a rubber duck, and surprisingly, a solution often emerges.
+
+Similarly,
+conducting a standup meeting to share the project status can unexpectedly provide insights or generate solutions.
+Even if the audience is already informed or not particularly interested,
+the act of vocalizing the information can trigger valuable discussions.
+
+In essence,
+the standup meeting becomes a valuable process for problem-solving
+and maintaining a shared understanding of the project.
 
 ### What not to do
 

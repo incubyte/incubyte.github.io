@@ -27,6 +27,11 @@ Checkout the project and submodule
 
 ```bash
 git clone --recurse-submodules https://github.com/incubyte/incubyte.github.io.git
+```
+
+Run the server
+
+```bash
 cd incubyte.github.io
 hugo server -D
 ```
@@ -39,10 +44,8 @@ To add a new article
 hugo new blog/article-name.md`
 ```
 
-If you are adding images make sure they are optimized, we suggest something like `https://squoosh.app/`, images are stored in `static/images`
+- If you are adding images, add them to `static/images`, make sure they are optimized using `https://squoosh.app/`
+- Make sure to run `npx prettier --write .\content\blog\<filename>.md` before committing
+- Commit in a new branch and create PR against `main` branch
 
-When done with changes run `prettier -w file_path` for formatting
-
-Commit in a new branch and create PR against `main` branch
-
-[Contributing Guidelines](./CONTRIBUTING.md)
+You can learn more about [contributing guidelines here](./CONTRIBUTING.md)
