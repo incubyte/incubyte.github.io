@@ -56,4 +56,3 @@ These branches should be deleted as soon as the branch is merged to `main`.
 
 - If you are adding images, add them to `static/images`
 - Make sure they are optimized using a tool like `https://squoosh.app/`
-

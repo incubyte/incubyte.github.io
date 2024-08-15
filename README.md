@@ -30,6 +30,7 @@ git clone --recurse-submodules https://github.com/incubyte/incubyte.github.io.gi
 ```
 
 Run the server
+
 ```bash
 cd incubyte.github.io
 hugo server -D
