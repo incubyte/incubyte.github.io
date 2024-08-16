@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 17 Oct 2023 18:29:54 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 27 Oct 2023 13:31:36 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/authors/nitin-rajkumar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamic method in ruby</title>
+      <link>https://blog.incubyte.co/blog/dynamic-method/</link>
+      <pubDate>Fri, 27 Oct 2023 13:31:36 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/dynamic-method/</guid>
+      <description>In Ruby, the dynamic nature of method dispatch is one of its key features.</description>
+    </item>
     <item>
       <title>Monkey Patching in Ruby</title>
       <link>https://blog.incubyte.co/blog/monkey-patch/</link>

@@ -66,6 +66,20 @@
       <description></description>
     </item>
     <item>
+      <title>Dynamic Dispatch</title>
+      <link>https://blog.incubyte.co/categories/dynamic-dispatch/</link>
+      <pubDate>Fri, 27 Oct 2023 13:31:36 +0530</pubDate>
+      <guid>https://blog.incubyte.co/categories/dynamic-dispatch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ghost Methods</title>
+      <link>https://blog.incubyte.co/categories/ghost-methods/</link>
+      <pubDate>Fri, 27 Oct 2023 13:31:36 +0530</pubDate>
+      <guid>https://blog.incubyte.co/categories/ghost-methods/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Monkey Patching</title>
       <link>https://blog.incubyte.co/categories/monkey-patching/</link>
       <pubDate>Tue, 17 Oct 2023 18:29:54 +0530</pubDate>

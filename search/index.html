@@ -1054,6 +1054,61 @@
           "url": "https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/"
       },
       
+      "https:\/\/blog.incubyte.co\/categories\/dynamic-dispatch\/": {
+          "title": "Dynamic Dispatch",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "October 27, 2023",
+          "url": "https://blog.incubyte.co/categories/dynamic-dispatch/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/blog\/dynamic-method\/": {
+          "title": "Dynamic method in ruby",
+          "tags": ["Software Craftsmanship","GraphQL",],
+          "authors":["Nitin Rajkumar",],
+          "summary":"In Ruby, the dynamic nature of method dispatch is one of its key features.",
+          "content":"In Ruby, the dynamic nature of method dispatch is one of its key features. Method calls are resolved at runtime based on the actual type of the object. This flexibility allows for polymorphic and dynamic behavior\nDynamic Dispatch class Number def square(argument) argument ** 2 end def cube(argument) argument ** 3 end end number = Number.new number.square(3) #=\u0026gt; 9 Method can be called using dot notation but this restricts making the method call being dynamic.\nclass.method(\u0026quot;method_name\u0026quot;).call is way to invoke a method but is not a common pattern because it involves a more indirect and less flexible approach compared to other dynamic method invocation techniques.\nThere is another way to call a method that is using send. It accepts method name and the method\u0026rsquo;s arguments as it own arguments.\nnumber.send(:square, 3) #=\u0026gt; 9 Since the method name is an argument it can be replaced by any method name during runtime.\nputs \u0026#34;Enter a number:\u0026#34; user_input = gets.chomp puts \u0026#34;Enter the method name:\u0026#34; method_name = gets.chomp number.send(method_name.to_sym, 4) #=\u0026gt; 16 to_sym is used to convert string to symbol but method name can be passed as string. Using send to dispatch a method has a downside when it comes to privacy concerns as it invokes even a private method of the class without throwing an error. This can be prevented using by using public_send.\nWe can not only call methods during runtime but also define methods during runtime.\nDynamic Methods A method can be defined using define_method at the run time.\nclass Number define_component(method_name, argument, power) define_method(method_name) do |argument, power| argument ** power end end end number = Number.new number.define_component(square,4, 2) #=\u0026gt; 16 number.define_component(cube,4, 3) #=\u0026gt; 64 There is another way of defining methods dynamically using method_missing.\nGhost Method What happens when you call a method on an object that is not yet defined. A method missing error is displayed. What happens internally is ruby goes up the object hierarchy and checks up till BasicObject and when the method is not found it transfers the call to method_missing in BasicObject class, which returns NoMethodError.\nclass Book end book = Book.new book.author #=\u0026gt;undefined method `author\u0026#39; for #\u0026lt;Book:0x00005585e38e9720\u0026gt; (NoMethodError) We can override this method and return what we want to.\nclass Book def method_missing(method, args) \u0026#34;All missing methods return this string\u0026#34; end end book = Book.new book.author #=\u0026gt;\u0026#34;All missing methods return this string\u0026#34; method_missing comes with huge advantage when there are many methods with similar definition. It saves the time of writing them and testing them independently.\nCons Readability and maintainability of code. Security issues arise when method name is taken from input. When the method which is supposed to be missing is found in ancestors chain. Debugging would be complex. Conclusion It is worth noting that while these dynamic features of ruby are powerful they should be used with caution, considering trade-offs.\n",
+          "image":"/images/2023/10/methodmissing.jpg",
+          "date": "October 27, 2023",
+          "url": "https://blog.incubyte.co/blog/dynamic-method/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/ghost-methods\/": {
+          "title": "Ghost Methods",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "October 27, 2023",
+          "url": "https://blog.incubyte.co/categories/ghost-methods/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/graphql\/": {
+          "title": "GraphQL",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "October 27, 2023",
+          "url": "https://blog.incubyte.co/tags/graphql/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/nitin-rajkumar\/": {
+          "title": "Nitin Rajkumar",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "October 27, 2023",
+          "url": "https://blog.incubyte.co/authors/nitin-rajkumar/"
+      },
+      
       "https:\/\/blog.incubyte.co\/categories\/monkey-patching\/": {
           "title": "Monkey Patching",
           "tags": [],
@@ -1074,17 +1129,6 @@
           "image":"/images/2023/monkeypatch.png",
           "date": "October 17, 2023",
           "url": "https://blog.incubyte.co/blog/monkey-patch/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/authors\/nitin-rajkumar\/": {
-          "title": "Nitin Rajkumar",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "October 17, 2023",
-          "url": "https://blog.incubyte.co/authors/nitin-rajkumar/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/code-tidying\/": {
@@ -1426,17 +1470,6 @@
           "image":"/images/2021/06/Picture1-clean-agile-1.jpg",
           "date": "March 8, 2023",
           "url": "https://blog.incubyte.co/blog/clean-agile-with-uncle-bob-a-summary/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/graphql\/": {
-          "title": "GraphQL",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "February 23, 2023",
-          "url": "https://blog.incubyte.co/tags/graphql/"
       },
       
       "https:\/\/blog.incubyte.co\/categories\/graphql\/": {
