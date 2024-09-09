@@ -7,6 +7,14 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 05 Sep 2024 13:48:15 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/authors/deepak-sisodiya/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SOLID Principles in React: A Simple and Practical Guide</title>
+      <link>https://blog.incubyte.co/blog/solid-principles-in-react-a-simple-and-practical-guide/</link>
+      <pubDate>Thu, 05 Sep 2024 13:48:15 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/solid-principles-in-react-a-simple-and-practical-guide/</guid>
+      <description>&lt;p&gt;As a React developer, writing clean and maintainable code is crucial, and this is where the SOLID principles come in. SOLID is an acronym representing five core principles that help developers build robust, scalable, and flexible software. Even though SOLID was originally designed for object-oriented programming, we can apply it effectively to modern JavaScript frameworks like React.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

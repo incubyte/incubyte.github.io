@@ -5,7 +5,7 @@
 
 <head>
 	<meta charset="utf-8">
-<title>Incubyte Blog</title>
+<title>SOLID Principles in React: A Simple and Practical Guide</title>
 
 
 <base href="https://blog.incubyte.co/">
@@ -14,6 +14,7 @@
 
 
 
+<meta name="author" content="[Deepak Sisodiya]">
 <meta name="generator" content="Hugo 0.134.1">
 
 
@@ -30,25 +31,30 @@
 
 
 <!-- Open Graph image and Twitter Card metadata -->
-<meta property="og:image" content="https://blog.incubyte.co/images/logo.png" />
-<meta name="twitter:image" content="https://blog.incubyte.co/images/logo.png"/>
+<meta property="og:image" content="https://blog.incubyte.co/images/2024/solid-principles-in-react/header.jpg" />
+<meta name="twitter:image" content="https://blog.incubyte.co/images/2024/solid-principles-in-react/header.jpg"/>
 <meta name="twitter:card" content="summary_large_image">
-<meta property="og:image:width" content="1847">
-<meta property="og:image:height" content="511">
-<meta property="og:image:type" content="image/png">
-<meta name="twitter:title" content="Incubyte Blog"/>
-<meta name="twitter:description" content="Incubyte Blog"/>
-<meta property="og:url" content="https://blog.incubyte.co/">
+<meta property="og:image:width" content="1312">
+<meta property="og:image:height" content="736">
+<meta property="og:image:type" content="image/jpeg">
+<meta name="twitter:title" content="SOLID Principles in React: A Simple and Practical Guide"/>
+<meta name="twitter:description" content="As a React developer, writing clean and maintainable code is crucial, and this is where the SOLID principles come in. SOLID is an acronym representing five core principles that help developers build robust, scalable, and flexible software. Even though SOLID was originally designed for object-oriented programming, we can apply it effectively to modern JavaScript frameworks like React."/>
+<meta property="og:url" content="https://blog.incubyte.co/blog/solid-principles-in-react-a-simple-and-practical-guide/">
   <meta property="og:site_name" content="Incubyte Blog">
-  <meta property="og:title" content="Incubyte Blog">
-  <meta property="og:description" content="Incubyte Blog">
+  <meta property="og:title" content="SOLID Principles in React: A Simple and Practical Guide">
+  <meta property="og:description" content="As a React developer, writing clean and maintainable code is crucial, and this is where the SOLID principles come in. SOLID is an acronym representing five core principles that help developers build robust, scalable, and flexible software. Even though SOLID was originally designed for object-oriented programming, we can apply it effectively to modern JavaScript frameworks like React.">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2024-09-05T13:48:15+05:30">
+    <meta property="article:modified_time" content="2024-09-05T13:48:15+05:30">
+    <meta property="article:tag" content="React">
+    <meta property="article:tag" content="SOLID Principles">
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Incubyte Blog">
-  <meta name="twitter:description" content="Incubyte Blog">
+  <meta name="twitter:title" content="SOLID Principles in React: A Simple and Practical Guide">
+  <meta name="twitter:description" content="As a React developer, writing clean and maintainable code is crucial, and this is where the SOLID principles come in. SOLID is an acronym representing five core principles that help developers build robust, scalable, and flexible software. Even though SOLID was originally designed for object-oriented programming, we can apply it effectively to modern JavaScript frameworks like React.">
 
 
 
@@ -60,11 +66,16 @@
     {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "",
-        "image": "/",
+        "headline": "SOLID Principles in React: A Simple and Practical Guide",
+        "image": "/images/2024/solid-principles-in-react/header.jpg",
         "datePublished": "Thursday, September 5, 2024",
         "dateModified": "Thursday, September 5, 2024",
         "author": [
+            
+                {
+                    "@type": "Person",
+                    "name": "Deepak Sisodiya"
+                }
             
         ],
         "mainEntityOfPage": { "@type": "WebPage" },
@@ -82,7 +93,7 @@
                 "https://www.instagram.com/incubyte.co/"
             ]
         },
-        "keywords": []
+        "keywords": ["React", "SOLID Principles"]
     }
     
 </script>
@@ -655,468 +666,590 @@
 
 	<main>
 		
-<section class="section pb-0">
-  <div class="container text-left">
-    <h1 class="display-5"></h1>
-    
+
+
+
+<section class="section">
+  <div class="container">
+    <article class="row">
+      <div class="col-lg-8 mx-auto">
+        <a class="back-link" href="https://blog.incubyte.co/"
+          ><strong>←</strong> Back to Blog</a
+        >
+        <img
+          src="/images/2024/solid-principles-in-react/header.jpg"
+          alt="SOLID Principles in React: A Simple and Practical Guide"
+          class="mt-3 img-fluid w-100 rounded mb-4"
+        />
+        <h1 class="mb-4 post-title">SOLID Principles in React: A Simple and Practical Guide</h1>
+        
+        <span class="mb-3 badge rounded-pill bg-dark">
+          <a class="text-white" href="/tags/react">React</a></span
+        >
+        
+        <span class="mb-3 badge rounded-pill bg-dark">
+          <a class="text-white" href="/tags/solid-principles">SOLID Principles</a></span
+        >
+        
+        <p class="blockquote-footer text-right">
+          By 
+          <a href="/authors/deepak-sisodiya">Deepak Sisodiya</a>,  on Thursday, September 5, 2024
+        </p>
+
+        <div class="content"><p>As a React developer, writing clean and maintainable code is crucial, and this is where the SOLID principles come in. SOLID is an acronym representing five core principles that help developers build robust, scalable, and flexible software. Even though SOLID was originally designed for object-oriented programming, we can apply it effectively to modern JavaScript frameworks like React.</p>
+<p>In this article, we’ll break down each principle in simple terms, followed by practical React examples. By the end, you’ll have a clear understanding of how to apply SOLID principles to improve your React applications.</p>
+<h3 id="ssingle-responsibility-principle-srp">S — Single Responsibility Principle (SRP)</h3>
+<blockquote>
+<p><strong>Simple Definition:</strong> A component should do only one thing and have one reason to change.</p>
+</blockquote>
+<p>This is probably the easiest of the SOLID principles to grasp. In React, SRP means that each component should focus on a single responsibility or functionality. If your component is doing multiple things (e.g., rendering UI and managing API calls), it’s time to split it up.</p>
+<p>SRP is crucial because it makes your components easier to understand, maintain, and test. When a component does only one thing, you can isolate issues and change its behavior without affecting other parts of the code.</p>
+<p><strong>Example:</strong> Imagine a component that fetches and displays user data.</p>
+<p>Violating SRP:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-react" data-lang="react"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">UserProfile</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">user</span>, <span style="color:#a6e22e">setUser</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#66d9ef">null</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">useEffect</span>(() =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fetch</span>(<span style="color:#e6db74">&#39;/api/user&#39;</span>)
+</span></span><span style="display:flex;"><span>      .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">response</span> =&gt; <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">json</span>())
+</span></span><span style="display:flex;"><span>      .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">data</span> =&gt; <span style="color:#a6e22e">setUser</span>(<span style="color:#a6e22e">data</span>));
+</span></span><span style="display:flex;"><span>  }, []);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> &lt;<span style="color:#f92672">div</span>&gt;{<span style="color:#a6e22e">user</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Loading...&#39;</span>}&lt;/<span style="color:#f92672">div</span>&gt;;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>This component is responsible for both fetching data and rendering it, which violates SRP.</p>
+<p>Applying SRP:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-react" data-lang="react"><span style="display:flex;"><span><span style="color:#75715e">// Custom Hook for fetching data
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">useUserData</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">user</span>, <span style="color:#a6e22e">setUser</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#66d9ef">null</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">useEffect</span>(() =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fetch</span>(<span style="color:#e6db74">&#39;/api/user&#39;</span>)
+</span></span><span style="display:flex;"><span>      .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">response</span> =&gt; <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">json</span>())
+</span></span><span style="display:flex;"><span>      .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">data</span> =&gt; <span style="color:#a6e22e">setUser</span>(<span style="color:#a6e22e">data</span>));
+</span></span><span style="display:flex;"><span>  }, []);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">user</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// UI Component
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">UserProfile</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">user</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">useUserData</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> &lt;<span style="color:#f92672">div</span>&gt;{<span style="color:#a6e22e">user</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Loading...&#39;</span>}&lt;/<span style="color:#f92672">div</span>&gt;;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Now, the data-fetching logic is moved into a custom hook, leaving the <code>UserProfile</code> component with the sole responsibility of rendering UI.</p>
+<h3 id="oopenclosed-principle-ocp">O — Open/Closed Principle (OCP)</h3>
+<blockquote>
+<p><strong>Simple Definition:</strong> Your components should be open for extension but closed for modification.</p>
+</blockquote>
+<p>In React, this means we should be able to extend the behavior of a component without modifying its original code. Instead of editing a component directly, we can extend its functionality by passing props, using higher-order components (HOCs), or using composition.</p>
+<p>Think of using an npm package, like <code>react-router-dom</code>, to manage routing in your React app. Instead of modifying the source code of the package, you extend its behavior by using its API. This is the perfect example of the Open/Closed Principle in practice.</p>
+<p><strong>Example:</strong></p>
+<p>Violating OCP:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-react" data-lang="react"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">Button</span>({ <span style="color:#a6e22e">label</span>, <span style="color:#a6e22e">color</span> }) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span>{{ <span style="color:#a6e22e">backgroundColor</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">color</span> }}&gt;{<span style="color:#a6e22e">label</span>}&lt;/<span style="color:#f92672">button</span>&gt;;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// If we want to add a new style, we would modify the Button component.
+</span></span></span></code></pre></div><p>Applying OCP:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-react" data-lang="react"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">Button</span>({ <span style="color:#a6e22e">label</span>, <span style="color:#a6e22e">style</span> }) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">style</span>}&gt;{<span style="color:#a6e22e">label</span>}&lt;/<span style="color:#f92672">button</span>&gt;;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">PrimaryButton</span>(<span style="color:#a6e22e">props</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> &lt;<span style="color:#f92672">Button</span> {<span style="color:#a6e22e">...props</span>} <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span>{{ <span style="color:#a6e22e">backgroundColor</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;blue&#39;</span> }} /&gt;;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">DangerButton</span>(<span style="color:#a6e22e">props</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> &lt;<span style="color:#f92672">Button</span> {<span style="color:#a6e22e">...props</span>} <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span>{{ <span style="color:#a6e22e">backgroundColor</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;red&#39;</span> }} /&gt;;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Now, we can extend the button functionality by creating new components (<code>PrimaryButton</code> or <code>DangerButton</code>) without modifying the original <code>Button</code> component.</p>
+<h3 id="lliskov-substitution-principle-lsp">L — Liskov Substitution Principle (LSP)</h3>
+<blockquote>
+<p><strong>Simple Definition:</strong> Components should be replaceable by their subcomponents without breaking the app.</p>
+</blockquote>
+<p>In React, this principle means that a component should be replaceable by another component that extends its behavior, without changing the expected functionality.</p>
+<p>Here are some <strong>real-world examples</strong> in React to make the LSP clearer.</p>
+<p><strong>Example 1: Button Component</strong></p>
+<p>Let’s take a <code>Button</code> component as an example. You might create a <code>Button</code> that can be used in multiple places in your app. Then you decide to create a <code>PrimaryButton</code> and <code>SecondaryButton</code> that extend the base <code>Button</code>.</p>
+<p><strong>Base Button Component:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-react" data-lang="react"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">Button</span>({ <span style="color:#a6e22e">label</span>, <span style="color:#a6e22e">onClick</span>, <span style="color:#a6e22e">style</span> }) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">onClick</span>} <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">style</span>}&gt;{<span style="color:#a6e22e">label</span>}&lt;/<span style="color:#f92672">button</span>&gt;;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Extending <code>Button</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-react" data-lang="react"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">PrimaryButton</span>(<span style="color:#a6e22e">props</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> &lt;<span style="color:#f92672">Button</span> {<span style="color:#a6e22e">...props</span>} <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span>{{ <span style="color:#a6e22e">backgroundColor</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;blue&#39;</span>, <span style="color:#a6e22e">color</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;white&#39;</span> }} /&gt;;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">SecondaryButton</span>(<span style="color:#a6e22e">props</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> &lt;<span style="color:#f92672">Button</span> {<span style="color:#a6e22e">...props</span>} <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span>{{ <span style="color:#a6e22e">backgroundColor</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;grey&#39;</span>, <span style="color:#a6e22e">color</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;white&#39;</span> }} /&gt;;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Now, according to LSP, both <code>PrimaryButton</code> and <code>SecondaryButton</code> should be <strong>substitutable</strong> for <code>Button</code>. This means wherever you use <code>Button</code>, you should also be able to use <code>PrimaryButton</code> or <code>SecondaryButton</code> without breaking anything. The behavior is consistent, even though the style has changed.</p>
+<p>If you have a <code>Button</code> component used throughout your app, and you decide to refactor some parts to use <code>PrimaryButton</code> or <code>SecondaryButton</code>, you expect the buttons to behave the same way (click event, label display, etc.). LSP ensures that you can swap out <code>Button</code> for <code>PrimaryButton</code> or <code>SecondaryButton</code> without worrying about unintended side effects.</p>
+<p><strong>Example 2: Modal Component</strong></p>
+<p>Let’s say you have a base <code>Modal</code> component used to display various types of modals (e.g., confirmation modals, info modals, etc.).</p>
+<p>Base <code>Modal</code> Component:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-react" data-lang="react"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">Modal</span>({ <span style="color:#a6e22e">isOpen</span>, <span style="color:#a6e22e">title</span>, <span style="color:#a6e22e">children</span>, <span style="color:#a6e22e">onClose</span> }) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span><span style="color:#a6e22e">isOpen</span>) <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> (
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;modal&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">h2</span>&gt;{<span style="color:#a6e22e">title</span>}&lt;/<span style="color:#f92672">h2</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">div</span>&gt;{<span style="color:#a6e22e">children</span>}&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">onClose</span>}&gt;<span style="color:#a6e22e">Close</span>&lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>  );
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Now, you want to create a <code>ConfirmationModal</code> that extends <code>Modal</code> and adds extra functionality like confirming or canceling an action.</p>
+<p><strong>Extended Modal:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-react" data-lang="react"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">ConfirmationModal</span>({ <span style="color:#a6e22e">isOpen</span>, <span style="color:#a6e22e">title</span>, <span style="color:#a6e22e">onConfirm</span>, <span style="color:#a6e22e">onCancel</span> }) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> (
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">Modal</span> <span style="color:#a6e22e">isOpen</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">isOpen</span>} <span style="color:#a6e22e">title</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">title</span>} <span style="color:#a6e22e">onClose</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">onCancel</span>}&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">div</span>&gt;<span style="color:#a6e22e">Are</span> <span style="color:#a6e22e">you</span> <span style="color:#a6e22e">sure</span><span style="color:#f92672">?</span>&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">onConfirm</span>}&gt;<span style="color:#a6e22e">Yes</span>&lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">onCancel</span>}&gt;<span style="color:#a6e22e">No</span>&lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">Modal</span>&gt;
+</span></span><span style="display:flex;"><span>  );
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>According to LSP, the <code>ConfirmationModal</code> should work seamlessly as a replacement for the base <code>Modal</code>. Anywhere you use <code>Modal</code>, you can also use <code>ConfirmationModal</code> without breaking anything, even though <code>ConfirmationModal</code> adds extra features.</p>
+<p>Usage Example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-react" data-lang="react"><span style="display:flex;"><span>&lt;<span style="color:#f92672">Modal</span> <span style="color:#a6e22e">isOpen</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">isModalOpen</span>} <span style="color:#a6e22e">title</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Basic Modal&#34;</span> <span style="color:#a6e22e">onClose</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">handleClose</span>}&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">p</span>&gt;<span style="color:#a6e22e">Some</span> <span style="color:#a6e22e">content</span> <span style="color:#a6e22e">here</span>&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">Modal</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">ConfirmationModal</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">isOpen</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">isConfirmOpen</span>}
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">title</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Confirm Action&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">onConfirm</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">handleConfirm</span>}
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">onCancel</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">handleCancel</span>}
+</span></span><span style="display:flex;"><span>/&gt;
+</span></span></code></pre></div><p>Modals are commonly used in real applications for various purposes. The LSP ensures that specialized modals (like a <code>ConfirmationModal</code>) can substitute the base <code>Modal</code> component without breaking anything. The base behavior (opening, closing, displaying content) is preserved, while additional functionality (confirming or canceling) can be added seamlessly.</p>
+<p>By following the Liskov Substitution Principle, your components will be more reusable, predictable, and easier to maintain. When you substitute one component with another, you can trust that it will work as expected, allowing for cleaner and more scalable code.</p>
+<h3 id="iinterface-segregation-principle-isp">I — Interface Segregation Principle (ISP)</h3>
+<blockquote>
+<p><strong>Simple Definition:</strong> Don’t force your components to depend on things they don’t need.</p>
+</blockquote>
+<p>In React, this means you should create specific and focused components, passing only the necessary props. If your component has too many responsibilities or props that it doesn’t fully utilize, it’s violating ISP.</p>
+<p>The focus of ISP is on <strong>splitting responsibilities</strong> in interfaces or components so that a consumer only depends on the parts it needs. It prevents the creation of large, bloated interfaces or components that do too much.</p>
+<p>ISP might involve breaking down a single large component that handles user data, settings, and notifications into three smaller, more specific components (<code>UserInfo</code>, <code>UserSettings</code>, and <code>UserNotifications</code>). This way, each component only depends on the data and props it requires.</p>
+<p>Example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-react" data-lang="react"><span style="display:flex;"><span><span style="color:#75715e">// Violating ISP: Handling too many props
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">Dashboard</span>({ <span style="color:#a6e22e">user</span>, <span style="color:#a6e22e">settings</span>, <span style="color:#a6e22e">notifications</span> }) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> (
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">div</span>&gt;{<span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">name</span>}&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">div</span>&gt;{<span style="color:#a6e22e">settings</span>.<span style="color:#a6e22e">theme</span>}&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">div</span>&gt;{<span style="color:#a6e22e">notifications</span>.<span style="color:#a6e22e">length</span>} <span style="color:#a6e22e">notifications</span>&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>  );
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>This component depends on <code>user</code>, <code>settings</code>, and <code>notifications</code>, but it might not need all of them. Let’s break it down:</p>
+<p><strong>Applying ISP:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-react" data-lang="react"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">UserInfo</span>({ <span style="color:#a6e22e">user</span> }) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> &lt;<span style="color:#f92672">div</span>&gt;{<span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">name</span>}&lt;/<span style="color:#f92672">div</span>&gt;;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">UserSettings</span>({ <span style="color:#a6e22e">settings</span> }) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> &lt;<span style="color:#f92672">div</span>&gt;{<span style="color:#a6e22e">settings</span>.<span style="color:#a6e22e">theme</span>}&lt;/<span style="color:#f92672">div</span>&gt;;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">UserNotifications</span>({ <span style="color:#a6e22e">notifications</span> }) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> &lt;<span style="color:#f92672">div</span>&gt;{<span style="color:#a6e22e">notifications</span>.<span style="color:#a6e22e">length</span>} <span style="color:#a6e22e">notifications</span>&lt;/<span style="color:#f92672">div</span>&gt;;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Now Dashboard delegates responsibilities
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">Dashboard</span>({ <span style="color:#a6e22e">user</span>, <span style="color:#a6e22e">settings</span>, <span style="color:#a6e22e">notifications</span> }) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> (
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">UserInfo</span> <span style="color:#a6e22e">user</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">user</span>} /&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">UserSettings</span> <span style="color:#a6e22e">settings</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">settings</span>} /&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">UserNotifications</span> <span style="color:#a6e22e">notifications</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">notifications</span>} /&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>  );
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>By segregating the interface (in this case, the props), the <code>Dashboard</code> component is simpler, more maintainable, and only handles what it needs.</p>
+<h3 id="ddependency-inversion-principle-dip">D — Dependency Inversion Principle (DIP)</h3>
+<blockquote>
+<p><strong>Simple Definition:</strong> High-level components should depend on abstractions (such as hooks or contexts) rather than concrete implementations (like API calls).</p>
+</blockquote>
+<p>DIP in React means that components should rely on abstractions (like hooks, contexts, or services) instead of tightly coupling themselves to specific implementations, like API calls or local state management.</p>
+<p>DIP focuses on <strong>how dependencies are managed</strong>. High-level components should not directly depend on the details of how their dependencies work. Instead, they should depend on abstractions (such as contexts, services, or hooks) that can later be provided by different concrete implementations.</p>
+<p>DIP might involve providing an abstract data-fetching service via React’s Context API so that a component like <code>UserProfile</code> depends on a <code>useUserData</code> hook rather than directly making a fetch call. This allows the <code>UserProfile</code> component to work independently of the implementation of the data-fetching logic.</p>
+<p><strong>Example Without DIP (Tight Coupling):</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-react" data-lang="react"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">UserProfile</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">user</span>, <span style="color:#a6e22e">setUser</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#66d9ef">null</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">useEffect</span>(() =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fetch</span>(<span style="color:#e6db74">&#39;/api/user&#39;</span>)
+</span></span><span style="display:flex;"><span>      .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">response</span> =&gt; <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">json</span>())
+</span></span><span style="display:flex;"><span>      .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">data</span> =&gt; <span style="color:#a6e22e">setUser</span>(<span style="color:#a6e22e">data</span>));
+</span></span><span style="display:flex;"><span>  }, []);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> &lt;<span style="color:#f92672">div</span>&gt;{<span style="color:#a6e22e">user</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Loading...&#39;</span>}&lt;/<span style="color:#f92672">div</span>&gt;;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Here, <code>UserProfile</code> is tightly coupled to the data-fetching logic, which violates DIP.</p>
+<p><strong>Applying DIP (Using Abstraction):</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-react" data-lang="react"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">useUserData</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">user</span>, <span style="color:#a6e22e">setUser</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#66d9ef">null</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">useEffect</span>(() =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fetch</span>(<span style="color:#e6db74">&#39;/api/user&#39;</span>)
+</span></span><span style="display:flex;"><span>      .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">response</span> =&gt; <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">json</span>())
+</span></span><span style="display:flex;"><span>      .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">data</span> =&gt; <span style="color:#a6e22e">setUser</span>(<span style="color:#a6e22e">data</span>));
+</span></span><span style="display:flex;"><span>  }, []);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">user</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">UserProfile</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">user</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">useUserData</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> &lt;<span style="color:#f92672">div</span>&gt;{<span style="color:#a6e22e">user</span> <span style="color:#f92672">?</span> <span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Loading...&#39;</span>}&lt;/<span style="color:#f92672">div</span>&gt;;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>By abstracting the data-fetching logic into a hook (<code>useUserData</code>), <code>UserProfile</code> now depends on the abstraction rather than a specific implementation. This makes the component more flexible and testable.</p>
+<p><strong>Example 2: Theming with Context</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-react" data-lang="react"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">ThemedButton</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">theme</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">useTheme</span>(); <span style="color:#75715e">// Hook that gets the theme from context
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span>{{ <span style="color:#a6e22e">backgroundColor</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">theme</span>.<span style="color:#a6e22e">background</span> }}&gt;<span style="color:#a6e22e">Click</span> <span style="color:#a6e22e">me</span>&lt;/<span style="color:#f92672">button</span>&gt;;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p><strong>Violation of DIP:</strong> Here, the <code>ThemedButton</code> component is tightly coupled to the <code>useTheme</code> hook, which is a specific implementation detail. This makes it difficult to change the source of the theme or test the component with different themes.</p>
+<p><strong>Improved Example:</strong></p>
+<p>To correctly apply DIP, let’s use an abstraction for the theme, such as passing the theme as a prop, and decouple the <code>ThemedButton</code> component from the <code>useTheme</code> hook:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-react" data-lang="react"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">ThemedButton</span>({ <span style="color:#a6e22e">themeService</span> }) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">theme</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">themeService</span>.<span style="color:#a6e22e">getTheme</span>(); <span style="color:#75715e">// themeService is an abstraction
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span>{{ <span style="color:#a6e22e">backgroundColor</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">theme</span>.<span style="color:#a6e22e">background</span> }}&gt;<span style="color:#a6e22e">Click</span> <span style="color:#a6e22e">me</span>&lt;/<span style="color:#f92672">button</span>&gt;;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Usage
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>&lt;<span style="color:#f92672">ThemedButton</span> <span style="color:#a6e22e">themeService</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">lightThemeService</span>} /&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">ThemedButton</span> <span style="color:#a6e22e">themeService</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">darkThemeService</span>} /&gt;
+</span></span></code></pre></div><ul>
+<li><strong>Abstraction:</strong> The <code>ThemedButton</code> now depends on an abstract <code>themeService</code> rather than a specific implementation like <code>useTheme</code>. This way, you can easily swap out <code>themeService</code> for another implementation without changing the <code>ThemedButton</code> component.</li>
+<li><strong>Decoupling:</strong> The high-level component (<code>ThemedButton</code>) is decoupled from the low-level implementation of how themes are provided (<code>useTheme</code>). Instead, it relies on an abstraction (<code>themeService</code>), which could be provided by any source.</li>
+</ul>
+<p>This approach represents DIP, ensuring that the high-level modules (<code>ThemedButton</code>) are not directly dependent on low-level modules (<code>useTheme</code>), but rather on abstractions (e.g., <code>themeService</code>). This makes your components more modular, testable, and adaptable to changes.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>The SOLID principles might seem complex at first, but when broken down and applied in React, they are straightforward and powerful. By following these principles, you can make your React components more reusable, maintainable, and scalable.</p>
+<ul>
+<li><strong>Single Responsibility Principle (SRP)</strong> keeps components focused on one task.</li>
+<li><strong>Open/Closed Principle (OCP)</strong> allows for extending components without modifying them.</li>
+<li><strong>Liskov Substitution Principle (LSP)</strong> ensures that components are replaceable without altering the app.</li>
+<li><strong>Interface Segregation Principle (ISP)</strong> focuses on designing smaller, more focused <strong>interfaces or components</strong> that consumers depend on.</li>
+<li><strong>Dependency Inversion Principle (DIP)</strong> focuses on making <strong>dependencies abstract</strong> so that high-level modules (like components) rely on abstractions (such as contexts, hooks, or service classes) rather than concrete details.</li>
+</ul>
+<p>Applying these principles to your React projects will lead to cleaner and more maintainable code, making your life as a developer easier in the long run. Happy coding!</p>
+</div>
+
+
+        
+
+
+
+<h2>Consider Sharing!</h2>
+
+<div style="font-size: 80%">
+
+    <a class="resp-sharing-button__link" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fblog.incubyte.co%2fblog%2fsolid-principles-in-react-a-simple-and-practical-guide%2f&t=SOLID%20Principles%20in%20React%3a%20A%20Simple%20and%20Practical%20Guide"
+         target="_blank" rel="noopener" aria-label="Facebook">
+        <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm3.6 11.5h-2.1v7h-3v-7h-2v-2h2V8.34c0-1.1.35-2.82 2.65-2.82h2.35v2.3h-1.4c-.25 0-.6.13-.6.66V9.5h2.34l-.24 2z" />
+                </svg>
+            </div>
+            Facebook
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="https://twitter.com/share?text=SOLID%20Principles%20in%20React%3a%20A%20Simple%20and%20Practical%20Guide&url=https%3a%2f%2fblog.incubyte.co%2fblog%2fsolid-principles-in-react-a-simple-and-practical-guide%2f&screen_name=incubyte_co"
+         target="_blank" rel="noopener" aria-label="Twitter">
+        <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm5.26 9.38v.34c0 3.48-2.64 7.5-7.48 7.5-1.48 0-2.87-.44-4.03-1.2 1.37.17 2.77-.2 3.9-1.08-1.16-.02-2.13-.78-2.46-1.83.38.1.8.07 1.17-.03-1.2-.24-2.1-1.3-2.1-2.58v-.05c.35.2.75.32 1.18.33-.7-.47-1.17-1.28-1.17-2.2 0-.47.13-.92.36-1.3C7.94 8.85 9.88 9.9 12.06 10c-.04-.2-.06-.4-.06-.6 0-1.46 1.18-2.63 2.63-2.63.76 0 1.44.3 1.92.82.6-.12 1.95-.27 1.95-.27-.35.53-.72 1.66-1.24 2.04z" />
+                </svg>
+            </div>
+            Twitter
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="mailto:?subject=SOLID%20Principles%20in%20React%3a%20A%20Simple%20and%20Practical%20Guide&body=SOLID%20Principles%20in%20React%3a%20A%20Simple%20and%20Practical%20Guide%0a%0a%3cp%3eAs%20a%20React%20developer%2c%20writing%20clean%20and%20maintainable%20code%20is%20crucial%2c%20and%20this%20is%20where%20the%20SOLID%20principles%20come%20in.%20SOLID%20is%20an%20acronym%20representing%20five%20core%20principles%20that%20help%20developers%20build%20%e2%80%a6%3c%2fp%3e%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fsolid-principles-in-react-a-simple-and-practical-guide%2f%0a"
+         target="_self" rel="noopener" aria-label="E-Mail">
+        <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm8 16c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2v8z" />
+                    <path
+                        d="M17.9 8.18c-.2-.2-.5-.24-.72-.07L12 12.38 6.82 8.1c-.22-.16-.53-.13-.7.08s-.15.53.06.7l3.62 2.97-3.57 2.23c-.23.14-.3.45-.15.7.1.14.25.22.42.22.1 0 .18-.02.27-.08l3.85-2.4 1.06.87c.1.04.2.1.32.1s.23-.06.32-.1l1.06-.9 3.86 2.4c.08.06.17.1.26.1.17 0 .33-.1.42-.25.15-.24.08-.55-.15-.7l-3.57-2.22 3.62-2.96c.2-.2.24-.5.07-.72z" />
+                </svg>
+            </div>
+            E-Mail
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fblog.incubyte.co%2fblog%2fsolid-principles-in-react-a-simple-and-practical-guide%2f&title=SOLID%20Principles%20in%20React%3a%20A%20Simple%20and%20Practical%20Guide&summary=%253Cp%253EAs%2ba%2bReact%2bdeveloper%252C%2bwriting%2bclean%2band%2bmaintainable%2bcode%2bis%2bcrucial%252C%2band%2bthis%2bis%2bwhere%2bthe%2bSOLID%2bprinciples%2bcome%2bin.%2bSOLID%2bis%2ban%2bacronym%2brepresenting%2bfive%2bcore%2bprinciples%2bthat%2bhelp%2bdevelopers%2bbuild%2b%25E2%2580%25A6%253C%252Fp%253E"
+         target="_blank" rel="noopener" aria-label="LinkedIn">
+        <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" xml:space="preserve">
+        <path
+                    d="M12,0C5.383,0,0,5.383,0,12s5.383,12,12,12s12-5.383,12-12S18.617,0,12,0z M9.5,16.5h-2v-7h2V16.5z M8.5,7.5 c-0.553,0-1-0.448-1-1c0-0.552,0.447-1,1-1s1,0.448,1,1C9.5,7.052,9.053,7.5,8.5,7.5z M18.5,16.5h-3V13c0-0.277-0.225-0.5-0.5-0.5 c-0.276,0-0.5,0.223-0.5,0.5v3.5h-3c0,0,0.031-6.478,0-7h3v0.835c0,0,0.457-0.753,1.707-0.753c1.55,0,2.293,1.12,2.293,3.296V16.5z" />
+    </svg>
+            </div>
+            LinkedIn
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="https://reddit.com/submit?url=https%3a%2f%2fblog.incubyte.co%2fblog%2fsolid-principles-in-react-a-simple-and-practical-guide%2f&title=SOLID%20Principles%20in%20React%3a%20A%20Simple%20and%20Practical%20Guide"
+         target="_blank" rel="noopener" aria-label="Reddit">
+        <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <circle cx="9.391" cy="13.392" r=".978" />
+                    <path
+                        d="M14.057 15.814c-1.14.66-2.987.655-4.122-.004-.238-.138-.545-.058-.684.182-.13.24-.05.545.19.685.72.417 1.63.646 2.568.646.93 0 1.84-.228 2.558-.642.24-.13.32-.44.185-.68-.14-.24-.445-.32-.683-.18zM5 12.086c0 .41.23.78.568.978.27-.662.735-1.264 1.353-1.774-.2-.207-.48-.334-.79-.334-.62 0-1.13.507-1.13 1.13z" />
+                    <path
+                        d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm6.673 14.055c.01.104.022.208.022.314 0 2.61-3.004 4.73-6.695 4.73s-6.695-2.126-6.695-4.74c0-.105.013-.21.022-.313C4.537 13.73 4 12.97 4 12.08c0-1.173.956-2.13 2.13-2.13.63 0 1.218.29 1.618.757 1.04-.607 2.345-.99 3.77-1.063.057-.803.308-2.33 1.388-2.95.633-.366 1.417-.323 2.322.085.302-.81 1.076-1.397 1.99-1.397 1.174 0 2.13.96 2.13 2.13 0 1.177-.956 2.133-2.13 2.133-1.065 0-1.942-.79-2.098-1.81-.734-.4-1.315-.506-1.716-.276-.6.346-.818 1.395-.88 2.087 1.407.08 2.697.46 3.728 1.065.4-.468.987-.756 1.617-.756 1.17 0 2.13.953 2.13 2.13 0 .89-.54 1.65-1.33 1.97z" />
+                    <circle cx="14.609" cy="13.391" r=".978" />
+                    <path
+                        d="M17.87 10.956c-.302 0-.583.128-.79.334.616.51 1.082 1.112 1.352 1.774.34-.197.568-.566.568-.978 0-.623-.507-1.13-1.13-1.13z" />
+                </svg>
+            </div>
+            Reddit
+        </div>
+    </a>
+
+    <a class="resp-sharing-button__link"
+         href="whatsapp://send?text=SOLID%20Principles%20in%20React%3a%20A%20Simple%20and%20Practical%20Guide%0a%0a%3cp%3eAs%20a%20React%20developer%2c%20writing%20clean%20and%20maintainable%20code%20is%20crucial%2c%20and%20this%20is%20where%20the%20SOLID%20principles%20come%20in.%20SOLID%20is%20an%20acronym%20representing%20five%20core%20principles%20that%20help%20developers%20build%20%e2%80%a6%3c%2fp%3e%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fsolid-principles-in-react-a-simple-and-practical-guide%2f%0a"
+         target="_blank" rel="noopener" aria-label="WhatsApp">
+        <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--medium">
+            <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24">
+                    <path
+                        d="m12 0c-6.6 0-12 5.4-12 12s5.4 12 12 12 12-5.4 12-12-5.4-12-12-12zm0 3.8c2.2 0 4.2 0.9 5.7 2.4 1.6 1.5 2.4 3.6 2.5 5.7 0 4.5-3.6 8.1-8.1 8.1-1.4 0-2.7-0.4-3.9-1l-4.4 1.1 1.2-4.2c-0.8-1.2-1.1-2.6-1.1-4 0-4.5 3.6-8.1 8.1-8.1zm0.1 1.5c-3.7 0-6.7 3-6.7 6.7 0 1.3 0.3 2.5 1 3.6l0.1 0.3-0.7 2.4 2.5-0.7 0.3 0.099c1 0.7 2.2 1 3.4 1 3.7 0 6.8-3 6.9-6.6 0-1.8-0.7-3.5-2-4.8s-3-2-4.8-2zm-3 2.9h0.4c0.2 0 0.4-0.099 0.5 0.3s0.5 1.5 0.6 1.7 0.1 0.2 0 0.3-0.1 0.2-0.2 0.3l-0.3 0.3c-0.1 0.1-0.2 0.2-0.1 0.4 0.2 0.2 0.6 0.9 1.2 1.4 0.7 0.7 1.4 0.9 1.6 1 0.2 0 0.3 0.001 0.4-0.099s0.5-0.6 0.6-0.8c0.2-0.2 0.3-0.2 0.5-0.1l1.4 0.7c0.2 0.1 0.3 0.2 0.5 0.3 0 0.1 0.1 0.5-0.099 1s-1 0.9-1.4 1c-0.3 0-0.8 0.001-1.3-0.099-0.3-0.1-0.7-0.2-1.2-0.4-2.1-0.9-3.4-3-3.5-3.1s-0.8-1.1-0.8-2.1c0-1 0.5-1.5 0.7-1.7s0.4-0.3 0.5-0.3z" />
+                </svg>
+            </div>
+            WhatsApp
+        </div>
+    </a>
+
+</div>
+
+<style>
+    .resp-sharing-button__link,
+    .resp-sharing-button__icon {
+        display: inline-block
+    }
+
+    .resp-sharing-button__link {
+        text-decoration: none;
+        color: #fff;
+        margin: 0.5em
+    }
+
+    .resp-sharing-button {
+        border-radius: 5px;
+        transition: 25ms ease-out;
+        padding: 0.5em 0.75em;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+    }
+
+    .resp-sharing-button__icon svg {
+        width: 1em;
+        height: 1em;
+        margin-right: 0.4em;
+        vertical-align: top
+    }
+
+    .resp-sharing-button--small svg {
+        margin: 0;
+        vertical-align: middle
+    }
+
+     
+    .resp-sharing-button__icon {
+        stroke: #fff;
+        fill: none
+    }
+
+     
+    .resp-sharing-button__icon--solid,
+    .resp-sharing-button__icon--solidcircle {
+        fill: #fff;
+        stroke: none
+    }
+
+    .resp-sharing-button--twitter {
+        background-color: #55acee
+    }
+
+    .resp-sharing-button--twitter:hover {
+        background-color: #2795e9
+    }
+
+
+    .resp-sharing-button--facebook {
+        background-color: #3b5998
+    }
+
+    .resp-sharing-button--facebook:hover {
+        background-color: #2d4373
+    }
+
+    .resp-sharing-button--linkedin {
+        background-color: #0077b5
+    }
+
+    .resp-sharing-button--linkedin:hover {
+        background-color: #046293
+    }
+
+    .resp-sharing-button--email {
+        background-color: #777
+    }
+
+    .resp-sharing-button--email:hover {
+        background-color: #5e5e5e
+    }
+
+    .resp-sharing-button--whatsapp {
+        background-color: #25D366
+    }
+
+    .resp-sharing-button--whatsapp:hover {
+        background-color: #1da851
+    }
+
+    .resp-sharing-button--facebook {
+        background-color: #3b5998;
+        border-color: #3b5998;
+    }
+
+    .resp-sharing-button--facebook:hover,
+    .resp-sharing-button--facebook:active {
+        background-color: #2d4373;
+        border-color: #2d4373;
+    }
+
+    .resp-sharing-button--twitter {
+        background-color: #55acee;
+        border-color: #55acee;
+    }
+
+    .resp-sharing-button--twitter:hover,
+    .resp-sharing-button--twitter:active {
+        background-color: #2795e9;
+        border-color: #2795e9;
+    }
+
+    .resp-sharing-button--email {
+        background-color: #777777;
+        border-color: #777777;
+    }
+
+    .resp-sharing-button--email:hover,
+    .resp-sharing-button--email:active {
+        background-color: #5e5e5e;
+        border-color: #5e5e5e;
+    }
+
+    .resp-sharing-button--linkedin {
+        background-color: #0077b5;
+        border-color: #0077b5;
+    }
+
+    .resp-sharing-button--linkedin:hover,
+    .resp-sharing-button--linkedin:active {
+        background-color: #046293;
+        border-color: #046293;
+    }
+
+    .resp-sharing-button--reddit {
+        background-color: #ff4500;
+        border-color: #5f99cf;
+    }
+
+    .resp-sharing-button--reddit:hover,
+    .resp-sharing-button--reddit:active {
+        background-color: #ff6510;
+        color: #777;
+        border-color: #3a80c1;
+    }
+
+    .resp-sharing-button--whatsapp {
+        background-color: #0D9F4E;
+        border-color: #0D9F4E;
+    }
+
+    .resp-sharing-button--whatsapp:hover,
+    .resp-sharing-button--whatsapp:active {
+        background-color: #1DA851;
+        color: #777;
+        border-color: #1DA851;
+    }
+</style>
+ <div class="mt-5 newsletter">
+  <iframe id="subscription-form-iframe" name="subscription-form-iframe" style="display:none;"></iframe>
+
+  <form
+    action="https://hooks.airtable.com/workflows/v1/genericWebhook/appZga3G6CMmBbNQJ/wflzPU7JTdzStS9aT/wtrbcKCrRNfPAh0e8"
+    method="POST"
+    target="subscription-form-iframe"
+  >
+    <h2>Hey You!</h2>
+    <p>
+      You were caught scrolling too fast! 🚨
+      <br>
+      Tell us your email so that we can inform you next time we release a blog.
+    </p>
+
+    <div id="subscription-form-input">
+      <div class="row">
+        <div class="col-lg-10 col-md-10 d-flex align-items-center">
+          <input
+            aria-label="Input your email to subscribe to Incubyte"
+            class="form-control"
+            name="email"
+            placeholder="name@email.com"
+            required
+            type="email"
+          />
+        </div>
+        <div class="col-lg-2 col-md-2 mt-xl-0 mt-lg-0 mt-md-0">
+          <input class="btn big-btn" type="submit" value="Subscribe" />
+        </div>
+      </div>
+    </div>
+
+    <div class="text-primary font-weight-bold" id="subscription-form-result">
+    </div>
+  </form>
+</div>
+
+<script>
+  
+  const iframe = document.querySelector('iframe[name="subscription-form-iframe"]');
+  iframe.addEventListener('load', () => {
+    document.querySelector('#subscription-form-input').innerHTML = ''
+    document.querySelector('#subscription-form-result').innerHTML = 'Ha! I got you!... and your email too!'
+  });
+</script>
+
+      </div>
+    </article>
   </div>
 </section>
 
 
-<section class="">
-    <div class="container">
-        
-        <div class="display-4">Posts</div>
-        <hr>
-        <div class="row">
-            
-            <div class="col-12 mb-5 pb-5">
-                <article class="row align-items-center">
-                    <div class="col-md-6 mb-4 mb-md-0">
-                        <a href="https://blog.incubyte.co/blog/why-incubyte/">
-                            <img src="/images/2020/10/why-incubyte-cover.jpg" alt="Why Incubyte?" class="img-fluid rounded-lg w-100">
-                        </a>
-                    </div>
-                    <div class="col-md-6">
-                        <h2><a href="https://blog.incubyte.co/blog/why-incubyte/" title="Why Incubyte?" class="post-title">Why Incubyte?</a></h2>
-                        
-                        <span class="mb-1 badge rounded-pill bg-dark"> <a class="text-white"
-                                href="/tags/playbook">Playbook</a></span>
-                        
-                        <span class="mb-1 badge rounded-pill bg-dark"> <a class="text-white"
-                                href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <p class="card-text"><p>Quality is usually an implicit requirement when it comes to developing software. Users ask for a beautiful UI, outstanding performance, and the functionality they need, but quality is never on the list - it is just expected! And because it is so, it is often overlooked. Users end up getting only what was explicitly stated.</p></p>
-                        <a href="https://blog.incubyte.co/blog/why-incubyte/" title=" - Why Incubyte?"
-                            class="btn btn-main-art btn-primary">Read more</a>
-                    </div>
-                </article>
-            </div>
-            
-            
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/how-to-contribute-to-open-source-project-a-beginners-guide/">
-                        <img src="/images/2021/06/1_Making-your-first-oss-project.png" alt="How to contribute to open-source project: A beginner&#39;s guide" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/how-to-contribute-to-open-source-project-a-beginners-guide/" title="How to contribute to open-source project: A beginner&#39;s guide" class="post-title">How to contribute to open-source project: A beginner&#39;s guide</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/open-source">Open Source</a></span>
-                        
-                        <p class="card-text"><p>Are you a first-time contributor? Are you wondering how to start contributing to OSS? Well, this guide is made for you. Hopefully, you are reading this because you are looking to take the first step toward making an open-source contribution! You’ve been using multiple Open-Source projects and have read many articles, including <a href="/benefits-and-challenges-of-open-source-development/">this</a> introduction to Open-Source Software. You’ve been sold on the idea and can’t wait to start! Only, how do you even begin? How do you decide on the right project? What happens if something goes wrong? This can be a bit intimidating at first. No need to worry though.</p> </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/utsav-parmar">Utsav Parmar</a>,  on June 1, 2021
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/benefits-and-challenges-of-open-source-development/">
-                        <img src="/images/2021/05/1.oss-1.jpg" alt="Benefits and Challenges of Open-Source Development" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/benefits-and-challenges-of-open-source-development/" title="Benefits and Challenges of Open-Source Development" class="post-title">Benefits and Challenges of Open-Source Development</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/open-source">Open Source</a></span>
-                        
-                        <p class="card-text"><p>Open-source software (OSS) is the holy grail for developers. It is a hub of innovation through intense collaboration in this era of agile software development. Without it, many of the technologies we take for granted today would never have been developed or would have been locked away behind strict patents. The open-source movement is the reason technology has developed at such a breakneck pace over the past few decades.</p> </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/sapan-parikh">Sapan Parikh</a>,  on May 1, 2021
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/do-not-assume-that-technical-debt-is-a-problem-with-your-code/">
-                        <img src="/images/2021/04/technical-debt.jpg" alt="Do not assume that technical debt is a problem with your code" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/do-not-assume-that-technical-debt-is-a-problem-with-your-code/" title="Do not assume that technical debt is a problem with your code" class="post-title">Do not assume that technical debt is a problem with your code</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/97-things-not-to-do">97 Things Not To Do</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <p class="card-text"><p>Ever saw SonarQube laden with thousands of maintainability and security issues? Looking at those dashboards, we often believe we&rsquo;re looking at the code&rsquo;s state, but there is more to it. We are looking into how people work! We are looking into the team&rsquo;s behaviour and how disciplined they are in writing code.</p> </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/sapan-parikh">Sapan Parikh</a>,  on April 14, 2021
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/notalltestsarethesame/">
-                        <img src="/images/2023/not-all-test-header.jpg" alt="Not All Tests are the Same" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/notalltestsarethesame/" title="Not All Tests are the Same" class="post-title">Not All Tests are the Same</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <p class="card-text"><p>On multiple occasions, I have worked on projects where I learned how critical testing is and that not all tests are the same.</p> </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/sapan-parikh">Sapan Parikh</a>,  on January 1, 2021
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/remote-onboarding-and-immersion/">
-                        <img src="/images/2021/05/1_Coverpage.jpg" alt="Remote Onboarding &amp; Immersion at Incubyte" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/remote-onboarding-and-immersion/" title="Remote Onboarding &amp; Immersion at Incubyte" class="post-title">Remote Onboarding &amp; Immersion at Incubyte</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/careers">Careers</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/jobs">Jobs</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/playbook">Playbook</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/getting-started">Getting Started</a></span>
-                        
-                        <p class="card-text"><p>Employee onboarding is the important process of introducing newly hired employees to the organisation. It is everything that leads up to the employee&rsquo;s total immersion into the organisation&rsquo;s culture. An effective onboarding process helps the new employee relate better with the company values and helps them get up and running quicker. Immersion is the process of creating a common future and common purpose for all employees by aligning expectation, values, purpose, mission and goals.</p> </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/karishma-shah">Karishma Shah</a>,  on November 1, 2020
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/the-battle-of-source-control/">
-                        <img src="/images/2020/10/The-Battle-2.jpg" alt="The Battle of Source Control" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/the-battle-of-source-control/" title="The Battle of Source Control" class="post-title">The Battle of Source Control</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <p class="card-text"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>git pull origin develop
-</span></span><span style="display:flex;"><span>git checkout -b feature/shiny-new-branch
-</span></span></code></pr </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/kaushal-rohit">Kaushal Rohit</a>,  on October 1, 2020
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/why-incubyte/">
-                        <img src="/images/2020/10/why-incubyte-cover.jpg" alt="Why Incubyte?" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/why-incubyte/" title="Why Incubyte?" class="post-title">Why Incubyte?</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/playbook">Playbook</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
-                        
-                        <p class="card-text"><p>Quality is usually an implicit requirement when it comes to developing software. Users ask for a beautiful UI, outstanding performance, and the functionality they need, but quality is never on the list - it is just expected! And because it is so, it is often overlooked. Users end up getting only what was explicitly stated.</p> </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/rushali-parikh">Rushali Parikh</a>,  on October 1, 2020
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/do-not-release-code-without-automated-tests/">
-                        <img src="/images/2020/09/automated-tests.jpg" alt="Do not Release Code Without Automated Tests" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/do-not-release-code-without-automated-tests/" title="Do not Release Code Without Automated Tests" class="post-title">Do not Release Code Without Automated Tests</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/97-things-not-to-do">97 Things Not To Do</a></span>
-                        
-                        <p class="card-text"><p>Most projects that I see facing serious problems lack tests. You should write tests for two things</p> </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/sapan-parikh">Sapan Parikh</a>,  on September 24, 2020
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/do-not-get-so-busy-that-you-stop-learning/">
-                        <img src="/images/2023/busy-learning-header.jpg" alt="Do not Get so busy that you stop learning" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/do-not-get-so-busy-that-you-stop-learning/" title="Do not Get so busy that you stop learning" class="post-title">Do not Get so busy that you stop learning</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/97-things-not-to-do">97 Things Not To Do</a></span>
-                        
-                        <p class="card-text"><p>Learning is the most vital part of a software developer&rsquo;s life. Being so busy that one stops learning is neither desirable nor helpful to one&rsquo;s career. Sandro wrote in his book Software Craftsman, having one year of experience ten times does not mean having ten years of experience.</p> </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/sapan-parikh">Sapan Parikh</a>,  on September 1, 2020
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/do-not-optimize-prematurely/">
-                        <img src="/images/2023/premature-header.jpg" alt="Do not Optimize Prematurely" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/do-not-optimize-prematurely/" title="Do not Optimize Prematurely" class="post-title">Do not Optimize Prematurely</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/97-things-not-to-do">97 Things Not To Do</a></span>
-                        
-                        <p class="card-text"><p>Once again, you would think that the software development community has moved past this point, but I still get many teammates who want to &ldquo;save memory&rdquo; using HashMaps instead of POJOs. I am not too sure how efficient HashMaps are compared to POJOs, but I am sure of how they can become a maintenance nightmare if we start using maps wherever we could use POJO.</p> </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/sapan-parikh">Sapan Parikh</a>,  on September 1, 2020
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/do-not-show-separate-estimate-for-testing/">
-                        <img src="/images/2023/testing-estimate-header.jpg" alt="Do not Show Separate Estimate for Unit Testing" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/do-not-show-separate-estimate-for-testing/" title="Do not Show Separate Estimate for Unit Testing" class="post-title">Do not Show Separate Estimate for Unit Testing</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/97-things-not-to-do">97 Things Not To Do</a></span>
-                        
-                        <p class="card-text"><p>Once I was asked in an interview (I was the interviewer!) What do you do in situations where the customers don&rsquo;t want you to write test cases, or they want you to deprioritize the activity of writing test cases. My answer was, the customer gets such ideas if you show test cases as a separate activity; if testing becomes an inherent part of your development workflow, then one cannot tear them apart. This is where methodologies like TDD help. Delivering features mean delivering features with tests; they should not be two different things. Teams should not create stickies on boards or issues in Jira dedicated to unit testing.</p> </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/sapan-parikh">Sapan Parikh</a>,  on September 1, 2020
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/hiring-process/">
-                        <img src="/images/2021/06/WhatsApp-Image-2021-06-25-at-12.43.20-PM.jpeg" alt="How We Hire Software Craftspeople" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/hiring-process/" title="How We Hire Software Craftspeople" class="post-title">How We Hire Software Craftspeople</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/careers">Careers</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/playbook">Playbook</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/jobs">Jobs</a></span>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/getting-started">Getting Started</a></span>
-                        
-                        <p class="card-text"><p>Any organization is the sum of its people and employees are its main spokespeople. Human capital is our most valued asset. So, hiring suitable candidates, who share the same values and core principles as Incubyte is our biggest imperative.</p> </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/karishma-shah">Karishma Shah</a>,  on September 1, 2020
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/data-security/">
-                        <img src="/images/2020/09/computer_security_blog_v01.jpg" alt="Security Practices for Postgres Web Application" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/data-security/" title="Security Practices for Postgres Web Application" class="post-title">Security Practices for Postgres Web Application</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/security">Security</a></span>
-                        
-                        <p class="card-text"><p>Data security is when protective measures are put in place to keep unauthorsized access out of computers, websites, and databases. This process also provides a mechanism for protecting data from loss or corruption.</p> </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/rupali-pardeshi">Rupali Pardeshi</a>,  on September 1, 2020
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/do-not-copy-and-paste-code/">
-                        <img src="/images/2020/08/depositphotos_14942465-stock-photo-copy-paste-keyboard.jpg" alt="Do not Copy and paste code to minimize the impact:" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/do-not-copy-and-paste-code/" title="Do not Copy and paste code to minimize the impact:" class="post-title">Do not Copy and paste code to minimize the impact:</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/97-things-not-to-do">97 Things Not To Do</a></span>
-                        
-                        <p class="card-text"><p>Have you ever seen code in your module, which was so complex that you decided to copy and paste it entirely rather than changing it to accommodate your requirement? What does it say about you and your codebase?</p> </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/sapan-parikh">Sapan Parikh</a>,  on August 28, 2020
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/do-not-fall-for-faux-agile/">
-                        <img src="/images/2023/faux-agile-header.jpg" alt="Do not Fall for faux agile" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/do-not-fall-for-faux-agile/" title="Do not Fall for faux agile" class="post-title">Do not Fall for faux agile</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/97-things-not-to-do">97 Things Not To Do</a></span>
-                        
-                        <p class="card-text"><p>Enough ink is already spilled on this topic, nevertheless talking about it once again may not hurt.</p> </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/sapan-parikh">Sapan Parikh</a>,  on August 1, 2020
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/feedback/">
-                        <img src="/images/2023/feedback-header.jpg" alt="Feedback &amp; Rapid Prototyping" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/feedback/" title="Feedback &amp; Rapid Prototyping" class="post-title">Feedback &amp; Rapid Prototyping</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/playbook">Playbook</a></span>
-                        
-                        <p class="card-text"><blockquote>
-<p>&ldquo;<em>No fixed direction remains valid for long&rdquo;</em> <em>-</em> Extreme Programming Explained by Kent Beck</p> </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/arohi-parikh">Arohi Parikh</a>,  on August 1, 2020
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/planning/">
-                        <img src="/images/2023/planning-header.jpg" alt="Planning &amp; Communication" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/planning/" title="Planning &amp; Communication" class="post-title">Planning &amp; Communication</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/playbook">Playbook</a></span>
-                        
-                        <p class="card-text"><p>One of our primary process goals is to make frequent, small releases of our working software. We do this through regular communication and bi-weekly iterations on a product.</p> </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/arohi-parikh">Arohi Parikh</a>,  on August 1, 2020
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-lg-4 col-sm-6 mb-5">
-                <article class="card border-0">
-                    
-                    <a href="https://blog.incubyte.co/blog/technology-platforms-2/">
-                        <img src="/images/2020/10/cio_ai.png" alt="Technology Platforms &amp; Business Economics" class="mb-1 card-img rounded-lg mb-4">
-                    </a>
-                    
-                    <div class="card-body p-0">
-                        <h3><a href="https://blog.incubyte.co/blog/technology-platforms-2/" title="Technology Platforms &amp; Business Economics" class="post-title">Technology Platforms &amp; Business Economics</a></h3>
-                        
-                        <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/playbook">Playbook</a></span>
-                        
-                        <p class="card-text"><p>Early in a project, we have to decide which platforms we&rsquo;ll use. Which platforms depend on our ideas for solving the users&rsquo; problems. After considering what&rsquo;s best for users, the best tools for us have a strong community, make us happy, and help us create and iterate quickly. Our developers are highly versatile with their choice of tools and integrate the tools&rsquo; ideologies into their development process.Some of the tools we use and platforms we work with (and highly recommend) are/Some of the ideologies that our choice of tech platforms abide by are:</p> </p>
-                        <p class="blockquote-footer text-right">
-                            By 
-                            <a href="/authors/kaushal-rohit">Kaushal Rohit</a>,  on January 1, 0001
-                        </p>
-                    </div>
-                </article>
-            </div>
-            
-            <div class="col-12 pagination px-0">
-              
-    <ul class="pagination pagination-terse">
-      <li class="page-item">
-        <a href="/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/page/2/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-    </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-
+ 
 	</main>
 
 	

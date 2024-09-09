@@ -669,7 +669,7 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "July 1, 2024",
+          "date": "September 5, 2024",
           "url": "https://blog.incubyte.co/authors/"
       },
       
@@ -680,8 +680,85 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "July 1, 2024",
+          "date": "September 5, 2024",
           "url": "https://blog.incubyte.co/categories/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/deepak-sisodiya\/": {
+          "title": "Deepak Sisodiya",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image":"/authors/deepak-sisodiya/deepaksisodiya.jpg",
+          "date": "September 5, 2024",
+          "url": "https://blog.incubyte.co/authors/deepak-sisodiya/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/react\/": {
+          "title": "React",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "September 5, 2024",
+          "url": "https://blog.incubyte.co/tags/react/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/react\/": {
+          "title": "React",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "September 5, 2024",
+          "url": "https://blog.incubyte.co/categories/react/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/solid-principles\/": {
+          "title": "SOLID Principles",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "September 5, 2024",
+          "url": "https://blog.incubyte.co/tags/solid-principles/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/solid-principles\/": {
+          "title": "SOLID Principles",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "September 5, 2024",
+          "url": "https://blog.incubyte.co/categories/solid-principles/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/blog\/solid-principles-in-react-a-simple-and-practical-guide\/": {
+          "title": "SOLID Principles in React: A Simple and Practical Guide",
+          "tags": ["React","SOLID Principles",],
+          "authors":["Deepak Sisodiya",],
+          "summary":"\u003cp\u003eAs a React developer, writing clean and maintainable code is crucial, and this is where the SOLID principles come in. SOLID is an acronym representing five core principles that help developers build robust, scalable, and flexible software. Even though SOLID was originally designed for object-oriented programming, we can apply it effectively to modern JavaScript frameworks like React.\u003c/p\u003e",
+          "content":"As a React developer, writing clean and maintainable code is crucial, and this is where the SOLID principles come in. SOLID is an acronym representing five core principles that help developers build robust, scalable, and flexible software. Even though SOLID was originally designed for object-oriented programming, we can apply it effectively to modern JavaScript frameworks like React.\nIn this article, we’ll break down each principle in simple terms, followed by practical React examples. By the end, you’ll have a clear understanding of how to apply SOLID principles to improve your React applications.\nS — Single Responsibility Principle (SRP) Simple Definition: A component should do only one thing and have one reason to change.\nThis is probably the easiest of the SOLID principles to grasp. In React, SRP means that each component should focus on a single responsibility or functionality. If your component is doing multiple things (e.g., rendering UI and managing API calls), it’s time to split it up.\nSRP is crucial because it makes your components easier to understand, maintain, and test. When a component does only one thing, you can isolate issues and change its behavior without affecting other parts of the code.\nExample: Imagine a component that fetches and displays user data.\nViolating SRP:\nfunction UserProfile() { const [user, setUser] = useState(null); useEffect(() =\u0026gt; { fetch(\u0026#39;/api/user\u0026#39;) .then(response =\u0026gt; response.json()) .then(data =\u0026gt; setUser(data)); }, []); return \u0026lt;div\u0026gt;{user ? user.name : \u0026#39;Loading...\u0026#39;}\u0026lt;/div\u0026gt;; } This component is responsible for both fetching data and rendering it, which violates SRP.\nApplying SRP:\n// Custom Hook for fetching data function useUserData() { const [user, setUser] = useState(null); useEffect(() =\u0026gt; { fetch(\u0026#39;/api/user\u0026#39;) .then(response =\u0026gt; response.json()) .then(data =\u0026gt; setUser(data)); }, []); return user; } // UI Component function UserProfile() { const user = useUserData(); return \u0026lt;div\u0026gt;{user ? user.name : \u0026#39;Loading...\u0026#39;}\u0026lt;/div\u0026gt;; } Now, the data-fetching logic is moved into a custom hook, leaving the UserProfile component with the sole responsibility of rendering UI.\nO — Open/Closed Principle (OCP) Simple Definition: Your components should be open for extension but closed for modification.\nIn React, this means we should be able to extend the behavior of a component without modifying its original code. Instead of editing a component directly, we can extend its functionality by passing props, using higher-order components (HOCs), or using composition.\nThink of using an npm package, like react-router-dom, to manage routing in your React app. Instead of modifying the source code of the package, you extend its behavior by using its API. This is the perfect example of the Open/Closed Principle in practice.\nExample:\nViolating OCP:\nfunction Button({ label, color }) { return \u0026lt;button style={{ backgroundColor: color }}\u0026gt;{label}\u0026lt;/button\u0026gt;; } // If we want to add a new style, we would modify the Button component. Applying OCP:\nfunction Button({ label, style }) { return \u0026lt;button style={style}\u0026gt;{label}\u0026lt;/button\u0026gt;; } function PrimaryButton(props) { return \u0026lt;Button {...props} style={{ backgroundColor: \u0026#39;blue\u0026#39; }} /\u0026gt;; } function DangerButton(props) { return \u0026lt;Button {...props} style={{ backgroundColor: \u0026#39;red\u0026#39; }} /\u0026gt;; } Now, we can extend the button functionality by creating new components (PrimaryButton or DangerButton) without modifying the original Button component.\nL — Liskov Substitution Principle (LSP) Simple Definition: Components should be replaceable by their subcomponents without breaking the app.\nIn React, this principle means that a component should be replaceable by another component that extends its behavior, without changing the expected functionality.\nHere are some real-world examples in React to make the LSP clearer.\nExample 1: Button Component\nLet’s take a Button component as an example. You might create a Button that can be used in multiple places in your app. Then you decide to create a PrimaryButton and SecondaryButton that extend the base Button.\nBase Button Component:\nfunction Button({ label, onClick, style }) { return \u0026lt;button onClick={onClick} style={style}\u0026gt;{label}\u0026lt;/button\u0026gt;; } Extending Button:\nfunction PrimaryButton(props) { return \u0026lt;Button {...props} style={{ backgroundColor: \u0026#39;blue\u0026#39;, color: \u0026#39;white\u0026#39; }} /\u0026gt;; } function SecondaryButton(props) { return \u0026lt;Button {...props} style={{ backgroundColor: \u0026#39;grey\u0026#39;, color: \u0026#39;white\u0026#39; }} /\u0026gt;; } Now, according to LSP, both PrimaryButton and SecondaryButton should be substitutable for Button. This means wherever you use Button, you should also be able to use PrimaryButton or SecondaryButton without breaking anything. The behavior is consistent, even though the style has changed.\nIf you have a Button component used throughout your app, and you decide to refactor some parts to use PrimaryButton or SecondaryButton, you expect the buttons to behave the same way (click event, label display, etc.). LSP ensures that you can swap out Button for PrimaryButton or SecondaryButton without worrying about unintended side effects.\nExample 2: Modal Component\nLet’s say you have a base Modal component used to display various types of modals (e.g., confirmation modals, info modals, etc.).\nBase Modal Component:\nfunction Modal({ isOpen, title, children, onClose }) { if (!isOpen) return null; return ( \u0026lt;div className=\u0026#34;modal\u0026#34;\u0026gt; \u0026lt;h2\u0026gt;{title}\u0026lt;/h2\u0026gt; \u0026lt;div\u0026gt;{children}\u0026lt;/div\u0026gt; \u0026lt;button onClick={onClose}\u0026gt;Close\u0026lt;/button\u0026gt; \u0026lt;/div\u0026gt; ); } Now, you want to create a ConfirmationModal that extends Modal and adds extra functionality like confirming or canceling an action.\nExtended Modal:\nfunction ConfirmationModal({ isOpen, title, onConfirm, onCancel }) { return ( \u0026lt;Modal isOpen={isOpen} title={title} onClose={onCancel}\u0026gt; \u0026lt;div\u0026gt;Are you sure?\u0026lt;/div\u0026gt; \u0026lt;button onClick={onConfirm}\u0026gt;Yes\u0026lt;/button\u0026gt; \u0026lt;button onClick={onCancel}\u0026gt;No\u0026lt;/button\u0026gt; \u0026lt;/Modal\u0026gt; ); } According to LSP, the ConfirmationModal should work seamlessly as a replacement for the base Modal. Anywhere you use Modal, you can also use ConfirmationModal without breaking anything, even though ConfirmationModal adds extra features.\nUsage Example:\n\u0026lt;Modal isOpen={isModalOpen} title=\u0026#34;Basic Modal\u0026#34; onClose={handleClose}\u0026gt; \u0026lt;p\u0026gt;Some content here\u0026lt;/p\u0026gt; \u0026lt;/Modal\u0026gt; \u0026lt;ConfirmationModal isOpen={isConfirmOpen} title=\u0026#34;Confirm Action\u0026#34; onConfirm={handleConfirm} onCancel={handleCancel} /\u0026gt; Modals are commonly used in real applications for various purposes. The LSP ensures that specialized modals (like a ConfirmationModal) can substitute the base Modal component without breaking anything. The base behavior (opening, closing, displaying content) is preserved, while additional functionality (confirming or canceling) can be added seamlessly.\nBy following the Liskov Substitution Principle, your components will be more reusable, predictable, and easier to maintain. When you substitute one component with another, you can trust that it will work as expected, allowing for cleaner and more scalable code.\nI — Interface Segregation Principle (ISP) Simple Definition: Don’t force your components to depend on things they don’t need.\nIn React, this means you should create specific and focused components, passing only the necessary props. If your component has too many responsibilities or props that it doesn’t fully utilize, it’s violating ISP.\nThe focus of ISP is on splitting responsibilities in interfaces or components so that a consumer only depends on the parts it needs. It prevents the creation of large, bloated interfaces or components that do too much.\nISP might involve breaking down a single large component that handles user data, settings, and notifications into three smaller, more specific components (UserInfo, UserSettings, and UserNotifications). This way, each component only depends on the data and props it requires.\nExample:\n// Violating ISP: Handling too many props function Dashboard({ user, settings, notifications }) { return ( \u0026lt;div\u0026gt; \u0026lt;div\u0026gt;{user.name}\u0026lt;/div\u0026gt; \u0026lt;div\u0026gt;{settings.theme}\u0026lt;/div\u0026gt; \u0026lt;div\u0026gt;{notifications.length} notifications\u0026lt;/div\u0026gt; \u0026lt;/div\u0026gt; ); } This component depends on user, settings, and notifications, but it might not need all of them. Let’s break it down:\nApplying ISP:\nfunction UserInfo({ user }) { return \u0026lt;div\u0026gt;{user.name}\u0026lt;/div\u0026gt;; } function UserSettings({ settings }) { return \u0026lt;div\u0026gt;{settings.theme}\u0026lt;/div\u0026gt;; } function UserNotifications({ notifications }) { return \u0026lt;div\u0026gt;{notifications.length} notifications\u0026lt;/div\u0026gt;; } // Now Dashboard delegates responsibilities function Dashboard({ user, settings, notifications }) { return ( \u0026lt;div\u0026gt; \u0026lt;UserInfo user={user} /\u0026gt; \u0026lt;UserSettings settings={settings} /\u0026gt; \u0026lt;UserNotifications notifications={notifications} /\u0026gt; \u0026lt;/div\u0026gt; ); } By segregating the interface (in this case, the props), the Dashboard component is simpler, more maintainable, and only handles what it needs.\nD — Dependency Inversion Principle (DIP) Simple Definition: High-level components should depend on abstractions (such as hooks or contexts) rather than concrete implementations (like API calls).\nDIP in React means that components should rely on abstractions (like hooks, contexts, or services) instead of tightly coupling themselves to specific implementations, like API calls or local state management.\nDIP focuses on how dependencies are managed. High-level components should not directly depend on the details of how their dependencies work. Instead, they should depend on abstractions (such as contexts, services, or hooks) that can later be provided by different concrete implementations.\nDIP might involve providing an abstract data-fetching service via React’s Context API so that a component like UserProfile depends on a useUserData hook rather than directly making a fetch call. This allows the UserProfile component to work independently of the implementation of the data-fetching logic.\nExample Without DIP (Tight Coupling):\nfunction UserProfile() { const [user, setUser] = useState(null); useEffect(() =\u0026gt; { fetch(\u0026#39;/api/user\u0026#39;) .then(response =\u0026gt; response.json()) .then(data =\u0026gt; setUser(data)); }, []); return \u0026lt;div\u0026gt;{user ? user.name : \u0026#39;Loading...\u0026#39;}\u0026lt;/div\u0026gt;; } Here, UserProfile is tightly coupled to the data-fetching logic, which violates DIP.\nApplying DIP (Using Abstraction):\nfunction useUserData() { const [user, setUser] = useState(null); useEffect(() =\u0026gt; { fetch(\u0026#39;/api/user\u0026#39;) .then(response =\u0026gt; response.json()) .then(data =\u0026gt; setUser(data)); }, []); return user; } function UserProfile() { const user = useUserData(); return \u0026lt;div\u0026gt;{user ? user.name : \u0026#39;Loading...\u0026#39;}\u0026lt;/div\u0026gt;; } By abstracting the data-fetching logic into a hook (useUserData), UserProfile now depends on the abstraction rather than a specific implementation. This makes the component more flexible and testable.\nExample 2: Theming with Context\nfunction ThemedButton() { const theme = useTheme(); // Hook that gets the theme from context return \u0026lt;button style={{ backgroundColor: theme.background }}\u0026gt;Click me\u0026lt;/button\u0026gt;; } Violation of DIP: Here, the ThemedButton component is tightly coupled to the useTheme hook, which is a specific implementation detail. This makes it difficult to change the source of the theme or test the component with different themes.\nImproved Example:\nTo correctly apply DIP, let’s use an abstraction for the theme, such as passing the theme as a prop, and decouple the ThemedButton component from the useTheme hook:\nfunction ThemedButton({ themeService }) { const theme = themeService.getTheme(); // themeService is an abstraction return \u0026lt;button style={{ backgroundColor: theme.background }}\u0026gt;Click me\u0026lt;/button\u0026gt;; } // Usage \u0026lt;ThemedButton themeService={lightThemeService} /\u0026gt; \u0026lt;ThemedButton themeService={darkThemeService} /\u0026gt; Abstraction: The ThemedButton now depends on an abstract themeService rather than a specific implementation like useTheme. This way, you can easily swap out themeService for another implementation without changing the ThemedButton component. Decoupling: The high-level component (ThemedButton) is decoupled from the low-level implementation of how themes are provided (useTheme). Instead, it relies on an abstraction (themeService), which could be provided by any source. This approach represents DIP, ensuring that the high-level modules (ThemedButton) are not directly dependent on low-level modules (useTheme), but rather on abstractions (e.g., themeService). This makes your components more modular, testable, and adaptable to changes.\nConclusion The SOLID principles might seem complex at first, but when broken down and applied in React, they are straightforward and powerful. By following these principles, you can make your React components more reusable, maintainable, and scalable.\nSingle Responsibility Principle (SRP) keeps components focused on one task. Open/Closed Principle (OCP) allows for extending components without modifying them. Liskov Substitution Principle (LSP) ensures that components are replaceable without altering the app. Interface Segregation Principle (ISP) focuses on designing smaller, more focused interfaces or components that consumers depend on. Dependency Inversion Principle (DIP) focuses on making dependencies abstract so that high-level modules (like components) rely on abstractions (such as contexts, hooks, or service classes) rather than concrete details. Applying these principles to your React projects will lead to cleaner and more maintainable code, making your life as a developer easier in the long run. Happy coding!\n",
+          "image":"/images/2024/solid-principles-in-react/header.jpg",
+          "date": "September 5, 2024",
+          "url": "https://blog.incubyte.co/blog/solid-principles-in-react-a-simple-and-practical-guide/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/": {
+          "title": "Tags",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "September 5, 2024",
+          "url": "https://blog.incubyte.co/tags/"
       },
       
       "https:\/\/blog.incubyte.co\/tags\/pair-programming\/": {
@@ -748,17 +825,6 @@
           "image": null ,
           "date": "July 1, 2024",
           "url": "https://blog.incubyte.co/categories/software-craftsmanship/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/": {
-          "title": "Tags",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "July 1, 2024",
-          "url": "https://blog.incubyte.co/tags/"
       },
       
       "https:\/\/blog.incubyte.co\/tags\/rdbms\/": {
@@ -891,17 +957,6 @@
           "image": null ,
           "date": "May 7, 2024",
           "url": "https://blog.incubyte.co/authors/dixit-tilaji/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/react\/": {
-          "title": "React",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "May 7, 2024",
-          "url": "https://blog.incubyte.co/tags/react/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/using-firebase-cloud-functions\/": {
@@ -2343,17 +2398,6 @@
           "image": null ,
           "date": "January 1, 0001",
           "url": "https://blog.incubyte.co/search/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/authors\/deepak-sisodiya\/": {
-          "title": "Deepak Sisodiya",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image":"/authors/deepak-sisodiya/deepaksisodiya.jpg",
-          "date": "January 1, 0001",
-          "url": "https://blog.incubyte.co/authors/deepak-sisodiya/"
       },
       
       "https:\/\/blog.incubyte.co\/authors\/pranita-aitwadkar\/": {
