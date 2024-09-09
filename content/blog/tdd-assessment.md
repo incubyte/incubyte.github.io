@@ -80,6 +80,7 @@ With that, let's jump right in!
    - If there are multiple negative numbers, show all of them in the exception message, separated by commas.
 
 6. If you are applying for a UI role, create a simple UI that takes input and shows the output.
+   - Use the UI framework most relevant to your role and skills: React / Angular / Vue etc
    - Make sure to include the screenshot of the UI in your README.
    - Extra points for deploying your UI on a live server and sharing the link with us.
 
