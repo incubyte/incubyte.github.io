@@ -14,21 +14,21 @@
       <link>https://blog.incubyte.co/blog/ruby-boolean/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/ruby-boolean/</guid>
-      <description>Imagine this: You wake up half-asleep to discover Darth Vader in a rage.</description>
+      <description>&lt;p&gt;Imagine this:&#xA;You wake up half-asleep to discover Darth Vader in a rage. He&amp;rsquo;s furious because the count of active stormtroopers he&#xA;sees on the system you coded doesn&amp;rsquo;t align with the Imperial Army data.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dynamic method in ruby</title>
       <link>https://blog.incubyte.co/blog/dynamic-method/</link>
       <pubDate>Fri, 27 Oct 2023 13:31:36 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/dynamic-method/</guid>
-      <description>In Ruby, the dynamic nature of method dispatch is one of its key features.</description>
+      <description>&lt;p&gt;In Ruby, the dynamic nature of method dispatch is one of its key features. Method calls are resolved at runtime based on the actual type of the object. This flexibility allows for polymorphic and dynamic behavior&lt;/p&gt;</description>
     </item>
     <item>
       <title>Monkey Patching in Ruby</title>
       <link>https://blog.incubyte.co/blog/monkey-patch/</link>
       <pubDate>Tue, 17 Oct 2023 18:29:54 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/monkey-patch/</guid>
-      <description>Ruby, as you all know, is a dynamic programming language that provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods.</description>
+      <description>&lt;p&gt;Ruby, as you all know, is a dynamic programming language that provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods. This is what we refer to as &amp;lsquo;Monkey Patching&amp;rsquo;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

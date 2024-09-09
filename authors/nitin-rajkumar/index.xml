@@ -14,28 +14,28 @@
       <link>https://blog.incubyte.co/blog/dynamic-method/</link>
       <pubDate>Fri, 27 Oct 2023 13:31:36 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/dynamic-method/</guid>
-      <description>In Ruby, the dynamic nature of method dispatch is one of its key features.</description>
+      <description>&lt;p&gt;In Ruby, the dynamic nature of method dispatch is one of its key features. Method calls are resolved at runtime based on the actual type of the object. This flexibility allows for polymorphic and dynamic behavior&lt;/p&gt;</description>
     </item>
     <item>
       <title>Monkey Patching in Ruby</title>
       <link>https://blog.incubyte.co/blog/monkey-patch/</link>
       <pubDate>Tue, 17 Oct 2023 18:29:54 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/monkey-patch/</guid>
-      <description>Ruby, as you all know, is a dynamic programming language that provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods.</description>
+      <description>&lt;p&gt;Ruby, as you all know, is a dynamic programming language that provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods. This is what we refer to as &amp;lsquo;Monkey Patching&amp;rsquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Origins of Graphql</title>
       <link>https://blog.incubyte.co/blog/origin-of-graphql/</link>
       <pubDate>Thu, 23 Feb 2023 11:33:15 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/origin-of-graphql/</guid>
-      <description>Königsberg Bridge Problem — The Big Bang of GraphQL “Starting from any of the four land areas A, B, C, D is it possible to cross each of the seven bridges exactly once and come back to the starting point without swimming across the river?</description>
+      <description>&lt;h3 id=&#34;königsberg-bridge-problem--the-big-bang-of-graphql&#34;&gt;Königsberg Bridge Problem — The Big Bang of GraphQL&lt;/h3&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://blog.incubyte.co/images/2023/02/bridge.png&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;“Starting from any of the four land areas A, B, C, D is it possible to cross each of the seven bridges exactly once and come back to the starting point without swimming across the river?” Solving this is how people spent their Sunday afternoon picnics in 1735.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rails RESTful API, Outside in TDD</title>
       <link>https://blog.incubyte.co/blog/rails-restapi-tdd/</link>
       <pubDate>Sat, 02 Jul 2022 02:32:46 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/rails-restapi-tdd/</guid>
-      <description>There is always a disciplined way to do things I was waiting for the coffee dispenser to finish filling up my cup and my mind started wandering.</description>
+      <description>&lt;h3 id=&#34;there-is-always-a-disciplined-way-to-do-things&#34;&gt;There is always a disciplined way to do things&lt;/h3&gt;&#xA;&lt;p&gt;I was waiting for the coffee dispenser to finish filling up my cup and my mind started wandering. Suddenly, I felt this rush. Was it a sense of pride? Could be. I had, just a few minutes ago, been able to solve a race-condition problem that was bugging me for a while. Sipping at the coffee I could see out the glass door, that it was raining. This is a good moment, I thought to myself. One thing I didn’t want to think about was the open tickets in the backlog. Unchallenging and menial, they bored me. With the soothing sounds of the rain in the background and the warmth of the fuel of the Gods, I was now thinking of ways I could avoid working on them!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

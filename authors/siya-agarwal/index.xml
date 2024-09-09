@@ -14,14 +14,14 @@
       <link>https://blog.incubyte.co/blog/pair-programming-rethinking-the-role-of-pr-reviews/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/pair-programming-rethinking-the-role-of-pr-reviews/</guid>
-      <description>Pair programming is a collaborative approach where two developers work together at a single workstation, continuously reviewing each other’s code.</description>
+      <description>&lt;p&gt;Pair programming is a collaborative approach where two developers work together at a single workstation, continuously reviewing each other’s code. This method is known for enhancing code quality, facilitating knowledge sharing, and reducing the need for formal pull request (PR) reviews. However, there are scenarios where a third-person review can be beneficial, even when pair programming is in place. In this blog, I’ll discuss why I favor internal reviews within the pair and treat third-person reviews as exceptions, exploring when each approach is most appropriate.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Tale of TDD: A Journey Towards Reliable Software</title>
       <link>https://blog.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/</link>
       <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/</guid>
-      <description>Once upon a time, in the vast kingdom of Software Development, there was a growing need for structures that wouldn&amp;rsquo;t crumble under pressure.</description>
+      <description>&lt;p&gt;Once upon a time, in the vast kingdom of Software Development, there was a growing need for structures that wouldn&amp;rsquo;t crumble under pressure. Just as architects wouldn&amp;rsquo;t dream of building a skyscraper without a blueprint and rigorous checks, why should software developers? This tale unfolds the essence of Test-Driven Development (TDD) and how it champions building robust software.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

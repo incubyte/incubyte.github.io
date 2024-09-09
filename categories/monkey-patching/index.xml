@@ -14,7 +14,7 @@
       <link>https://blog.incubyte.co/blog/monkey-patch/</link>
       <pubDate>Tue, 17 Oct 2023 18:29:54 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/monkey-patch/</guid>
-      <description>Ruby, as you all know, is a dynamic programming language that provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods.</description>
+      <description>&lt;p&gt;Ruby, as you all know, is a dynamic programming language that provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods. This is what we refer to as &amp;lsquo;Monkey Patching&amp;rsquo;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

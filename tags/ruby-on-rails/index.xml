@@ -14,14 +14,14 @@
       <link>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</link>
       <pubDate>Thu, 09 Nov 2023 18:20:29 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</guid>
-      <description>In Ruby on Rails, the .dup method is commonly used to create a duplicate of an object, allowing modifications without affecting the original.</description>
+      <description>&lt;p&gt;In Ruby on Rails, the &lt;code&gt;.dup&lt;/code&gt; method is commonly used to create a duplicate of an object, allowing modifications without affecting the original.&#xA;However, it&amp;rsquo;s crucial to understand its limitations, especially when dealing with nested structures.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rails RESTful API, Outside in TDD</title>
       <link>https://blog.incubyte.co/blog/rails-restapi-tdd/</link>
       <pubDate>Sat, 02 Jul 2022 02:32:46 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/rails-restapi-tdd/</guid>
-      <description>There is always a disciplined way to do things I was waiting for the coffee dispenser to finish filling up my cup and my mind started wandering.</description>
+      <description>&lt;h3 id=&#34;there-is-always-a-disciplined-way-to-do-things&#34;&gt;There is always a disciplined way to do things&lt;/h3&gt;&#xA;&lt;p&gt;I was waiting for the coffee dispenser to finish filling up my cup and my mind started wandering. Suddenly, I felt this rush. Was it a sense of pride? Could be. I had, just a few minutes ago, been able to solve a race-condition problem that was bugging me for a while. Sipping at the coffee I could see out the glass door, that it was raining. This is a good moment, I thought to myself. One thing I didn’t want to think about was the open tickets in the backlog. Unchallenging and menial, they bored me. With the soothing sounds of the rain in the background and the warmth of the fuel of the Gods, I was now thinking of ways I could avoid working on them!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

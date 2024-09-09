@@ -14,14 +14,14 @@
       <link>https://blog.incubyte.co/blog/understanding-sql-dialects/</link>
       <pubDate>Wed, 26 Jun 2024 11:19:22 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/understanding-sql-dialects/</guid>
-      <description>Structured Query Language or SQL is the cornerstone of database management and data manipulation.</description>
+      <description>&lt;p&gt;Structured Query Language or SQL is the cornerstone of database management and data manipulation. While the core SQL commands are standardized and consistent across different Database Management Systems (DBMS), each DBMS has its own dialect with unique features and terminologies. Understanding these differences can help you write more efficient and optimized SQL code tailored to each environment. Let&amp;rsquo;s explore the nuances of SQL dialects in four popular DBMSs: Oracle, SQL Server, PostgreSQL and MySQL.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using dup vs deep dup in Ruby on Rails</title>
       <link>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</link>
       <pubDate>Thu, 09 Nov 2023 18:20:29 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</guid>
-      <description>In Ruby on Rails, the .dup method is commonly used to create a duplicate of an object, allowing modifications without affecting the original.</description>
+      <description>&lt;p&gt;In Ruby on Rails, the &lt;code&gt;.dup&lt;/code&gt; method is commonly used to create a duplicate of an object, allowing modifications without affecting the original.&#xA;However, it&amp;rsquo;s crucial to understand its limitations, especially when dealing with nested structures.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

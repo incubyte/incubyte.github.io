@@ -14,371 +14,371 @@
       <link>https://blog.incubyte.co/blog/pair-programming-rethinking-the-role-of-pr-reviews/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/pair-programming-rethinking-the-role-of-pr-reviews/</guid>
-      <description>Pair programming is a collaborative approach where two developers work together at a single workstation, continuously reviewing each other’s code.</description>
+      <description>&lt;p&gt;Pair programming is a collaborative approach where two developers work together at a single workstation, continuously reviewing each other’s code. This method is known for enhancing code quality, facilitating knowledge sharing, and reducing the need for formal pull request (PR) reviews. However, there are scenarios where a third-person review can be beneficial, even when pair programming is in place. In this blog, I’ll discuss why I favor internal reviews within the pair and treat third-person reviews as exceptions, exploring when each approach is most appropriate.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Understanding SQL Dialects: How Different Databases Speak Their Own SQL Language</title>
       <link>https://blog.incubyte.co/blog/understanding-sql-dialects/</link>
       <pubDate>Wed, 26 Jun 2024 11:19:22 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/understanding-sql-dialects/</guid>
-      <description>Structured Query Language or SQL is the cornerstone of database management and data manipulation.</description>
+      <description>&lt;p&gt;Structured Query Language or SQL is the cornerstone of database management and data manipulation. While the core SQL commands are standardized and consistent across different Database Management Systems (DBMS), each DBMS has its own dialect with unique features and terminologies. Understanding these differences can help you write more efficient and optimized SQL code tailored to each environment. Let&amp;rsquo;s explore the nuances of SQL dialects in four popular DBMSs: Oracle, SQL Server, PostgreSQL and MySQL.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Tale of TDD: A Journey Towards Reliable Software</title>
       <link>https://blog.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/</link>
       <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/</guid>
-      <description>Once upon a time, in the vast kingdom of Software Development, there was a growing need for structures that wouldn&amp;rsquo;t crumble under pressure.</description>
+      <description>&lt;p&gt;Once upon a time, in the vast kingdom of Software Development, there was a growing need for structures that wouldn&amp;rsquo;t crumble under pressure. Just as architects wouldn&amp;rsquo;t dream of building a skyscraper without a blueprint and rigorous checks, why should software developers? This tale unfolds the essence of Test-Driven Development (TDD) and how it champions building robust software.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Which Unique Identifier is right for you?</title>
       <link>https://blog.incubyte.co/blog/which-unique-identifier-is-right-for-you/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/which-unique-identifier-is-right-for-you/</guid>
-      <description>When was the last time you considered unique identifiers (IDs) for your projects?</description>
+      <description>&lt;p&gt;When was the last time you considered unique identifiers (IDs) for your projects? There are many options available, each with its pros and cons. In this article, we&amp;rsquo;ll explore some popular choices to help you decide which one is best for your next project.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using Firebase Cloud Functions: Exporting Firestore Data to Excel in React Apps</title>
       <link>https://blog.incubyte.co/blog/using-firebase-cloud-functions/</link>
       <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/using-firebase-cloud-functions/</guid>
-      <description>One day, one of my team members gave me a challenge: we needed a way to download our admin data as Excel files for better reporting.</description>
+      <description>&lt;p&gt;One day, one of my team members gave me a challenge: we needed a way to download our admin data as Excel files for better reporting. Despite searching, I couldn’t find a tutorial that fit our needs for a React/Next.js app. After more research, including using AI tools like ChatGPT, I figured out a solution. In this blog, I&amp;rsquo;ll show you how we use Firebase Cloud Functions to make it happen.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Enigma of Ruby Boolean (or the lack thereof)</title>
       <link>https://blog.incubyte.co/blog/ruby-boolean/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/ruby-boolean/</guid>
-      <description>Imagine this: You wake up half-asleep to discover Darth Vader in a rage.</description>
+      <description>&lt;p&gt;Imagine this:&#xA;You wake up half-asleep to discover Darth Vader in a rage. He&amp;rsquo;s furious because the count of active stormtroopers he&#xA;sees on the system you coded doesn&amp;rsquo;t align with the Imperial Army data.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using dup vs deep dup in Ruby on Rails</title>
       <link>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</link>
       <pubDate>Thu, 09 Nov 2023 18:20:29 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</guid>
-      <description>In Ruby on Rails, the .dup method is commonly used to create a duplicate of an object, allowing modifications without affecting the original.</description>
+      <description>&lt;p&gt;In Ruby on Rails, the &lt;code&gt;.dup&lt;/code&gt; method is commonly used to create a duplicate of an object, allowing modifications without affecting the original.&#xA;However, it&amp;rsquo;s crucial to understand its limitations, especially when dealing with nested structures.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dynamic method in ruby</title>
       <link>https://blog.incubyte.co/blog/dynamic-method/</link>
       <pubDate>Fri, 27 Oct 2023 13:31:36 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/dynamic-method/</guid>
-      <description>In Ruby, the dynamic nature of method dispatch is one of its key features.</description>
+      <description>&lt;p&gt;In Ruby, the dynamic nature of method dispatch is one of its key features. Method calls are resolved at runtime based on the actual type of the object. This flexibility allows for polymorphic and dynamic behavior&lt;/p&gt;</description>
     </item>
     <item>
       <title>Monkey Patching in Ruby</title>
       <link>https://blog.incubyte.co/blog/monkey-patch/</link>
       <pubDate>Tue, 17 Oct 2023 18:29:54 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/monkey-patch/</guid>
-      <description>Ruby, as you all know, is a dynamic programming language that provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods.</description>
+      <description>&lt;p&gt;Ruby, as you all know, is a dynamic programming language that provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods. This is what we refer to as &amp;lsquo;Monkey Patching&amp;rsquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Code Tidying: The Story of a Backseat Driver</title>
       <link>https://blog.incubyte.co/blog/code-tidying/</link>
       <pubDate>Fri, 18 Aug 2023 00:10:46 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/code-tidying/</guid>
-      <description>Let&amp;rsquo;s embark on a thought experiment. Envision yourself as a driving virtuoso, conquering city streets with gear shifts smoother than a buttered dolphin on a rainbow.</description>
+      <description>&lt;p&gt;Let&amp;rsquo;s embark on a thought experiment. Envision yourself as a driving virtuoso, conquering city streets with gear shifts smoother than a buttered dolphin on a rainbow. Your turns rival a ninja&amp;rsquo;s wit, and parallel parking? You could slide a spacecraft into a closet unscathed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Four Lenses of Productivity: Incubyte&#39;s Take</title>
       <link>https://blog.incubyte.co/blog/four-lenses-of-productivity/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/four-lenses-of-productivity/</guid>
-      <description>This blog discusses different levels of productivity along with common pitfalls and different ways to optimize them.</description>
+      <description>&lt;p&gt;This blog discusses different levels of productivity along with common pitfalls and different ways to optimize them. Recently I came across this blog by &lt;a href=&#34;https://newsletter.abinoda.com/p/four-lenses-of-productivity&#34;&gt;Abi Noda&lt;/a&gt;, written based on the &lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-1-4842-4221-6_6&#34;&gt;essay&lt;/a&gt; by Amy J. Ko. It interestingly talks about productivity at Individual, Team, Organization, and Market levels.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chandrayaan 3 TDD Assessment</title>
       <link>https://blog.incubyte.co/blog/chandrayaan-3-tdd-assessment/</link>
       <pubDate>Thu, 27 Jul 2023 20:04:38 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/chandrayaan-3-tdd-assessment/</guid>
-      <description>Before you begin A Software Craftsperson at Incubyte is a person who has a strong commitment to the craft of software development.</description>
+      <description>&lt;h2 id=&#34;before-you-begin&#34;&gt;Before you begin&lt;/h2&gt;&#xA;&lt;p&gt;A Software Craftsperson at Incubyte is a person who has a strong commitment to the craft of software development. Someone who is passionate about software, knows her/his tools well and is able to use them effectively to create carefully crafted software. Ultimately, a person who has a strong sense of what it is they are doing and is self-motivated to learn and grow.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Compounding Effect of Tidying Using CodeScene</title>
       <link>https://blog.incubyte.co/blog/refactoring-to-tidying/</link>
       <pubDate>Fri, 21 Jul 2023 00:10:46 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/refactoring-to-tidying/</guid>
-      <description>It turns out that most of a developer&amp;rsquo;s tasks end up being tactical activities, such as adding a text box here, adding a checkbox there, fixing a bug, or working with an outage.</description>
+      <description>&lt;p&gt;It turns out that most of a developer&amp;rsquo;s tasks end up being tactical activities, such as adding a text box here, adding a checkbox there, fixing a bug, or working with an outage. However, embodying the boy scout rule, one can always find small tidying opportunities that directly impact code quality and shift the developer’s work from tactical to strategic.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Prompt Engineering 101</title>
       <link>https://blog.incubyte.co/blog/prompt-engg/</link>
       <pubDate>Fri, 23 Jun 2023 00:10:46 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/prompt-engg/</guid>
-      <description>Are you feeling lost in the new world of AI tools and Prompt Engineering?</description>
+      <description>&lt;p&gt;Are you feeling lost in the new world of AI tools and Prompt Engineering?&#xA;Don&amp;rsquo;t worry, we got you!&#xA;In this article, we&amp;rsquo;ll demystify everything and equip you with the knowledge you need to get the most out of AI tools like ChatGPT.&#xA;So, let&amp;rsquo;s get started!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Testing With Java - Part 2 : TDD</title>
       <link>https://blog.incubyte.co/blog/testing-with-java-tdd/</link>
       <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/testing-with-java-tdd/</guid>
-      <description>In the annals of software development, there exists a cautionary tale from the year 1996, when the European Space Agency (ESA) launched its ambitious Ariane 5 rocket.</description>
+      <description>&lt;p&gt;In the annals of software development, there exists a cautionary tale from the year 1996, when the European Space Agency (ESA) launched its ambitious Ariane 5 rocket. Alas, what was meant to be a triumph turned into tragedy a mere 40 seconds after liftoff, as the rocket met a fiery demise, along with its precious cargo. The cause of this catastrophe? A software glitch, specifically an integer overflow issue, lurking within the rocket&amp;rsquo;s flight control system.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using Azure DevOps to Create Robust Product Roadmaps</title>
       <link>https://blog.incubyte.co/blog/product-roadmaps-with-azure-devops/</link>
       <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/product-roadmaps-with-azure-devops/</guid>
-      <description>This article explores the learnings we gathered from using Azure DevOps to create robust product roadmaps.</description>
+      <description>&lt;p&gt;This article explores the learnings we gathered from using Azure DevOps to create robust product roadmaps.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Is there a more economical and efficient alternative to Salesforce?</title>
       <link>https://blog.incubyte.co/blog/salesforce-vs-in-house-custom-development/</link>
       <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/salesforce-vs-in-house-custom-development/</guid>
-      <description>Choosing a direction when redefining your organization&amp;rsquo;s technical backbone is never easy.</description>
+      <description>&lt;p&gt;Choosing a direction when redefining your organization&amp;rsquo;s technical backbone is never easy. In this case study, we had the unique opportunity to observe the implementation of both - a Low-code/no-code CRM and tailored software solutions over two years. The outcome? When done right, tailored software solutions can bring more value to an organization, faster!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Clean Agile with Uncle Bob: A Summary</title>
       <link>https://blog.incubyte.co/blog/clean-agile-with-uncle-bob-a-summary/</link>
       <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/clean-agile-with-uncle-bob-a-summary/</guid>
-      <description>Clean Agile Summary Clean Agile is a book by Rober C.</description>
+      <description>&lt;h1 id=&#34;clean-agile&#34;&gt;Clean Agile&lt;/h1&gt;&#xA;&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;p&gt;Clean Agile is a book by Rober C. Martin that revisits the subject of agility in the world of software programming.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Origins of Graphql</title>
       <link>https://blog.incubyte.co/blog/origin-of-graphql/</link>
       <pubDate>Thu, 23 Feb 2023 11:33:15 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/origin-of-graphql/</guid>
-      <description>Königsberg Bridge Problem — The Big Bang of GraphQL “Starting from any of the four land areas A, B, C, D is it possible to cross each of the seven bridges exactly once and come back to the starting point without swimming across the river?</description>
+      <description>&lt;h3 id=&#34;königsberg-bridge-problem--the-big-bang-of-graphql&#34;&gt;Königsberg Bridge Problem — The Big Bang of GraphQL&lt;/h3&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://blog.incubyte.co/images/2023/02/bridge.png&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;“Starting from any of the four land areas A, B, C, D is it possible to cross each of the seven bridges exactly once and come back to the starting point without swimming across the river?” Solving this is how people spent their Sunday afternoon picnics in 1735.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Testing With Java - Part 1 : Introduction</title>
       <link>https://blog.incubyte.co/blog/testing-with-java-intro/</link>
       <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/testing-with-java-intro/</guid>
-      <description>On July 22, 1962, Mariner 1 – America&amp;rsquo;s first interplanetary spacecraft, lifted off from the ground on its way to fly by Venus.</description>
+      <description>&lt;p&gt;On July 22, 1962, Mariner 1 – America&amp;rsquo;s first interplanetary spacecraft, lifted off from the ground on its way to fly by Venus. However, instead of the cheers and scientific breakthrough everyone expected, soon after the launch, the rocket started drifting northeast of its planned trajectory. Not responding to corrective measures, the rocket was finally ordered to self-destruct, just 5 minutes into its flight!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Are you sabotaging your organizational goals?</title>
       <link>https://blog.incubyte.co/blog/simple-sabotage/</link>
       <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/simple-sabotage/</guid>
-      <description>I recently came across Simple Sabotage Field Manual. What struck me was you do not need bombs and explosives to start sabotaging.</description>
+      <description>&lt;p&gt;I recently came across &lt;a href=&#34;https://www.gutenberg.org/cache/epub/26184/pg26184-images.html&#34;&gt;Simple Sabotage Field Manual&lt;/a&gt;. What struck me was you do not need bombs and explosives to start sabotaging. Many small actions that can cause delays, untidiness, and losses are also sabotage attempts. Do you see any parallels between the excerpts of the white paper and organizational behavior where you work?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Angular Provider</title>
       <link>https://blog.incubyte.co/blog/angular-provider/</link>
       <pubDate>Mon, 10 Oct 2022 12:50:00 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/angular-provider/</guid>
-      <description>Angular Provider is like a command to Angular Dependency Injection system regarding how to get an object/instance for a particular dependency.</description>
+      <description>&lt;p&gt;Angular Provider is like a command to Angular Dependency Injection system regarding how to get an object/instance for a particular dependency.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Learnings From Terraform</title>
       <link>https://blog.incubyte.co/blog/learnings-from-terraform/</link>
       <pubDate>Wed, 28 Sep 2022 10:52:06 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/learnings-from-terraform/</guid>
-      <description>Preface Terraform is infrastructure as a code. I know it is a fancy word but here is the meaning.</description>
+      <description>&lt;h2 id=&#34;preface&#34;&gt;Preface&lt;/h2&gt;&#xA;&lt;p&gt;Terraform is infrastructure as a code. I know it is a fancy word but here is the meaning.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rails RESTful API, Outside in TDD</title>
       <link>https://blog.incubyte.co/blog/rails-restapi-tdd/</link>
       <pubDate>Sat, 02 Jul 2022 02:32:46 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/rails-restapi-tdd/</guid>
-      <description>There is always a disciplined way to do things I was waiting for the coffee dispenser to finish filling up my cup and my mind started wandering.</description>
+      <description>&lt;h3 id=&#34;there-is-always-a-disciplined-way-to-do-things&#34;&gt;There is always a disciplined way to do things&lt;/h3&gt;&#xA;&lt;p&gt;I was waiting for the coffee dispenser to finish filling up my cup and my mind started wandering. Suddenly, I felt this rush. Was it a sense of pride? Could be. I had, just a few minutes ago, been able to solve a race-condition problem that was bugging me for a while. Sipping at the coffee I could see out the glass door, that it was raining. This is a good moment, I thought to myself. One thing I didn’t want to think about was the open tickets in the backlog. Unchallenging and menial, they bored me. With the soothing sounds of the rain in the background and the warmth of the fuel of the Gods, I was now thinking of ways I could avoid working on them!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Five Git Tricks To Make Crafting Software Easier</title>
       <link>https://blog.incubyte.co/blog/five-git-tricks/</link>
       <pubDate>Tue, 14 Jun 2022 00:10:46 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/five-git-tricks/</guid>
-      <description>Git is the most widely used version control system in the world and it is something that every Software Craftsperson should master.</description>
+      <description>&lt;p&gt;Git is the most widely used version control system in the world and it is something that every Software Craftsperson should master.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Estimating Software Development Time</title>
       <link>https://blog.incubyte.co/blog/estimation/</link>
       <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/estimation/</guid>
-      <description>What is the need for an “Estimate”, because everything is bound to change rite in actuality.</description>
+      <description>&lt;p&gt;What is the need for an “Estimate”, because everything is bound to change rite in actuality. Before coming to the need for estimation let us set the context for this discussion. Estimation is nothing, but a human being’s an innate necessity of wanting to predict the future with the term “Accuracy” directly relating to the probability of the expected outcome. In simple terms, we want stuff to happen the way we want and when we want.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Learnings From Clean Code</title>
       <link>https://blog.incubyte.co/blog/learnings-from-clean-code/</link>
       <pubDate>Fri, 29 Apr 2022 11:55:43 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/learnings-from-clean-code/</guid>
-      <description>Learnings from Robert “Uncle Bob” Martin Robert Martin, fondly known as “Uncle Bob” in our community, is a software engineer and more famously an author and one of the founding fathers of Software Craftsmanship movement.</description>
+      <description>&lt;h2 id=&#34;learnings-from-robert-uncle-bob-martin&#34;&gt;Learnings from Robert “Uncle Bob” Martin&lt;/h2&gt;&#xA;&lt;p&gt;Robert Martin, fondly known as “Uncle Bob” in our community, is a software engineer and more famously an author and one of the founding fathers of Software Craftsmanship movement.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why Code Coverage Should Not Be Your Measure of Reliability</title>
       <link>https://blog.incubyte.co/blog/code-coverage-and-reliability/</link>
       <pubDate>Thu, 10 Feb 2022 22:58:11 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/code-coverage-and-reliability/</guid>
-      <description>What is code coverage? Code coverage is a measure (in percentage) of the degree to which the source code of a program is executed wh­en a particular test suite is run.</description>
+      <description>&lt;h2 id=&#34;what-is-code-coverage&#34;&gt;What is code coverage?&lt;/h2&gt;&#xA;&lt;p&gt;Code coverage is a measure (in percentage) of the degree to which the source code of a program is executed wh­en a particular test suite is run.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Incubyte DevOps Assessment</title>
       <link>https://blog.incubyte.co/blog/devops-assessment/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/devops-assessment/</guid>
-      <description>Hello there, Welcome to the Incubyte DevOps Assessment!&#xA;Through this assessment, we want to evaluate how well you can work with CI/CD tools across the board.</description>
+      <description>&lt;p&gt;Hello there, Welcome to the Incubyte DevOps Assessment!&lt;/p&gt;&#xA;&lt;p&gt;Through this assessment, we want to evaluate how well you can work with CI/CD tools across the board.&#xA;We want to see the DevOps Engineer in you.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Your daily productivity test</title>
       <link>https://blog.incubyte.co/blog/your-daily-checklist/</link>
       <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/your-daily-checklist/</guid>
-      <description>Are you a software developer? How can you be more effective on this journey of being a craftsperson?</description>
+      <description>&lt;p&gt;Are you a software developer? How can you be more effective on this journey of being a craftsperson?&#xA;A lot has been written on this subject, the most focus on the big picture.&#xA;But what about little things you can do to improve your daily work? All you need is 1% improvement to be on the trajectory of being a better developer and possibly a better human being.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Project Kickstart Checklist</title>
       <link>https://blog.incubyte.co/blog/kickstart-checklist/</link>
       <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/kickstart-checklist/</guid>
-      <description>The Checklist Manifesto by Atul Gawande, walks us through the benefits of the humble checklist.</description>
+      <description>&lt;p&gt;The &lt;a href=&#34;http://atulgawande.com/book/the-checklist-manifesto/&#34;&gt;Checklist Manifesto&lt;/a&gt; by Atul Gawande, walks us through the benefits of the humble checklist. He talks about how checklists of &amp;ldquo;dumb stuff&amp;rdquo; can save us from disasters in life and death situations. We developers, too, can use such a checklist when we start a new project.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Incubyte TDD Assessment</title>
       <link>https://blog.incubyte.co/blog/tdd-assessment/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/tdd-assessment/</guid>
-      <description>Hello there and welcome to the Incubyte TDD Kata!&#xA;This assessment is the first step in our recruiting process and will be followed by two pair programming/discussion sessions.</description>
+      <description>&lt;p&gt;Hello there and welcome to the Incubyte TDD Kata!&lt;/p&gt;&#xA;&lt;p&gt;This assessment is the first step in our recruiting process and will be followed by two pair programming/discussion sessions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ideas for Successful Agile Teams</title>
       <link>https://blog.incubyte.co/blog/techniques-for-an-agile-team/</link>
       <pubDate>Thu, 19 Aug 2021 05:06:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/techniques-for-an-agile-team/</guid>
-      <description>Agile is the most discussed software development methodology, and probably the most widely accepted as the way forward for modern software development teams.</description>
+      <description>&lt;p&gt;Agile is the most discussed software development methodology, and probably the most widely accepted as the way forward for modern software development teams. The reason (IMHO) anything is this much discussed and written about is that the practices haven&amp;rsquo;t been carved in stone yet, are still in the evolving phase, and are in some way even disputed. There is so much going on in the Agile transformation initiatives that it&amp;rsquo;s possible the definition of agile development is different from company to company.&lt;/p&gt;</description>
     </item>
     <item>
       <title>One Year Of Pandemic &amp; One Year Of Incubyte</title>
       <link>https://blog.incubyte.co/blog/one-year-of-incubyte/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/one-year-of-incubyte/</guid>
-      <description>It all started when— unbeknownst to the world, a series of lockdowns changed the way India Inc.</description>
+      <description>&lt;p&gt;It all started when— unbeknownst to the world, a series of lockdowns changed the way India Inc. operated. The world hit a big fast-forward button to the future of remote work. And right around that time, in February of 2020, a small team that called itself Incubyte set out on its own mission in this new normal.&lt;/p&gt;</description>
     </item>
     <item>
       <title>12 Books Developers Must Read</title>
       <link>https://blog.incubyte.co/blog/books-we-believe-should-be-on-your-bookshelf-and-read-them-too/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/books-we-believe-should-be-on-your-bookshelf-and-read-them-too/</guid>
-      <description>Books are a massive source of knowledge. Before we list all the books here, we want to discuss why we think it&amp;rsquo;s essential for programmers to read them.</description>
+      <description>&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Books are a massive source of knowledge. Before we list all the books here, we want to discuss why we think it&amp;rsquo;s essential for programmers to read them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to contribute to open-source project: A beginner&#39;s guide</title>
       <link>https://blog.incubyte.co/blog/how-to-contribute-to-open-source-project-a-beginners-guide/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/how-to-contribute-to-open-source-project-a-beginners-guide/</guid>
-      <description>Are you a first-time contributor? Are you wondering how to start contributing to OSS?</description>
+      <description>&lt;p&gt;Are you a first-time contributor? Are you wondering how to start contributing to OSS? Well, this guide is made for you. Hopefully, you are reading this because you are looking to take the first step toward making an open-source contribution! You’ve been using multiple Open-Source projects and have read many articles, including &lt;a href=&#34;https://blog.incubyte.co/benefits-and-challenges-of-open-source-development/&#34;&gt;this&lt;/a&gt; introduction to Open-Source Software. You’ve been sold on the idea and can’t wait to start! Only, how do you even begin? How do you decide on the right project? What happens if something goes wrong? This can be a bit intimidating at first. No need to worry though.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Benefits and Challenges of Open-Source Development</title>
       <link>https://blog.incubyte.co/blog/benefits-and-challenges-of-open-source-development/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/benefits-and-challenges-of-open-source-development/</guid>
-      <description>Open-source software (OSS) is the holy grail for developers. It is a hub of innovation through intense collaboration in this era of agile software development.</description>
+      <description>&lt;p&gt;Open-source software (OSS) is the holy grail for developers. It is a hub of innovation through intense collaboration in this era of agile software development. Without it, many of the technologies we take for granted today would never have been developed or would have been locked away behind strict patents. The open-source movement is the reason technology has developed at such a breakneck pace over the past few decades.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do not assume that technical debt is a problem with your code</title>
       <link>https://blog.incubyte.co/blog/do-not-assume-that-technical-debt-is-a-problem-with-your-code/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/do-not-assume-that-technical-debt-is-a-problem-with-your-code/</guid>
-      <description>Ever saw SonarQube laden with thousands of maintainability and security issues?</description>
+      <description>&lt;p&gt;Ever saw SonarQube laden with thousands of maintainability and security issues? Looking at those dashboards, we often believe we&amp;rsquo;re looking at the code&amp;rsquo;s state, but there is more to it. We are looking into how people work! We are looking into the team&amp;rsquo;s behaviour and how disciplined they are in writing code.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Not All Tests are the Same</title>
       <link>https://blog.incubyte.co/blog/notalltestsarethesame/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/notalltestsarethesame/</guid>
-      <description>On multiple occasions, I have worked on projects where I learned how critical testing is and that not all tests are the same.</description>
+      <description>&lt;p&gt;On multiple occasions, I have worked on projects where I learned how critical testing is and that not all tests are the same.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Remote Onboarding &amp; Immersion at Incubyte</title>
       <link>https://blog.incubyte.co/blog/remote-onboarding-and-immersion/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/remote-onboarding-and-immersion/</guid>
-      <description>Employee onboarding is the important process of introducing newly hired employees to the organisation.</description>
+      <description>&lt;p&gt;Employee onboarding is the important process of introducing newly hired employees to the organisation. It is everything that leads up to the employee&amp;rsquo;s total immersion into the organisation&amp;rsquo;s culture. An effective onboarding process helps the new employee relate better with the company values and helps them get up and running quicker. Immersion is the process of creating a common future and common purpose for all employees by aligning expectation, values, purpose, mission and goals.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Battle of Source Control</title>
       <link>https://blog.incubyte.co/blog/the-battle-of-source-control/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/the-battle-of-source-control/</guid>
-      <description>git pull origin develop git checkout -b feature/shiny-new-branch It&amp;rsquo;s the start of a sprint, and you have picked up a new User Story.</description>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git pull origin develop&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git checkout -b feature/shiny-new-branch&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</description>
     </item>
     <item>
       <title>Why Incubyte?</title>
       <link>https://blog.incubyte.co/blog/why-incubyte/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/why-incubyte/</guid>
-      <description>Quality is usually an implicit requirement when it comes to developing software.</description>
+      <description>&lt;p&gt;Quality is usually an implicit requirement when it comes to developing software. Users ask for a beautiful UI, outstanding performance, and the functionality they need, but quality is never on the list - it is just expected! And because it is so, it is often overlooked. Users end up getting only what was explicitly stated.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do not Release Code Without Automated Tests</title>
       <link>https://blog.incubyte.co/blog/do-not-release-code-without-automated-tests/</link>
       <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/do-not-release-code-without-automated-tests/</guid>
-      <description>Most projects that I see facing serious problems lack tests. You should write tests for two things</description>
+      <description>&lt;p&gt;Most projects that I see facing serious problems lack tests. You should write tests for two things&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do not Get so busy that you stop learning</title>
       <link>https://blog.incubyte.co/blog/do-not-get-so-busy-that-you-stop-learning/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/do-not-get-so-busy-that-you-stop-learning/</guid>
-      <description>Learning is the most vital part of a software developer&amp;rsquo;s life.</description>
+      <description>&lt;p&gt;Learning is the most vital part of a software developer&amp;rsquo;s life. Being so busy that one stops learning is neither desirable nor helpful to one&amp;rsquo;s career. Sandro wrote in his book Software Craftsman, having one year of experience ten times does not mean having ten years of experience.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do not Optimize Prematurely</title>
       <link>https://blog.incubyte.co/blog/do-not-optimize-prematurely/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/do-not-optimize-prematurely/</guid>
-      <description>Once again, you would think that the software development community has moved past this point, but I still get many teammates who want to &amp;ldquo;save memory&amp;rdquo; using HashMaps instead of POJOs.</description>
+      <description>&lt;p&gt;Once again, you would think that the software development community has moved past this point, but I still get many teammates who want to &amp;ldquo;save memory&amp;rdquo; using HashMaps instead of POJOs. I am not too sure how efficient HashMaps are compared to POJOs, but I am sure of how they can become a maintenance nightmare if we start using maps wherever we could use POJO.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do not Show Separate Estimate for Unit Testing</title>
       <link>https://blog.incubyte.co/blog/do-not-show-separate-estimate-for-testing/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/do-not-show-separate-estimate-for-testing/</guid>
-      <description>Once I was asked in an interview (I was the interviewer!</description>
+      <description>&lt;p&gt;Once I was asked in an interview (I was the interviewer!) What do you do in situations where the customers don&amp;rsquo;t want you to write test cases, or they want you to deprioritize the activity of writing test cases. My answer was, the customer gets such ideas if you show test cases as a separate activity; if testing becomes an inherent part of your development workflow, then one cannot tear them apart. This is where methodologies like TDD help. Delivering features mean delivering features with tests; they should not be two different things. Teams should not create stickies on boards or issues in Jira dedicated to unit testing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How We Hire Software Craftspeople</title>
       <link>https://blog.incubyte.co/blog/hiring-process/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/hiring-process/</guid>
-      <description>Any organization is the sum of its people and employees are its main spokespeople.</description>
+      <description>&lt;p&gt;Any organization is the sum of its people and employees are its main spokespeople. Human capital is our most valued asset. So, hiring suitable candidates, who share the same values and core principles as Incubyte is our biggest imperative.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Security Practices for Postgres Web Application</title>
       <link>https://blog.incubyte.co/blog/data-security/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/data-security/</guid>
-      <description>Data security is when protective measures are put in place to keep unauthorsized access out of computers, websites, and databases.</description>
+      <description>&lt;p&gt;Data security is when protective measures are put in place to keep unauthorsized access out of computers, websites, and databases. This process also provides a mechanism for protecting data from loss or corruption.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do not Copy and paste code to minimize the impact:</title>
       <link>https://blog.incubyte.co/blog/do-not-copy-and-paste-code/</link>
       <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/do-not-copy-and-paste-code/</guid>
-      <description>Have you ever seen code in your module, which was so complex that you decided to copy and paste it entirely rather than changing it to accommodate your requirement?</description>
+      <description>&lt;p&gt;Have you ever seen code in your module, which was so complex that you decided to copy and paste it entirely rather than changing it to accommodate your requirement? What does it say about you and your codebase?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do not Fall for faux agile</title>
       <link>https://blog.incubyte.co/blog/do-not-fall-for-faux-agile/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/do-not-fall-for-faux-agile/</guid>
-      <description>Enough ink is already spilled on this topic, nevertheless talking about it once again may not hurt.</description>
+      <description>&lt;p&gt;Enough ink is already spilled on this topic, nevertheless talking about it once again may not hurt.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Feedback &amp; Rapid Prototyping</title>
       <link>https://blog.incubyte.co/blog/feedback/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/feedback/</guid>
-      <description>&amp;ldquo;No fixed direction remains valid for long&amp;rdquo; - Extreme Programming Explained by Kent Beck</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;&lt;em&gt;No fixed direction remains valid for long&amp;rdquo;&lt;/em&gt; &lt;em&gt;-&lt;/em&gt; Extreme Programming Explained by Kent Beck&lt;/p&gt;</description>
     </item>
     <item>
       <title>Planning &amp; Communication</title>
       <link>https://blog.incubyte.co/blog/planning/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/planning/</guid>
-      <description>One of our primary process goals is to make frequent, small releases of our working software.</description>
+      <description>&lt;p&gt;One of our primary process goals is to make frequent, small releases of our working software. We do this through regular communication and bi-weekly iterations on a product.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Technology Platforms &amp; Business Economics</title>
       <link>https://blog.incubyte.co/blog/technology-platforms-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/technology-platforms-2/</guid>
-      <description>Early in a project, we have to decide which platforms we&amp;rsquo;ll use.</description>
+      <description>&lt;p&gt;Early in a project, we have to decide which platforms we&amp;rsquo;ll use. Which platforms depend on our ideas for solving the users&amp;rsquo; problems. After considering what&amp;rsquo;s best for users, the best tools for us have a strong community, make us happy, and help us create and iterate quickly. Our developers are highly versatile with their choice of tools and integrate the tools&amp;rsquo; ideologies into their development process.Some of the tools we use and platforms we work with (and highly recommend) are/Some of the ideologies that our choice of tech platforms abide by are:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

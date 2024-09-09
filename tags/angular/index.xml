@@ -14,7 +14,7 @@
       <link>https://blog.incubyte.co/blog/angular-provider/</link>
       <pubDate>Mon, 10 Oct 2022 12:50:00 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/angular-provider/</guid>
-      <description>Angular Provider is like a command to Angular Dependency Injection system regarding how to get an object/instance for a particular dependency.</description>
+      <description>&lt;p&gt;Angular Provider is like a command to Angular Dependency Injection system regarding how to get an object/instance for a particular dependency.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

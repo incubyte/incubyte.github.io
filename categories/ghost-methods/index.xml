@@ -14,7 +14,7 @@
       <link>https://blog.incubyte.co/blog/dynamic-method/</link>
       <pubDate>Fri, 27 Oct 2023 13:31:36 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/dynamic-method/</guid>
-      <description>In Ruby, the dynamic nature of method dispatch is one of its key features.</description>
+      <description>&lt;p&gt;In Ruby, the dynamic nature of method dispatch is one of its key features. Method calls are resolved at runtime based on the actual type of the object. This flexibility allows for polymorphic and dynamic behavior&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

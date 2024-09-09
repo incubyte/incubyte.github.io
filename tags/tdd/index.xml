@@ -14,28 +14,28 @@
       <link>https://blog.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/</link>
       <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/</guid>
-      <description>Once upon a time, in the vast kingdom of Software Development, there was a growing need for structures that wouldn&amp;rsquo;t crumble under pressure.</description>
+      <description>&lt;p&gt;Once upon a time, in the vast kingdom of Software Development, there was a growing need for structures that wouldn&amp;rsquo;t crumble under pressure. Just as architects wouldn&amp;rsquo;t dream of building a skyscraper without a blueprint and rigorous checks, why should software developers? This tale unfolds the essence of Test-Driven Development (TDD) and how it champions building robust software.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Testing With Java - Part 2 : TDD</title>
       <link>https://blog.incubyte.co/blog/testing-with-java-tdd/</link>
       <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/testing-with-java-tdd/</guid>
-      <description>In the annals of software development, there exists a cautionary tale from the year 1996, when the European Space Agency (ESA) launched its ambitious Ariane 5 rocket.</description>
+      <description>&lt;p&gt;In the annals of software development, there exists a cautionary tale from the year 1996, when the European Space Agency (ESA) launched its ambitious Ariane 5 rocket. Alas, what was meant to be a triumph turned into tragedy a mere 40 seconds after liftoff, as the rocket met a fiery demise, along with its precious cargo. The cause of this catastrophe? A software glitch, specifically an integer overflow issue, lurking within the rocket&amp;rsquo;s flight control system.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rails RESTful API, Outside in TDD</title>
       <link>https://blog.incubyte.co/blog/rails-restapi-tdd/</link>
       <pubDate>Sat, 02 Jul 2022 02:32:46 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/rails-restapi-tdd/</guid>
-      <description>There is always a disciplined way to do things I was waiting for the coffee dispenser to finish filling up my cup and my mind started wandering.</description>
+      <description>&lt;h3 id=&#34;there-is-always-a-disciplined-way-to-do-things&#34;&gt;There is always a disciplined way to do things&lt;/h3&gt;&#xA;&lt;p&gt;I was waiting for the coffee dispenser to finish filling up my cup and my mind started wandering. Suddenly, I felt this rush. Was it a sense of pride? Could be. I had, just a few minutes ago, been able to solve a race-condition problem that was bugging me for a while. Sipping at the coffee I could see out the glass door, that it was raining. This is a good moment, I thought to myself. One thing I didn’t want to think about was the open tickets in the backlog. Unchallenging and menial, they bored me. With the soothing sounds of the rain in the background and the warmth of the fuel of the Gods, I was now thinking of ways I could avoid working on them!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Incubyte TDD Assessment</title>
       <link>https://blog.incubyte.co/blog/tdd-assessment/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/tdd-assessment/</guid>
-      <description>Hello there and welcome to the Incubyte TDD Kata!&#xA;This assessment is the first step in our recruiting process and will be followed by two pair programming/discussion sessions.</description>
+      <description>&lt;p&gt;Hello there and welcome to the Incubyte TDD Kata!&lt;/p&gt;&#xA;&lt;p&gt;This assessment is the first step in our recruiting process and will be followed by two pair programming/discussion sessions.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

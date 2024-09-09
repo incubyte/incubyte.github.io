@@ -14,7 +14,7 @@
       <link>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</link>
       <pubDate>Thu, 09 Nov 2023 18:20:29 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</guid>
-      <description>In Ruby on Rails, the .dup method is commonly used to create a duplicate of an object, allowing modifications without affecting the original.</description>
+      <description>&lt;p&gt;In Ruby on Rails, the &lt;code&gt;.dup&lt;/code&gt; method is commonly used to create a duplicate of an object, allowing modifications without affecting the original.&#xA;However, it&amp;rsquo;s crucial to understand its limitations, especially when dealing with nested structures.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

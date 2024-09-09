@@ -14,7 +14,7 @@
       <link>https://blog.incubyte.co/blog/pair-programming-rethinking-the-role-of-pr-reviews/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/pair-programming-rethinking-the-role-of-pr-reviews/</guid>
-      <description>Pair programming is a collaborative approach where two developers work together at a single workstation, continuously reviewing each other’s code.</description>
+      <description>&lt;p&gt;Pair programming is a collaborative approach where two developers work together at a single workstation, continuously reviewing each other’s code. This method is known for enhancing code quality, facilitating knowledge sharing, and reducing the need for formal pull request (PR) reviews. However, there are scenarios where a third-person review can be beneficial, even when pair programming is in place. In this blog, I’ll discuss why I favor internal reviews within the pair and treat third-person reviews as exceptions, exploring when each approach is most appropriate.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

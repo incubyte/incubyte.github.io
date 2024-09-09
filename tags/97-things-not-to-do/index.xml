@@ -14,49 +14,49 @@
       <link>https://blog.incubyte.co/blog/do-not-assume-that-technical-debt-is-a-problem-with-your-code/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/do-not-assume-that-technical-debt-is-a-problem-with-your-code/</guid>
-      <description>Ever saw SonarQube laden with thousands of maintainability and security issues?</description>
+      <description>&lt;p&gt;Ever saw SonarQube laden with thousands of maintainability and security issues? Looking at those dashboards, we often believe we&amp;rsquo;re looking at the code&amp;rsquo;s state, but there is more to it. We are looking into how people work! We are looking into the team&amp;rsquo;s behaviour and how disciplined they are in writing code.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do not Release Code Without Automated Tests</title>
       <link>https://blog.incubyte.co/blog/do-not-release-code-without-automated-tests/</link>
       <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/do-not-release-code-without-automated-tests/</guid>
-      <description>Most projects that I see facing serious problems lack tests. You should write tests for two things</description>
+      <description>&lt;p&gt;Most projects that I see facing serious problems lack tests. You should write tests for two things&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do not Get so busy that you stop learning</title>
       <link>https://blog.incubyte.co/blog/do-not-get-so-busy-that-you-stop-learning/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/do-not-get-so-busy-that-you-stop-learning/</guid>
-      <description>Learning is the most vital part of a software developer&amp;rsquo;s life.</description>
+      <description>&lt;p&gt;Learning is the most vital part of a software developer&amp;rsquo;s life. Being so busy that one stops learning is neither desirable nor helpful to one&amp;rsquo;s career. Sandro wrote in his book Software Craftsman, having one year of experience ten times does not mean having ten years of experience.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do not Optimize Prematurely</title>
       <link>https://blog.incubyte.co/blog/do-not-optimize-prematurely/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/do-not-optimize-prematurely/</guid>
-      <description>Once again, you would think that the software development community has moved past this point, but I still get many teammates who want to &amp;ldquo;save memory&amp;rdquo; using HashMaps instead of POJOs.</description>
+      <description>&lt;p&gt;Once again, you would think that the software development community has moved past this point, but I still get many teammates who want to &amp;ldquo;save memory&amp;rdquo; using HashMaps instead of POJOs. I am not too sure how efficient HashMaps are compared to POJOs, but I am sure of how they can become a maintenance nightmare if we start using maps wherever we could use POJO.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do not Show Separate Estimate for Unit Testing</title>
       <link>https://blog.incubyte.co/blog/do-not-show-separate-estimate-for-testing/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/do-not-show-separate-estimate-for-testing/</guid>
-      <description>Once I was asked in an interview (I was the interviewer!</description>
+      <description>&lt;p&gt;Once I was asked in an interview (I was the interviewer!) What do you do in situations where the customers don&amp;rsquo;t want you to write test cases, or they want you to deprioritize the activity of writing test cases. My answer was, the customer gets such ideas if you show test cases as a separate activity; if testing becomes an inherent part of your development workflow, then one cannot tear them apart. This is where methodologies like TDD help. Delivering features mean delivering features with tests; they should not be two different things. Teams should not create stickies on boards or issues in Jira dedicated to unit testing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do not Copy and paste code to minimize the impact:</title>
       <link>https://blog.incubyte.co/blog/do-not-copy-and-paste-code/</link>
       <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/do-not-copy-and-paste-code/</guid>
-      <description>Have you ever seen code in your module, which was so complex that you decided to copy and paste it entirely rather than changing it to accommodate your requirement?</description>
+      <description>&lt;p&gt;Have you ever seen code in your module, which was so complex that you decided to copy and paste it entirely rather than changing it to accommodate your requirement? What does it say about you and your codebase?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Do not Fall for faux agile</title>
       <link>https://blog.incubyte.co/blog/do-not-fall-for-faux-agile/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/do-not-fall-for-faux-agile/</guid>
-      <description>Enough ink is already spilled on this topic, nevertheless talking about it once again may not hurt.</description>
+      <description>&lt;p&gt;Enough ink is already spilled on this topic, nevertheless talking about it once again may not hurt.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
