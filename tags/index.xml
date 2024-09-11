@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 05 Sep 2024 13:48:15 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2024 11:00:14 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Playbook</title>
+      <link>https://blog.incubyte.co/tags/playbook/</link>
+      <pubDate>Fri, 06 Sep 2024 11:00:14 +0530</pubDate>
+      <guid>https://blog.incubyte.co/tags/playbook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Craftsmanship</title>
+      <link>https://blog.incubyte.co/tags/software-craftsmanship/</link>
+      <pubDate>Fri, 06 Sep 2024 11:00:14 +0530</pubDate>
+      <guid>https://blog.incubyte.co/tags/software-craftsmanship/</guid>
+      <description></description>
+    </item>
     <item>
       <title>React</title>
       <link>https://blog.incubyte.co/tags/react/</link>
@@ -28,13 +42,6 @@
       <link>https://blog.incubyte.co/tags/pair-programming/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/tags/pair-programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Craftsmanship</title>
-      <link>https://blog.incubyte.co/tags/software-craftsmanship/</link>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/tags/software-craftsmanship/</guid>
       <description></description>
     </item>
     <item>
@@ -112,13 +119,6 @@
       <link>https://blog.incubyte.co/tags/devex/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/tags/devex/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Playbook</title>
-      <link>https://blog.incubyte.co/tags/playbook/</link>
-      <pubDate>Thu, 27 Jul 2023 20:04:38 +0530</pubDate>
-      <guid>https://blog.incubyte.co/tags/playbook/</guid>
       <description></description>
     </item>
     <item>

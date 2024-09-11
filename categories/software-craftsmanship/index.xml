@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2024 11:00:14 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/categories/software-craftsmanship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interviewing Software Craftspeople: How to Get it Right!</title>
+      <link>https://blog.incubyte.co/blog/interviewing-software-craftspeople/</link>
+      <pubDate>Fri, 06 Sep 2024 11:00:14 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/interviewing-software-craftspeople/</guid>
+      <description>&lt;p&gt;When you’re hiring talented software developers, the interview process is more than just a skills assessment—it’s your chance to show them that your team is a place where they can truly grow and make an impact.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Pair Programming: Rethinking the Role of PR Reviews</title>
       <link>https://blog.incubyte.co/blog/pair-programming-rethinking-the-role-of-pr-reviews/</link>
@@ -182,7 +189,7 @@
       <link>https://blog.incubyte.co/blog/the-battle-of-source-control/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/the-battle-of-source-control/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git pull origin develop&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git checkout -b feature/shiny-new-branch&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</description>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git pull origin develop&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git checkout -b feature/shiny-new-branch&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It&amp;rsquo;s the start of a sprint, and you have picked up a new User Story.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why Incubyte?</title>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tilak Patidar on Incubyte Blog</title>
+    <link>https://blog.incubyte.co/authors/tilak-patidar/</link>
+    <description>Recent content in Tilak Patidar on Incubyte Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 06 Sep 2024 11:00:14 +0530</lastBuildDate>
+    <atom:link href="https://blog.incubyte.co/authors/tilak-patidar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interviewing Software Craftspeople: How to Get it Right!</title>
+      <link>https://blog.incubyte.co/blog/interviewing-software-craftspeople/</link>
+      <pubDate>Fri, 06 Sep 2024 11:00:14 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/interviewing-software-craftspeople/</guid>
+      <description>&lt;p&gt;When you’re hiring talented software developers, the interview process is more than just a skills assessment—it’s your chance to show them that your team is a place where they can truly grow and make an impact.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

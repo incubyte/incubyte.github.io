@@ -9,10 +9,31 @@
     <lastmod>2024-09-06T11:00:14+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/</loc>
-    <lastmod>2024-09-05T13:48:15+05:30</lastmod>
+    <lastmod>2024-09-06T11:00:14+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/</loc>
-    <lastmod>2024-09-05T13:48:15+05:30</lastmod>
+    <lastmod>2024-09-06T11:00:14+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/interviewing-software-craftspeople/</loc>
+    <lastmod>2024-09-06T11:00:14+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/playbook/</loc>
+    <lastmod>2024-09-06T11:00:14+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/playbook/</loc>
+    <lastmod>2024-09-06T11:00:14+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
+    <lastmod>2024-09-06T11:00:14+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
+    <lastmod>2024-09-06T11:00:14+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/</loc>
+    <lastmod>2024-09-06T11:00:14+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/tilak-patidar/</loc>
+    <lastmod>2024-09-06T11:00:14+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/deepak-sisodiya/</loc>
     <lastmod>2024-09-05T13:48:15+05:30</lastmod>
@@ -32,9 +53,6 @@
     <loc>https://blog.incubyte.co/blog/solid-principles-in-react-a-simple-and-practical-guide/</loc>
     <lastmod>2024-09-05T13:48:15+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/</loc>
-    <lastmod>2024-09-05T13:48:15+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/tags/pair-programming/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -45,12 +63,6 @@
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/siya-agarwal/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/rdbms/</loc>
@@ -180,12 +192,6 @@
     <lastmod>2023-07-27T20:04:38+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/nirav-chavda/</loc>
-    <lastmod>2023-07-27T20:04:38+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/playbook/</loc>
-    <lastmod>2023-07-27T20:04:38+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/playbook/</loc>
     <lastmod>2023-07-27T20:04:38+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/refactoring-to-tidying/</loc>
