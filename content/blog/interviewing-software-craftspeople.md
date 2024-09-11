@@ -23,7 +23,7 @@ Instead of making the interview a test of who knows more, aim to create a balanc
 
 ### 2. Prioritize Real-World Scenarios
 
-Move away from brainteasers that don't reflect the job's daily demands. Questions like, "How many golf balls fit in an airplane?" won’t help you figure out if someone can write quality code or collaborate well with others. 
+Move away from brainteasers that don't reflect the job's daily demands. Questions like, "How many golf balls fit in an airplane?" won’t help you figure out if someone can write quality code or collaborate well with others.
 
 Instead, focus on questions and tasks that are directly relevant to the role. This gives you a clear understanding of how candidates think through real problems, design solutions, and write quality code.
 
@@ -52,6 +52,5 @@ Unless your job specifically requires deep algorithmic knowledge, don’t make a
 ### 8. Limit Phone Interviews
 
 Phone interviews can feel impersonal and rushed. They’re especially difficult for non-native speakers who might struggle without visual cues or body language. Whenever possible, opt for face-to-face interviews to create a more engaging and productive conversation.
-
 
 By creating a respectful, real-world interview experience, you’ll not only attract top software talent but also show them why your team is THE place they’ll love to grow and thrive.
