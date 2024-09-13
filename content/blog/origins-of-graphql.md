@@ -13,8 +13,6 @@ type = ""
 
 ### Königsberg Bridge Problem — The Big Bang of GraphQL
 
-{{< figure src="/images/2023/02/bridge.png" >}}
-
 “Starting from any of the four land areas A, B, C, D is it possible to cross each of the seven bridges exactly once and come back to the starting point without swimming across the river?” Solving this is how people spent their Sunday afternoon picnics in 1735.
 
 ### What Leonhard Euler did to their Sundays?
