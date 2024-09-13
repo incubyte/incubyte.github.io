@@ -1,9 +1,9 @@
 +++
 title = "Extreme Ownership: The Catalyst for Achieving Professional Excellence"
-slug = "extreme-ownership-key-to-success"
-date = 2024-06-28T10:41:49+05:30
-image = "/images/2024/extreme-ownership-key-to-success.png"
-draft = true
+slug = "extreme-ownership-catalyst-for-achieving-professional-excellence"
+date = 2024-09-13T0:00:0:0
+image = "/images/2024/extreme_ownership_header.jpg"
+draft = false
 authors = ["Syed Mohd Mehndi"]
 description = "Extreme Ownership: The Catalyst for Achieving Professional Excellence"
 tags = ["Playbook", "Software Craftsmanship"]
