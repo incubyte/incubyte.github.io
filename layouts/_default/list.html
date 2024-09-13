@@ -49,7 +49,7 @@
                         {{ range .Params.tags }}
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
                         {{ end }}
-                        <p class="card-text">{{ .Summary }} </p>
+                        <p class="card-text">{{ .Summary | truncate 120 "..." }} </p>
                         <p class="blockquote-footer text-right">
                             By {{range .Params.authors}}
                             <a href="/authors/{{ . | urlize }}">{{ . }}</a>, {{ end }} on {{
