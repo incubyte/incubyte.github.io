@@ -11,7 +11,7 @@ categories = ["Playbook", "Software Craftsmanship"]
 type = ""
 +++
 
-In the realm of software craftsmanship and professional development, certain values stand out as pillars of success. These include relentless pursuit of quality with pragmatism, extreme ownership, proactive collaboration, active pursuit of mastery, inviting and giving feedback effectively, and ensuring client success. At the core of these values lies a principle that serves as a catalyst for achieving them: extreme ownership.
+In the realm of software craftsmanship and professional development, certain values stand out as pillars of success. These include relentless pursuit of quality with pragmatism, extreme ownership, proactive collaboration, active pursuit of mastery, inviting and giving feedback effectively, and ensuring client success. These are the values that we adhere to at Incubyte. At the core of these values lies a principle that serves as a catalyst for achieving them: extreme ownership.
 
 **Extreme Ownership: The Foundation**
 Extreme ownership, a concept popularized by former Navy SEALs Jocko Willink and Leif Babin in their book "Extreme Ownership: How U.S. Navy SEALs Lead and Win," emphasizes taking full responsibility for everything in your work and life. This principle is not just about leadership; it's a mindset that can transform your career and the way you approach every aspect of your professional journey.
