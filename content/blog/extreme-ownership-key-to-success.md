@@ -1,7 +1,7 @@
 +++
 title = "Extreme Ownership: The Catalyst for Achieving Professional Excellence"
 slug = "extreme-ownership-catalyst-for-achieving-professional-excellence"
-date = 2024-09-13T0:00:0:0
+date = 2024-09-13T00:00:00Z
 image = "/images/2024/extreme_ownership_header.jpg"
 draft = false
 authors = ["Syed Mohd Mehndi"]
@@ -11,7 +11,7 @@ categories = ["Playbook", "Software Craftsmanship"]
 type = ""
 +++
 
-In the realm of software craftsmanship and professional development, certain values stand out as pillars of success. These include relentless pursuit of quality with pragmatism, extreme ownership, proactive collaboration, active pursuit of mastery, inviting and giving feedback effectively, and ensuring client success. These are the values that we adhere to at Incubyte. At the core of these values lies a principle that serves as a catalyst for achieving them: extreme ownership.
+In the realm of software craftsmanship and professional development, certain values stand out as pillars of success. These include relentless pursuit of quality with pragmatism, extreme ownership, proactive collaboration, active pursuit of mastery, inviting and giving feedback effectively, and ensuring client success. These are the [guiding principles](https://www.incubyte.co/post/succeeding-at-incubyte-our-core-values) that we adhere to at Incubyte. At the core of these values lies a principle that serves as a catalyst for achieving them: **extreme ownership.**
 
 ## Extreme Ownership: The Foundation
 
