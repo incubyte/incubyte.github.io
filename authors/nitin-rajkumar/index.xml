@@ -28,7 +28,7 @@
       <link>https://blog.incubyte.co/blog/origin-of-graphql/</link>
       <pubDate>Thu, 23 Feb 2023 11:33:15 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/origin-of-graphql/</guid>
-      <description>&lt;h3 id=&#34;königsberg-bridge-problem--the-big-bang-of-graphql&#34;&gt;Königsberg Bridge Problem — The Big Bang of GraphQL&lt;/h3&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://blog.incubyte.co/images/2023/02/bridge.png&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;“Starting from any of the four land areas A, B, C, D is it possible to cross each of the seven bridges exactly once and come back to the starting point without swimming across the river?” Solving this is how people spent their Sunday afternoon picnics in 1735.&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;königsberg-bridge-problem--the-big-bang-of-graphql&#34;&gt;Königsberg Bridge Problem — The Big Bang of GraphQL&lt;/h3&gt;&#xA;&lt;p&gt;“Starting from any of the four land areas A, B, C, D is it possible to cross each of the seven bridges exactly once and come back to the starting point without swimming across the river?” Solving this is how people spent their Sunday afternoon picnics in 1735.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rails RESTful API, Outside in TDD</title>
