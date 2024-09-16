@@ -1,17 +1,15 @@
 +++
-title = "Refinements in Ruby"
+title = "Refinements in Ruby: A Flexible Approach to Modifying Core Classes"
 slug = "refinements-in-ruby"
 date = 2024-09-13T11:48:18+05:30
-image = "/images/2021/07/demo.jpg"
-draft = true
+image = "/images/2024/refinements-in-ruby/header.jpeg"
+draft = false
 authors = ["Syed Mohd Mehndi"]
-description = "Refinements in Ruby"
+description = "Refinements in Ruby: A Flexible Approach to Modifying Core Classes"
 tags = ["Ruby"]
 categories = ["Ruby"]
 type = ""
 +++
-
-## Exploring Ruby Refinements: A Flexible Approach to Modifying Core Classes
 
 Ruby is a highly flexible programming language known for its dynamic capabilities and metaprogramming power. One such powerful feature in Ruby is refinements. Introduced in Ruby 2.0, refinements allow you to modify existing classes (even core classes like String, Array, etc.) in a more controlled and localized way. This is particularly useful when you want to change class behavior in specific contexts without affecting the global environment, which is a common issue with traditional monkey-patching.
 
