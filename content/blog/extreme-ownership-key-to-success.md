@@ -11,7 +11,7 @@ categories = ["Playbook", "Software Craftsmanship"]
 type = ""
 +++
 
-In the realm of software craftsmanship and professional development, certain values stand out as pillars of success. These include extreme ownership, relentless pursuit of quality with pragmatism, proactive collaboration, active pursuit of mastery, inviting and giving feedback effectively, and ensuring client success. These are the [guiding principles](https://www.incubyte.co/post/succeeding-at-incubyte-our-core-values) that we adhere to at Incubyte. At the core of these values lies a principle that serves as a catalyst for achieving them: **extreme ownership.**
+In the realm of software craftsmanship and professional development, certain values stand out as pillars of success. These include extreme ownership, relentless pursuit of quality with pragmatism, proactive collaboration, active pursuit of mastery, inviting and giving feedback effectively, and creating ecstatic customers. These are the [guiding principles](https://www.incubyte.co/post/succeeding-at-incubyte-our-core-values) that we adhere to at Incubyte. At the core of these values lies a principle that serves as a catalyst for achieving them: **extreme ownership.**
 
 ## Extreme Ownership: The Foundation
 
