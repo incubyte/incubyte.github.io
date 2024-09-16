@@ -2,7 +2,7 @@
 authors = ["Sapan Parikh"]
 date = 2023-03-08T00:00:00Z
 description = "Accelerate: Metrics that Define High-Performance Software Delivery"
-draft = false
+draft = true
 image = "/images/2023/03/accelerate.jpg"
 slug = "accelerate-metrics"
 tags = ["Modernization", "Book Review"]
