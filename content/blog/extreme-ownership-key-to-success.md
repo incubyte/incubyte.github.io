@@ -21,7 +21,7 @@ Extreme ownership, a concept popularized by former Navy SEALs Jocko Willink and 
 
 ### What Does it Look Like?
 
-Relentless pursuit of quality involves a commitment to delivering the highest standards in work without compromising on long-term goals for short-term gains. For instance, a software developer might spend extra time optimizing code to ensure robustness and performance, even if it means a slightly delayed release.
+Relentless pursuit of quality involves a commitment to delivering the highest standards in work without compromising on long-term goals for short-term gains. For instance, a software developer might spend extra time optimizing code to ensure robustness and performance, it may sometimes increase the development time initially, in the long run, this can save a lot of resources for the team, both money and time.
 
 ### Impact of Extreme Ownership on Quality
 
