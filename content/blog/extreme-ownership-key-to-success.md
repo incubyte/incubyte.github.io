@@ -19,51 +19,51 @@ Extreme ownership, a concept popularized by former Navy SEALs Jocko Willink and 
 
 ## Relentless Pursuit of Quality with Pragmatism
 
-### Definition and Example
+### What Does it Look Like?
 
 Relentless pursuit of quality involves a commitment to delivering the highest standards in work without compromising on long-term goals for short-term gains. For instance, a software developer might spend extra time optimizing code to ensure robustness and performance, even if it means a slightly delayed release.
 
-### Relation to Extreme Ownership
+### Impact of Extreme Ownership on Quality
 
 Extreme ownership fuels this pursuit by instilling a deep sense of responsibility for the quality of work. When you own your role completely, you are driven to not just meet but exceed standards. You make decisions that balance ambition with practicality, avoiding shortcuts that could undermine long-term quality.
 
 ## Proactive Collaboration
 
-### Definition and Example
+### What Does it Look Like?
 
 Proactive collaboration means actively engaging with colleagues to achieve shared goals. This could involve initiating team retrospectives, participating in pair programming, or facilitating knowledge-sharing sessions. For instance, during a project, a developer might organize regular check-ins to align the team and address any blockers.
 
-### Relation to Extreme Ownership
+### Impact of Extreme Ownership on Collaboration
 
 Extreme ownership promotes proactive collaboration by encouraging individuals to take responsibility for both their contributions and the success of the team. When you fully own your part in a project, you’re more inclined to foster a collaborative environment where everyone’s input is valued and utilized effectively.
 
 ## Active Pursuit of Mastery
 
-### Definition and Example
+### What Does it Look Like?
 
 Active pursuit of mastery involves a continuous commitment to learning and improving one’s skills. For example, a developer might dedicate time to learning new technologies, attending workshops, or experimenting with innovative solutions to stay ahead in the field.
 
-### Relation to Extreme Ownership
+### Impact of Extreme Ownership on Mastery
 
 Extreme ownership drives this pursuit by emphasizing that personal and professional growth is solely in your hands. When you take ownership of your career, you actively seek opportunities to enhance your skills and knowledge, understanding that mastery is a journey that requires ongoing effort and dedication.
 
 ## Give, Invite, and Act on Feedback
 
-### Definition and Example
+### What Does it Look Like?
 
 Effective feedback involves offering constructive criticism and receiving it with openness. For instance, a team leader might give timely feedback on a presentation, highlighting strengths and areas for improvement, while also encouraging team members to share their insights on leadership practices.
 
-### Relation to Extreme Ownership
+### Impact of Extreme Ownership on Feedback
 
 Extreme ownership enhances feedback practices by fostering a culture where individuals are accountable for both giving and receiving feedback. When you take full responsibility for your own development and that of your peers, you create a safe environment for honest, actionable feedback, leading to continuous improvement.
 
 ## Create Ecstatic Customers
 
-### Definition and Example
+### What Does it Look Like?
 
 Creating ecstatic customers means going above and beyond to ensure client satisfaction. For example, a development team might offer additional support or enhancements to a project even after the initial delivery to ensure the client’s needs are fully met and exceeded.
 
-### Relation to Extreme Ownership
+### Impact of Extreme Ownership on Customer Satisfaction
 
 Extreme ownership drives the commitment to client success by reinforcing that their goals are your goals. When you own the outcomes of your work and its impact on the client, you are more invested in delivering exceptional results and ensuring that the client’s expectations are not just met but surpassed.
 
@@ -71,7 +71,7 @@ Extreme ownership drives the commitment to client success by reinforcing that th
 
 Extreme ownership is not just a principle of leadership but a transformative mindset that drives key professional values. By taking complete responsibility for our actions, decisions, and outcomes, we enhance our pursuit of quality, collaboration, mastery, feedback, and client success. This proactive and accountable approach leads to higher standards, stronger teams, and ultimately, greater success in our professional endeavors.
 
-### Take Ownership of Your Journey:
+### Take Ownership of Your Journey
 
 Incorporating Extreme Ownership into your personal and professional life can be the key to unlocking your full potential. Start by embracing responsibility for every decision, action, and outcome, whether in your career or personal growth. Ask yourself, "What can I do today to improve the quality of my work, collaborate more effectively, or drive success for my team and clients?"
 
