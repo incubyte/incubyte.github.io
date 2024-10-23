@@ -12,8 +12,6 @@ categories = ["Playbook", "Software Craftsmanship"]
 type = ""
 +++
 
-## What is code coverage?
-
 Code coverage is a measure (in percentage) of the degree to which the source code of a program is executed wh­en a particular test suite is run.
 
 Measuring test code coverage can be a useful technique for finding where the gaps are in your automated tests, and assessing the quality of your test suite. However, that is not always true. Coverage when used as a target, can be misleading, encourage the wrong behaviors, and even at times distort development.
@@ -21,7 +19,7 @@ Measuring test code coverage can be a useful technique for finding where the gap
 Here, we will try to debunk the myth (by using relatable examples) that code coverage should not be the only measure of reliability.
 Keep reading to find out why!
 
-### Example
+#### Example
 
 Below is the awesome mood detector function which represents my mood based on the number of chocolates I have:
 
@@ -53,7 +51,7 @@ void test_when_I_have_one_chocolate() {
 
 In the above example, the tests we have written only cover two of the three cases. The third case where `noOfChocolatesIHave > 1` is not covered. This results in 2/3 i.e. 67% code coverage only.
 
-## Standard Rule
+### Standard Rule
 
 You may be wondering why it is 80% and not 100%. Let's take one example,
 
@@ -79,7 +77,7 @@ This is because if the config file is not available, then the app might fail to 
 
 In short, these edge cases are hard to cover and hence 80% is the standard industry benchmark.
 
-## Problem 1 - Code coverage doesn't actually measure test case integrity
+### Problem 1 - Code coverage doesn't actually measure test case integrity
 
 Time for another example. Let's write a function that capitalizes the first character of the input word.
 
@@ -100,7 +98,7 @@ What happens when someone sends `"hero"` and the function returns `"HERO"`? That
 
 **A higher percentage of coverage does not mean coverage of all scenarios**. It just means that all the lines were executed!
 
-## Problem 2 - When you focus on a measure, people stop focusing on quality
+### Problem 2 - When you focus on a measure, people stop focusing on quality
 
 Let's assume that you have established a rule in the automated pipeline that checks for at least 80% coverage.
 
@@ -132,13 +130,13 @@ Do you see the problem?
 
 Since the hack function has 50 lines and the original function had around 10 lines, the total line coverage is 50 / (10 + 50) = 83%. It is clear that the coverage criterion is achieved but at the cost of compromised quality.
 
-## How should we use code coverage measure?
+### How should we use code coverage measure?
 
 Code coverage is a useful metric in the sense that it gives us assurance about so many lines of our code base having been executed by the test suite. But if that is the only metric being used, then it may give a false indication of the robustness and integrity of the tests.
 
 Instead, code coverage should be coupled with functional coverage, where one ensures that the test suite actually tests all the functionality of the product.
 
-## Conclusion
+### Conclusion
 
 Code Coverage is **required** but not **enough**.
 
