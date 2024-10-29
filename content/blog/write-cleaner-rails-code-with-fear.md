@@ -16,18 +16,22 @@ blocks just to handle potential errors? If you’re nodding along, you’re not 
 find themselves writing defensive code: checking for nil values, handling edge cases, and wrestling with
 error management. It’s like walking on eggshells, constantly fearing what might break.
 
-Picture this: You’re crafting a Ruby application, and it’s like building a house of cards. One missing nil check,
+**Picture this:**
+
+You’re crafting a Ruby application, and it’s like building a house of cards. One missing nil check,
 and everything tumbles down. Your code is peppered with defensive programming, if statements nested so deeply
 they’re practically forming a pyramid, and begin/rescue blocks scattered like safety nets throughout your application.
 We’ve all been there, and let’s be honest - it’s not the Ruby elegance we signed up for.
 
 But what if you could write Ruby code that flows like poetry? Where nil values are tamed, errors are handled
-gracefully, and nested conditionals are a thing of the past? That’s where our unlikely hero steps in – the Fear gem.
+gracefully, and nested conditionals are a thing of the past? That’s where our unlikely hero steps in – 
+the [Fear gem](https://github.com/bolshakov/fear)
 
-Here’s the cool part: The Fear gem is like a trusty sidekick for your Ruby code. Despite its name, it actually makes
+**Here’s the cool part:**
+
+The Fear gem is like a trusty sidekick for your Ruby code. Despite its name, it actually makes
 coding less scary! Think of it as a special tool that helps you write cleaner, safer code without all the messy checks
-and balances. It takes the best ideas from another programming language called Scala and brings them to Ruby in a
-way that just makes sense.
+and balances. It takes the best ideas from Scala and brings them to Ruby in a way that just makes sense.
 
 ### What exactly is the Fear gem?
 
