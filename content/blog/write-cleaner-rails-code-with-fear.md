@@ -24,7 +24,7 @@ they’re practically forming a pyramid, and begin/rescue blocks scattered like 
 We’ve all been there, and let’s be honest - it’s not the Ruby elegance we signed up for.
 
 But what if you could write Ruby code that flows like poetry? Where nil values are tamed, errors are handled
-gracefully, and nested conditionals are a thing of the past? That’s where our unlikely hero steps in – 
+gracefully, and nested conditionals are a thing of the past? That’s where our unlikely hero steps in –
 the [Fear gem](https://github.com/bolshakov/fear)
 
 **Here’s the cool part:**
