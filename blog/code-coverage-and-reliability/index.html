@@ -15,7 +15,7 @@
 
 
 <meta name="author" content="[Akshay Vadher]">
-<meta name="generator" content="Hugo 0.134.2">
+<meta name="generator" content="Hugo 0.136.5">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,21 +29,10 @@
 <meta name="msapplication-TileColor" content="#0AA8A7">
 <meta name="theme-color" content="#fff">
 
-
-<!-- Open Graph image and Twitter Card metadata -->
-<meta property="og:image" content="https://blog.incubyte.co/images/2022/02/code-coverage.jpeg" />
-<meta name="twitter:image" content="https://blog.incubyte.co/images/2022/02/code-coverage.jpeg"/>
-<meta name="twitter:card" content="summary_large_image">
-<meta property="og:image:width" content="2100">
-<meta property="og:image:height" content="1279">
-<meta property="og:image:type" content="image/jpeg">
-<meta name="twitter:title" content="Why Code Coverage Should Not Be Your Measure of Reliability"/>
-<meta name="twitter:description" content="What is code coverage?
-Code coverage is a measure (in percentage) of the degree to which the source code of a program is executed wh­en a particular test suite is run."/>
 <meta property="og:url" content="https://blog.incubyte.co/blog/code-coverage-and-reliability/">
   <meta property="og:site_name" content="Incubyte Blog">
   <meta property="og:title" content="Why Code Coverage Should Not Be Your Measure of Reliability">
-  <meta property="og:description" content="What is code coverage? Code coverage is a measure (in percentage) of the degree to which the source code of a program is executed wh­en a particular test suite is run.">
+  <meta property="og:description" content="Code coverage is a measure (in percentage) of the degree to which the source code of a program is executed wh­en a particular test suite is run.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -56,10 +45,7 @@ Code coverage is a measure (in percentage) of the degree to which the source cod
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Why Code Coverage Should Not Be Your Measure of Reliability">
-  <meta name="twitter:description" content="What is code coverage? Code coverage is a measure (in percentage) of the degree to which the source code of a program is executed wh­en a particular test suite is run.">
-
-
-
+  <meta name="twitter:description" content="Code coverage is a measure (in percentage) of the degree to which the source code of a program is executed wh­en a particular test suite is run.">
 
 
 
@@ -449,6 +435,10 @@ Code coverage is a measure (in percentage) of the degree to which the source cod
     color: #fff;
   }
 
+  body.dark-theme p {
+    color: #fff;
+  }
+
   body.dark-theme .card-text {
     color: #fff;
   }
@@ -702,12 +692,11 @@ Code coverage is a measure (in percentage) of the degree to which the source cod
           <a href="/authors/akshay-vadher">Akshay Vadher</a>,  on Thursday, February 10, 2022
         </p>
 
-        <div class="content"><h2 id="what-is-code-coverage">What is code coverage?</h2>
-<p>Code coverage is a measure (in percentage) of the degree to which the source code of a program is executed wh­en a particular test suite is run.</p>
+        <div class="content"><p>Code coverage is a measure (in percentage) of the degree to which the source code of a program is executed wh­en a particular test suite is run.</p>
 <p>Measuring test code coverage can be a useful technique for finding where the gaps are in your automated tests, and assessing the quality of your test suite. However, that is not always true. Coverage when used as a target, can be misleading, encourage the wrong behaviors, and even at times distort development.</p>
 <p>Here, we will try to debunk the myth (by using relatable examples) that code coverage should not be the only measure of reliability.
 Keep reading to find out why!</p>
-<h3 id="example">Example</h3>
+<h4 id="example">Example</h4>
 <p>Below is the awesome mood detector function which represents my mood based on the number of chocolates I have:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getMyMood</span>(<span style="color:#66d9ef">int</span> noOfChocolatesIHave) {
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (noOfChocolatesIHave <span style="color:#f92672">==</span> 0) {
@@ -729,7 +718,7 @@ Keep reading to find out why!</p>
 </span></span><span style="display:flex;"><span>  assertThat(getMyMood(1)).<span style="color:#a6e22e">is</span>(<span style="color:#e6db74">&#34;happy&#34;</span>)
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>In the above example, the tests we have written only cover two of the three cases. The third case where <code>noOfChocolatesIHave &gt; 1</code> is not covered. This results in 2/3 i.e. 67% code coverage only.</p>
-<h2 id="standard-rule">Standard Rule</h2>
+<h3 id="standard-rule">Standard Rule</h3>
 <p>You may be wondering why it is 80% and not 100%. Let&rsquo;s take one example,</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// two files available at location /src/demo -&gt; config.yaml and ConfigReader.java</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">// ConfigReader.java</span>
@@ -746,7 +735,7 @@ Keep reading to find out why!</p>
 <p>It is hard to generate test fixtures where the config file does not exist. Also, it is not worth putting in the effort to check that test case at all.</p>
 <p>This is because if the config file is not available, then the app might fail to start and by default, another test case will also crash.</p>
 <p>In short, these edge cases are hard to cover and hence 80% is the standard industry benchmark.</p>
-<h2 id="problem-1---code-coverage-doesnt-actually-measure-test-case-integrity">Problem 1 - Code coverage doesn&rsquo;t actually measure test case integrity</h2>
+<h3 id="problem-1---code-coverage-doesnt-actually-measure-test-case-integrity">Problem 1 - Code coverage doesn&rsquo;t actually measure test case integrity</h3>
 <p>Time for another example. Let&rsquo;s write a function that capitalizes the first character of the input word.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">capitalizeFirstChar</span>(String word) {
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> word.<span style="color:#a6e22e">toUpperCase</span>();
@@ -759,7 +748,7 @@ Keep reading to find out why!</p>
 </span></span></code></pre></div><p>Do you see the problem here? Our test case executes the function and it is covering all the lines, still, it is not covering all the scenarios. Even though our code coverage is 100%, our tests make no sense!</p>
 <p>What happens when someone sends <code>&quot;hero&quot;</code> and the function returns <code>&quot;HERO&quot;</code>? That is a bug in the system that is not covered by the test suite. Hence, we are mistaken in assuming that because of 100% code coverage, our app is robust and tests are very well written.</p>
 <p><strong>A higher percentage of coverage does not mean coverage of all scenarios</strong>. It just means that all the lines were executed!</p>
-<h2 id="problem-2---when-you-focus-on-a-measure-people-stop-focusing-on-quality">Problem 2 - When you focus on a measure, people stop focusing on quality</h2>
+<h3 id="problem-2---when-you-focus-on-a-measure-people-stop-focusing-on-quality">Problem 2 - When you focus on a measure, people stop focusing on quality</h3>
 <p>Let&rsquo;s assume that you have established a rule in the automated pipeline that checks for at least 80% coverage.</p>
 <p>Now, a scenario arises where a new function is created without the relevant tests being added. This would cause the build to fail as the code coverage slips below the required threshold. For whatever reason, someone could easily add unnecessary code to artificially increase the code coverage and make the build pipeline run to completion.</p>
 <p>Example of how unnecessary code can increase code coverage:</p>
@@ -782,10 +771,10 @@ Keep reading to find out why!</p>
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Do you see the problem?</p>
 <p>Since the hack function has 50 lines and the original function had around 10 lines, the total line coverage is 50 / (10 + 50) = 83%. It is clear that the coverage criterion is achieved but at the cost of compromised quality.</p>
-<h2 id="how-should-we-use-code-coverage-measure">How should we use code coverage measure?</h2>
+<h3 id="how-should-we-use-code-coverage-measure">How should we use code coverage measure?</h3>
 <p>Code coverage is a useful metric in the sense that it gives us assurance about so many lines of our code base having been executed by the test suite. But if that is the only metric being used, then it may give a false indication of the robustness and integrity of the tests.</p>
 <p>Instead, code coverage should be coupled with functional coverage, where one ensures that the test suite actually tests all the functionality of the product.</p>
-<h2 id="conclusion">Conclusion</h2>
+<h3 id="conclusion">Conclusion</h3>
 <p>Code Coverage is <strong>required</strong> but not <strong>enough</strong>.</p>
 <blockquote>
 <p>Notes: <a href="https://en.wikipedia.org/wiki/Code_coverage">Code coverage Wikipedia</a></p>
@@ -829,7 +818,7 @@ Keep reading to find out why!</p>
     </a>
 
     <a class="resp-sharing-button__link"
-         href="mailto:?subject=Why%20Code%20Coverage%20Should%20Not%20Be%20Your%20Measure%20of%20Reliability&body=Why%20Code%20Coverage%20Should%20Not%20Be%20Your%20Measure%20of%20Reliability%0a%0a%3ch2%20id%3d%22what-is-code-coverage%22%3eWhat%20is%20code%20coverage%3f%3c%2fh2%3e%0a%3cp%3eCode%20coverage%20is%20a%20measure%20%28in%20percentage%29%20of%20the%20degree%20to%20which%20the%20source%20code%20of%20a%20program%20is%20executed%20wh%c2%aden%20a%20particular%20test%20suite%20is%20run.%3c%2fp%3e%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fcode-coverage-and-reliability%2f%0a"
+         href="mailto:?subject=Why%20Code%20Coverage%20Should%20Not%20Be%20Your%20Measure%20of%20Reliability&body=Why%20Code%20Coverage%20Should%20Not%20Be%20Your%20Measure%20of%20Reliability%0a%0a%3cp%3eCode%20coverage%20is%20a%20measure%20%28in%20percentage%29%20of%20the%20degree%20to%20which%20the%20source%20code%20of%20a%20program%20is%20executed%20wh%c2%aden%20a%20particular%20test%20suite%20is%20run.%3c%2fp%3e%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fcode-coverage-and-reliability%2f%0a"
          target="_self" rel="noopener" aria-label="E-Mail">
         <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
@@ -845,7 +834,7 @@ Keep reading to find out why!</p>
     </a>
 
     <a class="resp-sharing-button__link"
-         href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fblog.incubyte.co%2fblog%2fcode-coverage-and-reliability%2f&title=Why%20Code%20Coverage%20Should%20Not%20Be%20Your%20Measure%20of%20Reliability&summary=%253Ch2%2bid%253D%2522what-is-code-coverage%2522%253EWhat%2bis%2bcode%2bcoverage%253F%253C%252Fh2%253E%250A%253Cp%253ECode%2bcoverage%2bis%2ba%2bmeasure%2b%2528in%2bpercentage%2529%2bof%2bthe%2bdegree%2bto%2bwhich%2bthe%2bsource%2bcode%2bof%2ba%2bprogram%2bis%2bexecuted%2bwh%25C2%25ADen%2ba%2bparticular%2btest%2bsuite%2bis%2brun.%253C%252Fp%253E"
+         href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fblog.incubyte.co%2fblog%2fcode-coverage-and-reliability%2f&title=Why%20Code%20Coverage%20Should%20Not%20Be%20Your%20Measure%20of%20Reliability&summary=%253Cp%253ECode%2bcoverage%2bis%2ba%2bmeasure%2b%2528in%2bpercentage%2529%2bof%2bthe%2bdegree%2bto%2bwhich%2bthe%2bsource%2bcode%2bof%2ba%2bprogram%2bis%2bexecuted%2bwh%25C2%25ADen%2ba%2bparticular%2btest%2bsuite%2bis%2brun.%253C%252Fp%253E"
          target="_blank" rel="noopener" aria-label="LinkedIn">
         <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
@@ -879,7 +868,7 @@ Keep reading to find out why!</p>
     </a>
 
     <a class="resp-sharing-button__link"
-         href="whatsapp://send?text=Why%20Code%20Coverage%20Should%20Not%20Be%20Your%20Measure%20of%20Reliability%0a%0a%3ch2%20id%3d%22what-is-code-coverage%22%3eWhat%20is%20code%20coverage%3f%3c%2fh2%3e%0a%3cp%3eCode%20coverage%20is%20a%20measure%20%28in%20percentage%29%20of%20the%20degree%20to%20which%20the%20source%20code%20of%20a%20program%20is%20executed%20wh%c2%aden%20a%20particular%20test%20suite%20is%20run.%3c%2fp%3e%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fcode-coverage-and-reliability%2f%0a"
+         href="whatsapp://send?text=Why%20Code%20Coverage%20Should%20Not%20Be%20Your%20Measure%20of%20Reliability%0a%0a%3cp%3eCode%20coverage%20is%20a%20measure%20%28in%20percentage%29%20of%20the%20degree%20to%20which%20the%20source%20code%20of%20a%20program%20is%20executed%20wh%c2%aden%20a%20particular%20test%20suite%20is%20run.%3c%2fp%3e%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fcode-coverage-and-reliability%2f%0a"
          target="_blank" rel="noopener" aria-label="WhatsApp">
         <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">

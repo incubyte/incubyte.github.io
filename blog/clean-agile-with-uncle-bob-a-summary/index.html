@@ -15,7 +15,7 @@
 
 
 <meta name="author" content="[Sapan Parikh]">
-<meta name="generator" content="Hugo 0.134.2">
+<meta name="generator" content="Hugo 0.136.5">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,22 +29,10 @@
 <meta name="msapplication-TileColor" content="#0AA8A7">
 <meta name="theme-color" content="#fff">
 
-
-<!-- Open Graph image and Twitter Card metadata -->
-<meta property="og:image" content="https://blog.incubyte.co/images/2021/06/Picture1-clean-agile-1.jpg" />
-<meta name="twitter:image" content="https://blog.incubyte.co/images/2021/06/Picture1-clean-agile-1.jpg"/>
-<meta name="twitter:card" content="summary_large_image">
-<meta property="og:image:width" content="1497">
-<meta property="og:image:height" content="908">
-<meta property="og:image:type" content="image/jpeg">
-<meta name="twitter:title" content="Clean Agile with Uncle Bob: A Summary"/>
-<meta name="twitter:description" content="Clean Agile
-Summary
-Clean Agile is a book by Rober C. Martin that revisits the subject of agility in the world of software programming."/>
 <meta property="og:url" content="https://blog.incubyte.co/blog/clean-agile-with-uncle-bob-a-summary/">
   <meta property="og:site_name" content="Incubyte Blog">
   <meta property="og:title" content="Clean Agile with Uncle Bob: A Summary">
-  <meta property="og:description" content="Clean Agile Summary Clean Agile is a book by Rober C. Martin that revisits the subject of agility in the world of software programming.">
+  <meta property="og:description" content="Clean Agile is a book by Robert C. Martin that revisits the subject of agility in the world of software programming.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -55,10 +43,7 @@ Clean Agile is a book by Rober C. Martin that revisits the subject of agility in
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Clean Agile with Uncle Bob: A Summary">
-  <meta name="twitter:description" content="Clean Agile Summary Clean Agile is a book by Rober C. Martin that revisits the subject of agility in the world of software programming.">
-
-
-
+  <meta name="twitter:description" content="Clean Agile is a book by Robert C. Martin that revisits the subject of agility in the world of software programming.">
 
 
 
@@ -448,6 +433,10 @@ Clean Agile is a book by Rober C. Martin that revisits the subject of agility in
     color: #fff;
   }
 
+  body.dark-theme p {
+    color: #fff;
+  }
+
   body.dark-theme .card-text {
     color: #fff;
   }
@@ -693,12 +682,10 @@ Clean Agile is a book by Rober C. Martin that revisits the subject of agility in
           <a href="/authors/sapan-parikh">Sapan Parikh</a>,  on Wednesday, March 8, 2023
         </p>
 
-        <div class="content"><h1 id="clean-agile">Clean Agile</h1>
-<h2 id="summary">Summary</h2>
-<p>Clean Agile is a book by Rober C. Martin that revisits the subject of agility in the world of software programming.</p>
+        <div class="content"><p>Clean Agile is a book by Robert C. Martin that revisits the subject of agility in the world of software programming.</p>
 <p>It&rsquo;s the perfect timing if you are considering reading the book, especially when Agile has become a project management process, a methodology void of engineering practices. Most of this can be blamed on the cottage industry distributing certificates after a three-day workshop.</p>
 <p>Following is the chapter-by-chapter summary of the book. If you find it incomplete, it&rsquo;s because of a reason; we want you to read it :-)</p>
-<h2 id="chapter-1-introduction-to-agile">Chapter 1 Introduction to Agile</h2>
+<h3 id="chapter-1-introduction-to-agile">Chapter 1: Introduction to Agile</h3>
 <p>Seventeen programmers met in Snowbird lodge in Utah and wrote the following manifesto.</p>
 <ul>
 <li>Individuals and interactions over processes and tools.</li>
@@ -706,7 +693,7 @@ Clean Agile is a book by Rober C. Martin that revisits the subject of agility in
 <li>Customer collaboration over contract negotiation.</li>
 <li>Responding to change over following a plan.</li>
 </ul>
-<h3 id="the-iron-cross">The Iron Cross</h3>
+<h4 id="the-iron-cross">The Iron Cross</h4>
 <blockquote>
 <p>This physics constrains all projects to obey an unassailable trade-off called the Iron Cross of project management. Good, fast, cheap, done: Pick any three you like. You can’t have the fourth.</p>
 <p>The reality is that a good project manager understands that these four attributes have coefficients. A good manager drives a project to be good enough, fast enough, cheap enough, and done as much as necessary. A good manager manages the coefficients on these attributes rather than demanding that all those coefficients are 100%. It is this kind of management that Agile strives to enable.</p>
@@ -724,7 +711,7 @@ Clean Agile is a book by Rober C. Martin that revisits the subject of agility in
 <blockquote>
 <p>Agile is a process wherein a project is subdivided into iterations. The output of each iteration is measured and used to continuously evaluate the schedule. Features are implemented in the order of business value so that the most valuable things are implemented first. Quality is kept as high as possible. The schedule is primarily managed by manipulating scope.</p>
 </blockquote>
-<h2 id="chapter-2-the-reasons-for-agile">Chapter 2 The Reasons for Agile</h2>
+<h3 id="chapter-2-the-reasons-for-agile">Chapter 2: The Reasons for Agile</h3>
 <p>It’s only obvious that software developers should compare themselves with any other professionals, and that’s one of the reasons for agile’s existence, which has a higher commitment towards discipline over ceremonies. The reasons we must become more professional are</p>
 <ol>
 <li>Software is everywhere, even where you don’t notice</li>
@@ -748,41 +735,41 @@ Clean Agile is a book by Rober C. Martin that revisits the subject of agility in
 <li><strong>Mentoring.</strong> Teach to learn and learn to teach</li>
 </ol>
 <p>This chapter is dedicated to explaining that Agile is not a process but rather a set of rights, expectations and disciplines.</p>
-<h2 id="chapter-3-business-practices">Chapter 3 Business Practices</h2>
-<h3 id="planning">Planning</h3>
+<h3 id="chapter-3-business-practices">Chapter 3: Business Practices</h3>
+<h4 id="planning">Planning</h4>
 <p>This practice tells you how to organize your high-level business requirement into granular features, stories and tasks. That, in turn, can help you prioritize, estimate, and plan.</p>
-<h3 id="small-releases"><strong>Small Releases</strong></h3>
+<h4 id="small-releases"><strong>Small Releases</strong></h4>
 <p>Batching is the biggest antipattern in conventional software development, and this practice guides you in the exact opposite direction, do not batch. Instead, release small chunks of work as you do them.</p>
-<h3 id="acceptance-tests">Acceptance Tests</h3>
+<h4 id="acceptance-tests">Acceptance Tests</h4>
 <p>Pair your stories with acceptance tests, which can work as a definition of “done” and bring unambiguity.</p>
-<h3 id="whole-team">Whole Team</h3>
+<h4 id="whole-team">Whole Team</h4>
 <p>Software development is a team sport, and like any other team, software development teams are also fully cross-functional and comprise developers, testers and managers.</p>
-<h2 id="chapter-4-team-practices">Chapter 4 Team Practices</h2>
-<h3 id="metaphor">Metaphor</h3>
+<h3 id="chapter-4-team-practices">Chapter 4: Team Practices</h3>
+<h4 id="metaphor">Metaphor</h4>
 <p>Use a language that everyone understands and is familiar to technical people and business stakeholders.</p>
-<h3 id="sustainable-pace">Sustainable Pace</h3>
+<h4 id="sustainable-pace">Sustainable Pace</h4>
 <p>Keep the pace of work that helps you run marathons, not 100 meters sprints.</p>
-<h3 id="collective-ownership">Collective Ownership</h3>
+<h4 id="collective-ownership">Collective Ownership</h4>
 <p>Avoid knowledge silos, and everyone on the team should own the project.</p>
-<h3 id="continuous-integration">Continuous Integration</h3>
+<h4 id="continuous-integration">Continuous Integration</h4>
 <p>Fail fast, and get feedback faster on where you stand all the time.</p>
-<h3 id="standup-meetings">Standup Meetings</h3>
+<h4 id="standup-meetings">Standup Meetings</h4>
 <p>Short meetings of ~10 minutes to calibrate progress. Should consist of three simple updates.</p>
 <ol>
 <li>What did I do since the last meeting?</li>
 <li>What will I do next?</li>
 <li>What&rsquo;s in my way?</li>
 </ol>
-<h1 id="chapter-5-technical-practices">Chapter 5 Technical Practices</h1>
-<h3 id="test-driven-development">Test Driven Development</h3>
+<h3 id="chapter-5-technical-practices">Chapter 5: Technical Practices</h3>
+<h4 id="test-driven-development">Test Driven Development</h4>
 <p>Pursue the highest quality and create a safety net by practicing TDD.</p>
-<h3 id="refactoring">Refactoring</h3>
+<h4 id="refactoring">Refactoring</h4>
 <p>Continuously improve the software, and leave it cleaner than how you found it.</p>
-<h3 id="simple-design">Simple Design</h3>
+<h4 id="simple-design">Simple Design</h4>
 <p>Is the practice that prevents waste</p>
-<h3 id="pair-programming">Pair Programming</h3>
+<h4 id="pair-programming">Pair Programming</h4>
 <p>A practice that catches errors early and encourages knowledge sharing.</p>
-<h1 id="chapter-6-becoming-agile">Chapter 6 Becoming Agile</h1>
+<h3 id="chapter-6-becoming-agile">Chapter 6: Becoming Agile</h3>
 <p>This chapter walks you through the agile values of Courage, Communication, Feedback and Simplicity. And makes the following points.</p>
 <ol>
 <li>Agile transformation is hard.</li>
@@ -795,7 +782,7 @@ Clean Agile is a book by Rober C. Martin that revisits the subject of agility in
 <li>It also takes the reader through an alternative view of coaching by Damon Poole.</li>
 <li>Don’t let Agile transformation be just the Process of Transformation.</li>
 </ol>
-<h1 id="chapter-7-craftsmanship">Chapter 7 Craftsmanship</h1>
+<h3 id="chapter-7-craftsmanship">Chapter 7: Craftsmanship</h3>
 <p>Read superficially. Agile means do agile (not be) to deliver software faster. This led to Agile becoming a “Fix the process” movement. In this movement, engineering practices have no place. Because of this, developers started moving away from Agile development.</p>
 <p>To raise the bar of professional software development software craftsmanship manifesto was created in 2008</p>
 <h3 id="software-craftsmanship-manifesto">Software Craftsmanship Manifesto</h3>
@@ -816,7 +803,7 @@ Clean Agile is a book by Rober C. Martin that revisits the subject of agility in
 <li><strong>Craftsmanship impact on our industry,</strong> Software Craftsmanship promotes a culture of learning, making companies more innovative and responsive.</li>
 <li><strong>Craftsmanship and Agile</strong> both want to achieve very similar things and one should not be at odds with another.</li>
 </ol>
-<h2 id="conclusion">Conclusion</h2>
+<h3 id="conclusion">Conclusion</h3>
 <p>It’s a great book that revisits Agile and XP in detail from the perspective of a software developer. This is a great reminder for the software development community to bring the focus back to engineering practices and not just process improvements.</p>
 <p>At Incubyte, we&rsquo;ve taken software craftsmanship to heart. Internalizing an Agile and craftsmanship mindset has helped us focus on what makes our customers and end users happier. Small and frequent releases help us get value in the hands of the end users fast, get feedback from them fast, and continuously refine the product to create maximum impact - fast! Disciplined engineering practices have ensured that our software is always stable and bug-free. A user-first approach helps not only build the right product, but also fosters a collaborative and productive relationship with our customers.</p>
 </div>
@@ -858,7 +845,7 @@ Clean Agile is a book by Rober C. Martin that revisits the subject of agility in
     </a>
 
     <a class="resp-sharing-button__link"
-         href="mailto:?subject=Clean%20Agile%20with%20Uncle%20Bob%3a%20A%20Summary&body=Clean%20Agile%20with%20Uncle%20Bob%3a%20A%20Summary%0a%0a%3ch1%20id%3d%22clean-agile%22%3eClean%20Agile%3c%2fh1%3e%0a%3ch2%20id%3d%22summary%22%3eSummary%3c%2fh2%3e%0a%3cp%3eClean%20Agile%20is%20a%20book%20by%20Rober%20C.%20Martin%20that%20revisits%20the%20subject%20of%20agility%20in%20the%20world%20of%20software%20programming.%3c%2fp%3e%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fclean-agile-with-uncle-bob-a-summary%2f%0a"
+         href="mailto:?subject=Clean%20Agile%20with%20Uncle%20Bob%3a%20A%20Summary&body=Clean%20Agile%20with%20Uncle%20Bob%3a%20A%20Summary%0a%0a%3cp%3eClean%20Agile%20is%20a%20book%20by%20Robert%20C.%20Martin%20that%20revisits%20the%20subject%20of%20agility%20in%20the%20world%20of%20software%20programming.%3c%2fp%3e%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fclean-agile-with-uncle-bob-a-summary%2f%0a"
          target="_self" rel="noopener" aria-label="E-Mail">
         <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
@@ -874,7 +861,7 @@ Clean Agile is a book by Rober C. Martin that revisits the subject of agility in
     </a>
 
     <a class="resp-sharing-button__link"
-         href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fblog.incubyte.co%2fblog%2fclean-agile-with-uncle-bob-a-summary%2f&title=Clean%20Agile%20with%20Uncle%20Bob%3a%20A%20Summary&summary=%253Ch1%2bid%253D%2522clean-agile%2522%253EClean%2bAgile%253C%252Fh1%253E%250A%253Ch2%2bid%253D%2522summary%2522%253ESummary%253C%252Fh2%253E%250A%253Cp%253EClean%2bAgile%2bis%2ba%2bbook%2bby%2bRober%2bC.%2bMartin%2bthat%2brevisits%2bthe%2bsubject%2bof%2bagility%2bin%2bthe%2bworld%2bof%2bsoftware%2bprogramming.%253C%252Fp%253E"
+         href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fblog.incubyte.co%2fblog%2fclean-agile-with-uncle-bob-a-summary%2f&title=Clean%20Agile%20with%20Uncle%20Bob%3a%20A%20Summary&summary=%253Cp%253EClean%2bAgile%2bis%2ba%2bbook%2bby%2bRobert%2bC.%2bMartin%2bthat%2brevisits%2bthe%2bsubject%2bof%2bagility%2bin%2bthe%2bworld%2bof%2bsoftware%2bprogramming.%253C%252Fp%253E"
          target="_blank" rel="noopener" aria-label="LinkedIn">
         <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
@@ -908,7 +895,7 @@ Clean Agile is a book by Rober C. Martin that revisits the subject of agility in
     </a>
 
     <a class="resp-sharing-button__link"
-         href="whatsapp://send?text=Clean%20Agile%20with%20Uncle%20Bob%3a%20A%20Summary%0a%0a%3ch1%20id%3d%22clean-agile%22%3eClean%20Agile%3c%2fh1%3e%0a%3ch2%20id%3d%22summary%22%3eSummary%3c%2fh2%3e%0a%3cp%3eClean%20Agile%20is%20a%20book%20by%20Rober%20C.%20Martin%20that%20revisits%20the%20subject%20of%20agility%20in%20the%20world%20of%20software%20programming.%3c%2fp%3e%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fclean-agile-with-uncle-bob-a-summary%2f%0a"
+         href="whatsapp://send?text=Clean%20Agile%20with%20Uncle%20Bob%3a%20A%20Summary%0a%0a%3cp%3eClean%20Agile%20is%20a%20book%20by%20Robert%20C.%20Martin%20that%20revisits%20the%20subject%20of%20agility%20in%20the%20world%20of%20software%20programming.%3c%2fp%3e%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fclean-agile-with-uncle-bob-a-summary%2f%0a"
          target="_blank" rel="noopener" aria-label="WhatsApp">
         <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">

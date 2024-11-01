@@ -15,7 +15,7 @@
 
 
 <meta name="author" content="[Jaymin Shah]">
-<meta name="generator" content="Hugo 0.134.2">
+<meta name="generator" content="Hugo 0.136.5">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,16 +29,6 @@
 <meta name="msapplication-TileColor" content="#0AA8A7">
 <meta name="theme-color" content="#fff">
 
-
-<!-- Open Graph image and Twitter Card metadata -->
-<meta property="og:image" content="https://blog.incubyte.co/images/2022/04/clean-code.jpg" />
-<meta name="twitter:image" content="https://blog.incubyte.co/images/2022/04/clean-code.jpg"/>
-<meta name="twitter:card" content="summary_large_image">
-<meta property="og:image:width" content="800">
-<meta property="og:image:height" content="500">
-<meta property="og:image:type" content="image/jpeg">
-<meta name="twitter:title" content="Learnings From Clean Code"/>
-<meta name="twitter:description" content="Things we learned from the book Clean Code"/>
 <meta property="og:url" content="https://blog.incubyte.co/blog/learnings-from-clean-code/">
   <meta property="og:site_name" content="Incubyte Blog">
   <meta property="og:title" content="Learnings From Clean Code">
@@ -56,9 +46,6 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Learnings From Clean Code">
   <meta name="twitter:description" content="Things we learned from the book Clean Code">
-
-
-
 
 
 
@@ -448,6 +435,10 @@
     color: #fff;
   }
 
+  body.dark-theme p {
+    color: #fff;
+  }
+
   body.dark-theme .card-text {
     color: #fff;
   }
@@ -701,8 +692,7 @@
           <a href="/authors/jaymin-shah">Jaymin Shah</a>,  on Friday, April 29, 2022
         </p>
 
-        <div class="content"><h2 id="learnings-from-robert-uncle-bob-martin">Learnings from Robert “Uncle Bob” Martin</h2>
-<p>Robert Martin, fondly known as “Uncle Bob” in our community, is a software engineer and more famously an author and one of the founding fathers of Software Craftsmanship movement.</p>
+        <div class="content"><p>Robert Martin, fondly known as “Uncle Bob” in our community, is a software engineer and more famously an author and one of the founding fathers of Software Craftsmanship movement.</p>
 <p>Some of his most famous works include Clean Code, The Clean Coder, Clean Architecture, and Clean Agile. Martin is also a frequent instructor, with the ability to boil down difficult topics into a simple, understandable format, along with occasional cheeky humor.</p>
 <p>One of the most striking qualities of Martin – in all of his writing and lectures, is that nowhere does he claims to have a full-proof solution or a doctrine that could solve all software development problems. He acknowledges that the teachings and lessons are ones he acquired from his 40+ years of experience and encourages the reader to validate the “time-testiness” and accuracy of those lessons. One of the qualities of a software craftsperson, according to Martin, is adapting to changing times and letting go of irrelevant principles.</p>
 <p>This article can be thought of as a list of learnings from the book Clean Code. By no means this is an exhaustive list, but rather a list of all lessons which had the most impact (personally) while reading.</p>
@@ -757,7 +747,7 @@ That being said, some principles must be followed if we want to include concurre
 <li>Go back to the basics – Problems like Consumer-Producer, Dining Philosophers, and Reader-Writers are a good start for selecting an execution method for concurrent code</li>
 </ul>
 <p>Core learning: Follow best practices.</p>
-<h2 id="conclusion">Conclusion</h2>
+<h3 id="conclusion">Conclusion</h3>
 <p>This article is a condensed summary of the complete book, highlighting some of the more essential &amp; impactful principles.
 The underlying principles remain somewhat the same throughout the book – a combination of the following principle - Do Not Repeat (<code>DRY</code>), Keep it Simple Silly (<code>KISS</code>) and You Ain’t Gonna Need It (<code>YAGNI</code>).</p>
 <p>This book has a lot more to offer including error handling, writing effective comments, meaningful comments, unit testing, etc.
@@ -801,7 +791,7 @@ We definitely recommend reading this by yourself for better insights!</p>
     </a>
 
     <a class="resp-sharing-button__link"
-         href="mailto:?subject=Learnings%20From%20Clean%20Code&body=Learnings%20From%20Clean%20Code%0a%0a%3ch2%20id%3d%22learnings-from-robert-uncle-bob-martin%22%3eLearnings%20from%20Robert%20%e2%80%9cUncle%20Bob%e2%80%9d%20Martin%3c%2fh2%3e%0a%3cp%3eRobert%20Martin%2c%20fondly%20known%20as%20%e2%80%9cUncle%20Bob%e2%80%9d%20in%20our%20community%2c%20is%20a%20software%20engineer%20and%20more%20famously%20an%20author%20and%20one%20of%20the%20founding%20fathers%20of%20Software%20%e2%80%a6%3c%2fp%3e%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2flearnings-from-clean-code%2f%0a"
+         href="mailto:?subject=Learnings%20From%20Clean%20Code&body=Learnings%20From%20Clean%20Code%0a%0a%3cp%3eRobert%20Martin%2c%20fondly%20known%20as%20%e2%80%9cUncle%20Bob%e2%80%9d%20in%20our%20community%2c%20is%20a%20software%20engineer%20and%20more%20famously%20an%20author%20and%20one%20of%20the%20founding%20fathers%20of%20Software%20Craftsmanship%20movement.%3c%2fp%3e%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2flearnings-from-clean-code%2f%0a"
          target="_self" rel="noopener" aria-label="E-Mail">
         <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
@@ -817,7 +807,7 @@ We definitely recommend reading this by yourself for better insights!</p>
     </a>
 
     <a class="resp-sharing-button__link"
-         href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fblog.incubyte.co%2fblog%2flearnings-from-clean-code%2f&title=Learnings%20From%20Clean%20Code&summary=%253Ch2%2bid%253D%2522learnings-from-robert-uncle-bob-martin%2522%253ELearnings%2bfrom%2bRobert%2b%25E2%2580%259CUncle%2bBob%25E2%2580%259D%2bMartin%253C%252Fh2%253E%250A%253Cp%253ERobert%2bMartin%252C%2bfondly%2bknown%2bas%2b%25E2%2580%259CUncle%2bBob%25E2%2580%259D%2bin%2bour%2bcommunity%252C%2bis%2ba%2bsoftware%2bengineer%2band%2bmore%2bfamously%2ban%2bauthor%2band%2bone%2bof%2bthe%2bfounding%2bfathers%2bof%2bSoftware%2b%25E2%2580%25A6%253C%252Fp%253E"
+         href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fblog.incubyte.co%2fblog%2flearnings-from-clean-code%2f&title=Learnings%20From%20Clean%20Code&summary=%253Cp%253ERobert%2bMartin%252C%2bfondly%2bknown%2bas%2b%25E2%2580%259CUncle%2bBob%25E2%2580%259D%2bin%2bour%2bcommunity%252C%2bis%2ba%2bsoftware%2bengineer%2band%2bmore%2bfamously%2ban%2bauthor%2band%2bone%2bof%2bthe%2bfounding%2bfathers%2bof%2bSoftware%2bCraftsmanship%2bmovement.%253C%252Fp%253E"
          target="_blank" rel="noopener" aria-label="LinkedIn">
         <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
@@ -851,7 +841,7 @@ We definitely recommend reading this by yourself for better insights!</p>
     </a>
 
     <a class="resp-sharing-button__link"
-         href="whatsapp://send?text=Learnings%20From%20Clean%20Code%0a%0a%3ch2%20id%3d%22learnings-from-robert-uncle-bob-martin%22%3eLearnings%20from%20Robert%20%e2%80%9cUncle%20Bob%e2%80%9d%20Martin%3c%2fh2%3e%0a%3cp%3eRobert%20Martin%2c%20fondly%20known%20as%20%e2%80%9cUncle%20Bob%e2%80%9d%20in%20our%20community%2c%20is%20a%20software%20engineer%20and%20more%20famously%20an%20author%20and%20one%20of%20the%20founding%20fathers%20of%20Software%20%e2%80%a6%3c%2fp%3e%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2flearnings-from-clean-code%2f%0a"
+         href="whatsapp://send?text=Learnings%20From%20Clean%20Code%0a%0a%3cp%3eRobert%20Martin%2c%20fondly%20known%20as%20%e2%80%9cUncle%20Bob%e2%80%9d%20in%20our%20community%2c%20is%20a%20software%20engineer%20and%20more%20famously%20an%20author%20and%20one%20of%20the%20founding%20fathers%20of%20Software%20Craftsmanship%20movement.%3c%2fp%3e%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2flearnings-from-clean-code%2f%0a"
          target="_blank" rel="noopener" aria-label="WhatsApp">
         <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
