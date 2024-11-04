@@ -6,7 +6,7 @@ image = "/images/2023/ruby-generic.png"
 draft = true
 authors = ["Nitin Rajkumar"]
 description = ""
-tags = ["Playbook", "Software Craftsmanship", "Rails", "I18n", "Translations Not Reflecting", "Numeronyms"]
+tags = ["Playbook", "Software Craftsmanship", "Rails", "I18n"]
 categories = ["Playbook", "Software Craftsmanship"]
 type = ""
 +++
@@ -42,7 +42,9 @@ Everything works fine until now, not only the people from your country but peopl
 
 #### Introducing I18n for Multilingual Support
 
-I18n is a numeronym for Internationalization. Numeronyms are abbreviations where numbers replace letters to represent the count of letters omitted between the first and last letters of a word.
+Internationalization is the process of designing and building a product so that it can be easily adapted to specific languages and cultures.
+
+> I18n is a numeronym for Internationalization. Numeronyms are abbreviations where numbers replace letters to represent the count of letters omitted between the first and last letters of a word.
 
 **Configure I18n**
 
