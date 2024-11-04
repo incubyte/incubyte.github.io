@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+    <defs>
+        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#f0f0f0" stroke-width="1"/>
+        </pattern>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#e3f2fd;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="evilGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#ef5350;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#d32f2f;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <rect width="800" height="400" fill="url(#bgGradient)"/>
+    <rect width="800" height="400" fill="url(#grid)"/>
+
+    <g transform="translate(350,130)">
+        <circle cx="50" cy="50" r="70" fill="#bbdefb" opacity="0.3"/>
+        <path d="M 50,0 L 100,25 L 100,75 L 50,100 L 0,75 L 0,25 Z"
+              fill="#2196f3"
+              stroke="#1976d2"
+              stroke-width="2"/>
+        <path d="M 30,30 L 70,30 L 50,70 Z"
+              fill="white"
+              stroke="#ffffff"
+              stroke-width="1"/>
+        <circle cx="40" cy="35" r="2" fill="white"/>
+        <circle cx="60" cy="35" r="2" fill="white"/>
+
+        <text x="50" y="130"
+              fill="#1976d2"
+              font-size="28"
+              text-anchor="middle"
+              font-weight="bold"
+              style="filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.2));">FEAR</text>
+    </g>
+
+    <g>
+        <path d="M 400,180 L 250,100"
+              stroke="#64b5f6"
+              stroke-width="3"
+              stroke-dasharray="5,5"
+              style="filter: drop-shadow(0px 0px 3px #64b5f6)"/>
+        <circle cx="250" cy="100" r="35"
+                fill="#bbdefb"
+                stroke="#2196f3"
+                stroke-width="2"/>
+        <text x="250" y="105"
+              fill="#1976d2"
+              font-size="16"
+              text-anchor="middle"
+              font-weight="bold">Option</text>
+
+        <path d="M 400,180 L 550,100"
+              stroke="#64b5f6"
+              stroke-width="3"
+              stroke-dasharray="5,5"
+              style="filter: drop-shadow(0px 0px 3px #64b5f6)"/>
+        <circle cx="550" cy="100" r="35"
+                fill="#bbdefb"
+                stroke="#2196f3"
+                stroke-width="2"/>
+        <text x="550" y="105"
+              fill="#1976d2"
+              font-size="16"
+              text-anchor="middle"
+              font-weight="bold">Try</text>
+    </g>
+
+    <g>
+        <g transform="translate(220,270)">
+            <path d="M 0,20
+               C 0,10 10,0 25,0
+               C 40,0 45,10 50,10
+               C 65,10 70,0 85,0
+               C 100,0 110,10 110,20
+               C 110,30 100,40 85,40
+               C 80,40 75,35 50,35
+               C 25,35 20,40 15,40
+               C 0,40 0,30 0,20"
+                  fill="url(#evilGradient)"
+                  stroke="#c62828"
+                  stroke-width="2"
+                  style="filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.2));"/>
+            <text x="55" y="25"
+                  fill="white"
+                  font-size="18"
+                  text-anchor="middle"
+                  font-weight="bold"
+                  style="filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.3));">nil</text>
+        </g>
+
+        <g transform="translate(470,270)">
+            <path d="M 0,20
+               L 10,5 L 20,20
+               L 30,0 L 40,20
+               L 50,5 L 60,20
+               L 70,0 L 80,20
+               L 90,5 L 100,20
+               L 110,0 L 130,20
+               C 130,30 120,40 100,40
+               C 95,40 90,35 65,35
+               C 40,35 35,40 30,40
+               C 10,40 0,30 0,20"
+                  fill="url(#evilGradient)"
+                  stroke="#c62828"
+                  stroke-width="2"
+                  style="filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.2));"/>
+            <text x="65" y="30"
+                  fill="white"
+                  font-size="18"
+                  text-anchor="middle"
+                  font-weight="bold"
+                  style="filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.3));">error!</text>
+        </g>
+    </g>
+
+    <g font-family="monospace" font-size="14">
+        <rect x="290" y="280" width="220" height="80"
+              rx="10"
+              fill="#e3f2fd"
+              stroke="#2196f3"
+              stroke-width="2"
+              style="filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.1))"/>
+        <text x="400" y="310"
+              fill="#1976d2"
+              font-weight="bold"
+              text-anchor="middle">.option_find_by(id: 1)</text>
+        <text x="400" y="330"
+              fill="#1976d2"
+              text-anchor="middle">.map { |user| ... }</text>
+        <text x="400" y="350"
+              fill="#1976d2"
+              text-anchor="middle">.get_or_else { ... }</text>
+    </g>
+
+    <text x="400" y="50"
+          fill="#1976d2"
+          font-size="32"
+          text-anchor="middle"
+          font-weight="bold"
+          style="filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.2));">Code With Fear!</text>
+</svg>
