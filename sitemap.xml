@@ -44,6 +44,24 @@
     <loc>https://blog.incubyte.co/tags/</loc>
     <lastmod>2024-11-04T10:35:08+05:30</lastmod>
   </url><url>
+    <loc>https://blog.incubyte.co/tags/clean-code/</loc>
+    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/clean-code/</loc>
+    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/write-cleaner-rails-code-with-fear/</loc>
+    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/ruby/</loc>
+    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/ruby/</loc>
+    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/tilak-patidar/</loc>
+    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.incubyte.co/blog/extreme-ownership-catalyst-for-achieving-professional-excellence/</loc>
     <lastmod>2024-09-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -51,9 +69,6 @@
     <lastmod>2024-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/interviewing-software-craftspeople/</loc>
-    <lastmod>2024-09-06T11:00:14+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/authors/tilak-patidar/</loc>
     <lastmod>2024-09-06T11:00:14+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/deepak-sisodiya/</loc>
@@ -121,12 +136,6 @@
   </url><url>
     <loc>https://blog.incubyte.co/blog/using-firebase-cloud-functions/</loc>
     <lastmod>2024-05-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/ruby/</loc>
-    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/ruby/</loc>
-    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/ruby-boolean/</loc>
     <lastmod>2024-01-09T00:00:00+00:00</lastmod>

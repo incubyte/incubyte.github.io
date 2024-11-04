@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/categories/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conquer nil: Clean Up Your Rails Code with the Fear Gem</title>
+      <link>https://blog.incubyte.co/blog/write-cleaner-rails-code-with-fear/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/blog/write-cleaner-rails-code-with-fear/</guid>
+      <description>&lt;p&gt;Ever found yourself drowning in a sea of &lt;code&gt;nil&lt;/code&gt; checks? Or perhaps you’ve built a fortress of &lt;code&gt;begin/rescue&lt;/code&gt;&#xA;blocks just to handle potential errors? If you’re nodding along, you’re not alone. Ruby developers often&#xA;find themselves writing defensive code: checking for nil values, handling edge cases, and wrestling with&#xA;error management. It’s like walking on eggshells, constantly fearing what might break.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Enigma of Ruby Boolean (or the lack thereof)</title>
       <link>https://blog.incubyte.co/blog/ruby-boolean/</link>
