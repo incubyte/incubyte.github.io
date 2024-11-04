@@ -1,6 +1,6 @@
 +++
 title = "Dynamic Translations in Rails: Why Constants Can’t Adapt to Locale Changes and How to Fix It?"
-slug = "rails-i18n"
+slug = "rails-dynamic-translation-constants"
 date = 2024-11-04T10:35:08+05:30
 image = "/images/2023/monkeypatch.png"
 draft = true
