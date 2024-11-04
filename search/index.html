@@ -638,7 +638,7 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "September 13, 2024",
+          "date": "November 4, 2024",
           "url": "https://blog.incubyte.co/"
       },
       
@@ -649,7 +649,7 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "September 13, 2024",
+          "date": "November 4, 2024",
           "url": "https://blog.incubyte.co/"
       },
       
@@ -1220,7 +1220,7 @@
           "authors":["Nitin Rajkumar",],
           "summary":"\u003cp\u003eRuby, as you all know, is a dynamic programming language that provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods. This is what we refer to as \u0026lsquo;Monkey Patching\u0026rsquo;.\u003c/p\u003e",
           "content":"Ruby, as you all know, is a dynamic programming language that provides the ability and hence freedom to reopen the existing classes and change their behavior during runtime by adding new methods or modifying existing methods. This is what we refer to as \u0026lsquo;Monkey Patching\u0026rsquo;.\nHow to Monkey Patch class Sound def car \u0026#34;honnnnnk...\u0026#34; end end class Sound def bike \u0026#34;peep-peep\u0026#34; end end sound = Sound.new sound.car #=\u0026gt; honnnnnk... sound.bike #=\u0026gt; peep-peep In the above code snippet, we reopen Sound class to add a new method. This way we can override the existing method of the original class.\nWhen to Use Monkey Patching Usually, programmers implement this technique when they need to add a quick fix. This could be adding functionality to existing code or replacing code for testing when modifying source code is impractical.\nWhen you encounter a bug in a gem or library without an available patch or fix, you can temporarily address it within your own codebase using monkey patching.\nWhen a library lacks a specific method you need, you can add the missing functionality using a monkey patch.\nPitfalls of Using Monkey Patch Monkey patching can make code more difficult to understand and maintain, leading to unexpected behavior and potential bugs.\nclass String def upcase # do nothing end end In the above example, we modify the built-in String class by redefining the behavior of its upcase method to return nothing. This alteration has unintended consequences, as it will affect the outcome whenever the upcase method is invoked.\nWhile monkey patching offers flexibility, it also introduces potential drawbacks:\nConflict Potential: In large codebases, multiple developers may modify the same method using monkey patching, leading to unexpected behavior and potential conflicts.\nUpgrade Issues: Monkey patching third-party gems can cause issues when upgrading the gem, as the new version may conflict with the applied patches.\nDebugging Issues: Identifying the specific monkey patch responsible for a particular outcome can be challenging, making debugging more difficult.\nTechnical Debt Accumulation: Monkey patches often act as temporary solutions, and eventually need to be removed once the underlying issue is resolved, adding to technical debt.\nMeasures to Take While Monkey-Patching Encapsulate Patches in Modules: Rather than reopening classes, it is best practice to create a module to encapsulate the monkey patch and include it in the class as needed. This promotes modularity and simplifies patch management.\nThorough Documentation: Document all applied monkey patches to maintain code clarity. Clearly identify the purpose and scope of each patch, making it easier to remove them once the underlying issue is resolved.\nConclusion Monkey patching has gained popularity as a power tool in Ruby because of the havoc it can wreak if misused. While monkey patching offers flexibility, it should be considered a last resort due to its potential risks.\nMeanwhile, it doesn\u0026rsquo;t hurt to be a good samaritan and contribute to open source. When a bug is discovered in a third-party library, raise an issue, fix it, and get the pull request merged.\n",
-          "image":"/images/2023/monkeypatch.png",
+          "image":"/images/2023/ruby-generic.png",
           "date": "October 17, 2023",
           "url": "https://blog.incubyte.co/blog/monkey-patch/"
       },
