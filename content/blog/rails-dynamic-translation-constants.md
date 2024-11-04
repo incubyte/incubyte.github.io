@@ -49,7 +49,7 @@ I18n is a numeronym for Internationalization. Numeronyms are abbreviations where
 - Rails adds all `.rb` and `.yml` files from the `config/locales` directory to the **translations load path**, automatically.
 - You can change the default locale as well as configure the translations load paths in `config/application.rb` as follows:
 
-```
+```ruby
 config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
 config.i18n.default_locale = :pirate
 ```
