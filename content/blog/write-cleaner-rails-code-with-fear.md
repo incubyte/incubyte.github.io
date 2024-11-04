@@ -1,5 +1,5 @@
 +++
-title = "Stop Fearing nil: Write Cleaner Rails Code With Fear"
+title = "Conquer nil: Clean Up Your Rails Code with the Fear Gem"
 slug = "write-cleaner-rails-code-with-fear"
 date = 2024-10-28T11:35:54+05:30
 image = "/images/2024/write-cleaner-rails-code-with-fear/header.svg"
@@ -36,12 +36,12 @@ and balances. It takes the best ideas from Scala and brings them to Ruby in a wa
 ### What exactly is the Fear gem?
 
 Think of the Fear gem as a Swiss Army knife for handling uncertain situations in your code. You know those moments when
-you’re not sure if something exists, or if an operation will succeed? That’s where Fear shines
+you’re not sure if something exists, or if an operation will succeed? That’s where Fear shines.
 
 This gem provides several powerful tools like Option, Try, and other functional programming patterns, all implemented
 in an idiomatic Ruby way.
 
-### Option (Your Secret Weapon Against nil)
+#### Option: Your Secret Weapon Against nil
 
 Think of Option as a special container, like a gift box. This box can either contain something (Some) or be empty
 (None). The magic is that you can safely work with this box without constantly checking if it’s empty!
@@ -50,7 +50,7 @@ Let’s dive into a real-world example that every developer can relate to. Imagi
 where you need to display a user’s name. The requirement is simple: if the user has set a nickname, show that, if not,
 fall back to showing their full name (first name + last name)
 
-The Ruby way - using present? for nil/empty check:
+The Ruby way - using `present?` for nil/empty check:
 
 ```ruby
   def get_display_name(user)
@@ -73,9 +73,11 @@ clearly: "Here’s what I want to use if a nickname exists, and here’s my fall
 
 No more presence checks, just a clean way to handle both cases elegantly. Simple, right?
 
-Still not convinced about Option’s power? Let me show you another real-world scenario. Imagine you have a service that
+Let's take another real-world scenario. Imagine you have a service that
 processes some data - maybe it’s parsing a file, or calling an external API. Sometimes it gives you a result,
-sometimes it doesn’t. Here’s how we’d typically handle this:
+sometimes it doesn’t.
+
+Here’s how we’d typically handle this:
 
 The Ruby way - clean and straightforward:
 
@@ -99,18 +101,21 @@ Now, watch how Fear’s Option makes this expressive:
   end
 ```
 
-Look at that! Fear’s Option pattern matching using some and none makes our intentions crystal clear. When we have a
-result, handle it with `handle_result`, when we don’t, run `handle_nil`. No if statements, no checking for presence,
-just clean, expressive code that tells a story.
+Fear’s Option pattern matching using some and none makes our intentions crystal clear. When we have a
+result, handle it with `handle_result`, when we don’t, run `handle_nil`.
 
-### Try (Your Escape from begin/rescue Hell)
+No if statements, no checking for presence, just clean, expressive code that tells a story.
 
-Remember those times when you’re dealing with "risky" operations - like parsing JSON, accessing APIs, or converting
-data types? You know, the kind of operations that make you wrap everything in begin/rescue blocks? Well, meet Try -
+#### Try: Your Escape from begin/rescue Hell
+
+Remember those times when you’re dealing with "risky" operations like parsing JSON, accessing APIs, or converting
+data types? The kind of operations that make you wrap everything in begin/rescue blocks? Well, meet Try -
 your new best friend for handling these potentially explosive situations!
 
 Think of Try as your code’s safety harness. Instead of littering your code with begin/rescue blocks, Try gives you a
-clean way to handle operations that might blow up in your face. Let me show you a real-world example:
+clean way to handle operations that might blow up in your face.
+
+Here's a real-world example:
 
 The Ruby way - with exception handling:
 
@@ -136,9 +141,8 @@ Now see how Try makes this elegant:
   end
 ```
 
-Look at that! Try wraps our risky JSON parsing operation in a protective bubble. Using success and failure pattern
-matching, we can clearly express what should happen in each case. If the parsing succeeds, we’ll handle the data,
-if it fails, we pass the error to our error handler. No more begin/rescue pyramids!
+Try wraps our risky JSON parsing operation in a protective bubble. Using success and failure pattern
+matching, we can clearly express what should happen in each case. If the parsing succeeds, we’ll handle the data. If it fails, we pass the error to our error handler. No more begin/rescue pyramids!
 
 ### Making Rails and Fear Work Together
 
@@ -187,7 +191,9 @@ It makes your code both safer and more readable!
 ### Graceful Updates with Try
 
 Here’s another Rails integration that I love using. When updating records, we often need to handle success and error
-cases, show flash messages, and redirect users accordingly. Let’s add another helper to our `ApplicationRecord`
+cases, show flash messages, and redirect users accordingly.
+
+Let’s add another helper to our `ApplicationRecord`.
 
 In app/models/application_record.rb:
 
@@ -202,8 +208,7 @@ In app/models/application_record.rb:
   end
 ```
 
-Now, let’s see how this transforms our controller code,
-The typical Rails way:
+Now, let’s see how this transforms our controller code. The typical Rails way:
 
 ```ruby
   def update
