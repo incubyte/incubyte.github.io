@@ -9,30 +9,45 @@
     <lastmod>2024-11-04T10:35:08+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/</loc>
-    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/</loc>
-    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/rails-dynamic-translation-constants/</loc>
+    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/i18n/</loc>
+    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/nitin-rajkumar/</loc>
+    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/playbook/</loc>
+    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/playbook/</loc>
+    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/ruby-on-rails/</loc>
+    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/ruby-on-rails/</loc>
+    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
+    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
+    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/</loc>
+    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/extreme-ownership-catalyst-for-achieving-professional-excellence/</loc>
     <lastmod>2024-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/playbook/</loc>
-    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/playbook/</loc>
-    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
-    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
-    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/authors/syed-mohd-mehndi/</loc>
-    <lastmod>2024-09-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/</loc>
     <lastmod>2024-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/interviewing-software-craftspeople/</loc>
@@ -134,12 +149,6 @@
     <loc>https://blog.incubyte.co/categories/dup/</loc>
     <lastmod>2023-11-09T18:20:29+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/ruby-on-rails/</loc>
-    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/ruby-on-rails/</loc>
-    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</loc>
     <lastmod>2023-11-09T18:20:29+05:30</lastmod>
   </url><url>
@@ -153,9 +162,6 @@
     <lastmod>2023-10-27T13:31:36+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/graphql/</loc>
-    <lastmod>2023-10-27T13:31:36+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/authors/nitin-rajkumar/</loc>
     <lastmod>2023-10-27T13:31:36+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/monkey-patching/</loc>

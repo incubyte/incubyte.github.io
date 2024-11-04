@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 13 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2024 10:35:08 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/categories/software-craftsmanship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamic Translations in Rails: Why Constants Can’t Adapt to Locale Changes and How to Fix It?</title>
+      <link>https://blog.incubyte.co/blog/rails-dynamic-translation-constants/</link>
+      <pubDate>Mon, 04 Nov 2024 10:35:08 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/rails-dynamic-translation-constants/</guid>
+      <description>&lt;p&gt;In math and science a particular number or value that does not change is called a constant. In programming too, a constant typically represents a value that doesn’t change — a number, string, or any data type that remains the same throughout the application’s runtime. But what if you need to assign a dynamic, changing value to a constant? Can a constant, by its nature, ever be dynamic?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Extreme Ownership: The Catalyst for Achieving Professional Excellence</title>
       <link>https://blog.incubyte.co/blog/extreme-ownership-catalyst-for-achieving-professional-excellence/</link>
