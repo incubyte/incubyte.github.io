@@ -1,7 +1,7 @@
 +++
 title = "Conquer nil: Clean Up Your Rails Code with the Fear Gem"
 slug = "write-cleaner-rails-code-with-fear"
-date = 2024-10-28T11:35:54+05:30
+date = 2024-11-04T00:00:00Z
 image = "/images/2024/write-cleaner-rails-code-with-fear/header.svg"
 draft = false
 authors = ["Tilak Patidar"]
