@@ -6,8 +6,8 @@ image = "/images/2023/ruby-generic.png"
 draft = true
 authors = ["Nitin Rajkumar"]
 description = ""
-tags = ["Playbook", "Software Craftsmanship", "Rails", "I18n"]
-categories = ["Playbook", "Software Craftsmanship"]
+tags = ["Playbook", "Software Craftsmanship", "Ruby on Rails", "I18n"]
+categories = ["Playbook", "Software Craftsmanship", "Ruby on Rails"]
 type = ""
 +++
 
