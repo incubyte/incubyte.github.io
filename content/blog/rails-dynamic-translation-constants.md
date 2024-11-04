@@ -15,9 +15,10 @@ In math and science a particular number or value that does not change is called 
 
 Let’s explore this concept using a practical example in Rails and learn why, when working with multilingual support (I18n), a constant might not behave as expected.
 
----------
+---
 
 ### Setting Up a Constant for a Static Value
+
 Imagine you want to return a plain string whose value will never change upon request. A constant might seem like a good choice:
 
 ```ruby
@@ -39,21 +40,22 @@ ReturnPlainString.new.simple_request
 
 Everything works fine until now, not only the people from your country but people from other countries want to make use of this wonderful application you have built. You just can't ask them to go ahead and use it because they don't understand your language. So you decide to make you app available in all the languages.
 
-####  Introducing I18n for Multilingual Support
+#### Introducing I18n for Multilingual Support
 
 I18n is a numeronym for Internationalization. Numeronyms are abbreviations where numbers replace letters to represent the count of letters omitted between the first and last letters of a word.
-
 
 **Configure I18n**
 
 - Rails adds all `.rb` and `.yml` files from the `config/locales` directory to the **translations load path**, automatically.
 - You can change the default locale as well as configure the translations load paths in `config/application.rb` as follows:
+
 ```
 config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
 config.i18n.default_locale = :pirate
-   ```
+```
 
--  The locale should be set at the beginning of each request so that all strings are translated using the desired locale during the lifetime of that request.
+- The locale should be set at the beginning of each request so that all strings are translated using the desired locale during the lifetime of that request.
+
 ```ruby
 # The locale can be set in an `around_action` in the `ApplicationController`:
 around_action :switch_locale
@@ -65,7 +67,7 @@ end
 
 ```
 
----------
+---
 
 **Define Translations**
 
@@ -114,7 +116,7 @@ When you run this code, you might expect the output to change based on the local
 
 However, if you change the locale (e.g., to `pirate`), `PLAIN_STRING` will still display the English version.
 
--------------
+---
 
 #### The Problem: Why Constants Don’t Update with Locale Changes
 
@@ -122,7 +124,7 @@ Rails’ **autoloading** mechanism plays a significant role here. In a typical R
 
 Since `PLAIN_STRING` was assigned a value when the class was first loaded, the translations are fixed in memory and won’t change when the locale updates.
 
-------------
+---
 
 #### The Solution: Use a Method Instead of a Constant
 
@@ -147,7 +149,7 @@ ReturnPlainString.new.simple_request
 
 With this approach, `plain_string` will re-evaluate the translations each time it’s called, reflecting the current locale without the limitations of a constant.
 
----------
+---
 
 ### Takeaway
 
