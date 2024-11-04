@@ -2,7 +2,7 @@
 title = "Monkey Patching in Ruby"
 slug = "monkey-patch"
 date = 2023-10-17T18:29:54+05:30
-image = "/images/2023/monkeypatch.png"
+image = "/images/2023/ruby-generic.png"
 draft = false
 authors = ["Nitin Rajkumar"]
 description = "Monkey patching and it's side-effects in Ruby"
