@@ -3,7 +3,7 @@ baseURL = "https://blog.incubyte.co/"
 title = "Incubyte Blog"
 theme = "bigspring"
 # post pagination
-paginate = "18"
+pagination.pagerSize = "18"
 # post excerpt
 summaryLength = "10"
 # disqus short name
@@ -11,21 +11,33 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 # google analytics
 googleAnalytics = "UA-178057567-1"
 enableRobotsTXT = true
+Copyright = "© 2024 Incubyte - All Rights Reserved"
 
 # unsafe html
 [markup.goldmark.renderer]
 unsafe = true
 
+[taxonomies]
+author = "authors"
+tag = "tags"
+category = "categories"
+
+# customize your color and font from here.
 [params.variables]
-primary_color = "#5cc5d5"
-text_color = "#777"
+primary_color = "#0AA8A7"
+text_color = "#101319"
 text_color_dark = "#222"
 body_color = "#fff"
 border_color = "#ECECEC"
 black = "#000"
 white = "#fff"
-light = "#e6e6e9"
-[taxonomies]
-author = "authors"
-tag = "tags"
-category = "categories"
+light = "#EDF6F5"
+
+# font variable
+# Give your font name from google font. add font weight using ":wght@" and separate by ";"
+# example: "Work Sans:wght@400;500;600"
+# primary_font = "Plus Jakarta Sans:wght@400"
+primary_font = "Public Sans:wght@400"
+primary_font_type = "sans-serif"      # [serif/sans-serif]
+icon_font = "Font Awesome 5 Free"
+

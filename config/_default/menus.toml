@@ -68,65 +68,43 @@ weight = 4
 
 
 # footer menu left
-[[footer_left]]
-name = "home"
-url = "https://incubyte.co/"
+[[footer_top]]
+name = "About Us"
+url = "https://www.incubyte.co/about-us"
 weight = 1
 
-[[footer_left]]
-name = "solutions"
-url = "https://www.incubyte.co/solutions"
-weight = 3
-
-[[footer_left]]
-name = "about us"
-url = "https://www.incubyte.co/why-incubyte"
-weight = 4
-
-[[footer_left]]
-name = "our team"
-url = "https://www.incubyte.co/our-team"
-weight = 5
-
-
-# footer menu middle
-[[footer_middle]]
-name = "careers"
-url = "https://www.incubyte.co/careers"
-weight = 1
-
-[[footer_middle]]
-name = "inspiration"
-url = "https://www.incubyte.co/inspiration"
+[[footer_top]]
+name = "Services"
+url = "https://www.incubyte.co/what-we-do-overview"
 weight = 2
 
-[[footer_middle]]
-name = "blog"
-url = "https://blog.incubyte.co/"
+[[footer_top]]
+name = "Contact Us"
+url = "https://www.incubyte.co/contact-us"
 weight = 3
 
-[[footer_middle]]
-name = "community"
-url = "https://www.incubyte.co/events"
+[[footer_top]]
+name = "Home"
+url = "https://incubyte.co/"
 weight = 4
 
-[[footer_middle]]
-name = "ai playground"
-url = "https://www.incubyte.co/ai-playground"
+[[footer_top]]
+name = "Careers"
+url = "https://www.incubyte.co/careers"
 weight = 5
-
-[[footer_middle]]
-name = "contact"
-url = "https://www.incubyte.co/lets-get-started"
-weight = 6
 
 # footer menu right
-[[footer_right]]
-name = "Let's Get Started"
-url = "https://www.incubyte.co/lets-get-started"
+[[footer_bottom]]
+name = "Privacy Policy"
+url = "https://www.incubyte.co/privacy-policy"
 weight = 1
 
-[[footer_right]]
-name = "Work With Us"
-url = "https://incubyte.co/careers"
+[[footer_bottom]]
+name = "Terms and Conditions"
+url = "https://www.incubyte.co/privacy-policy"
 weight = 2
+
+[[footer_bottom]]
+name = "Cookie Policy"
+url = "https://www.incubyte.co/privacy-policy"
+weight = 3

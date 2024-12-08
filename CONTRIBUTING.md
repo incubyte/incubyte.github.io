@@ -51,3 +51,8 @@ These branches should be deleted as soon as the branch is merged to `main`.
 
 - GitHub actions pipeline is set to verify the formatting using `prettier` (a NodeJs library)
 - Fix in the local by running (Beware!) `npx prettier --write .\content\blog\<filename>.md`
+
+## Images
+
+- If you are adding images, add them to `static/images`
+- Make sure they are optimized using a tool like `https://squoosh.app/`

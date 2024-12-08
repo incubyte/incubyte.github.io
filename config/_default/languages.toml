@@ -5,10 +5,3 @@ title = "Incubyte Blog"
 contentDir = "content/"
 weight = 1
 
-########### footer content ##########
-footer_menu_left = "Useful Links"
-footer_menu_middle = "Services"
-footer_menu_right = "Contact Us"
-footer_content = "Crafting Software Products For Today and Tomorrow."
-# copyright
-copyright = "© 2024 Incubyte. All rights reserved."
