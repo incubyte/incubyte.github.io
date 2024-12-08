@@ -6,8 +6,8 @@ image = "/images/2024/refinements-in-ruby/header.jpeg"
 draft = false
 authors = ["Syed Mohd Mehndi"]
 description = "Refinements in Ruby: A Flexible Approach to Modifying Core Classes"
-tags = ["Ruby"]
-categories = ["Ruby"]
+tags = ["Ruby", "Clean Code"]
+categories = ["Ruby", "Clean Code"]
 type = ""
 +++
 
