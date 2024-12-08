@@ -1,11 +1,11 @@
 +++
-title = "Everything Is Object in Ruby: Even Classes"
-slug = "everything-is-object-in-ruby"
+title = "Everything is an Object in Ruby: Even Classes"
+slug = "everything-is-an-object-in-ruby"
 date = 2024-09-18T12:41:04+05:30
 image = "/images/2024/everything-is-object-in-ruby/header.jpeg"
 draft = false
 authors = ["Syed Mohd Mehndi"]
-description = "Everything Is Object in Ruby: Even Classes"
+description = "Everything is an Object in Ruby: Even Classes"
 tags = ["Ruby", "Ruby on Rails", "Software Craftsmanship"]
 categories = ["Ruby", "Ruby on Rails", "Software Craftsmanship"]
 type = ""
