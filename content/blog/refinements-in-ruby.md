@@ -21,9 +21,9 @@ Refinements offer a way to extend or override methods of existing classes, but o
 
 ### Key Characteristics of Refinements:
 
-Scoped Modifications: Refinements apply only in specific contexts (like within a module or class).
-Opt-in Behavior: You have to explicitly “activate” a refinement within the scope where you want it to apply.
-No Global Impact: Unlike monkey-patching, which modifies behavior globally, refinements are local to the scope they are activated in.
+- **Scoped Modifications**: Refinements apply only in specific contexts (like within a module or class).
+- **Opt-in Behavior**: You have to explicitly “activate” a refinement within the scope where you want it to apply.
+- **No Global Impact**: Unlike monkey-patching, which modifies behavior globally, refinements are local to the scope they are activated in.
 
 ### Refinements in Action
 
