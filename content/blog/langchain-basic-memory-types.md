@@ -11,7 +11,7 @@ categories = ["AI", "Langchain"]
 type = ""
 +++
 
-LangChain provides a powerful way to manage conversational memory in chatbots and conversational agents. Among the various memory types it supports, four key ones stand out: ConversationBufferMemory, ConversationBufferWindowMemory, ConversationTokenBufferMemory and ConversationSummaryMemory. Each of these memory types serves a unique purpose and can be used in different scenarios based on the requirements of the conversation. In this blog, we'll explore these memory types and provide short examples to highlight their differences.
+LangChain provides a powerful way to manage conversational memory in chatbots and conversational agents. Among the various memory types it supports, four key ones stand out: `ConversationBufferMemory`, `ConversationBufferWindowMemory`, `ConversationTokenBufferMemory` and `ConversationSummaryMemory`. Each of these memory types serves a unique purpose and can be used in different scenarios based on the requirements of the conversation. In this blog, we'll explore these memory types and provide short examples to highlight their differences.
 
 ### ConversationBufferMemory
 
