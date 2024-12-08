@@ -25,13 +25,13 @@ In Ruby, objects are the building blocks of your code. Almost everything you man
 "hello".class  # => String
 ```
 
-As you can see, the .class method returns the class of the object, confirming that numbers and strings are instances of their respective classes. This makes sense—after all, an integer 5 is an instance of the Integer class, and "hello" is an instance of the String class.
+As you can see, the .class method returns the class of the object, confirming that numbers and strings are instances of their respective classes. This makes sense—after all, an integer `5` is an instance of the Integer class, and `"hello"` is an instance of the `String` class.
 
 ## Classes Are Objects Too
 
 But here’s where it gets really interesting: even classes are objects in Ruby.
 
-In Ruby, a class is an instance of the class Class. This means that classes themselves are objects, and you can treat them like any other object—call methods on them, pass them around as arguments, and even create them dynamically.
+In Ruby, a class is an instance of the class `Class`. This means that classes themselves are objects, and you can treat them like any other object—call methods on them, pass them around as arguments, and even create them dynamically.
 
 Let’s see this in action:
 
@@ -44,17 +44,17 @@ end
 MyClass.class  # => Class
 ```
 
-So, MyClass is an object, and it belongs to the Class class. This demonstrates that classes are first-class citizens in Ruby.
+So, `MyClass` is an object, and it belongs to the class `Class`. This demonstrates that classes are first-class citizens in Ruby.
 
 ## The Relationship Between Objects and Classes
 
-At first glance, this can seem circular. If classes are instances of the Class class, and classes define the objects, how does this work under the hood?
+At first glance, this can seem circular. If classes are instances of the `Class` class, and classes define the objects, how does this work under the hood?
 
 Here's the basic hierarchy:
 
 Every object in Ruby is an instance of some class.
-Each class is itself an instance of the Class class.
-The Class class is a subclass of Module, which allows it to include methods and constants.
+Each class is itself an instance of the `Class` class.
+The `Class` class is a subclass of Module, which allows it to include methods and constants.
 We can illustrate this further with code:
 
 ```ruby
@@ -83,7 +83,7 @@ end
 str.shout  # => "HELLO!"
 ```
 
-In this case, the shout method only exists on the str object. The str object has a metaclass that holds this method. If you try calling shout on a different string, it won’t work:
+In this case, the shout method only exists on the `str` object. The `str` object has a metaclass that holds this method. If you try calling shout on a different string, it won’t work:
 
 ```ruby
 another_str = "world"
@@ -94,7 +94,7 @@ Ruby achieves this dynamic flexibility by creating a metaclass for each object, 
 
 ## Creating Classes Dynamically
 
-Since classes are objects in Ruby, you can create classes dynamically. You can define new classes at runtime using Class.new.
+Since classes are objects in Ruby, you can create classes dynamically. You can define new classes at runtime using `Class.new`.
 
 Here’s an example:
 
