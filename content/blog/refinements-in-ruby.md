@@ -78,6 +78,62 @@ puts "Hello World from Ruby".reverse_words
 
 This code will raise an error because the refinement was not activated globally, and it’s only available within the SentenceManipulator class.
 
+### What Happens When You Use Refinements Inside Their Defining Module?
+Refinements in Ruby are designed to only take effect when explicitly activated with the `using` keyword. This means that even if you try to use a refinement inside the module where it is defined, it won’t work unless the refinement is explicitly activated in the scope where it is used.
+
+Here’s an example to demonstrate this behavior:
+
+```ruby
+module StringExtensions
+    refine String do
+        def reverse_words
+          self.split(' ').reverse.join(' ')
+        end
+    end
+
+    class Foo
+        def bar
+          'Hello World'.reverse_words
+        end
+    end
+end
+
+StringExtensions::Foo.new.bar
+# Output: NoMethodError: undefined method `reverse_words' for "Hello World":String
+```
+
+#### Why Does This Happen?
+In Ruby, refinements are not automatically activated within the module where they are defined. Instead, you must explicitly activate them with the `using` keyword in the scope where they are intended to be used.
+
+#### Fixing the Issue
+To fix this, you can activate the refinement within the `Foo` class with the `using` keyword:
+
+```ruby
+module StringExtensions
+    refine String do
+      def reverse_words
+        self.split(' ').reverse.join(' ')
+      end
+    end
+
+    class Foo
+      using StringExtensions
+    
+      def bar
+        'Hello World'.reverse_words
+      end
+    end
+end
+
+puts StringExtensions::Foo.new.bar
+# Output: "World Hello"
+```
+
+By adding using `StringExtensions` inside the `Foo` class, we explicitly enable the refinement for that scope, and the reverse_words method becomes available.
+
+#### Key Takeaway
+Even though a refinement is defined within a module, it is not automatically available within the module’s inner classes or methods. This is intentional to ensure that refinements remain opt-in and their effects are explicitly scoped. Always use the using keyword in the desired scope to activate the refinement.
+
 ## Why Use Refinements Instead of Monkey-Patching?
 
 1. **Limited Scope**: Unlike monkey-patching, which alters a class’s behavior globally, refinements allow changes to be confined to specific contexts. This reduces the risk of breaking code in other parts of your application.
