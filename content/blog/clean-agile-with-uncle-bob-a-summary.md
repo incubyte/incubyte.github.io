@@ -11,17 +11,13 @@ title = "Clean Agile with Uncle Bob: A Summary"
 
 +++
 
-# Clean Agile
-
-## Summary
-
-Clean Agile is a book by Rober C. Martin that revisits the subject of agility in the world of software programming.
+Clean Agile is a book by Robert C. Martin that revisits the subject of agility in the world of software programming.
 
 It's the perfect timing if you are considering reading the book, especially when Agile has become a project management process, a methodology void of engineering practices. Most of this can be blamed on the cottage industry distributing certificates after a three-day workshop.
 
 Following is the chapter-by-chapter summary of the book. If you find it incomplete, it's because of a reason; we want you to read it :-)
 
-## Chapter 1 Introduction to Agile
+### Chapter 1: Introduction to Agile
 
 Seventeen programmers met in Snowbird lodge in Utah and wrote the following manifesto.
 
@@ -30,7 +26,7 @@ Seventeen programmers met in Snowbird lodge in Utah and wrote the following mani
 - Customer collaboration over contract negotiation.
 - Responding to change over following a plan.
 
-### The Iron Cross
+#### The Iron Cross
 
 > This physics constrains all projects to obey an unassailable trade-off called the Iron Cross of project management. Good, fast, cheap, done: Pick any three you like. You can’t have the fourth.
 >
@@ -54,7 +50,7 @@ Let’s conclude with a quote from the book.
 
 > Agile is a process wherein a project is subdivided into iterations. The output of each iteration is measured and used to continuously evaluate the schedule. Features are implemented in the order of business value so that the most valuable things are implemented first. Quality is kept as high as possible. The schedule is primarily managed by manipulating scope.
 
-## Chapter 2 The Reasons for Agile
+### Chapter 2: The Reasons for Agile
 
 It’s only obvious that software developers should compare themselves with any other professionals, and that’s one of the reasons for agile’s existence, which has a higher commitment towards discipline over ceremonies. The reasons we must become more professional are
 
@@ -80,43 +76,43 @@ Our managers, customers and users should reasonably be able to expect the follow
 
 This chapter is dedicated to explaining that Agile is not a process but rather a set of rights, expectations and disciplines.
 
-## Chapter 3 Business Practices
+### Chapter 3: Business Practices
 
-### Planning
+#### Planning
 
 This practice tells you how to organize your high-level business requirement into granular features, stories and tasks. That, in turn, can help you prioritize, estimate, and plan.
 
-### **Small Releases**
+#### **Small Releases**
 
 Batching is the biggest antipattern in conventional software development, and this practice guides you in the exact opposite direction, do not batch. Instead, release small chunks of work as you do them.
 
-### Acceptance Tests
+#### Acceptance Tests
 
 Pair your stories with acceptance tests, which can work as a definition of “done” and bring unambiguity.
 
-### Whole Team
+#### Whole Team
 
 Software development is a team sport, and like any other team, software development teams are also fully cross-functional and comprise developers, testers and managers.
 
-## Chapter 4 Team Practices
+### Chapter 4: Team Practices
 
-### Metaphor
+#### Metaphor
 
 Use a language that everyone understands and is familiar to technical people and business stakeholders.
 
-### Sustainable Pace
+#### Sustainable Pace
 
 Keep the pace of work that helps you run marathons, not 100 meters sprints.
 
-### Collective Ownership
+#### Collective Ownership
 
 Avoid knowledge silos, and everyone on the team should own the project.
 
-### Continuous Integration
+#### Continuous Integration
 
 Fail fast, and get feedback faster on where you stand all the time.
 
-### Standup Meetings
+#### Standup Meetings
 
 Short meetings of ~10 minutes to calibrate progress. Should consist of three simple updates.
 
@@ -124,25 +120,25 @@ Short meetings of ~10 minutes to calibrate progress. Should consist of three sim
 2. What will I do next?
 3. What's in my way?
 
-# Chapter 5 Technical Practices
+### Chapter 5: Technical Practices
 
-### Test Driven Development
+#### Test Driven Development
 
 Pursue the highest quality and create a safety net by practicing TDD.
 
-### Refactoring
+#### Refactoring
 
 Continuously improve the software, and leave it cleaner than how you found it.
 
-### Simple Design
+#### Simple Design
 
 Is the practice that prevents waste
 
-### Pair Programming
+#### Pair Programming
 
 A practice that catches errors early and encourages knowledge sharing.
 
-# Chapter 6 Becoming Agile
+### Chapter 6: Becoming Agile
 
 This chapter walks you through the agile values of Courage, Communication, Feedback and Simplicity. And makes the following points.
 
@@ -156,7 +152,7 @@ This chapter walks you through the agile values of Courage, Communication, Feedb
 8. It also takes the reader through an alternative view of coaching by Damon Poole.
 9. Don’t let Agile transformation be just the Process of Transformation.
 
-# Chapter 7 Craftsmanship
+### Chapter 7: Craftsmanship
 
 Read superficially. Agile means do agile (not be) to deliver software faster. This led to Agile becoming a “Fix the process” movement. In this movement, engineering practices have no place. Because of this, developers started moving away from Agile development.
 
@@ -183,7 +179,7 @@ A few other points made in this chapter are
 4. **Craftsmanship impact on our industry,** Software Craftsmanship promotes a culture of learning, making companies more innovative and responsive.
 5. **Craftsmanship and Agile** both want to achieve very similar things and one should not be at odds with another.
 
-## Conclusion
+### Conclusion
 
 It’s a great book that revisits Agile and XP in detail from the perspective of a software developer. This is a great reminder for the software development community to bring the focus back to engineering practices and not just process improvements.
 

@@ -11,8 +11,6 @@ categories = ["Playbook", "Software Craftsmanship", "Book Review"]
 type = ""
 +++
 
-## Learnings from Robert “Uncle Bob” Martin
-
 Robert Martin, fondly known as “Uncle Bob” in our community, is a software engineer and more famously an author and one of the founding fathers of Software Craftsmanship movement.
 
 Some of his most famous works include Clean Code, The Clean Coder, Clean Architecture, and Clean Agile. Martin is also a frequent instructor, with the ability to boil down difficult topics into a simple, understandable format, along with occasional cheeky humor.
@@ -94,7 +92,7 @@ That being said, some principles must be followed if we want to include concurre
 
 Core learning: Follow best practices.
 
-## Conclusion
+### Conclusion
 
 This article is a condensed summary of the complete book, highlighting some of the more essential & impactful principles.
 The underlying principles remain somewhat the same throughout the book – a combination of the following principle - Do Not Repeat (`DRY`), Keep it Simple Silly (`KISS`) and You Ain’t Gonna Need It (`YAGNI`).
