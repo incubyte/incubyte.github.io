@@ -43,7 +43,7 @@ module StringExtensions
 end
 ```
 
-In this example, we created a module StringExtensions that contains a refinement of the String class. This refinement adds a method reverse_words to reverse the order of words in a string.
+In this example, we created a module `StringExtensions` that contains a refinement of the String class. This refinement adds a method reverse_words to reverse the order of words in a string.
 
 ### Step 2: Activating the Refinement
 
