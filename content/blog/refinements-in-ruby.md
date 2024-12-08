@@ -67,7 +67,7 @@ puts sentence.reverse
 # Output: "Ruby from World Hello"
 ```
 
-Here, the refinement applies only inside the SentenceManipulator class. If you try to use reverse_words outside of this class, it will not be available.
+Here, the refinement applies only inside the `SentenceManipulator` class. If you try to use reverse_words outside of this class, it will not be available.
 
 ### Step 3: Trying to Use the Refinement Outside the Scope
 
