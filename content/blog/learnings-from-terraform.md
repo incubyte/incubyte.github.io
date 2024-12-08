@@ -11,8 +11,6 @@ categories = ["Playbook", "Software Craftsmanship", "Learnings", "Terraform", "I
 type = ""
 +++
 
-## Preface
-
 Terraform is infrastructure as a code. I know it is a fancy word but here is the meaning.
 
 If you want to create one virtual machine in AWS, you go to their website and click a few buttons, and it creates the instance. What if there are 15 such VMs and all have some security configuration, doing it manually is not only tedious but erroneous as well.
@@ -27,7 +25,7 @@ resource "aws_instance" "app_server" {
 
 It will create, update, or delete resources using simple commands
 
-## Goal
+### Goal
 
 After using terraform in multiple projects, here are my learnings from experience.
 
@@ -35,7 +33,7 @@ It can be used as a best practice as well.
 
 Feel free to add yours.
 
-## State in cloud
+### State in cloud
 
 Terraform stores its 'state' in a local file. The state is a list of created resources using Terraform.
 
@@ -45,7 +43,7 @@ Since the default way of storing the state is in a local file, most beginners do
 
 We should always store the state in **cloud file storage**. For example, AWS store the state in 's3', for Azure store in 'Azure Blob Storage'. The reason behind that is, if your local machine got crashed, the state is always stored in the cloud, somewhere safe.
 
-## Store and run as a pipeline
+### Store and run as a pipeline
 
 Always run the Terraform commands from the pipeline and not from your local machine.
 
@@ -53,7 +51,7 @@ At least transactional commands like `apply` (to create/update) and `destroy` (t
 
 The idea behind Terraform is to have 'infrastructure as code'. Since it is a 'code' it needs to be committed inside a repository.
 
-## Version number is mandatory
+### Version number is mandatory
 
 Always specify a version number for any resource you create.
 
@@ -73,7 +71,7 @@ The biggest issue is, nobody would know why the app is crashing without any code
 
 MySQL might be a poor example because the version number is very important in that, however, things like the docker image version, helm chart version are often taken/used as the latest
 
-## No manual changes in managed services
+### No manual changes in managed services
 
 We might face some important issues or requests that require immediate fixes. Or we might be trying to play around with resources to do POC or want to check capabilities. In these cases, instead of updating resources using Terraform, we often go to the web console and update the resources there.
 
@@ -85,7 +83,7 @@ The problem with this example is, Cognito does not support field deletion. So th
 
 If you want to play around, do it using Terraform or create a separate resource.
 
-## Think about the environments
+### Think about the environments
 
 When we get a requirement to create resources, we jump into the task, create a bunch of resources, and declare that the task is done. The developers start using those resources and are happy.
 
@@ -95,7 +93,7 @@ Always create the resources in such a way that when we have to duplicate the res
 
 There are multiple ways to manage the environments like modules, variable files, or ENV variables. It might require a separate post to weigh the pros and cons. But think about the reusability at the start.
 
-## Think about duplication of resources
+### Think about duplication of resources
 
 Let's assume you thought about environments and now creating templatized resources.
 
@@ -117,7 +115,7 @@ resource "aws_iam_role" "reader" {
 }
 ```
 
-## Think about enabling and disabling a feature
+### Think about enabling and disabling a feature
 
 Always think about enabling or disabling a feature, in other words, most of the resources should be created optionally, preferably using variables.
 
@@ -146,7 +144,7 @@ The problem with this transition is, since we introduced a `count` property, it 
 
 It might not be a problem for cattle type of resources (a resource that does not persist in any state and can be destroyed and recreated at any time). However, resources like MySQL have data and if we recreate it, we might lose the data.
 
-## Think about the availability of managed services
+### Think about the availability of managed services
 
 This is not specifically for Terraform but can be applied to any cloud architecture.
 
@@ -158,7 +156,7 @@ There are two problems here, if we didn't have the resources as optional using v
 
 Another thing is, when we are choosing services, always think about alternatives and don't rely too much on one specific service. (this is subjective and use your judgement)
 
-## Think about how to pass a value instead of creating a resource
+### Think about how to pass a value instead of creating a resource
 
 This is loosely related to the previous two topics, if a resource is not created, then try to think if there is a way to pass a value instead of creating that resource.
 
@@ -166,7 +164,7 @@ For example, AWS Cognito is not available in Indonesia Jakarta as well. Since th
 
 Another example is, if we don't want to terraform to create a security group but want to reuse an existing one, we might provide the id of an existing security group.
 
-## Common things
+### Common things
 
 Don't keep everything under the template boundary.
 
@@ -174,7 +172,7 @@ For example, one time thing like `ECR` (it is a repository for docker images), y
 
 If that resource is inside the template then it would be created multiple times, which is a waste of money as well as creates issues of unnecessary duplication.
 
-## Think about account separation
+### Think about account separation
 
 This is again more related to the cloud instead of Terraform. However, when you create multiple environments, think about how you want to separate them.
 
@@ -184,7 +182,7 @@ Some options are:
 - Create in the different account
 - Create in separate the resource group (Azure).
 
-## Cross access
+### Cross access
 
 Since some resources should be accessible from any environment, think about how will you provide cross env access.
 
