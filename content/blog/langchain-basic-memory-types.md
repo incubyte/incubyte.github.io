@@ -36,7 +36,7 @@ print(memory.retrieve())
 
 #### Output:
 
-```vbnet
+```plaintext
 User: Hello, how are you?
 Assistant: I'm good, thank you! How can I assist you today?
 User: Can you tell me about the weather?
@@ -65,7 +65,7 @@ print(memory.retrieve())
 
 #### Output:
 
-```vbnet
+```plaintext
 Assistant: I'm good, thank you! How can I assist you today?
 User: Can you tell me about the weather?
 ```
@@ -94,7 +94,7 @@ print(memory.retrieve())
 
 #### Output:
 
-```vbnet
+```plaintext
 User: Hello, how are you?
 Assistant: I'm good, thank you! How can I assist you today?
 User: Can you tell me about the weather?
@@ -127,7 +127,7 @@ print(memory.retrieve())
 
 #### Output:
 
-```csharp
+```plaintext
 The user greeted the assistant and asked about the weather. The assistant responded that the weather is sunny with a high of 75°F.
 ```
 
