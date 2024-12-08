@@ -48,12 +48,12 @@ So, `MyClass` is an object, and it belongs to the class `Class`. This demonstrat
 
 ## The Relationship Between Objects and Classes
 
-At first glance, this can seem circular. If classes are instances of the `Class` class, and classes define the objects, how does this work under the hood?
+At first glance, this can seem circular. If classes are instances of the class `Class`, and classes define the objects, how does this work under the hood?
 
 Here's the basic hierarchy:
 
 Every object in Ruby is an instance of some class.
-Each class is itself an instance of the `Class` class.
+Each class is itself an instance of the class `Class`.
 The `Class` class is a subclass of Module, which allows it to include methods and constants.
 We can illustrate this further with code:
 
