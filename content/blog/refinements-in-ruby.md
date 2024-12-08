@@ -47,7 +47,7 @@ In this example, we created a module StringExtensions that contains a refinement
 
 ### Step 2: Activating the Refinement
 
-To use the refinement, we need to activate it in a specific scope using the using keyword:
+To use the refinement, we need to activate it in a specific scope using the `using` keyword:
 
 ```ruby
 class SentenceManipulator
