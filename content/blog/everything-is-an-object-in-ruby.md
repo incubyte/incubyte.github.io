@@ -25,7 +25,7 @@ In Ruby, objects are the building blocks of your code. Almost everything you man
 "hello".class  # => String
 ```
 
-As you can see, the .class method returns the class of the object, confirming that numbers and strings are instances of their respective classes. This makes sense—after all, an integer like 5 is an instance of the Integer class, and "hello" is an instance of the String class.
+As you can see, the .class method returns the class of the object, confirming that numbers and strings are instances of their respective classes. This makes sense—after all, an integer 5 is an instance of the Integer class, and "hello" is an instance of the String class.
 
 ## Classes Are Objects Too
 
