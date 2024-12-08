@@ -82,7 +82,7 @@ This code will raise an error because the refinement was not activated globally,
 
 1. **Limited Scope**: Unlike monkey-patching, which alters a class’s behavior globally, refinements allow changes to be confined to specific contexts. This reduces the risk of breaking code in other parts of your application.
 
-1. **Better Code Isolation**:Refinements ensure that method modifications do not leak out and affect other classes or libraries unintentionally. With refinements, you can safely modify the behavior of third-party libraries without worrying about conflicts.
+1. **Better Code Isolation**: Refinements ensure that method modifications do not leak out and affect other classes or libraries unintentionally. With refinements, you can safely modify the behavior of third-party libraries without worrying about conflicts.
 
 1. **Safer Library Usage**: Libraries can define refinements to tweak core class behaviors for internal use without impacting their users’ code. This leads to more reliable and maintainable libraries.
 
