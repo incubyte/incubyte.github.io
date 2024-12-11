@@ -5,7 +5,7 @@
 
 <head>
 	<meta charset="utf-8">
-<title>Using Firebase Cloud Functions: Exporting Firestore Data to Excel in React Apps</title>
+<title>Everything is an Object in Ruby: Even Classes</title>
 
 
 <base href="https://blog.incubyte.co/">
@@ -14,7 +14,7 @@
 
 
 
-<meta name="author" content="[Dixit Tilaji]">
+<meta name="author" content="[Syed Mohd Mehndi]">
 <meta name="generator" content="Hugo 0.139.4">
 
 
@@ -29,22 +29,23 @@
 <meta name="msapplication-TileColor" content="#0AA8A7">
 <meta name="theme-color" content="#fff">
 
-<meta property="og:url" content="https://blog.incubyte.co/blog/using-firebase-cloud-functions/">
+<meta property="og:url" content="https://blog.incubyte.co/blog/everything-is-an-object-in-ruby/">
   <meta property="og:site_name" content="Incubyte Blog">
-  <meta property="og:title" content="Using Firebase Cloud Functions: Exporting Firestore Data to Excel in React Apps">
-  <meta property="og:description" content="Using Firebase Cloud Functions: Exporting Firestore Data to Excel in React Apps">
+  <meta property="og:title" content="Everything is an Object in Ruby: Even Classes">
+  <meta property="og:description" content="Everything is an Object in Ruby: Even Classes">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2024-05-07T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-05-07T00:00:00+00:00">
+    <meta property="article:published_time" content="2024-09-18T12:41:04+05:30">
+    <meta property="article:modified_time" content="2024-09-18T12:41:04+05:30">
+    <meta property="article:tag" content="Ruby">
+    <meta property="article:tag" content="Ruby on Rails">
     <meta property="article:tag" content="Software Craftsmanship">
-    <meta property="article:tag" content="React">
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Using Firebase Cloud Functions: Exporting Firestore Data to Excel in React Apps">
-  <meta name="twitter:description" content="Using Firebase Cloud Functions: Exporting Firestore Data to Excel in React Apps">
+  <meta name="twitter:title" content="Everything is an Object in Ruby: Even Classes">
+  <meta name="twitter:description" content="Everything is an Object in Ruby: Even Classes">
 
 
 
@@ -53,15 +54,15 @@
     {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "Using Firebase Cloud Functions: Exporting Firestore Data to Excel in React Apps",
-        "image": "/images/2024/firebase-cloud-function/firebase-cloud-function-header.png",
-        "datePublished": "Tuesday, May 7, 2024",
-        "dateModified": "Tuesday, May 7, 2024",
+        "headline": "Everything is an Object in Ruby: Even Classes",
+        "image": "/images/2024/everything-is-an-object-in-ruby/header.jpeg",
+        "datePublished": "Wednesday, September 18, 2024",
+        "dateModified": "Wednesday, September 18, 2024",
         "author": [
             
                 {
                     "@type": "Person",
-                    "name": "Dixit Tilaji"
+                    "name": "Syed Mohd Mehndi"
                 }
             
         ],
@@ -80,7 +81,7 @@
                 "https://www.instagram.com/incubyte.co/"
             ]
         },
-        "keywords": ["Software Craftsmanship", "React"]
+        "keywords": ["Ruby", "Ruby on Rails", "Software Craftsmanship"]
     }
     
 </script>
@@ -668,312 +669,93 @@
           ><strong>←</strong> Back to Blog</a
         >
         <img
-          src="/images/2024/firebase-cloud-function/firebase-cloud-function-header.png"
-          alt="Using Firebase Cloud Functions: Exporting Firestore Data to Excel in React Apps"
+          src="/images/2024/everything-is-an-object-in-ruby/header.jpeg"
+          alt="Everything is an Object in Ruby: Even Classes"
           class="mt-3 img-fluid w-100 rounded mb-4"
         />
-        <h1 class="mb-4 post-title">Using Firebase Cloud Functions: Exporting Firestore Data to Excel in React Apps</h1>
+        <h1 class="mb-4 post-title">Everything is an Object in Ruby: Even Classes</h1>
+        
+        <span class="mb-3 badge rounded-pill bg-dark">
+          <a class="text-white" href="/tags/ruby">Ruby</a></span
+        >
+        
+        <span class="mb-3 badge rounded-pill bg-dark">
+          <a class="text-white" href="/tags/ruby-on-rails">Ruby on Rails</a></span
+        >
         
         <span class="mb-3 badge rounded-pill bg-dark">
           <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span
         >
         
-        <span class="mb-3 badge rounded-pill bg-dark">
-          <a class="text-white" href="/tags/react">React</a></span
-        >
-        
         <p class="blockquote-footer text-right">
           By 
-          <a href="/authors/dixit-tilaji">Dixit Tilaji</a>,  on Tuesday, May 7, 2024
+          <a href="/authors/syed-mohd-mehndi">Syed Mohd Mehndi</a>,  on Wednesday, September 18, 2024
         </p>
 
-        <div class="content"><p>One day, one of my team members gave me a challenge: we needed a way to download our admin data as Excel files for better reporting. Despite searching, I couldn’t find a tutorial that fit our needs for a React/Next.js app. After more research, including using AI tools like ChatGPT, I figured out a solution. In this blog, I&rsquo;ll show you how we use Firebase Cloud Functions to make it happen.</p>
-<figure><img src="/images/2024/firebase-cloud-function/firebase-cloud-function-1.png">
-</figure>
-
-<h3 id="setting-up-firebase">Setting up Firebase</h3>
-<p>Before we dive into the code, ensure you have a Firebase project set up with Firestore as your database. If you’re new to Firebase, follow their <a href="https://firebase.google.com/docs">official documentation</a> to create a new project and enable the Firestore database and cloud functions.</p>
-<h3 id="tablejsx">Table.jsx</h3>
-<p>Once you have your Firebase project and Firestore database ready, the next step is to integrate Firestore data into your React/Next.js application. This example illustrates how to display Firestore data in a table within a React component using hooks like <code>useState</code> and <code>useEffect</code>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-react" data-lang="react"><span style="display:flex;"><span><span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">db</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#34;../utils/firebase&#34;</span>;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">useState</span>, <span style="color:#a6e22e">useEffect</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#34;react&#34;</span>;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">collection</span>, <span style="color:#a6e22e">query</span>, <span style="color:#a6e22e">orderBy</span>, <span style="color:#a6e22e">getDocs</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#34;firebase/firestore&#34;</span>;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> <span style="color:#a6e22e">Button</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#34;./Button&#34;</span>;
+        <div class="content"><p>Ruby is a pure object-oriented programming language, and one of the key features that sets it apart from many other languages is its philosophy that everything is an object. Whether you&rsquo;re working with strings, numbers, arrays, or even classes themselves, everything in Ruby is treated as an object. This is a powerful concept that simplifies the language and makes it more consistent and flexible. Let&rsquo;s dive deeper into what this means, especially the idea that even classes are objects in Ruby.</p>
+<h2 id="objects-in-ruby-the-foundation">Objects in Ruby: The Foundation</h2>
+<p>In Ruby, objects are the building blocks of your code. Almost everything you manipulate is an object. For instance:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#75715e"># Numbers are objects</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">5</span><span style="color:#f92672">.</span>class  <span style="color:#75715e"># =&gt; Integer</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">default</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">Table</span>() {
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">logs</span>, <span style="color:#a6e22e">setLogs</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>([]);
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">loading</span>, <span style="color:#a6e22e">setLoading</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#66d9ef">false</span>);
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Strings are objects</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;hello&#34;</span><span style="color:#f92672">.</span>class  <span style="color:#75715e"># =&gt; String</span>
+</span></span></code></pre></div><p>As you can see, the .class method returns the class of the object, confirming that numbers and strings are instances of their respective classes. This makes sense—after all, an integer <code>5</code> is an instance of the Integer class, and <code>&quot;hello&quot;</code> is an instance of the <code>String</code> class.</p>
+<h2 id="classes-are-objects-too">Classes Are Objects Too</h2>
+<p>But here’s where it gets really interesting: even classes are objects in Ruby.</p>
+<p>In Ruby, a class is an instance of the class <code>Class</code>. This means that classes themselves are objects, and you can treat them like any other object—call methods on them, pass them around as arguments, and even create them dynamically.</p>
+<p>Let’s see this in action:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#75715e"># Define a simple class</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyClass</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">useEffect</span>(() =&gt; {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">fetchLogs</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">async</span> () =&gt; {
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">setLoading</span>(<span style="color:#66d9ef">true</span>);
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">logsRef</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">collection</span>(<span style="color:#a6e22e">db</span>, <span style="color:#e6db74">&#34;bills&#34;</span>);
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">logsBills</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">query</span>(<span style="color:#a6e22e">logsRef</span>, <span style="color:#a6e22e">orderBy</span>(<span style="color:#e6db74">&#34;time&#34;</span>, <span style="color:#e6db74">&#34;desc&#34;</span>));
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">logsSnapshot</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">getDocs</span>(<span style="color:#a6e22e">logsBills</span>);
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">logsData</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">logsSnapshot</span>.<span style="color:#a6e22e">docs</span>.<span style="color:#a6e22e">map</span>((<span style="color:#a6e22e">doc</span>) =&gt; <span style="color:#a6e22e">doc</span>.<span style="color:#a6e22e">data</span>());
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">setLogs</span>(<span style="color:#a6e22e">logsData</span>);
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">setLoading</span>(<span style="color:#66d9ef">false</span>);
-</span></span><span style="display:flex;"><span>    };
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fetchLogs</span>();
-</span></span><span style="display:flex;"><span>  }, []);
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check the class of MyClass</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">MyClass</span><span style="color:#f92672">.</span>class  <span style="color:#75715e"># =&gt; Class</span>
+</span></span></code></pre></div><p>So, <code>MyClass</code> is an object, and it belongs to the class <code>Class</code>. This demonstrates that classes are first-class citizens in Ruby.</p>
+<h2 id="the-relationship-between-objects-and-classes">The Relationship Between Objects and Classes</h2>
+<p>At first glance, this can seem circular. If classes are instances of the class <code>Class</code>, and classes define the objects, how does this work under the hood?</p>
+<p>Here&rsquo;s the basic hierarchy:</p>
+<p>Every object in Ruby is an instance of some class.
+Each class is itself an instance of the class <code>Class</code>.
+The <code>Class</code> class is a subclass of Module, which allows it to include methods and constants.
+We can illustrate this further with code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#75715e"># Integer is a class</span>
+</span></span><span style="display:flex;"><span>Integer<span style="color:#f92672">.</span>class  <span style="color:#75715e"># =&gt; Class</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> (
-</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34; dark:bg-slate-900 bg-gray-100 flex h-full items-left pb-96 text-black&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;max-w-auto mx-auto p-6&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text-center&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">User</span> <span style="color:#a6e22e">Bills</span>
-</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">h1</span>&gt;
-</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Class itself is an instance of Class</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">Class</span><span style="color:#f92672">.</span>class  <span style="color:#75715e"># =&gt; Class</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">Even</span> <span style="color:#66d9ef">Class</span> is an object! <span style="color:#66d9ef">It</span><span style="color:#960050;background-color:#1e0010">’</span>s mind<span style="color:#f92672">-</span>bending but <span style="color:#e6db74">elegant</span>: everything <span style="color:#66d9ef">in</span> <span style="color:#66d9ef">Ruby</span> stems from <span style="color:#66d9ef">Class</span>, which itself is an object, thereby making the system highly flexible <span style="color:#f92672">and</span> consistent<span style="color:#f92672">.</span>
+</span></span></code></pre></div><h2 id="metaclasses-classes-for-single-objects">Metaclasses: Classes for Single Objects</h2>
+<p>In Ruby, every object can have its own class called a metaclass (or singleton class). This is a hidden class that Ruby creates behind the scenes to hold methods that are unique to a specific object.</p>
+<p>For instance:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>str <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;hello&#34;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;flex flex-col bg-white rounded-md mt-4 p-6&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;flex flex-col&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;-m-1.5 overflow-x-auto&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>              &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;p-1.5 min-w-full inline-block align-middle&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>                &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;overflow-hidden&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>                  &lt;<span style="color:#f92672">table</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;min-w-full divide-y divide-gray-200 dark:divide-gray-700&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">thead</span>&gt;
-</span></span><span style="display:flex;"><span>                      &lt;<span style="color:#f92672">tr</span>&gt;
-</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#f92672">th</span>
-</span></span><span style="display:flex;"><span>                          <span style="color:#a6e22e">scope</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col&#34;</span>
-</span></span><span style="display:flex;"><span>                          <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;px-2 py-3 text-center text-xs font-medium text-gray-500 uppercase&#34;</span>
-</span></span><span style="display:flex;"><span>                        &gt;
-</span></span><span style="display:flex;"><span>                          <span style="color:#a6e22e">Index</span>
-</span></span><span style="display:flex;"><span>                        &lt;/<span style="color:#f92672">th</span>&gt;
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Define a singleton method just for this instance of the string</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">str</span><span style="color:#f92672">.</span><span style="color:#a6e22e">shout</span>
+</span></span><span style="display:flex;"><span>  self<span style="color:#f92672">.</span>upcase <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;!&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#f92672">th</span>
-</span></span><span style="display:flex;"><span>                          <span style="color:#a6e22e">scope</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col&#34;</span>
-</span></span><span style="display:flex;"><span>                          <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;px-2 py-3 text-center text-xs font-medium text-gray-500 uppercase&#34;</span>
-</span></span><span style="display:flex;"><span>                        &gt;
-</span></span><span style="display:flex;"><span>                          <span style="color:#a6e22e">Name</span>
-</span></span><span style="display:flex;"><span>                        &lt;/<span style="color:#f92672">th</span>&gt;
-</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#f92672">th</span>
-</span></span><span style="display:flex;"><span>                          <span style="color:#a6e22e">scope</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col&#34;</span>
-</span></span><span style="display:flex;"><span>                          <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;px-2 py-3 text-center text-xs font-medium text-gray-500 uppercase&#34;</span>
-</span></span><span style="display:flex;"><span>                        &gt;
-</span></span><span style="display:flex;"><span>                          <span style="color:#a6e22e">Bills</span>
-</span></span><span style="display:flex;"><span>                        &lt;/<span style="color:#f92672">th</span>&gt;
-</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#f92672">th</span>
-</span></span><span style="display:flex;"><span>                          <span style="color:#a6e22e">scope</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;col&#34;</span>
-</span></span><span style="display:flex;"><span>                          <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;px-2 py-3 text-center text-xs font-medium text-gray-500 uppercase&#34;</span>
-</span></span><span style="display:flex;"><span>                        &gt;
-</span></span><span style="display:flex;"><span>                          <span style="color:#a6e22e">Time</span>
-</span></span><span style="display:flex;"><span>                        &lt;/<span style="color:#f92672">th</span>&gt;
-</span></span><span style="display:flex;"><span>                      &lt;/<span style="color:#f92672">tr</span>&gt;
-</span></span><span style="display:flex;"><span>                    &lt;/<span style="color:#f92672">thead</span>&gt;
-</span></span><span style="display:flex;"><span>                    &lt;<span style="color:#f92672">tbody</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;divide-y divide-gray-200 dark:divide-gray-700&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>                      {<span style="color:#a6e22e">logs</span>.<span style="color:#a6e22e">map</span>((<span style="color:#a6e22e">item</span>, <span style="color:#a6e22e">index</span>) =&gt; (
-</span></span><span style="display:flex;"><span>                        &lt;<span style="color:#f92672">tr</span> <span style="color:#a6e22e">key</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">index</span>}&gt;
-</span></span><span style="display:flex;"><span>                          &lt;<span style="color:#f92672">td</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;px-2 py-4 whitespace-nowrap text-sm font-medium text-black place-self-center&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>                            {<span style="color:#a6e22e">index</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>}
-</span></span><span style="display:flex;"><span>                          &lt;/<span style="color:#f92672">td</span>&gt;
-</span></span><span style="display:flex;"><span>                          &lt;<span style="color:#f92672">td</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;px-2 py-4 whitespace-nowrap text-center font-bold text-sm text-black&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>                            &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;flex flex-row gap-2 justify-center items-center&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>                              &lt;<span style="color:#f92672">span</span>&gt;{<span style="color:#a6e22e">item</span>.<span style="color:#a6e22e">name</span>}&lt;/<span style="color:#f92672">span</span>&gt;
-</span></span><span style="display:flex;"><span>                            &lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>                          &lt;/<span style="color:#f92672">td</span>&gt;
-</span></span><span style="display:flex;"><span>                          &lt;<span style="color:#f92672">td</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;px-2 py-4 whitespace-nowrap text-center font-bold text-sm text-black&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>                            &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;flex flex-row gap-2 justify-center items-center&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>                              &lt;<span style="color:#f92672">span</span>&gt;{<span style="color:#a6e22e">item</span>.<span style="color:#a6e22e">bills</span>}&lt;/<span style="color:#f92672">span</span>&gt;
-</span></span><span style="display:flex;"><span>                            &lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>                          &lt;/<span style="color:#f92672">td</span>&gt;
-</span></span><span style="display:flex;"><span>                          &lt;<span style="color:#f92672">td</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;px-2 py-4 whitespace-nowrap text-center text-sm font-bold&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>                            &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text-black&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>                              {<span style="color:#a6e22e">item</span><span style="color:#f92672">?</span>.<span style="color:#a6e22e">time</span>
-</span></span><span style="display:flex;"><span>                                <span style="color:#f92672">?</span> <span style="color:#a6e22e">item</span><span style="color:#f92672">?</span>.<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">toDate</span>().<span style="color:#a6e22e">toLocaleTimeString</span>() <span style="color:#f92672">+</span>
-</span></span><span style="display:flex;"><span>                                  <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span>
-</span></span><span style="display:flex;"><span>                                  <span style="color:#a6e22e">item</span><span style="color:#f92672">?</span>.<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">toDate</span>().<span style="color:#a6e22e">toDateString</span>()
-</span></span><span style="display:flex;"><span>                                <span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Not Set&#34;</span>}
-</span></span><span style="display:flex;"><span>                            &lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>                          &lt;/<span style="color:#f92672">td</span>&gt;
-</span></span><span style="display:flex;"><span>                        &lt;/<span style="color:#f92672">tr</span>&gt;
-</span></span><span style="display:flex;"><span>                      ))}
-</span></span><span style="display:flex;"><span>                    &lt;/<span style="color:#f92672">tbody</span>&gt;
-</span></span><span style="display:flex;"><span>                  &lt;/<span style="color:#f92672">table</span>&gt;
-</span></span><span style="display:flex;"><span>                  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;flex justify-center&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>                    {<span style="color:#a6e22e">loading</span> <span style="color:#f92672">&amp;&amp;</span> &lt;<span style="color:#f92672">p</span>&gt;<span style="color:#a6e22e">Loading</span>..&lt;/<span style="color:#f92672">p</span>&gt;}
-</span></span><span style="display:flex;"><span>                  &lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>                &lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>              &lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">Button</span> /&gt;
-</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>  );
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><ul>
-<li>Here we have a very simple table showing data fetched from Firestore using React hooks.</li>
-<li>Additionally, there is a “Get Report” button that triggers a cloud function.</li>
-</ul>
-<h3 id="buttonjsx">Button.jsx</h3>
-<p>This component works as a trigger for the cloud function.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-react" data-lang="react"><span style="display:flex;"><span><span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">addDoc</span>, <span style="color:#a6e22e">collection</span>, <span style="color:#a6e22e">doc</span>, <span style="color:#a6e22e">onSnapshot</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#34;firebase/firestore&#34;</span>;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">db</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#34;../utils/firebase&#34;</span>;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">useState</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#34;react&#34;</span>;
+</span></span><span style="display:flex;"><span>str<span style="color:#f92672">.</span>shout  <span style="color:#75715e"># =&gt; &#34;HELLO!&#34;</span>
+</span></span></code></pre></div><p>In this case, the shout method only exists on the <code>str</code> object. The <code>str</code> object has a metaclass that holds this method. If you try calling shout on a different string, it won’t work:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>another_str <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;world&#34;</span>
+</span></span><span style="display:flex;"><span>another_str<span style="color:#f92672">.</span>shout  <span style="color:#75715e"># =&gt; NoMethodError: undefined method `shout&#39;</span>
+</span></span></code></pre></div><p>Ruby achieves this dynamic flexibility by creating a metaclass for each object, allowing objects to behave in ways that are customized and extendable at runtime.</p>
+<h2 id="creating-classes-dynamically">Creating Classes Dynamically</h2>
+<p>Since classes are objects in Ruby, you can create classes dynamically. You can define new classes at runtime using <code>Class.new</code>.</p>
+<p>Here’s an example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">MyDynamicClass</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">Class</span><span style="color:#f92672">.</span>new <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">greet</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">&#34;Hello, world!&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">Button</span> <span style="color:#f92672">=</span> () =&gt; {
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">report</span>, <span style="color:#a6e22e">setReport</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#e6db74">&#34;&#34;</span>);
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">reportLoaded</span>, <span style="color:#a6e22e">setReportLoaded</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>(<span style="color:#66d9ef">false</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">handleDownload</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">async</span> () =&gt; {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span> {
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">reportsRef</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">collection</span>(<span style="color:#a6e22e">db</span>, <span style="color:#e6db74">&#34;reports&#34;</span>);
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">report</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">addDoc</span>(<span style="color:#a6e22e">reportsRef</span>, {
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">status</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;pending&#34;</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">type</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;queries&#34;</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">downloadLink</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;&#34;</span>,
-</span></span><span style="display:flex;"><span>      });
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">reportDocRef</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">doc</span>(<span style="color:#a6e22e">db</span>, <span style="color:#e6db74">&#34;reports&#34;</span>, <span style="color:#a6e22e">report</span>.<span style="color:#a6e22e">id</span>);
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">onSnapshot</span>(<span style="color:#a6e22e">reportDocRef</span>, (<span style="color:#a6e22e">doc</span>) =&gt; {
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">setReport</span>(<span style="color:#a6e22e">doc</span>.<span style="color:#a6e22e">data</span>().<span style="color:#a6e22e">downloadLink</span>);
-</span></span><span style="display:flex;"><span>      });
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">setReportLoaded</span>(<span style="color:#66d9ef">true</span>);
-</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">catch</span> (<span style="color:#a6e22e">error</span>) {
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">error</span>(<span style="color:#a6e22e">error</span>);
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>  };
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> (
-</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;flex flex-col items-center justify-center my-4&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">button</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">handleDownload</span>}
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;p-2 rounded-md text-sm bg-white text-black font-bold&#34;</span>
-</span></span><span style="display:flex;"><span>      &gt;
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">Get</span> <span style="color:#a6e22e">Report</span>
-</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#f92672">button</span>&gt;
-</span></span><span style="display:flex;"><span>      {<span style="color:#a6e22e">report</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;&#34;</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">reportLoaded</span> <span style="color:#f92672">?</span> (
-</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;flex flex-row justify-center my-4&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">div</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;animate-spin inline-block w-6 h-6 border-[3px] border-current border-t-transparent text-gray-800 rounded-full dark:text-white&#34;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">role</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;status&#34;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">aria</span><span style="color:#960050;background-color:#1e0010">-</span><span style="color:#a6e22e">label</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;loading&#34;</span>
-</span></span><span style="display:flex;"><span>          &gt;
-</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;sr-only&#34;</span>&gt;<span style="color:#a6e22e">Loading</span>...&lt;/<span style="color:#f92672">span</span>&gt;
-</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>      ) <span style="color:#f92672">:</span> <span style="color:#a6e22e">report</span> <span style="color:#f92672">!==</span> <span style="color:#e6db74">&#34;&#34;</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">reportLoaded</span> <span style="color:#f92672">?</span> (
-</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">className</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bg-white mt-2 rounded-md p-2 text-sm font-extrabold text-purple-800&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>          &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">target</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;_blank&#34;</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noopener noreferrer&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span>{<span style="color:#a6e22e">report</span>}&gt;
-</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">Download</span> <span style="color:#a6e22e">Report</span>
-</span></span><span style="display:flex;"><span>          &lt;/<span style="color:#f92672">a</span>&gt;
-</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>      ) <span style="color:#f92672">:</span> (
-</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>      )}
-</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
-</span></span><span style="display:flex;"><span>  );
-</span></span><span style="display:flex;"><span>};
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">export</span> <span style="color:#66d9ef">default</span> <span style="color:#a6e22e">Button</span>;
-</span></span></code></pre></div><ul>
-<li>When the “Get Report” button is clicked, a document is added to the reports collection, which acts as a trigger for the cloud function.</li>
-<li>The <code>onSnapshot()</code> method watches for any updates to the document, retrieving the download link once it&rsquo;s ready.</li>
-</ul>
-<h3 id="cloud-function">Cloud Function</h3>
-<h4 id="setting-up-the-environment">Setting up the Environment</h4>
-<p>Before diving into the code, ensure you have the necessary modules installed and initialized:</p>
-<ul>
-<li><strong>Firebase Functions:</strong> Manage cloud functions.</li>
-<li><strong>Firebase Admin:</strong> Interact with various Firebase services, including Firestore and Storage.</li>
-<li><strong>Papaparse:</strong> A powerful library for parsing and un-parsing CSV files.</li>
-<li><strong>date-fns (Optional):</strong> A library to manipulate JavaScript dates in a straightforward way.</li>
-</ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-react" data-lang="react"><span style="display:flex;"><span><span style="color:#75715e">/**
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Import function triggers from their respective submodules:
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * const {onCall} = require(&#34;firebase-functions/v2/https&#34;);
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * const {onDocumentWritten} = require(&#34;firebase-functions/v2/firestore&#34;);
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> *
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * See a full list of supported triggers at https://firebase.google.com/docs/functions
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">functions</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;firebase-functions&#34;</span>);
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">admin</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;firebase-admin&#34;</span>);
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">admin</span>.<span style="color:#a6e22e">initializeApp</span>();
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">db</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">admin</span>.<span style="color:#a6e22e">firestore</span>();
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">fs</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;fs-extra&#34;</span>);
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">bucket</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">admin</span>.<span style="color:#a6e22e">storage</span>().<span style="color:#a6e22e">bucket</span>();
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">path</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;path&#34;</span>);
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">os</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;os&#34;</span>);
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">Papa</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;papaparse&#34;</span>);
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> { <span style="color:#a6e22e">format</span>, <span style="color:#a6e22e">addHours</span>, <span style="color:#a6e22e">addMinutes</span> } <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;date-fns&#34;</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">exports</span>.<span style="color:#a6e22e">createCSV</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">functions</span>.<span style="color:#a6e22e">region</span>(<span style="color:#e6db74">&#34;asia-south1&#34;</span>)
-</span></span><span style="display:flex;"><span>  .<span style="color:#a6e22e">firestore</span>.document(<span style="color:#e6db74">&#34;reports/{reportId}&#34;</span>)
-</span></span><span style="display:flex;"><span>  .<span style="color:#a6e22e">onCreate</span>(<span style="color:#66d9ef">async</span> (<span style="color:#a6e22e">change</span>, <span style="color:#a6e22e">context</span>) =&gt; {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">reportId</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">context</span><span style="color:#f92672">?</span>.<span style="color:#a6e22e">params</span><span style="color:#f92672">?</span>.<span style="color:#a6e22e">reportId</span> <span style="color:#f92672">||</span> <span style="color:#e6db74">&#34;test&#34;</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">fileName</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`reports/</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">reportId</span><span style="color:#e6db74">}</span><span style="color:#e6db74">.csv`</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">tempFilePath</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">path</span>.<span style="color:#a6e22e">join</span>(<span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">tmpdir</span>(), <span style="color:#a6e22e">fileName</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">reportRef</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">db</span>.<span style="color:#a6e22e">collection</span>(<span style="color:#e6db74">&#34;reports&#34;</span>).<span style="color:#a6e22e">doc</span>(<span style="color:#a6e22e">reportId</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span> {
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">billsSnapshot</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">db</span>.<span style="color:#a6e22e">collection</span>(<span style="color:#e6db74">&#34;bills&#34;</span>).<span style="color:#a6e22e">get</span>();
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">bills</span> <span style="color:#f92672">=</span> [];
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">billsSnapshot</span>.<span style="color:#a6e22e">forEach</span>((<span style="color:#a6e22e">doc</span>) =&gt; {
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">bills</span>.<span style="color:#a6e22e">push</span>({ ...<span style="color:#a6e22e">doc</span>.<span style="color:#a6e22e">data</span>(), <span style="color:#a6e22e">id</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">doc</span>.<span style="color:#a6e22e">id</span> });
-</span></span><span style="display:flex;"><span>      });
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">preprocessedData</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">bills</span>.<span style="color:#a6e22e">map</span>((<span style="color:#a6e22e">item</span>) =&gt; {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">newItem</span> <span style="color:#f92672">=</span> { ...<span style="color:#a6e22e">item</span> };
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">newItem</span>.<span style="color:#a6e22e">time</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">newItem</span>.<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">_seconds</span>) {
-</span></span><span style="display:flex;"><span>          <span style="color:#75715e">// this function converts the timestamp object to time string, ignore if not needed
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>          <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">dateDelist</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Date(<span style="color:#a6e22e">newItem</span>.<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">_seconds</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">1000</span>);
-</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">dateInISTDelist</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">addMinutes</span>(<span style="color:#a6e22e">addHours</span>(<span style="color:#a6e22e">dateDelist</span>, <span style="color:#ae81ff">5</span>), <span style="color:#ae81ff">30</span>);
-</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">newItem</span>.<span style="color:#a6e22e">time</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">format</span>(<span style="color:#a6e22e">dateInISTDelist</span>, <span style="color:#e6db74">&#34;dd-MM-yyyy hh:mm:ss aaa&#34;</span>);
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">newItem</span>;
-</span></span><span style="display:flex;"><span>      });
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">csv</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">Papa</span>.<span style="color:#a6e22e">unparse</span>(<span style="color:#a6e22e">preprocessedData</span>, {
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">quotes</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">delimiter</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;,&#34;</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">header</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">newline</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\r\n&#34;</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">dynamicTyping</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">skipEmptyLines</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>,
-</span></span><span style="display:flex;"><span>      });
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">fs</span>.<span style="color:#a6e22e">outputFile</span>(<span style="color:#a6e22e">tempFilePath</span>, <span style="color:#a6e22e">csv</span>);
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">bucket</span>.<span style="color:#a6e22e">upload</span>(<span style="color:#a6e22e">tempFilePath</span>, { <span style="color:#a6e22e">destination</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">fileName</span> });
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">file</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">bucket</span>.<span style="color:#a6e22e">file</span>(<span style="color:#a6e22e">fileName</span>);
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">file</span>.<span style="color:#a6e22e">makePublic</span>();
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">publicUrl</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`https://storage.googleapis.com/</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">bucket</span>.<span style="color:#a6e22e">name</span><span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">fileName</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">reportRef</span>.<span style="color:#a6e22e">update</span>({
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">status</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;complete&#34;</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">downloadLink</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">publicUrl</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">createdAt</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">admin</span>.<span style="color:#a6e22e">firestore</span>.<span style="color:#a6e22e">Timestamp</span>.<span style="color:#a6e22e">now</span>(),
-</span></span><span style="display:flex;"><span>      });
-</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">catch</span> (<span style="color:#a6e22e">err</span>) {
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">err</span>);
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>  });
-</span></span></code></pre></div><h3 id="key-points">Key Points</h3>
-<ul>
-<li><strong>Trigger:</strong> The function is triggered by creating a new document in the reports collection.</li>
-<li><strong>Data Fetching:</strong> Retrieves all documents from the bills collection.</li>
-<li><strong>Date Manipulation:</strong> Converts Firestore timestamp fields to a more readable format using date-fns.</li>
-<li><strong>CSV Conversion:</strong> Uses Papaparse to convert the data to CSV format.</li>
-<li><strong>File Handling:</strong> Creates a temporary file for the CSV, then uploads it to Firebase Storage.</li>
-<li><strong>Public Access:</strong> Makes the uploaded file publicly accessible.</li>
-<li><strong>Update Firestore Document:</strong> Updates the report document with the CSV file’s download link and marks the report as complete.</li>
-<li><strong>Error Handling:</strong> Includes try-catch for robust error management.</li>
-</ul>
-<h3 id="conclusion">Conclusion</h3>
-<p>In this tutorial, we’ve demonstrated how to automate the process of converting Firestore documents into a CSV format using Firebase Cloud Functions. This functionality is particularly useful for generating timely reports or exports, streamlining data management tasks without manual intervention.</p>
-<p>Below is a GIF that illustrates how the application behaves once integrated. This visual representation helps to understand the seamless flow from data trigger to CSV generation and retrieval.</p>
-<figure><img src="/images/2024/firebase-cloud-function/firebase-cloud-function-2.gif">
-</figure>
-
-<p>For more detailed code, check out this GitHub repository: <a href="https://github.com/dixitt5/firestore-data-to-excel">https://github.com/dixitt5/firestore-data-to-excel</a></p>
-<p>Happy coding!</p>
+</span></span><span style="display:flex;"><span>obj <span style="color:#f92672">=</span> <span style="color:#66d9ef">MyDynamicClass</span><span style="color:#f92672">.</span>new
+</span></span><span style="display:flex;"><span>obj<span style="color:#f92672">.</span>greet  <span style="color:#75715e"># =&gt; &#34;Hello, world!&#34;</span>
+</span></span></code></pre></div><p>This illustrates how flexible Ruby is—classes can be defined and modified dynamically, allowing for powerful metaprogramming techniques.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Ruby’s “everything is an object” philosophy is more than just a slogan; it’s a core feature of the language that makes it both flexible and consistent. By treating even classes as objects, Ruby opens the door to dynamic class creation, powerful metaprogramming, and a more intuitive approach to object-oriented programming.</p>
+<p>Understanding that everything in Ruby is an object, including classes themselves, can help you unlock the full potential of the language and write more dynamic, flexible code. It’s one of the reasons Ruby is loved by so many developers, especially those who value elegance and simplicity in software design.</p>
+<p>Next time you write a Ruby class, remember: you&rsquo;re not just defining a blueprint for objects; you&rsquo;re working with an object itself!</p>
 </div>
 
 
@@ -985,7 +767,7 @@
 
 <div style="font-size: 80%">
 
-    <a class="resp-sharing-button__link" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fblog.incubyte.co%2fblog%2fusing-firebase-cloud-functions%2f&t=Using%20Firebase%20Cloud%20Functions%3a%20Exporting%20Firestore%20Data%20to%20Excel%20in%20React%20Apps"
+    <a class="resp-sharing-button__link" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fblog.incubyte.co%2fblog%2feverything-is-an-object-in-ruby%2f&t=Everything%20is%20an%20Object%20in%20Ruby%3a%20Even%20Classes"
          target="_blank" rel="noopener" aria-label="Facebook">
         <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
@@ -999,7 +781,7 @@
     </a>
 
     <a class="resp-sharing-button__link"
-         href="https://twitter.com/share?text=Using%20Firebase%20Cloud%20Functions%3a%20Exporting%20Firestore%20Data%20to%20Excel%20in%20React%20Apps&url=https%3a%2f%2fblog.incubyte.co%2fblog%2fusing-firebase-cloud-functions%2f&screen_name=incubyte_co"
+         href="https://twitter.com/share?text=Everything%20is%20an%20Object%20in%20Ruby%3a%20Even%20Classes&url=https%3a%2f%2fblog.incubyte.co%2fblog%2feverything-is-an-object-in-ruby%2f&screen_name=incubyte_co"
          target="_blank" rel="noopener" aria-label="Twitter">
         <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
@@ -1013,7 +795,7 @@
     </a>
 
     <a class="resp-sharing-button__link"
-         href="mailto:?subject=Using%20Firebase%20Cloud%20Functions%3a%20Exporting%20Firestore%20Data%20to%20Excel%20in%20React%20Apps&body=Using%20Firebase%20Cloud%20Functions%3a%20Exporting%20Firestore%20Data%20to%20Excel%20in%20React%20Apps%0a%0a%3cp%3eOne%20day%2c%20one%20of%20my%20team%20members%20gave%20me%20a%20challenge%3a%20we%20needed%20a%20way%20to%20download%20our%20admin%20data%20as%20Excel%20files%20for%20better%20reporting.%20Despite%20searching%2c%20I%20couldn%e2%80%99t%20find%20a%20tutorial%20that%20fit%20our%20needs%20%e2%80%a6%3c%2fp%3e%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fusing-firebase-cloud-functions%2f%0a"
+         href="mailto:?subject=Everything%20is%20an%20Object%20in%20Ruby%3a%20Even%20Classes&body=Everything%20is%20an%20Object%20in%20Ruby%3a%20Even%20Classes%0a%0a%3cp%3eRuby%20is%20a%20pure%20object-oriented%20programming%20language%2c%20and%20one%20of%20the%20key%20features%20that%20sets%20it%20apart%20from%20many%20other%20languages%20is%20its%20philosophy%20that%20everything%20is%20an%20object.%20Whether%20you%26rsquo%3bre%20%e2%80%a6%3c%2fp%3e%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2feverything-is-an-object-in-ruby%2f%0a"
          target="_self" rel="noopener" aria-label="E-Mail">
         <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
@@ -1029,7 +811,7 @@
     </a>
 
     <a class="resp-sharing-button__link"
-         href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fblog.incubyte.co%2fblog%2fusing-firebase-cloud-functions%2f&title=Using%20Firebase%20Cloud%20Functions%3a%20Exporting%20Firestore%20Data%20to%20Excel%20in%20React%20Apps&summary=%253Cp%253EOne%2bday%252C%2bone%2bof%2bmy%2bteam%2bmembers%2bgave%2bme%2ba%2bchallenge%253A%2bwe%2bneeded%2ba%2bway%2bto%2bdownload%2bour%2badmin%2bdata%2bas%2bExcel%2bfiles%2bfor%2bbetter%2breporting.%2bDespite%2bsearching%252C%2bI%2bcouldn%25E2%2580%2599t%2bfind%2ba%2btutorial%2bthat%2bfit%2bour%2bneeds%2b%25E2%2580%25A6%253C%252Fp%253E"
+         href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fblog.incubyte.co%2fblog%2feverything-is-an-object-in-ruby%2f&title=Everything%20is%20an%20Object%20in%20Ruby%3a%20Even%20Classes&summary=%253Cp%253ERuby%2bis%2ba%2bpure%2bobject-oriented%2bprogramming%2blanguage%252C%2band%2bone%2bof%2bthe%2bkey%2bfeatures%2bthat%2bsets%2bit%2bapart%2bfrom%2bmany%2bother%2blanguages%2bis%2bits%2bphilosophy%2bthat%2beverything%2bis%2ban%2bobject.%2bWhether%2byou%2526rsquo%253Bre%2b%25E2%2580%25A6%253C%252Fp%253E"
          target="_blank" rel="noopener" aria-label="LinkedIn">
         <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
@@ -1043,7 +825,7 @@
     </a>
 
     <a class="resp-sharing-button__link"
-         href="https://reddit.com/submit?url=https%3a%2f%2fblog.incubyte.co%2fblog%2fusing-firebase-cloud-functions%2f&title=Using%20Firebase%20Cloud%20Functions%3a%20Exporting%20Firestore%20Data%20to%20Excel%20in%20React%20Apps"
+         href="https://reddit.com/submit?url=https%3a%2f%2fblog.incubyte.co%2fblog%2feverything-is-an-object-in-ruby%2f&title=Everything%20is%20an%20Object%20in%20Ruby%3a%20Even%20Classes"
          target="_blank" rel="noopener" aria-label="Reddit">
         <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
@@ -1063,7 +845,7 @@
     </a>
 
     <a class="resp-sharing-button__link"
-         href="whatsapp://send?text=Using%20Firebase%20Cloud%20Functions%3a%20Exporting%20Firestore%20Data%20to%20Excel%20in%20React%20Apps%0a%0a%3cp%3eOne%20day%2c%20one%20of%20my%20team%20members%20gave%20me%20a%20challenge%3a%20we%20needed%20a%20way%20to%20download%20our%20admin%20data%20as%20Excel%20files%20for%20better%20reporting.%20Despite%20searching%2c%20I%20couldn%e2%80%99t%20find%20a%20tutorial%20that%20fit%20our%20needs%20%e2%80%a6%3c%2fp%3e%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2fusing-firebase-cloud-functions%2f%0a"
+         href="whatsapp://send?text=Everything%20is%20an%20Object%20in%20Ruby%3a%20Even%20Classes%0a%0a%3cp%3eRuby%20is%20a%20pure%20object-oriented%20programming%20language%2c%20and%20one%20of%20the%20key%20features%20that%20sets%20it%20apart%20from%20many%20other%20languages%20is%20its%20philosophy%20that%20everything%20is%20an%20object.%20Whether%20you%26rsquo%3bre%20%e2%80%a6%3c%2fp%3e%0a%0ahttps%3a%2f%2fblog.incubyte.co%2fblog%2feverything-is-an-object-in-ruby%2f%0a"
          target="_blank" rel="noopener" aria-label="WhatsApp">
         <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">

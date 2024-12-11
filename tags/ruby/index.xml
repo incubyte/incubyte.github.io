@@ -17,6 +17,13 @@
       <description>&lt;p&gt;Ever found yourself drowning in a sea of &lt;code&gt;nil&lt;/code&gt; checks? Or perhaps you’ve built a fortress of &lt;code&gt;begin/rescue&lt;/code&gt;&#xA;blocks just to handle potential errors? If you’re nodding along, you’re not alone. Ruby developers often&#xA;find themselves writing defensive code: checking for nil values, handling edge cases, and wrestling with&#xA;error management. It’s like walking on eggshells, constantly fearing what might break.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Everything is an Object in Ruby: Even Classes</title>
+      <link>https://blog.incubyte.co/blog/everything-is-an-object-in-ruby/</link>
+      <pubDate>Wed, 18 Sep 2024 12:41:04 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/everything-is-an-object-in-ruby/</guid>
+      <description>&lt;p&gt;Ruby is a pure object-oriented programming language, and one of the key features that sets it apart from many other languages is its philosophy that everything is an object. Whether you&amp;rsquo;re working with strings, numbers, arrays, or even classes themselves, everything in Ruby is treated as an object. This is a powerful concept that simplifies the language and makes it more consistent and flexible. Let&amp;rsquo;s dive deeper into what this means, especially the idea that even classes are objects in Ruby.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>The Enigma of Ruby Boolean (or the lack thereof)</title>
       <link>https://blog.incubyte.co/blog/ruby-boolean/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>

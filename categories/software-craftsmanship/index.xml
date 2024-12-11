@@ -17,6 +17,13 @@
       <description>&lt;p&gt;In math and science a particular number or value that does not change is called a constant. In programming too, a constant typically represents a value that doesn’t change — a number, string, or any data type that remains the same throughout the application’s runtime. But what if you need to assign a dynamic, changing value to a constant? Can a constant, by its nature, ever be dynamic?&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Everything is an Object in Ruby: Even Classes</title>
+      <link>https://blog.incubyte.co/blog/everything-is-an-object-in-ruby/</link>
+      <pubDate>Wed, 18 Sep 2024 12:41:04 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/everything-is-an-object-in-ruby/</guid>
+      <description>&lt;p&gt;Ruby is a pure object-oriented programming language, and one of the key features that sets it apart from many other languages is its philosophy that everything is an object. Whether you&amp;rsquo;re working with strings, numbers, arrays, or even classes themselves, everything in Ruby is treated as an object. This is a powerful concept that simplifies the language and makes it more consistent and flexible. Let&amp;rsquo;s dive deeper into what this means, especially the idea that even classes are objects in Ruby.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Extreme Ownership: The Catalyst for Achieving Professional Excellence</title>
       <link>https://blog.incubyte.co/blog/extreme-ownership-catalyst-for-achieving-professional-excellence/</link>
       <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
