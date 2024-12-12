@@ -20,9 +20,11 @@ Testing is a crucial part of modern software development, and Jest, combined wit
 In Jest, matchers are methods that enable you to compare the actual output of your code with the expected outcome. These matchers are used within `expect` statements, and they provide a readable way to express test conditions.
 
 Here’s a quick example:
+
 ```javascript
-expect(component.textContent).toBe("Hello, World!");
+expect(component.textContent).toBe('Hello, World!');
 ```
+
 In this case, `toBe` is a matcher that verifies the actual value matches the expected value exactly.
 
 ---
@@ -30,19 +32,23 @@ In this case, `toBe` is a matcher that verifies the actual value matches the exp
 ## Common Categories of Jest Matchers
 
 ### 1. **Basic Matchers**
+
 Basic matchers are used to compare primitive values, such as strings, numbers, or booleans.
 
 Examples:
+
 ```javascript
 expect(2 + 2).toBe(4); // Strict equality
-expect(component.title).toEqual("My Title"); // Deep equality for objects or arrays
+expect(component.title).toEqual('My Title'); // Deep equality for objects or arrays
 expect(array).not.toBeUndefined(); // Negating conditions
 ```
 
 ### 2. **Truthiness Matchers**
+
 These matchers are used to check if a value is truthy or falsy.
 
 Examples:
+
 ```javascript
 expect(value).toBeNull();
 expect(value).toBeDefined();
@@ -51,9 +57,11 @@ expect(value).toBeFalsy();
 ```
 
 ### 3. **Number Matchers**
+
 When working with numbers, you can use specific matchers to assert ranges or comparisons.
 
 Examples:
+
 ```javascript
 expect(value).toBeGreaterThan(10);
 expect(value).toBeGreaterThanOrEqual(10);
@@ -62,54 +70,64 @@ expect(value).toBeCloseTo(0.3, 5); // For floating-point numbers
 ```
 
 ### 4. **String Matchers**
+
 String matchers make it easy to verify string values and patterns.
 
 Examples:
+
 ```javascript
 expect(text).toMatch(/React/); // Regex matching
-expect(text).toContain("Welcome"); // Substring containment
+expect(text).toContain('Welcome'); // Substring containment
 ```
 
 ### 5. **Array and Iterable Matchers**
+
 Jest also provides matchers to test arrays and iterables.
 
 Examples:
+
 ```javascript
-expect(shoppingList).toContain("Milk");
+expect(shoppingList).toContain('Milk');
 expect(users).toHaveLength(3);
-expect(set).toContainEqual({ id: 1, name: "John" });
+expect(set).toContainEqual({id: 1, name: 'John'});
 ```
 
 ### 6. **Object Matchers**
+
 For object comparison, Jest has matchers that allow you to assert the presence or absence of properties.
 
 Examples:
+
 ```javascript
-expect(user).toHaveProperty("name");
-expect(user).toHaveProperty("age", 30);
-expect(user).toMatchObject({ name: "Alice" });
+expect(user).toHaveProperty('name');
+expect(user).toHaveProperty('age', 30);
+expect(user).toMatchObject({name: 'Alice'});
 ```
 
 ### 7. **Mock Function Matchers**
+
 When testing React components or hooks, mock functions are often used to simulate behaviors or track interactions.
 
 Examples:
+
 ```javascript
 const mockCallback = jest.fn();
-mockCallback("arg1", "arg2");
+mockCallback('arg1', 'arg2');
 
 expect(mockCallback).toHaveBeenCalled();
-expect(mockCallback).toHaveBeenCalledWith("arg1", "arg2");
+expect(mockCallback).toHaveBeenCalledWith('arg1', 'arg2');
 expect(mockCallback).toHaveBeenCalledTimes(1);
 ```
 
 ### 8. **Asynchronous Matchers**
+
 React applications often involve asynchronous operations, such as API calls. Jest provides matchers to handle promises.
 
 Examples:
+
 ```javascript
-await expect(fetchData()).resolves.toEqual({ data: "Success" });
-await expect(fetchData()).rejects.toThrow("Error");
+await expect(fetchData()).resolves.toEqual({data: 'Success'});
+await expect(fetchData()).rejects.toThrow('Error');
 ```
 
 ---
@@ -119,20 +137,21 @@ await expect(fetchData()).rejects.toThrow("Error");
 React Testing Library is commonly used with Jest to test React components. Matchers help verify DOM elements, user interactions, and component states.
 
 Examples:
+
 ```javascript
-import { render, screen } from "@testing-library/react";
-import userEvent from "@testing-library/user-event";
-import MyComponent from "./MyComponent";
+import {render, screen} from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import MyComponent from './MyComponent';
 
 // Render the component
 render(<MyComponent />);
 
 // Check if an element exists
-expect(screen.getByText("Hello, React!")).toBeInTheDocument();
+expect(screen.getByText('Hello, React!')).toBeInTheDocument();
 
 // Simulate a user action
-userEvent.click(screen.getByRole("button"));
-expect(screen.getByText("Clicked!")).toBeVisible();
+userEvent.click(screen.getByRole('button'));
+expect(screen.getByText('Clicked!')).toBeVisible();
 ```
 
 The `@testing-library/jest-dom` library extends Jest with custom matchers like `toBeInTheDocument` and `toBeVisible`, making tests more intuitive.
@@ -142,6 +161,7 @@ The `@testing-library/jest-dom` library extends Jest with custom matchers like `
 ## Writing Effective Tests with Matchers
 
 To write effective tests:
+
 1. **Be Specific:** Use the most precise matcher for the condition you're testing.
 2. **Combine Matchers:** Utilize `.not` for negative cases and `.resolves` or `.rejects` for async tests.
 3. **Keep It Readable:** Write assertions that clearly express the intent of your test.
