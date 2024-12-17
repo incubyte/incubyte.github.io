@@ -65,11 +65,11 @@ This is the core of the kata. Solve the problem again and refine your approach e
 
 There are plenty of coding katas available online for all skill levels. Here are a few examples to get you started:
 
-- **FizzBuzz**: A beginner-friendly problem where you print numbers 1-100, replacing multiples of 3 with “Fizz,” multiples of 5 with “Buzz,” and multiples of both with “FizzBuzz.”
-- **The Bowling Game Kata**: A more advanced kata where you write a program that can score a bowling game.
-- **String Calculator Kata**: Write a function that takes a string of numbers separated by commas and returns the sum.
+- [**FizzBuzz**](https://codingdojo.org/kata/FizzBuzz/): A beginner-friendly problem where you print numbers 1-100, replacing multiples of 3 with “Fizz,” multiples of 5 with “Buzz,” and multiples of both with “FizzBuzz.”
+- [**The Bowling Game Kata**](https://kata-log.rocks/bowling-game-kata): A more advanced kata where you write a program that can score a bowling game.
+- [**String Calculator Kata**](https://codingdojo.org/kata/StringCalculator/): Write a function that takes a string of numbers separated by commas and returns the sum.
 
-Sites like [Codewars](https://www.codewars.com/) and [KataCoda](https://www.katacoda.com/) offer a wide range of kata exercises for developers of all levels.
+Sites like [Codewars](https://www.codewars.com/), [Kata Log](https://kata-log.rocks/), [Coding Dojo](https://codingdojo.org/kata/) and [KataCoda](https://www.katacoda.com/) offer a wide range of kata exercises for developers of all levels.
 
 ### **Closing Thoughts: Embrace the Process**
 
