@@ -2,7 +2,7 @@
 title = "Mastering Code Through Katas: A Developer’s Training Ground"
 slug = "mastering-code-through-katas"
 date = 2024-12-17T00:00:00Z
-image = "/images/2023/ruby-generic.png"
+image = "/images/2024/mastering-code-through-katas/header.jpg"
 draft = false
 authors = ["Siya Agarwal"]
 description = ""
