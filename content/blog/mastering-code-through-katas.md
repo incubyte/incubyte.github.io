@@ -70,5 +70,3 @@ Katas aren’t about perfection—they’re about progress. It’s not enough to
 Much like Daniel in *The Karate Kid* mastering his moves through repetition, you too can master clean code by practicing katas. Over time, you’ll find that even the most complex problems become easier to tackle as your coding skills become sharper, faster, and more refined.
  
 So, next time you feel like your coding skills have hit a plateau, try incorporating some katas into your routine. You might find the key to becoming a better developer lies in mastering the basics, one repetition at a time.
-Codewars - Achieve mastery through coding practice and developer mentorship
-A coding practice website for all programming levels – Join a community of over 3 million developers and improve your coding skills in over 55 programming languages!
