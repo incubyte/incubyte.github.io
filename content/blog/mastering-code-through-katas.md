@@ -1,5 +1,16 @@
-## **Mastering Code Through Katas: A Developer’s Training Ground**
- 
++++
+title = "Mastering Code Through Katas: A Developer’s Training Ground"
+slug = "mastering-code-through-katas"
+date = 2024-12-17T00:00:00Z
+image = "/images/2023/ruby-generic.png"
+draft = false
+authors = ["Siya Agarwal"]
+description = ""
+tags = ["Software Craftsmanship"]
+categories = ["Software Craftsmanship"]
+type = ""
++++
+
 If you’ve been around software development for a while, you’ve probably heard the term *kata* thrown around. No, we’re not talking about karate—but the principles are surprisingly similar. In programming, a *kata* is a coding exercise designed to improve your skills through repetition and refinement. But what exactly makes it valuable in software development, and how can it help you become a better programmer?
  
 Let’s dive in.
