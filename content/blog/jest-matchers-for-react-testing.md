@@ -2,7 +2,7 @@
 title = "Exploring Different Types of Matchers in Jest for React Testing"
 slug = "jest-matchers-for-react-testing"
 date = 2024-12-12T16:24:01+05:30
-image = "/images/2024/jest-matchers-for-react-testing/header.svg"
+image = "/images/2024/jest-matchers-for-react-testing/new_header.svg"
 draft = false
 authors = ["Syed Mohd Mehndi"]
 description = "Exploring Different Types of Matchers in Jest for React Testing"
