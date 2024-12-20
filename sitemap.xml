@@ -3,16 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
+    <lastmod>2024-12-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
+    <lastmod>2024-12-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/</loc>
-    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
+    <lastmod>2024-12-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/</loc>
-    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
+    <lastmod>2024-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/mastering-code-through-katas/</loc>
+    <lastmod>2024-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/siya-agarwal/</loc>
+    <lastmod>2024-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
+    <lastmod>2024-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
+    <lastmod>2024-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/</loc>
+    <lastmod>2024-12-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/rails-dynamic-translation-constants/</loc>
     <lastmod>2024-11-04T10:35:08+05:30</lastmod>
@@ -33,15 +48,6 @@
     <lastmod>2024-11-04T10:35:08+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/ruby-on-rails/</loc>
-    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
-    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
-    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/</loc>
     <lastmod>2024-11-04T10:35:08+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/clean-code/</loc>
@@ -99,9 +105,6 @@
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/pair-programming-rethinking-the-role-of-pr-reviews/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/authors/siya-agarwal/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/rdbms/</loc>

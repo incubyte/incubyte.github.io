@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/authors/siya-agarwal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering Code Through Katas: A Developer’s Training Ground</title>
+      <link>https://blog.incubyte.co/blog/mastering-code-through-katas/</link>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/blog/mastering-code-through-katas/</guid>
+      <description>&lt;p&gt;If you’ve been around software development for a while, you’ve probably heard the term &lt;em&gt;kata&lt;/em&gt; thrown around. No, we’re not talking about karate—but the principles are surprisingly similar. In programming, a &lt;em&gt;kata&lt;/em&gt; is a coding exercise designed to improve your skills through repetition and refinement. But what exactly makes it valuable in software development, and how can it help you become a better programmer?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Pair Programming: Rethinking the Role of PR Reviews</title>
       <link>https://blog.incubyte.co/blog/pair-programming-rethinking-the-role-of-pr-reviews/</link>
