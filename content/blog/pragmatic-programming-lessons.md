@@ -48,7 +48,7 @@ The book emphasizes the critical role of continuous learning in the fast-paced w
 
 -   Create a personal knowledge base to store key insights, tools, and resources you encounter. 
 
--   Set aside time regularly for structured learning---whether it's exploring new technologies or revisiting foundational concepts. 
+-   Set aside time regularly for structured learning—whether it's exploring new technologies or revisiting foundational concepts. 
 
 -   Experiment with new programming paradigms and frameworks to expand your perspective and adaptability. 
 
