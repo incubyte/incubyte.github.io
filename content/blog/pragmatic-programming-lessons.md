@@ -1,7 +1,7 @@
 +++
 authors = ["Anita Malhotra"]
 categories = ["Software Craftsmanship"]
-date = 2024-12-30T00:00:00Z
+date = 2025-01-02T00:00:00Z
 description = ""
 draft = false
 image = "/images/2024/pragmatic-programming-lessons/header.jpg"
