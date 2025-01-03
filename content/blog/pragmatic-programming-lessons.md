@@ -1,8 +1,8 @@
 +++
 authors = ["Anita Malhotra"]
-categories = ["Pragmatic Programming", "Software Craftsmanship"]
+categories = ["Book Review", "Pragmatic Programming", "Software Craftsmanship"]
 date = 2025-01-02T00:00:00Z
-description = ""
+description = "The book 'The Pragmatic Programmer' by David Thomas and Andrew Hunt doesn't just teach you how to code; it teaches you how to think like a software craftsperson. It cuts through technological noise to reveal the core principles that truly make software exceptional."
 draft = false
 image = "/images/2024/pragmatic-programming-lessons/header.jpg"
 slug = "code-craft-lessons-from-the-pragmatic-programmer"
