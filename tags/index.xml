@@ -7,12 +7,26 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 17 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book Review</title>
+      <link>https://blog.incubyte.co/tags/book-review/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/tags/book-review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pragmatic Programming</title>
+      <link>https://blog.incubyte.co/tags/pragmatic-programming/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/tags/pragmatic-programming/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Software Craftsmanship</title>
       <link>https://blog.incubyte.co/tags/software-craftsmanship/</link>
-      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/tags/software-craftsmanship/</guid>
       <description></description>
     </item>
@@ -161,13 +175,6 @@
       <link>https://blog.incubyte.co/tags/case-study/</link>
       <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/tags/case-study/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Book Review</title>
-      <link>https://blog.incubyte.co/tags/book-review/</link>
-      <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/tags/book-review/</guid>
       <description></description>
     </item>
     <item>

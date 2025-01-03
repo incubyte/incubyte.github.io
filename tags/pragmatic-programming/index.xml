@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pragmatic Programming on Incubyte Blog</title>
+    <link>https://blog.incubyte.co/tags/pragmatic-programming/</link>
+    <description>Recent content in Pragmatic Programming on Incubyte Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 02 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.incubyte.co/tags/pragmatic-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code Craft: Lessons from the Pragmatic Programmer</title>
+      <link>https://blog.incubyte.co/blog/code-craft-lessons-from-the-pragmatic-programmer/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/blog/code-craft-lessons-from-the-pragmatic-programmer/</guid>
+      <description>&lt;p&gt;I have been working as a professional developer for almost a decade, and after building numerous complex systems and debugging countless issues, I&amp;rsquo;ve realized that the most valuable skill isn&amp;rsquo;t mastering the latest framework or programming language—it&amp;rsquo;s cultivating an adaptable and thoughtful approach to problem-solving.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
