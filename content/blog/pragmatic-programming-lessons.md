@@ -1,12 +1,12 @@
 +++
 authors = ["Anita Malhotra"]
-categories = ["Software Craftsmanship"]
+categories = ["Pragmatic Programming", "Software Craftsmanship"]
 date = 2025-01-02T00:00:00Z
 description = ""
 draft = false
 image = "/images/2024/pragmatic-programming-lessons/header.jpg"
 slug = "code-craft-lessons-from-the-pragmatic-programmer"
-tags = ["Pragmatic Programming", "Software Craftsmanship"]
+tags = ["Book Review", "Pragmatic Programming", "Software Craftsmanship"]
 title = "Code Craft: Lessons from the Pragmatic Programmer"
 +++
 
