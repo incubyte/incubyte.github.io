@@ -85,7 +85,7 @@ Yes, writing tests first might feel slower initially. But it's like stopping to 
 cutting down a tree, the small upfront investment saves much more time in the long run. You catch bugs
 earlier when they are cheaper to fix, you spend less time debugging, and your code stays clean and maintainable.
 
-Remember though, just having a lot of tests isn't enough. These tests need to be clean, readable, and
+Remember though, just having a lot of tests isn't enough. These tests need to be clean, purposeful, and
 well-maintained. They're as much a part of your codebase as your production code, and they deserve the same
 level of care and attention.
 
