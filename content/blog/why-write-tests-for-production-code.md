@@ -95,7 +95,7 @@ What makes a test "clean"? It all comes down to one word: readability. A test sh
 When someone reads your test, they should instantly understand what's being tested and what's expected to
 happen.
 
-Clean tests follow a simple pattern: build, operate, check. First, you set up your test data. Then you do
+Clean tests follow a simple pattern: build, operate, check AKA arrange, act, assert. First, you set up your test data. Then you do
 something with that data. Finally, you verify that what happened matches what you expected. It's like a
 cooking recipe, gather your ingredients, follow the steps, check if the dish turned out right.
 
