@@ -18,7 +18,7 @@ One of the most notable transformations has been in how developers approach test
 The journey from manual, throw-away tests to systematic, automated testing practices reflects a
 deeper understanding of what makes code maintainable and reliable.
 
-Back in the mid-90s, unit tests were often just temporary code snippets used to verify if programs "worked."
+Back in the mid-90s, unit tests were often just temporary code snippets used to verify if programs "worked"
 Developers would create simple driver programs for manual interaction testing. Today, the approach to
 testing has matured considerably, with systematic methodologies like Test-Driven Development (TDD) becoming
 standard practice in professional software development.
