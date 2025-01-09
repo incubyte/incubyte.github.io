@@ -10,7 +10,7 @@ tags = ["Software Craftsmanship", "TDD"]
 title = "A Practical Approach to Test-Driven Development: Beyond Red, Green, Refactor"
 +++
 
-In the previous [blog](https://blog.incubyte.co/blog/mastering-code-through-katas/), I shared a story about Test-Driven Development (TDD) and how it helps us create robust, maintainable software. If you haven’t read it yet, I highly recommend starting there as it introduces the philosophy behind TDD. But today, we’ll dive deeper and focus on the practical application—how to actually apply TDD in real-world development.
+In the previous [blog](https://blog.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/), I shared a story about Test-Driven Development (TDD) and how it helps us create robust, maintainable software. If you haven’t read it yet, I highly recommend starting there as it introduces the philosophy behind TDD. But today, we’ll dive deeper and focus on the practical application—how to actually apply TDD in real-world development.
 
 While the classic "Red, Green, Refactor" mantra is often repeated in TDD discussions, there's a key step I believe is missing: **integration**. So, in this blog, we’ll explore a refined sequence: **Red, Green, Integrate, Refactor, Integrate**. Let's see how these steps build on one another and the significance of micro-commits throughout this process.
 
