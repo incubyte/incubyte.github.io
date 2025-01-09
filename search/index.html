@@ -638,7 +638,7 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "January 2, 2025",
+          "date": "January 9, 2025",
           "url": "https://blog.incubyte.co/"
       },
       
@@ -649,8 +649,107 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "January 2, 2025",
+          "date": "January 9, 2025",
           "url": "https://blog.incubyte.co/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/blog\/a-practical-approach-to-test-driven-development-beyond-red-green-refactor\/": {
+          "title": "A Practical Approach to Test-Driven Development: Beyond Red, Green, Refactor",
+          "tags": ["Software Craftsmanship","TDD",],
+          "authors":["Siya Agarwal",],
+          "summary":"\u003cp\u003eIn the previous \u003ca href=\"https://blog.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/\"\u003eblog\u003c/a\u003e, I shared a story about Test-Driven Development (TDD) and how it helps us create robust, maintainable software. If you haven’t read it yet, I highly recommend starting there as it introduces the philosophy behind TDD. But today, we’ll dive deeper and focus on the practical application—how to actually apply TDD in real-world development.\u003c/p\u003e",
+          "content":"In the previous blog, I shared a story about Test-Driven Development (TDD) and how it helps us create robust, maintainable software. If you haven’t read it yet, I highly recommend starting there as it introduces the philosophy behind TDD. But today, we’ll dive deeper and focus on the practical application—how to actually apply TDD in real-world development.\nWhile the classic \u0026ldquo;Red, Green, Refactor\u0026rdquo; mantra is often repeated in TDD discussions, there\u0026rsquo;s a key step I believe is missing: integration. So, in this blog, we’ll explore a refined sequence: Red, Green, Integrate, Refactor, Integrate. Let\u0026rsquo;s see how these steps build on one another and the significance of micro-commits throughout this process.\nRed: Write a Failing Test The first step is no different than the traditional method. You start by writing a test that defines what you want your code to do. Since the functionality doesn\u0026rsquo;t exist yet, this test will (and should) fail. This is your \u0026ldquo;red\u0026rdquo; phase—a clear signal that work needs to be done.\nExample:\nSuppose you\u0026rsquo;re building a function that calculates discounts for an e-commerce site. You could write a test to ensure that when a customer’s order exceeds $100, a 10% discount is applied.\nit(\u0026#39;should apply a 10% discount when order total is over $100\u0026#39;, () =\u0026gt; { const total = calculateDiscount(150); expect(total).toBe(135); }); This test fails because the calculateDiscount function doesn’t yet exist or doesn\u0026rsquo;t implement the discount logic.\nGreen: Make the Test Pass (Minimum Viable Code) Once you have a failing test, the next step is to write just enough code to make the test pass. At this stage, you’re not concerned with performance, edge cases, or elegant solutions. Your only goal is to turn the test green.\nExample:\nfunction calculateDiscount(amount) { if (amount \u0026gt; 100) return amount * 0.9; return amount; } Integrate: Commit and Push Here’s where the first integration comes in, which is often overlooked in traditional TDD discussions. Once your test is green, commit the code and push it to your shared repository. This isn’t about releasing the code; it’s about sharing the progress incrementally. Why is this crucial? It gives you and your team a checkpoint—a \u0026ldquo;safe state\u0026rdquo; to which you can revert if future changes cause unexpected issues.\nMicro-commits play a key role here. Small, frequent commits help you track progress and make it easier to pinpoint where things might have gone wrong if a bug is introduced. Instead of a massive, intimidating commit with multiple changes, you have smaller, digestible ones.\nRefactor: Clean Up the Code With your test now passing, it\u0026rsquo;s time to refactor. You’ve written the minimal code to pass the test, but it might not be the most elegant or efficient. Refactoring is about improving the structure of your code without changing its behavior. Maybe now you notice an opportunity to reuse code or reduce duplication.\nThis is also a good time to apply naming conventions, remove magic numbers, or even simplify logic.\nExample:\nPerhaps you realize that the 10% discount could be made more flexible. You could refactor the function to accept a discount rate as a parameter:\nfunction calculateDiscount(amount, discount = 0.1) { if (amount \u0026gt; 100) return amount * (1 - discount); return amount; } Integrate Again: Ensure the System Works as a Whole The final step is the second integration. After refactoring, commit your changes and run the full test suite to make sure your improvements haven’t broken other parts of the system. Once again, push the code and merge it into the main branch if all tests pass.\nBy integrating after refactoring, you ensure that your system remains in a functional state throughout the process, and any issues are caught early. This also prevents the dreaded scenario of \u0026ldquo;refactor hell,\u0026rdquo; where you refactor for hours only to discover that everything has broken.\nConclusion By expanding \u0026ldquo;Red, Green, Refactor\u0026rdquo; to include integration steps, we create a more practical approach to TDD that reflects modern software development needs. This refined process isn\u0026rsquo;t just about testing—it\u0026rsquo;s about building confidence in your code, one small step at a time.\nWhile TDD might seem like extra work initially, the peace of mind from having well-tested code and the reduction in bugs make it a worthwhile activity. Start small, be consistent, and you\u0026rsquo;ll find yourself writing more reliable code with fewer surprises in production.\n",
+          "image":"/images/2024/practical-approach-to-tdd/header_img.jpeg",
+          "date": "January 9, 2025",
+          "url": "https://blog.incubyte.co/blog/a-practical-approach-to-test-driven-development-beyond-red-green-refactor/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/": {
+          "title": "Authors",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 9, 2025",
+          "url": "https://blog.incubyte.co/authors/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/": {
+          "title": "Categories",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 9, 2025",
+          "url": "https://blog.incubyte.co/categories/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/siya-agarwal\/": {
+          "title": "Siya Agarwal",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 9, 2025",
+          "url": "https://blog.incubyte.co/authors/siya-agarwal/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/software-craftsmanship\/": {
+          "title": "Software Craftsmanship",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 9, 2025",
+          "url": "https://blog.incubyte.co/tags/software-craftsmanship/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/software-craftsmanship\/": {
+          "title": "Software Craftsmanship",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 9, 2025",
+          "url": "https://blog.incubyte.co/categories/software-craftsmanship/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/": {
+          "title": "Tags",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 9, 2025",
+          "url": "https://blog.incubyte.co/tags/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/tdd\/": {
+          "title": "TDD",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 9, 2025",
+          "url": "https://blog.incubyte.co/tags/tdd/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/tdd\/": {
+          "title": "TDD",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 9, 2025",
+          "url": "https://blog.incubyte.co/categories/tdd/"
       },
       
       "https:\/\/blog.incubyte.co\/authors\/anita-malhotra\/": {
@@ -662,17 +761,6 @@
           "image": null ,
           "date": "January 2, 2025",
           "url": "https://blog.incubyte.co/authors/anita-malhotra/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/authors\/": {
-          "title": "Authors",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "January 2, 2025",
-          "url": "https://blog.incubyte.co/authors/"
       },
       
       "https:\/\/blog.incubyte.co\/tags\/book-review\/": {
@@ -695,17 +783,6 @@
           "image": null ,
           "date": "January 2, 2025",
           "url": "https://blog.incubyte.co/categories/book-review/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/": {
-          "title": "Categories",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "January 2, 2025",
-          "url": "https://blog.incubyte.co/categories/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/code-craft-lessons-from-the-pragmatic-programmer\/": {
@@ -741,39 +818,6 @@
           "url": "https://blog.incubyte.co/categories/pragmatic-programming/"
       },
       
-      "https:\/\/blog.incubyte.co\/tags\/software-craftsmanship\/": {
-          "title": "Software Craftsmanship",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "January 2, 2025",
-          "url": "https://blog.incubyte.co/tags/software-craftsmanship/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/software-craftsmanship\/": {
-          "title": "Software Craftsmanship",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "January 2, 2025",
-          "url": "https://blog.incubyte.co/categories/software-craftsmanship/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/": {
-          "title": "Tags",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "January 2, 2025",
-          "url": "https://blog.incubyte.co/tags/"
-      },
-      
       "https:\/\/blog.incubyte.co\/blog\/mastering-code-through-katas\/": {
           "title": "Mastering Code Through Katas: A Developer’s Training Ground",
           "tags": ["Software Craftsmanship",],
@@ -783,17 +827,6 @@
           "image":"/images/2024/mastering-code-through-katas/header.jpg",
           "date": "December 17, 2024",
           "url": "https://blog.incubyte.co/blog/mastering-code-through-katas/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/authors\/siya-agarwal\/": {
-          "title": "Siya Agarwal",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "December 17, 2024",
-          "url": "https://blog.incubyte.co/authors/siya-agarwal/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/rails-dynamic-translation-constants\/": {
@@ -1135,17 +1168,6 @@
           "image":"/images/2024/understanding_sql_dialects.png",
           "date": "June 26, 2024",
           "url": "https://blog.incubyte.co/blog/understanding-sql-dialects/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/tdd\/": {
-          "title": "TDD",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "June 17, 2024",
-          "url": "https://blog.incubyte.co/tags/tdd/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/the-tale-of-tdd-a-journey-towards-reliable-software\/": {
@@ -1575,17 +1597,6 @@
           "image":"/authors/sutirtha-das/sutirtha.jpg",
           "date": "June 21, 2023",
           "url": "https://blog.incubyte.co/authors/sutirtha-das/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/tdd\/": {
-          "title": "TDD",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "June 21, 2023",
-          "url": "https://blog.incubyte.co/categories/tdd/"
       },
       
       "https:\/\/blog.incubyte.co\/tags\/testing-with-java\/": {

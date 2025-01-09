@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 02 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Practical Approach to Test-Driven Development: Beyond Red, Green, Refactor</title>
+      <link>https://blog.incubyte.co/blog/a-practical-approach-to-test-driven-development-beyond-red-green-refactor/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/blog/a-practical-approach-to-test-driven-development-beyond-red-green-refactor/</guid>
+      <description>&lt;p&gt;In the previous &lt;a href=&#34;https://blog.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/&#34;&gt;blog&lt;/a&gt;, I shared a story about Test-Driven Development (TDD) and how it helps us create robust, maintainable software. If you haven’t read it yet, I highly recommend starting there as it introduces the philosophy behind TDD. But today, we’ll dive deeper and focus on the practical application—how to actually apply TDD in real-world development.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Code Craft: Lessons from the Pragmatic Programmer</title>
       <link>https://blog.incubyte.co/blog/code-craft-lessons-from-the-pragmatic-programmer/</link>
