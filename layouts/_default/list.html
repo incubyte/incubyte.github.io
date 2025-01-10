@@ -11,7 +11,11 @@
             </div>
         </div>
         {{end}}
-        <div class="display-4">Posts</div>
+
+        {{ if not (eq .Section "authors") }}
+            <div class="display-4">Posts</div>
+        {{ end }}
+
         <hr>
         <div class="row">
             {{ range first 1 (where .Data.Pages "Type" "featured") }}
