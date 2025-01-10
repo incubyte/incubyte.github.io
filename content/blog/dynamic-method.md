@@ -17,7 +17,7 @@ In Ruby, the dynamic nature of method dispatch is one of its key features. Metho
 
 ```ruby
 class Number
-  def square(argument) 
+  def square(argument)
     argument ** 2
   end
 
@@ -91,7 +91,7 @@ We can override this method and return what we want to.
 
 ```ruby
 class Book
-  def method_missing(method, args) 
+  def method_missing(method, args)
     "All missing methods return this string"
   end
 end
