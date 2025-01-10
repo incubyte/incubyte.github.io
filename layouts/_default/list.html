@@ -12,7 +12,7 @@
         </div>
         {{end}}
 
-        {{ if not (eq .RelPermalink "/authors/") }}
+        {{ if not (or (eq .RelPermalink "/authors/") (eq .RelPermalink "/tags/")) }}
             <div class="display-4">Posts</div>
         {{ end }}
 
