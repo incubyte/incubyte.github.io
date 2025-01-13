@@ -56,7 +56,7 @@
                         <p class="card-text">{{ .Summary | truncate 120 "..." }} </p>
                         {{ if not (eq .Section "authors") }}
                             <p class="blockquote-footer text-right">
-                                By {{range .Params.authors}}
+                                By {{ range .Params.authors }}
                                 <a href="/authors/{{ . | urlize }}">{{ . }}</a>, {{ end }} on {{
                                 .Date.Format "January 2, 2006"}}
                             </p>
