@@ -25,7 +25,7 @@ Here’s a quick example:
 expect(component.textContent).toBe('Hello, World!');
 ```
 
-In this case, `toBe` is a matcher that verifies the actual value matches the expected value exactly.
+In this case, `toBe` is a matcher that verifies that the actual value exactly matches the expected value.
 
 ---
 
