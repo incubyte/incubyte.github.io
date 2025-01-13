@@ -174,7 +174,7 @@ However, keep in mind the caveats and use refinements judiciously. If your goal 
 
 Ruby Documentation on Refinements
 
-- [Ruby Documentation on Refinements](https://docs.ruby-lang.org/en/2.4.0/syntax/refinements_rdoc.html 'Ruby Documentation on Refinements')
-- [Understanding Monkey-Patching in Ruby](https://blog.incubyte.co/blog/monkey-patch 'Understanding Monkey-Patching in Ruby')
+- [Ruby Documentation on Refinements](https://docs.ruby-lang.org/en/2.4.0/syntax/refinements_rdoc.html)
+- [Understanding Monkey-Patching in Ruby](https://blog.incubyte.co/blog/monkey-patch)
 
 Happy coding!
