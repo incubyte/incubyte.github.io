@@ -132,7 +132,7 @@ puts StringExtensions::Foo.new.bar
 # Output: "World Hello"
 ```
 
-By adding using `StringExtensions` inside the `Foo` class, we explicitly enable the refinement for that scope, and the reverse_words method becomes available.
+By adding using `StringExtensions` inside the `Foo` class, we explicitly enable the refinement for that scope, and the `reverse_words` method becomes available.
 
 #### Key Takeaway
 
