@@ -150,7 +150,7 @@ Even though a refinement is defined within a module, it is not automatically ava
 
 1. **Overriding Third-Party Library Behavior**: If you need to modify the behavior of a third-party library without affecting the rest of your application, refinements allow you to do so safely.
 
-1. **Enhancing Core Classes for Specific Purposes**: When working with Ruby's core classes like String or Array, you may want to add methods that are useful for your domain without affecting how those classes work globally.
+1. **Enhancing Core Classes for Specific Purposes**: When working with Ruby's core classes like `String` or `Array`, you may want to add methods that are useful for your domain without affecting how those classes work globally.
 
 1. **Testing and Prototyping**: Refinements are great for temporarily modifying behavior during testing or prototyping, as the changes can be localized to the test suite or experimental code.
 
