@@ -76,7 +76,7 @@ puts "Hello World from Ruby".reverse_words
 # Output: NoMethodError: undefined method `reverse_words' for "Hello World from Ruby":String
 ```
 
-This code will raise an error because the refinement was not activated globally, and it’s only available within the SentenceManipulator class.
+This code will raise an error because the refinement was not activated globally, and it’s only available within the `SentenceManipulator` class.
 
 ### What Happens When You Use Refinements Inside Their Defining Module?
 
