@@ -17,7 +17,7 @@ Testing is a crucial part of modern software development, and Jest, combined wit
 
 ## What Are Jest Matchers?
 
-In Jest, matchers are methods that enable you to compare the actual output of your code with the expected outcome. These matchers are used within `expect` statements, and they provide a readable way to express test conditions.
+In Jest, matchers are methods that enable you to compare the actual output of your code with the expected outcome. These matchers are chained to `expect` statements, providing a readable way to express test conditions.
 
 Here’s a quick example:
 
