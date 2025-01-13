@@ -39,7 +39,7 @@ With that, let's jump right in!
 4. We encourage you to use the programming language and tools you feel most comfortable with.
    If you are applying for a specific role, you might want to use the language that is most relevant to the role.
 5. Do not rush, take your time. We want to see your best work!
-6. Send us the link to your repo once you’re happy with what you have done.
+6. Send us the link to your repo once you’re happy with what you have done, make sure to include screenshots or any other relevant information.
 
 ## String Calculator TDD Kata
 
