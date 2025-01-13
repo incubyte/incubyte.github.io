@@ -63,9 +63,9 @@ A method can be defined using `define_method` at the run time.
 ```ruby
 class Number
   define_component(method_name, argument, power)
-	define_method(method_name) do |argument, power|
+    define_method(method_name) do |argument, power|
       argument ** power
-	end
+    end
   end
 end
 number = Number.new
