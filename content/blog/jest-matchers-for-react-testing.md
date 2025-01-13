@@ -139,7 +139,7 @@ React Testing Library is commonly used with Jest to test React components. Match
 Examples:
 
 ```javascript
-import {render, screen} from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import MyComponent from './MyComponent';
 
