@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jest on Incubyte Blog</title>
+    <link>https://blog.incubyte.co/categories/jest/</link>
+    <description>Recent content in Jest on Incubyte Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 13 Jan 2025 16:24:01 +0530</lastBuildDate>
+    <atom:link href="https://blog.incubyte.co/categories/jest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring Different Types of Matchers in Jest for React Testing</title>
+      <link>https://blog.incubyte.co/blog/jest-matchers-for-react-testing/</link>
+      <pubDate>Mon, 13 Jan 2025 16:24:01 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/jest-matchers-for-react-testing/</guid>
+      <description>&lt;p&gt;Testing is a crucial part of modern software development, and Jest, combined with React Testing Library, has become a popular choice for testing React applications. One of Jest’s most powerful features is its extensive collection of matchers, which allow you to make assertions about your code in a clear and concise manner. In this blog, we&amp;rsquo;ll explore the various types of matchers available in Jest and how they can be leveraged to write robust tests for React applications.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

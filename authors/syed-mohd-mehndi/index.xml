@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 18 Sep 2024 12:41:04 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2025 16:24:01 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/authors/syed-mohd-mehndi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring Different Types of Matchers in Jest for React Testing</title>
+      <link>https://blog.incubyte.co/blog/jest-matchers-for-react-testing/</link>
+      <pubDate>Mon, 13 Jan 2025 16:24:01 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/jest-matchers-for-react-testing/</guid>
+      <description>&lt;p&gt;Testing is a crucial part of modern software development, and Jest, combined with React Testing Library, has become a popular choice for testing React applications. One of Jest’s most powerful features is its extensive collection of matchers, which allow you to make assertions about your code in a clear and concise manner. In this blog, we&amp;rsquo;ll explore the various types of matchers available in Jest and how they can be leveraged to write robust tests for React applications.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Everything is an Object in Ruby: Even Classes</title>
       <link>https://blog.incubyte.co/blog/everything-is-an-object-in-ruby/</link>

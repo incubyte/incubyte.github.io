@@ -14,7 +14,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.140.2">
+<meta name="generator" content="Hugo 0.141.0">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -653,17 +653,6 @@
           "url": "https://blog.incubyte.co/"
       },
       
-      "https:\/\/blog.incubyte.co\/blog\/a-practical-approach-to-test-driven-development-beyond-red-green-refactor\/": {
-          "title": "A Practical Approach to Test-Driven Development: Beyond Red, Green, Refactor",
-          "tags": ["Software Craftsmanship","TDD",],
-          "authors":["Siya Agarwal",],
-          "summary":"\u003cp\u003eIn the previous \u003ca href=\"https://blog.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/\"\u003eblog\u003c/a\u003e, I shared a story about Test-Driven Development (TDD) and how it helps us create robust, maintainable software. If you haven’t read it yet, I highly recommend starting there as it introduces the philosophy behind TDD. But today, we’ll dive deeper and focus on the practical application—how to actually apply TDD in real-world development.\u003c/p\u003e",
-          "content":"In the previous blog, I shared a story about Test-Driven Development (TDD) and how it helps us create robust, maintainable software. If you haven’t read it yet, I highly recommend starting there as it introduces the philosophy behind TDD. But today, we’ll dive deeper and focus on the practical application—how to actually apply TDD in real-world development.\nWhile the classic \u0026ldquo;Red, Green, Refactor\u0026rdquo; mantra is often repeated in TDD discussions, there\u0026rsquo;s a key step I believe is missing: integration. So, in this blog, we’ll explore a refined sequence: Red, Green, Integrate, Refactor, Integrate. Let\u0026rsquo;s see how these steps build on one another and the significance of micro-commits throughout this process.\nRed: Write a Failing Test The first step is no different than the traditional method. You start by writing a test that defines what you want your code to do. Since the functionality doesn\u0026rsquo;t exist yet, this test will (and should) fail. This is your \u0026ldquo;red\u0026rdquo; phase—a clear signal that work needs to be done.\nExample:\nSuppose you\u0026rsquo;re building a function that calculates discounts for an e-commerce site. You could write a test to ensure that when a customer’s order exceeds $100, a 10% discount is applied.\nit(\u0026#39;should apply a 10% discount when order total is over $100\u0026#39;, () =\u0026gt; { const total = calculateDiscount(150); expect(total).toBe(135); }); This test fails because the calculateDiscount function doesn’t yet exist or doesn\u0026rsquo;t implement the discount logic.\nGreen: Make the Test Pass (Minimum Viable Code) Once you have a failing test, the next step is to write just enough code to make the test pass. At this stage, you’re not concerned with performance, edge cases, or elegant solutions. Your only goal is to turn the test green.\nExample:\nfunction calculateDiscount(amount) { if (amount \u0026gt; 100) return amount * 0.9; return amount; } Integrate: Commit and Push Here’s where the first integration comes in, which is often overlooked in traditional TDD discussions. Once your test is green, commit the code and push it to your shared repository. This isn’t about releasing the code; it’s about sharing the progress incrementally. Why is this crucial? It gives you and your team a checkpoint—a \u0026ldquo;safe state\u0026rdquo; to which you can revert if future changes cause unexpected issues.\nMicro-commits play a key role here. Small, frequent commits help you track progress and make it easier to pinpoint where things might have gone wrong if a bug is introduced. Instead of a massive, intimidating commit with multiple changes, you have smaller, digestible ones.\nRefactor: Clean Up the Code With your test now passing, it\u0026rsquo;s time to refactor. You’ve written the minimal code to pass the test, but it might not be the most elegant or efficient. Refactoring is about improving the structure of your code without changing its behavior. Maybe now you notice an opportunity to reuse code or reduce duplication.\nThis is also a good time to apply naming conventions, remove magic numbers, or even simplify logic.\nExample:\nPerhaps you realize that the 10% discount could be made more flexible. You could refactor the function to accept a discount rate as a parameter:\nfunction calculateDiscount(amount, discount = 0.1) { if (amount \u0026gt; 100) return amount * (1 - discount); return amount; } Integrate Again: Ensure the System Works as a Whole The final step is the second integration. After refactoring, commit your changes and run the full test suite to make sure your improvements haven’t broken other parts of the system. Once again, push the code and merge it into the main branch if all tests pass.\nBy integrating after refactoring, you ensure that your system remains in a functional state throughout the process, and any issues are caught early. This also prevents the dreaded scenario of \u0026ldquo;refactor hell,\u0026rdquo; where you refactor for hours only to discover that everything has broken.\nConclusion By expanding \u0026ldquo;Red, Green, Refactor\u0026rdquo; to include integration steps, we create a more practical approach to TDD that reflects modern software development needs. This refined process isn\u0026rsquo;t just about testing—it\u0026rsquo;s about building confidence in your code, one small step at a time.\nWhile TDD might seem like extra work initially, the peace of mind from having well-tested code and the reduction in bugs make it a worthwhile activity. Start small, be consistent, and you\u0026rsquo;ll find yourself writing more reliable code with fewer surprises in production.\n",
-          "image":"/images/2024/practical-approach-to-tdd/header_img.jpeg",
-          "date": "January 9, 2025",
-          "url": "https://blog.incubyte.co/blog/a-practical-approach-to-test-driven-development-beyond-red-green-refactor/"
-      },
-      
       "https:\/\/blog.incubyte.co\/authors\/": {
           "title": "Authors",
           "tags": [],
@@ -671,7 +660,7 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "January 9, 2025",
+          "date": "January 13, 2025",
           "url": "https://blog.incubyte.co/authors/"
       },
       
@@ -682,8 +671,118 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "January 9, 2025",
+          "date": "January 13, 2025",
           "url": "https://blog.incubyte.co/categories/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/blog\/jest-matchers-for-react-testing\/": {
+          "title": "Exploring Different Types of Matchers in Jest for React Testing",
+          "tags": ["React","Jest","Testing",],
+          "authors":["Syed Mohd Mehndi",],
+          "summary":"\u003cp\u003eTesting is a crucial part of modern software development, and Jest, combined with React Testing Library, has become a popular choice for testing React applications. One of Jest’s most powerful features is its extensive collection of matchers, which allow you to make assertions about your code in a clear and concise manner. In this blog, we\u0026rsquo;ll explore the various types of matchers available in Jest and how they can be leveraged to write robust tests for React applications.\u003c/p\u003e",
+          "content":"Testing is a crucial part of modern software development, and Jest, combined with React Testing Library, has become a popular choice for testing React applications. One of Jest’s most powerful features is its extensive collection of matchers, which allow you to make assertions about your code in a clear and concise manner. In this blog, we\u0026rsquo;ll explore the various types of matchers available in Jest and how they can be leveraged to write robust tests for React applications.\nWhat Are Jest Matchers? In Jest, matchers are methods that enable you to compare the actual output of your code with the expected outcome. These matchers are chained to expect statements, providing a readable way to express test conditions.\nHere’s a quick example:\nexpect(component.textContent).toBe(\u0026#39;Hello, World!\u0026#39;); In this case, toBe is a matcher that verifies that the actual value exactly matches the expected value.\nCommon Categories of Jest Matchers 1. Basic Matchers Basic matchers are used to compare primitive values, such as strings, numbers, or booleans.\nExamples:\nexpect(2 + 2).toBe(4); // Strict equality expect(component.title).toEqual(\u0026#39;My Title\u0026#39;); // Deep equality for objects or arrays expect(array).not.toBeUndefined(); // Negating conditions 2. Truthiness Matchers These matchers are used to check if a value is truthy or falsy.\nExamples:\nexpect(value).toBeNull(); expect(value).toBeDefined(); expect(value).toBeTruthy(); expect(value).toBeFalsy(); 3. Number Matchers When working with numbers, you can use specific matchers to assert ranges or comparisons.\nExamples:\nexpect(value).toBeGreaterThan(10); expect(value).toBeGreaterThanOrEqual(10); expect(value).toBeLessThan(20); expect(value).toBeCloseTo(0.3, 5); // For floating-point numbers 4. String Matchers String matchers make it easy to verify string values and patterns.\nExamples:\nexpect(text).toMatch(/React/); // Regex matching expect(text).toContain(\u0026#39;Welcome\u0026#39;); // Substring containment 5. Array and Iterable Matchers Jest also provides matchers to test arrays and iterables.\nExamples:\nexpect(shoppingList).toContain(\u0026#39;Milk\u0026#39;); expect(users).toHaveLength(3); expect(set).toContainEqual({id: 1, name: \u0026#39;John\u0026#39;}); 6. Object Matchers For object comparison, Jest has matchers that allow you to assert the presence or absence of properties.\nExamples:\nexpect(user).toHaveProperty(\u0026#39;name\u0026#39;); expect(user).toHaveProperty(\u0026#39;age\u0026#39;, 30); expect(user).toMatchObject({name: \u0026#39;Alice\u0026#39;}); 7. Mock Function Matchers When testing React components or hooks, mock functions are often used to simulate behaviors or track interactions.\nExamples:\nconst mockCallback = jest.fn(); mockCallback(\u0026#39;arg1\u0026#39;, \u0026#39;arg2\u0026#39;); expect(mockCallback).toHaveBeenCalled(); expect(mockCallback).toHaveBeenCalledWith(\u0026#39;arg1\u0026#39;, \u0026#39;arg2\u0026#39;); expect(mockCallback).toHaveBeenCalledTimes(1); 8. Asynchronous Matchers React applications often involve asynchronous operations, such as API calls. Jest provides matchers to handle promises.\nExamples:\nawait expect(fetchData()).resolves.toEqual({data: \u0026#39;Success\u0026#39;}); await expect(fetchData()).rejects.toThrow(\u0026#39;Error\u0026#39;); Using Matchers with React Testing Library React Testing Library is commonly used with Jest to test React components. Matchers help verify DOM elements, user interactions, and component states.\nExamples:\nimport {render, screen} from \u0026#39;@testing-library/react\u0026#39;; import userEvent from \u0026#39;@testing-library/user-event\u0026#39;; import MyComponent from \u0026#39;./MyComponent\u0026#39;; // Render the component render(\u0026lt;MyComponent /\u0026gt;); // Check if an element exists expect(screen.getByText(\u0026#39;Hello, React!\u0026#39;)).toBeInTheDocument(); // Simulate a user action userEvent.click(screen.getByRole(\u0026#39;button\u0026#39;)); expect(screen.getByText(\u0026#39;Clicked!\u0026#39;)).toBeVisible(); The @testing-library/jest-dom library extends Jest with custom matchers like toBeInTheDocument and toBeVisible, making tests more intuitive.\nWriting Effective Tests with Matchers To write effective tests:\nBe Specific: Use the most precise matcher for the condition you\u0026rsquo;re testing. Combine Matchers: Utilize .not for negative cases and .resolves or .rejects for async tests. Keep It Readable: Write assertions that clearly express the intent of your test. Conclusion Jest’s extensive library of matchers makes it a powerful tool for testing React applications. From simple equality checks to complex object comparisons and asynchronous operations, these matchers provide everything you need to ensure your components behave as expected. By mastering these matchers and combining them with React Testing Library, you can create tests that are both reliable and maintainable.\nHappy testing!\n",
+          "image":"/images/2024/jest-matchers-for-react-testing/header.jpg",
+          "date": "January 13, 2025",
+          "url": "https://blog.incubyte.co/blog/jest-matchers-for-react-testing/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/jest\/": {
+          "title": "Jest",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 13, 2025",
+          "url": "https://blog.incubyte.co/tags/jest/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/jest\/": {
+          "title": "Jest",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 13, 2025",
+          "url": "https://blog.incubyte.co/categories/jest/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/react\/": {
+          "title": "React",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 13, 2025",
+          "url": "https://blog.incubyte.co/tags/react/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/react\/": {
+          "title": "React",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 13, 2025",
+          "url": "https://blog.incubyte.co/categories/react/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/syed-mohd-mehndi\/": {
+          "title": "Syed Mohd Mehndi",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 13, 2025",
+          "url": "https://blog.incubyte.co/authors/syed-mohd-mehndi/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/": {
+          "title": "Tags",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 13, 2025",
+          "url": "https://blog.incubyte.co/tags/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/testing\/": {
+          "title": "Testing",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 13, 2025",
+          "url": "https://blog.incubyte.co/tags/testing/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/testing\/": {
+          "title": "Testing",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 13, 2025",
+          "url": "https://blog.incubyte.co/categories/testing/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/blog\/a-practical-approach-to-test-driven-development-beyond-red-green-refactor\/": {
+          "title": "A Practical Approach to Test-Driven Development: Beyond Red, Green, Refactor",
+          "tags": ["Software Craftsmanship","TDD",],
+          "authors":["Siya Agarwal",],
+          "summary":"\u003cp\u003eIn the previous \u003ca href=\"https://blog.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/\"\u003eblog\u003c/a\u003e, I shared a story about Test-Driven Development (TDD) and how it helps us create robust, maintainable software. If you haven’t read it yet, I highly recommend starting there as it introduces the philosophy behind TDD. But today, we’ll dive deeper and focus on the practical application—how to actually apply TDD in real-world development.\u003c/p\u003e",
+          "content":"In the previous blog, I shared a story about Test-Driven Development (TDD) and how it helps us create robust, maintainable software. If you haven’t read it yet, I highly recommend starting there as it introduces the philosophy behind TDD. But today, we’ll dive deeper and focus on the practical application—how to actually apply TDD in real-world development.\nWhile the classic \u0026ldquo;Red, Green, Refactor\u0026rdquo; mantra is often repeated in TDD discussions, there\u0026rsquo;s a key step I believe is missing: integration. So, in this blog, we’ll explore a refined sequence: Red, Green, Integrate, Refactor, Integrate. Let\u0026rsquo;s see how these steps build on one another and the significance of micro-commits throughout this process.\nRed: Write a Failing Test The first step is no different than the traditional method. You start by writing a test that defines what you want your code to do. Since the functionality doesn\u0026rsquo;t exist yet, this test will (and should) fail. This is your \u0026ldquo;red\u0026rdquo; phase—a clear signal that work needs to be done.\nExample:\nSuppose you\u0026rsquo;re building a function that calculates discounts for an e-commerce site. You could write a test to ensure that when a customer’s order exceeds $100, a 10% discount is applied.\nit(\u0026#39;should apply a 10% discount when order total is over $100\u0026#39;, () =\u0026gt; { const total = calculateDiscount(150); expect(total).toBe(135); }); This test fails because the calculateDiscount function doesn’t yet exist or doesn\u0026rsquo;t implement the discount logic.\nGreen: Make the Test Pass (Minimum Viable Code) Once you have a failing test, the next step is to write just enough code to make the test pass. At this stage, you’re not concerned with performance, edge cases, or elegant solutions. Your only goal is to turn the test green.\nExample:\nfunction calculateDiscount(amount) { if (amount \u0026gt; 100) return amount * 0.9; return amount; } Integrate: Commit and Push Here’s where the first integration comes in, which is often overlooked in traditional TDD discussions. Once your test is green, commit the code and push it to your shared repository. This isn’t about releasing the code; it’s about sharing the progress incrementally. Why is this crucial? It gives you and your team a checkpoint—a \u0026ldquo;safe state\u0026rdquo; to which you can revert if future changes cause unexpected issues.\nMicro-commits play a key role here. Small, frequent commits help you track progress and make it easier to pinpoint where things might have gone wrong if a bug is introduced. Instead of a massive, intimidating commit with multiple changes, you have smaller, digestible ones.\nRefactor: Clean Up the Code With your test now passing, it\u0026rsquo;s time to refactor. You’ve written the minimal code to pass the test, but it might not be the most elegant or efficient. Refactoring is about improving the structure of your code without changing its behavior. Maybe now you notice an opportunity to reuse code or reduce duplication.\nThis is also a good time to apply naming conventions, remove magic numbers, or even simplify logic.\nExample:\nPerhaps you realize that the 10% discount could be made more flexible. You could refactor the function to accept a discount rate as a parameter:\nfunction calculateDiscount(amount, discount = 0.1) { if (amount \u0026gt; 100) return amount * (1 - discount); return amount; } Integrate Again: Ensure the System Works as a Whole The final step is the second integration. After refactoring, commit your changes and run the full test suite to make sure your improvements haven’t broken other parts of the system. Once again, push the code and merge it into the main branch if all tests pass.\nBy integrating after refactoring, you ensure that your system remains in a functional state throughout the process, and any issues are caught early. This also prevents the dreaded scenario of \u0026ldquo;refactor hell,\u0026rdquo; where you refactor for hours only to discover that everything has broken.\nConclusion By expanding \u0026ldquo;Red, Green, Refactor\u0026rdquo; to include integration steps, we create a more practical approach to TDD that reflects modern software development needs. This refined process isn\u0026rsquo;t just about testing—it\u0026rsquo;s about building confidence in your code, one small step at a time.\nWhile TDD might seem like extra work initially, the peace of mind from having well-tested code and the reduction in bugs make it a worthwhile activity. Start small, be consistent, and you\u0026rsquo;ll find yourself writing more reliable code with fewer surprises in production.\n",
+          "image":"/images/2024/practical-approach-to-tdd/header_img.jpeg",
+          "date": "January 9, 2025",
+          "url": "https://blog.incubyte.co/blog/a-practical-approach-to-test-driven-development-beyond-red-green-refactor/"
       },
       
       "https:\/\/blog.incubyte.co\/authors\/siya-agarwal\/": {
@@ -717,17 +816,6 @@
           "image": null ,
           "date": "January 9, 2025",
           "url": "https://blog.incubyte.co/categories/software-craftsmanship/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/": {
-          "title": "Tags",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "January 9, 2025",
-          "url": "https://blog.incubyte.co/tags/"
       },
       
       "https:\/\/blog.incubyte.co\/tags\/tdd\/": {
@@ -983,17 +1071,6 @@
           "url": "https://blog.incubyte.co/blog/everything-is-an-object-in-ruby/"
       },
       
-      "https:\/\/blog.incubyte.co\/authors\/syed-mohd-mehndi\/": {
-          "title": "Syed Mohd Mehndi",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "September 18, 2024",
-          "url": "https://blog.incubyte.co/authors/syed-mohd-mehndi/"
-      },
-      
       "https:\/\/blog.incubyte.co\/blog\/extreme-ownership-catalyst-for-achieving-professional-excellence\/": {
           "title": "Extreme Ownership: The Catalyst for Achieving Professional Excellence",
           "tags": ["Playbook","Software Craftsmanship",],
@@ -1025,28 +1102,6 @@
           "image":"/authors/deepak-sisodiya/deepaksisodiya.jpg",
           "date": "September 5, 2024",
           "url": "https://blog.incubyte.co/authors/deepak-sisodiya/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/react\/": {
-          "title": "React",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "September 5, 2024",
-          "url": "https://blog.incubyte.co/tags/react/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/react\/": {
-          "title": "React",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "September 5, 2024",
-          "url": "https://blog.incubyte.co/categories/react/"
       },
       
       "https:\/\/blog.incubyte.co\/tags\/solid-principles\/": {
@@ -2132,7 +2187,7 @@
           "tags": ["Careers","Software Craftsmanship","TDD",],
           "authors":["Abhishek Keshri",],
           "summary":"\u003cp\u003eHello there and welcome to the Incubyte TDD Kata!\u003c/p\u003e\n\u003cp\u003eThis assessment is the first step in our recruiting process and will be followed by two pair programming/discussion sessions.\u003c/p\u003e",
-          "content":"Hello there and welcome to the Incubyte TDD Kata!\nThis assessment is the first step in our recruiting process and will be followed by two pair programming/discussion sessions.\nWhat we’re looking for A Software Craftsperson at Incubyte is a person who has a strong commitment to the craft of software development. Someone who is passionate about software, knows their tools well, and is able to use them effectively to create carefully crafted software. Ultimately, a person who has a strong sense of what they are doing and is self-motivated to learn and grow.\nTDD is a core practice for all of us at Incubyte. We strongly believe that well-written software is a lot more valuable for the business and end users, as compared to software that is hacked together (but works!).\nThrough this assessment, we want to evaluate how readable and testable your code is. We want to see the Software Craftsperson in you.\nAs software developers, searching the internet is something of a necessity and is a vital tool for being effective problem solvers. We encourage you to Google away! You can also visit our inspiration page to find some useful talks and references that will help you sail through this assessment.\nWith that, let\u0026rsquo;s jump right in!\nThings to keep in mind Host your solution on a public GitHub/GitLab repository. Follow best practices for TDD. Watch this video to understand TDD better. Commit your changes frequently, ideally after every change to show how your code evolves with every step of TDD. We encourage you to use the programming language and tools you feel most comfortable with. If you are applying for a specific role, you might want to use the language that is most relevant to the role. Do not rush, take your time. We want to see your best work! Send us the link to your repo once you’re happy with what you have done, make sure to include screenshots or any other relevant information. String Calculator TDD Kata Tips: Start with the simplest test case of an empty string and move to one and two numbers. Remember to solve problems in a simple manner so that you force yourself to write tests you did not think about. Remember to refactor after each passing test. Steps: Create a simple String calculator with a method signature like this:\nint add(string numbers) Input: a string of comma-separated numbers Output: an integer, sum of the numbers Examples:\nInput: \u0026ldquo;\u0026rdquo;, Output: 0 Input: \u0026ldquo;1\u0026rdquo;, Output: 1 Input: \u0026ldquo;1,5\u0026rdquo;, Output: 6 Allow the add method to handle any amount of numbers.\nAllow the add method to handle new lines between numbers (instead of commas). (\u0026quot;1\\n2,3\u0026quot; should return 6)\nSupport different delimiters:\nTo change the delimiter, the beginning of the string will contain a separate line that looks like this: \u0026quot;//[delimiter]\\n[numbers…]\u0026quot;. For example, \u0026quot;//;\\n1;2\u0026quot; where the delimiter is \u0026quot;;\u0026quot; should return 3. Calling add with a negative number will throw an exception: \u0026quot;negative numbers not allowed \u0026lt;negative_number\u0026gt;\u0026quot;.\nIf there are multiple negative numbers, show all of them in the exception message, separated by commas. Want more? Check out TDD Kata 1 for the full version. Extra points for completing all the steps!\nHave questions? Feel free to ask us anything! We are here to help.\n",
+          "content":"Hello there and welcome to the Incubyte TDD Kata!\nThis assessment is the first step in our recruiting process and will be followed by two pair programming/discussion sessions.\nWhat we’re looking for A Software Craftsperson at Incubyte is a person who has a strong commitment to the craft of software development. Someone who is passionate about software, knows their tools well, and is able to use them effectively to create carefully crafted software. Ultimately, a person who has a strong sense of what they are doing and is self-motivated to learn and grow.\nTDD is a core practice for all of us at Incubyte. We strongly believe that well-written software is a lot more valuable for the business and end users, as compared to software that is hacked together (but works!).\nThrough this assessment, we want to evaluate how readable and testable your code is. We want to see the Software Craftsperson in you.\nAs software developers, searching the internet is something of a necessity and is a vital tool for being effective problem solvers. We encourage you to Google away! You can also visit our inspiration page to find some useful talks and references that will help you sail through this assessment.\nWith that, let\u0026rsquo;s jump right in!\nThings to keep in mind Host your solution on a public GitHub/GitLab repository. Follow best practices for TDD. Watch this video to understand TDD better. Commit your changes frequently, ideally after every change to show how your code evolves with every step of TDD. We encourage you to use the programming language and tools best suited for the role you are applying for. Do not rush, take your time. We want to see your best work! Send us the link to your repo once you’re happy with what you have done, make sure to include screenshots and other relevant information. String Calculator TDD Kata Tips: Start with the simplest test case of an empty string and move to one and two numbers. Remember to solve problems in a simple manner so that you force yourself to write tests you did not think about. Remember to refactor after each passing test. Steps: Create a simple String calculator with a method signature like this:\nint add(string numbers) Input: a string of comma-separated numbers Output: an integer, sum of the numbers Examples:\nInput: \u0026ldquo;\u0026rdquo;, Output: 0 Input: \u0026ldquo;1\u0026rdquo;, Output: 1 Input: \u0026ldquo;1,5\u0026rdquo;, Output: 6 Allow the add method to handle any amount of numbers.\nAllow the add method to handle new lines between numbers (instead of commas). (\u0026quot;1\\n2,3\u0026quot; should return 6)\nSupport different delimiters:\nTo change the delimiter, the beginning of the string will contain a separate line that looks like this: \u0026quot;//[delimiter]\\n[numbers…]\u0026quot;. For example, \u0026quot;//;\\n1;2\u0026quot; where the delimiter is \u0026quot;;\u0026quot; should return 3. Calling add with a negative number will throw an exception: \u0026quot;negative numbers not allowed \u0026lt;negative_number\u0026gt;\u0026quot;.\nIf there are multiple negative numbers, show all of them in the exception message, separated by commas. Want more? Check out TDD Kata 1 for the full version. Extra points for completing all the steps!\nHave questions? Feel free to ask us anything! We are here to help.\n",
           "image":"/images/2021/09/laptop-plant.jpg",
           "date": "September 21, 2021",
           "url": "https://blog.incubyte.co/blog/tdd-assessment/"

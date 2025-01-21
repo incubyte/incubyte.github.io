@@ -8,13 +8,40 @@
     <loc>https://blog.incubyte.co/</loc>
     <lastmod>2025-01-13T16:24:01+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/blog/a-practical-approach-to-test-driven-development-beyond-red-green-refactor/</loc>
-    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/authors/</loc>
-    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-13T16:24:01+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/</loc>
+    <lastmod>2025-01-13T16:24:01+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/jest-matchers-for-react-testing/</loc>
+    <lastmod>2025-01-13T16:24:01+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/jest/</loc>
+    <lastmod>2025-01-13T16:24:01+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/jest/</loc>
+    <lastmod>2025-01-13T16:24:01+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/react/</loc>
+    <lastmod>2025-01-13T16:24:01+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/react/</loc>
+    <lastmod>2025-01-13T16:24:01+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/syed-mohd-mehndi/</loc>
+    <lastmod>2025-01-13T16:24:01+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/</loc>
+    <lastmod>2025-01-13T16:24:01+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/testing/</loc>
+    <lastmod>2025-01-13T16:24:01+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/testing/</loc>
+    <lastmod>2025-01-13T16:24:01+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/a-practical-approach-to-test-driven-development-beyond-red-green-refactor/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/siya-agarwal/</loc>
@@ -24,9 +51,6 @@
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
-    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/tdd/</loc>
@@ -98,9 +122,6 @@
     <loc>https://blog.incubyte.co/blog/everything-is-an-object-in-ruby/</loc>
     <lastmod>2024-09-18T12:41:04+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/authors/syed-mohd-mehndi/</loc>
-    <lastmod>2024-09-18T12:41:04+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/blog/extreme-ownership-catalyst-for-achieving-professional-excellence/</loc>
     <lastmod>2024-09-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -108,12 +129,6 @@
     <lastmod>2024-09-06T11:00:14+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/deepak-sisodiya/</loc>
-    <lastmod>2024-09-05T13:48:15+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/react/</loc>
-    <lastmod>2024-09-05T13:48:15+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/react/</loc>
     <lastmod>2024-09-05T13:48:15+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/solid-principles/</loc>
