@@ -92,6 +92,14 @@ public class TeeingExample {
 ```shell
 Cheapest Product: Headphones, Highest Rated Product: Smartphone
 ```
+### Performance Insights
+To showcase the efficiency of the teeing operator, I tested it with a dataset of **1,000,000 products**. The results were compelling:
+- The teeing operation completed in *41.8399 ms*, whereas the two-stream approach took *61.0872 ms*.
+- This demonstrates that teeing is not only more elegant but also faster, thanks to its ability to process the stream in a single traversal.
+
+It’s worth noting that performance can vary across systems due to factors like hardware, JVM optimizations, and runtime conditions. However, the teeing operator consistently shows better results, making it a great choice for scenarios involving large datasets.
+
+For the full benchmark code and detailed setup, check out the [GitHub repository](https://github.com/AshPrajapati/Teeing-Performance-Demo/blob/main/src/main/java/teeingdemo/TeeingPerformanceExample.java).
 
 ### Why Does This Matter?
 
@@ -107,4 +115,4 @@ So, when should you use teeing? Well, here are a few cases where it shines:
 
 So, next time you're looking to process data in a stream and find that you need two different results, don’t fall into the trap of writing multiple loops. Use teeing to get it all done in one! It's a small trick that can make your code more elegant, faster, and easier to maintain. Give it a try!
 
-This example is inspired by concepts from _Functional Programming in Java, 2nd Edition by Venkat Subramaniam_, where these powerful stream techniques are explored in detail. If you're diving into Java Streams, this book is a treasure trove of insights that will level up your functional programming skills!
+This example is inspired by concepts from [_Functional Programming in Java, 2nd Edition by Venkat Subramaniam_](https://pragprog.com/titles/vsjava2e/functional-programming-in-java-second-edition/#:~:text=flatMapping%20and%20filtering-,Teeing%20Operations,-Wrapping%20Up), where these powerful stream techniques are explored in detail. If you're diving into Java Streams, this book is a treasure trove of insights that will level up your functional programming skills!
