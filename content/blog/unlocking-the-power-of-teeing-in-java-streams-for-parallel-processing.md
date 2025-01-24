@@ -92,9 +92,12 @@ public class TeeingExample {
 ```shell
 Cheapest Product: Headphones, Highest Rated Product: Smartphone
 ```
+
 ### Performance Insights
+
 To showcase the efficiency of the teeing operator, I tested it with a dataset of **1,000,000 products**. The results were compelling:
-- The teeing operation completed in *41.8399 ms*, whereas the two-stream approach took *61.0872 ms*.
+
+- The teeing operation completed in _41.8399 ms_, whereas the two-stream approach took _61.0872 ms_.
 - This demonstrates that teeing is not only more elegant but also faster, thanks to its ability to process the stream in a single traversal.
 
 It’s worth noting that performance can vary across systems due to factors like hardware, JVM optimizations, and runtime conditions. However, the teeing operator consistently shows better results, making it a great choice for scenarios involving large datasets.
