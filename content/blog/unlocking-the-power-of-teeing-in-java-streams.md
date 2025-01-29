@@ -2,7 +2,7 @@
 title = "Unlocking the Power of teeing in Java Streams for Parallel Processing"
 slug = "unlocking-the-power-of-teeing-in-java-streams"
 date = 2025-01-23T11:01:28+05:30
-image = "/images/2025/unlocking-the-power-of-teeing-in-java-streams/header.jpeg"
+image = "/images/2025/unlocking-the-power-of-teeing-in-java-streams/new_header.jpg"
 draft = false
 authors = ["Aayush Prajapati"]
 description = ""
