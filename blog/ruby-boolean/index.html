@@ -15,7 +15,7 @@
 
 
 <meta name="author" content="[Utsav Parmar]">
-<meta name="generator" content="Hugo 0.141.0">
+<meta name="generator" content="Hugo 0.143.1">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -711,8 +711,7 @@ this resolves the issue.</p>
 <blockquote>
 <p><strong>What is the point of 0 or 1 or any number to be accepted for a boolean parameter if everything is going to be
 evaluated to <code>true</code>?</strong><br>
-Why is only <code>true</code> and <code>false</code> actually <code>true</code> and <code>false</code> respectively?</p>
-</blockquote>
+Why is only <code>true</code> and <code>false</code> actually <code>true</code> and <code>false</code> respectively?</p></blockquote>
 <p>In other higher languages such as Python, <code>0</code> is treated as <code>False</code> and <code>1</code> as <code>True</code> because <code>bool</code> is a subclass
 of <code>int</code>. So it&rsquo;s not that the integers are evaluated to boolean values but integers have the boolean value.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#66d9ef">False</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>
@@ -733,8 +732,7 @@ of <code>int</code>. So it&rsquo;s not that the integers are evaluated to boolea
 </span></span><span style="display:flex;"><span><span style="color:#f92672">=&gt;</span> <span style="color:#f92672">[</span><span style="color:#66d9ef">FalseClass</span>, <span style="color:#66d9ef">Object</span>, <span style="color:#66d9ef">PP</span><span style="color:#f92672">::</span><span style="color:#66d9ef">ObjectMixin</span>, <span style="color:#66d9ef">Kernel</span>, <span style="color:#66d9ef">BasicObject</span><span style="color:#f92672">]</span>
 </span></span></code></pre></div><p>Not only there is no <code>Boolean</code> class but <code>true</code> and <code>false</code> have their own classes!?</p>
 <blockquote>
-<p>Don&rsquo;t <code>true</code> and <code>false</code> have so much in common? It should make sense to keep them under the same class.</p>
-</blockquote>
+<p>Don&rsquo;t <code>true</code> and <code>false</code> have so much in common? It should make sense to keep them under the same class.</p></blockquote>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>irb<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">.</span>methods<span style="color:#f92672">.</span>count
 </span></span><span style="display:flex;"><span><span style="color:#ae81ff">59</span>
 </span></span><span style="display:flex;"><span>irb<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">.</span>methods<span style="color:#f92672">.</span>count
@@ -750,8 +748,7 @@ of <code>int</code>. So it&rsquo;s not that the integers are evaluated to boolea
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Most definitely</span>
 </span></span></code></pre></div><!-- prettier-ignore -->
 <blockquote>
-<p>They only have three methods precisely in common with each other (╭ರ_•́)</p>
-</blockquote>
+<p>They only have three methods precisely in common with each other (╭ರ_•́)</p></blockquote>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>irb<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">true</span> <span style="color:#f92672">&amp;</span> <span style="color:#66d9ef">true</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">true</span>
 </span></span><span style="display:flex;"><span>irb<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">false</span> <span style="color:#f92672">&amp;</span> <span style="color:#66d9ef">false</span>
@@ -776,8 +773,7 @@ no common class for <code>true</code> and <code>false</code> in Ruby.</p>
 <code>nil</code> value means nothing, nada, devoid of everything. If there is nothing, then you don&rsquo;t do anything and so, it is
 treated as <code>false</code>.</p>
 <blockquote>
-<p>But why not 0 then?</p>
-</blockquote>
+<p>But why not 0 then?</p></blockquote>
 <p>Because 0 represents something. Similarly, empty arrays, strings, and hashes are simply empty and not nothing. That is
 why, except for false and nil, everything is truthy in Ruby.</p>
 <p>Remember that this is Ruby, one of the most dynamic languages. There is no boolean because <code>TrueClass</code> and <code>FalseClass</code>

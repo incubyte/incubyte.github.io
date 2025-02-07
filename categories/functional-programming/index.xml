@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Functional Programming on Incubyte Blog</title>
+    <link>https://blog.incubyte.co/categories/functional-programming/</link>
+    <description>Recent content in Functional Programming on Incubyte Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 23 Jan 2025 11:01:28 +0530</lastBuildDate>
+    <atom:link href="https://blog.incubyte.co/categories/functional-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlocking the Power of teeing in Java Streams for Parallel Processing</title>
+      <link>https://blog.incubyte.co/blog/unlocking-the-power-of-teeing-in-java-streams/</link>
+      <pubDate>Thu, 23 Jan 2025 11:01:28 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/unlocking-the-power-of-teeing-in-java-streams/</guid>
+      <description>&lt;p&gt;Have you ever found yourself in a situation where you need to perform two operations on the same stream of data, but you don’t want to iterate through the data twice? Maybe you’re thinking, “&lt;em&gt;I’ll need to loop over the collection once for this calculation, and again for that calculation.&lt;/em&gt;” That sounds like extra work, right?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

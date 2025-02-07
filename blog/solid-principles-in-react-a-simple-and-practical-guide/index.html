@@ -15,7 +15,7 @@
 
 
 <meta name="author" content="[Deepak Sisodiya]">
-<meta name="generator" content="Hugo 0.141.0">
+<meta name="generator" content="Hugo 0.143.1">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -691,8 +691,7 @@
 <p>In this article, we’ll break down each principle in simple terms, followed by practical React examples. By the end, you’ll have a clear understanding of how to apply SOLID principles to improve your React applications.</p>
 <h3 id="ssingle-responsibility-principle-srp">S — Single Responsibility Principle (SRP)</h3>
 <blockquote>
-<p><strong>Simple Definition:</strong> A component should do only one thing and have one reason to change.</p>
-</blockquote>
+<p><strong>Simple Definition:</strong> A component should do only one thing and have one reason to change.</p></blockquote>
 <p>This is probably the easiest of the SOLID principles to grasp. In React, SRP means that each component should focus on a single responsibility or functionality. If your component is doing multiple things (e.g., rendering UI and managing API calls), it’s time to split it up.</p>
 <p>SRP is crucial because it makes your components easier to understand, maintain, and test. When a component does only one thing, you can isolate issues and change its behavior without affecting other parts of the code.</p>
 <p><strong>Example:</strong> Imagine a component that fetches and displays user data.</p>
@@ -731,8 +730,7 @@
 </span></span></code></pre></div><p>Now, the data-fetching logic is moved into a custom hook, leaving the <code>UserProfile</code> component with the sole responsibility of rendering UI.</p>
 <h3 id="oopenclosed-principle-ocp">O — Open/Closed Principle (OCP)</h3>
 <blockquote>
-<p><strong>Simple Definition:</strong> Your components should be open for extension but closed for modification.</p>
-</blockquote>
+<p><strong>Simple Definition:</strong> Your components should be open for extension but closed for modification.</p></blockquote>
 <p>In React, this means we should be able to extend the behavior of a component without modifying its original code. Instead of editing a component directly, we can extend its functionality by passing props, using higher-order components (HOCs), or using composition.</p>
 <p>Think of using an npm package, like <code>react-router-dom</code>, to manage routing in your React app. Instead of modifying the source code of the package, you extend its behavior by using its API. This is the perfect example of the Open/Closed Principle in practice.</p>
 <p><strong>Example:</strong></p>
@@ -757,8 +755,7 @@
 </span></span></code></pre></div><p>Now, we can extend the button functionality by creating new components (<code>PrimaryButton</code> or <code>DangerButton</code>) without modifying the original <code>Button</code> component.</p>
 <h3 id="lliskov-substitution-principle-lsp">L — Liskov Substitution Principle (LSP)</h3>
 <blockquote>
-<p><strong>Simple Definition:</strong> Components should be replaceable by their subcomponents without breaking the app.</p>
-</blockquote>
+<p><strong>Simple Definition:</strong> Components should be replaceable by their subcomponents without breaking the app.</p></blockquote>
 <p>In React, this principle means that a component should be replaceable by another component that extends its behavior, without changing the expected functionality.</p>
 <p>Here are some <strong>real-world examples</strong> in React to make the LSP clearer.</p>
 <p><strong>Example 1: Button Component</strong></p>
@@ -818,8 +815,7 @@
 <p>By following the Liskov Substitution Principle, your components will be more reusable, predictable, and easier to maintain. When you substitute one component with another, you can trust that it will work as expected, allowing for cleaner and more scalable code.</p>
 <h3 id="iinterface-segregation-principle-isp">I — Interface Segregation Principle (ISP)</h3>
 <blockquote>
-<p><strong>Simple Definition:</strong> Don’t force your components to depend on things they don’t need.</p>
-</blockquote>
+<p><strong>Simple Definition:</strong> Don’t force your components to depend on things they don’t need.</p></blockquote>
 <p>In React, this means you should create specific and focused components, passing only the necessary props. If your component has too many responsibilities or props that it doesn’t fully utilize, it’s violating ISP.</p>
 <p>The focus of ISP is on <strong>splitting responsibilities</strong> in interfaces or components so that a consumer only depends on the parts it needs. It prevents the creation of large, bloated interfaces or components that do too much.</p>
 <p>ISP might involve breaking down a single large component that handles user data, settings, and notifications into three smaller, more specific components (<code>UserInfo</code>, <code>UserSettings</code>, and <code>UserNotifications</code>). This way, each component only depends on the data and props it requires.</p>
@@ -861,8 +857,7 @@
 </span></span></code></pre></div><p>By segregating the interface (in this case, the props), the <code>Dashboard</code> component is simpler, more maintainable, and only handles what it needs.</p>
 <h3 id="ddependency-inversion-principle-dip">D — Dependency Inversion Principle (DIP)</h3>
 <blockquote>
-<p><strong>Simple Definition:</strong> High-level components should depend on abstractions (such as hooks or contexts) rather than concrete implementations (like API calls).</p>
-</blockquote>
+<p><strong>Simple Definition:</strong> High-level components should depend on abstractions (such as hooks or contexts) rather than concrete implementations (like API calls).</p></blockquote>
 <p>DIP in React means that components should rely on abstractions (like hooks, contexts, or services) instead of tightly coupling themselves to specific implementations, like API calls or local state management.</p>
 <p>DIP focuses on <strong>how dependencies are managed</strong>. High-level components should not directly depend on the details of how their dependencies work. Instead, they should depend on abstractions (such as contexts, services, or hooks) that can later be provided by different concrete implementations.</p>
 <p>DIP might involve providing an abstract data-fetching service via React’s Context API so that a component like <code>UserProfile</code> depends on a <code>useUserData</code> hook rather than directly making a fetch call. This allows the <code>UserProfile</code> component to work independently of the implementation of the data-fetching logic.</p>

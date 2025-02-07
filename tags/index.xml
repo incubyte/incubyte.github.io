@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 13 Jan 2025 16:24:01 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jan 2025 11:01:28 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Functional Programming</title>
+      <link>https://blog.incubyte.co/tags/functional-programming/</link>
+      <pubDate>Thu, 23 Jan 2025 11:01:28 +0530</pubDate>
+      <guid>https://blog.incubyte.co/tags/functional-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>https://blog.incubyte.co/tags/java/</link>
+      <pubDate>Thu, 23 Jan 2025 11:01:28 +0530</pubDate>
+      <guid>https://blog.incubyte.co/tags/java/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Jest</title>
       <link>https://blog.incubyte.co/tags/jest/</link>

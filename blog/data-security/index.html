@@ -15,7 +15,7 @@
 
 
 <meta name="author" content="[Rupali Pardeshi]">
-<meta name="generator" content="Hugo 0.141.0">
+<meta name="generator" content="Hugo 0.143.1">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -690,72 +690,59 @@
 <p>SQL Injections are the most common method of data attacks. The main cause which leads to such attacks is having SQL queries directly concatenated with data provided by users in the database.</p>
 <p>Let&rsquo;s see some examples of SQL injections with concatenation</p>
 <blockquote>
-<p>executeQuery(“SELECT ∗ FROM users WHERE email = ‘&quot; + emailAddress + &ldquo;‘“);</p>
-</blockquote>
+<p>executeQuery(“SELECT ∗ FROM users WHERE email = ‘&quot; + emailAddress + &ldquo;‘“);</p></blockquote>
 <p>Ideally, when we write the above query, we want the user to enter the email address say “abe@xyz.gov”. This is a threat and thus the wrong way of implementation as the user can enter another user&rsquo;s email and get all the data. What will happen if a malicious user did not enter an email address, but instead typed:</p>
 <blockquote>
-<p>‘ OR email != ‘</p>
-</blockquote>
+<p>‘ OR email != ‘</p></blockquote>
 <p>As we are using string concatenation our SQL query will become:</p>
 <blockquote>
-<p>SELECT ∗ FROM users WHERE email = ’‘ OR Email != ‘’</p>
-</blockquote>
+<p>SELECT ∗ FROM users WHERE email = ’‘ OR Email != ‘’</p></blockquote>
 <p>The WHERE clause in this statement is a tautology (a statement that is true by definition). This means the email address is either equal to the empty string or not equal to the empty string. We do not have to know which email addresses that are present in the table and the query will return every row in the table.</p>
 <p>Similarly, the malicious user can join data together from multiple tables, insert data, modify data, and delete data.</p>
 <p>If the user enters &ldquo;FALSE; DROP TABLE&rdquo; users. Our query after concatenation will result in a table deletion query. The entire <em>users</em> table will be deleted!</p>
 <blockquote>
-<p>SELECT ∗ FROM users WHERE email = FALSE; DROP TABLE users</p>
-</blockquote>
+<p>SELECT ∗ FROM users WHERE email = FALSE; DROP TABLE users</p></blockquote>
 <h3 id="how-to-prevent-sql-injections">How to prevent SQL Injections?</h3>
 <h4 id="1-prepared-statements">1. Prepared Statements</h4>
 <p>Most instances of SQL injection can be prevented by using parameterized queries (also known as prepared statements) instead of string concatenation within the query. Prepared statements create a template for a query that establishes an immutable grammar.</p>
 <blockquote>
-<p>PreparedStatement stmt = con.prepareStatement (“SELECT * FROM table WHERE id = ?”;); stmt.setInt(1, data);</p>
-</blockquote>
+<p>PreparedStatement stmt = con.prepareStatement (“SELECT * FROM table WHERE id = ?”;); stmt.setInt(1, data);</p></blockquote>
 <p>The <strong>?</strong> is used as the placeholder and value is added by various set<type> functions. Java provides type-specific binding functions for data such as setString() or setInt(). These functions help sanity check the data received from the user</p>
 <p>The power of this approach is that the SQL and the data are always kept separate. If an attacker inserts a long string, that will result in the database rejecting it because it was expecting an integer.</p>
 <p>The grammar of the above expression will always be <em>email=something</em> and the SELECT statement will return records only where the email column <strong>exactly matches</strong> the value of the parameter provided to the statements. The query below will try to search email with value * and will not return all the rows.</p>
 <blockquote>
-<p>statement.setInt(1, &ldquo;*&rdquo;)</p>
-</blockquote>
+<p>statement.setInt(1, &ldquo;*&rdquo;)</p></blockquote>
 <p>This holds true even when the data contain SQL commands such as the following examples:</p>
 <blockquote>
-<p>statement.setInt(1, &ldquo;1 OR TRUE UNION SELECT name,password FROM employee&rdquo;);statement.setInt(1, &ldquo;FALSE; DROP TABLE users&rdquo;);</p>
-</blockquote>
+<p>statement.setInt(1, &ldquo;1 OR TRUE UNION SELECT name,password FROM employee&rdquo;);statement.setInt(1, &ldquo;FALSE; DROP TABLE users&rdquo;);</p></blockquote>
 <p>Prepared Statements can save us from the attacks specified above, But it doesn&rsquo;t mean the prepared statements will change the result set. Consider the code that changes the email comparison from an equality test (=) as in the previous examples to a LIKE statement that would support wildcard matches.</p>
 <blockquote>
-<p>statement = con.prepareStatement(&ldquo;SELECT email FROM employee WHERE email LIKE ?&rdquo;) statement.setString(1, &ldquo;%@%&rdquo;)</p>
-</blockquote>
+<p>statement = con.prepareStatement(&ldquo;SELECT email FROM employee WHERE email LIKE ?&rdquo;) statement.setString(1, &ldquo;%@%&rdquo;)</p></blockquote>
 <p>This will return all the email addresses as all the emails contain @.</p>
 <p>This attack is possible as the &lsquo;<strong>like&rsquo;</strong> statement supports wildcards and hence special characters like the asterisk (*), percent symbol (%), underscore (_), and question mark (?) can be inserted into a bound parameter resulting in undesirable effects.</p>
 <p>There are some characters that need to be escaped even if we are using PreparedStatements. SQL wildcards such as ([ and ]), (%), (_), (*) have an effect when part of parameters. We must escape these wildcards Unless a query explicitly matches multiple values based on wildcards.‍</p>
 <h4 id="2-jap-hibernate--orm">2. JAP/ Hibernate / ORM</h4>
 <p>JPA or ORM do not <strong>prevent us from writing vulnerable code.</strong> Let’s consider the example below</p>
 <blockquote>
-<p>TypedQuery<User> query = em.createQuery( &ldquo;SELECT * FROM User WHERE userid= &lsquo;&rdquo; + userId+ &ldquo;&rsquo;&rdquo;, User.class); User user= query.getSingleResult();</p>
-</blockquote>
+<p>TypedQuery<User> query = em.createQuery( &ldquo;SELECT * FROM User WHERE userid= &lsquo;&rdquo; + userId+ &ldquo;&rsquo;&rdquo;, User.class); User user= query.getSingleResult();</p></blockquote>
 <p>All the vulnerabilities specified above are persistent in this Query. To avoid them we may write parameterized queries Similar to JDBC PreparedStatement, either by using Positional parameters or named Parameters</p>
 <p>‍<strong>Positional parameters</strong></p>
 <blockquote>
-<p>@Query(&ldquo;SELECT u FROM User u WHERE u.id = ?1 and u.name = ?2&rdquo;) User findUserByIdAndName(Integer id, String name);</p>
-</blockquote>
+<p>@Query(&ldquo;SELECT u FROM User u WHERE u.id = ?1 and u.name = ?2&rdquo;) User findUserByIdAndName(Integer id, String name);</p></blockquote>
 <p>Named parameters&gt; @Query(&ldquo;SELECT u FROM User u WHERE u.id = :id and u.name = :name&rdquo;) User findUserByIdAndName(@Param(&ldquo;status&rdquo;) Integer id, @Param(&ldquo;name&rdquo;) String name);</p>
 <h4 id="3-stored-procedures">3. Stored Procedures</h4>
 <p>Stored Procedures are SQL statements stored in the database rather than in the application code. Like prepared statements, Stored Procedures can also populate the queries with user-supplied data.</p>
 <p>They have to be securely written to avoid SQL Injections.</p>
 <blockquote>
-<p>CREATE PROCEDURE bad_proc @name varchar(256) BEGIN EXEC (&lsquo;SELECT COUNT(*) FROM users WHERE name LIKE &ldquo;&rsquo; + @name + &lsquo;&rdquo;&rsquo;) END</p>
-</blockquote>
+<p>CREATE PROCEDURE bad_proc @name varchar(256) BEGIN EXEC (&lsquo;SELECT COUNT(*) FROM users WHERE name LIKE &ldquo;&rsquo; + @name + &lsquo;&rdquo;&rsquo;) END</p></blockquote>
 <p>We can write the above Stored Procedures securely as below</p>
 <blockquote>
-<p>CREATE PROCEDURE bad_proc @name varchar(256) BEGIN EXEC (&lsquo;SELECT COUNT(*) FROM users WHERE name LIKE @name&rsquo;) END</p>
-</blockquote>
+<p>CREATE PROCEDURE bad_proc @name varchar(256) BEGIN EXEC (&lsquo;SELECT COUNT(*) FROM users WHERE name LIKE @name&rsquo;) END</p></blockquote>
 <h4 id="some-more-database-safeguards">Some more database safeguards:</h4>
 <p>The user in context.xml or in properties file must have only the DML privilege. The user can execute only select, insert, update and delete statements on the tables in that particular schema, and hence restricting the malicious user to drop or create tables or delete databases in case of such attacks</p>
 <p>The following command will grant DML privilege to a PostgreSQL user:</p>
 <blockquote>
-<p>GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA schema_name TO username;</p>
-</blockquote>
+<p>GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA schema_name TO username;</p></blockquote>
 <p>In the case where you need to execute DDL(Data Definition Language) query, like create or drop the table, then do the following:</p>
 <ol>
 <li>Your most used DB user(the one stored in properties or context.xml file) must have only rights to execute DML queries. Let&rsquo;s call this user &lsquo;dmlOnlyUser&rsquo; 2. Create a new elevated user with DDL privilege. Let&rsquo;s call this user &lsquo;ddlUser&rsquo;. Store the ddlUsers credentials in the database. 3. In order to run DDL statements, access the Database, retrieve the &lsquo;ddlUser&rsquo; user&rsquo;s credentials, and then create a new connection using those credentials. Then run the DDL and release the connection right away.</li>

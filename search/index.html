@@ -14,7 +14,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.141.0">
+<meta name="generator" content="Hugo 0.143.1">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -638,7 +638,7 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "January 13, 2025",
+          "date": "January 23, 2025",
           "url": "https://blog.incubyte.co/"
       },
       
@@ -649,8 +649,19 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "January 13, 2025",
+          "date": "January 23, 2025",
           "url": "https://blog.incubyte.co/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/aayush-prajapati\/": {
+          "title": "Aayush Prajapati",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 23, 2025",
+          "url": "https://blog.incubyte.co/authors/aayush-prajapati/"
       },
       
       "https:\/\/blog.incubyte.co\/authors\/": {
@@ -660,7 +671,7 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "January 13, 2025",
+          "date": "January 23, 2025",
           "url": "https://blog.incubyte.co/authors/"
       },
       
@@ -671,8 +682,74 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "January 13, 2025",
+          "date": "January 23, 2025",
           "url": "https://blog.incubyte.co/categories/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/functional-programming\/": {
+          "title": "Functional Programming",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 23, 2025",
+          "url": "https://blog.incubyte.co/tags/functional-programming/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/functional-programming\/": {
+          "title": "Functional Programming",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 23, 2025",
+          "url": "https://blog.incubyte.co/categories/functional-programming/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/java\/": {
+          "title": "Java",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 23, 2025",
+          "url": "https://blog.incubyte.co/tags/java/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/java\/": {
+          "title": "Java",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 23, 2025",
+          "url": "https://blog.incubyte.co/categories/java/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/": {
+          "title": "Tags",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "January 23, 2025",
+          "url": "https://blog.incubyte.co/tags/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/blog\/unlocking-the-power-of-teeing-in-java-streams\/": {
+          "title": "Unlocking the Power of teeing in Java Streams for Parallel Processing",
+          "tags": ["Java","Functional Programming",],
+          "authors":["Aayush Prajapati",],
+          "summary":"\u003cp\u003eHave you ever found yourself in a situation where you need to perform two operations on the same stream of data, but you don’t want to iterate through the data twice? Maybe you’re thinking, “\u003cem\u003eI’ll need to loop over the collection once for this calculation, and again for that calculation.\u003c/em\u003e” That sounds like extra work, right?\u003c/p\u003e",
+          "content":"Have you ever found yourself in a situation where you need to perform two operations on the same stream of data, but you don’t want to iterate through the data twice? Maybe you’re thinking, “I’ll need to loop over the collection once for this calculation, and again for that calculation.” That sounds like extra work, right?\nWell, Java has a stream operation that can make your life a whole lot easier: teeing.\nBut what exactly is the teeing operator, and how does it work? Let\u0026rsquo;s dive in!\nWhat Does the teeing Operator Do? At its core, teeing is about doing two things at once.\nThe teeing operation allows you to apply two independent operations to the data in the same stream. After performing these operations, it combines the results into a single final result. This means you don\u0026rsquo;t need to iterate over the collection twice. Cool, right?\nHere’s the trick: the teeing function in Java Streams accepts three parameters:\nFirst Collector: This performs the first operation (e.g., finding the smallest value). Second Collector: This performs the second operation (e.g., finding the largest value). Merger Function: After both operations, this combines the results into a final object. You can think of it like a Y-shaped fork in a stream: the data splits, does two different tasks, and then comes back together.\nLet\u0026rsquo;s Put It to Work: Finding the Cheapest and Highest Rated Products Let’s say we have a list of products. Each product has a price and a rating. We want to find:\nThe product with the lowest price. The product with the highest rating. And we want to do it in one pass through the data. How do we do that? import java.util.Comparator; import java.util.List; import java.util.stream.Collectors; public class TeeingExample { public static void main(String[] args) { List\u0026lt;Product\u0026gt; products = List.of( new Product(\u0026#34;Laptop\u0026#34;, 1200, 4.5), new Product(\u0026#34;Smartphone\u0026#34;, 1000, 4.9), new Product(\u0026#34;Tablet\u0026#34;, 300, 4.0), new Product(\u0026#34;Headphones\u0026#34;, 150, 4.8), new Product(\u0026#34;Monitor\u0026#34;, 350, 4.3) ); var result = products.stream() .collect( Collectors.teeing( Collectors.minBy(Comparator.comparingDouble(Product::price)), Collectors.maxBy(Comparator.comparingDouble(Product::rating)), (minPrice, maxRating) -\u0026gt; new ProductInsights( minPrice.map(Product::name).orElse(\u0026#34;\u0026#34;), maxRating.map(Product::name).orElse(\u0026#34;\u0026#34;) ) ) ); System.out.println(result); } record Product(String name, double price, double rating) {} record ProductInsights(String cheapestProduct, String highestRatedProduct) { @Override public String toString() { return \u0026#34;Cheapest Product: \u0026#34; + cheapestProduct + \u0026#34;, Highest Rated Product: \u0026#34; + highestRatedProduct; } } } What\u0026rsquo;s Happening Here? First Collector: We use Collectors.minBy() to find the product with the lowest price. Second Collector: We use Collectors.maxBy() to find the product with the highest rating. Merger Function: The (minPrice, maxRating) -\u0026gt; new ProductInsights(\u0026hellip;) function combines the results into a single ProductInsights object that holds the names of the cheapest and highest-rated products. Output:\nCheapest Product: Headphones, Highest Rated Product: Smartphone Performance Insights To showcase the efficiency of the teeing operator, I tested it with a dataset of 1,000,000 products. The results were compelling:\nThe teeing operation completed in 41.8399 ms, whereas the two-stream approach took 61.0872 ms. This demonstrates that teeing is not only more elegant but also faster, thanks to its ability to process the stream in a single traversal. It’s worth noting that performance can vary across systems due to factors like hardware, JVM optimizations, and runtime conditions. However, the teeing operator consistently shows better results, making it a great choice for scenarios involving large datasets.\nFor the full benchmark code and detailed setup, check out the GitHub repository.\nWhy Does This Matter? Think about this: we only had to go through the list of products once! No need to do one loop for the cheapest product and another for the highest rated product. The teeing operation lets us combine both tasks into a single, efficient pass through the data. This not only makes your code cleaner but also faster.\nReal-World Benefits of Using teeing So, when should you use teeing? Well, here are a few cases where it shines:\nPerforming multiple independent calculations: Want to find the lowest price and the highest rating in a list? Use teeing! Avoiding multiple iterations: If you\u0026rsquo;re doing similar calculations that need separate results, teeing lets you combine them without looping twice. Cleaner and more efficient code: The operation is concise and keeps your code from being unnecessarily verbose. So, next time you\u0026rsquo;re looking to process data in a stream and find that you need two different results, don’t fall into the trap of writing multiple loops. Use teeing to get it all done in one! It\u0026rsquo;s a small trick that can make your code more elegant, faster, and easier to maintain. Give it a try!\nThis example is inspired by concepts from Functional Programming in Java, 2nd Edition by Venkat Subramaniam, where these powerful stream techniques are explored in detail. If you\u0026rsquo;re diving into Java Streams, this book is a treasure trove of insights that will level up your functional programming skills!\n",
+          "image":"/images/2025/unlocking-the-power-of-teeing-in-java-streams/header.jpg",
+          "date": "January 23, 2025",
+          "url": "https://blog.incubyte.co/blog/unlocking-the-power-of-teeing-in-java-streams/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/jest-matchers-for-react-testing\/": {
@@ -739,17 +816,6 @@
           "image": null ,
           "date": "January 13, 2025",
           "url": "https://blog.incubyte.co/authors/syed-mohd-mehndi/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/": {
-          "title": "Tags",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "January 13, 2025",
-          "url": "https://blog.incubyte.co/tags/"
       },
       
       "https:\/\/blog.incubyte.co\/tags\/testing\/": {
