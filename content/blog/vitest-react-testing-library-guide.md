@@ -361,7 +361,6 @@ global.fetch = vi.fn();
 
 describe('UserData Component', () => {
   beforeEach(() => {
-    // Clear all mocks before each test
     vi.clearAllMocks();
   });
 
@@ -378,13 +377,9 @@ describe('UserData Component', () => {
 
     render(<UserData userId={1} />);
 
-    // Initially shows loading
     expect(screen.getByText(/loading/i)).toBeInTheDocument();
-
-    // Wait for loading to disappear
     await waitForElementToBeRemoved(() => screen.queryByText(/loading/i));
 
-    // Check if user data is displayed
     expect(screen.getByText('John Doe')).toBeInTheDocument();
     expect(screen.getByText(/email: john@example.com/i)).toBeInTheDocument();
     expect(screen.getByText(/phone: 555-1234/i)).toBeInTheDocument();
@@ -398,10 +393,8 @@ describe('UserData Component', () => {
 
     render(<UserData userId={1} />);
 
-    // Wait for loading to disappear
     await waitForElementToBeRemoved(() => screen.queryByText(/loading/i));
 
-    // Check if error message is displayed
     expect(
       screen.getByText(/error: failed to fetch user/i)
     ).toBeInTheDocument();
