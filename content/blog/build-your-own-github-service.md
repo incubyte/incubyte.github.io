@@ -11,21 +11,13 @@ categories = ["Git", "GitHub", "EC2", "AWS"]
 type = ""
 +++
 
-Yes, you read that right!
+We can create our own remote repository service by setting up and hosting it on our own server. It works just like popular services such as GitHub or Bitbucket but with the **added benefit of complete control over access and hosting**.
 
-We can create our own remote repository service by setting up and hosting to our own server. It works just like popular services such as GitHub or Bitbucket, but with the **added benefit of complete control over access and hosting**.
+The remote repository is often referred as a **bare repository**.
 
-Imagine hosting our own remote repository on our server and giving access only to specific members of team.
+So, what exactly is a bare repository? How does it differ from a local one? Can we use the same Git commands to interact with it?
 
-Isn’t that interesting? Well, it’s absolutely possible, and I’m going to walk you through it.
-
-We all know how easy it is to create a local git repository with a simple command. Similarly, creating a remote repository is just as easy—though it uses a different command.
-
-let’s first tweak our terminology a bit. The remote repository is often referred to as a **bare repository**.
-
-Now You might be thinking🤔, What exactly is a bare git repository? How is it different from a local repository? And can we use the same git commands (like pushing and pulling changes) to interact with it?
-
-Let’s clear that up by looking at the **key differences between Local and Bare Repository**.
+Let’s first explore the **key differences between local and bare repository**.
 
 <br>
 
