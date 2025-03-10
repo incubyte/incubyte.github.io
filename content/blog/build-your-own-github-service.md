@@ -19,8 +19,6 @@ So, what exactly is a bare repository? How does it differ from a local one? Can 
 
 Let’s first explore the **key differences between local and bare repository**.
 
-<br>
-
 #### Local Vs Bare Repositories
 
 | **Aspect**            | **Local Repository**                                                   | **Bare Repository**                                               |
@@ -30,18 +28,12 @@ Let’s first explore the **key differences between local and bare repository**.
 | **Actions**           | You can edit, stage, commit, checkout, and perform many other actions. | Limited to pushing, pulling changes, and other remote operations. |
 | **Purpose**           | For local development; work on files and commit changes                | Centralized repository for sharing and collaboration              |
 
-<br>
-
-# <p align="center">...</p>
-
-<br>
-
 We’ve cleared up most of the concepts, Now you might feel **"Talk is cheap. Show me the code."**
 So, Let's dive into the practically.
 
-<br>
+---
 
-<h4>1️⃣ Experiment: Local Bare Repo & Workspace Connection</h4>
+#### Experiment 1️⃣: Local Bare Repo & Workspace Connection
 
 In your project directory,
 
@@ -142,15 +134,9 @@ Finally, to make sure everything works, let’s try cloning the bare repository 
 
 **This is how you can create a local Git repository, connect it to a bare repository, and push changes.**
 
-<br>
+---
 
-# <p align="center">...</p>
-
-<br>
-
-<h4>2️⃣ Experiment: Hosting a Bare Git Repository on a Remote Server</h4>
-
-<br>
+#### Experiment 2️⃣: Hosting a Bare Git Repository on a Remote Server
 
 **1. Create EC2 Instance**
 
@@ -224,12 +210,6 @@ This will open the file in an editor. **Paste your github SSH Public Key** into 
 
 **Save and Exit**: Press CTRL + X, then Y, and hit Enter.
 
-<br>
-
-# <p align="center">...</p>
-
-<br>
-
 You can also set up the bare repo directly using the AWS Console's terminal, instead of accessing it from local machines.
 
 **1. Connect via the AWS Console (Alternative Method)**
@@ -240,12 +220,6 @@ You can also connect to your EC2 instance using the AWS Web Console:
 - Click on your instance ID.
 - Click Connect, then click Connect again.
 - This will open a terminal page where **you can follow the same steps from Step 3**.
-
-<br>
-
-# <p align="center">...</p>
-
-<br>
 
 Once the bare repository is set up on the EC2 instance,
 
