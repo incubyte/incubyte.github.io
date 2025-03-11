@@ -2,7 +2,7 @@
 title = "Build Your Own Git Hosting Service"
 slug = "build-your-own-git-hosting-service"
 date = 2025-02-25T11:55:10+05:30
-image = "/images/2025/build-your-own-git-hosting-service/header.jpg"
+image = "/images/2025/build-your-own-git-hosting-service/header.png"
 draft = true
 authors = ["Sahil Nayak"]
 description = "We can create our own remote repository service by setting up and hosting to our own server. It works just like popular services such as GitHub or Bitbucket."
