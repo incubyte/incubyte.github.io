@@ -107,8 +107,8 @@ You should see the remote URL listed under "`origin`" :
 For an example:
 
 ```bash
-origin C:\User\DELL\Experiment\remote.git\ (fetch)
-origin C:\User\DELL\Experiment\remote.git\ (push)
+origin path\to\repo\Experiment\remote.git\ (fetch)
+origin path\to\repo\Experiment\remote.git\ (push)
 ```
 
 If **the remote isn't set up yet, you can add** it by running this command:
