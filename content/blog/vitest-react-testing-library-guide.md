@@ -1,7 +1,7 @@
 +++
 title = "Vitest with React Testing Library: A Modern Approach to Testing React Apps"
 slug = "vitest-react-testing-library-guide"
-date = 2025-03-09T10:30:00+05:30
+date = 2025-03-11T10:30:00+05:30
 image = "/images/2025/vitest-react-testing-library-guide/header.svg"
 draft = false
 authors = ["Aditya Tiwari"]
@@ -113,6 +113,43 @@ export default defineConfig({
   }
 });
 ```
+
+Let's break down this configuration:
+
+- `plugins: [react()]`: Enables Vite's React plugin which provides JSX support, Fast Refresh, and other React-specific optimizations.
+- `test.environment: 'jsdom'`: Sets up a browser-like DOM environment using jsdom for testing components that interact with the DOM.
+- `test.globals: true`: Makes test functions (`describe`, `it`, `expect`, etc.) available globally without requiring explicit imports.
+- `test.setupFiles`: Specifies a file that runs before your tests, where you can configure testing utilities.
+
+#### Using happy-dom as an Alternative
+
+While jsdom is a popular choice, you might want to consider using happy-dom as an alternative DOM implementation:
+
+```bash
+npm install --save-dev happy-dom
+```
+
+Then update your Vite config:
+
+```javascript
+export default defineConfig({
+  plugins: [react()],
+  test: {
+    environment: 'happy-dom', // Using happy-dom instead of jsdom
+    globals: true,
+    setupFiles: './src/tests/setup.js'
+  }
+});
+```
+
+**Why consider happy-dom?**
+
+1. **Performance**: happy-dom is generally faster than jsdom, which can significantly reduce test execution time in larger projects.
+2. **Memory efficiency**: It uses less memory than jsdom, making it more suitable for CI/CD environments with limited resources.
+3. **Modern web features**: happy-dom sometimes implements newer web APIs faster than jsdom.
+
+For most React applications, both libraries work well with React Testing Library. Consider benchmarking both in your specific project if performance is a concern,
+happy-dom is a faster alternative, but it doesn't have some Web APIs. jsdom is more mature package.
 
 If you're using TypeScript, you might need to adjust the configuration to avoid type errors:
 
