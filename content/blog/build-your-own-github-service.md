@@ -1,7 +1,7 @@
 +++
 title = "Build Your Own Git Hosting Service"
 slug = "build-your-own-git-hosting-service"
-date = 2025-02-25T11:55:10+05:30
+date = 2025-03-11T11:39:10+05:30
 image = "/images/2025/build-your-own-git-hosting-service/header.png"
 draft = true
 authors = ["Sahil Nayak"]
@@ -15,7 +15,7 @@ Yes, you read that right! We can create our remote repository service by setting
 
 The remote repository is often referred to as a **bare repository**.
 
-So, what exactly is a bare repository? How does it differ from a local one? Can we use the same Git commands to interact with it?
+What exactly is a bare repository? How does it differ from a local one? Can we use the same Git commands to interact with it? 🤔
 
 Let’s first explore the **key differences between local and bare repositories**.
 
