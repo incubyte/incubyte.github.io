@@ -1,13 +1,13 @@
 +++
 title = "Vitest with React Testing Library: A Modern Approach to Testing React Apps"
 slug = "vitest-react-testing-library-guide"
-date = 2025-03-11T10:30:00+05:30
+date = 2025-03-25T10:30:00+05:30
 image = "/images/2025/vitest-react-testing-library-guide/header.svg"
 draft = false
 authors = ["Aditya Tiwari"]
 description = "A comprehensive guide to setting up and using Vitest with React Testing Library for modern React applications built with Vite"
 tags = ["React", "Vitest", "Testing", "Vite"]
-categories = ["React", "Testing", "Frontend Development"]
+categories = ["React", "Vitest", "Testing", "Vite"]
 type = ""
 +++
 
