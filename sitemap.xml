@@ -3,33 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2025-01-23T11:01:28+05:30</lastmod>
+    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2025-01-23T11:01:28+05:30</lastmod>
+    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/authors/aayush-prajapati/</loc>
-    <lastmod>2025-01-23T11:01:28+05:30</lastmod>
+    <loc>https://blog.incubyte.co/authors/aditya-tiwari/</loc>
+    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/</loc>
-    <lastmod>2025-01-23T11:01:28+05:30</lastmod>
+    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/</loc>
-    <lastmod>2025-01-23T11:01:28+05:30</lastmod>
+    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/functional-programming/</loc>
+    <loc>https://blog.incubyte.co/categories/react/</loc>
+    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/react/</loc>
+    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/</loc>
+    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/testing/</loc>
+    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/testing/</loc>
+    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/vite/</loc>
+    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/vite/</loc>
+    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/vitest/</loc>
+    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/vitest/</loc>
+    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/vitest-react-testing-library-guide/</loc>
+    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/aayush-prajapati/</loc>
     <lastmod>2025-01-23T11:01:28+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/functional-programming/</loc>
     <lastmod>2025-01-23T11:01:28+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/java/</loc>
+    <loc>https://blog.incubyte.co/tags/functional-programming/</loc>
     <lastmod>2025-01-23T11:01:28+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/java/</loc>
     <lastmod>2025-01-23T11:01:28+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/</loc>
+    <loc>https://blog.incubyte.co/tags/java/</loc>
     <lastmod>2025-01-23T11:01:28+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/unlocking-the-power-of-teeing-in-java-streams/</loc>
@@ -38,25 +68,13 @@
     <loc>https://blog.incubyte.co/blog/jest-matchers-for-react-testing/</loc>
     <lastmod>2025-01-13T16:24:01+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/jest/</loc>
-    <lastmod>2025-01-13T16:24:01+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/categories/jest/</loc>
     <lastmod>2025-01-13T16:24:01+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/react/</loc>
-    <lastmod>2025-01-13T16:24:01+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/react/</loc>
+    <loc>https://blog.incubyte.co/tags/jest/</loc>
     <lastmod>2025-01-13T16:24:01+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/syed-mohd-mehndi/</loc>
-    <lastmod>2025-01-13T16:24:01+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/testing/</loc>
-    <lastmod>2025-01-13T16:24:01+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/testing/</loc>
     <lastmod>2025-01-13T16:24:01+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/a-practical-approach-to-test-driven-development-beyond-red-green-refactor/</loc>
@@ -65,34 +83,34 @@
     <loc>https://blog.incubyte.co/authors/siya-agarwal/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
-    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/tdd/</loc>
+    <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/tdd/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/authors/anita-malhotra/</loc>
-    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
+    <loc>https://blog.incubyte.co/tags/tdd/</loc>
+    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/book-review/</loc>
+    <loc>https://blog.incubyte.co/authors/anita-malhotra/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/book-review/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blog.incubyte.co/tags/book-review/</loc>
+    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.incubyte.co/blog/code-craft-lessons-from-the-pragmatic-programmer/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/pragmatic-programming/</loc>
+    <loc>https://blog.incubyte.co/categories/pragmatic-programming/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/categories/pragmatic-programming/</loc>
+    <loc>https://blog.incubyte.co/tags/pragmatic-programming/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/mastering-code-through-katas/</loc>
@@ -107,31 +125,31 @@
     <loc>https://blog.incubyte.co/authors/nitin-rajkumar/</loc>
     <lastmod>2024-11-04T10:35:08+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/playbook/</loc>
-    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/categories/playbook/</loc>
     <lastmod>2024-11-04T10:35:08+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/ruby-on-rails/</loc>
+    <loc>https://blog.incubyte.co/tags/playbook/</loc>
     <lastmod>2024-11-04T10:35:08+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/ruby-on-rails/</loc>
     <lastmod>2024-11-04T10:35:08+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/clean-code/</loc>
-    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
+    <loc>https://blog.incubyte.co/tags/ruby-on-rails/</loc>
+    <lastmod>2024-11-04T10:35:08+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/clean-code/</loc>
+    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/clean-code/</loc>
     <lastmod>2024-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/write-cleaner-rails-code-with-fear/</loc>
     <lastmod>2024-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/ruby/</loc>
+    <loc>https://blog.incubyte.co/categories/ruby/</loc>
     <lastmod>2024-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/categories/ruby/</loc>
+    <loc>https://blog.incubyte.co/tags/ruby/</loc>
     <lastmod>2024-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/tilak-patidar/</loc>
@@ -149,34 +167,34 @@
     <loc>https://blog.incubyte.co/authors/deepak-sisodiya/</loc>
     <lastmod>2024-09-05T13:48:15+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/solid-principles/</loc>
+    <loc>https://blog.incubyte.co/categories/solid-principles/</loc>
     <lastmod>2024-09-05T13:48:15+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/categories/solid-principles/</loc>
+    <loc>https://blog.incubyte.co/tags/solid-principles/</loc>
     <lastmod>2024-09-05T13:48:15+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/solid-principles-in-react-a-simple-and-practical-guide/</loc>
     <lastmod>2024-09-05T13:48:15+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/pair-programming/</loc>
+    <loc>https://blog.incubyte.co/categories/pair-programming/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/categories/pair-programming/</loc>
+    <loc>https://blog.incubyte.co/tags/pair-programming/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/pair-programming-rethinking-the-role-of-pr-reviews/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/rdbms/</loc>
-    <lastmod>2024-06-26T11:19:22+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/categories/rdbms/</loc>
     <lastmod>2024-06-26T11:19:22+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/sql/</loc>
+    <loc>https://blog.incubyte.co/tags/rdbms/</loc>
     <lastmod>2024-06-26T11:19:22+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/sql/</loc>
+    <lastmod>2024-06-26T11:19:22+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/sql/</loc>
     <lastmod>2024-06-26T11:19:22+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/understanding-sql-dialects/</loc>
@@ -209,16 +227,16 @@
     <loc>https://blog.incubyte.co/authors/bhavesh-choudhary/</loc>
     <lastmod>2023-11-09T18:20:29+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/deep-dup/</loc>
-    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/categories/deep-dup/</loc>
     <lastmod>2023-11-09T18:20:29+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/dup/</loc>
+    <loc>https://blog.incubyte.co/tags/deep-dup/</loc>
     <lastmod>2023-11-09T18:20:29+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/dup/</loc>
+    <lastmod>2023-11-09T18:20:29+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/dup/</loc>
     <lastmod>2023-11-09T18:20:29+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/ruby-on-rails-dup-vs-deep-dup/</loc>
@@ -245,16 +263,16 @@
     <loc>https://blog.incubyte.co/blog/code-tidying/</loc>
     <lastmod>2023-08-18T00:10:46+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/codescene/</loc>
-    <lastmod>2023-08-18T00:10:46+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/categories/codescene/</loc>
     <lastmod>2023-08-18T00:10:46+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/refactoring/</loc>
+    <loc>https://blog.incubyte.co/tags/codescene/</loc>
     <lastmod>2023-08-18T00:10:46+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/refactoring/</loc>
+    <lastmod>2023-08-18T00:10:46+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/refactoring/</loc>
     <lastmod>2023-08-18T00:10:46+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/sapan-parikh/</loc>
@@ -281,16 +299,16 @@
     <loc>https://blog.incubyte.co/authors/abhishek-keshri/</loc>
     <lastmod>2023-06-23T00:10:46+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/ai/</loc>
-    <lastmod>2023-06-23T00:10:46+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/categories/ai/</loc>
     <lastmod>2023-06-23T00:10:46+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/learnings/</loc>
+    <loc>https://blog.incubyte.co/tags/ai/</loc>
     <lastmod>2023-06-23T00:10:46+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/learnings/</loc>
+    <lastmod>2023-06-23T00:10:46+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/learnings/</loc>
     <lastmod>2023-06-23T00:10:46+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/prompt-engg/</loc>
@@ -299,10 +317,10 @@
     <loc>https://blog.incubyte.co/authors/sutirtha-das/</loc>
     <lastmod>2023-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/testing-with-java/</loc>
+    <loc>https://blog.incubyte.co/categories/testing-with-java/</loc>
     <lastmod>2023-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/categories/testing-with-java/</loc>
+    <loc>https://blog.incubyte.co/tags/testing-with-java/</loc>
     <lastmod>2023-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/testing-with-java-tdd/</loc>
@@ -314,10 +332,10 @@
     <loc>https://blog.incubyte.co/blog/product-roadmaps-with-azure-devops/</loc>
     <lastmod>2023-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/case-study/</loc>
+    <loc>https://blog.incubyte.co/categories/case-study/</loc>
     <lastmod>2023-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/categories/case-study/</loc>
+    <loc>https://blog.incubyte.co/tags/case-study/</loc>
     <lastmod>2023-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/salesforce-vs-in-house-custom-development/</loc>
@@ -341,10 +359,10 @@
     <loc>https://blog.incubyte.co/tags/modernization/</loc>
     <lastmod>2023-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/angular/</loc>
+    <loc>https://blog.incubyte.co/categories/angular/</loc>
     <lastmod>2022-10-10T12:50:00+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/categories/angular/</loc>
+    <loc>https://blog.incubyte.co/tags/angular/</loc>
     <lastmod>2022-10-10T12:50:00+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/angular-provider/</loc>
@@ -353,25 +371,25 @@
     <loc>https://blog.incubyte.co/authors/waqar-shaikh/</loc>
     <lastmod>2022-10-10T12:50:00+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/automation/</loc>
-    <lastmod>2022-09-28T10:52:06+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/categories/automation/</loc>
     <lastmod>2022-09-28T10:52:06+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/infrastructure/</loc>
+    <loc>https://blog.incubyte.co/tags/automation/</loc>
     <lastmod>2022-09-28T10:52:06+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/infrastructure/</loc>
     <lastmod>2022-09-28T10:52:06+05:30</lastmod>
   </url><url>
+    <loc>https://blog.incubyte.co/tags/infrastructure/</loc>
+    <lastmod>2022-09-28T10:52:06+05:30</lastmod>
+  </url><url>
     <loc>https://blog.incubyte.co/blog/learnings-from-terraform/</loc>
     <lastmod>2022-09-28T10:52:06+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/terraform/</loc>
+    <loc>https://blog.incubyte.co/categories/terraform/</loc>
     <lastmod>2022-09-28T10:52:06+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/categories/terraform/</loc>
+    <loc>https://blog.incubyte.co/tags/terraform/</loc>
     <lastmod>2022-09-28T10:52:06+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/rails-restapi-tdd/</loc>
@@ -380,22 +398,22 @@
     <loc>https://blog.incubyte.co/blog/five-git-tricks/</loc>
     <lastmod>2022-06-14T00:10:46+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/git/</loc>
-    <lastmod>2022-06-14T00:10:46+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/categories/git/</loc>
     <lastmod>2022-06-14T00:10:46+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/open-source/</loc>
+    <loc>https://blog.incubyte.co/tags/git/</loc>
     <lastmod>2022-06-14T00:10:46+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/open-source/</loc>
     <lastmod>2022-06-14T00:10:46+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/agile/</loc>
-    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
+    <loc>https://blog.incubyte.co/tags/open-source/</loc>
+    <lastmod>2022-06-14T00:10:46+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/agile/</loc>
+    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/agile/</loc>
     <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/arjun-rk/</loc>
@@ -404,10 +422,10 @@
     <loc>https://blog.incubyte.co/blog/estimation/</loc>
     <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/estimation/</loc>
+    <loc>https://blog.incubyte.co/categories/estimation/</loc>
     <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/categories/estimation/</loc>
+    <loc>https://blog.incubyte.co/tags/estimation/</loc>
     <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/jaymin-shah/</loc>
@@ -425,10 +443,10 @@
     <loc>https://blog.incubyte.co/blog/code-coverage-and-reliability/</loc>
     <lastmod>2022-02-10T22:58:11+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/careers/</loc>
+    <loc>https://blog.incubyte.co/categories/careers/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/categories/careers/</loc>
+    <loc>https://blog.incubyte.co/tags/careers/</loc>
     <lastmod>2022-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/devops/</loc>
@@ -446,10 +464,10 @@
     <loc>https://blog.incubyte.co/blog/tdd-assessment/</loc>
     <lastmod>2021-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/best-practices/</loc>
+    <loc>https://blog.incubyte.co/categories/best-practices/</loc>
     <lastmod>2021-08-19T05:06:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/categories/best-practices/</loc>
+    <loc>https://blog.incubyte.co/tags/best-practices/</loc>
     <lastmod>2021-08-19T05:06:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/techniques-for-an-agile-team/</loc>
@@ -458,10 +476,10 @@
     <loc>https://blog.incubyte.co/authors/rupali-pardeshi/</loc>
     <lastmod>2021-08-19T05:06:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/sdlc/</loc>
+    <loc>https://blog.incubyte.co/categories/sdlc/</loc>
     <lastmod>2021-08-19T05:06:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/categories/sdlc/</loc>
+    <loc>https://blog.incubyte.co/tags/sdlc/</loc>
     <lastmod>2021-08-19T05:06:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/arohi-parikh/</loc>
@@ -479,10 +497,10 @@
     <loc>https://blog.incubyte.co/blog/benefits-and-challenges-of-open-source-development/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/97-things-not-to-do/</loc>
+    <loc>https://blog.incubyte.co/categories/97-things-not-to-do/</loc>
     <lastmod>2021-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/categories/97-things-not-to-do/</loc>
+    <loc>https://blog.incubyte.co/tags/97-things-not-to-do/</loc>
     <lastmod>2021-04-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/do-not-assume-that-technical-debt-is-a-problem-with-your-code/</loc>
@@ -491,16 +509,16 @@
     <loc>https://blog.incubyte.co/blog/notalltestsarethesame/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/getting-started/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/categories/getting-started/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/jobs/</loc>
+    <loc>https://blog.incubyte.co/tags/getting-started/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/jobs/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/jobs/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/karishma-shah/</loc>
@@ -536,10 +554,10 @@
     <loc>https://blog.incubyte.co/blog/hiring-process/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/security/</loc>
+    <loc>https://blog.incubyte.co/categories/security/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/categories/security/</loc>
+    <loc>https://blog.incubyte.co/tags/security/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/data-security/</loc>

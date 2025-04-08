@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 23 Jan 2025 11:01:28 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 25 Mar 2025 10:30:00 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vitest with React Testing Library: A Modern Approach to Testing React Apps</title>
+      <link>https://blog.incubyte.co/blog/vitest-react-testing-library-guide/</link>
+      <pubDate>Tue, 25 Mar 2025 10:30:00 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/vitest-react-testing-library-guide/</guid>
+      <description>&lt;p&gt;As React development evolves, so do the tools we use to test our applications.&#xA;With the React team recommending Vite as a preferred build tool over create-react-app, developers need a testing solution that integrates seamlessly with the Vite ecosystem.&#xA;Enter Vitest—a testing framework designed to work harmoniously with Vite-built applications.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Unlocking the Power of teeing in Java Streams for Parallel Processing</title>
       <link>https://blog.incubyte.co/blog/unlocking-the-power-of-teeing-in-java-streams/</link>
@@ -329,7 +336,7 @@
       <link>https://blog.incubyte.co/blog/books-we-believe-should-be-on-your-bookshelf-and-read-them-too/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/blog/books-we-believe-should-be-on-your-bookshelf-and-read-them-too/</guid>
-      <description>&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Books are a massive source of knowledge. Before we list all the books here, we want to discuss why we think it&amp;rsquo;s essential for programmers to read them.&lt;/p&gt;</description>
+      <description>&lt;h3&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Books are a massive source of knowledge. Before we list all the books here, we want to discuss why we think it&amp;rsquo;s essential for programmers to read them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to contribute to open-source project: A beginner&#39;s guide</title>
