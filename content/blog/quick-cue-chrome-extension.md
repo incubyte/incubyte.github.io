@@ -2,7 +2,7 @@
 title = "Building Quick Cue: A Chrome Extension for AI Chat Shortcuts"
 slug = "quick-cue-chrome-extension"
 date = 2025-04-11T00:00:00Z
-image = ""
+image = "/images/2025/quick-cue-extension-for-AI-prompt-shortcuts/header.jpg"
 draft = false
 authors = ["Dixit Tilaji"]
 description = ""
@@ -54,7 +54,7 @@ The initial implementation featured a basic search function that needed refineme
 To maintain a clean interface, I limited the dropdown to display only the three most relevant abbreviations. I also implemented custom prompt abbreviation creation and enhanced the user experience with smooth Framer Motion animations.
 
 {{< figure src="/images/2025/quick-cue-extension-for-AI-prompt-shortcuts/quick-cue-3.gif" >}}
-{{< figure src="/images/2025/quick-cue-extension-for-AI-prompt-shortcuts/quick-cue-4.gif" >}}\
+{{< figure src="/images/2025/quick-cue-extension-for-AI-prompt-shortcuts/quick-cue-4.gif" >}}
 
 ### CSS Isolation
 
