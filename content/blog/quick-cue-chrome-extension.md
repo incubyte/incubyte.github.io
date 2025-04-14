@@ -31,7 +31,9 @@ An interesting challenge emerged during testing: while the extension functioned 
 
 ### Building the Core Functionality 
 
-The first step was implementing some default prompts and displaying them in the extension popup view. Next came the crucial content scripts that would run on specific pages and monitor input elements. 
+The first step was implementing some default prompts and displaying them in the extension popup view.
+{{< figure src="/images/2025/quick-cue-extension-for-AI-prompt-shortcuts/quick-cue-2.jpg" >}}
+Next came the crucial content scripts that would run on specific pages and monitor input elements. 
 
 The core functionality required a system that could: 
 
@@ -50,6 +52,9 @@ I discovered ChatGPT was already using the '@' symbol for custom GPTs, which con
 The initial implementation featured a basic search function that needed refinement. I developed a suggestions dropdown to display relevant abbreviations when users begin typing a hashtag. To position this dropdown correctly, I utilized the getBoundingClientRect browser API to determine the input element's size and position. 
 
 To maintain a clean interface, I limited the dropdown to display only the three most relevant abbreviations. I also implemented custom prompt abbreviation creation and enhanced the user experience with smooth Framer Motion animations. 
+
+{{< figure src="/images/2025/quick-cue-extension-for-AI-prompt-shortcuts/quick-cue-3.gif" >}}
+{{< figure src="/images/2025/quick-cue-extension-for-AI-prompt-shortcuts/quick-cue-4.gif" >}}\
 
 ### CSS Isolation 
 
