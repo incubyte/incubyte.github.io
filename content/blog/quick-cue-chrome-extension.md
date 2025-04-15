@@ -11,7 +11,6 @@ categories = ["AI", "Chrome Extension"]
 type = ""
 +++
 
-### The Problem
 
 Like many AI enthusiasts, I found myself writing the same prompts repeatedly when using Claude, ChatGPT, or Gemini. This repetitive typing wasn't just tedious—it was a clear opportunity for optimization. What if there was a way to create shorthand abbreviations that automatically expanded into full prompts?
 
