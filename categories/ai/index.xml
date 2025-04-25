@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 23 Jun 2023 00:10:46 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Quick Cue: A Chrome Extension for AI Chat Shortcuts</title>
+      <link>https://blog.incubyte.co/blog/quick-cue-chrome-extension/</link>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.incubyte.co/blog/quick-cue-chrome-extension/</guid>
+      <description>&lt;p&gt;Like many AI enthusiasts, I found myself writing the same prompts repeatedly when using Claude, ChatGPT, or Gemini. This repetitive typing wasn&amp;rsquo;t just tedious—it was a clear opportunity for optimization. What if there was a way to create shorthand abbreviations that automatically expanded into full prompts?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Prompt Engineering 101</title>
       <link>https://blog.incubyte.co/blog/prompt-engg/</link>

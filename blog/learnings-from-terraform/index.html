@@ -15,7 +15,7 @@
 
 
 <meta name="author" content="[Akshay Vadher]">
-<meta name="generator" content="Hugo 0.145.0">
+<meta name="generator" content="Hugo 0.146.7">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -711,7 +711,7 @@
 <p>If you want to create one virtual machine in AWS, you go to their website and click a few buttons, and it creates the instance. What if there are 15 such VMs and all have some security configuration, doing it manually is not only tedious but erroneous as well.</p>
 <p>Terraform provides a nicer way to manage infrastructure in code. The following example creates a virtual machine in AWS</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-terraform" data-lang="terraform"><span style="display:flex;"><span><span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;aws_instance&#34;</span> <span style="color:#e6db74">&#34;app_server&#34;</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">instance_type</span> = <span style="color:#e6db74">&#34;t2.micro&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">instance_type</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;t2.micro&#34;</span>
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>It will create, update, or delete resources using simple commands</p>
 <h3 id="goal">Goal</h3>
@@ -731,9 +731,9 @@
 <p>Always specify a version number for any resource you create.</p>
 <p>Following is an example for creating one AWS RDS MySQL instance,</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-terraform" data-lang="terraform"><span style="display:flex;"><span><span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;aws_db_instance&#34;</span> <span style="color:#e6db74">&#34;default&#34;</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">db_name</span>              = <span style="color:#e6db74">&#34;mydb&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">engine</span>               = <span style="color:#e6db74">&#34;mysql&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">instance_class</span>       = <span style="color:#e6db74">&#34;db.t3.micro&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">db_name</span>              <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;mydb&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">engine</span>               <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;mysql&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">instance_class</span>       <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;db.t3.micro&#34;</span>
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Here we are not defining a property called <code>engine_version</code>. It is taken by default as the <code>latest</code>. Suppose now the latest is 5.7 but after a few months, the latest becomes <code>8</code>. The version change might have breaking changes introduced. The application will start breaking.</p>
 <p>The biggest issue is, nobody would know why the app is crashing without any code change.</p>
@@ -753,27 +753,27 @@
 <p>Let&rsquo;s assume you thought about environments and now creating templatized resources.</p>
 <p>For example, here is the code to create one role</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-terraform" data-lang="terraform"><span style="display:flex;"><span><span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;aws_iam_role&#34;</span> <span style="color:#e6db74">&#34;reader&#34;</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;reader&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;reader&#34;</span>
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>The problem with this approach is, since the naming is static, if you create two environments from the same account, it will try to create the role <code>reader</code> in the same account. Roles have a validation that its name cannot be duplicated.</p>
 <p>Always define the name of the resources dynamically like below. So for each environment, it creates a uniquely identifiable resource</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-terraform" data-lang="terraform"><span style="display:flex;"><span><span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;aws_iam_role&#34;</span> <span style="color:#e6db74">&#34;reader&#34;</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">clustername</span><span style="color:#e6db74">}</span><span style="color:#e6db74">-</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">env</span><span style="color:#e6db74">}</span><span style="color:#e6db74">-reader&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">clustername</span><span style="color:#e6db74">}</span><span style="color:#e6db74">-</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">env</span><span style="color:#e6db74">}</span><span style="color:#e6db74">-reader&#34;</span>
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h3 id="think-about-enabling-and-disabling-a-feature">Think about enabling and disabling a feature</h3>
 <p>Always think about enabling or disabling a feature, in other words, most of the resources should be created optionally, preferably using variables.</p>
 <p>It might be possible that one of the environments does not require RDS MySQL instance. Here is the code to create one MySQL</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-terraform" data-lang="terraform"><span style="display:flex;"><span><span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;aws_db_instance&#34;</span> <span style="color:#e6db74">&#34;default&#34;</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">db_name</span>              = <span style="color:#e6db74">&#34;mydb&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">engine</span>               = <span style="color:#e6db74">&#34;mysql&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">instance_class</span>       = <span style="color:#e6db74">&#34;db.t3.micro&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">db_name</span>              <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;mydb&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">engine</span>               <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;mysql&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">instance_class</span>       <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;db.t3.micro&#34;</span>
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Since you now want to make this optional, you will introduce a variable that will create the resource only if the variable is <code>true</code>, for example as below</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-terraform" data-lang="terraform"><span style="display:flex;"><span><span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;aws_db_instance&#34;</span> <span style="color:#e6db74">&#34;default&#34;</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">count</span>	   	   = var.<span style="color:#a6e22e">is</span><span style="color:#f92672">-</span><span style="color:#a6e22e">mysql</span><span style="color:#f92672">-</span><span style="color:#a6e22e">required</span> <span style="color:#f92672">?</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">db_name</span>          = <span style="color:#e6db74">&#34;mydb&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">engine</span>           = <span style="color:#e6db74">&#34;mysql&#34;</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">instance_class</span>   = <span style="color:#e6db74">&#34;db.t3.micro&#34;</span>
+</span></span><span style="display:flex;"><span>  count	   	   <span style="color:#f92672">=</span> var.<span style="color:#a6e22e">is</span><span style="color:#f92672">-</span><span style="color:#a6e22e">mysql</span><span style="color:#f92672">-</span><span style="color:#a6e22e">required</span> <span style="color:#f92672">?</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">db_name</span>          <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;mydb&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">engine</span>           <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;mysql&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">instance_class</span>   <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;db.t3.micro&#34;</span>
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>The problem with this transition is, since we introduced a <code>count</code> property, it will destroy the old instance and try to recreate a new one.</p>
 <p>It might not be a problem for cattle type of resources (a resource that does not persist in any state and can be destroyed and recreated at any time). However, resources like MySQL have data and if we recreate it, we might lose the data.</p>

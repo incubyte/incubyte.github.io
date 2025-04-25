@@ -3,27 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/authors/aditya-tiwari/</loc>
-    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
+    <loc>https://blog.incubyte.co/categories/ai/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/ai/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/</loc>
-    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/quick-cue-chrome-extension/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/chrome-extension/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/chrome-extension/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/dixit-tilaji/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/</loc>
+    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/aditya-tiwari/</loc>
     <lastmod>2025-03-25T10:30:00+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/react/</loc>
     <lastmod>2025-03-25T10:30:00+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/react/</loc>
-    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/</loc>
     <lastmod>2025-03-25T10:30:00+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/testing/</loc>
@@ -212,9 +230,6 @@
     <loc>https://blog.incubyte.co/blog/which-unique-identifier-is-right-for-you/</loc>
     <lastmod>2024-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/authors/dixit-tilaji/</loc>
-    <lastmod>2024-05-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/blog/using-firebase-cloud-functions/</loc>
     <lastmod>2024-05-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -297,12 +312,6 @@
     <lastmod>2023-07-21T00:10:46+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/abhishek-keshri/</loc>
-    <lastmod>2023-06-23T00:10:46+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/ai/</loc>
-    <lastmod>2023-06-23T00:10:46+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/ai/</loc>
     <lastmod>2023-06-23T00:10:46+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/learnings/</loc>

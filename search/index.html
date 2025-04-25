@@ -14,7 +14,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.145.0">
+<meta name="generator" content="Hugo 0.146.7">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -638,7 +638,7 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "March 25, 2025",
+          "date": "April 11, 2025",
           "url": "https://blog.incubyte.co/"
       },
       
@@ -649,8 +649,107 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "March 25, 2025",
+          "date": "April 11, 2025",
           "url": "https://blog.incubyte.co/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/ai\/": {
+          "title": "AI",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "April 11, 2025",
+          "url": "https://blog.incubyte.co/categories/ai/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/ai\/": {
+          "title": "AI",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "April 11, 2025",
+          "url": "https://blog.incubyte.co/tags/ai/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/": {
+          "title": "Authors",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "April 11, 2025",
+          "url": "https://blog.incubyte.co/authors/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/blog\/quick-cue-chrome-extension\/": {
+          "title": "Building Quick Cue: A Chrome Extension for AI Chat Shortcuts",
+          "tags": ["AI","Chrome Extension",],
+          "authors":["Dixit Tilaji",],
+          "summary":"\u003cp\u003eLike many AI enthusiasts, I found myself writing the same prompts repeatedly when using Claude, ChatGPT, or Gemini. This repetitive typing wasn\u0026rsquo;t just tedious—it was a clear opportunity for optimization. What if there was a way to create shorthand abbreviations that automatically expanded into full prompts?\u003c/p\u003e",
+          "content":"Like many AI enthusiasts, I found myself writing the same prompts repeatedly when using Claude, ChatGPT, or Gemini. This repetitive typing wasn\u0026rsquo;t just tedious—it was a clear opportunity for optimization. What if there was a way to create shorthand abbreviations that automatically expanded into full prompts?\nThe Solution: Quick Cue This led me to develop a Chrome extension that allows users to create prompt abbreviations quickly accessible with a simple hashtag (#). The goal was straightforward: save time and make interactions with AI chatbots more efficient for everyone.\nDevelopment Journey Setting Up the Project I began with a React + Vite project foundation, incorporating Tailwind CSS for styling. My initial objective was to create a functional prototype that I could test locally. For a polished interface from the start, I added Shadcn UI components, then created the basic manifest.json file to see the extension in action.\nDevelopment Environment Challenges An interesting challenge emerged during testing: while the extension functioned normally as a React app in local development, testing it as an actual browser extension didn\u0026rsquo;t support hot module replacement (HMR) since it uses build files. The solution came in the form of CRXJS, a helpful Vite plugin that automatically bundles code when changes occur, creating a much smoother development workflow.\nBuilding the Core Functionality The first step was implementing some default prompts and displaying them in the extension popup view. Next came the crucial content scripts that would run on specific pages and monitor input elements.\nThe core functionality required a system that could:\nDetect when users type a hashtag followed by text Match that text against saved abbreviations Transform the abbreviation into the complete prompt Technical Challenges Finding the right elements in the DOM proved to be the most challenging aspect. I implemented a mutation observer to track DOM structure changes, and when it located the appropriate elements, I applied regex to identify hashtag-containing strings.\nI discovered ChatGPT was already using the \u0026lsquo;@\u0026rsquo; symbol for custom GPTs, which confirmed my decision to use hashtags instead.\nUI Improvements The initial implementation featured a basic search function that needed refinement. I developed a suggestions dropdown to display relevant abbreviations when users begin typing a hashtag. To position this dropdown correctly, I utilized the getBoundingClientRect browser API to determine the input element\u0026rsquo;s size and position.\nTo maintain a clean interface, I limited the dropdown to display only the three most relevant abbreviations. I also implemented custom prompt abbreviation creation and enhanced the user experience with smooth Framer Motion animations.\nCSS Isolation A significant technical hurdle arose when I noticed my CSS was affecting the webpage. The solution required integrating Shadow DOM, which took considerable effort to configure properly. The challenge was correctly injecting my CSS into the shadow DOM while preventing it from influencing the rest of the page.\nFinal Steps To maintain code quality, I set up a GitHub Action for pull requests, handling essential tasks like building the project and performing linting and formatting checks.\nI expanded compatibility to support not just ChatGPT but also Gemini and Claude. For better understanding of user behavior, I integrated PostHog analytics into both the extension popup and the suggestions component.\nI expanded compatibility to support not only ChatGPT but also Gemini and Claude. In an effort to better understand user behavior, I initially integrated PostHog analytics into both the extension popup and the suggestions component. However, due to Chrome Store policies that restrict the use of external packages for tracking, I eventually had to remove the PostHog integration.\nPublishing to the Chrome Store The final stage involved preparing for the Chrome Web Store submission. I created visually appealing covers in Canva and submitted the first version for review. The application process was more involved than expected, requiring numerous fields and selections.\nConclusion Creating this Chrome extension was an enlightening journey through browser extension development, DOM manipulation, and AI tool enhancement. The finished product, Quick Cue, effectively solves the problem of repetitive prompt typing by providing an intuitive, hashtag-based shortcut system.\nNow anyone can use custom abbreviations across major AI platforms, saving valuable time and streamlining their workflow.\nCheck out the extension here: Quick Cue\n",
+          "image":"/images/2025/quick-cue-extension-for-AI-prompt-shortcuts/header.jpg",
+          "date": "April 11, 2025",
+          "url": "https://blog.incubyte.co/blog/quick-cue-chrome-extension/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/": {
+          "title": "Categories",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "April 11, 2025",
+          "url": "https://blog.incubyte.co/categories/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/chrome-extension\/": {
+          "title": "Chrome Extension",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "April 11, 2025",
+          "url": "https://blog.incubyte.co/categories/chrome-extension/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/chrome-extension\/": {
+          "title": "Chrome Extension",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "April 11, 2025",
+          "url": "https://blog.incubyte.co/tags/chrome-extension/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/dixit-tilaji\/": {
+          "title": "Dixit Tilaji",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "April 11, 2025",
+          "url": "https://blog.incubyte.co/authors/dixit-tilaji/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/": {
+          "title": "Tags",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "April 11, 2025",
+          "url": "https://blog.incubyte.co/tags/"
       },
       
       "https:\/\/blog.incubyte.co\/authors\/aditya-tiwari\/": {
@@ -662,28 +761,6 @@
           "image": null ,
           "date": "March 25, 2025",
           "url": "https://blog.incubyte.co/authors/aditya-tiwari/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/authors\/": {
-          "title": "Authors",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "March 25, 2025",
-          "url": "https://blog.incubyte.co/authors/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/": {
-          "title": "Categories",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "March 25, 2025",
-          "url": "https://blog.incubyte.co/categories/"
       },
       
       "https:\/\/blog.incubyte.co\/categories\/react\/": {
@@ -706,17 +783,6 @@
           "image": null ,
           "date": "March 25, 2025",
           "url": "https://blog.incubyte.co/tags/react/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/": {
-          "title": "Tags",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "March 25, 2025",
-          "url": "https://blog.incubyte.co/tags/"
       },
       
       "https:\/\/blog.incubyte.co\/categories\/testing\/": {
@@ -1401,17 +1467,6 @@
           "url": "https://blog.incubyte.co/blog/which-unique-identifier-is-right-for-you/"
       },
       
-      "https:\/\/blog.incubyte.co\/authors\/dixit-tilaji\/": {
-          "title": "Dixit Tilaji",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "May 7, 2024",
-          "url": "https://blog.incubyte.co/authors/dixit-tilaji/"
-      },
-      
       "https:\/\/blog.incubyte.co\/blog\/using-firebase-cloud-functions\/": {
           "title": "Using Firebase Cloud Functions: Exporting Firestore Data to Excel in React Apps",
           "tags": ["Software Craftsmanship","React",],
@@ -1718,28 +1773,6 @@
           "image":"/authors/abhishek-keshri/abhishek.jpg",
           "date": "June 23, 2023",
           "url": "https://blog.incubyte.co/authors/abhishek-keshri/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/ai\/": {
-          "title": "AI",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "June 23, 2023",
-          "url": "https://blog.incubyte.co/categories/ai/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/ai\/": {
-          "title": "AI",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "June 23, 2023",
-          "url": "https://blog.incubyte.co/tags/ai/"
       },
       
       "https:\/\/blog.incubyte.co\/categories\/learnings\/": {
