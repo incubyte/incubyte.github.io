@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Git on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/categories/git/</link>
-    <description>Recent content in Git on Incubyte Blog</description>
+    <title>Sahil Nayak on Incubyte Blog</title>
+    <link>https://blog.incubyte.co/authors/sahil-nayak/</link>
+    <description>Recent content in Sahil Nayak on Incubyte Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
     <lastBuildDate>Tue, 11 Mar 2025 11:39:10 +0530</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.incubyte.co/authors/sahil-nayak/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build Your Own Git Hosting Service</title>
       <link>https://blog.incubyte.co/blog/build-your-own-git-hosting-service/</link>
       <pubDate>Tue, 11 Mar 2025 11:39:10 +0530</pubDate>
       <guid>https://blog.incubyte.co/blog/build-your-own-git-hosting-service/</guid>
       <description>&lt;p&gt;Yes, you read that right! We can create our remote repository service by setting up and hosting it on our own server. It works just like popular services such as GitHub or Bitbucket but with the &lt;strong&gt;added benefit of complete control over access and hosting&lt;/strong&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Five Git Tricks To Make Crafting Software Easier</title>
-      <link>https://blog.incubyte.co/blog/five-git-tricks/</link>
-      <pubDate>Tue, 14 Jun 2022 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/five-git-tricks/</guid>
-      <description>&lt;p&gt;Git is the most widely used version control system in the world and it is something that every Software Craftsperson should master.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

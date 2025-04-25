@@ -24,6 +24,13 @@
       <description>&lt;p&gt;As React development evolves, so do the tools we use to test our applications.&#xA;With the React team recommending Vite as a preferred build tool over create-react-app, developers need a testing solution that integrates seamlessly with the Vite ecosystem.&#xA;Enter Vitest—a testing framework designed to work harmoniously with Vite-built applications.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Build Your Own Git Hosting Service</title>
+      <link>https://blog.incubyte.co/blog/build-your-own-git-hosting-service/</link>
+      <pubDate>Tue, 11 Mar 2025 11:39:10 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/build-your-own-git-hosting-service/</guid>
+      <description>&lt;p&gt;Yes, you read that right! We can create our remote repository service by setting up and hosting it on our own server. It works just like popular services such as GitHub or Bitbucket but with the &lt;strong&gt;added benefit of complete control over access and hosting&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Unlocking the Power of teeing in Java Streams for Parallel Processing</title>
       <link>https://blog.incubyte.co/blog/unlocking-the-power-of-teeing-in-java-streams/</link>
       <pubDate>Thu, 23 Jan 2025 11:01:28 +0530</pubDate>

@@ -862,6 +862,72 @@
           "url": "https://blog.incubyte.co/blog/vitest-react-testing-library-guide/"
       },
       
+      "https:\/\/blog.incubyte.co\/blog\/build-your-own-git-hosting-service\/": {
+          "title": "Build Your Own Git Hosting Service",
+          "tags": ["Git","GitHub",],
+          "authors":["Sahil Nayak",],
+          "summary":"\u003cp\u003eYes, you read that right! We can create our remote repository service by setting up and hosting it on our own server. It works just like popular services such as GitHub or Bitbucket but with the \u003cstrong\u003eadded benefit of complete control over access and hosting\u003c/strong\u003e.\u003c/p\u003e",
+          "content":"Yes, you read that right! We can create our remote repository service by setting up and hosting it on our own server. It works just like popular services such as GitHub or Bitbucket but with the added benefit of complete control over access and hosting.\nThe remote repository is often referred to as a bare repository.\nWhat exactly is a bare repository? How does it differ from a local one? Can we use the same Git commands to interact with it? 🤔\nLet’s first explore the key differences between local and bare repositories.\nLocal Vs Bare Repositories Aspect Local Repository Bare Repository Setup git init git init --bare Working Directory Has a working directory (your project files). No working directory, only git metadata. Actions You can edit files, stage changes, commit, checkout, and perform many other actions. Limited to pushing, pulling, and other remote operations. Purpose Used for local development; allows you to work on files and commit changes. Serves as a centralized repository for sharing and collaboration. We’ve cleared up the basic concepts, Now you might feel \u0026ldquo;Talk is cheap. Show me the code.\u0026rdquo;\nSo, let\u0026rsquo;s dive into the practicals.\nExperiment 1️⃣: Local bare repository \u0026amp; workspace connection In your project directory,\n1. Create two folders with the following names\n📂 local Your project working directory (Just like when you clone from a remote). 📂 remote.git A bare repository (The one where all changes are pushed). Recommended: It\u0026rsquo;s a good practice to name your bare repository with a .git suffix, (like remote.git).\nWhen you see any GitHub repository clonable link (whether in HTTP or SSH URL) that always ends with .git, it indicates that on the server, the bare repository is created in a folder named exactly as repository_name.git.\n2. Set up the bare repository\nNow, go into the remote folder and create the bare repository.\n# Navigate to remote.git directory cd remote.git # Create a bare repository here git init --bare 3. Clone the bare repository\nGo back to your project directory and navigate to the local folder. Clone the bare repository here.\n# Navigate to your working directory where you want to clone cd local # clone the bare repository git clone \u0026lt;path-to-bare-repo\u0026gt; # Replace \u0026lt;path-to-bare-repo\u0026gt; with the actual file path or URL of your bare repository. # For an example: C:\\User\\DELL\\Experiment\\remote.git\\ You should now see a folder named remote inside your local folder, as our bare repository was named remote.git.\nNote: This is not the bare repository\u0026rsquo;s directory. It’s now your local repository, created by cloning the bare repository.\n4. Make some changes in the local (cloned) Repository\nNow, inside your local repository, navigate to the remote folder and do the following:\n# Navigate to remote cd remote # Create README.md file echo \u0026#34;README\u0026#34; \u0026gt; README.md # Add to the staging area git add . # Commit the changes git commit -m \u0026#34;Add: README.md\u0026#34; 5. Check the remote origin\nTo see where your remote repository is set up, run:\ngit remote -vv You should see the remote URL listed under \u0026ldquo;origin\u0026rdquo; :\nFor an example:\norigin path\\to\\repo\\Experiment\\remote.git\\ (fetch) origin path\\to\\repo\\Experiment\\remote.git\\ (push) If the remote isn\u0026rsquo;t set up yet, you can add it by running this command:\ngit remote add origin \u0026#34;\u0026lt;path-to-bare-repo\u0026gt;\u0026#34; # Replace \u0026lt;path-to-bare-repo\u0026gt; with the actual file path or URL of your bare repository. # For an example: C:\\User\\DELL\\Experiment\\remote.git\\ 6. Push changes to the bare repository\nNow that the remote repository URL is set up, push your changes to the bare repository:\ngit push 7. Verify the bare repository by cloning it elsewhere\nFinally, to make sure everything works, let’s try cloning the bare repository in a different folder (e.g., bare_local). You should able to see changes.\nThis is how you can create a local Git repository, connect it to a bare repository, and push changes.\nExperiment 2️⃣: Hosting a bare git repository on a remote server 1. Set up a remote server\nEnsure you have a server with Ubuntu (or any OS) and SSH access, using any cloud provider or self-hosted server.\n2. Connect to your server via SSH\nTo access your server, open a terminal (PowerShell or CMD) and access the server using ssh commands:\nssh -i \u0026#34;\u0026lt;path_to_private_key\u0026gt;\u0026#34; ubuntu@\u0026lt;server_ip_or_domain\u0026gt; Once executed, you’ll be logged into your server and will see the terminal.\n3. Set up a bare git repository\n# Create a new directory for the bare repo and name it with .git suffix mkdir remotesync.git # Navigate to the Bare Repository Directory: cd remotesync.git # Create a bare repository git init --bare Now, your bare repository is ready for use. To allow cloning and pushing changes, you\u0026rsquo;ll need to set up SSH key access.\n4. Set up SSH key for git access\n# Navigate to the .ssh directory: cd .ssh # List the files: ls You should see a file named authorized_keys. If you’ve just set up your server, it will contain the default public key used for server access from anywhere.\nTo enable Git access, add your public SSH key (from GitHub, GitLab, or another Git service) to the authorized_keys file:\n# Edit the authorized_keys file: nano authorized_keys This will open the file in an editor. Paste your GitHub SSH Public Key into the file and Save it.\nNote: If you want to allow multiple users to access this repository, add each user’s public key to this file.\n5. Clone the remote (bare) repository\ngit clone ubuntu@\u0026lt;server_ip_or_domain\u0026gt;:\u0026lt;path_to_bare_repo\u0026gt; # For an Example: git clone ubuntu@ec2-04-043-0-003.compute-1.amazonaws.com:/home/ubuntu/remotesync.git Now you\u0026rsquo;re all set to collaborate with your team! 🚀 Happy coding! 👨‍💻👩‍💻\n",
+          "image":"/images/2025/build-your-own-git-hosting-service/header.png",
+          "date": "March 11, 2025",
+          "url": "https://blog.incubyte.co/blog/build-your-own-git-hosting-service/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/git\/": {
+          "title": "Git",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "March 11, 2025",
+          "url": "https://blog.incubyte.co/categories/git/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/git\/": {
+          "title": "Git",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "March 11, 2025",
+          "url": "https://blog.incubyte.co/tags/git/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/github\/": {
+          "title": "GitHub",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "March 11, 2025",
+          "url": "https://blog.incubyte.co/categories/github/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/github\/": {
+          "title": "GitHub",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "March 11, 2025",
+          "url": "https://blog.incubyte.co/tags/github/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/sahil-nayak\/": {
+          "title": "Sahil Nayak",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "March 11, 2025",
+          "url": "https://blog.incubyte.co/authors/sahil-nayak/"
+      },
+      
       "https:\/\/blog.incubyte.co\/authors\/aayush-prajapati\/": {
           "title": "Aayush Prajapati",
           "tags": [],
@@ -2114,28 +2180,6 @@
           "image":"/images/2022/06/octocat.jpg",
           "date": "June 14, 2022",
           "url": "https://blog.incubyte.co/blog/five-git-tricks/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/git\/": {
-          "title": "Git",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "June 14, 2022",
-          "url": "https://blog.incubyte.co/categories/git/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/git\/": {
-          "title": "Git",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "June 14, 2022",
-          "url": "https://blog.incubyte.co/tags/git/"
       },
       
       "https:\/\/blog.incubyte.co\/categories\/open-source\/": {
