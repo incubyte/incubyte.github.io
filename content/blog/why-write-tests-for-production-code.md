@@ -1,5 +1,5 @@
 +++
-title = "Its 2025 and you should not write code without tests"
+title = "Its 2025 And You Should Not Write Code Without Tests"
 slug = "its-2025-and-you-should-not-write-code-without-tests"
 date = 2025-05-01T11:10:20+05:30
 image = "/images/2025/why-write-tests-for-production-code/header.svg"
