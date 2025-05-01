@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 May 2025 11:10:20 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Playbook</title>
+      <link>https://blog.incubyte.co/categories/playbook/</link>
+      <pubDate>Thu, 01 May 2025 11:10:20 +0530</pubDate>
+      <guid>https://blog.incubyte.co/categories/playbook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Craftsmanship</title>
+      <link>https://blog.incubyte.co/categories/software-craftsmanship/</link>
+      <pubDate>Thu, 01 May 2025 11:10:20 +0530</pubDate>
+      <guid>https://blog.incubyte.co/categories/software-craftsmanship/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI</title>
       <link>https://blog.incubyte.co/categories/ai/</link>
@@ -87,13 +101,6 @@
       <description></description>
     </item>
     <item>
-      <title>Software Craftsmanship</title>
-      <link>https://blog.incubyte.co/categories/software-craftsmanship/</link>
-      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/categories/software-craftsmanship/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>TDD</title>
       <link>https://blog.incubyte.co/categories/tdd/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
@@ -112,13 +119,6 @@
       <link>https://blog.incubyte.co/categories/pragmatic-programming/</link>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/categories/pragmatic-programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Playbook</title>
-      <link>https://blog.incubyte.co/categories/playbook/</link>
-      <pubDate>Mon, 04 Nov 2024 10:35:08 +0530</pubDate>
-      <guid>https://blog.incubyte.co/categories/playbook/</guid>
       <description></description>
     </item>
     <item>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#0f172a"/>
+  <circle cx="150" cy="200" r="120" fill="#1e293b" opacity="0.6"/>
+  <circle cx="650" cy="200" r="120" fill="#1e293b" opacity="0.6"/>
+
+  <g transform="translate(400, 200)">
+    <text y="-40"
+          font-family="Cascadia Code, monospace"
+          font-size="56"
+          font-weight="600"
+          text-anchor="middle"
+          fill="white">
+      CODE QUALITY
+    </text>
+    <text y="40"
+          font-family="Cascadia Code, monospace"
+          font-size="56"
+          font-weight="600"
+          text-anchor="middle"
+          fill="#3b82f6">
+      STARTS WITH TESTS
+    </text>
+  </g>
+
+  <line x1="200" y1="280" x2="600" y2="280" stroke="#64748b" stroke-width="2"/>
+  <line x1="300" y1="290" x2="500" y2="290" stroke="#64748b" stroke-width="2"/>
+
+  <text x="200" y="80" font-family="Cascadia Code, monospace" font-size="24" fill="#4b5563">{ test() }</text>
+  <text x="600" y="320" font-family="Cascadia Code, monospace" font-size="24" fill="#4b5563">assert()</text>
+</svg>

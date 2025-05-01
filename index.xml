@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 11 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 May 2025 11:10:20 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Its 2025 And You Should Not Write Code Without Tests</title>
+      <link>https://blog.incubyte.co/blog/its-2025-and-you-should-not-write-code-without-tests/</link>
+      <pubDate>Thu, 01 May 2025 11:10:20 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/its-2025-and-you-should-not-write-code-without-tests/</guid>
+      <description>&lt;p&gt;In 2025, shipping code without tests should be a total no. In a landscape where deployments happen multiple times a day and services are expected to be available 24/7, undetected regressions can lead to downtime and erode user trust. Automated tests provide a safety net that ensures changes don’t introduce unexpected behavior, offering confidence and stability as applications evolve.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Building Quick Cue: A Chrome Extension for AI Chat Shortcuts</title>
       <link>https://blog.incubyte.co/blog/quick-cue-chrome-extension/</link>
