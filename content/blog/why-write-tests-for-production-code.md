@@ -1,7 +1,7 @@
 +++
-title = "Why We Should Write Tests for Our Production Code"
-slug = "why-we-should-write-tests-for-our-production-code"
-date = 2025-01-03T11:10:20+05:30
+title = "Its 2025 and you should not write code without tests"
+slug = "its-2025-and-you-should-not-write-code-without-tests"
+date = 2025-05-01T11:10:20+05:30
 image = "/images/2025/why-write-tests-for-production-code/header.svg"
 draft = false
 authors = ["Tilak Patidar"]
