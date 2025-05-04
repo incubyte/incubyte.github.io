@@ -23,7 +23,7 @@ We adopted a two-hour sprint cycle, aiming to deliver a tangible feature every c
 
 But let’s be real, the first day was _rough_. We were just getting used to the AI madness: figuring out its quirks, debugging AI-generated hallucinations, and rewriting code that - let’s just say wouldn’t pass a gallery review _or_ a code review.
 
-Sure, we technically _shipped_ things on day one. It ran, technically. But we wouldn’t bet uptime on it.
+Sure, we _shipped_ things on day one. It ran _technically_. But we wouldn’t bet uptime on it.
 
 We reviewed what worked, fixed what didn’t, and returned the next day with a clearer plan. By the end of day two, we had crafted a product we were proud of, not just another LLM fever dream.
 
