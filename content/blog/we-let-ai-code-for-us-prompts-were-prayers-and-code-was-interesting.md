@@ -2,7 +2,7 @@
 title = "We Let AI Code for Us: Prompts Were Prayers and Code Was... Interesting"
 slug = "we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting"
 date = 2025-05-02T16:04:54+05:30
-image = "/images/2025/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/header.png"
+image = "/images/2025/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/header.jpg"
 draft = true
 authors = ["Heet Vadiya", "Sapan Parikh"]
 description = "A reflective account of our AI hackathon experience, highlighting key challenges, practical learnings, and actionable takeaways for effective AI-assisted development."
@@ -30,7 +30,7 @@ We reviewed what worked, fixed what didn’t, and returned the next day with a c
 ### It all started with a prompt. A very bad one.
 
 <br>
-{{< figure src="/images/2025/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/prompting-101.png" width="500px" class="text-center" align="center">}}
+{{< figure src="/images/2025/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/prompting-101.jpg" width="500px" class="text-center" align="center">}}
 
 You know that feeling when you prompt something like: _“Create a homepage.”_
 
@@ -51,7 +51,7 @@ Ultimately, we realized that prompting isn't magic. It's a skill that requires c
 ### We Treated AI Like a Senior Dev. It Acted Like an Intern.
 
 <br>
-{{< figure src="/images/2025/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/ai-as-an-intern.png" width="500px" class="text-center" align="center">}}
+{{< figure src="/images/2025/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/ai-as-an-intern.jpg" width="500px" class="text-center" align="center">}}
 
 Early on, we fell into the trap of expecting AI to just _know_. We'd give it a high-level task and assume it could fill in the blanks, understand the unspoken context, and magically resolve issues. It couldn't. The results were often confidently incorrect, leading us down rabbit holes.
 
@@ -72,7 +72,7 @@ The surprisingly simple fix? We learned to explicitly instruct the AI to "Only u
 ### Small tasks. Fewer tears.
 
 <br>
-{{< figure src="/images/2025/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/specific-prompts-help.png" width="500px" class="text-center" align="center">}}
+{{< figure src="/images/2025/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/pixel-perfect-prompts.jpg" width="500px" class="text-center" align="center">}}
 
 Our biggest win? Ditching broad AI requests that felt like shouting into the void ("clean up the homepage" = broken navbar).
 
@@ -83,7 +83,7 @@ This precision extended to our version control. Every small, meaningful change d
 ### Testing Isn't Optional. AI Lies. Nicely.
 
 <br>
-{{< figure src="/images/2025/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/trust-but-verify.png" width="500px" class="text-center" align="center">}}
+{{< figure src="/images/2025/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/trust-but-verify.jpg" width="500px" class="text-center" align="center">}}
 
 One of the early surprises was the AI's unwavering confidence, even when its code was subtly (or not so subtly) broken. It wouldn't crash with error messages; instead, it presented flawed solutions with the digital equivalent of a cheerful smile. This taught us a critical lesson: trust, but verify.
 
@@ -116,7 +116,7 @@ Confidence, curiosity, and the belief that “we’ll figure it out” got us wa
 ### The AI isn’t a code monkey. It’s a weirdly talented teammate.
 
 <br>
-{{< figure src="/images/2025/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/ai-in-sdlc-as-a-teammate.png" width="500px"  class="text-center" align="center">}}
+{{< figure src="/images/2025/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/ai-in-sdlc-as-a-teammate.jpg" width="500px"  class="text-center" align="center">}}
 
 By weekend's end, our relationship with AI had flipped. It wasn't just a code-spewing tool; it felt like a teammate – a brilliant one, albeit with occasional creative (and entirely fabricated) ideas.
 
