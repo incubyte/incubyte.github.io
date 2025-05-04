@@ -50,6 +50,7 @@ Ultimately, we realized that prompting isn't magic. It's a skill that requires c
 
 ### We Treated AI Like a Senior Dev. It Acted Like an Intern.
 
+<br>
 {{< figure src="/images/2025/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/ai-as-an-intern.png" width="500px" class="text-center" align="center">}}
 
 Early on, we fell into the trap of expecting AI to just _know_. We'd give it a high-level task and assume it could fill in the blanks, understand the unspoken context, and magically resolve issues. It couldn't. The results were often confidently incorrect, leading us down rabbit holes.
@@ -80,6 +81,9 @@ Instead, we embraced the power of the pixel. Asking for "increase the padding on
 This precision extended to our version control. Every small, meaningful change driven by AI got its own branch. Think of it as a safe space for the AI's experiments. If things went south (as they sometimes did), we could simply revert without a full-scale meltdown.
 
 ### Testing Isn't Optional. AI Lies. Nicely.
+
+<br>
+{{< figure src="/images/2025/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/trust-but-verify.png" width="500px" class="text-center" align="center">}}
 
 One of the early surprises was the AI's unwavering confidence, even when its code was subtly (or not so subtly) broken. It wouldn't crash with error messages; instead, it presented flawed solutions with the digital equivalent of a cheerful smile. This taught us a critical lesson: trust, but verify.
 
