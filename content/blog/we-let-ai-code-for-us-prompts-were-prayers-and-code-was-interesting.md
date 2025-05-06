@@ -57,7 +57,7 @@ Early on, we fell into the trap of expecting AI to just _know_. We'd give it a h
 
 The turning point came when we shifted our approach. We started treating the AI like a bright but inexperienced intern. This meant being incredibly explicit in our instructions. Instead of vague requests, we provided detailed explanations, step-by-step guidance, and the full picture, not just the headline.
 
-For instance, when faced with a stubborn bug, simply stating "Fix this error" was futile. However, when we provided the specific error message ("teamBlogs.data?.map is not a function"), detailed the technology stack (React frontend, Rails backend), and even shared the relevant file structure, the AI's responses became significantly more helpful.
+For instance, vague prompts like “Change button animation” often led to confusing or unhelpful results. But when we were more specific say, “Update the animation for the ‘Generate’ button only. This is strictly a UI change; do not modify any underlying functionality or logic tied to the button” the output became significantly more accurate. It was like guiding an intern: clear instructions on what to change and just as importantly, what not to, made all the difference.
 
 **Moral of the story**: the AI doesn't need you to be polite. It needs you to be clear.
 
