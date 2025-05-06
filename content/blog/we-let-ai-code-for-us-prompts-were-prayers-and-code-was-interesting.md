@@ -6,8 +6,8 @@ image = "/images/2025/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-in
 draft = true
 authors = ["Heet Vadiya", "Sapan Parikh"]
 description = "A reflective account of our AI hackathon experience, highlighting key challenges, practical learnings, and actionable takeaways for effective AI-assisted development."
-tags = ["Software Craftsmanship", "AI Tooling" , "Hackathon", "Prompt Engineering", "AI in SDLC"]
-categories = ["Software Craftsmanship", "AI Tooling" , "Hackathon", "Prompt Engineering", "AI in SDLC"]
+tags = ["Software Craftsmanship", "AI Tooling Hackathon", "SDLC"]
+categories = ["Software Craftsmanship", "AI Tooling Hackathon", "SDLC"]
 type = ""
 +++
 
