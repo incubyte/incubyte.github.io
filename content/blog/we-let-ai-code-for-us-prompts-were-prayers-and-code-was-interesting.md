@@ -27,7 +27,7 @@ Sure, we _shipped_ things on day one. It ran _technically_. But we wouldn’t be
 
 We reviewed what worked, fixed what didn’t, and returned the next day with a clearer plan. By the end of day two, we had crafted a product we were proud of, not just another LLM fever dream.
 
-### It all started with a prompt. A very bad one.
+### It all started with a prompt.
 
 <br>
 {{< figure src="/images/2025/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/prompting-101.jpg" width="500px" class="text-center" align="center">}}
