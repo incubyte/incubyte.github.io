@@ -76,7 +76,7 @@ The surprisingly simple fix? We learned to explicitly instruct the AI to "Only u
 
 Our biggest win? Ditching broad AI requests that felt like shouting into the void ("clean up the homepage" = broken navbar).
 
-Instead, we embraced the power of the pixel. Asking for "increase the padding on the hero section by 16px" yielded exactly that. No surprises, no drama.
+Instead, we embraced the power of the pixel. Asking for "increase the padding on the hero section by 16px" yielded exactly that.
 
 This precision extended to our version control. Every small, meaningful change driven by AI got its own branch. Think of it as a safe space for the AI's experiments. If things went south (as they sometimes did), we could simply revert without a full-scale meltdown.
 
