@@ -15,7 +15,7 @@
 
 
 <meta name="author" content="[Heet Vadiya Sapan Parikh]">
-<meta name="generator" content="Hugo 0.147.1">
+<meta name="generator" content="Hugo 0.147.2">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -706,7 +706,7 @@
 <p>But let’s be real, the first day was <em>rough</em>. We were just getting used to the AI madness: figuring out its quirks, debugging AI-generated hallucinations, and rewriting code that - let’s just say wouldn’t pass a gallery review <em>or</em> a code review.</p>
 <p>Sure, we <em>shipped</em> things on day one. It ran <em>technically</em>. But we wouldn’t bet uptime on it.</p>
 <p>We reviewed what worked, fixed what didn’t, and returned the next day with a clearer plan. By the end of day two, we had crafted a product we were proud of, not just another LLM fever dream.</p>
-<h3 id="it-all-started-with-a-prompt-a-very-bad-one">It all started with a prompt. A very bad one.</h3>
+<h3 id="it-all-started-with-a-prompt">It all started with a prompt.</h3>
 <br>
 <figure class="text-center"><img src="/images/2025/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/prompting-101.jpg" width="500px">
 </figure>
@@ -727,7 +727,7 @@
 
 <p>Early on, we fell into the trap of expecting AI to just <em>know</em>. We&rsquo;d give it a high-level task and assume it could fill in the blanks, understand the unspoken context, and magically resolve issues. It couldn&rsquo;t. The results were often confidently incorrect, leading us down rabbit holes.</p>
 <p>The turning point came when we shifted our approach. We started treating the AI like a bright but inexperienced intern. This meant being incredibly explicit in our instructions. Instead of vague requests, we provided detailed explanations, step-by-step guidance, and the full picture, not just the headline.</p>
-<p>For instance, when faced with a stubborn bug, simply stating &ldquo;Fix this error&rdquo; was futile. However, when we provided the specific error message (&ldquo;teamBlogs.data?.map is not a function&rdquo;), detailed the technology stack (React frontend, Rails backend), and even shared the relevant file structure, the AI&rsquo;s responses became significantly more helpful.</p>
+<p>For instance, vague prompts like “Change button animation” often led to confusing or unhelpful results. But when we were more specific say, “Update the animation for the ‘Generate’ button only. This is strictly a UI change; do not modify any underlying functionality or logic tied to the button” the output became significantly more accurate. It was like guiding an intern: clear instructions on what to change and just as importantly, what not to, made all the difference.</p>
 <p><strong>Moral of the story</strong>: the AI doesn&rsquo;t need you to be polite. It needs you to be clear.</p>
 <h3 id="beta-blues-ai-libraries-and-our-guiding-star">Beta Blues: AI, Libraries, and Our Guiding Star</h3>
 <p>We were initially impressed when the AI integrated a third-party library autonomously. That excitement quickly turned to frustration when we discovered it had chosen a beta version, leading to baffling bugs and hours of debugging.</p>
@@ -739,7 +739,7 @@
 </figure>
 
 <p>Our biggest win? Ditching broad AI requests that felt like shouting into the void (&ldquo;clean up the homepage&rdquo; = broken navbar).</p>
-<p>Instead, we embraced the power of the pixel. Asking for &ldquo;increase the padding on the hero section by 16px&rdquo; yielded exactly that. No surprises, no drama.</p>
+<p>Instead, we embraced the power of the pixel. Asking for &ldquo;increase the padding on the hero section by 16px&rdquo; yielded exactly that.</p>
 <p>This precision extended to our version control. Every small, meaningful change driven by AI got its own branch. Think of it as a safe space for the AI&rsquo;s experiments. If things went south (as they sometimes did), we could simply revert without a full-scale meltdown.</p>
 <h3 id="testing-isnt-optional-ai-lies-nicely">Testing Isn&rsquo;t Optional. AI Lies. Nicely.</h3>
 <br>
