@@ -27,7 +27,7 @@ Sure, we _shipped_ things on day one. It ran _technically_. But we wouldn’t be
 
 We reviewed what worked, fixed what didn’t, and returned the next day with a clearer plan. By the end of day two, we had crafted a product we were proud of, not just another LLM fever dream.
 
-### It all started with a prompt. A very bad one.
+### It all started with a prompt.
 
 <br>
 {{< figure src="/images/2025/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/prompting-101.jpg" width="500px" class="text-center" align="center">}}
@@ -57,7 +57,7 @@ Early on, we fell into the trap of expecting AI to just _know_. We'd give it a h
 
 The turning point came when we shifted our approach. We started treating the AI like a bright but inexperienced intern. This meant being incredibly explicit in our instructions. Instead of vague requests, we provided detailed explanations, step-by-step guidance, and the full picture, not just the headline.
 
-For instance, when faced with a stubborn bug, simply stating "Fix this error" was futile. However, when we provided the specific error message ("teamBlogs.data?.map is not a function"), detailed the technology stack (React frontend, Rails backend), and even shared the relevant file structure, the AI's responses became significantly more helpful.
+For instance, vague prompts like “Change button animation” often led to confusing or unhelpful results. But when we were more specific say, “Update the animation for the ‘Generate’ button only. This is strictly a UI change; do not modify any underlying functionality or logic tied to the button” the output became significantly more accurate. It was like guiding an intern: clear instructions on what to change and just as importantly, what not to, made all the difference.
 
 **Moral of the story**: the AI doesn't need you to be polite. It needs you to be clear.
 
@@ -76,7 +76,7 @@ The surprisingly simple fix? We learned to explicitly instruct the AI to "Only u
 
 Our biggest win? Ditching broad AI requests that felt like shouting into the void ("clean up the homepage" = broken navbar).
 
-Instead, we embraced the power of the pixel. Asking for "increase the padding on the hero section by 16px" yielded exactly that. No surprises, no drama.
+Instead, we embraced the power of the pixel. Asking for "increase the padding on the hero section by 16px" yielded exactly that.
 
 This precision extended to our version control. Every small, meaningful change driven by AI got its own branch. Think of it as a safe space for the AI's experiments. If things went south (as they sometimes did), we could simply revert without a full-scale meltdown.
 
