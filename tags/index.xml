@@ -7,12 +7,26 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 01 May 2025 11:10:20 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 02 May 2025 16:04:54 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Tooling Hackathon</title>
+      <link>https://blog.incubyte.co/tags/ai-tooling-hackathon/</link>
+      <pubDate>Fri, 02 May 2025 16:04:54 +0530</pubDate>
+      <guid>https://blog.incubyte.co/tags/ai-tooling-hackathon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SDLC</title>
+      <link>https://blog.incubyte.co/tags/sdlc/</link>
+      <pubDate>Fri, 02 May 2025 16:04:54 +0530</pubDate>
+      <guid>https://blog.incubyte.co/tags/sdlc/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Software Craftsmanship</title>
       <link>https://blog.incubyte.co/tags/software-craftsmanship/</link>
-      <pubDate>Thu, 01 May 2025 11:10:20 +0530</pubDate>
+      <pubDate>Fri, 02 May 2025 16:04:54 +0530</pubDate>
       <guid>https://blog.incubyte.co/tags/software-craftsmanship/</guid>
       <description></description>
     </item>
@@ -329,13 +343,6 @@
       <link>https://blog.incubyte.co/tags/best-practices/</link>
       <pubDate>Thu, 19 Aug 2021 05:06:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/tags/best-practices/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SDLC</title>
-      <link>https://blog.incubyte.co/tags/sdlc/</link>
-      <pubDate>Thu, 19 Aug 2021 05:06:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/tags/sdlc/</guid>
       <description></description>
     </item>
     <item>

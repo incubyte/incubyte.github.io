@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Tooling Hackathon on Incubyte Blog</title>
+    <link>https://blog.incubyte.co/tags/ai-tooling-hackathon/</link>
+    <description>Recent content in AI Tooling Hackathon on Incubyte Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2024 Incubyte - All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 02 May 2025 16:04:54 +0530</lastBuildDate>
+    <atom:link href="https://blog.incubyte.co/tags/ai-tooling-hackathon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We Let AI Code for Us: Prompts Were Prayers and Code Was... Interesting</title>
+      <link>https://blog.incubyte.co/blog/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/</link>
+      <pubDate>Fri, 02 May 2025 16:04:54 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/</guid>
+      <description>&lt;p&gt;Building apps with AI is a bit like teaching a toddler to ride a bike while it&amp;rsquo;s also trying to build the bike mid-air. At our AI hackathon, we were not prepared for what was waiting for us. We went in with high hopes and half-baked prompts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
