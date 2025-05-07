@@ -178,9 +178,6 @@ approach leveraging the strengths of both DeepEval and LangSmith.
     b. Generate new synthetic test cases with DeepEval targeting those
     failure modes
 
-
-###
-
 ### **LangSmith Benefits in Our Hybrid Approach**
 
 LangSmith brings several advantages to our hybrid evaluation system:
