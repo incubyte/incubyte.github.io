@@ -1,13 +1,13 @@
 +++
 title = "Eval Testing"
-slug = "demo-post"
+slug = "eval-testing"
 date = 2025-05-06T20:29:20+05:30
 image = "/images/2025/eval-testing/cover-image.png"
-draft = true
+draft = false
 authors = ["Bhumika Shah", "Dhruvin Kavathiya"]
-description = "Eval Testing"
-tags = ["Testing", "Eval Testing", "Deep Eval", "LangSmith"]
-categories = ["Eval Testing", "Testing"]
+description = "This blog chronicles a team's journey in evaluating LLM outputs, transitioning from Eval.ai to a hybrid framework combining DeepEval's synthetic test generation with LangSmith's real-time observability. The result is a scalable, TypeScript-compatible evaluation system tailored for RAG applications and production-grade AI models."
+tags = ["Eval Testing", "Deep Eval", "LangSmith"]
+categories = ["Eval Testing", "Deep Eval", "LangSmith"]
 type = ""
 +++
 
