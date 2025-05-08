@@ -11,7 +11,7 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 # google analytics
 googleAnalytics = "UA-178057567-1"
 enableRobotsTXT = true
-Copyright = "© 2024 Incubyte - All Rights Reserved"
+Copyright = "© 2025 Incubyte - All Rights Reserved"
 
 # unsafe html
 [markup.goldmark.renderer]
