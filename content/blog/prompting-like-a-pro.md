@@ -1,19 +1,17 @@
 +++
-title = "Effective Prompting"
-slug = "effective-prompting"
+title = "Prompting Like a Pro: Crafting AI-Assisted Development Workflows"
+slug = "prompting-like-a-pro"
 date = 2025-05-07T17:13:27Z
-image = "/images/2025/effective-prompting/effective-prompting.jpg"
+image = "/images/2025/prompting-like-a-pro/prompting-like-a-pro.jpg"
 draft = false
 authors = ["Saugat Rai"]
 description = "Trips and tricks for effective prompting"
-tags = ["Effective Prompting"]
-categories = ["Effective Prompting", "AI", "Prompting"]
+tags = ["Prompting Like a Pro"]
+categories = ["Prompting Like a Pro", "AI", "Prompting"]
 type = ""
 +++
 
-# Effective Prompting
-
-There are many ways to effectively prompt an LLM to get a good response and the one I am sharing is one of them. These particular insights come from working with claud code. These are some tips and tricks I learned and you can also benefit from this so give it a go.
+There are many ways to effectively prompt an LLM to get a good response, and the one I am sharing here is tailored for software development. These particular insights come from working with Claude Code. The tips and tricks outlined below are based on my experience and can help you improve your development workflow with LLMs—so give them a try!
 
 ## Getting Started
 
