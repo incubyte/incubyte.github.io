@@ -6,12 +6,12 @@ image = "/images/2025/prompting-like-a-pro/prompting-like-a-pro.jpg"
 draft = false
 authors = ["Saugat Rai"]
 description = "Trips and tricks for effective prompting"
-tags = ["Prompting Like a Pro"]
-categories = ["Prompting Like a Pro", "AI", "Prompting"]
+tags = ["Prompt Engineering 101", "Learnings"]
+categories = ["Prompt Engineering 101", "AI", "Prompting"]
 type = ""
 +++
 
-There are many ways to effectively prompt an LLM to get a good response, and the one I am sharing here is tailored for software development. These particular insights come from working with Claude Code. The tips and tricks outlined below are based on my experience and can help you improve your development workflow with LLMs—so give them a try!
+There are many ways to effectively prompt an LLM to get a good response, and the one I am sharing here is tailored for software development. These particular insights come from working with [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview). The tips and tricks outlined below are based on my experience and can help you improve your development workflow with LLMs—so give them a try!
 
 ## Getting Started
 
@@ -47,7 +47,18 @@ Eg:
 <Observation>What happened in the last prompt</Observation>
 <GoldCoins>score</GoldCoins>
 <Problem>Problem you want to solve</Problem>
-<Solution>How you want it to solve</Solution>
+<Solution>How you want to solve it</Solution>
 ```
 
 You can be as creative as you want in creating these schemas, but once you pick one, try to stick with it.
+
+## Conclusion
+
+Prompting an LLM effectively can dramatically improve your productivity and code quality. By providing clear context, building structured foundations, maintaining clean interfaces, and working in small iterations, you’ll unlock the full potential of AI-assisted development. Don’t be afraid to get creative—gamifying interactions or using structured formats like XML can lead to even better results. Give these techniques a try in your own workflow and see how they transform your development experience.
+
+For further reading and inspiration, check out:
+
+- [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code/overview)
+- [Prompt Engineering Guide](https://www.promptingguide.ai)
+
+Happy building!
