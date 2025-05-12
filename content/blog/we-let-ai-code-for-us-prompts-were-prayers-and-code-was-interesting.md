@@ -11,7 +11,7 @@ categories = ["Software Craftsmanship", "AI Tooling Hackathon", "SDLC"]
 type = ""
 +++
 
-Building apps with AI is a bit like teaching a toddler to ride a bike while it's also trying to build the bike mid-air. At our AI hackathon, we were not prepared for what was waiting for us. We went in with high hopes and half-baked prompts.
+Building apps with AI is a bit like teaching a toddler to ride a bike while it's also trying to build the bike en route. At our AI hackathon, we were not prepared for what was waiting for us. We went in with high hopes and half-baked prompts.
 
 Let's ditch the whole robots-taking-over narrative for a second. Our hackathon was about getting our hands dirty, experimenting with the current generation of AI tools, and figuring out how they could genuinely enhance our workflows. We had developers, QAs, product managers, a whole spectrum of talent, all trying to bend AI to their will. Here’s what we learned along the way, from facepalms to features and everything in between.
 
