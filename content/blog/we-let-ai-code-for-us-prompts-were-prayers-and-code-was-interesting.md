@@ -95,7 +95,7 @@ It wasn't glamorous, but it was the thin line between a successful launch and a 
 
 Our AI hackathon quickly turned into a bit of a "Goldilocks and the Three Bears" situation – but with AI tools. We cultivated our ideas with different AI assistants, discovering that some helped certain features bloom while others were less effective in our digital garden. Every failure nudged us closer to what actually worked.
 
-Lovable shone brightly for front-end design, offering an intuitive and powerful way to bring UI ideas to life. However, when tackling backend APIs, its strengths didn't quite translate.
+Lovable shone brightly for front-end design, offering an intuitive and powerful way to bring UI ideas to life. That said, its strengths didn’t quite carry over to backend API generation. Over time, we also noticed a recurring pattern, the landing pages it generated often shared a similar structure and aesthetic. Without clear and specific design instructions, many of them ended up feeling like variations of the same template.
 
 Claude Code proved to be a powerhouse for backend logic and complex integrations, handling intricate tasks with impressive speed. Its limitation, however, was its terminal-only interface, which demanded a different set of know-hows in comparison to conventional code editors.
 
