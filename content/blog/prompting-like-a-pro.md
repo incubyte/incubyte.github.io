@@ -46,7 +46,7 @@ The best way to work with LLMs is to have iteration cycles as small as possible.
 
 ## Tips
 
-### Gaming the system
+### Gamify the system
 
 You can create a scoring system for the LLM and it will try to optimize for the highest score. You can create a virtual scoring system with points, coins, items (use your imagination). Once you have decided, stick to it. Whenever LLM gives you the response you want, give it a positive score and vice versa. This will create a reinforcement loop and then the LLM will start optimising for the positive scores, thereby giving you the good response.
 
