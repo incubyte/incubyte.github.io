@@ -25,6 +25,19 @@ It is important for you to first set the foundations. Ask it to create a project
 
 Have clear boundaries between different areas of the code base. Create interfaces that serve a specific purpose and work through those interfaces. If you have clean interfaces to interact with different parts of the code, the LLM will be less confused and have better results during integration. It also provides a clean separation when you want to refactor the code later.
 
+### Definition
+An **interface** is a defined boundary that specifies *what functionalities are exposed* and *how other components can interact with them*, without revealing the underlying implementation.
+
+### Examples of Interfaces
+
+| Context           | Example                             | Description                                                        |
+|-------------------|--------------------------------------|--------------------------------------------------------------------|
+| Java Interface    | `UserService` interface              | Defines a contract of methods that implementing classes must follow. |
+| Ruby Module       | `Authenticatable` module             | Provides a reusable set of behaviors; acts as a shared interface.  |
+| HTTP API          | `/users` endpoint                   | Exposes operations over HTTP; defines system-to-system interaction.|
+| UI Component      | `UserCard` component with props      | Defines what data/actions a UI component expects and emits.       |
+
+
 ## Iterate Iterate Iterate
 
 The best way to work with LLMs is to have iteration cycles as small as possible. Build small features, test and repeat. Always focus on a single part of the code at a time and don't make huge changes. This way you will have a much easier time reviewing the changes as well as testing. Building a large feature at once may seem faster at first but the mess it will create will slowly decrease the iteration speed.
@@ -51,6 +64,10 @@ Eg:
 ```
 
 You can be as creative as you want in creating these schemas, but once you pick one, try to stick with it.
+
+## Workflow
+
+{{< figure src="/images/2025/prompting-like-a-pro/workflow.png" >}}
 
 ## Conclusion
 
