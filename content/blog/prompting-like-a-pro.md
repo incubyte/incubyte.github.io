@@ -26,17 +26,17 @@ It is important for you to first set the foundations. Ask it to create a project
 Have clear boundaries between different areas of the code base. Create interfaces that serve a specific purpose and work through those interfaces. If you have clean interfaces to interact with different parts of the code, the LLM will be less confused and have better results during integration. It also provides a clean separation when you want to refactor the code later.
 
 ### Definition
-An **interface** is a defined boundary that specifies *what functionalities are exposed* and *how other components can interact with them*, without revealing the underlying implementation.
+
+An **interface** is a defined boundary that specifies _what functionalities are exposed_ and _how other components can interact with them_, without revealing the underlying implementation.
 
 ### Examples of Interfaces
 
-| Context           | Example                             | Description                                                        |
-|-------------------|--------------------------------------|--------------------------------------------------------------------|
-| Java Interface    | `UserService` interface              | Defines a contract of methods that implementing classes must follow. |
-| Ruby Module       | `Authenticatable` module             | Provides a reusable set of behaviors; acts as a shared interface.  |
-| HTTP API          | `/users` endpoint                   | Exposes operations over HTTP; defines system-to-system interaction.|
-| UI Component      | `UserCard` component with props      | Defines what data/actions a UI component expects and emits.       |
-
+| Context        | Example                         | Description                                                          |
+| -------------- | ------------------------------- | -------------------------------------------------------------------- |
+| Java Interface | `UserService` interface         | Defines a contract of methods that implementing classes must follow. |
+| Ruby Module    | `Authenticatable` module        | Provides a reusable set of behaviors; acts as a shared interface.    |
+| HTTP API       | `/users` endpoint               | Exposes operations over HTTP; defines system-to-system interaction.  |
+| UI Component   | `UserCard` component with props | Defines what data/actions a UI component expects and emits.          |
 
 ## Iterate Iterate Iterate
 
