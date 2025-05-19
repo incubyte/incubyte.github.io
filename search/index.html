@@ -14,7 +14,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.147.2">
+<meta name="generator" content="Hugo 0.147.3">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -638,7 +638,7 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "May 2, 2025",
+          "date": "May 6, 2025",
           "url": "https://blog.incubyte.co/"
       },
       
@@ -649,8 +649,140 @@
           "summary":"",
           "content":"",
           "image": null ,
-          "date": "May 2, 2025",
+          "date": "May 6, 2025",
           "url": "https://blog.incubyte.co/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/ai\/": {
+          "title": "AI",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "May 6, 2025",
+          "url": "https://blog.incubyte.co/categories/ai/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/ai\/": {
+          "title": "AI",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "May 6, 2025",
+          "url": "https://blog.incubyte.co/tags/ai/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/": {
+          "title": "Authors",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "May 6, 2025",
+          "url": "https://blog.incubyte.co/authors/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/bhumika-shah\/": {
+          "title": "Bhumika Shah",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "May 6, 2025",
+          "url": "https://blog.incubyte.co/authors/bhumika-shah/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/": {
+          "title": "Categories",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "May 6, 2025",
+          "url": "https://blog.incubyte.co/categories/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/blog\/eval-testing\/": {
+          "title": "Decode LLM Quality - Eval Testing and Benchmarking LLMs: An Evaluation Guide",
+          "tags": ["AI","TDD","Eval Testing",],
+          "authors":["Bhumika Shah","Dhruvin Kavathiya",],
+          "summary":"\u003cp\u003eOur Journey with LLM Evaluation Frameworks: From Eval.ai to a DeepEval-LangSmith Hybrid Approach\u003c/p\u003e",
+          "content":"Our Journey with LLM Evaluation Frameworks: From Eval.ai to a DeepEval-LangSmith Hybrid Approach\n\u0026quot;What gets measured gets improved.\u0026quot; - Peter Drucker\nIntroduction In the rapidly evolving landscape of Large Language Models (LLMs), ensuring the quality and reliability of model outputs isn\u0026rsquo;t just good practice-it\u0026rsquo;s essential. As our team embarked on building production-grade LLM applications, we quickly realized that robust evaluation frameworks would make the difference between mediocre and exceptional AI experiences.\nThis blog post chronicles our evaluation journey\u0026mdash;from our initial steps with Eval.ai through our transition to DeepEval, and finally to our current hybrid approach combining DeepEval\u0026rsquo;s synthetic data generation capabilities with LangSmith\u0026rsquo;s comprehensive observability.\nThe Challenge: Evaluating LLM Outputs at Scale Before diving into the tools, let\u0026rsquo;s frame the challenge we faced. Evaluating LLM outputs differs significantly from traditional software testing because:\nCorrectness is often subjective \u0026mdash; What makes a response \u0026quot;good\u0026quot; can vary based on context\nOutputs are non-deterministic \u0026mdash; The same prompt can yield different responses\nMultidimensional quality \u0026mdash; Responses need to be evaluated across dimensions like relevance, factuality, helpfulness, and safety\nTesting at production scale \u0026mdash; Manual evaluation quickly becomes unsustainable\nOur Initial Approach: Eval.ai We started our evaluation journey with Eval.ai, a platform designed primarily for ML researchers and competition organizers.\nWhat We Liked About Eval.ai Well-established platform with support for both automatic and human evaluations\nLeaderboard functionality for comparing different model variants\nSupport for multimodal evaluation\nThe Limitations We Encountered Too many manual tasks required for routine testing\nPrimarily designed for academic challenges rather than production deployment\nLimited integration options with our existing TypeScript codebase\nNot optimized for LLM-specific evaluation metrics such as hallucination detection\nAfter several sprints of struggling with these limitations, we knew we needed a more specialized solution for LLM evaluation.\nDiscovering DeepEval: LLM-Specific Testing Our search led us to DeepEval, a framework specifically built for evaluating generative AI outputs with a focus on semantic quality and factuality.\nWhat Drew Us to DeepEval DeepEval offered specialized metrics that aligned perfectly with our RAG (Retrieval-Augmented Generation) implementation:\nRAG-Specific Metrics Answer Relevancy: How well does the response address the query?\nFaithfulness: Does the response stick to the facts in the provided context?\nContextual Relevancy: Is the retrieved context relevant to the query?\nContextual Precision \u0026amp; Recall: How precise and comprehensive is the context selection?\nChatbot Metrics Conversational G-Eval: Overall quality of conversational responses\nKnowledge Retention: Ability to maintain context across a conversation\nRole Adherence: Consistency with defined persona or role\nConversation Completeness \u0026amp; Relevancy: How thoroughly and relevantly queries are addressed\nAgent Metrics Tool Correctness: Proper use of available tools\nTask Completion: Success in accomplishing requested tasks\nThe DeepEval Workflow DeepEval implements test cases representing atomic interactions with your LLM application, scored using various LLM-as-a-judge techniques:\nQAG (Question-Answer Generation)\nDAG (Deep Acyclic Graphs)\nG-Eval methodologies\nThe TypeScript Challenge\nDeepEval proved to be an excellent evaluation framework, but we faced one significant challenge: our production system was built in TypeScript, while DeepEval is Python-based. This language mismatch led us to explore a hybrid approach.\nOur Hybrid Solution: DeepEval + LangSmith\nRather than completely switching frameworks again, we developed a hybrid approach leveraging the strengths of both DeepEval and LangSmith.\nHow Our Hybrid Approach Works: Use DeepEval for synthetic data generation\na. Leverage DeepEval's capabilities to generate diverse, high-quality test cases\nb. Create \u0026quot;golden datasets\u0026quot; of input-context-expected output triplets\nImplement testing and monitoring in LangSmith\na. Feed synthetic data into LangSmith for continuous evaluation\nb. Track model performance and quality metrics in production\nMaintain a feedback loop\na. Identify failure modes in LangSmith\nb. Generate new synthetic test cases with DeepEval targeting those failure modes\nLangSmith Benefits in Our Hybrid Approach LangSmith brings several advantages to our hybrid evaluation system:\nFeature Benefit Full LLMOps Lifecycle Combines evaluation, observability, and dataset management Tracing Captures full traces of LLM chains and intermediate steps Production Integration Monitors live traffic with minimal overhead Dataset Management Organizes examples for evaluation and fine-tuning TypeScript SDK Seamless integration with our existing codebase Results and Insights After implementing our hybrid approach, we observed several significant improvements:\nTesting Coverage: 4x increase in test coverage across different query types\nEvaluation Speed: 70% reduction in time needed to evaluate new model versions\nIssue Detection: Identified subtle hallucination patterns that went undetected with manual testing\nProduction Monitoring: Real-time alerts when metric thresholds are breached\nComparative Analysis: Evaluation Frameworks To help others facing similar challenges, here’s our comparison of the main frameworks we explored:\nAspect Eval.ai DeepEval LangSmith Our Hybrid Approach Purpose Model benchmarking \u0026amp; competitions LLM-specific evaluation Full LLMOps lifecycle Comprehensive testing \u0026amp; monitoring Language Python, Web interface Python TypeScript/Python Python + TypeScript Synthetic Data Limited Strong Limited Strong Production Monitoring No Yes Yes Yes TypeScript Support No No Yes Yes RAG-specific Metrics No Yes Basic Yes Integration Effort High Medium Low Medium Lessons Learned Our journey through these evaluation frameworks taught us several valuable lessons:\nMatch the framework to your tech stack: The language your evaluation framework uses should align with your production codebase.\nSynthetic data is invaluable: Generating diverse, realistic test cases is essential for comprehensive evaluation.\nCombine offline and online evaluation: Pre-deployment testing and production monitoring are both necessary.\nDomain-specific metrics matter: Generic metrics don't capture the nuances of specialized applications like RAG systems.\nEvolve your evaluation strategy: As your LLM applications mature, your evaluation approach should evolve as well.\nWhat\u0026rsquo;s Next? As we continue refining our evaluation approach, we're exploring several promising directions:\nBehavioral testing: Developing more sophisticated adversarial examples\nHuman-in-the-loop validation: Selectively incorporating human feedback\nContinuous learning: Using evaluation failures as fine-tuning examples\nMulti-modal evaluation: Extending our framework to handle image and audio inputs\nConclusion The journey from Eval.ai to our current hybrid DeepEval-LangSmith approach reflects the rapid evolution of LLM evaluation. By leveraging DeepEval\u0026rsquo;s synthetic data generation capabilities and LangSmith\u0026rsquo;s comprehensive observability, we\u0026rsquo;ve built an evaluation framework that supports our TypeScript codebase while providing robust, multi-dimensional quality assessment.\nFor teams building production LLM systems, we recommend exploring this hybrid approach\u0026mdash;it combines the best of specialized evaluation techniques with practical integration into existing workflows and technology stacks.\nRemember: in the world of LLMs, you can\u0026rsquo;t improve what you don\u0026rsquo;t measure, and you can\u0026rsquo;t trust what you don\u0026rsquo;t test.\nHow is your team handling LLM evaluation? We\u0026rsquo;d love to hear about your approaches and challenges in the comments below!\n",
+          "image":"/images/2025/eval-testing/cover-image.jpg",
+          "date": "May 6, 2025",
+          "url": "https://blog.incubyte.co/blog/eval-testing/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/authors\/dhruvin-kavathiya\/": {
+          "title": "Dhruvin Kavathiya",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "May 6, 2025",
+          "url": "https://blog.incubyte.co/authors/dhruvin-kavathiya/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/eval-testing\/": {
+          "title": "Eval Testing",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "May 6, 2025",
+          "url": "https://blog.incubyte.co/categories/eval-testing/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/eval-testing\/": {
+          "title": "Eval Testing",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "May 6, 2025",
+          "url": "https://blog.incubyte.co/tags/eval-testing/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/": {
+          "title": "Tags",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "May 6, 2025",
+          "url": "https://blog.incubyte.co/tags/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/categories\/tdd\/": {
+          "title": "TDD",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "May 6, 2025",
+          "url": "https://blog.incubyte.co/categories/tdd/"
+      },
+      
+      "https:\/\/blog.incubyte.co\/tags\/tdd\/": {
+          "title": "TDD",
+          "tags": [],
+          "authors":[],
+          "summary":"",
+          "content":"",
+          "image": null ,
+          "date": "May 6, 2025",
+          "url": "https://blog.incubyte.co/tags/tdd/"
       },
       
       "https:\/\/blog.incubyte.co\/categories\/ai-tooling-hackathon\/": {
@@ -673,28 +805,6 @@
           "image": null ,
           "date": "May 2, 2025",
           "url": "https://blog.incubyte.co/tags/ai-tooling-hackathon/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/authors\/": {
-          "title": "Authors",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "May 2, 2025",
-          "url": "https://blog.incubyte.co/authors/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/": {
-          "title": "Categories",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "May 2, 2025",
-          "url": "https://blog.incubyte.co/categories/"
       },
       
       "https:\/\/blog.incubyte.co\/authors\/heet-vadiya\/": {
@@ -763,17 +873,6 @@
           "url": "https://blog.incubyte.co/tags/software-craftsmanship/"
       },
       
-      "https:\/\/blog.incubyte.co\/tags\/": {
-          "title": "Tags",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "May 2, 2025",
-          "url": "https://blog.incubyte.co/tags/"
-      },
-      
       "https:\/\/blog.incubyte.co\/blog\/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting\/": {
           "title": "We Let AI Code for Us: Prompts Were Prayers and Code Was... Interesting",
           "tags": ["Software Craftsmanship","AI Tooling Hackathon","SDLC",],
@@ -807,17 +906,6 @@
           "url": "https://blog.incubyte.co/categories/playbook/"
       },
       
-      "https:\/\/blog.incubyte.co\/tags\/tdd\/": {
-          "title": "TDD",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "May 1, 2025",
-          "url": "https://blog.incubyte.co/tags/tdd/"
-      },
-      
       "https:\/\/blog.incubyte.co\/authors\/tilak-patidar\/": {
           "title": "Tilak Patidar",
           "tags": [],
@@ -827,28 +915,6 @@
           "image": null ,
           "date": "May 1, 2025",
           "url": "https://blog.incubyte.co/authors/tilak-patidar/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/ai\/": {
-          "title": "AI",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "April 11, 2025",
-          "url": "https://blog.incubyte.co/categories/ai/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/tags\/ai\/": {
-          "title": "AI",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "April 11, 2025",
-          "url": "https://blog.incubyte.co/tags/ai/"
       },
       
       "https:\/\/blog.incubyte.co\/blog\/quick-cue-chrome-extension\/": {
@@ -1201,17 +1267,6 @@
           "image": null ,
           "date": "January 9, 2025",
           "url": "https://blog.incubyte.co/authors/siya-agarwal/"
-      },
-      
-      "https:\/\/blog.incubyte.co\/categories\/tdd\/": {
-          "title": "TDD",
-          "tags": [],
-          "authors":[],
-          "summary":"",
-          "content":"",
-          "image": null ,
-          "date": "January 9, 2025",
-          "url": "https://blog.incubyte.co/categories/tdd/"
       },
       
       "https:\/\/blog.incubyte.co\/authors\/anita-malhotra\/": {

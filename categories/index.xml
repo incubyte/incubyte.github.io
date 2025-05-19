@@ -7,8 +7,29 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 02 May 2025 16:04:54 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 06 May 2025 20:29:20 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://blog.incubyte.co/categories/ai/</link>
+      <pubDate>Tue, 06 May 2025 20:29:20 +0530</pubDate>
+      <guid>https://blog.incubyte.co/categories/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eval Testing</title>
+      <link>https://blog.incubyte.co/categories/eval-testing/</link>
+      <pubDate>Tue, 06 May 2025 20:29:20 +0530</pubDate>
+      <guid>https://blog.incubyte.co/categories/eval-testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TDD</title>
+      <link>https://blog.incubyte.co/categories/tdd/</link>
+      <pubDate>Tue, 06 May 2025 20:29:20 +0530</pubDate>
+      <guid>https://blog.incubyte.co/categories/tdd/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI Tooling Hackathon</title>
       <link>https://blog.incubyte.co/categories/ai-tooling-hackathon/</link>
@@ -35,13 +56,6 @@
       <link>https://blog.incubyte.co/categories/playbook/</link>
       <pubDate>Thu, 01 May 2025 11:10:20 +0530</pubDate>
       <guid>https://blog.incubyte.co/categories/playbook/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>https://blog.incubyte.co/categories/ai/</link>
-      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/categories/ai/</guid>
       <description></description>
     </item>
     <item>
@@ -112,13 +126,6 @@
       <link>https://blog.incubyte.co/categories/jest/</link>
       <pubDate>Mon, 13 Jan 2025 16:24:01 +0530</pubDate>
       <guid>https://blog.incubyte.co/categories/jest/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>TDD</title>
-      <link>https://blog.incubyte.co/categories/tdd/</link>
-      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/categories/tdd/</guid>
       <description></description>
     </item>
     <item>

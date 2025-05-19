@@ -3,21 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2025-05-02T16:04:54+05:30</lastmod>
+    <lastmod>2025-05-06T20:29:20+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2025-05-02T16:04:54+05:30</lastmod>
+    <lastmod>2025-05-06T20:29:20+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/ai/</loc>
+    <lastmod>2025-05-06T20:29:20+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/ai/</loc>
+    <lastmod>2025-05-06T20:29:20+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/</loc>
+    <lastmod>2025-05-06T20:29:20+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/bhumika-shah/</loc>
+    <lastmod>2025-05-06T20:29:20+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/</loc>
+    <lastmod>2025-05-06T20:29:20+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/eval-testing/</loc>
+    <lastmod>2025-05-06T20:29:20+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/dhruvin-kavathiya/</loc>
+    <lastmod>2025-05-06T20:29:20+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/eval-testing/</loc>
+    <lastmod>2025-05-06T20:29:20+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/eval-testing/</loc>
+    <lastmod>2025-05-06T20:29:20+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/</loc>
+    <lastmod>2025-05-06T20:29:20+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/tdd/</loc>
+    <lastmod>2025-05-06T20:29:20+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/tdd/</loc>
+    <lastmod>2025-05-06T20:29:20+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/ai-tooling-hackathon/</loc>
     <lastmod>2025-05-02T16:04:54+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/tags/ai-tooling-hackathon/</loc>
-    <lastmod>2025-05-02T16:04:54+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/authors/</loc>
-    <lastmod>2025-05-02T16:04:54+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/</loc>
     <lastmod>2025-05-02T16:04:54+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/heet-vadiya/</loc>
@@ -38,9 +68,6 @@
     <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
     <lastmod>2025-05-02T16:04:54+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/</loc>
-    <lastmod>2025-05-02T16:04:54+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/blog/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/</loc>
     <lastmod>2025-05-02T16:04:54+05:30</lastmod>
   </url><url>
@@ -50,17 +77,8 @@
     <loc>https://blog.incubyte.co/categories/playbook/</loc>
     <lastmod>2025-05-01T11:10:20+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/tdd/</loc>
-    <lastmod>2025-05-01T11:10:20+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/authors/tilak-patidar/</loc>
     <lastmod>2025-05-01T11:10:20+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/ai/</loc>
-    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/ai/</loc>
-    <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/quick-cue-chrome-extension/</loc>
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
@@ -156,9 +174,6 @@
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/siya-agarwal/</loc>
-    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/tdd/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/anita-malhotra/</loc>

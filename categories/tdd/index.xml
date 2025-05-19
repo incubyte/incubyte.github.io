@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 May 2025 20:29:20 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/categories/tdd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decode LLM Quality - Eval Testing and Benchmarking LLMs: An Evaluation Guide</title>
+      <link>https://blog.incubyte.co/blog/eval-testing/</link>
+      <pubDate>Tue, 06 May 2025 20:29:20 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/eval-testing/</guid>
+      <description>&lt;p&gt;Our Journey with LLM Evaluation Frameworks: From Eval.ai to a DeepEval-LangSmith Hybrid Approach&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A Practical Approach to Test-Driven Development: Beyond Red, Green, Refactor</title>
       <link>https://blog.incubyte.co/blog/a-practical-approach-to-test-driven-development-beyond-red-green-refactor/</link>

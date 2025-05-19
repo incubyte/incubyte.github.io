@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eval Testing on Incubyte Blog</title>
+    <link>https://blog.incubyte.co/tags/eval-testing/</link>
+    <description>Recent content in Eval Testing on Incubyte Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 06 May 2025 20:29:20 +0530</lastBuildDate>
+    <atom:link href="https://blog.incubyte.co/tags/eval-testing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decode LLM Quality - Eval Testing and Benchmarking LLMs: An Evaluation Guide</title>
+      <link>https://blog.incubyte.co/blog/eval-testing/</link>
+      <pubDate>Tue, 06 May 2025 20:29:20 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/eval-testing/</guid>
+      <description>&lt;p&gt;Our Journey with LLM Evaluation Frameworks: From Eval.ai to a DeepEval-LangSmith Hybrid Approach&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
