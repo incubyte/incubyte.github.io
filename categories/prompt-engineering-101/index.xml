@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prompt Engineering 101 on Incubyte Blog</title>
+    <link>https://blog.incubyte.co/categories/prompt-engineering-101/</link>
+    <description>Recent content in Prompt Engineering 101 on Incubyte Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 07 May 2025 17:13:27 +0000</lastBuildDate>
+    <atom:link href="https://blog.incubyte.co/categories/prompt-engineering-101/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prompting Like a Pro: Crafting AI-Assisted Development Workflows</title>
+      <link>https://blog.incubyte.co/blog/prompting-like-a-pro/</link>
+      <pubDate>Wed, 07 May 2025 17:13:27 +0000</pubDate>
+      <guid>https://blog.incubyte.co/blog/prompting-like-a-pro/</guid>
+      <description>&lt;p&gt;There are many ways to effectively prompt an LLM to get a good response, and the one I am sharing here is tailored for software development. These particular insights come from working with &lt;a href=&#34;https://docs.anthropic.com/en/docs/claude-code/overview&#34;&gt;Claude Code&lt;/a&gt;. The tips and tricks outlined below are based on my experience and can help you improve your development workflow with LLMs—so give them a try!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

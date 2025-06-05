@@ -7,13 +7,27 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 06 May 2025 20:29:20 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2025 17:13:27 +0000</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
       <link>https://blog.incubyte.co/categories/ai/</link>
-      <pubDate>Tue, 06 May 2025 20:29:20 +0530</pubDate>
+      <pubDate>Wed, 07 May 2025 17:13:27 +0000</pubDate>
       <guid>https://blog.incubyte.co/categories/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prompt Engineering 101</title>
+      <link>https://blog.incubyte.co/categories/prompt-engineering-101/</link>
+      <pubDate>Wed, 07 May 2025 17:13:27 +0000</pubDate>
+      <guid>https://blog.incubyte.co/categories/prompt-engineering-101/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prompting</title>
+      <link>https://blog.incubyte.co/categories/prompting/</link>
+      <pubDate>Wed, 07 May 2025 17:13:27 +0000</pubDate>
+      <guid>https://blog.incubyte.co/categories/prompting/</guid>
       <description></description>
     </item>
     <item>
