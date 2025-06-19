@@ -11,7 +11,11 @@
             </div>
         </div>
         {{end}}
-        <div class="display-4">Posts</div>
+
+        {{ if not (or (eq .RelPermalink "/authors/") (eq .RelPermalink "/tags/")) }}
+            <div class="display-4">Posts</div>
+        {{ end }}
+
         <hr>
         <div class="row">
             {{ range first 1 (where .Data.Pages "Type" "featured") }}
@@ -50,11 +54,13 @@
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
                         {{ end }}
                         <p class="card-text">{{ .Summary | truncate 120 "..." }} </p>
-                        <p class="blockquote-footer text-right">
-                            By {{range .Params.authors}}
-                            <a href="/authors/{{ . | urlize }}">{{ . }}</a>, {{ end }} on {{
-                            .Date.Format "January 2, 2006"}}
-                        </p>
+                        {{ if not (or (eq .Section "authors") (eq .Section "tags")) }}
+                            <p class="blockquote-footer text-right">
+                                By {{ range .Params.authors }}
+                                <a href="/authors/{{ . | urlize }}">{{ . }}</a>, {{ end }} on {{
+                                .Date.Format "January 2, 2006"}}
+                            </p>
+                        {{ end }}
                     </div>
                 </article>
             </div>

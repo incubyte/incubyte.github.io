@@ -16,16 +16,17 @@ In Ruby, the dynamic nature of method dispatch is one of its key features. Metho
 #### Dynamic Dispatch
 
 ```ruby
-	class Number
-		def square(argument)
-			argument ** 2
-		end
-		def cube(argument)
-			argument ** 3
-		end
-	end
-	number = Number.new
-	number.square(3) #=> 9
+class Number
+  def square(argument)
+    argument ** 2
+  end
+
+  def cube(argument)
+    argument ** 3
+  end
+end
+number = Number.new
+number.square(3) #=> 9
 ```
 
 Method can be called using dot notation but this restricts making the method call being dynamic.
@@ -62,9 +63,9 @@ A method can be defined using `define_method` at the run time.
 ```ruby
 class Number
   define_component(method_name, argument, power)
-	define_method(method_name) do |argument, power|
-		argument ** power
-	end
+    define_method(method_name) do |argument, power|
+      argument ** power
+    end
   end
 end
 number = Number.new
@@ -90,9 +91,9 @@ We can override this method and return what we want to.
 
 ```ruby
 class Book
-	def method_missing(method, args)
-		"All missing methods return this string"
-	end
+  def method_missing(method, args)
+    "All missing methods return this string"
+  end
 end
 book = Book.new
 book.author

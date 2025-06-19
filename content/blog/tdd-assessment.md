@@ -36,10 +36,9 @@ With that, let's jump right in!
 1. Host your solution on a **public** GitHub/GitLab repository.
 2. Follow best practices for TDD. Watch [this video](https://youtu.be/qkblc5WRn-U) to understand TDD better.
 3. Commit your changes frequently, ideally after every change to show how your code evolves with every step of TDD.
-4. We encourage you to use the programming language and tools you feel most comfortable with.
-   If you are applying for a specific role, you might want to use the language that is most relevant to the role.
+4. We encourage you to use the programming language and tools best suited for the role you are applying for.
 5. Do not rush, take your time. We want to see your best work!
-6. Send us the link to your repo once you’re happy with what you have done.
+6. Send us the link to your repo once you’re happy with what you have done, make sure to include screenshots and other relevant information.
 
 ## String Calculator TDD Kata
 
