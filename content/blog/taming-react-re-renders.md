@@ -44,8 +44,8 @@ function TodoList({items}) {
   console.log('Rendering list');
   return (
     <ul>
-      {items.map((item, i) => (
-        <li key={i}>{item}</li>
+      {items.map((item) => (
+        <li key={item.id}>{item.text}</li>
       ))}
     </ul>
   );
@@ -120,7 +120,7 @@ Here's how to use memoization:
 ```jsx
 const MemoizedList = React.memo(function ({items}) {
   console.log('List render');
-  return;
+  return null;
 });
 
 // In parent:
