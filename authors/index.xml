@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 07 May 2025 17:13:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jun 2025 09:25:00 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tilak Patidar</title>
+      <link>https://blog.incubyte.co/authors/tilak-patidar/</link>
+      <pubDate>Thu, 19 Jun 2025 09:25:00 +0530</pubDate>
+      <guid>https://blog.incubyte.co/authors/tilak-patidar/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Saugat Rai</title>
       <link>https://blog.incubyte.co/authors/saugat-rai/</link>
@@ -43,13 +50,6 @@
       <pubDate>Fri, 02 May 2025 16:04:54 +0530</pubDate>
       <guid>https://blog.incubyte.co/authors/sapan-parikh/</guid>
       <description>&lt;p&gt;A tech evangelist and mentor, Sapan has been fuelled by two things in his 15+ year professional career; coffee and his love of designing self-motivated, high-performing and passionate software engineering teams. Being a software craftsperson at heart, he has created and coached teams of over 500 software developers spread across the US and India with the sole objective of forging exceptional software products with an unfettered focus on quality.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Tilak Patidar</title>
-      <link>https://blog.incubyte.co/authors/tilak-patidar/</link>
-      <pubDate>Thu, 01 May 2025 11:10:20 +0530</pubDate>
-      <guid>https://blog.incubyte.co/authors/tilak-patidar/</guid>
-      <description></description>
     </item>
     <item>
       <title>Dixit Tilaji</title>

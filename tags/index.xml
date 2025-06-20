@@ -7,8 +7,29 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 07 May 2025 17:13:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jun 2025 09:25:00 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Best Practices</title>
+      <link>https://blog.incubyte.co/tags/best-practices/</link>
+      <pubDate>Thu, 19 Jun 2025 09:25:00 +0530</pubDate>
+      <guid>https://blog.incubyte.co/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend</title>
+      <link>https://blog.incubyte.co/tags/frontend/</link>
+      <pubDate>Thu, 19 Jun 2025 09:25:00 +0530</pubDate>
+      <guid>https://blog.incubyte.co/tags/frontend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testing</title>
+      <link>https://blog.incubyte.co/tags/testing/</link>
+      <pubDate>Thu, 19 Jun 2025 09:25:00 +0530</pubDate>
+      <guid>https://blog.incubyte.co/tags/testing/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Learnings</title>
       <link>https://blog.incubyte.co/tags/learnings/</link>
@@ -77,13 +98,6 @@
       <link>https://blog.incubyte.co/tags/react/</link>
       <pubDate>Tue, 25 Mar 2025 10:30:00 +0530</pubDate>
       <guid>https://blog.incubyte.co/tags/react/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Testing</title>
-      <link>https://blog.incubyte.co/tags/testing/</link>
-      <pubDate>Tue, 25 Mar 2025 10:30:00 +0530</pubDate>
-      <guid>https://blog.incubyte.co/tags/testing/</guid>
       <description></description>
     </item>
     <item>
@@ -350,13 +364,6 @@
       <link>https://blog.incubyte.co/tags/devops/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://blog.incubyte.co/tags/devops/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Best Practices</title>
-      <link>https://blog.incubyte.co/tags/best-practices/</link>
-      <pubDate>Thu, 19 Aug 2021 05:06:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/tags/best-practices/</guid>
       <description></description>
     </item>
     <item>

@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 07 May 2025 17:13:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jun 2025 09:25:00 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Playbook</title>
+      <link>https://blog.incubyte.co/categories/playbook/</link>
+      <pubDate>Thu, 19 Jun 2025 09:25:00 +0530</pubDate>
+      <guid>https://blog.incubyte.co/categories/playbook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Craftsmanship</title>
+      <link>https://blog.incubyte.co/categories/software-craftsmanship/</link>
+      <pubDate>Thu, 19 Jun 2025 09:25:00 +0530</pubDate>
+      <guid>https://blog.incubyte.co/categories/software-craftsmanship/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI</title>
       <link>https://blog.incubyte.co/categories/ai/</link>
@@ -56,20 +70,6 @@
       <link>https://blog.incubyte.co/categories/sdlc/</link>
       <pubDate>Fri, 02 May 2025 16:04:54 +0530</pubDate>
       <guid>https://blog.incubyte.co/categories/sdlc/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Craftsmanship</title>
-      <link>https://blog.incubyte.co/categories/software-craftsmanship/</link>
-      <pubDate>Fri, 02 May 2025 16:04:54 +0530</pubDate>
-      <guid>https://blog.incubyte.co/categories/software-craftsmanship/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Playbook</title>
-      <link>https://blog.incubyte.co/categories/playbook/</link>
-      <pubDate>Thu, 01 May 2025 11:10:20 +0530</pubDate>
-      <guid>https://blog.incubyte.co/categories/playbook/</guid>
       <description></description>
     </item>
     <item>

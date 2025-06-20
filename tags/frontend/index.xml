@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frontend on Incubyte Blog</title>
+    <link>https://blog.incubyte.co/tags/frontend/</link>
+    <description>Recent content in Frontend on Incubyte Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 19 Jun 2025 09:25:00 +0530</lastBuildDate>
+    <atom:link href="https://blog.incubyte.co/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stop Testing Implementation Details in Your Frontend Code</title>
+      <link>https://blog.incubyte.co/blog/avoid-testing-implementation-details/</link>
+      <pubDate>Thu, 19 Jun 2025 09:25:00 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/avoid-testing-implementation-details/</guid>
+      <description>&lt;p&gt;As developers, we all want to write good tests. But sometimes, without realizing it, we write tests that make our lives harder instead of easier. Today, let&amp;rsquo;s talk about one of the biggest testing mistakes: &lt;strong&gt;testing implementation details&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
