@@ -2,13 +2,13 @@
 title = "Beyond Blueprints: Architecture Insights from GIDS 2025"
 slug = "architecture-insights-from-gids-2025"
 date = 2025-06-25T16:04:17+05:30
-image = "/images/2025/architechture-insights-from-gids-2025/architecture-insights.png"
+image = "/images/2025/architecture-insights-from-gids-2025/architecture-insights.png"
 draft = true
 authors = ["Anita Malhotra"]
 description = ""
 tags = ["Software Architecture", "Agile Architecture", "Learnings"]
 categories = ["Software Architecture", "Agile Architecture", "Learnings"]
-type = ""
+type = "blog"
 +++
 
 What does it really take to design software that lasts?
