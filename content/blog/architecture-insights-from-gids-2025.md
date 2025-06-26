@@ -2,7 +2,7 @@
 title = "Beyond Blueprints: Architecture Insights from GIDS 2025"
 slug = "architecture-insights-from-gids-2025"
 date = 2025-06-25T16:04:17+05:30
-image = "/images/2025/architecture-insights-from-gids-2025/architecture-insights.png"
+image = "/images/2025/architecture-insights-from-gids-2025/architecture-insights.jpg"
 draft = false
 authors = ["Anita Malhotra"]
 description = ""
