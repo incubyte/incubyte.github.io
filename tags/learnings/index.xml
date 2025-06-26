@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 07 May 2025 17:13:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jun 2025 16:04:17 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/tags/learnings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beyond Blueprints: Architecture Insights from GIDS 2025</title>
+      <link>https://blog.incubyte.co/blog/architecture-insights-from-gids-2025/</link>
+      <pubDate>Wed, 25 Jun 2025 16:04:17 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/architecture-insights-from-gids-2025/</guid>
+      <description>&lt;p&gt;What does it really take to design software that lasts?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Prompting Like a Pro: Crafting AI-Assisted Development Workflows</title>
       <link>https://blog.incubyte.co/blog/prompting-like-a-pro/</link>

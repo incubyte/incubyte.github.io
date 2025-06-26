@@ -7,8 +7,29 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 19 Jun 2025 09:25:00 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jun 2025 16:04:17 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agile Architecture</title>
+      <link>https://blog.incubyte.co/categories/agile-architecture/</link>
+      <pubDate>Wed, 25 Jun 2025 16:04:17 +0530</pubDate>
+      <guid>https://blog.incubyte.co/categories/agile-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Learnings</title>
+      <link>https://blog.incubyte.co/categories/learnings/</link>
+      <pubDate>Wed, 25 Jun 2025 16:04:17 +0530</pubDate>
+      <guid>https://blog.incubyte.co/categories/learnings/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Architecture</title>
+      <link>https://blog.incubyte.co/categories/software-architecture/</link>
+      <pubDate>Wed, 25 Jun 2025 16:04:17 +0530</pubDate>
+      <guid>https://blog.incubyte.co/categories/software-architecture/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Playbook</title>
       <link>https://blog.incubyte.co/categories/playbook/</link>
@@ -252,13 +273,6 @@
       <link>https://blog.incubyte.co/categories/refactoring/</link>
       <pubDate>Fri, 18 Aug 2023 00:10:46 +0530</pubDate>
       <guid>https://blog.incubyte.co/categories/refactoring/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Learnings</title>
-      <link>https://blog.incubyte.co/categories/learnings/</link>
-      <pubDate>Fri, 23 Jun 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/categories/learnings/</guid>
       <description></description>
     </item>
     <item>

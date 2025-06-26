@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 19 Jun 2025 09:25:00 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jun 2025 16:04:17 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beyond Blueprints: Architecture Insights from GIDS 2025</title>
+      <link>https://blog.incubyte.co/blog/architecture-insights-from-gids-2025/</link>
+      <pubDate>Wed, 25 Jun 2025 16:04:17 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/architecture-insights-from-gids-2025/</guid>
+      <description>&lt;p&gt;What does it really take to design software that lasts?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Stop Testing Implementation Details in Your Frontend Code</title>
       <link>https://blog.incubyte.co/blog/avoid-testing-implementation-details/</link>

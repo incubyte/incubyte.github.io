@@ -7,8 +7,29 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 19 Jun 2025 09:25:00 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jun 2025 16:04:17 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agile Architecture</title>
+      <link>https://blog.incubyte.co/tags/agile-architecture/</link>
+      <pubDate>Wed, 25 Jun 2025 16:04:17 +0530</pubDate>
+      <guid>https://blog.incubyte.co/tags/agile-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Learnings</title>
+      <link>https://blog.incubyte.co/tags/learnings/</link>
+      <pubDate>Wed, 25 Jun 2025 16:04:17 +0530</pubDate>
+      <guid>https://blog.incubyte.co/tags/learnings/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Architecture</title>
+      <link>https://blog.incubyte.co/tags/software-architecture/</link>
+      <pubDate>Wed, 25 Jun 2025 16:04:17 +0530</pubDate>
+      <guid>https://blog.incubyte.co/tags/software-architecture/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Best Practices</title>
       <link>https://blog.incubyte.co/tags/best-practices/</link>
@@ -28,13 +49,6 @@
       <link>https://blog.incubyte.co/tags/testing/</link>
       <pubDate>Thu, 19 Jun 2025 09:25:00 +0530</pubDate>
       <guid>https://blog.incubyte.co/tags/testing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Learnings</title>
-      <link>https://blog.incubyte.co/tags/learnings/</link>
-      <pubDate>Wed, 07 May 2025 17:13:27 +0000</pubDate>
-      <guid>https://blog.incubyte.co/tags/learnings/</guid>
       <description></description>
     </item>
     <item>
