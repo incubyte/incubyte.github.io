@@ -112,25 +112,25 @@ Here's how to implement throttling to prevent excessive re-renders:
 ```jsx
 function useThrottledWindowWidth(delay = 100) {
   const [width, setWidth] = useState(window.innerWidth);
-  
+
   useEffect(() => {
     let timeoutId;
     const onResize = () => {
       if (timeoutId) return;
-      
+
       timeoutId = setTimeout(() => {
         setWidth(window.innerWidth);
         timeoutId = null;
       }, delay);
     };
-    
+
     window.addEventListener('resize', onResize);
     return () => {
       window.removeEventListener('resize', onResize);
       if (timeoutId) clearTimeout(timeoutId);
     };
   }, [delay]);
-  
+
   return width;
 }
 
@@ -207,6 +207,7 @@ function Item({initial}) {
   );
 }
 ```
+
 Parting thoughts:
 
 By moving state down to individual `Item` components, typing in one input only re-renders that specific item, not the entire list!
