@@ -3,7 +3,7 @@ title = "Taming React Re-renders: A Guide to Optimizing Performance"
 slug = "taming-react-re-renders"
 date = 2025-06-11T20:48:34+05:30
 image = "/images/2025/taming-react-re-renders/header.jpg"
-draft = true
+draft = false
 authors = ["Ajith Kumar"]
 description = "A comprehensive guide to understanding and optimizing React re-renders for better application performance"
 tags = ["React", "Performance", "Software Craftsmanship"]
@@ -68,9 +68,13 @@ Here's what you need to know:
 
 {{< figure src="/images/2025/taming-react-re-renders/state-changes-example.jpg" caption="" >}}
 
+When a component's state changes, React automatically re-renders that component. This is React's way of keeping the UI in sync with your data. For example, when you type in an input field, the component holding that input's state will re-render to reflect the new value.
+
 - **Parent updates** cause child re-renders
 
 {{< figure src="/images/2025/taming-react-re-renders/parent-example.jpg" caption="" >}}
+
+React follows a top-down rendering pattern. When a parent component re-renders, all of its children re-render too (unless they're memoized). This is why moving state down the component tree can be so effective - it limits the scope of re-renders to only the components that actually need to update.
 
 - React is smart! It batches multiple state updates in event handlers into a single re-render
 
@@ -103,11 +107,48 @@ To avoid this:
 - Use throttling or debouncing for frequent updates
 - Only use hooks in components that really need them
 
+Here's how to implement throttling to prevent excessive re-renders:
+
+```jsx
+function useThrottledWindowWidth(delay = 100) {
+  const [width, setWidth] = useState(window.innerWidth);
+  
+  useEffect(() => {
+    let timeoutId;
+    const onResize = () => {
+      if (timeoutId) return;
+      
+      timeoutId = setTimeout(() => {
+        setWidth(window.innerWidth);
+        timeoutId = null;
+      }, delay);
+    };
+    
+    window.addEventListener('resize', onResize);
+    return () => {
+      window.removeEventListener('resize', onResize);
+      if (timeoutId) clearTimeout(timeoutId);
+    };
+  }, [delay]);
+  
+  return width;
+}
+
+// Now the Header only re-renders every 100ms instead of on every pixel change
+function Header() {
+  const width = useThrottledWindowWidth(100);
+  console.log('Header render');
+  return <h1>Window: {width}px</h1>;
+}
+```
+
 ## The "Big Re-renders" Myth
 
 Many developers worry about "big" components causing performance issues. But here's the truth: React's diffing algorithm is very efficient! Even lists with dozens of items render quickly.
 
 {{< figure src="/images/2025/taming-react-re-renders/props-myth.jpg" caption="" >}}
+
+This image indicates that the prop inline (<Child value={{value}} />), each render creates a brand-new object—even if its contents haven’t changed—so React’s shallow prop check sees it as different and re-renders the child
 
 Instead of worrying about component size, focus on:
 
@@ -166,9 +207,12 @@ function Item({initial}) {
   );
 }
 ```
+Parting thoughts:
 
 By moving state down to individual `Item` components, typing in one input only re-renders that specific item, not the entire list!
 
-Remember: Optimizing React performance is more about understanding when and why components re-render than about complex optimizations. Start by profiling your app with React DevTools, identify the bottlenecks, and apply these strategies where they make the most sense.
+Remember: Optimizing React performance is more about understanding when and why components re-render than about complex optimizations. Start by profiling your app with [React DevTools](https://react.dev/learn/react-developer-tools), identify the bottlenecks, and apply these strategies where they make the most sense.
+
+For even better debugging, check out [why-did-you-render](https://github.com/welldone-software/why-did-you-render) - a fantastic tool that logs when and why your components re-render, making it much easier to spot unnecessary re-renders in development.
 
 Happy coding! 🚀
