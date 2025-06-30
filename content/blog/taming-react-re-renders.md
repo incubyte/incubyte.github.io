@@ -110,31 +110,44 @@ To avoid this:
 Here's how to implement throttling to prevent excessive re-renders:
 
 ```jsx
+import {useState, useEffect, useRef, useCallback} from 'react';
+import {throttle} from 'lodash';
+
 function useThrottledWindowWidth(delay = 100) {
-  const [width, setWidth] = useState(window.innerWidth);
+  // 1) Initialize state safely (SSR-friendly)
+  const [width, setWidth] = useState(() =>
+    typeof window !== 'undefined' ? window.innerWidth : 0
+  );
 
+  // 2) Create a stable, memoized throttled handler
+  const throttled = useRef(
+    throttle(() => {
+      setWidth(window.innerWidth);
+    }, delay)
+  );
+
+  // 3) Whenever `delay` changes, re-create the throttle function
   useEffect(() => {
-    let timeoutId;
-    const onResize = () => {
-      if (timeoutId) return;
-
-      timeoutId = setTimeout(() => {
-        setWidth(window.innerWidth);
-        timeoutId = null;
-      }, delay);
-    };
-
-    window.addEventListener('resize', onResize);
-    return () => {
-      window.removeEventListener('resize', onResize);
-      if (timeoutId) clearTimeout(timeoutId);
-    };
+    throttled.current = throttle(() => setWidth(window.innerWidth), delay);
+    return () => throttled.current.cancel();
   }, [delay]);
+
+  // 4) Wire up the resize listener once
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    const handler = () => throttled.current();
+    window.addEventListener('resize', handler);
+    return () => {
+      window.removeEventListener('resize', handler);
+      throttled.current.cancel();
+    };
+  }, []);
 
   return width;
 }
 
-// Now the Header only re-renders every 100ms instead of on every pixel change
+// Usage remains the same:
 function Header() {
   const width = useThrottledWindowWidth(100);
   console.log('Header render');
