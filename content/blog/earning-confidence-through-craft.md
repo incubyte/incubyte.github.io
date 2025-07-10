@@ -1,13 +1,13 @@
 +++
-title = "Palisades Case Study"
+title = "Earning Confidence Through Craft"
 slug = "demo-post"
 date = 2025-07-03T13:06:36+05:30
 image = "/images/2021/09/pair-prog-head.jpg"
 draft = true
 authors = ["Navaldeep Srivastava"]
 description = ""
-tags = ["Playbook", "Software Craftsmanship"]
-categories = ["Playbook", "Software Craftsmanship"]
+tags = ["Case Study", "Modernization", "Software Craftsmanship"]
+categories = ["Case Study", "Modernization", "Software Craftsmanship"]
 type = ""
 +++
 
@@ -63,9 +63,9 @@ To support the successful rollout of the component library and the information a
 
 - **Unified Design Language & Asset Management:** A centralized repository for core design assets (e.g., icons) was created, ensuring consistent branding and faster, error-free development across the new UI ecosystem.
 
-- **Elevated Code Quality & Collaborative Standards:** We began with close collaboration to understand existing PR review standards, documenting them into clear offshore-friendly guidelines. This helped build trust and consistency, enabling a gradual shift of review responsibilities to senior offshore engineers. As a result of these efforts, cycle time reduced by 51% over a period of 4 months, and code review time decreased by 55%.
+- **Elevated Code Quality & Collaborative Standards:** Through a collaborative effort between onshore and offshore teams, we streamlined the pull request (PR) review process by first documenting existing review standards into clear, offshore-friendly guidelines. This alignment fostered trust, improved review quality, and enabled senior offshore engineers to gradually take on more review responsibilities. The result was a significant reduction in PR review time, which played a pivotal role in decreasing overall cycle time by 51% over just four months.
 
-- **Standardized Code Integration Practices:** Best practices for version control were enforced to maintain a clean history and support parallel development across streams.
+- **Standardized Code Integration Practices:** Best practices for version control were exercised to maintain a clean history and support parallel development across streams.
 
 - **Proactive Quality Assurance for IA:** Regression test cases were proactively documented for components impacted by the information architecture transformation, mitigating risks in future rollouts.
 
