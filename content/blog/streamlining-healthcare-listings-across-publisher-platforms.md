@@ -43,7 +43,7 @@ With a recent series of mergers and acquisitions, Kyruus was seeking to unify it
 - No consistent or modern platform existed for other publishers.
 - Clients had to interact with each publisher individually, leading to operational overhead.
 
-**Our Approach**
+## Our Approach
 
 **Key Decisions & Unique Contributions**
 
