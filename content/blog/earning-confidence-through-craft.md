@@ -2,7 +2,7 @@
 title = "Earning Confidence Through Craft"
 slug = "earning-confidence-through-craft"
 date = 2025-07-03T13:06:36+05:30
-image = "/images/2021/09/pair-prog-head.jpg"
+image = "/images/2025/earning-confidence-through-craft/palisades-thumbnail.png"
 draft = true
 authors = ["Navaldeep Srivastava"]
 description = ""
