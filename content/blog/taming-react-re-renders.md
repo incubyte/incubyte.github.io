@@ -23,7 +23,11 @@ function TodoApp() {
   const [text, setText] = useState('');
 
   const addTodo = () => {
-    setTodos([...todos, text]);
+    const newTodo = {
+      id: Date.now(),
+      text: text
+    };
+    setTodos([...todos, newTodo]);
     setText('');
   };
 
@@ -41,7 +45,6 @@ function TodoApp() {
 }
 
 function TodoList({items}) {
-  console.log('Rendering list');
   return (
     <ul>
       {items.map((item) => (
