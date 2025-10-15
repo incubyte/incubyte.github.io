@@ -3,10 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2025-06-25T16:04:17+05:30</lastmod>
+    <lastmod>2025-10-05T20:48:34+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/</loc>
-    <lastmod>2025-06-25T16:04:17+05:30</lastmod>
+    <lastmod>2025-10-05T20:48:34+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/ajith-kumar/</loc>
+    <lastmod>2025-10-05T20:48:34+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/authors/</loc>
+    <lastmod>2025-10-05T20:48:34+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/</loc>
+    <lastmod>2025-10-05T20:48:34+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/performance/</loc>
+    <lastmod>2025-10-05T20:48:34+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/performance/</loc>
+    <lastmod>2025-10-05T20:48:34+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/react/</loc>
+    <lastmod>2025-10-05T20:48:34+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/react/</loc>
+    <lastmod>2025-10-05T20:48:34+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
+    <lastmod>2025-10-05T20:48:34+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
+    <lastmod>2025-10-05T20:48:34+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/tags/</loc>
+    <lastmod>2025-10-05T20:48:34+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.incubyte.co/blog/taming-react-re-renders/</loc>
+    <lastmod>2025-10-05T20:48:34+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/agile-architecture/</loc>
     <lastmod>2025-06-25T16:04:17+05:30</lastmod>
@@ -17,13 +50,7 @@
     <loc>https://blog.incubyte.co/authors/anita-malhotra/</loc>
     <lastmod>2025-06-25T16:04:17+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/authors/</loc>
-    <lastmod>2025-06-25T16:04:17+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/blog/architecture-insights-from-gids-2025/</loc>
-    <lastmod>2025-06-25T16:04:17+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/</loc>
     <lastmod>2025-06-25T16:04:17+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/learnings/</loc>
@@ -38,9 +65,6 @@
     <loc>https://blog.incubyte.co/tags/software-architecture/</loc>
     <lastmod>2025-06-25T16:04:17+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/</loc>
-    <lastmod>2025-06-25T16:04:17+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/tags/best-practices/</loc>
     <lastmod>2025-06-19T09:25:00+05:30</lastmod>
   </url><url>
@@ -48,9 +72,6 @@
     <lastmod>2025-06-19T09:25:00+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/playbook/</loc>
-    <lastmod>2025-06-19T09:25:00+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/software-craftsmanship/</loc>
     <lastmod>2025-06-19T09:25:00+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/blog/avoid-testing-implementation-details/</loc>
@@ -122,9 +143,6 @@
     <loc>https://blog.incubyte.co/tags/sdlc/</loc>
     <lastmod>2025-05-02T16:04:54+05:30</lastmod>
   </url><url>
-    <loc>https://blog.incubyte.co/tags/software-craftsmanship/</loc>
-    <lastmod>2025-05-02T16:04:54+05:30</lastmod>
-  </url><url>
     <loc>https://blog.incubyte.co/blog/we-let-ai-code-for-us-prompts-were-prayers-and-code-was-interesting/</loc>
     <lastmod>2025-05-02T16:04:54+05:30</lastmod>
   </url><url>
@@ -144,12 +162,6 @@
     <lastmod>2025-04-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/authors/aditya-tiwari/</loc>
-    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/categories/react/</loc>
-    <lastmod>2025-03-25T10:30:00+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.incubyte.co/tags/react/</loc>
     <lastmod>2025-03-25T10:30:00+05:30</lastmod>
   </url><url>
     <loc>https://blog.incubyte.co/categories/testing/</loc>

@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 25 Mar 2025 10:30:00 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 05 Oct 2025 20:48:34 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/categories/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taming React Re-renders: A Guide to Optimizing Performance</title>
+      <link>https://blog.incubyte.co/blog/taming-react-re-renders/</link>
+      <pubDate>Sun, 05 Oct 2025 20:48:34 +0530</pubDate>
+      <guid>https://blog.incubyte.co/blog/taming-react-re-renders/</guid>
+      <description>&lt;p&gt;Have you ever noticed your React app feeling sluggish? or wondered why your components keep re-rendering when they shouldn&amp;rsquo;t? You&amp;rsquo;re not alone!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Vitest with React Testing Library: A Modern Approach to Testing React Apps</title>
       <link>https://blog.incubyte.co/blog/vitest-react-testing-library-guide/</link>

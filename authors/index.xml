@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 25 Jun 2025 16:04:17 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 05 Oct 2025 20:48:34 +0530</lastBuildDate>
     <atom:link href="https://blog.incubyte.co/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ajith Kumar</title>
+      <link>https://blog.incubyte.co/authors/ajith-kumar/</link>
+      <pubDate>Sun, 05 Oct 2025 20:48:34 +0530</pubDate>
+      <guid>https://blog.incubyte.co/authors/ajith-kumar/</guid>
+      <description>&lt;p&gt;Passionate Software Craftsperson with deep expertise in Ruby on Rails and a growing appreciation for React in a more sensible, performance-focused way. Always exploring new ways to write cleaner, more efficient code and build robust applications.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Anita Malhotra</title>
       <link>https://blog.incubyte.co/authors/anita-malhotra/</link>
