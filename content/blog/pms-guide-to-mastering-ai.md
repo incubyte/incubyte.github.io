@@ -11,7 +11,6 @@ categories = ["AI"]
 type = ""
 +++
 
-
 As I began my AI learning journey, I fumbled with the same questions everyone else does: _Where do I start? How do I find information specifically relevant to Product Managers?_ After diving into countless videos, courses, and articles, I’m reflecting on my progress and penning down my understanding of the AI landscape.
 
 The AI ecosystem has evolved through several key pillars: **Data, Machine Learning, LLMs, RAG, and Agents.**
