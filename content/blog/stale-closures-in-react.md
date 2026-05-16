@@ -2,6 +2,7 @@
 title = "Stale Closures in React: Why Your Component Sees Yesterday's State"
 slug = "stale-closures-in-react"
 date = 2026-05-16T10:00:00+05:30
+image = "/images/2026/stale-closures-in-react/banner.png"
 draft = true
 authors = ["Abdul Kalam"]
 description = "How JavaScript closures interact with React's render model, why your handlers sometimes read stale state, and the patterns that fix it without papering over the cause."
