@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Nirav Chavda on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/authors/nirav-chavda/</link>
-    <description>Recent content in Nirav Chavda on Incubyte Blog</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 27 Jul 2023 20:04:38 +0530</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/authors/nirav-chavda/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Chandrayaan 3 TDD Assessment</title>
-      <link>https://blog.incubyte.co/blog/chandrayaan-3-tdd-assessment/</link>
-      <pubDate>Thu, 27 Jul 2023 20:04:38 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/chandrayaan-3-tdd-assessment/</guid>
-      <description>&lt;p&gt;A Software Craftsperson at Incubyte is a person who has a strong commitment to the craft of software development. Someone who is passionate about software, knows her/his tools well and is able to use them effectively to create carefully crafted software. Ultimately, a person who has a strong sense of what it is they are doing and is self-motivated to learn and grow.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Nirav Chavda on Incubyte Blog</title>
+		<link>https://blog.incubyte.co/authors/nirav-chavda/</link>
+		<description>Recent content in Nirav Chavda on Incubyte Blog</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+			<copyright>© 2025 Incubyte - All Rights Reserved</copyright>
+		
+		
+			<lastBuildDate>Thu, 27 Jul 2023 20:04:38 +0530</lastBuildDate>
+		
+			<atom:link href="https://blog.incubyte.co/authors/nirav-chavda/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Chandrayaan 3 TDD Assessment</title>
+				<link>https://blog.incubyte.co/blog/chandrayaan-3-tdd-assessment/</link>
+				<pubDate>Thu, 27 Jul 2023 20:04:38 +0530</pubDate>
+				<guid>https://blog.incubyte.co/blog/chandrayaan-3-tdd-assessment/</guid>
+				<description>&lt;p&gt;A Software Craftsperson at Incubyte is a person who has a strong commitment to the craft of software development. Someone who is passionate about software, knows her/his tools well and is able to use them effectively to create carefully crafted software. Ultimately, a person who has a strong sense of what it is they are doing and is self-motivated to learn and grow.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

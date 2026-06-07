@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Best Practices on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/categories/best-practices/</link>
-    <description>Recent content in Best Practices on Incubyte Blog</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 19 Aug 2021 05:06:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/categories/best-practices/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Ideas for Successful Agile Teams</title>
-      <link>https://blog.incubyte.co/blog/techniques-for-an-agile-team/</link>
-      <pubDate>Thu, 19 Aug 2021 05:06:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/techniques-for-an-agile-team/</guid>
-      <description>&lt;p&gt;Agile is the most discussed software development methodology, and probably the most widely accepted as the way forward for modern software development teams. The reason (IMHO) anything is this much discussed and written about is that the practices haven&amp;rsquo;t been carved in stone yet, are still in the evolving phase, and are in some way even disputed. There is so much going on in the Agile transformation initiatives that it&amp;rsquo;s possible the definition of agile development is different from company to company.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Best Practices on Incubyte Blog</title>
+		<link>https://blog.incubyte.co/categories/best-practices/</link>
+		<description>Recent content in Best Practices on Incubyte Blog</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+			<copyright>© 2025 Incubyte - All Rights Reserved</copyright>
+		
+		
+			<lastBuildDate>Thu, 19 Aug 2021 05:06:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://blog.incubyte.co/categories/best-practices/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Ideas for Successful Agile Teams</title>
+				<link>https://blog.incubyte.co/blog/techniques-for-an-agile-team/</link>
+				<pubDate>Thu, 19 Aug 2021 05:06:00 +0000</pubDate>
+				<guid>https://blog.incubyte.co/blog/techniques-for-an-agile-team/</guid>
+				<description>&lt;p&gt;Agile is the most discussed software development methodology, and probably the most widely accepted as the way forward for modern software development teams. The reason (IMHO) anything is this much discussed and written about is that the practices haven&amp;rsquo;t been carved in stone yet, are still in the evolving phase, and are in some way even disputed. There is so much going on in the Agile transformation initiatives that it&amp;rsquo;s possible the definition of agile development is different from company to company.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

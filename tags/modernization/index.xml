@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Modernization on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/tags/modernization/</link>
-    <description>Recent content in Modernization on Incubyte Blog</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 15 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/tags/modernization/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Are you sabotaging your organizational goals?</title>
-      <link>https://blog.incubyte.co/blog/simple-sabotage/</link>
-      <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/simple-sabotage/</guid>
-      <description>&lt;p&gt;I recently came across &lt;a href=&#34;https://www.gutenberg.org/cache/epub/26184/pg26184-images.html&#34;&gt;Simple Sabotage Field Manual&lt;/a&gt;. What struck me was you do not need bombs and explosives to start sabotaging. Many small actions that can cause delays, untidiness, and losses are also sabotage attempts. Do you see any parallels between the excerpts of the white paper and organizational behavior where you work?&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Modernization on Incubyte Blog</title>
+		<link>https://blog.incubyte.co/tags/modernization/</link>
+		<description>Recent content in Modernization on Incubyte Blog</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+			<copyright>© 2025 Incubyte - All Rights Reserved</copyright>
+		
+		
+			<lastBuildDate>Sun, 15 Jan 2023 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://blog.incubyte.co/tags/modernization/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Are you sabotaging your organizational goals?</title>
+				<link>https://blog.incubyte.co/blog/simple-sabotage/</link>
+				<pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
+				<guid>https://blog.incubyte.co/blog/simple-sabotage/</guid>
+				<description>&lt;p&gt;I recently came across &lt;a href=&#34;https://www.gutenberg.org/cache/epub/26184/pg26184-images.html&#34;&gt;Simple Sabotage Field Manual&lt;/a&gt;. What struck me was you do not need bombs and explosives to start sabotaging. Many small actions that can cause delays, untidiness, and losses are also sabotage attempts. Do you see any parallels between the excerpts of the white paper and organizational behavior where you work?&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

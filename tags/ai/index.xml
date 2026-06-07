@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>AI on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/tags/ai/</link>
-    <description>Recent content in AI on Incubyte Blog</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 06 May 2025 20:29:20 +0530</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/tags/ai/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Decode LLM Quality - Eval Testing and Benchmarking LLMs: An Evaluation Guide</title>
-      <link>https://blog.incubyte.co/blog/eval-testing/</link>
-      <pubDate>Tue, 06 May 2025 20:29:20 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/eval-testing/</guid>
-      <description>&lt;p&gt;Our Journey with LLM Evaluation Frameworks: From Eval.ai to a DeepEval-LangSmith Hybrid Approach&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Building Quick Cue: A Chrome Extension for AI Chat Shortcuts</title>
-      <link>https://blog.incubyte.co/blog/quick-cue-chrome-extension/</link>
-      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/quick-cue-chrome-extension/</guid>
-      <description>&lt;p&gt;Like many AI enthusiasts, I found myself writing the same prompts repeatedly when using Claude, ChatGPT, or Gemini. This repetitive typing wasn&amp;rsquo;t just tedious—it was a clear opportunity for optimization. What if there was a way to create shorthand abbreviations that automatically expanded into full prompts?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Prompt Engineering 101</title>
-      <link>https://blog.incubyte.co/blog/prompt-engg/</link>
-      <pubDate>Fri, 23 Jun 2023 00:10:46 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/prompt-engg/</guid>
-      <description>&lt;p&gt;Are you feeling lost in the new world of AI tools and Prompt Engineering?&#xA;Don&amp;rsquo;t worry, we got you!&#xA;In this article, we&amp;rsquo;ll demystify everything and equip you with the knowledge you need to get the most out of AI tools like ChatGPT.&#xA;So, let&amp;rsquo;s get started!&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>AI on Incubyte Blog</title>
+		<link>https://blog.incubyte.co/tags/ai/</link>
+		<description>Recent content in AI on Incubyte Blog</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+			<copyright>© 2025 Incubyte - All Rights Reserved</copyright>
+		
+		
+			<lastBuildDate>Tue, 06 May 2025 20:29:20 +0530</lastBuildDate>
+		
+			<atom:link href="https://blog.incubyte.co/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Decode LLM Quality - Eval Testing and Benchmarking LLMs: An Evaluation Guide</title>
+				<link>https://blog.incubyte.co/blog/eval-testing/</link>
+				<pubDate>Tue, 06 May 2025 20:29:20 +0530</pubDate>
+				<guid>https://blog.incubyte.co/blog/eval-testing/</guid>
+				<description>&lt;p&gt;Our Journey with LLM Evaluation Frameworks: From Eval.ai to a DeepEval-LangSmith Hybrid Approach&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Building Quick Cue: A Chrome Extension for AI Chat Shortcuts</title>
+				<link>https://blog.incubyte.co/blog/quick-cue-chrome-extension/</link>
+				<pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+				<guid>https://blog.incubyte.co/blog/quick-cue-chrome-extension/</guid>
+				<description>&lt;p&gt;Like many AI enthusiasts, I found myself writing the same prompts repeatedly when using Claude, ChatGPT, or Gemini. This repetitive typing wasn&amp;rsquo;t just tedious—it was a clear opportunity for optimization. What if there was a way to create shorthand abbreviations that automatically expanded into full prompts?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Prompt Engineering 101</title>
+				<link>https://blog.incubyte.co/blog/prompt-engg/</link>
+				<pubDate>Fri, 23 Jun 2023 00:10:46 +0530</pubDate>
+				<guid>https://blog.incubyte.co/blog/prompt-engg/</guid>
+				<description>&lt;p&gt;Are you feeling lost in the new world of AI tools and Prompt Engineering?&#xA;Don&amp;rsquo;t worry, we got you!&#xA;In this article, we&amp;rsquo;ll demystify everything and equip you with the knowledge you need to get the most out of AI tools like ChatGPT.&#xA;So, let&amp;rsquo;s get started!&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Ghost Methods on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/categories/ghost-methods/</link>
-    <description>Recent content in Ghost Methods on Incubyte Blog</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 27 Oct 2023 13:31:36 +0530</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/categories/ghost-methods/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Dynamic method in ruby</title>
-      <link>https://blog.incubyte.co/blog/dynamic-method/</link>
-      <pubDate>Fri, 27 Oct 2023 13:31:36 +0530</pubDate>
-      <guid>https://blog.incubyte.co/blog/dynamic-method/</guid>
-      <description>&lt;p&gt;In Ruby, the dynamic nature of method dispatch is one of its key features. Method calls are resolved at runtime based on the actual type of the object. This flexibility allows for polymorphic and dynamic behavior&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Ghost Methods on Incubyte Blog</title>
+		<link>https://blog.incubyte.co/categories/ghost-methods/</link>
+		<description>Recent content in Ghost Methods on Incubyte Blog</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+			<copyright>© 2025 Incubyte - All Rights Reserved</copyright>
+		
+		
+			<lastBuildDate>Fri, 27 Oct 2023 13:31:36 +0530</lastBuildDate>
+		
+			<atom:link href="https://blog.incubyte.co/categories/ghost-methods/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Dynamic method in ruby</title>
+				<link>https://blog.incubyte.co/blog/dynamic-method/</link>
+				<pubDate>Fri, 27 Oct 2023 13:31:36 +0530</pubDate>
+				<guid>https://blog.incubyte.co/blog/dynamic-method/</guid>
+				<description>&lt;p&gt;In Ruby, the dynamic nature of method dispatch is one of its key features. Method calls are resolved at runtime based on the actual type of the object. This flexibility allows for polymorphic and dynamic behavior&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Testing With Java on Incubyte Blog</title>
-    <link>https://blog.incubyte.co/tags/testing-with-java/</link>
-    <description>Recent content in Testing With Java on Incubyte Blog</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <copyright>© 2025 Incubyte - All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 21 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.incubyte.co/tags/testing-with-java/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Testing With Java - Part 2 : TDD</title>
-      <link>https://blog.incubyte.co/blog/testing-with-java-tdd/</link>
-      <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/testing-with-java-tdd/</guid>
-      <description>&lt;p&gt;In the annals of software development, there exists a cautionary tale from the year 1996, when the European Space Agency (ESA) launched its ambitious Ariane 5 rocket. Alas, what was meant to be a triumph turned into tragedy a mere 40 seconds after liftoff, as the rocket met a fiery demise, along with its precious cargo. The cause of this catastrophe? A software glitch, specifically an integer overflow issue, lurking within the rocket&amp;rsquo;s flight control system.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Testing With Java - Part 1 : Introduction</title>
-      <link>https://blog.incubyte.co/blog/testing-with-java-intro/</link>
-      <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://blog.incubyte.co/blog/testing-with-java-intro/</guid>
-      <description>&lt;p&gt;On July 22, 1962, Mariner 1 – America&amp;rsquo;s first interplanetary spacecraft, lifted off from the ground on its way to fly by Venus. However, instead of the cheers and scientific breakthrough everyone expected, soon after the launch, the rocket started drifting northeast of its planned trajectory. Not responding to corrective measures, the rocket was finally ordered to self-destruct, just 5 minutes into its flight!&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Testing With Java on Incubyte Blog</title>
+		<link>https://blog.incubyte.co/tags/testing-with-java/</link>
+		<description>Recent content in Testing With Java on Incubyte Blog</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+			<copyright>© 2025 Incubyte - All Rights Reserved</copyright>
+		
+		
+			<lastBuildDate>Wed, 21 Jun 2023 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://blog.incubyte.co/tags/testing-with-java/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Testing With Java - Part 2 : TDD</title>
+				<link>https://blog.incubyte.co/blog/testing-with-java-tdd/</link>
+				<pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+				<guid>https://blog.incubyte.co/blog/testing-with-java-tdd/</guid>
+				<description>&lt;p&gt;In the annals of software development, there exists a cautionary tale from the year 1996, when the European Space Agency (ESA) launched its ambitious Ariane 5 rocket. Alas, what was meant to be a triumph turned into tragedy a mere 40 seconds after liftoff, as the rocket met a fiery demise, along with its precious cargo. The cause of this catastrophe? A software glitch, specifically an integer overflow issue, lurking within the rocket&amp;rsquo;s flight control system.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Testing With Java - Part 1 : Introduction</title>
+				<link>https://blog.incubyte.co/blog/testing-with-java-intro/</link>
+				<pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+				<guid>https://blog.incubyte.co/blog/testing-with-java-intro/</guid>
+				<description>&lt;p&gt;On July 22, 1962, Mariner 1 – America&amp;rsquo;s first interplanetary spacecraft, lifted off from the ground on its way to fly by Venus. However, instead of the cheers and scientific breakthrough everyone expected, soon after the launch, the rocket started drifting northeast of its planned trajectory. Not responding to corrective measures, the rocket was finally ordered to self-destruct, just 5 minutes into its flight!&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
