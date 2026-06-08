@@ -12,9 +12,51 @@
 			<copyright>© 2025 Incubyte - All Rights Reserved</copyright>
 		
 		
-			<lastBuildDate>Sun, 05 Oct 2025 20:48:34 +0530</lastBuildDate>
+			<lastBuildDate>Sun, 26 Apr 2026 15:14:33 +0530</lastBuildDate>
 		
 			<atom:link href="https://blog.incubyte.co/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Artificial Intelligence</title>
+				<link>https://blog.incubyte.co/categories/artificial-intelligence/</link>
+				<pubDate>Sun, 26 Apr 2026 15:14:33 +0530</pubDate>
+				<guid>https://blog.incubyte.co/categories/artificial-intelligence/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Community</title>
+				<link>https://blog.incubyte.co/categories/community/</link>
+				<pubDate>Sun, 26 Apr 2026 15:14:33 +0530</pubDate>
+				<guid>https://blog.incubyte.co/categories/community/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Conference Learnings</title>
+				<link>https://blog.incubyte.co/categories/conference-learnings/</link>
+				<pubDate>Sun, 26 Apr 2026 15:14:33 +0530</pubDate>
+				<guid>https://blog.incubyte.co/categories/conference-learnings/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>GIDS</title>
+				<link>https://blog.incubyte.co/categories/gids/</link>
+				<pubDate>Sun, 26 Apr 2026 15:14:33 +0530</pubDate>
+				<guid>https://blog.incubyte.co/categories/gids/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Software Architecture</title>
+				<link>https://blog.incubyte.co/categories/software-architecture/</link>
+				<pubDate>Sun, 26 Apr 2026 15:14:33 +0530</pubDate>
+				<guid>https://blog.incubyte.co/categories/software-architecture/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Software Craftsmanship</title>
+				<link>https://blog.incubyte.co/categories/software-craftsmanship/</link>
+				<pubDate>Sun, 26 Apr 2026 15:14:33 +0530</pubDate>
+				<guid>https://blog.incubyte.co/categories/software-craftsmanship/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Performance</title>
 				<link>https://blog.incubyte.co/categories/performance/</link>
@@ -30,13 +72,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Software Craftsmanship</title>
-				<link>https://blog.incubyte.co/categories/software-craftsmanship/</link>
-				<pubDate>Sun, 05 Oct 2025 20:48:34 +0530</pubDate>
-				<guid>https://blog.incubyte.co/categories/software-craftsmanship/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Agile Architecture</title>
 				<link>https://blog.incubyte.co/categories/agile-architecture/</link>
 				<pubDate>Wed, 25 Jun 2025 16:04:17 +0530</pubDate>
@@ -48,13 +83,6 @@
 				<link>https://blog.incubyte.co/categories/learnings/</link>
 				<pubDate>Wed, 25 Jun 2025 16:04:17 +0530</pubDate>
 				<guid>https://blog.incubyte.co/categories/learnings/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Software Architecture</title>
-				<link>https://blog.incubyte.co/categories/software-architecture/</link>
-				<pubDate>Wed, 25 Jun 2025 16:04:17 +0530</pubDate>
-				<guid>https://blog.incubyte.co/categories/software-architecture/</guid>
 				<description></description>
 			</item>
 			<item>

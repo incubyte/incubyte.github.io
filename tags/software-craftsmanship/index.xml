@@ -12,9 +12,16 @@
 			<copyright>© 2025 Incubyte - All Rights Reserved</copyright>
 		
 		
-			<lastBuildDate>Sun, 05 Oct 2025 20:48:34 +0530</lastBuildDate>
+			<lastBuildDate>Sun, 26 Apr 2026 15:14:33 +0530</lastBuildDate>
 		
 			<atom:link href="https://blog.incubyte.co/tags/software-craftsmanship/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Architecture, AI, and the Power of Community: My Week at GIDS</title>
+				<link>https://blog.incubyte.co/blog/my-week-at-gids/</link>
+				<pubDate>Sun, 26 Apr 2026 15:14:33 +0530</pubDate>
+				<guid>https://blog.incubyte.co/blog/my-week-at-gids/</guid>
+				<description>&lt;p&gt;GIDS in Bangalore was more than just a conference for me. It was a week filled with architecture discussions, AI conversations, expo booths, speaker interactions, and moments that genuinely made me pause and think.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Taming React Re-renders: A Guide to Optimizing Performance</title>
 				<link>https://blog.incubyte.co/blog/taming-react-re-renders/</link>

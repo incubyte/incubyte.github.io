@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Community on Incubyte Blog</title>
+		<link>https://blog.incubyte.co/categories/community/</link>
+		<description>Recent content in Community on Incubyte Blog</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+			<copyright>© 2025 Incubyte - All Rights Reserved</copyright>
+		
+		
+			<lastBuildDate>Sun, 26 Apr 2026 15:14:33 +0530</lastBuildDate>
+		
+			<atom:link href="https://blog.incubyte.co/categories/community/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Architecture, AI, and the Power of Community: My Week at GIDS</title>
+				<link>https://blog.incubyte.co/blog/my-week-at-gids/</link>
+				<pubDate>Sun, 26 Apr 2026 15:14:33 +0530</pubDate>
+				<guid>https://blog.incubyte.co/blog/my-week-at-gids/</guid>
+				<description>&lt;p&gt;GIDS in Bangalore was more than just a conference for me. It was a week filled with architecture discussions, AI conversations, expo booths, speaker interactions, and moments that genuinely made me pause and think.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
