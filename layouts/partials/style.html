@@ -179,6 +179,27 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
     min-height: 180px;
   }
 
+  /* Initials shown when an author has no photo yet */
+  .avatar-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 180px;
+    background-color: #12375a;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+  }
+
+  .avatar-placeholder:hover,
+  .avatar-placeholder:focus {
+    color: #fff;
+    filter: brightness(1.15);
+  }
+
   .display-3 {
     text-align: left;
   }
@@ -343,6 +364,10 @@ resources.Concat "/css/style.css" | minify | fingerprint "sha512"}}
 
   body.dark-theme .card {
     background-color: var(--extra-dark-background);
+  }
+
+  body.dark-theme .avatar-placeholder {
+    background-color: var(--app-primary);
   }
 
   body.dark-theme .display-5,
