@@ -47,13 +47,24 @@
                     <a href="{{.Permalink}}">
                         <img src="{{ .Params.image |relURL }}" alt="{{ .Title }}" class="mb-1 card-img rounded-lg mb-4">
                     </a>
+                    {{ else if eq .Section "authors" }}
+                    {{/* Authors are a taxonomy, so a term page exists for every name used in a post.
+                         Until someone adds content/authors/<slug>/_index.md there is no photo, so fall
+                         back to their initials instead of rendering an empty card. */}}
+                    {{ $initials := "" }}
+                    {{ range (split .Title " ") }}{{ if . }}{{ $initials = printf "%s%s" $initials (substr . 0 1) }}{{ end }}{{ end }}
+                    <a href="{{.Permalink}}" class="card-img avatar-placeholder rounded-lg mb-4" aria-label="{{ .Title }}">
+                        <span aria-hidden="true">{{ substr $initials 0 2 | upper }}</span>
+                    </a>
                     {{ end }}
                     <div class="card-body p-0">
                         <h3><a href="{{ .Permalink }}" title="{{ .Title }}" class="post-title">{{ .Title }}</a></h3>
                         {{ range .Params.tags }}
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
                         {{ end }}
-                        <p class="card-text">{{ .Summary | truncate 120 "..." }} </p>
+                        {{ with .Summary }}
+                        <p class="card-text">{{ . | truncate 120 "..." }} </p>
+                        {{ end }}
                         {{ if not (or (eq .Section "authors") (eq .Section "tags")) }}
                             <p class="blockquote-footer text-right">
                                 By {{ range .Params.authors }}
