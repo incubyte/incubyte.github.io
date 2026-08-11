@@ -15,7 +15,7 @@
 
 
 <meta name="author" content="[Sapan Parikh]">
-<meta name="generator" content="Hugo 0.162.1">
+<meta name="generator" content="Hugo 0.164.0">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -280,6 +280,27 @@
     min-height: 180px;
   }
 
+   
+  .avatar-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 180px;
+    background-color: #12375a;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+  }
+
+  .avatar-placeholder:hover,
+  .avatar-placeholder:focus {
+    color: #fff;
+    filter: brightness(1.15);
+  }
+
   .display-3 {
     text-align: left;
   }
@@ -444,6 +465,10 @@
 
   body.dark-theme .card {
     background-color: var(--extra-dark-background);
+  }
+
+  body.dark-theme .avatar-placeholder {
+    background-color: var(--app-primary);
   }
 
   body.dark-theme .display-5,
@@ -698,7 +723,7 @@
 </figure>
  <i>Here, code quality is rated on a scale of 1(worst) to 10(best).</i></p>
 <p>When developers solely focus on fixing bugs or introducing the next feature, that mindset tends to reflect in the code itself. Often, this is evident in the form of &lsquo;if&rsquo; and &rsquo;else&rsquo; statements. As a result, the code starts looking like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(need to update){
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">if</span>(need <span style="color:#66d9ef">to</span> update){
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(all elements in the list){
 </span></span><span style="display:flex;"><span>		let<span style="color:#960050;background-color:#1e0010">&#39;</span>s update the elements
 </span></span><span style="display:flex;"><span>	}
@@ -709,7 +734,7 @@
 </span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span>(insert <span style="color:#66d9ef">new</span> records) {
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(element comparison){
 </span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span>(all the <span style="color:#66d9ef">new</span> element){
-</span></span><span style="display:flex;"><span>			add it to list
+</span></span><span style="display:flex;"><span>			add it <span style="color:#66d9ef">to</span> list
 </span></span><span style="display:flex;"><span>        	}
 </span></span><span style="display:flex;"><span>        	<span style="color:#66d9ef">for</span>(all the <span style="color:#66d9ef">new</span> element){
 </span></span><span style="display:flex;"><span>			mark them safe

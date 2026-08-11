@@ -14,7 +14,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.162.1">
+<meta name="generator" content="Hugo 0.164.0">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -269,6 +269,27 @@
     min-height: 180px;
   }
 
+   
+  .avatar-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 180px;
+    background-color: #12375a;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+  }
+
+  .avatar-placeholder:hover,
+  .avatar-placeholder:focus {
+    color: #fff;
+    filter: brightness(1.15);
+  }
+
   .display-3 {
     text-align: left;
   }
@@ -433,6 +454,10 @@
 
   body.dark-theme .card {
     background-color: var(--extra-dark-background);
+  }
+
+  body.dark-theme .avatar-placeholder {
+    background-color: var(--app-primary);
   }
 
   body.dark-theme .display-5,
@@ -714,7 +739,9 @@
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/conference-learnings">Conference Learnings</a></span>
                         
+                        
                         <p class="card-text"><p>GIDS in Bangalore was more than just a conference for me. It was a week filled with architecture discussions, AI...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -741,7 +768,9 @@
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
                         
+                        
                         <p class="card-text"><p>Have you ever noticed your React app feeling sluggish? or wondered why your components keep re-rendering when they...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -768,7 +797,9 @@
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/learnings">Learnings</a></span>
                         
+                        
                         <p class="card-text"><p>What does it really take to design software that lasts?</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -795,7 +826,9 @@
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/best-practices">Best Practices</a></span>
                         
+                        
                         <p class="card-text"><p>As developers, we all want to write good tests. But sometimes, without realizing it, we write tests that make our lives...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -820,7 +853,9 @@
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/learnings">Learnings</a></span>
                         
+                        
                         <p class="card-text"><p>There are many ways to effectively prompt an LLM to get a good response, and the one I am sharing here is tailored for...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -847,7 +882,9 @@
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/eval-testing">Eval Testing</a></span>
                         
+                        
                         <p class="card-text"><p>Our Journey with LLM Evaluation Frameworks: From Eval.ai to a DeepEval-LangSmith Hybrid Approach</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -875,7 +912,9 @@
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/sdlc">SDLC</a></span>
                         
+                        
                         <p class="card-text"><p>Building apps with AI is a bit like teaching a toddler to ride a bike while it&rsquo;s also trying to build the bike en...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -901,7 +940,9 @@
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
                         
+                        
                         <p class="card-text"><p>In 2025, shipping code without tests should be a total no. In a landscape where deployments happen multiple times a day...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -926,7 +967,9 @@
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/chrome-extension">Chrome Extension</a></span>
                         
+                        
                         <p class="card-text"><p>Like many AI enthusiasts, I found myself writing the same prompts repeatedly when using Claude, ChatGPT, or Gemini. This...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -955,8 +998,10 @@
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/vite">Vite</a></span>
                         
+                        
                         <p class="card-text"><p>As React development evolves, so do the tools we use to test our applications.
 With the React team recommending Vite as...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -981,7 +1026,9 @@ With the React team recommending Vite as...</p> </p>
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/github">GitHub</a></span>
                         
+                        
                         <p class="card-text"><p>Yes, you read that right! We can create our remote repository service by setting up and hosting it on our own server. It...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -1006,7 +1053,9 @@ With the React team recommending Vite as...</p> </p>
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/functional-programming">Functional Programming</a></span>
                         
+                        
                         <p class="card-text"><p>Have you ever found yourself in a situation where you need to perform two operations on the same stream of data, but you...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -1033,7 +1082,9 @@ With the React team recommending Vite as...</p> </p>
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/testing">Testing</a></span>
                         
+                        
                         <p class="card-text"><p>Testing is a crucial part of modern software development, and Jest, combined with React Testing Library, has become a...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -1058,7 +1109,9 @@ With the React team recommending Vite as...</p> </p>
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/tdd">TDD</a></span>
                         
+                        
                         <p class="card-text"><p>In the previous <a href="https://blog.incubyte.co/blog/the-tale-of-tdd-a-journey-towards-reliable-software/">blog</a>, I shared a story about Test-Driven Development (TDD) and how it helps us create robust,...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -1085,7 +1138,9 @@ With the React team recommending Vite as...</p> </p>
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
                         
+                        
                         <p class="card-text"><p>I have been working as a professional developer for almost a decade, and after building numerous complex systems and...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -1108,7 +1163,9 @@ With the React team recommending Vite as...</p> </p>
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
                         
+                        
                         <p class="card-text"><p>If you’ve been around software development for a while, you’ve probably heard the term <em>kata</em> thrown around. No, we’re not...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -1137,7 +1194,9 @@ With the React team recommending Vite as...</p> </p>
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/i18n">I18n</a></span>
                         
+                        
                         <p class="card-text"><p>In math and science a particular number or value that does not change is called a constant. In programming too, a...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -1164,8 +1223,10 @@ With the React team recommending Vite as...</p> </p>
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/clean-code">Clean Code</a></span>
                         
+                        
                         <p class="card-text"><p>Ever found yourself drowning in a sea of <code>nil</code> checks? Or perhaps you’ve built a fortress of <code>begin/rescue</code>
 blocks just to...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 

@@ -14,7 +14,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.162.1">
+<meta name="generator" content="Hugo 0.164.0">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -269,6 +269,27 @@
     min-height: 180px;
   }
 
+   
+  .avatar-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 180px;
+    background-color: #12375a;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+  }
+
+  .avatar-placeholder:hover,
+  .avatar-placeholder:focus {
+    color: #fff;
+    filter: brightness(1.15);
+  }
+
   .display-3 {
     text-align: left;
   }
@@ -433,6 +454,10 @@
 
   body.dark-theme .card {
     background-color: var(--extra-dark-background);
+  }
+
+  body.dark-theme .avatar-placeholder {
+    background-color: var(--app-primary);
   }
 
   body.dark-theme .display-5,
@@ -683,7 +708,9 @@
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/best-practices">Best Practices</a></span>
                         
+                        
                         <p class="card-text"><p>As developers, we all want to write good tests. But sometimes, without realizing it, we write tests that make our lives...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -712,8 +739,10 @@
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/vite">Vite</a></span>
                         
+                        
                         <p class="card-text"><p>As React development evolves, so do the tools we use to test our applications.
 With the React team recommending Vite as...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -740,7 +769,9 @@ With the React team recommending Vite as...</p> </p>
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/testing">Testing</a></span>
                         
+                        
                         <p class="card-text"><p>Testing is a crucial part of modern software development, and Jest, combined with React Testing Library, has become a...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 

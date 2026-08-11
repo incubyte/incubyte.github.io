@@ -14,7 +14,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.162.1">
+<meta name="generator" content="Hugo 0.164.0">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -269,6 +269,27 @@
     min-height: 180px;
   }
 
+   
+  .avatar-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 180px;
+    background-color: #12375a;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+  }
+
+  .avatar-placeholder:hover,
+  .avatar-placeholder:focus {
+    color: #fff;
+    filter: brightness(1.15);
+  }
+
   .display-3 {
     text-align: left;
   }
@@ -433,6 +454,10 @@
 
   body.dark-theme .card {
     background-color: var(--extra-dark-background);
+  }
+
+  body.dark-theme .avatar-placeholder {
+    background-color: var(--app-primary);
   }
 
   body.dark-theme .display-5,
@@ -702,7 +727,9 @@
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
                         
+                        
                         <p class="card-text"><p>On multiple occasions, I have worked on projects where I learned how critical testing is and that not all tests are the...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -725,9 +752,11 @@
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
                         
+                        
                         <p class="card-text"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>git pull origin develop
 </span></span><span style="display:flex;"><span>git checkout -b feature/shiny-new-branch
 </span></span></code></pre></div><p>It&rsquo;s the start of a sprint, and you have picked...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
@@ -752,7 +781,9 @@
                         
                         <span class="badge rounded-pill bg-dark"> <a class="text-white" href="/tags/software-craftsmanship">Software Craftsmanship</a></span>
                         
+                        
                         <p class="card-text"><p>Quality is usually an implicit requirement when it comes to developing software. Users ask for a beautiful UI,...</p> </p>
+                        
                         
                             <p class="blockquote-footer text-right">
                                 By 
